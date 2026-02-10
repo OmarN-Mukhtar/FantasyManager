@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Large Data Files (don't commit to repo)
+data/
+*.csv
+*.json
+*.pkl
+*.pickle
+*.joblib
+
+# Vector Database Files (large binary files)
+vector_db/
+chroma_db/
+*.faiss
+*.index
+
+# Logs
+*.log
+logs/
+
+# Model Files
+models/
+*.model
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Cache
+.cache/
+*.cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Large datasets
+cleaned_merged_seasons.csv
+historical_data/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database
+*.db
+*.sqlite
+
+# Do NOT ignore these (keep them tracked)
+!requirements.txt
+!spaces_requirements.txt
+!README.md
+!README_SPACES.md
+!DEPLOYMENT.md
+!.gitignore
+!.gitattributes
+!.huggingface.yml

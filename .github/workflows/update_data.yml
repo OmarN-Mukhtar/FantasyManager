@@ -1,0 +1,69 @@
+name: Update Fantasy PL Data
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC (adjust timezone as needed)
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'cleaned_merged_seasons.csv'  # Trigger when historical data updates
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        python -c "import nltk; nltk.download('punkt'); nltk.download('brown')"
+        python -m textblob.download_corpora
+        
+    - name: Create data directory
+      run: mkdir -p data vector_db
+      
+    - name: Run prediction pipeline (skip news to save time)
+      run: |
+        # Only run predictions on existing data to save GitHub Actions minutes
+        # News fetching takes too long for free tier
+        python src/predictor.py || echo "Prediction failed, continuing..."
+        
+    - name: Check if predictions exist
+      run: |
+        if [ -f data/predictions.json ]; then
+          echo "Predictions generated successfully"
+        else
+          echo "Warning: No predictions generated"
+        fi
+        
+    - name: Commit updated data
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/ || true
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update predictions data [skip ci]"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

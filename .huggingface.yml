@@ -1,0 +1,20 @@
+# Hugging Face Spaces configuration
+title: Fantasy Premier League Manager
+emoji: ⚽
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: app.py
+pinned: false
+license: mit
+short_description: AI-powered Fantasy Premier League analysis with predictions & sentiment
+tags:
+  - fantasy-football
+  - premier-league
+  - machine-learning
+  - sentiment-analysis
+  - sports-analytics
+  - rag
+  - faiss
+  - streamlit
