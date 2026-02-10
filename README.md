@@ -115,6 +115,41 @@ The RAG system understands:
 - Points scoring system by position
 - Captain/Vice-Captain mechanics
 
+## LLM Integration (Optional)
+
+The system works 100% free without any LLM. To add natural language responses to the RAG search:
+
+### Google Gemini (Recommended - FREE)
+
+1. **Get API Key** (no credit card required):
+   - Visit: https://makersuite.google.com/app/apikey
+   - Click "Create API Key"
+   - Copy the key
+
+2. **Setup**:
+   ```bash
+   # Add to .env file
+   echo "GOOGLE_API_KEY=your_key_here" > .env
+   
+   # Install package (already in requirements.txt)
+   pip install google-generativeai
+   ```
+
+3. **Test**:
+   ```bash
+   # Run example LLM integration
+   python src/llm_integration.py
+   ```
+
+**Free Tier**: 15 requests/min, 1500/day - plenty for personal FPL use!
+
+**Features with LLM**:
+- Natural language answers to FPL questions
+- Player recommendations with reasoning
+- Fixture analysis and captain suggestions
+- Injury news summaries
+- Transfer advice based on form and fixtures
+
 ## Usage Examples
 
 ```bash
