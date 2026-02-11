@@ -24,7 +24,7 @@ echo ""
 # Check if huggingface-cli is installed
 if ! command -v huggingface-cli &> /dev/null; then
     echo "📥 Installing Hugging Face CLI..."
-    pip install huggingface_hub
+    pip3 install --user huggingface_hub
 fi
 
 # Login check
