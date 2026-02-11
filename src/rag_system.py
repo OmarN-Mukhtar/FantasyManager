@@ -91,8 +91,9 @@ class PlayerNewsRAG:
                 predicted_points = self.predictions_data[str(player_id)].get('predicted_total_points')
             
             for article in articles:
-                # Combine title and content
-                doc_text = f"{article['title']}\n\n{article['content']}"
+                # Combine title and summary
+                summary = article.get('summary', '')
+                doc_text = f"{article['title']}\n\n{summary}" if summary else article['title']
                 
                 self.documents.append(doc_text)
                 self.metadatas.append({

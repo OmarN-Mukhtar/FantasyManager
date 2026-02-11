@@ -7,7 +7,6 @@ import json
 import time
 from datetime import datetime
 import feedparser
-from newspaper import Article
 import os
 from typing import List, Dict
 import pandas as pd
@@ -152,14 +151,14 @@ class FantasyDataFetcher:
     
     def fetch_player_news(self, player_name: str, max_articles: int = 100) -> List[Dict]:
         """
-        Fetch news articles for a specific player using Google News RSS.
+        Fetch news headlines for a specific player using Google News RSS.
         
         Args:
             player_name: Name of the player
             max_articles: Maximum number of articles to fetch
             
         Returns:
-            List of news articles with title, link, published date, and content
+            List of news articles with title, link, published date, and summary
         """
         print(f"Fetching news for {player_name}...")
         
@@ -177,18 +176,8 @@ class FantasyDataFetcher:
                     'link': entry.link,
                     'published': entry.get('published', ''),
                     'source': entry.get('source', {}).get('title', 'Unknown'),
-                    'content': ''
+                    'summary': entry.get('summary', '')
                 }
-                
-                # Try to fetch full article content
-                try:
-                    article = Article(entry.link)
-                    article.download()
-                    article.parse()
-                    article_data['content'] = article.text
-                except Exception as e:
-                    # If we can't get the full article, use the summary
-                    article_data['content'] = entry.get('summary', '')
                 
                 articles.append(article_data)
                 time.sleep(0.5)  # Be respectful to servers

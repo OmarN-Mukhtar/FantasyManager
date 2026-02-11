@@ -58,22 +58,22 @@ class SentimentAnalyzer:
         Analyze sentiment of a single article.
         
         Args:
-            article: Article dictionary with title and content
+            article: Article dictionary with title and summary
             
         Returns:
             Dictionary with sentiment scores
         """
         title_sentiment = self.analyze_text_sentiment(article.get('title', ''))
-        content_sentiment = self.analyze_text_sentiment(article.get('content', ''))
+        summary_sentiment = self.analyze_text_sentiment(article.get('summary', ''))
         
-        # Weight content more heavily than title
-        combined_sentiment = (title_sentiment * 0.3 + content_sentiment * 0.7)
+        # Weight summary more heavily than title
+        combined_sentiment = (title_sentiment * 0.3 + summary_sentiment * 0.7)
         
         return {
             'title': article.get('title', ''),
             'published': article.get('published', ''),
             'title_sentiment': title_sentiment,
-            'content_sentiment': content_sentiment,
+            'summary_sentiment': summary_sentiment,
             'combined_sentiment': combined_sentiment
         }
     
