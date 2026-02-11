@@ -1,9 +1,9 @@
 requests==2.31.0
 feedparser==6.0.10
-transformers==4.40.0
+huggingface-hub==0.23.0
+transformers==4.38.0
 torch==2.1.2
 sentence-transformers==2.7.0
-huggingface-hub==0.23.0
 faiss-cpu==1.7.4
 streamlit==1.39.0
 pandas==2.2.0
