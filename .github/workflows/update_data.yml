@@ -20,6 +20,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        lfs: true  # Required for large CSV file
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -42,19 +44,34 @@ jobs:
         
     - name: Create data directory
       run: mkdir -p data vector_db
+    
+    - name: Verify historical data file
+      run: |
+        if [ -f cleaned_merged_seasons.csv ]; then
+          echo "✅ Found cleaned_merged_seasons.csv"
+          echo "File size: $(du -h cleaned_merged_seasons.csv | cut -f1)"
+          echo "Columns: $(head -1 cleaned_merged_seasons.csv)"
+        else
+          echo "❌ cleaned_merged_seasons.csv not found!"
+          echo "Predictions will be skipped"
+        fi
       
     - name: Run prediction pipeline (skip news to save time)
       run: |
-        # Only run predictions on existing data to save GitHub Actions minutes
-        # News fetching takes too long for free tier
-        python src/predictor.py || echo "Prediction failed, continuing..."
+        # Only run predictions if CSV file exists
+        if [ -f cleaned_merged_seasons.csv ]; then
+          echo "Running predictions..."
+          python src/predictor.py || echo "⚠️  Prediction failed, continuing..."
+        else
+          echo "⚠️  Skipping predictions - CSV file not found"
+        fi
         
     - name: Check if predictions exist
       run: |
         if [ -f data/predictions.json ]; then
-          echo "Predictions generated successfully"
+          echo "✅ Predictions file exists"
         else
-          echo "Warning: No predictions generated"
+          echo "⚠️  No predictions file - run locally: python run_pipeline.py"
         fi
         
     - name: Commit updated data
