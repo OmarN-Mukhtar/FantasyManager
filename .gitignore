@@ -47,7 +47,11 @@ env/
 .env.*.local
 
 # Large Data Files (don't commit to repo)
+# Allow specific prediction files for auto-updates
 data/
+!data/.gitkeep
+!data/predictions.json
+!data/sentiment_analysis.json
 *.csv
 *.json
 *.pkl

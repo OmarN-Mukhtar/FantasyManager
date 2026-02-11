@@ -78,8 +78,18 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add data/ || true
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update predictions data [skip ci]"
+        
+        # Add only specific allowed files (predictions and sentiment)
+        git add data/predictions.json 2>/dev/null || echo "No predictions.json to add"
+        git add data/sentiment_analysis.json 2>/dev/null || echo "No sentiment_analysis.json to add"
+        
+        # Commit if there are changes
+        if ! git diff --quiet --staged; then
+          git commit -m "🤖 Auto-update predictions data [skip ci]"
+          echo "✅ Changes committed"
+        else
+          echo "ℹ️  No changes to commit"
+        fi
         
     - name: Push changes
       uses: ad-m/github-push-action@master
