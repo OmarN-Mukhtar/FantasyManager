@@ -44,7 +44,6 @@ echo "📋 Copying files..."
 # Copy necessary files
 cp app.py $DEPLOY_DIR/
 cp spaces_requirements.txt $DEPLOY_DIR/requirements.txt
-cp .huggingface.yml $DEPLOY_DIR/README.md
 cp -r src $DEPLOY_DIR/
 
 # Copy data if exists
@@ -68,6 +67,7 @@ sdk_version: 1.29.0
 app_file: app.py
 pinned: false
 license: mit
+python_version: 3.11
 ---
 
 # ⚽ Fantasy Premier League Manager
