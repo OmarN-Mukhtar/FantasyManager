@@ -47,12 +47,11 @@ jobs:
         # Clone HF Space
         git clone https://huggingface.co/spaces/$SPACE_REPO hf-space
         
-        # Copy necessary files
+        # Copy necessary files (NOT README.md - Space has its own with frontmatter)
         cp app.py hf-space/
         cp spaces_requirements.txt hf-space/requirements.txt
         cp -r src hf-space/
         cp -r data hf-space/ 2>/dev/null || echo "No data directory to copy"
-        cp README.md hf-space/ 2>/dev/null || echo "No README to copy"
         
         # Navigate to HF space directory
         cd hf-space
