@@ -8,6 +8,7 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import TimeSeriesSplit
 import json
+import os
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -28,6 +29,20 @@ class PlayerPredictor:
         self.predictions = {}
         self.current_season = current_season
         self.accuracy_metrics = {}
+        self.sentiment_data = self.load_sentiment_data()
+        
+    def load_sentiment_data(self):
+        """Load sentiment data if available."""
+        try:
+            sentiment_path = 'data/sentiment_analysis.json'
+            if os.path.exists(sentiment_path):
+                with open(sentiment_path, 'r') as f:
+                    data = json.load(f)
+                print(f"✓ Loaded sentiment data for {len(data)} players")
+                return data
+        except Exception as e:
+            print(f"⚠ Could not load sentiment data: {e}")
+        return {}
         
     def load_data(self):
         """Load and preprocess historical player data."""
@@ -201,6 +216,19 @@ class PlayerPredictor:
         else:
             form_trend = 'stable'
         
+        # Get sentiment score if available
+        sentiment_score = 0
+        sentiment_boost = 0
+        if self.sentiment_data and player_name in self.sentiment_data:
+            player_sentiment = self.sentiment_data[player_name]
+            if isinstance(player_sentiment, dict) and 'normalized_score' in player_sentiment:
+                sentiment_score = float(player_sentiment['normalized_score'])
+                # Apply small boost/penalty based on sentiment (±5% max)
+                sentiment_boost = (sentiment_score - 50) * 0.001  # Scale: 0-100 → -0.05 to +0.05
+                predicted_avg_blended = predicted_avg_blended * (1 + sentiment_boost)
+                predicted_remaining = predicted_avg_blended * remaining_games
+                predicted_total = current_points + predicted_remaining
+        
         return {
             'player_name': player_name,
             'position': position,
@@ -214,7 +242,9 @@ class PlayerPredictor:
             'recent_avg_points': round(recent_avg, 2),
             'historical_avg_points': round(historical_avg, 2),
             'form_trend': form_trend,
-            'confidence': 'high' if len(train_df) > 20 else 'medium'
+            'confidence': 'high' if len(train_df) > 20 else 'medium',
+            'sentiment_score': round(sentiment_score, 1),
+            'sentiment_impact': round(sentiment_boost * 100, 2)  # As percentage
         }
     
     def _api_based_prediction(self, player_name, position, team, current_stats):

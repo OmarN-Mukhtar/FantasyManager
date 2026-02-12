@@ -5,7 +5,7 @@ Fetches player data from Fantasy Premier League API and collects news articles.
 import requests
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import feedparser
 import os
 from typing import List, Dict
@@ -149,28 +149,37 @@ class FantasyDataFetcher:
         
         return search_name.strip()
     
-    def fetch_player_news(self, player_name: str, max_articles: int = 100) -> List[Dict]:
+    def fetch_player_news(self, player_name: str, max_articles: int = 50, days_back: int = 7) -> List[Dict]:
         """
-        Fetch news headlines for a specific player using Google News RSS.
+        Fetch news headlines for a specific player using Google News RSS (last 7 days only).
         
         Args:
             player_name: Name of the player
             max_articles: Maximum number of articles to fetch
+            days_back: Only fetch news from last N days (default: 7)
             
         Returns:
             List of news articles with title, link, published date, and summary
         """
-        print(f"Fetching news for {player_name}...")
-        
-        # Google News RSS feed URL
+        # Google News RSS feed URL with time filter
         query = f"{player_name} Premier League"
         rss_url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-GB&gl=GB&ceid=GB:en"
         
         try:
             feed = feedparser.parse(rss_url)
             articles = []
+            cutoff_date = datetime.now() - timedelta(days=days_back)
             
             for entry in feed.entries[:max_articles]:
+                # Check if article is recent enough
+                try:
+                    if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                        pub_date = datetime(*entry.published_parsed[:6])
+                        if pub_date < cutoff_date:
+                            continue  # Skip old articles
+                except:
+                    pass  # If date parsing fails, include the article
+                
                 article_data = {
                     'title': entry.title,
                     'link': entry.link,
@@ -180,35 +189,43 @@ class FantasyDataFetcher:
                 }
                 
                 articles.append(article_data)
-                time.sleep(0.5)  # Be respectful to servers
             
-            print(f"  Found {len(articles)} articles for {player_name}")
+            if articles:
+                print(f"  Found {len(articles)} recent articles")
             return articles
             
         except Exception as e:
             print(f"  Error fetching news for {player_name}: {e}")
             return []
     
-    def fetch_all_player_news(self, limit: int = None):
+    def fetch_all_player_news(self, limit: int = 150, days_back: int = 7):
         """
-        Fetch news for all players.
+        Fetch news for top players by ownership (last 7 days only).
         
         Args:
-            limit: Limit number of players to process (for testing)
+            limit: Number of top players to process (default: 150)
+            days_back: Only fetch news from last N days (default: 7)
         """
         if not self.players_data:
             self.fetch_players()
         
-        players_to_process = self.players_data[:limit] if limit else self.players_data
+        # Sort by ownership percentage and take top N
+        sorted_players = sorted(
+            self.players_data, 
+            key=lambda p: p.get('selected_by_percent', 0), 
+            reverse=True
+        )
+        players_to_process = sorted_players[:limit]
+        
+        print(f"\nFetching news for top {len(players_to_process)} players (last {days_back} days)...")
         
         for i, player in enumerate(players_to_process, 1):
-            print(f"\n[{i}/{len(players_to_process)}]", end=" ")
+            print(f"[{i}/{len(players_to_process)}] {player['name']} ({player['selected_by_percent']}% owned)", end=" ")
             
             # Use intelligent search name
             search_name = self._get_search_name(player)
-            print(f"Searching for: {search_name} (web_name: {player['web_name']})")
             
-            articles = self.fetch_player_news(search_name)
+            articles = self.fetch_player_news(search_name, max_articles=50, days_back=days_back)
             self.news_data[player['id']] = {
                 'player_name': player['name'],
                 'search_name': search_name,
@@ -219,8 +236,10 @@ class FantasyDataFetcher:
             }
             
             # Save progress periodically
-            if i % 10 == 0:
+            if i % 20 == 0:
                 self.save_data()
+            
+            time.sleep(0.3)  # Be respectful to servers
     
     def save_data(self):
         """Save fetched data to files."""
@@ -264,12 +283,11 @@ def main():
     fetcher.fetch_players()
     fetcher.save_data()
     
-    # Fetch news for all players (or limit for testing)
-    # Use limit=5 for testing, remove limit for production
+    # Fetch news for top 150 players (last 7 days only)
     print("\n" + "="*50)
-    print("Fetching news articles for players...")
+    print("Fetching recent news for top players...")
     print("="*50)
-    fetcher.fetch_all_player_news(limit=10)  # Start with 10 players for testing
+    fetcher.fetch_all_player_news(limit=150, days_back=7)
     
     fetcher.save_data()
     print("\n✓ Data fetching complete!")

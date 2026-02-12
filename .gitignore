@@ -52,6 +52,10 @@ data/
 !data/.gitkeep
 !data/predictions.json
 !data/sentiment_analysis.json
+!data/players.json
+!data/news.json
+!data/players_with_sentiment.csv
+!data/qualified_players.csv
 *.csv
 *.json
 *.pkl
