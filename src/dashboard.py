@@ -360,7 +360,7 @@ def main():
                     color='team',
                     title="Sentiment Scores by Team"
                 )
-                fig.update_xaxis(tickangle=45)
+                fig.update_xaxes(tickangle=45)
                 fig.update_layout(showlegend=False, height=400)
                 st.plotly_chart(fig, use_container_width=True)
             
