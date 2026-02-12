@@ -56,6 +56,12 @@ data/
 !data/news.json
 !data/players_with_sentiment.csv
 !data/qualified_players.csv
+
+# Vector database
+vector_db/
+!vector_db/.gitkeep
+!vector_db/index.faiss
+!vector_db/metadata.json
 *.csv
 *.json
 *.pkl
