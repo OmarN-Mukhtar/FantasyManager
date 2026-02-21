@@ -3,12 +3,13 @@ name: Daily Data Update
 on:
   schedule:
     - cron: '0 3 * * *'  # Daily at 3 AM UTC
+    - cron: '0 15 * * 2,3,6'  # Also Tue/Wed/Sat at 3 PM UTC (after gameweeks)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
   daily-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     permissions:
       contents: write
     
@@ -38,8 +39,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        python -c "import nltk; nltk.download('punkt'); nltk.download('brown')"
-        python -m textblob.download_corpora
     
     - name: Verify CSV file
       run: |
@@ -56,17 +55,23 @@ jobs:
         echo "📊 Fetching latest FPL data and news for top 150 players (last 7 days)..."
         python src/data_fetcher.py
     
-    - name: Step 2 - Run sentiment analysis
+    - name: Step 2 - Update current season gameweek data
+      run: |
+        echo "📈 Updating current season gameweek data in CSV..."
+        python src/update_current_season.py
+        echo "✅ Current season data updated"
+    
+    - name: Step 3 - Run sentiment analysis
       run: |
         echo "📊 Analyzing sentiment on fresh news..."
         python src/sentiment_analyzer.py
     
-    - name: Step 3 - Generate predictions with sentiment
+    - name: Step 4 - Generate predictions with sentiment
       run: |
         echo "🔮 Generating predictions (incorporating sentiment scores)..."
         python src/predictor.py
     
-    - name: Step 4 - Build RAG vector database
+    - name: Step 5 - Build RAG vector database
       run: |
         echo "🧠 Building RAG vector database..."
         python src/rag_system.py
@@ -93,6 +98,9 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
+        # Add current season data if updated
+        git add cleaned_merged_seasons.csv 2>/dev/null || true
+        
         # Add all generated data files and vector database
         git add data/players.json data/news.json data/predictions.json data/sentiment_analysis.json data/players_with_sentiment.csv data/qualified_players.csv 2>/dev/null || true
         git add vector_db/index.faiss vector_db/metadata.json 2>/dev/null || true
@@ -101,7 +109,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "ℹ️  No changes to commit"
         else
-          git commit -m "🤖 Daily update: news, sentiment, predictions, and RAG database"
+          git commit -m "🤖 Daily update: current season data, news, sentiment, predictions, and RAG database"
           git push
           echo "✅ Changes committed and pushed"
         fi

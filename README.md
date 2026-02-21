@@ -21,10 +21,6 @@ conda activate fantasy_manager
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Download NLP data
-python -c "import nltk; nltk.download('punkt'); nltk.download('brown')"
-python -m textblob.download_corpora
 ```
 
 ## Quick Start
@@ -51,7 +47,7 @@ streamlit run src/dashboard.py
 - Saves to `data/players.json` and `data/news.json`
 
 ### 2. Sentiment Analysis (`sentiment_analyzer.py`)
-- Analyzes news sentiment using TextBlob NLP
+- Analyzes news sentiment using BERT transformer model
 - Normalizes scores to 0-100 scale
 - Requires 50+ articles for scoring
 - Saves to `data/sentiment_analysis.json`
@@ -99,7 +95,7 @@ FantasyManager/
 ## Technology Stack
 
 - **Data**: Fantasy Premier League API, Google News RSS
-- **NLP**: TextBlob for sentiment, sentence-transformers for embeddings
+- **NLP**: BERT (DistilBERT) for sentiment, sentence-transformers for embeddings
 - **ML**: scikit-learn Random Forest (no cloud APIs needed)
 - **Vector DB**: FAISS (free, local, fast)
 - **Dashboard**: Streamlit with Plotly charts

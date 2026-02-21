@@ -1,33 +1,38 @@
 """
-Player performance prediction using rolling window models.
+Player performance prediction using rolling window Random Forest model.
+Trained on last 12 months of data without using player names or seasons as features.
 """
 
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import TimeSeriesSplit
+from sklearn.model_selection import train_test_split
 import json
 import os
+from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings('ignore')
 
 
 class PlayerPredictor:
-    """Predicts player performance using historical data."""
+    """Predicts player performance using Random Forest and rolling window features."""
     
-    def __init__(self, data_path='cleaned_merged_seasons.csv', current_season=None):
+    def __init__(self, data_path='cleaned_merged_seasons.csv', window_weeks=40):
         """
         Initialize predictor with historical data.
         
         Args:
             data_path: Path to historical CSV data
-            current_season: Current season (e.g., '2025-26'). Auto-detected if None.
+            window_weeks: Number of weeks for rolling window (default: 40 ≈ 12 months)
         """
         self.data_path = data_path
         self.df = None
+        self.model = None
+        self.scaler = StandardScaler()
         self.predictions = {}
-        self.current_season = current_season
+        self.window_weeks = window_weeks  # ~12 months of gameweeks
+        self.feature_cols = []
         self.accuracy_metrics = {}
         self.sentiment_data = self.load_sentiment_data()
         
@@ -49,202 +54,289 @@ class PlayerPredictor:
         print("Loading historical player data...")
         self.df = pd.read_csv(self.data_path)
         
-        # If current season not provided, use latest in dataset + 1 year
-        if self.current_season is None:
-            latest_season = self.df['season_x'].max()
-            # Increment by 1 year (e.g., 2023-24 -> 2024-25)
-            year_start = int(latest_season.split('-')[0])
-            year_end = int(latest_season.split('-')[1])
-            self.current_season = f"{year_start + 1}-{str(year_end + 1).zfill(2)}"
-            print(f"Auto-detected next season: {self.current_season}")
-        
-        print(f"Historical data: {len(self.df)} records from {self.df['season_x'].min()} to {self.df['season_x'].max()}")
-        print(f"Predicting for season: {self.current_season}")
+        print(f"Loaded {len(self.df)} records")
+        print(f"Seasons: {self.df['season'].min()} to {self.df['season'].max()}")
+        print(f"Unique players: {self.df['name'].nunique()}")
         
         # Convert value to actual price (divide by 10 if needed)
         if self.df['value'].max() > 200:
             self.df['value'] = self.df['value'] / 10
         
+        # Sort by player and gameweek for rolling window calculations
+        self.df = self.df.sort_values(['name', 'season', 'GW']).reset_index(drop=True)
+        
+        # Create a sequential time index (season + GW)
+        self.df['season_gw'] = self.df['season'] + '_GW' + self.df['GW'].astype(str)
+        
         return True
     
-    def create_features(self, player_df):
+    def create_rolling_features(self):
         """
-        Create rolling window features for a player.
+        Create rolling window features for all players.
+        Does NOT use player name or season as features.
         
-        Args:
-            player_df: DataFrame for a single player, sorted by GW
-            
         Returns:
             DataFrame with engineered features
         """
-        df = player_df.copy().sort_values('GW')
+        print("Creating rolling window features...")
         
-        # Rolling windows (3, 5, 10 games)
-        for window in [3, 5, 10]:
-            df[f'rolling_points_{window}'] = df['total_points'].rolling(window, min_periods=1).mean()
-            df[f'rolling_minutes_{window}'] = df['minutes'].rolling(window, min_periods=1).mean()
-            df[f'rolling_goals_{window}'] = df['goals_scored'].rolling(window, min_periods=1).mean()
-            df[f'rolling_assists_{window}'] = df['assists'].rolling(window, min_periods=1).mean()
-            df[f'rolling_bonus_{window}'] = df['bonus'].rolling(window, min_periods=1).mean()
+        df_features = []
         
-        # Cumulative season stats
-        df['season_total_points'] = df.groupby('season_x')['total_points'].cumsum()
-        df['season_avg_points'] = df.groupby('season_x')['total_points'].expanding().mean().values
-        df['games_played'] = df.groupby('season_x').cumcount() + 1
+        # Process each player separately to create rolling features
+        for player_name in self.df['name'].unique():
+            player_df = self.df[self.df['name'] == player_name].copy()
+            
+            if len(player_df) < 5:  # Skip players with insufficient data
+                continue
+            
+            # Rolling windows (3, 5, 10 games)
+            for window in [3, 5, 10]:
+                player_df[f'rolling_points_{window}'] = player_df['total_points'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_minutes_{window}'] = player_df['minutes'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_goals_{window}'] = player_df['goals_scored'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_assists_{window}'] = player_df['assists'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_bonus_{window}'] = player_df['bonus'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_creativity_{window}'] = player_df['creativity'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_threat_{window}'] = player_df['threat'].rolling(window, min_periods=1).mean()
+                player_df[f'rolling_ict_{window}'] = player_df['ict_index'].rolling(window, min_periods=1).mean()
+            
+            # Form indicators
+            player_df['points_trend'] = player_df['rolling_points_5'] - player_df['rolling_points_10']
+            player_df['minutes_consistency'] = player_df['minutes'].rolling(5, min_periods=1).std().fillna(0)
+            player_df['goals_trend'] = player_df['rolling_goals_3'] - player_df['rolling_goals_10']
+            
+            # Games played counter (reset each season)
+            player_df['games_played_season'] = player_df.groupby('season').cumcount() + 1
+            
+            # Cumulative season stats
+            player_df['season_total_points'] = player_df.groupby('season')['total_points'].cumsum()
+            player_df['season_avg_points'] = player_df.groupby('season')['total_points'].expanding().mean().values
+            
+            df_features.append(player_df)
         
-        # Form indicators
-        df['points_trend'] = df['rolling_points_5'] - df['rolling_points_10']
-        df['minutes_consistency'] = df['minutes'].rolling(5, min_periods=1).std().fillna(0)
+        # Combine all players
+        df_combined = pd.concat(df_features, ignore_index=True)
         
-        # Position encoding
-        position_map = {'GK': 0, 'DEF': 1, 'MID': 2, 'FWD': 3}
-        df['position_encoded'] = df['position'].map(position_map).fillna(2)
+        # Position encoding (one-hot style)
+        position_dummies = pd.get_dummies(df_combined['position'], prefix='pos')
+        df_combined = pd.concat([df_combined, position_dummies], axis=1)
         
         # Home/away
-        df['is_home'] = df['was_home'].astype(int)
+        df_combined['is_home'] = df_combined['was_home'].astype(int)
         
-        return df
+        # Team strength indicator (average points per game by team) - recalculated each window
+        team_strength = df_combined.groupby('team')['total_points'].mean()
+        df_combined['team_strength'] = df_combined['team'].map(team_strength).fillna(3.0)
+        
+        print(f"Created features for {len(df_combined)} game records")
+        
+        return df_combined
     
-    def predict_player(self, player_name, position, team, current_stats=None):
+    
+    def train_model(self, use_last_n_weeks=None):
         """
-        Predict performance for a single player using historical data + current form.
+        Train Random Forest model on historical data with rolling window features.
+        Uses last N weeks of data for training (simulating 12-month rolling window).
         
         Args:
-            player_name: Player name
-            position: Player position
-            team: Player team
-            current_stats: Dictionary of current season stats from FPL API (optional).
-                          Keys: form, points_per_game, total_points, minutes, etc.
-            
-        Returns:
-            Dictionary with predictions
+            use_last_n_weeks: Use only last N gameweeks for training (default: None = all data)
         """
-        # Get player historical data
-        player_df = self.df[self.df['name'] == player_name].copy()
-        
-        # If we have current stats from API but no historical data, use fallback
-        if len(player_df) < 5 and current_stats:
-            return self._api_based_prediction(player_name, position, team, current_stats)
-        
-        if len(player_df) < 10:  # Need minimum history
-            return None
+        print("\nTraining Random Forest model...")
         
         # Create features
-        player_df = self.create_features(player_df)
+        df_with_features = self.create_rolling_features()
         
-        # Define feature columns
-        feature_cols = [
+        # Define feature columns (excluding player name, season, and target)
+        self.feature_cols = [
+            # Rolling averages
             'rolling_points_3', 'rolling_points_5', 'rolling_points_10',
             'rolling_minutes_3', 'rolling_minutes_5', 'rolling_minutes_10',
             'rolling_goals_3', 'rolling_goals_5', 'rolling_goals_10',
             'rolling_assists_3', 'rolling_assists_5', 'rolling_assists_10',
             'rolling_bonus_3', 'rolling_bonus_5', 'rolling_bonus_10',
-            'season_avg_points', 'points_trend', 'minutes_consistency',
-            'position_encoded', 'is_home', 'value'
+            'rolling_creativity_3', 'rolling_creativity_5', 'rolling_creativity_10',
+            'rolling_threat_3', 'rolling_threat_5', 'rolling_threat_10',
+            'rolling_ict_3', 'rolling_ict_5', 'rolling_ict_10',
+            # Form indicators
+            'points_trend', 'minutes_consistency', 'goals_trend',
+            'season_avg_points', 'games_played_season',
+            # Position (one-hot encoded)
+            'pos_DEF', 'pos_FWD', 'pos_GK', 'pos_MID',
+            # Context
+            'is_home', 'team_strength', 'value'
         ]
         
-        # Prepare training data (all but current season)
-        train_df = player_df[player_df['season_x'] != self.current_season].copy()
-        current_season_df = player_df[player_df['season_x'] == self.current_season].copy()
+        # Filter to only include records with all features
+        df_train = df_with_features.dropna(subset=self.feature_cols + ['total_points'])
         
-        if len(train_df) < 5:  # Not enough training data
-            return self._fallback_prediction(player_name, position, team, current_season_df)
+        # Optionally use only last N weeks (12-month rolling window)
+        if use_last_n_weeks:
+            # Get unique season_gw combinations and take last N
+            all_gws = df_train['season_gw'].unique()
+            last_n_gws = all_gws[-use_last_n_weeks:] if len(all_gws) > use_last_n_weeks else all_gws
+            df_train = df_train[df_train['season_gw'].isin(last_n_gws)]
+            print(f"Using last {len(last_n_gws)} gameweeks for training")
         
-        # Remove NaN
-        train_df = train_df.dropna(subset=feature_cols + ['total_points'])
+        print(f"Training data: {len(df_train)} records")
         
-        if len(train_df) < 5:
-            return self._fallback_prediction(player_name, position, team, current_season_df)
+        # Prepare features and target
+        X = df_train[self.feature_cols]
+        y = df_train['total_points']
         
-        # Train model
-        X_train = train_df[feature_cols]
-        y_train = train_df['total_points']
-        
-        # Use Random Forest (free, no API needed)
-        model = RandomForestRegressor(
-            n_estimators=50,
-            max_depth=10,
-            random_state=42,
-            n_jobs=-1
+        # Train/test split (80/20)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42
         )
-        model.fit(X_train, y_train)
         
-        # Predict for current season
-        if len(current_season_df) > 0:
-            current_season_df = current_season_df.dropna(subset=feature_cols)
-            if len(current_season_df) > 0:
-                X_current = current_season_df[feature_cols]
-                predictions = model.predict(X_current)
-                predicted_avg = predictions.mean()
-            else:
-                predicted_avg = y_train.mean()
-        else:
-            predicted_avg = y_train.mean()
+        print(f"Training set: {len(X_train)} samples")
+        print(f"Test set: {len(X_test)} samples")
         
-        # Calculate statistics
-        recent_games = player_df.tail(10)
-        recent_avg = recent_games['total_points'].mean()
-        historical_avg = train_df['total_points'].mean()
+        # Train Random Forest
+        self.model = RandomForestRegressor(
+            n_estimators=100,
+            max_depth=15,
+            min_samples_split=10,
+            min_samples_leaf=5,
+            random_state=42,
+            n_jobs=-1,
+            verbose=0
+        )
         
-        # Estimate remaining games (assume 38 total gameweeks)
-        # If we have current stats from API, use actual games played
-        if current_stats and current_stats.get('total_points', 0) > 0:
-            # Calculate games played from minutes (90 min = 1 full game)
-            minutes_played = float(current_stats.get('minutes', 0))
-            games_played_current = max(1, int(minutes_played / 90))
-            current_points = float(current_stats.get('total_points', 0))
+        print("Training Random Forest...")
+        self.model.fit(X_train, y_train)
+        
+        # Evaluate
+        train_score = self.model.score(X_train, y_train)
+        test_score = self.model.score(X_test, y_test)
+        
+        y_pred = self.model.predict(X_test)
+        mae = np.mean(np.abs(y_test - y_pred))
+        rmse = np.sqrt(np.mean((y_test - y_pred) ** 2))
+        
+        self.accuracy_metrics = {
+            'train_r2': train_score,
+            'test_r2': test_score,
+            'mae': mae,
+            'rmse': rmse
+        }
+        
+        print(f"\n✓ Model trained successfully!")
+        print(f"  Train R²: {train_score:.4f}")
+        print(f"  Test R²: {test_score:.4f}")
+        print(f"  MAE: {mae:.4f}")
+        print(f"  RMSE: {rmse:.4f}")
+        
+        # Feature importance
+        feature_importance = pd.DataFrame({
+            'feature': self.feature_cols,
+            'importance': self.model.feature_importances_
+        }).sort_values('importance', ascending=False)
+        
+        print(f"\nTop 10 Most Important Features:")
+        print(feature_importance.head(10).to_string(index=False))
+        
+        # Store the feature dataframe for predictions
+        self.df_with_features = df_with_features
+        
+        return True
+    
+    def predict_player(self, player_name, position, team, current_stats=None):
+        """
+        Predict performance for a single player using the trained Random Forest model.
+        
+        Args:
+            player_name: Player name
+            position: Player position
+            team: Player team
+            current_stats: Dictionary of current season stats from FPL API (optional)
             
-            # Blend predictions: 60% current form + 40% historical model
-            current_ppg = float(current_stats.get('points_per_game', 0))
-            predicted_avg_blended = (0.6 * current_ppg) + (0.4 * predicted_avg)
+        Returns:
+            Dictionary with predictions
+        """
+        if self.model is None:
+            print("Error: Model not trained. Call train_model() first.")
+            return None
+        
+        # Get player's most recent data from historical dataset
+        player_hist = self.df_with_features[self.df_with_features['name'] == player_name]
+        
+        if len(player_hist) == 0:
+            # New player - use API-based prediction
+            if current_stats:
+                return self._api_based_prediction(player_name, position, team, current_stats)
+            return None
+        
+        # Get most recent record with features
+        player_recent = player_hist.dropna(subset=self.feature_cols).tail(1)
+        
+        if len(player_recent) == 0:
+            if current_stats:
+                return self._api_based_prediction(player_name, position, team, current_stats)
+            return None
+        
+        # Extract features for prediction
+        X_pred = player_recent[self.feature_cols]
+        
+        # Predict next gameweek performance
+        predicted_points = self.model.predict(X_pred)[0]
+        
+        # Get current season statistics
+        if current_stats:
+            total_points = float(current_stats.get('total_points', 0))
+            minutes = float(current_stats.get('minutes', 0))
+            games_played = max(1, int(minutes / 90)) if minutes > 0 else 1
         else:
-            games_played_current = len(current_season_df)
-            current_points = current_season_df['total_points'].sum() if len(current_season_df) > 0 else 0
-            predicted_avg_blended = predicted_avg
+            # Use from historical data
+            latest_season = self.df['season'].max()
+            current_season_data = player_hist[player_hist['season'] == latest_season]
+            total_points = current_season_data['total_points'].sum()
+            games_played = len(current_season_data)
         
-        remaining_games = max(38 - games_played_current, 0)
+        # Estimate remaining games and total season prediction
+        remaining_games = max(38 - games_played, 0)
+        predicted_remaining = predicted_points * remaining_games
+        predicted_total = total_points + predicted_remaining
         
-        # Predict total points for season
-        predicted_remaining = predicted_avg_blended * remaining_games
-        predicted_total = current_points + predicted_remaining
+        # Get form trend from features
+        points_trend = player_recent['points_trend'].values[0]
+        recent_avg = player_recent['rolling_points_5'].values[0]
+        historical_avg = player_recent['rolling_points_10'].values[0]
         
-        # Determine form trend
-        if recent_avg > historical_avg * 1.1:
+        if points_trend > 0.5:
             form_trend = 'improving'
-        elif recent_avg < historical_avg * 0.9:
+        elif points_trend < -0.5:
             form_trend = 'declining'
         else:
             form_trend = 'stable'
         
-        # Get sentiment score if available
+        # Get sentiment if available
         sentiment_score = 0
         sentiment_boost = 0
         if self.sentiment_data and player_name in self.sentiment_data:
             player_sentiment = self.sentiment_data[player_name]
             if isinstance(player_sentiment, dict) and 'normalized_score' in player_sentiment:
                 sentiment_score = float(player_sentiment['normalized_score'])
-                # Apply small boost/penalty based on sentiment (±5% max)
-                sentiment_boost = (sentiment_score - 50) * 0.001  # Scale: 0-100 → -0.05 to +0.05
-                predicted_avg_blended = predicted_avg_blended * (1 + sentiment_boost)
-                predicted_remaining = predicted_avg_blended * remaining_games
-                predicted_total = current_points + predicted_remaining
+                sentiment_boost = (sentiment_score - 50) * 0.001
+                predicted_points = predicted_points * (1 + sentiment_boost)
+                predicted_remaining = predicted_points * remaining_games
+                predicted_total = total_points + predicted_remaining
         
         return {
             'player_name': player_name,
             'position': position,
             'team': team,
             'predicted_total_points': round(predicted_total, 2),
-            'predicted_points_per_match': round(predicted_avg_blended, 2),
-            'current_season_points': round(current_points, 2),
-            'games_played': games_played_current,
+            'predicted_points_per_match': round(predicted_points, 2),
+            'current_season_points': round(total_points, 2),
+            'games_played': games_played,
             'predicted_remaining_points': round(predicted_remaining, 2),
             'remaining_games': remaining_games,
             'recent_avg_points': round(recent_avg, 2),
             'historical_avg_points': round(historical_avg, 2),
             'form_trend': form_trend,
-            'confidence': 'high' if len(train_df) > 20 else 'medium',
+            'confidence': 'high',
             'sentiment_score': round(sentiment_score, 1),
-            'sentiment_impact': round(sentiment_boost * 100, 2)  # As percentage
+            'sentiment_impact': round(sentiment_boost * 100, 2)
         }
     
     def _api_based_prediction(self, player_name, position, team, current_stats):
@@ -283,18 +375,13 @@ class PlayerPredictor:
             'confidence': 'low'
         }
     
-    def _fallback_prediction(self, player_name, position, team, current_season_df):
+    def _fallback_prediction(self, player_name, position, team):
         """Fallback prediction for players with limited history."""
-        if len(current_season_df) > 0:
-            avg_points = current_season_df['total_points'].mean()
-            current_points = current_season_df['total_points'].sum()
-            games_played = len(current_season_df)
-        else:
-            # Use position-based defaults
-            position_defaults = {'GK': 2.5, 'DEF': 3.0, 'MID': 3.5, 'FWD': 3.0}
-            avg_points = position_defaults.get(position, 3.0)
-            current_points = 0
-            games_played = 0
+        # Use position-based defaults
+        position_defaults = {'GK': 2.5, 'DEF': 3.0, 'MID': 3.5, 'FWD': 3.0}
+        avg_points = position_defaults.get(position, 3.0)
+        current_points = 0
+        games_played = 0
         
         remaining_games = max(38 - games_played, 0)
         predicted_total = current_points + (avg_points * remaining_games)
@@ -312,7 +399,9 @@ class PlayerPredictor:
             'recent_avg_points': round(avg_points, 2),
             'historical_avg_points': round(avg_points, 2),
             'form_trend': 'unknown',
-            'confidence': 'low'
+            'confidence': 'low',
+            'sentiment_score': 0,
+            'sentiment_impact': 0
         }
     
     def predict_all_current_players(self, current_players_list=None):
@@ -323,7 +412,11 @@ class PlayerPredictor:
             current_players_list: List of current players from FPL API with stats.
                                  If None, fetches from API automatically.
         """
-        print(f"\nPredicting performance for {self.current_season} season...")
+        if self.model is None:
+            print("Error: Model not trained. Call train_model() first.")
+            return []
+        
+        print(f"\nPredicting performance for current players...")
         
         # Fetch current players if not provided
         if current_players_list is None:
@@ -426,7 +519,11 @@ def main():
         print("Error loading data")
         return
     
-    # Generate predictions
+    # Train Random Forest model on historical data
+    # Use last 40 gameweeks (~12 months) as rolling window
+    predictor.train_model(use_last_n_weeks=40)  
+    
+    # Generate predictions for all current players
     predictor.predict_all_current_players()
     
     # Save results

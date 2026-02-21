@@ -561,7 +561,7 @@ def main():
         - Player data: [Fantasy Premier League API](https://fantasy.premierleague.com/api/bootstrap-static/)
         - Historical data: Multi-season player statistics
         - News: Google News RSS feeds
-        - Sentiment: TextBlob NLP library
+        - Sentiment: BERT (distilbert-base-uncased-finetuned-sst-2-english)
         - Vector DB: FAISS (free, local)
         - ML Models: scikit-learn Random Forest
         
