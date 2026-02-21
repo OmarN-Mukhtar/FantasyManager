@@ -57,22 +57,21 @@ data/
 !data/players_with_sentiment.csv
 !data/qualified_players.csv
 
-# Vector database
-vector_db/
+# Vector database (allow specific files)
+!vector_db/
 !vector_db/.gitkeep
 !vector_db/index.faiss
-!vector_db/metadata.json
+!vector_db/metadata.pkl
+
+# Data files (ignore by default, allow specific patterns)
 *.csv
 *.json
 *.pkl
 *.pickle
 *.joblib
 
-# Vector Database Files (large binary files)
-vector_db/
+# Large files (Git LFS handles these)
 chroma_db/
-*.faiss
-*.index
 
 # Logs
 *.log
