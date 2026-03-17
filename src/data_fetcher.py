@@ -115,29 +115,45 @@ class FantasyDataFetcher:
     
     def _fetch_team_fixtures(self):
         """Fetch upcoming fixtures for all teams."""
-        try:
-            print("Fetching fixture data...")
-            response = requests.get(self.FIXTURES_URL, timeout=10)
-            response.raise_for_status()
-            fixtures = response.json()
-            
-            for fixture in fixtures:
-                if not fixture.get('finished', False) and not fixture.get('started', False):
-                    fid, team_h, team_a, kickoff = fixture['id'], fixture['team_h'], fixture['team_a'], fixture.get('kickoff_time', '')
-                    
-                    if team_h not in self.team_fixtures:
-                        self.team_fixtures[team_h] = {'fixture_id': fid, 'opponent_team': team_a, 
-                                                       'opponent_name': self.teams.get(team_a, 'Unknown'), 
-                                                       'is_home': True, 'kickoff_time': kickoff}
-                    if team_a not in self.team_fixtures:
-                        self.team_fixtures[team_a] = {'fixture_id': fid, 'opponent_team': team_h,
-                                                       'opponent_name': self.teams.get(team_h, 'Unknown'),
-                                                       'is_home': False, 'kickoff_time': kickoff}
-            
-            print(f"Loaded fixtures for {len(self.team_fixtures)} teams")
-        except Exception as e:
-            print(f"Warning: Could not fetch fixtures: {e}")
-            self.team_fixtures = {}
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                print("Fetching fixture data...")
+                response = requests.get(self.FIXTURES_URL, timeout=25)
+                response.raise_for_status()
+                fixtures = response.json()
+
+                self.team_fixtures = {}
+                for fixture in fixtures:
+                    # Prioritize first not-started fixture for each team
+                    if not fixture.get('finished', False) and not fixture.get('started', False):
+                        fid, team_h, team_a = fixture['id'], fixture['team_h'], fixture['team_a']
+                        kickoff = fixture.get('kickoff_time', '')
+
+                        if team_h not in self.team_fixtures:
+                            self.team_fixtures[team_h] = {
+                                'fixture_id': fid,
+                                'opponent_team': team_a,
+                                'opponent_name': self.teams.get(team_a, 'TBD'),
+                                'is_home': True,
+                                'kickoff_time': kickoff,
+                            }
+                        if team_a not in self.team_fixtures:
+                            self.team_fixtures[team_a] = {
+                                'fixture_id': fid,
+                                'opponent_team': team_h,
+                                'opponent_name': self.teams.get(team_h, 'TBD'),
+                                'is_home': False,
+                                'kickoff_time': kickoff,
+                            }
+
+                print(f"Loaded fixtures for {len(self.team_fixtures)} teams")
+                return
+            except Exception as e:
+                print(f"Warning: Could not fetch fixtures (attempt {attempt + 1}/{max_retries}): {e}")
+                time.sleep(1.5 * (attempt + 1))
+
+        self.team_fixtures = {}
     
     def _get_position_name(self, position_id: int) -> str:
         """Convert position ID to name."""

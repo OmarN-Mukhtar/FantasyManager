@@ -11,6 +11,7 @@ from pathlib import Path
 import sys
 import os
 from rag_system import PlayerNewsRAG
+from data_fetcher import FantasyDataFetcher
 
 # Set up project root path for file resolution
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -181,6 +182,24 @@ def load_predictions_data():
         return {}
 
 
+@st.cache_data(ttl=3600)
+def load_fixture_lookup():
+    """Fetch a lightweight player->next fixture lookup for UI fallbacks."""
+    try:
+        fetcher = FantasyDataFetcher()
+        players = fetcher.fetch_players()
+        lookup = {}
+        for player in players:
+            lookup[player['name']] = {
+                'opp_team_name': player.get('opp_team_name') or 'TBD',
+                'was_home': player.get('was_home'),
+                'points_per_game': float(player.get('points_per_game', 0) or 0),
+            }
+        return lookup
+    except Exception:
+        return {}
+
+
 def get_data_version() -> str:
     """Build a cache key from data and index files so RAG reloads after updates."""
     files = [
@@ -265,6 +284,7 @@ def main():
     predictions_data = load_predictions_data()
     
     # Merge predictions into dataframe
+    fixture_lookup = load_fixture_lookup()
     if predictions_data:
         pred_df = pd.DataFrame(predictions_data.values())
         prediction_cols = [
@@ -297,6 +317,22 @@ def main():
         if col not in df.columns:
             df[col] = default
         df[col] = df[col].fillna(default)
+
+    # Fall back to current API fixture data when prediction files are stale or missing fields
+    if 'name' in df.columns:
+        df['fixture_opp_fallback'] = df['name'].map(lambda n: fixture_lookup.get(n, {}).get('opp_team_name', 'TBD'))
+        df['fixture_ppg_fallback'] = df['name'].map(lambda n: fixture_lookup.get(n, {}).get('points_per_game', 0.0))
+
+        unknown_mask = df['next_game_opponent'].astype(str).str.lower().isin(['unknown', 'none', 'nan', ''])
+        df.loc[unknown_mask, 'next_game_opponent'] = df.loc[unknown_mask, 'fixture_opp_fallback']
+
+        zero_next_mask = (pd.to_numeric(df['next_game_predicted_points'], errors='coerce').fillna(0) <= 0)
+        ppm_vals = pd.to_numeric(df['predicted_points_per_match'], errors='coerce').fillna(0)
+        ppg_vals = pd.to_numeric(df['fixture_ppg_fallback'], errors='coerce').fillna(0)
+        blended = (0.7 * ppm_vals + 0.3 * ppg_vals).clip(lower=0)
+        df.loc[zero_next_mask, 'next_game_predicted_points'] = blended[zero_next_mask]
+
+    df = df.drop(columns=['fixture_opp_fallback', 'fixture_ppg_fallback'], errors='ignore')
     
     # Main panel filters (sidebar removed)
     with st.expander("🎛️ Player Filters", expanded=False):
@@ -662,11 +698,11 @@ def main():
         st.markdown(f"<h2>🔍 RAG Search - Ask Questions About Players</h2>", unsafe_allow_html=True)
         st.markdown("Search through player news and predictions using natural language. Ask anything about player form, injuries, or predictions!")
 
-        # Check if required data files exist (using absolute paths)
+        # Check available files (RAG can now bootstrap missing players/news)
         players_exists = (DATA_DIR / 'players.json').exists()
         news_exists = (DATA_DIR / 'news.json').exists()
         predictions_exists = (DATA_DIR / 'predictions.json').exists()
-        has_data = players_exists and news_exists and predictions_exists
+        has_data = predictions_exists or news_exists
 
         # Debug info for developers
         with st.expander("🔧 Debug Info (System Status)"):
@@ -675,17 +711,16 @@ def main():
                 st.write(f"**Project Root:** {PROJECT_ROOT}")
                 st.write(f"**Data Directory:** {DATA_DIR}")
             with col2:
-                st.write(f"✅ Players JSON" if players_exists else "❌ Players JSON missing")
+                st.write(f"✅ Players JSON" if players_exists else "⚠️ Players JSON missing (auto-fetch fallback enabled)")
                 st.write(f"✅ News JSON ({(DATA_DIR / 'news.json').stat().st_size / (1024*1024):.1f}MB)" if news_exists else "❌ News JSON missing")
-                st.write(f"✅ Predictions JSON" if predictions_exists else "❌ Predictions JSON missing")
+                st.write(f"✅ Predictions JSON" if predictions_exists else "⚠️ Predictions JSON missing")
 
         if not has_data:
-            st.info("📊 **RAG Search Not Ready Yet**")
+            st.info("📊 **RAG Search Needs Data Source**")
             st.markdown(f"""
             <div style="background: {PL_GOLD}20; padding: 15px; border-radius: 8px; border-left: 4px solid {PL_GOLD};">
-            The pipeline data hasn't been generated yet. Required files:
+            No news or prediction data found yet. At least one source is required:
 
-            - 🔍 Player data (from FPL API)
             - 🔍 News articles (from Google News)
             - 🔍 Predictions (from ML models)
 

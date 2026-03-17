@@ -466,10 +466,12 @@ class PlayerPredictor:
         """
         if 'opponent_team' not in current_stats or current_stats.get('opponent_team') is None:
             # No next fixture info available
-            recent_ppg = player_recent['rolling_points_5'].values[0]
+            recent_ppg = float(player_recent['rolling_points_5'].values[0])
+            api_ppg = float(current_stats.get('points_per_game', 0) or 0)
+            safe_next = max(recent_ppg, api_ppg, Constants.POSITION_DEFAULTS.get(position, 2.5) * 0.4)
             return {
-                'next_game_predicted_points': round(recent_ppg, 2),
-                'next_game_opponent': 'Unknown',
+                'next_game_predicted_points': round(safe_next, 2),
+                'next_game_opponent': current_stats.get('opp_team_name', 'TBD'),
                 'next_game_difficulty': 'Unknown',
                 'next_game_is_home': None
             }
@@ -496,6 +498,9 @@ class PlayerPredictor:
 
         # Calculate next game prediction
         next_game_ppg = base_ppg * difficulty_factor * home_factor
+        api_ppg = float(current_stats.get('points_per_game', 0) or 0)
+        floor_ppg = max(api_ppg * 0.6, 0.4)
+        next_game_ppg = max(next_game_ppg, floor_ppg)
 
         # Confidence in next game prediction (higher if recent form is consistent)
         consistency = player_recent['minutes_consistency'].values[0]

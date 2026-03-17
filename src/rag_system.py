@@ -96,11 +96,43 @@ class PlayerNewsRAG:
             sentiment_file = self.data_dir / 'sentiment_analysis.json'
             predictions_file = self.data_dir / 'predictions.json'
 
-            with open(players_file, 'r') as f:
-                self.players_data = json.load(f)
+            self.players_data = []
+            self.news_data = {}
+            self.predictions_data = {}
 
-            with open(news_file, 'r') as f:
-                self.news_data = json.load(f)
+            if players_file.exists():
+                with open(players_file, 'r') as f:
+                    self.players_data = json.load(f)
+            else:
+                print("players.json missing, fetching current players from FPL API...")
+                try:
+                    from data_fetcher import FantasyDataFetcher
+                    fetcher = FantasyDataFetcher()
+                    self.players_data = fetcher.fetch_players() or []
+                    if self.players_data:
+                        os.makedirs(self.data_dir, exist_ok=True)
+                        with open(players_file, 'w') as f:
+                            json.dump(self.players_data, f, indent=2)
+                except Exception as e:
+                    print(f"Could not fetch players data: {e}")
+
+            if news_file.exists():
+                with open(news_file, 'r') as f:
+                    self.news_data = json.load(f)
+            elif self.players_data:
+                print("news.json missing, fetching recent news for top players...")
+                try:
+                    from data_fetcher import FantasyDataFetcher
+                    fetcher = FantasyDataFetcher()
+                    fetcher.players_data = self.players_data
+                    fetcher.fetch_all_player_news(limit=40, days_back=7)
+                    self.news_data = fetcher.news_data
+                    if self.news_data:
+                        os.makedirs(self.data_dir, exist_ok=True)
+                        with open(news_file, 'w') as f:
+                            json.dump(self.news_data, f, indent=2)
+                except Exception as e:
+                    print(f"Could not fetch news data: {e}")
 
             # Load sentiment data if available
             try:
@@ -114,17 +146,31 @@ class PlayerNewsRAG:
 
             # Load predictions if available
             try:
-                with open(predictions_file, 'r') as f:
-                    self.predictions_data = json.load(f)
-                print(f"Loaded predictions for {len(self.predictions_data)} players")
+                if predictions_file.exists():
+                    with open(predictions_file, 'r') as f:
+                        self.predictions_data = json.load(f)
+                    print(f"Loaded predictions for {len(self.predictions_data)} players")
+                else:
+                    self.predictions_data = {}
+                    print("No predictions data found")
             except:
                 self.predictions_data = {}
                 print("No predictions data found")
 
             self.data_signature = self._get_data_signature()
 
-            print(f"Loaded {len(self.players_data)} players, {len(self.news_data)} player news entries")
-            return True
+            total_articles = 0
+            if isinstance(self.news_data, dict):
+                total_articles = sum(len(v.get('articles', [])) for v in self.news_data.values())
+
+            has_minimum_data = (len(self.news_data) > 0 or len(self.predictions_data) > 0)
+            print(
+                f"Loaded {len(self.players_data)} players, "
+                f"{len(self.news_data)} news entries, "
+                f"{len(self.predictions_data)} predictions, "
+                f"{total_articles} articles"
+            )
+            return has_minimum_data
         except Exception as e:
             print(f"Error loading data: {e}")
             return False
@@ -209,6 +255,9 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
         print(f"Total documents: {len(self.documents)}")
         
         # Generate embeddings
+        if len(self.documents) == 0:
+            raise ValueError("No news or prediction documents available to index")
+
         print("Generating embeddings...")
         embeddings = self.embedding_model.encode(
             self.documents,
