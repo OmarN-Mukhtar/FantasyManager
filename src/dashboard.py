@@ -9,7 +9,12 @@ import plotly.graph_objects as go
 import json
 from pathlib import Path
 import sys
+import os
 from rag_system import PlayerNewsRAG
+
+# Set up project root path for file resolution
+PROJECT_ROOT = Path(__file__).parent.parent
+DATA_DIR = PROJECT_ROOT / 'data'
 
 
 # Page configuration
@@ -20,12 +25,133 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Premier League Color Palette
+PL_BLUE = "#003399"
+PL_WHITE = "#FFFFFF"
+PL_GOLD = "#FFB500"
+PL_DARK = "#1a1a1a"
+PL_LIGHT_GRAY = "#f5f5f5"
+
+# Custom CSS styling
+st.markdown(f"""
+    <style>
+    /* Main background */
+    .stApp {{
+        background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+    }}
+
+    /* Sidebar styling */
+    [data-testid="stSidebar"] {{
+        background: linear-gradient(135deg, {PL_BLUE} 0%, {PL_DARK} 100%);
+    }}
+
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {{
+        color: {PL_WHITE};
+    }}
+
+    /* Header styling */
+    h1 {{
+        color: {PL_BLUE};
+        font-weight: 800;
+        letter-spacing: -0.5px;
+    }}
+
+    h2 {{
+        color: {PL_BLUE};
+        font-weight: 700;
+        border-bottom: 3px solid {PL_GOLD};
+        padding-bottom: 10px;
+    }}
+
+    h3 {{
+        color: {PL_DARK};
+        font-weight: 600;
+    }}
+
+    /* Metric styling */
+    [data-testid="metric-container"] {{
+        background: linear-gradient(to right, {PL_WHITE}, {PL_LIGHT_GRAY});
+        border-left: 4px solid {PL_BLUE};
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 51, 153, 0.1);
+    }}
+
+    /* Tabs styling */
+    [data-testid="stTabs"] [role="tablist"] {{
+        border-bottom: 2px solid {PL_GOLD};
+    }}
+
+    [data-testid="stTabs"] [role="tab"] {{
+        color: {PL_DARK};
+        font-weight: 600;
+        border-radius: 8px 8px 0 0;
+    }}
+
+    [data-testid="stTabs"] [role="tab"][aria-selected="true"] {{
+        background: linear-gradient(to bottom, {PL_BLUE}, {PL_DARK});
+        color: {PL_WHITE};
+        border-bottom: 3px solid {PL_GOLD};
+    }}
+
+    /* Button styling */
+    .stButton > button {{
+        background: linear-gradient(to right, {PL_BLUE}, {PL_DARK});
+        color: {PL_WHITE};
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 24px;
+        transition: all 0.3s ease;
+    }}
+
+    .stButton > button:hover {{
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 51, 153, 0.3);
+    }}
+
+    /* Expander styling */
+    [data-testid="stExpander"] {{
+        border: 1px solid {PL_GOLD};
+        border-radius: 8px;
+    }}
+
+    [data-testid="stExpander"] summary {{
+        color: {PL_BLUE};
+        font-weight: 600;
+    }}
+
+    /* Dataframe styling */
+    [data-testid="stDataFrame"] {{
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+    }}
+
+    /* Select and slider styling */
+    .stSelectbox div[data-baseweb="select"] {{
+        border-color: {PL_BLUE};
+    }}
+
+    .stSlider {{
+        padding: 20px 0;
+    }}
+
+    /* Info/Warning boxes */
+    [data-testid="stAlert"] {{
+        border-radius: 8px;
+        border-left: 4px solid {PL_GOLD};
+    }}
+    </style>
+""", unsafe_allow_html=True)
+
 
 @st.cache_data
 def load_player_data():
     """Load player data with sentiment scores."""
     try:
-        df = pd.read_csv('data/players_with_sentiment.csv')
+        file_path = DATA_DIR / 'players_with_sentiment.csv'
+        df = pd.read_csv(file_path)
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
@@ -37,7 +163,8 @@ def load_player_data():
 def load_sentiment_data():
     """Load detailed sentiment analysis."""
     try:
-        with open('data/sentiment_analysis.json', 'r') as f:
+        file_path = DATA_DIR / 'sentiment_analysis.json'
+        with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
         return []
@@ -47,7 +174,8 @@ def load_sentiment_data():
 def load_predictions_data():
     """Load prediction data."""
     try:
-        with open('data/predictions.json', 'r') as f:
+        file_path = DATA_DIR / 'predictions.json'
+        with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
         return {}
@@ -80,10 +208,19 @@ def load_rag_system():
 
 def main():
     """Main dashboard function."""
-    
-    # Header
-    st.title("⚽ Fantasy Premier League Manager")
-    st.markdown("AI-powered player analysis with sentiment scoring and news insights")
+
+    # Enhanced Header with Premier League branding
+    st.markdown(f"""
+    <div style="background: linear-gradient(135deg, {PL_BLUE} 0%, {PL_DARK} 100%);
+                padding: 30px; border-radius: 12px; margin-bottom: 30px;">
+        <h1 style="color: {PL_WHITE}; margin: 0 0 10px 0;">
+            ⚽ Fantasy Premier League Manager
+        </h1>
+        <p style="color: {PL_GOLD}; font-size: 16px; margin: 0; font-weight: 500;">
+            AI-powered player analysis with sentiment scoring, ML predictions & news insights
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
     
     # Load data
     df = load_player_data()
@@ -109,43 +246,51 @@ def main():
         df['predicted_points_per_match'] = 0
         df['form_trend'] = 'unknown'
     
-    # Sidebar filters
-    st.sidebar.header("Filters")
-    
-    # Team filter
-    all_teams = sorted(df['team'].unique())
-    selected_teams = st.sidebar.multiselect(
-        "Select Teams",
-        options=all_teams,
-        default=all_teams
-    )
-    
-    # Position filter
-    all_positions = sorted(df['position'].unique())
-    selected_positions = st.sidebar.multiselect(
-        "Select Positions",
-        options=all_positions,
-        default=all_positions
-    )
-    
-    # Sentiment filter
-    st.sidebar.subheader("Sentiment Filter")
-    show_only_scored = st.sidebar.checkbox("Show only players with sentiment scores", value=False)
-    
-    if not show_only_scored:
-        min_articles = 0
-    else:
-        min_articles = st.sidebar.slider("Minimum articles", 0, 100, 50)
-    
-    # Price filter
-    st.sidebar.subheader("Price Range")
-    price_range = st.sidebar.slider(
-        "Select price range (£M)",
-        float(df['now_cost'].min()),
-        float(df['now_cost'].max()),
-        (float(df['now_cost'].min()), float(df['now_cost'].max())),
-        0.1
-    )
+    # Sidebar filters with better styling
+    with st.sidebar:
+        st.markdown(f"""
+        <h2 style="color: {PL_GOLD}; border: none; padding-bottom: 5px;">🎯 Filter Players</h2>
+        """, unsafe_allow_html=True)
+
+        # Team filter
+        st.markdown(f"<h4 style='color: {PL_WHITE};'>Teams</h4>", unsafe_allow_html=True)
+        all_teams = sorted(df['team'].unique())
+        selected_teams = st.multiselect(
+            "Select Teams",
+            options=all_teams,
+            default=all_teams,
+            label_visibility="collapsed"
+        )
+
+        # Position filter
+        st.markdown(f"<h4 style='color: {PL_WHITE};'>Positions</h4>", unsafe_allow_html=True)
+        all_positions = sorted(df['position'].unique())
+        selected_positions = st.multiselect(
+            "Select Positions",
+            options=all_positions,
+            default=all_positions,
+            label_visibility="collapsed"
+        )
+
+        # Price filter
+        st.markdown(f"<h4 style='color: {PL_WHITE};'>Price Range (£M)</h4>", unsafe_allow_html=True)
+        price_range = st.slider(
+            "Select price range",
+            float(df['now_cost'].min()),
+            float(df['now_cost'].max()),
+            (float(df['now_cost'].min()), float(df['now_cost'].max())),
+            0.1,
+            label_visibility="collapsed"
+        )
+
+        # Sentiment filter
+        st.markdown(f"<h4 style='color: {PL_WHITE};'>Sentiment</h4>", unsafe_allow_html=True)
+        show_only_scored = st.checkbox("Show only players with sentiment scores", value=False)
+
+        if not show_only_scored:
+            min_articles = 0
+        else:
+            min_articles = st.slider("Minimum articles", 0, 100, 50, label_visibility="collapsed")
     
     # Apply filters
     filtered_df = df[
@@ -162,11 +307,17 @@ def main():
         ]
     
     # Main content tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Player Table", "🔮 Predictions", "📈 Analytics", "🔍 RAG Search", "ℹ️ About"])
-    
+    tab1, tab2, tab3, tab4, tab5 = st.tabs([
+        "📊 Player Table",
+        "🔮 Predictions",
+        "📈 Analytics",
+        "🔍 RAG Search",
+        "ℹ️ About"
+    ])
+
     with tab1:
-        st.header("Player Data")
-        
+        st.markdown(f"<h2>📊 Player Data</h2>", unsafe_allow_html=True)
+
         # Sort options
         col1, col2 = st.columns([3, 1])
         with col1:
@@ -180,30 +331,31 @@ def main():
                     "form": "Form",
                     "selected_by_percent": "Selected By %",
                     "article_count": "Article Count"
-                }[x]
+                }[x],
+                label_visibility="collapsed"
             )
         with col2:
             ascending = st.checkbox("Ascending", value=False)
-        
+
         # Sort dataframe
         display_df = filtered_df.sort_values(sort_by, ascending=ascending)
-        
-        # Display metrics
+
+        # Display metrics with Premier League styling
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.metric("Total Players", len(display_df))
+            st.metric("👥 Total Players", len(display_df))
         with col2:
             scored_players = len(display_df[display_df['has_enough_articles'] == True])
-            st.metric("With Sentiment Scores", scored_players)
+            st.metric("💬 With Sentiment", scored_players)
         with col3:
             avg_sentiment = display_df['normalized_score'].mean()
             if pd.notna(avg_sentiment):
-                st.metric("Avg Sentiment", f"{avg_sentiment:.1f}/100")
+                st.metric("⭐ Avg Sentiment", f"{avg_sentiment:.1f}/100")
             else:
-                st.metric("Avg Sentiment", "N/A")
+                st.metric("⭐ Avg Sentiment", "N/A")
         with col4:
             total_articles = display_df['article_count'].sum()
-            st.metric("Total Articles", f"{int(total_articles):,}")
+            st.metric("📰 Total Articles", f"{int(total_articles):,}")
         
         # Display table
         display_columns = [
@@ -240,10 +392,10 @@ def main():
         )
     
     with tab2:
-        st.header("🔮 Player Performance Predictions")
-        
+        st.markdown(f"<h2>🔮 Player Performance Predictions</h2>", unsafe_allow_html=True)
+
         if not predictions_data:
-            st.warning("No predictions available. Please run: python src/predictor.py")
+            st.warning("⚠️ No predictions available. Please run: `python src/predictor.py`")
         else:
             # Sort options for predictions
             col1, col2 = st.columns([3, 1])
@@ -256,35 +408,36 @@ def main():
                         "predicted_points_per_match": "Predicted PPM",
                         "now_cost": "Price",
                         "total_points": "Current Points"
-                    }[x]
+                    }[x],
+                    label_visibility="collapsed"
                 )
             with col2:
                 ascending_pred = st.checkbox("Ascending ", value=False, key="pred_asc")
-            
+
             # Sort by predictions
             pred_display_df = filtered_df[filtered_df['predicted_total_points'] > 0].sort_values(
                 sort_by_pred, ascending=ascending_pred
             )
-            
+
             # Display prediction metrics
             col1, col2, col3, col4 = st.columns(4)
             with col1:
-                st.metric("Players with Predictions", len(pred_display_df))
+                st.metric("✨ With Predictions", len(pred_display_df))
             with col2:
                 avg_pred = pred_display_df['predicted_total_points'].mean()
-                st.metric("Avg Predicted Points", f"{avg_pred:.1f}")
+                st.metric("📊 Avg Predicted Points", f"{avg_pred:.1f}")
             with col3:
                 top_pred = pred_display_df['predicted_total_points'].max()
-                st.metric("Highest Prediction", f"{top_pred:.1f}")
+                st.metric("🏆 Highest Prediction", f"{top_pred:.1f}")
             with col4:
                 improving = len(pred_display_df[pred_display_df['form_trend'] == 'improving'])
-                st.metric("Players Improving", improving)
+                st.metric("📈 Players Improving", improving)
             
             # Visualizations
             col1, col2 = st.columns(2)
-            
+
             with col1:
-                st.subheader("Top 20 Predicted Points")
+                st.subheader("🏅 Top 20 Predicted Points")
                 top_20 = pred_display_df.nlargest(20, 'predicted_total_points')
                 fig = px.bar(
                     top_20,
@@ -295,11 +448,16 @@ def main():
                     orientation='h',
                     labels={'predicted_total_points': 'Predicted Points', 'name': 'Player'}
                 )
-                fig.update_layout(height=500, yaxis={'categoryorder': 'total ascending'})
+                fig.update_layout(
+                    height=500,
+                    yaxis={'categoryorder': 'total ascending'},
+                    template='plotly_white',
+                    colorway=[PL_BLUE, PL_GOLD, '#E8423C', '#7CB342']
+                )
                 st.plotly_chart(fig, use_container_width=True)
-            
+
             with col2:
-                st.subheader("Predicted Points by Position")
+                st.subheader("📊 Predicted Points by Position")
                 fig = px.box(
                     pred_display_df,
                     x='position',
@@ -307,11 +465,16 @@ def main():
                     color='position',
                     title="Point Distribution by Position"
                 )
-                fig.update_layout(height=500, showlegend=False)
+                fig.update_layout(
+                    height=500,
+                    showlegend=False,
+                    template='plotly_white',
+                    colorway=[PL_BLUE, PL_GOLD, '#E8423C', '#7CB342']
+                )
                 st.plotly_chart(fig, use_container_width=True)
-            
+
             # Value analysis
-            st.subheader("Value Analysis: Price vs Predicted Points")
+            st.subheader("💰 Value Analysis: Price vs Predicted Points")
             fig = px.scatter(
                 pred_display_df,
                 x='now_cost',
@@ -321,7 +484,11 @@ def main():
                 hover_data=['name', 'team', 'form_trend'],
                 title="Price vs Predicted Performance (size = current points)"
             )
-            fig.update_layout(height=400)
+            fig.update_layout(
+                height=400,
+                template='plotly_white',
+                colorway=[PL_BLUE, PL_GOLD, '#E8423C', '#7CB342']
+            )
             st.plotly_chart(fig, use_container_width=True)
             
             # Predictions table
@@ -349,19 +516,19 @@ def main():
             )
     
     with tab3:
-        st.header("Analytics Dashboard")
-        
+        st.markdown(f"<h2>📈 Analytics Dashboard</h2>", unsafe_allow_html=True)
+
         # Only show analytics for players with sentiment scores
         scored_df = filtered_df[filtered_df['has_enough_articles'] == True].copy()
-        
+
         if len(scored_df) == 0:
-            st.warning("No players with sentiment scores in current filter. Adjust filters to see analytics.")
+            st.warning("⚠️ No players with sentiment scores in current filter. Adjust filters to see analytics.")
         else:
             # Sentiment distribution
             col1, col2 = st.columns(2)
-            
+
             with col1:
-                st.subheader("Sentiment Distribution by Team")
+                st.subheader("📊 Sentiment Distribution by Team")
                 fig = px.box(
                     scored_df,
                     x='team',
@@ -370,11 +537,15 @@ def main():
                     title="Sentiment Scores by Team"
                 )
                 fig.update_xaxes(tickangle=45)
-                fig.update_layout(showlegend=False, height=400)
+                fig.update_layout(
+                    showlegend=False,
+                    height=400,
+                    template='plotly_white'
+                )
                 st.plotly_chart(fig, use_container_width=True)
-            
+
             with col2:
-                st.subheader("Sentiment vs Points")
+                st.subheader("⭐ Sentiment vs Points")
                 fig = px.scatter(
                     scored_df,
                     x='normalized_score',
@@ -384,30 +555,34 @@ def main():
                     hover_data=['name', 'team'],
                     title="Sentiment Score vs Total Points"
                 )
-                fig.update_layout(height=400)
+                fig.update_layout(
+                    height=400,
+                    template='plotly_white',
+                    colorway=[PL_BLUE, PL_GOLD, '#E8423C', '#7CB342']
+                )
                 st.plotly_chart(fig, use_container_width=True)
-            
+
             # Top performers
             col1, col2 = st.columns(2)
-            
+
             with col1:
-                st.subheader("🔥 Most Positive Sentiment")
+                st.markdown(f"<h3 style='color: {PL_BLUE};'>🔥 Most Positive Sentiment</h3>", unsafe_allow_html=True)
                 top_positive = scored_df.nlargest(10, 'normalized_score')[
                     ['name', 'team', 'normalized_score', 'total_points']
                 ]
                 for idx, row in top_positive.iterrows():
-                    st.write(f"**{row['name']}** ({row['team']}) - {row['normalized_score']:.1f}/100")
-            
+                    st.write(f"**{row['name']}** ({row['team']}) · {row['normalized_score']:.1f}/100")
+
             with col2:
-                st.subheader("📉 Most Negative Sentiment")
+                st.markdown(f"<h3 style='color: {PL_BLUE};'>📉 Most Negative Sentiment</h3>", unsafe_allow_html=True)
                 top_negative = scored_df.nsmallest(10, 'normalized_score')[
                     ['name', 'team', 'normalized_score', 'total_points']
                 ]
                 for idx, row in top_negative.iterrows():
-                    st.write(f"**{row['name']}** ({row['team']}) - {row['normalized_score']:.1f}/100")
-            
+                    st.write(f"**{row['name']}** ({row['team']}) · {row['normalized_score']:.1f}/100")
+
             # Sentiment by position
-            st.subheader("Average Sentiment by Position")
+            st.subheader("📍 Average Sentiment by Position")
             position_sentiment = scored_df.groupby('position')['normalized_score'].mean().reset_index()
             fig = px.bar(
                 position_sentiment,
@@ -415,13 +590,13 @@ def main():
                 y='normalized_score',
                 title="Average Sentiment Score by Position",
                 color='normalized_score',
-                color_continuous_scale='RdYlGn'
+                color_continuous_scale=[[0, '#E8423C'], [0.5, '#FFB500'], [1, '#7CB342']]
             )
-            fig.update_layout(height=300)
+            fig.update_layout(height=300, template='plotly_white')
             st.plotly_chart(fig, use_container_width=True)
-            
+
             # Price vs Sentiment
-            st.subheader("Value Analysis: Price vs Sentiment")
+            st.subheader("💰 Value Analysis: Price vs Sentiment")
             fig = px.scatter(
                 scored_df,
                 x='now_cost',
@@ -431,117 +606,158 @@ def main():
                 hover_data=['name', 'team'],
                 title="Price vs Sentiment (size = total points)"
             )
-            fig.update_layout(height=400)
+            fig.update_layout(
+                height=400,
+                template='plotly_white',
+                colorway=[PL_BLUE, PL_GOLD, '#E8423C', '#7CB342']
+            )
             st.plotly_chart(fig, use_container_width=True)
     
     with tab4:
-        st.header("🔍 RAG Search - Ask Questions About Players")
-        
-        # Check if required data files exist
-        import os
-        has_data = (
-            os.path.exists('data/players.json') and 
-            os.path.exists('data/news.json') and
-            os.path.exists('data/predictions.json')
-        )
-        
+        st.markdown(f"<h2>🔍 RAG Search - Ask Questions About Players</h2>", unsafe_allow_html=True)
+        st.markdown("Search through player news and predictions using natural language. Ask anything about player form, injuries, or predictions!")
+
+        # Check if required data files exist (using absolute paths)
+        players_exists = (DATA_DIR / 'players.json').exists()
+        news_exists = (DATA_DIR / 'news.json').exists()
+        predictions_exists = (DATA_DIR / 'predictions.json').exists()
+        has_data = players_exists and news_exists and predictions_exists
+
+        # Debug info for developers
+        with st.expander("🔧 Debug Info (System Status)"):
+            col1, col2 = st.columns(2)
+            with col1:
+                st.write(f"**Project Root:** {PROJECT_ROOT}")
+                st.write(f"**Data Directory:** {DATA_DIR}")
+            with col2:
+                st.write(f"✅ Players JSON" if players_exists else "❌ Players JSON missing")
+                st.write(f"✅ News JSON ({(DATA_DIR / 'news.json').stat().st_size / (1024*1024):.1f}MB)" if news_exists else "❌ News JSON missing")
+                st.write(f"✅ Predictions JSON" if predictions_exists else "❌ Predictions JSON missing")
+
         if not has_data:
             st.info("📊 **RAG Search Not Ready Yet**")
-            st.markdown("""
+            st.markdown(f"""
+            <div style="background: {PL_GOLD}20; padding: 15px; border-radius: 8px; border-left: 4px solid {PL_GOLD};">
             The pipeline data hasn't been generated yet. Required files:
-            
-            - ✅ Player data (from FPL API)
-            - ❌ News articles (from Google News)
-            - ❌ Predictions (from ML models)
-            
-            **What's happening:**
-            - The daily automated pipeline will generate this data soon
-            - Check back in a few hours!
-            
-            **In the meantime**, explore the **Player Table**, **Predictions**, and **Analytics** tabs!
-            """)
+
+            - 🔍 Player data (from FPL API)
+            - 🔍 News articles (from Google News)
+            - 🔍 Predictions (from ML models)
+
+            **To run the pipeline manually:**
+            ```bash
+            python run_pipeline.py
+            ```
+
+            The daily automated pipeline will generate this data automatically!
+            </div>
+            """, unsafe_allow_html=True)
         else:
             # Load RAG system
             rag = load_rag_system()
-            
+
             if rag is None:
-                st.warning("⚠️ **Building vector database failed**")
-                st.markdown("""
+                st.warning("⚠️ **Vector Database Build Failed**")
+                st.markdown(f"""
                 The data files exist but the vector database couldn't be created.
-                
+
                 This might be due to:
-                - Insufficient memory (vector DB requires ~500MB RAM)
-                - Missing data in JSON files
-                
-                Try refreshing the page, or wait for the next automated update.
+                - Insufficient memory (requires ~500MB RAM)
+                - Missing dependencies (FAISS)
+                - Corrupted data files
+
+                Try refreshing the page or wait for the next automated update.
                 """)
             else:
-                st.markdown("Search through player news articles using natural language queries.")
-                
+                # Query section
+                st.markdown(f"<h3 style='color: {PL_BLUE};'>What would you like to know?</h3>", unsafe_allow_html=True)
+
                 # Query input
                 query = st.text_input(
                     "Enter your question:",
-                    placeholder="e.g., Which players are in good form? Who has injury concerns?"
+                    placeholder="e.g., 'Which defenders are in great form?' or 'Who are the highest value midfielders?'",
+                    label_visibility="collapsed"
                 )
-                
+
                 col1, col2, col3 = st.columns([2, 1, 1])
                 with col1:
                     player_filter = st.selectbox(
-                        "Filter by player (optional)",
-                        ["All players"] + sorted(df['name'].unique().tolist())
+                        "Filter by player",
+                        ["All players"] + sorted(df['name'].unique().tolist()),
+                        label_visibility="collapsed"
                     )
                 with col2:
                     doc_type = st.selectbox(
                         "Document type",
-                        ["All", "News", "Predictions"]
+                        ["All", "News", "Predictions"],
+                        label_visibility="collapsed"
                     )
                 with col3:
-                    n_results = st.slider("Number of results", 1, 20, 5)
-                
+                    n_results = st.slider("Results", 1, 20, 5)
+
                 if query:
-                    with st.spinner("Searching..."):
+                    with st.spinner("🔍 Searching database..."):
                         # Execute query
                         filter_player = None if player_filter == "All players" else player_filter
                         filter_type = None if doc_type == "All" else doc_type.lower()[:-1]  # Remove 's'
                         results = rag.query(
-                            query, 
-                            n_results=n_results, 
+                            query,
+                            n_results=n_results,
                             player_filter=filter_player,
                             doc_type_filter=filter_type
                         )
-                        
-                        st.success(f"Found {len(results)} relevant results")
-                        
-                        # Display results
+
+                        st.success(f"✨ Found {len(results)} relevant results")
+
+                        # Display results with styling
                         for i, result in enumerate(results, 1):
                             result_type = result.get('type', 'news')
-                            
+
                             if result_type == 'news':
                                 with st.expander(
-                                    f"#{i} - {result['player_name']} - {result['title'][:60]}...", 
+                                    f"#{i} 📰 {result['player_name']} · {result['title'][:55]}...",
                                     expanded=i==1
                                 ):
-                                    st.markdown(f"**{result['player_name']}** ({result['team']})")
-                                    st.markdown(f"**{result['title']}**")
-                                    st.caption(f"Source: {result.get('source', 'Unknown')} | "
-                                             f"Published: {result.get('published', 'Unknown')}")
-                                    st.markdown(f"**Sentiment Score:** {result.get('sentiment_score', 0):.1f}/100")
-                                    st.write(result['content'][:800] + "...")
+                                    col1, col2 = st.columns([3, 1])
+                                    with col1:
+                                        st.markdown(f"**{result['player_name']}** ({result['team']})")
+                                        st.markdown(f"__{result['title']}__")
+                                    with col2:
+                                        sentiment = result.get('sentiment_score', 0)
+                                        if sentiment > 60:
+                                            st.markdown(f"<span style='color: #7CB342;'>⭐ {sentiment:.0f}/100</span>", unsafe_allow_html=True)
+                                        elif sentiment > 40:
+                                            st.markdown(f"<span style='color: {PL_GOLD};'>⭐ {sentiment:.0f}/100</span>", unsafe_allow_html=True)
+                                        else:
+                                            st.markdown(f"<span style='color: #E8423C;'>⭐ {sentiment:.0f}/100</span>", unsafe_allow_html=True)
+
+                                    st.caption(f"📌 {result.get('source', 'Unknown')} · {result.get('published', 'Unknown')}")
+                                    st.markdown(result['content'][:800] + "...")
                                     if result.get('link'):
-                                        st.markdown(f"[Read full article]({result['link']})")
+                                        st.markdown(f"[🔗 Read full article →]({result['link']})")
                             else:
                                 with st.expander(
-                                    f"#{i} - {result['player_name']} - Prediction",
+                                    f"#{i} 🔮 {result['player_name']} · Performance Prediction",
                                     expanded=i==1
                                 ):
-                                    st.markdown(f"**{result['player_name']}** ({result['team']})")
-                                    st.markdown(f"**Performance Forecast**")
+                                    col1, col2 = st.columns([3, 1])
+                                    with col1:
+                                        st.markdown(f"**{result['player_name']}** ({result['team']})")
+                                        st.markdown(f"__Performance Forecast__")
+                                    with col2:
+                                        trend = result.get('form_trend', 'stable')
+                                        if trend == 'improving':
+                                            st.markdown(f"<span style='color: #7CB342;'>📈 Improving</span>", unsafe_allow_html=True)
+                                        elif trend == 'declining':
+                                            st.markdown(f"<span style='color: #E8423C;'>📉 Declining</span>", unsafe_allow_html=True)
+                                        else:
+                                            st.markdown(f"<span style='color: {PL_GOLD};'>➡️ Stable</span>", unsafe_allow_html=True)
+
                                     st.write(result['content'])
-                                    st.caption(f"Form Trend: {result.get('form_trend', 'unknown').title()}")
-                
-                # Example queries
+                                    st.caption(f"🎯 Prediction: {result.get('predicted_points', 0):.1f} pts | Form: {trend.title()}")
+
                 st.markdown("---")
-                st.subheader("💡 Example Queries")
+                st.markdown(f"<h3 style='color: {PL_BLUE};'>💡 Example Queries</h3>", unsafe_allow_html=True)
                 col1, col2 = st.columns(2)
                 with col1:
                     st.markdown("""
@@ -559,67 +775,129 @@ def main():
                     """)
     
     with tab5:
-        st.header("About This Dashboard")
-        
-        st.markdown("""
-        ### Fantasy Premier League Manager
-        
-        This dashboard provides AI-powered analysis of Premier League players using:
-        
-        1. **Data Fetching**: Real-time player data from the official Fantasy Premier League API
-        2. **News Aggregation**: Collects recent news articles for each player from Google News
-        3. **Sentiment Analysis**: Analyzes news sentiment to generate normalized scores (0-100)
-        4. **Performance Prediction**: ML models predict player points using rolling window features
-        5. **Interactive Dashboard**: Sort and filter players by multiple metrics
-        6. **RAG System**: FPL-aware natural language search using FAISS vector database
-        
-        #### Features:
-        
-        - **Player Table**: View all players with sentiment scores, sortable by multiple criteria
-        - **Predictions**: ML-powered predictions of player performance for the season
-        - **Analytics**: Visualize sentiment distributions, correlations, and insights
-        - **RAG Search**: Natural language search with FPL rules knowledge
-        - **Filters**: Filter by team, position, price, and sentiment criteria
-        
-        #### Sentiment Score:
-        
-        The sentiment score (0-100) is calculated from news articles:
-        - **0-40**: Negative sentiment (poor performance, injuries, concerns)
-        - **40-60**: Neutral sentiment (mixed or routine news)
-        - **60-100**: Positive sentiment (good form, goals, assists)
-        
-        Players need at least 50 news articles to receive a sentiment score.
-        
-        #### Prediction Model:
-        
-        Predictions use Random Forest models trained on historical data with:
-        - Rolling window features (3, 5, 10 game averages)
-        - Form trends and consistency metrics
-        - Position and fixture analysis
-        - All free - no API costs!
-        
-        #### Data Sources:
-        
-        - Player data: [Fantasy Premier League API](https://fantasy.premierleague.com/api/bootstrap-static/)
-        - Historical data: Multi-season player statistics
-        - News: Google News RSS feeds
-        - Sentiment: BERT (distilbert-base-uncased-finetuned-sst-2-english)
-        - Vector DB: FAISS (free, local)
-        - ML Models: scikit-learn Random Forest
-        
-        #### FPL Rules:
-        
-        The RAG system understands FPL team selection rules including:
-        - £100M budget, 15-player squad (2 GK, 5 DEF, 5 MID, 3 FWD)
-        - Max 3 players per team
-        - Starting XI formation requirements
-        - Captain/Vice-Captain scoring
-        - Points system by position
-        
+        st.markdown(f"<h2>ℹ️ About This Dashboard</h2>", unsafe_allow_html=True)
+
+        st.markdown(f"""
+        <div style="background: linear-gradient(135deg, {PL_BLUE}15 0%, {PL_GOLD}10 100%);
+                    padding: 20px; border-radius: 10px; border-left: 4px solid {PL_BLUE};">
+            <h3 style="color: {PL_BLUE}; margin-top: 0;">⚽ Fantasy Premier League Manager</h3>
+            <p>Your AI-powered companion for Fantasy Premier League team selection using advanced machine learning and natural language analysis.</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown(f"""
+            ### 🔧 Core Features
+
+            - **📊 Player Analytics**: View comprehensive player statistics with interactive filters
+            - **🔮 ML Predictions**: Ensemble models (Random Forest, LightGBM, XGBoost) predict player performance
+            - **💬 Sentiment Analysis**: AI-driven news sentiment analysis using transformer models
+            - **🔍 RAG Search**: Ask natural language questions about players and get instant insights
+            - **📈 Value Analysis**: Find the best price-to-performance players
+            - **⚡ Real-time Data**: Direct integration with official Fantasy PL API
+            """)
+
+        with col2:
+            st.markdown(f"""
+            ### 🎯 How It Works
+
+            1. **Data Collection**: Live player data from FPL API + news from multiple sources
+            2. **Sentiment Analysis**: NLP models analyze 50+ articles per player for sentiment
+            3. **Feature Engineering**: Rolling averages, form trends, opponent strength, efficiency metrics
+            4. **Ensemble Prediction**: 3 ML models vote on performance predictions
+            5. **RAG System**: FAISS vector database enables semantic search across all data
+            """)
+
+        st.markdown("---")
+
+        st.markdown(f"""
+        ### 📊 Understanding the Data
+
+        **Sentiment Score (0-100)**
+        - 🔴 **0-40**: Negative sentiment (injuries, poor form, missed chances)
+        - 🟡 **40-60**: Neutral sentiment (mixed news, routine updates)
+        - 🟢 **60-100**: Positive sentiment (goal-scoring form, assists, clean sheets)
+
+        *Note: Players need 50+ news articles to receive a sentiment score*
+
         ---
-        
-        **Note**: This tool is for informational purposes. Always do your own research before making fantasy football decisions!
+
+        ### 🤖 Prediction Models
+
+        The dashboard uses an **ensemble approach** combining three powerful models:
+        - **Random Forest**: Excellent for feature interactions and explainability
+        - **LightGBM**: Fast training with superior handling of tree depth
+        - **XGBoost**: Different regularization for ensemble diversity
+
+        **Features used:**
+        - Rolling window statistics (3, 5, 10 game averages)
+        - Form trends and consistency metrics
+        - Strength of Schedule (opponent difficulty)
+        - Efficiency ratings (goals/minutes, assists/creativity)
+        - Team composition and position strength
+        - Temporal validation (TimeSeriesSplit - no data leakage!)
         """)
+
+        st.markdown("---")
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown(f"""
+            <div style="background: {PL_BLUE}20; padding: 15px; border-radius: 8px;">
+            <h4 style="color: {PL_BLUE};"> 📡 Data Sources</h4>
+            • FPL Official API<br>
+            • Google News RSS<br>
+            • Multi-season statistics<br>
+            • Team fixture data
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col2:
+            st.markdown(f"""
+            <div style="background: {PL_GOLD}20; padding: 15px; border-radius: 8px;">
+            <h4 style="color: {PL_BLUE};"> 🛠️ Technologies</h4>
+            • Python, Streamlit<br>
+            • scikit-learn, XGBoost<br>
+            • Sentence Transformers<br>
+            • FAISS Vector DB
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col3:
+            st.markdown(f"""
+            <div style="background: #7CB34220; padding: 15px; border-radius: 8px;">
+            <h4 style="color: {PL_BLUE};">✨ Unique Aspect</h4>
+            • Kaggle March Madness<br>
+            &nbsp;&nbsp;techniques adapted for FPL<br>
+            • Uncertainty quantification<br>
+            • Next-game predictions
+            </div>
+            """, unsafe_allow_html=True)
+
+        st.markdown("---")
+
+        st.markdown(f"""
+        ### ⚖️ FPL Rules & Constraints
+
+        The system understands all Fantasy Premier League rules:
+        - **Budget**: £100M for 15-player squad
+        - **Positions**: 2 GK, 5 DEF, 5 MID, 3 FWD
+        - **Team Limits**: Max 3 players per club
+        - **Transfers**: Limited per season (costs points)
+        - **Captain**: Double points for selected player
+        - **Bench Boost**: Double points for all bench players (limited use)
+
+        ---
+
+        ### ⚠️ Disclaimer
+
+        This dashboard is a **decision support tool**, not financial or betting advice. Always conduct your own research before making fantasy football decisions. Past performance doesn't guarantee future results.
+
+        **Built with ❤️ using cutting-edge AI & open-source technologies**
+        """)
+
 
 
 if __name__ == "__main__":

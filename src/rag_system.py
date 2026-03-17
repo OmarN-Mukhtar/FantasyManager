@@ -10,20 +10,31 @@ from typing import List, Dict
 import os
 import pickle
 from datetime import datetime
+from pathlib import Path
+
+
+# Set up project paths for compatibility with different working directories
+PROJECT_ROOT = Path(__file__).parent.parent
+DATA_DIR = PROJECT_ROOT / 'data'
+VECTOR_DB_DIR = PROJECT_ROOT / 'vector_db'
 
 
 class PlayerNewsRAG:
     """RAG system for querying player news using FAISS."""
-    
-    def __init__(self, persist_directory: str = "vector_db"):
+
+    def __init__(self, persist_directory: str = None):
         """Initialize the RAG system with FAISS."""
+        if persist_directory is None:
+            persist_directory = str(VECTOR_DB_DIR)
+
         self.persist_directory = persist_directory
+        self.data_dir = DATA_DIR
         os.makedirs(persist_directory, exist_ok=True)
-        
+
         # Use sentence transformers for embeddings
         self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         self.dimension = 384  # Dimension for all-MiniLM-L6-v2
-        
+
         self.index = None
         self.documents = []
         self.metadatas = []
@@ -35,31 +46,37 @@ class PlayerNewsRAG:
     def load_data(self) -> bool:
         """Load player data, news, sentiment, and prediction data."""
         try:
-            with open('data/players.json', 'r') as f:
+            # Use absolute paths for reliability on different working directories
+            players_file = self.data_dir / 'players.json'
+            news_file = self.data_dir / 'news.json'
+            sentiment_file = self.data_dir / 'sentiment_analysis.json'
+            predictions_file = self.data_dir / 'predictions.json'
+
+            with open(players_file, 'r') as f:
                 self.players_data = json.load(f)
-            
-            with open('data/news.json', 'r') as f:
+
+            with open(news_file, 'r') as f:
                 self.news_data = json.load(f)
-            
+
             # Load sentiment data if available
             try:
-                with open('data/sentiment_analysis.json', 'r') as f:
+                with open(sentiment_file, 'r') as f:
                     self.sentiment_data = json.load(f)
                     self.sentiment_lookup = {
                         str(s['player_id']): s for s in self.sentiment_data
                     }
             except:
                 self.sentiment_lookup = {}
-            
+
             # Load predictions if available
             try:
-                with open('data/predictions.json', 'r') as f:
+                with open(predictions_file, 'r') as f:
                     self.predictions_data = json.load(f)
                 print(f"Loaded predictions for {len(self.predictions_data)} players")
             except:
                 self.predictions_data = {}
                 print("No predictions data found")
-            
+
             print(f"Loaded {len(self.players_data)} players, {len(self.news_data)} player news entries")
             return True
         except Exception as e:
