@@ -63,6 +63,7 @@ def run_pipeline(fetch_limit=None, min_articles=50, skip_news=False):
     print("-"*70)
     predictor = PlayerPredictor()
     predictor.load_data()
+    predictor.train_model(use_last_n_weeks=40)
     predictor.predict_all_current_players()
     predictor.save_predictions()
     

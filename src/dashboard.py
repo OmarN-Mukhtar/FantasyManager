@@ -22,7 +22,7 @@ st.set_page_config(
     page_title="Fantasy PL Manager",
     page_icon="⚽",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # Premier League Color Palette
@@ -181,10 +181,31 @@ def load_predictions_data():
         return {}
 
 
+def get_data_version() -> str:
+    """Build a cache key from data and index files so RAG reloads after updates."""
+    files = [
+        DATA_DIR / 'players.json',
+        DATA_DIR / 'news.json',
+        DATA_DIR / 'predictions.json',
+        PROJECT_ROOT / 'vector_db' / 'index.faiss',
+        PROJECT_ROOT / 'vector_db' / 'metadata.pkl',
+    ]
+
+    version_parts = []
+    for path in files:
+        if path.exists():
+            stat = path.stat()
+            version_parts.append(f"{path.name}:{int(stat.st_mtime)}:{int(stat.st_size)}")
+        else:
+            version_parts.append(f"{path.name}:missing")
+    return "|".join(version_parts)
+
+
 @st.cache_resource
-def load_rag_system():
+def load_rag_system(data_version: str):
     """Load RAG system with FAISS, building index if needed."""
     try:
+        _ = data_version
         rag = PlayerNewsRAG()
         if not rag.load_data():
             return None  # No data available
@@ -199,6 +220,18 @@ def load_rag_system():
             except Exception as e:
                 print(f"Failed to build vector database: {e}")
                 return None  # Building failed
+
+        index_stats = rag.get_index_stats()
+        needs_rebuild = (
+            rag.is_index_stale()
+            or index_stats.get('total_docs', 0) == 0
+            or (len(rag.news_data) > 0 and index_stats.get('news_docs', 0) == 0)
+            or (len(rag.predictions_data) > 0 and index_stats.get('prediction_docs', 0) == 0)
+        )
+
+        if needs_rebuild:
+            with st.spinner("Refreshing vector database from latest news + predictions..."):
+                rag.create_vector_db()
         
         return rag  # Index loaded successfully
     except Exception as e:
@@ -234,63 +267,71 @@ def main():
     # Merge predictions into dataframe
     if predictions_data:
         pred_df = pd.DataFrame(predictions_data.values())
-        df = df.merge(
-            pred_df[['player_name', 'predicted_total_points', 'predicted_points_per_match', 'form_trend']],
-            left_on='name',
-            right_on='player_name',
-            how='left'
-        )
-        df = df.drop('player_name', axis=1)
+        prediction_cols = [
+            'player_name', 'predicted_total_points', 'predicted_points_per_match',
+            'form_trend', 'next_game_predicted_points', 'next_game_opponent',
+            'next_game_difficulty'
+        ]
+        available_cols = [c for c in prediction_cols if c in pred_df.columns]
+        if 'player_name' in available_cols:
+            df = df.merge(
+                pred_df[available_cols],
+                left_on='name',
+                right_on='player_name',
+                how='left'
+            )
+            df = df.drop('player_name', axis=1)
     else:
         df['predicted_total_points'] = 0
         df['predicted_points_per_match'] = 0
         df['form_trend'] = 'unknown'
+        df['next_game_predicted_points'] = 0
+        df['next_game_opponent'] = 'Unknown'
+        df['next_game_difficulty'] = 'Unknown'
+
+    for col, default in [
+        ('next_game_predicted_points', 0.0),
+        ('next_game_opponent', 'Unknown'),
+        ('next_game_difficulty', 'Unknown'),
+    ]:
+        if col not in df.columns:
+            df[col] = default
+        df[col] = df[col].fillna(default)
     
-    # Sidebar filters with better styling
-    with st.sidebar:
-        st.markdown(f"""
-        <h2 style="color: {PL_GOLD}; border: none; padding-bottom: 5px;">🎯 Filter Players</h2>
-        """, unsafe_allow_html=True)
+    # Main panel filters (sidebar removed)
+    with st.expander("🎛️ Player Filters", expanded=False):
+        c1, c2, c3 = st.columns(3)
 
-        # Team filter
-        st.markdown(f"<h4 style='color: {PL_WHITE};'>Teams</h4>", unsafe_allow_html=True)
-        all_teams = sorted(df['team'].unique())
-        selected_teams = st.multiselect(
-            "Select Teams",
-            options=all_teams,
-            default=all_teams,
-            label_visibility="collapsed"
-        )
+        with c1:
+            all_teams = sorted(df['team'].unique())
+            selected_teams = st.multiselect(
+                "Teams",
+                options=all_teams,
+                default=all_teams,
+            )
 
-        # Position filter
-        st.markdown(f"<h4 style='color: {PL_WHITE};'>Positions</h4>", unsafe_allow_html=True)
-        all_positions = sorted(df['position'].unique())
-        selected_positions = st.multiselect(
-            "Select Positions",
-            options=all_positions,
-            default=all_positions,
-            label_visibility="collapsed"
-        )
+        with c2:
+            all_positions = sorted(df['position'].unique())
+            selected_positions = st.multiselect(
+                "Positions",
+                options=all_positions,
+                default=all_positions,
+            )
 
-        # Price filter
-        st.markdown(f"<h4 style='color: {PL_WHITE};'>Price Range (£M)</h4>", unsafe_allow_html=True)
-        price_range = st.slider(
-            "Select price range",
-            float(df['now_cost'].min()),
-            float(df['now_cost'].max()),
-            (float(df['now_cost'].min()), float(df['now_cost'].max())),
-            0.1,
-            label_visibility="collapsed"
-        )
+        with c3:
+            price_range = st.slider(
+                "Price Range (£M)",
+                float(df['now_cost'].min()),
+                float(df['now_cost'].max()),
+                (float(df['now_cost'].min()), float(df['now_cost'].max())),
+                0.1,
+            )
 
-        # Sentiment filter
-        st.markdown(f"<h4 style='color: {PL_WHITE};'>Sentiment</h4>", unsafe_allow_html=True)
-        show_only_scored = st.checkbox("Show only players with sentiment scores", value=False)
-
-        if not show_only_scored:
-            min_articles = 0
-        else:
-            min_articles = st.slider("Minimum articles", 0, 100, 50, label_visibility="collapsed")
+        s1, s2 = st.columns(2)
+        with s1:
+            show_only_scored = st.checkbox("Only players with sentiment score", value=False)
+        with s2:
+            min_articles = st.slider("Minimum articles", 0, 100, 50, disabled=not show_only_scored)
     
     # Apply filters
     filtered_df = df[
@@ -402,8 +443,9 @@ def main():
             with col1:
                 sort_by_pred = st.selectbox(
                     "Sort predictions by",
-                    ["predicted_total_points", "predicted_points_per_match", "now_cost", "total_points"],
+                    ["next_game_predicted_points", "predicted_total_points", "predicted_points_per_match", "now_cost", "total_points"],
                     format_func=lambda x: {
+                        "next_game_predicted_points": "Next Gameweek Points",
                         "predicted_total_points": "Predicted Total Points",
                         "predicted_points_per_match": "Predicted PPM",
                         "now_cost": "Price",
@@ -427,8 +469,8 @@ def main():
                 avg_pred = pred_display_df['predicted_total_points'].mean()
                 st.metric("📊 Avg Predicted Points", f"{avg_pred:.1f}")
             with col3:
-                top_pred = pred_display_df['predicted_total_points'].max()
-                st.metric("🏆 Highest Prediction", f"{top_pred:.1f}")
+                top_next = pred_display_df['next_game_predicted_points'].max()
+                st.metric("🎯 Best Next GW", f"{top_next:.2f}")
             with col4:
                 improving = len(pred_display_df[pred_display_df['form_trend'] == 'improving'])
                 st.metric("📈 Players Improving", improving)
@@ -495,18 +537,21 @@ def main():
             st.subheader("Player Predictions")
             pred_columns = [
                 'name', 'team', 'position', 'now_cost', 'predicted_total_points',
-                'predicted_points_per_match', 'form_trend', 'total_points'
+                'predicted_points_per_match', 'next_game_predicted_points',
+                'next_game_opponent', 'next_game_difficulty', 'form_trend', 'total_points'
             ]
             
             pred_table = pred_display_df[pred_columns].copy()
             pred_table.columns = [
-                'Player', 'Team', 'Pos', 'Price', 'Pred Total', 'Pred PPM',
+                'Player', 'Team', 'Pos', 'Price', 'Pred Total', 'Pred PPM', 'Next GW Pred',
+                'Next Opponent', 'Fixture Diff',
                 'Form', 'Current Pts'
             ]
             
             # Format numbers
             pred_table['Pred Total'] = pred_table['Pred Total'].apply(lambda x: f"{x:.1f}")
             pred_table['Pred PPM'] = pred_table['Pred PPM'].apply(lambda x: f"{x:.2f}")
+            pred_table['Next GW Pred'] = pred_table['Next GW Pred'].apply(lambda x: f"{x:.2f}")
             
             st.dataframe(
                 pred_table,
@@ -654,7 +699,8 @@ def main():
             """, unsafe_allow_html=True)
         else:
             # Load RAG system
-            rag = load_rag_system()
+            data_version = get_data_version()
+            rag = load_rag_system(data_version)
 
             if rag is None:
                 st.warning("⚠️ **Vector Database Build Failed**")
@@ -754,7 +800,12 @@ def main():
                                             st.markdown(f"<span style='color: {PL_GOLD};'>➡️ Stable</span>", unsafe_allow_html=True)
 
                                     st.write(result['content'])
-                                    st.caption(f"🎯 Prediction: {result.get('predicted_points', 0):.1f} pts | Form: {trend.title()}")
+                                    st.caption(
+                                        f"🎯 Season: {result.get('predicted_points', 0):.1f} pts | "
+                                        f"Next GW: {result.get('next_game_predicted_points', 0):.2f} | "
+                                        f"Opponent: {result.get('next_game_opponent', 'Unknown')} | "
+                                        f"Difficulty: {result.get('next_game_difficulty', 'Unknown')}"
+                                    )
 
                 st.markdown("---")
                 st.markdown(f"<h3 style='color: {PL_BLUE};'>💡 Example Queries</h3>", unsafe_allow_html=True)

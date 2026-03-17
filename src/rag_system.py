@@ -42,6 +42,50 @@ class PlayerNewsRAG:
         self.news_data = {}
         self.sentiment_lookup = {}
         self.predictions_data = {}
+        self.data_signature = {}
+
+    def _safe_file_stats(self, path: Path) -> Dict:
+        """Return lightweight file stats for cache invalidation checks."""
+        try:
+            stats = path.stat()
+            return {
+                'exists': True,
+                'size': int(stats.st_size),
+                'mtime': int(stats.st_mtime)
+            }
+        except Exception:
+            return {
+                'exists': False,
+                'size': 0,
+                'mtime': 0
+            }
+
+    def _get_data_signature(self) -> Dict:
+        """Create a compact signature of source data to detect stale indexes."""
+        players_file = self.data_dir / 'players.json'
+        news_file = self.data_dir / 'news.json'
+        sentiment_file = self.data_dir / 'sentiment_analysis.json'
+        predictions_file = self.data_dir / 'predictions.json'
+
+        total_articles = 0
+        if isinstance(self.news_data, dict):
+            for item in self.news_data.values():
+                total_articles += len(item.get('articles', []))
+
+        return {
+            'files': {
+                'players': self._safe_file_stats(players_file),
+                'news': self._safe_file_stats(news_file),
+                'sentiment': self._safe_file_stats(sentiment_file),
+                'predictions': self._safe_file_stats(predictions_file),
+            },
+            'counts': {
+                'players': len(self.players_data),
+                'news_players': len(self.news_data) if isinstance(self.news_data, dict) else 0,
+                'predictions': len(self.predictions_data) if isinstance(self.predictions_data, dict) else 0,
+                'total_articles': total_articles,
+            }
+        }
     
     def load_data(self) -> bool:
         """Load player data, news, sentiment, and prediction data."""
@@ -76,6 +120,8 @@ class PlayerNewsRAG:
             except:
                 self.predictions_data = {}
                 print("No predictions data found")
+
+            self.data_signature = self._get_data_signature()
 
             print(f"Loaded {len(self.players_data)} players, {len(self.news_data)} player news entries")
             return True
@@ -131,11 +177,17 @@ class PlayerNewsRAG:
         for player_id, pred_data in self.predictions_data.items():
             player_name = pred_data.get('player_name', 'Unknown')
             team = pred_data.get('team', 'Unknown')
+            next_game_points = pred_data.get('next_game_predicted_points', 0)
+            next_game_opponent = pred_data.get('next_game_opponent', 'Unknown')
+            next_game_difficulty = pred_data.get('next_game_difficulty', 'Unknown')
             
             # Create summary document
             summary = f"""Player Analysis: {player_name} ({team})
 Predicted Total Points: {pred_data.get('predicted_total_points', 0):.1f}
 Predicted Points per Match: {pred_data.get('predicted_points_per_match', 0):.2f}
+Next Gameweek Prediction: {next_game_points:.2f}
+Next Opponent: {next_game_opponent}
+Fixture Difficulty: {next_game_difficulty}
 Form Trend: {pred_data.get('form_trend', 'stable')}
 Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
 """
@@ -148,7 +200,10 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
                 'team': team,
                 'predicted_points': pred_data.get('predicted_total_points', 0),
                 'predicted_ppm': pred_data.get('predicted_points_per_match', 0),
-                'form_trend': pred_data.get('form_trend', 'stable')
+                'form_trend': pred_data.get('form_trend', 'stable'),
+                'next_game_predicted_points': next_game_points,
+                'next_game_opponent': next_game_opponent,
+                'next_game_difficulty': next_game_difficulty
             })
         
         print(f"Total documents: {len(self.documents)}")
@@ -178,7 +233,8 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
         with open(f"{self.persist_directory}/metadata.pkl", 'wb') as f:
             pickle.dump({
                 'metadatas': self.metadatas,
-                'documents': self.documents
+                'documents': self.documents,
+                'data_signature': self.data_signature or self._get_data_signature()
             }, f)
         
         print(f"Index saved to {self.persist_directory}/")
@@ -192,12 +248,28 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
                 data = pickle.load(f)
                 self.metadatas = data['metadatas']
                 self.documents = data['documents']
+                self.data_signature = data.get('data_signature', {})
             
             print(f"Index loaded from {self.persist_directory}/")
             return True
         except Exception as e:
             print(f"Could not load index: {e}")
             return False
+
+    def is_index_stale(self) -> bool:
+        """Check whether index metadata no longer matches the current source data."""
+        current_signature = self._get_data_signature()
+        return self.data_signature != current_signature
+
+    def get_index_stats(self) -> Dict:
+        """Return quick index health metrics for diagnostics."""
+        prediction_docs = sum(1 for m in self.metadatas if m.get('type') == 'prediction')
+        news_docs = sum(1 for m in self.metadatas if m.get('type') == 'news')
+        return {
+            'total_docs': len(self.metadatas),
+            'news_docs': news_docs,
+            'prediction_docs': prediction_docs
+        }
     
     def query(self, query_text: str, n_results: int = 5, player_filter: str = None, 
               doc_type_filter: str = None) -> List[Dict]:
@@ -216,18 +288,21 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
         if self.index is None:
             if not self._load_index():
                 raise ValueError("No index available. Run create_vector_db() first.")
+
+        if len(self.metadatas) == 0:
+            return []
         
         # Generate query embedding
         query_embedding = self.embedding_model.encode([query_text])
         
         # Search in FAISS - get more results for filtering
-        search_k = n_results * 10
+        search_k = min(max(n_results * 10, n_results), len(self.metadatas))
         distances, indices = self.index.search(query_embedding.astype('float32'), search_k)
         
         # Process results with filtering
         results = []
         for idx, distance in zip(indices[0], distances[0]):
-            if idx >= len(self.metadatas):
+            if idx < 0 or idx >= len(self.metadatas):
                 continue
             
             metadata = self.metadatas[idx]
@@ -259,7 +334,10 @@ Recent Performance: {pred_data.get('recent_avg_points', 0):.1f} points/match
                 result.update({
                     'predicted_points': metadata.get('predicted_points', 0),
                     'predicted_ppm': metadata.get('predicted_ppm', 0),
-                    'form_trend': metadata.get('form_trend', 'stable')
+                    'form_trend': metadata.get('form_trend', 'stable'),
+                    'next_game_predicted_points': metadata.get('next_game_predicted_points', 0),
+                    'next_game_opponent': metadata.get('next_game_opponent', 'Unknown'),
+                    'next_game_difficulty': metadata.get('next_game_difficulty', 'Unknown')
                 })
             
             results.append(result)

@@ -700,6 +700,8 @@ class PlayerPredictor:
         ppg = float(current_stats.get('points_per_game', 0))
         total_points = float(current_stats.get('total_points', 0))
         minutes = float(current_stats.get('minutes', 0))
+        next_opponent = current_stats.get('opp_team_name', 'Unknown') if current_stats else 'Unknown'
+        next_is_home = current_stats.get('was_home') if current_stats else None
 
         # Estimate games played
         games_played = max(1, int(minutes / 90)) if minutes > 0 else 1
@@ -731,7 +733,11 @@ class PlayerPredictor:
             'recent_avg_points': round(ppg, 2),
             'historical_avg_points': round(position_avg, 2),
             'form_trend': 'unknown',
-            'confidence': 'low'
+            'confidence': 'low',
+            'next_game_predicted_points': round(predicted_ppg, 2),
+            'next_game_opponent': next_opponent,
+            'next_game_is_home': next_is_home,
+            'next_game_difficulty': 'Unknown'
         }
     
     def _fallback_prediction(self, player_name, position, team):
@@ -759,7 +765,11 @@ class PlayerPredictor:
             'form_trend': 'unknown',
             'confidence': 'low',
             'sentiment_score': 0,
-            'sentiment_impact': 0
+            'sentiment_impact': 0,
+            'next_game_predicted_points': round(avg_points, 2),
+            'next_game_opponent': 'Unknown',
+            'next_game_is_home': None,
+            'next_game_difficulty': 'Unknown'
         }
     
     def predict_all_current_players(self, current_players_list=None):
