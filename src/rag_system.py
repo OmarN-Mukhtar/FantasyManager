@@ -41,6 +41,7 @@ class PlayerNewsRAG:
         self.players_data = []
         self.news_data = {}
         self.sentiment_lookup = {}
+        self.sentiment_name_lookup = {}
         self.predictions_data = {}
         self.data_signature = {}
 
@@ -141,8 +142,12 @@ class PlayerNewsRAG:
                     self.sentiment_lookup = {
                         str(s['player_id']): s for s in self.sentiment_data
                     }
+                    self.sentiment_name_lookup = {
+                        str(s.get('player_name', '')).lower(): s for s in self.sentiment_data
+                    }
             except:
                 self.sentiment_lookup = {}
+                self.sentiment_name_lookup = {}
 
             # Load predictions if available
             try:
@@ -194,6 +199,8 @@ class PlayerNewsRAG:
             sentiment_score = None
             if str(player_id) in self.sentiment_lookup:
                 sentiment_score = self.sentiment_lookup[str(player_id)].get('normalized_score')
+            if sentiment_score is None and player_name.lower() in self.sentiment_name_lookup:
+                sentiment_score = self.sentiment_name_lookup[player_name.lower()].get('normalized_score')
             
             predicted_points = None
             if str(player_id) in self.predictions_data:
@@ -214,7 +221,7 @@ class PlayerNewsRAG:
                     'published': article.get('published', ''),
                     'source': article.get('source', 'Unknown'),
                     'link': article.get('link', ''),
-                    'sentiment_score': sentiment_score if sentiment_score else 0.0,
+                    'sentiment_score': sentiment_score if sentiment_score is not None else 50.0,
                     'predicted_points': predicted_points if predicted_points else 0.0
                 })
         

@@ -16,7 +16,7 @@ from predictor import PlayerPredictor
 from rag_system import PlayerNewsRAG
 
 
-def run_pipeline(fetch_limit=None, min_articles=50, skip_news=False):
+def run_pipeline(fetch_limit=None, min_articles=5, skip_news=False):
     """
     Run the complete analysis pipeline.
     
@@ -131,8 +131,8 @@ def main():
     parser.add_argument(
         '--min-articles',
         type=int,
-        default=50,
-        help='Minimum articles required for sentiment scoring (default: 50)'
+        default=5,
+        help='Minimum articles required for sentiment quality flag (default: 5)'
     )
     
     args = parser.parse_args()

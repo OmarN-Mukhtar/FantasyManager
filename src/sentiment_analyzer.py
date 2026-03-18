@@ -65,7 +65,7 @@ class SentimentAnalyzer:
             'combined_sentiment': title_sent * 0.3 + summary_sent * 0.7
         }
     
-    def analyze_player_sentiment(self, player_id: str, min_articles: int = 50) -> Dict:
+    def analyze_player_sentiment(self, player_id: str, min_articles: int = 5) -> Dict:
         """Analyze overall sentiment for a player based on their news articles."""
         if player_id not in self.news_data:
             return None
@@ -73,17 +73,31 @@ class SentimentAnalyzer:
         news = self.news_data[player_id]
         articles = news.get('articles', [])
         
-        if len(articles) < min_articles:
-            return {'player_id': player_id, 'player_name': news['player_name'], 'team': news['team'],
-                    'article_count': len(articles), 'has_enough_articles': False,
-                    'sentiment_score': None, 'normalized_score': None}
+        if len(articles) == 0:
+            return {
+                'player_id': player_id,
+                'player_name': news['player_name'],
+                'team': news['team'],
+                'article_count': 0,
+                'has_enough_articles': False,
+                'avg_sentiment': 0.0,
+                'median_sentiment': 0.0,
+                'std_sentiment': 0.0,
+                'normalized_score': None,
+                'sentiment_distribution': {
+                    'positive': 0,
+                    'neutral': 0,
+                    'negative': 0
+                }
+            }
         
         sentiments = [self.analyze_article_sentiment(a)['combined_sentiment'] for a in articles]
         avg_sent = np.mean(sentiments)
+        has_enough = len(articles) >= min_articles
         
         return {
             'player_id': player_id, 'player_name': news['player_name'], 'team': news['team'],
-            'article_count': len(articles), 'has_enough_articles': True,
+            'article_count': len(articles), 'has_enough_articles': has_enough,
             'avg_sentiment': avg_sent, 'median_sentiment': np.median(sentiments),
             'std_sentiment': np.std(sentiments), 'normalized_score': round((avg_sent + 1) * 50, 2),
             'sentiment_distribution': {
@@ -93,7 +107,7 @@ class SentimentAnalyzer:
             }
         }
     
-    def analyze_all_players(self, min_articles: int = 50):
+    def analyze_all_players(self, min_articles: int = 5):
         """Analyze sentiment for all players with news articles."""
         print(f"\nAnalyzing sentiment for players with at least {min_articles} articles...")
         results = []
@@ -143,7 +157,7 @@ def main():
     if not analyzer.load_data():
         print("Please run data_fetcher.py first to fetch player data and news")
         return
-    analyzer.analyze_all_players(min_articles=50)
+    analyzer.analyze_all_players(min_articles=5)
     analyzer.save_results()
     print("\n✓ Sentiment analysis complete!")
 
