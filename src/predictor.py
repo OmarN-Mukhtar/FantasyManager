@@ -118,6 +118,32 @@ class PlayerPredictor:
         self.sentiment_data = self.load_sentiment_data()
         self.ensemble_weights = {'rf': 0.35, 'lgb': 0.35, 'xgb': 0.30}
         self.next_gw_fixtures = {}  # Store next GW fixtures for fixture difficulty lookup
+        self.feature_fill_values = {}
+
+    def _sanitize_feature_matrix(self, X: pd.DataFrame, fit: bool = False) -> pd.DataFrame:
+        """Coerce features to finite float values safe for sklearn models."""
+        X_clean = X.copy()
+
+        # Coerce all features to numeric and turn parse errors into NaN.
+        for col in X_clean.columns:
+            X_clean[col] = pd.to_numeric(X_clean[col], errors='coerce')
+
+        # Replace infinities and invalid values that break sklearn checks.
+        X_clean = X_clean.replace([np.inf, -np.inf], np.nan)
+
+        # Learn per-feature fill values from training data, then reuse at inference.
+        if fit:
+            medians = X_clean.median(numeric_only=True).fillna(0.0)
+            self.feature_fill_values = medians.to_dict()
+
+        for col in X_clean.columns:
+            fill_value = self.feature_fill_values.get(col, 0.0)
+            X_clean[col] = X_clean[col].fillna(fill_value)
+
+        # Bound extreme outliers to avoid float32 overflow paths in downstream libs.
+        X_clean = X_clean.clip(lower=-1e6, upper=1e6)
+
+        return X_clean.astype(np.float32)
         
     def load_sentiment_data(self):
         """Load sentiment data if available."""
@@ -345,8 +371,9 @@ class PlayerPredictor:
 
         print(f"Training data: {len(df_train)} records")
 
-        X = df_train[self.feature_cols]
-        y = df_train['total_points']
+        X_raw = df_train[self.feature_cols]
+        X = self._sanitize_feature_matrix(X_raw, fit=True)
+        y = pd.to_numeric(df_train['total_points'], errors='coerce').fillna(0.0)
 
         # Use TimeSeriesSplit for temporal validation
         tscv = TimeSeriesSplit(n_splits=5)
@@ -595,7 +622,8 @@ class PlayerPredictor:
             return None
 
         # Extract features for prediction
-        X_pred = player_recent[self.feature_cols]
+        X_pred_raw = player_recent[self.feature_cols]
+        X_pred = self._sanitize_feature_matrix(X_pred_raw, fit=False)
 
         # Get ensemble prediction with confidence interval
         ensemble_result = self._ensemble_predict(X_pred)
