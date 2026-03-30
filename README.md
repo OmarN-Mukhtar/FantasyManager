@@ -27,16 +27,16 @@ pip install -r requirements.txt
 
 ```bash
 # Run complete pipeline (test mode - 10 players)
-python run_pipeline.py --test
+python auxilliary/run_pipeline.py --test
 
 # Run full pipeline (all ~600 players - takes 1-2 hours)
-python run_pipeline.py
+python auxilliary/run_pipeline.py
 
 # Skip news fetching if you already have data
-python run_pipeline.py --skip-news
+python auxilliary/run_pipeline.py --skip-news
 
 # Launch interactive dashboard
-streamlit run src/dashboard.py
+streamlit run auxilliary/dashboard.py
 ```
 
 ## Pipeline Stages
@@ -53,7 +53,7 @@ streamlit run src/dashboard.py
 - Saves to `data/sentiment_analysis.json`
 
 ### 3. Performance Prediction (`predictor.py`)
-- Loads historical player data from `cleaned_merged_seasons.csv`
+- Loads historical player data from `data/cleaned_merged_seasons.csv`
 - Creates rolling window features (3, 5, 10 game averages)
 - Trains Random Forest models per player
 - Predicts total season points and points per match
@@ -77,7 +77,10 @@ Five interactive tabs:
 
 ```
 FantasyManager/
-├── src/
+├── sentiment/
+├── prediction/
+├── RAG/
+├── auxilliary/
 │   ├── data_fetcher.py        # Fetch players & news
 │   ├── sentiment_analyzer.py  # Sentiment analysis
 │   ├── predictor.py           # ML predictions
@@ -87,8 +90,8 @@ FantasyManager/
 │   └── llm_integration.py     # LLM integration template
 ├── data/                      # Generated data
 ├── vector_db/                 # FAISS index
-├── cleaned_merged_seasons.csv # Historical data
-├── run_pipeline.py            # Main pipeline
+├── data/cleaned_merged_seasons.csv # Historical data
+├── auxilliary/run_pipeline.py  # Main pipeline
 └── requirements.txt           # Dependencies
 ```
 
@@ -134,7 +137,7 @@ The system works 100% free without any LLM. To add natural language responses to
 3. **Test**:
    ```bash
    # Run example LLM integration
-   python src/llm_integration.py
+   python RAG/llm_integration.py
    ```
 
 **Free Tier**: 15 requests/min, 1500/day - plenty for personal FPL use!
@@ -150,13 +153,13 @@ The system works 100% free without any LLM. To add natural language responses to
 
 ```bash
 # Generate only predictions (if you have existing data)
-python src/predictor.py
+python prediction/predictor.py
 
 # Rebuild RAG index only
-python src/rag_system.py
+python RAG/rag_system.py
 
 # Run pipeline without news fetch
-python run_pipeline.py --skip-news
+python auxilliary/run_pipeline.py --skip-news
 ```
 
 ## Dashboard Features
@@ -186,7 +189,7 @@ After running the pipeline:
 ## Command Line Options
 
 ```bash
-python run_pipeline.py --help
+python auxilliary/run_pipeline.py --help
 
 Options:
   --test                Process only 10 players
@@ -200,7 +203,7 @@ Options:
 - Python 3.10+
 - ~2GB RAM for FAISS index
 - ~500MB disk space for data
-- Historical data file: `cleaned_merged_seasons.csv`
+- Historical data file: `data/cleaned_merged_seasons.csv`
 
 ## Contributing
 
