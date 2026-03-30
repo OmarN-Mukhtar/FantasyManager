@@ -4,8 +4,8 @@ emoji: ⚽
 colorFrom: green
 colorTo: blue
 sdk: streamlit
-sdk_version: 1.29.0
-app_file: app.py
+sdk_version: 1.39.0
+app_file: auxilliary/app.py
 pinned: false
 license: mit
 short_description: AI-powered Fantasy Premier League analysis with predictions & sentiment

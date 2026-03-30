@@ -5,11 +5,13 @@ on:
     branches:
       - main
     paths:
-      - 'src/**'
-      - 'app.py'
-      - 'spaces_requirements.txt'
+      - 'sentiment/**'
+      - 'prediction/**'
+      - 'RAG/**'
+      - 'auxilliary/**'
+      - 'requirements.txt'
       - 'data/**'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   sync-to-hub:
@@ -22,47 +24,39 @@ jobs:
         fetch-depth: 0
         lfs: true
         
-    - name: Push to Hugging Face Spaces
+    - name: Deploy
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN || 'not-set' }}
       run: |
-        # Install git-lfs if needed
         git lfs install
-        
-        # Configure git
+
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        
-        # Clone the Hugging Face Space repository
-        # Replace YOUR_USERNAME and YOUR_SPACE_NAME with your actual values
-        # Or use GitHub secrets for flexibility
+
         SPACE_REPO="${{ secrets.HF_SPACE_REPO }}"
-        
+
         if [ -z "$SPACE_REPO" ]; then
-          echo "⚠️ HF_SPACE_REPO secret not set. Skipping deployment."
-          echo "Set it to: https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME"
+          echo "⚠️ HF_SPACE_REPO not set. Skipping deployment."
           exit 0
         fi
-        
-        # Clone HF Space
+
         git clone https://huggingface.co/spaces/$SPACE_REPO hf-space
-        
-        # Copy necessary files (NOT README.md - Space has its own with frontmatter)
-        cp app.py hf-space/
-        cp spaces_requirements.txt hf-space/requirements.txt
-        cp -r src hf-space/
+
+        cp auxilliary/app.py hf-space/app.py
+        cp requirements.txt hf-space/requirements.txt
+        cp -r auxilliary hf-space/
+        cp -r sentiment hf-space/
+        cp -r prediction hf-space/
+        cp -r RAG hf-space/
         cp -r data hf-space/ 2>/dev/null || echo "No data directory to copy"
         
-        # Navigate to HF space directory
         cd hf-space
-        
-        # Configure HF authentication
+
         git config credential.helper store
         echo "https://user:${HF_TOKEN}@huggingface.co" > ~/.git-credentials
-        
-        # Commit and push
+
         git add .
         git diff --quiet && git diff --staged --quiet || git commit -m "🚀 Auto-deploy from GitHub Actions"
         git push
-        
+
         echo "✅ Successfully deployed to Hugging Face Spaces!"

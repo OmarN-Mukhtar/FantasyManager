@@ -42,9 +42,12 @@ mkdir -p $DEPLOY_DIR
 echo "📋 Copying files..."
 
 # Copy necessary files
-cp app.py $DEPLOY_DIR/
-cp spaces_requirements.txt $DEPLOY_DIR/requirements.txt
-cp -r src $DEPLOY_DIR/
+cp auxilliary/app.py $DEPLOY_DIR/app.py
+cp requirements.txt $DEPLOY_DIR/requirements.txt
+cp -r auxilliary $DEPLOY_DIR/
+cp -r sentiment $DEPLOY_DIR/
+cp -r prediction $DEPLOY_DIR/
+cp -r RAG $DEPLOY_DIR/
 
 # Copy data if exists
 if [ -d "data" ]; then
