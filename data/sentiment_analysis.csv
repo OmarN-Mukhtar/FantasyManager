@@ -1,3 +1,818 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b8d78b850cdc1648800e508b55d4ee8d223ffd6e09e2e598c6b34692dbbabe4c
-size 19098
+player_name,sentiment_score
+David Raya Martín,-0.2651
+Kepa Arrizabalaga Revuelta,-0.2366
+Karl Hein,-0.989
+Tommy Setford,-0.05
+Gabriel dos Santos Magalhães,-0.0979
+William Saliba,-0.5226
+Riccardo Calafiori,-0.1373
+Jurriën Timber,-0.05
+Jakub Kiwior,-0.0005
+Myles Lewis-Skelly,-0.3633
+Benjamin White,-0.3703
+Brayden Clarke,-0.9752
+Maldini Kacurri,-0.05
+Josh Nichols,-0.05
+Bukayo Saka,-0.5275
+Martin Ødegaard,-0.6918
+Noni Madueke,-0.7321
+Gabriel Martinelli Silva,-0.4858
+Leandro Trossard,-0.5912
+Declan Rice,-0.3976
+Mikel Merino Zazón,-0.9376
+Fábio Ferreira Vieira,-0.05
+Christian Nørgaard,-0.0185
+Ethan Nwaneri,-0.9828
+Martín Zubimendi Ibáñez,-0.7766
+Ismeal Kabia,-0.0123
+Albert Sambi Lokonga,-0.05
+Kai Havertz,-0.4644
+Gabriel Fernando de Jesus,-0.036
+Eberechi Eze,-0.6379
+Cristhian Mosquera,-0.1263
+Viktor Gyökeres,-0.1502
+Max Dowman,-0.4888
+Andre Harriman-Annous,-0.5247
+Piero Hincapié,-0.8901
+Marli Salmon,-0.4904
+Emiliano Martínez Romero,-0.0143
+Marco Bizot,-0.05
+Joe Gauci,-0.05
+Filip Marschall,-0.0974
+Matty Cash,0.3845
+Lucas Digne,-0.6508
+Ezri Konsa Ngoyo,0.0019
+Ian Maatsen,-0.05
+Tyrone Mings,-0.9613
+Pau Torres,-0.05
+Andrés García,-0.05
+Álex Moreno Lopera,-0.05
+Lamare Bogarde,-0.0026
+Lino da Cruz Sousa,-0.05
+Yasin Özcan,-0.05
+Morgan Rogers,-0.3879
+Youri Tielemans,-0.2553
+Leon Bailey,-0.0039
+Emiliano Buendía Stati,-0.0319
+Samuel Iling-Junior,-0.05
+Donyell Malen,0.1314
+John McGinn,-0.1306
+Ross Barkley,-0.274
+Enzo Barrenechea,-0.05
+Lewis Dobbin,-0.05
+Boubacar Kamara,-0.9987
+Amadou Onana,-0.2826
+Ben Broggio,-0.05
+Leander Dendoncker,-0.05
+Jamaldeen Jimoh-Aloba,-0.9625
+Kadan Young,-0.05
+Ollie Watkins,-0.0027
+Zépiqueno Redmond,-0.05
+Harvey Elliott,-0.259
+Jadon Sancho,-0.7768
+James Wright,-0.0205
+Douglas Luiz Soares de Paulo,-0.9644
+Triston Rowe,-0.0102
+Bradley Burrowes,-0.3244
+Sam Proctor,-0.05
+Travis Patterson,-0.05
+Victor Lindelöf,0.0026
+George Hemmings,-0.05
+Ronnie Hollingshead,-0.05
+Leon Routh,-0.05
+TJ Carroll,-0.05
+Alysson Edward Franco da Rocha dos Santos,-0.2859
+Tammy Abraham,0.0161
+Max Weiß,-0.05
+Etienne Green,-0.05
+Václav Hladký,-0.05
+Connor Roberts,-0.9614
+Kyle Walker,0.9264
+Hannes Delcroix,-0.05
+Owen Dodgson,-0.05
+Hjalmar Ekdal,-0.05
+Maxime Estève,-0.05
+Quilindschy Hartman,-0.05
+Bashir Humphreys,-0.05
+Jordan Beyer,-0.2976
+Lucas Pires Silva,-0.05
+Shurandy Sambo,-0.5262
+Oliver Sonne,-0.05
+Axel Tuanzebe,-0.0114
+Joe Worrall,-0.05
+Jaidon Anthony,-0.05
+Manuel Benson Hedilazio,-0.05
+Jacob Bruun Larsen,-0.05
+Enock Agyei,-0.05
+Darko Churlinov,-0.05
+Josh Cullen,-0.9673
+Marcus Edwards,-0.9522
+Hannibal Mejbri,-0.05
+Luca Koleosho,-0.05
+Josh Laurent,-0.9799
+Loum Tchaouna,-0.05
+Aaron Ramsey,-0.05
+Oluwaseun Adewumi,-0.05
+Jaydon Banel,-0.05
+Mike Trésor Ndayishimiye,-0.05
+Zian Flemming,-0.0901
+Zeki Amdouni,-0.9662
+Lyle Foster,-0.8109
+Ashley Barnes,-0.05
+Michael Obafemi,-0.05
+Martin Dúbravka,-0.4071
+James Ward-Prowse,-0.05
+Lesley Ugochukwu,-0.5847
+Armando Broja,-0.05
+Florentino Ibrain Morris Luís,-0.9933
+Oliver Pimlott,-0.1231
+George Brierley,-0.1231
+Norberto Murara Neto,-0.05
+Đorđe Petrović,-0.987
+Will Dennis,-0.05
+Callan McKenna,-0.05
+Alex Paulsen,-0.05
+Illia Zabarnyi,-0.05
+Marcos Senesi Barón,-0.3793
+Adam Smith,-0.05
+Adrien Truffert,-0.0086
+Matai Akinmboni,-0.05
+Owen Bevan,-0.05
+James Hill,0.0006
+Julián Araujo Zúñiga,-0.05
+Chris Mepham,-0.05
+Julio Soler Barreto,-0.05
+Justin Kluivert,-0.05
+Marcus Tavernier,-0.878
+Tyler Adams,-0.7309
+David Brooks,-0.05
+Ryan Christie,-0.5532
+Lewis Cook,-0.9633
+Philip Billing,-0.05
+Alex Scott,0.0691
+Luis Sinisterra Lucumí,-0.05
+Romain Faivre,-0.05
+Hamed Traorè,-0.05
+Dominic Sadi,-0.05
+Zain Silcott-Duberry,-0.05
+Ben Winterburn,-0.05
+Francisco Evanilson de Lima Barbosa,-0.05
+Enes Ünal,-0.05
+Daniel Adu-Adjei,-0.05
+Junior Kroupi,-0.407
+Ben Gannon-Doak,-0.3949
+Bafodé Diakité,-0.05
+Remy Rees-Dottin,-0.233
+Amine Adli,-0.05
+Álex Jiménez Sánchez,-0.05
+Veljko Milosavljevic,-0.5532
+Malcom DaCosta,-0.05
+Fraser Forster,-0.05
+Charlie Stevens,-0.878
+Alex Tóth,-0.05
+Christos Mandas,-0.4955
+Rayan Vitor Simplício Rocha,-0.05
+Reiss Nelson,-0.05
+Dango Ouattara,-0.05
+Caoimhín Kelleher,-0.4995
+Ellery Balcombe,-0.05
+Matthew Cox,-0.3432
+Julian Eyestone,-0.05
+Hákon Rafn Valdimarsson,-0.05
+Nathan Collins,-0.1742
+Keane Lewis-Potter,-0.399
+Kristoffer Ajer,-0.9992
+Rico Henry,-0.05
+Michael Kayode,-0.1417
+Ethan Pinnock,-0.8644
+Mads Roerslev Rasmussen,-0.05
+Sepp van den Berg,-0.05
+Benjamin Arthur,-0.0011
+Benjamin Fredrick,-0.0126
+Aaron Hickey,-0.05
+Kim Ji-soo,-0.05
+Jayden Meghoma,-0.9213
+Kevin Schade,-0.9934
+Mikkel Damsgaard,-0.399
+Antoni Milambo,-0.05
+Fábio Freitas Gouveia Carvalho,-0.05
+Jordan Henderson,-0.6338
+Vitaly Janelt,-0.05
+Mathias Jensen,-0.05
+Gustavo Nunes Fernandes Gomes,-0.05
+Frank Onyeka,-0.8274
+Yehor Yarmoliuk,-0.9816
+Romelle Donovan,-0.05
+Yunus Emre Konak,-0.05
+Paris Maghoma,-0.4862
+Myles Peart-Harris,-0.05
+Ryan Trevitt,-0.6534
+Igor Thiago Nascimento Rodrigues,0.2219
+Iwan Morgan,-0.05
+Josh Dasilva,-0.05
+Kaye Furo,-0.05
+Luka Bentt,-0.05
+Jason Steele,-0.4669
+Bart Verbruggen,-0.4942
+Tom McGill,-0.9995
+Carl Rushworth,-0.3971
+Kjell Scherpen,-0.05
+Olivier Boscagli,-0.005
+Diego Coppola,-0.0203
+Maxim De Cuyper,-0.05
+Lewis Dunk,-0.05
+Pervis Estupiñán Tenorio,-0.2293
+Ferdi Kadıoğlu,0.2759
+Igor Julio dos Santos de Paulo,-0.05
+Tariq Lamptey,0.4114
+Jan Paul van Hecke,-0.3366
+Joël Veltman,-0.05
+Adam Webster,-0.05
+Eiran Cashin,-0.05
+Jacob Slater,-0.05
+Charlie Tasker,-0.05
+Mitoma Kaoru,-0.7172
+Georginio Rutter,-0.7727
+Solly March,-0.05
+Yankuba Minteh,-0.2995
+Julio Enciso Espínola,-0.05
+Brajan Gruda,-0.05
+Jack Hinshelwood,-0.2102
+Matt O'Riley,-0.5265
+Abdallah Sima,-0.05
+Yasin Ayari,-0.05
+Carlos Baleba,-0.2893
+Diego Gómez Amarilla,-0.1887
+James Milner,-0.1811
+Jeremy Sarmiento Morante,0.0004
+Tom Watson,-0.963
+Mats Wieffer,-0.05
+Malick Yalcouyé,-0.05
+Joe Knight,-0.05
+Adrian Mazilu,-0.05
+Andrew Moran,-0.05
+Danny Welbeck,-0.789
+Evan Ferguson,0.0084
+Stefanos Tzimas,-0.05
+Charalampos Kostoulas,-0.9881
+Nehemiah Oriola,-0.05
+Freddie Simmonds,-0.0661
+Pascal Groß,0.0144
+Harry Howell,-0.05
+Robert Lynch Sánchez,0.0082
+Filip Jörgensen,-0.4394
+Mike Penders,-0.0063
+Gabriel Słonina,-0.05
+Marc Cucurella Saseta,-0.5022
+Reece James,-0.6552
+Trevoh Chalobah,-0.6192
+Levi Samuels Colwill,-0.3386
+Malo Gusto,-0.2713
+Benoît Badiashile Mukinayi,-0.05
+Wesley Fofana,-0.0112
+Mamadou Sarr,-0.05
+Tosin Adarabioyo,-0.05
+Josh Acheampong,-0.5495
+Aarón Anselmino,-0.05
+Cole Palmer,-0.7607
+Pedro Lomba Neto,-0.547
+Enzo Fernández,0.0058
+Estêvão Almeida de Oliveira Gonçalves,-0.0418
+Jamie Bynoe-Gittens,-0.9681
+Christopher Nkunku,-0.5116
+Moisés Caicedo Corozo,-0.0052
+Roméo Lavia,-0.9916
+Mykhailo Mudryk,-0.9948
+Andrey Nascimento dos Santos,-0.0453
+Dário Luís Essugo,-0.05
+Kendry Páez Andrade,-0.3098
+João Pedro Junqueira de Jesus,-0.3394
+Liam Delap,-0.0789
+Nicolas Jackson,-0.05
+Marc Guiu Paz,-0.05
+Alejandro Garnacho Ferreyra,-0.9858
+Jorrel Hato,-0.2656
+Landon Emenalo,-0.2888
+Max Merrick,-0.05
+Teddy Sharman-Lowe,-0.05
+Dean Henderson,-0.0209
+Walter Benítez,-0.05
+Remi Matthews,-0.05
+Daniel Muñoz Mejía,-0.1611
+Maxence Lacroix,-0.2119
+Tyrick Mitchell,-0.4796
+Borna Sosa,-0.0009
+Chris Richards,-0.972
+Chadi Riad Dnanou,-0.05
+Nathaniel Clyne,-0.05
+Rob Holding,-0.05
+Caleb Kporha,-0.05
+Ismaïla Sarr,-0.9873
+Cheick Doucouré,-0.0345
+Romain Esse,-0.05
+Will Hughes,0.002
+Daichi Kamada,-0.05
+Jefferson Lerma Solís,-0.0061
+Adam Wharton,-0.3329
+Asher Agbinone,-0.05
+Naouirou Ahamada,-0.05
+Justin Devenny,-0.05
+Malcolm Ebiowei,-0.05
+Jesurun Rak-Sakyi,-0.05
+Matheus França de Oliveira,-0.05
+David Ozoh,-0.05
+Kaden Rodney,-0.9502
+Franco Umeh-Chibueze,-0.05
+Jean-Philippe Mateta,-0.4338
+Eddie Nketiah,-0.0018
+Odsonne Édouard,-0.05
+Zach Marsh,-0.05
+Brennan Johnson,-0.5548
+Jørgen Strand Larsen,-0.3332
+Evann Guessand,-0.3858
+Rio Cardines,-0.05
+Yéremy Pino Santos,-0.05
+Jaydee Canvot,-0.4902
+Christantus Uche,-0.05
+Joél Drakes-Thomas,-0.0036
+Dean Benamar,-0.05
+Ben Casey,-0.05
+George King,-0.05
+Danny Imray,-0.05
+Kiernan Dewsbury-Hall,-0.3974
+Tyrique George,-0.6705
+Jordan Pickford,-0.0242
+Mark Travers,-0.05
+Harry Tyrer,-0.05
+Jarrad Branthwaite,-0.0528
+James Tarkowski,-0.5146
+Vitalii Mykolenko,-0.1131
+Jake O'Brien,-0.4763
+Séamus Coleman,0.1663
+Michael Keane,-0.5718
+Nathan Patterson,-0.3537
+Roman Dixon,-0.05
+Reece Welch,-0.05
+Iliman Ndiaye,-0.425
+Dwight McNeil,-0.4071
+Carlos Alcaraz Durán,-0.0188
+Idrissa Gana Gueye,-0.05
+James Garner,-0.2811
+Tim Iroegbunam,-0.05
+Harrison Armstrong,-0.7758
+Callum Bates,-0.05
+Coby Ebere,-0.0017
+Isaac Heath,-0.05
+Jenson Metcalfe,-0.0982
+Thierno Barry,-0.4534
+Norberto Bercique Gomes Betuncal,-0.05
+Youssef Ramalho Chermiti,-0.05
+Martin Sherif,-0.3199
+Jack Grealish,-0.4515
+Tom King,-0.05
+Adam Aznou,-0.5927
+Tyler Onyango,-0.05
+Elijah Campbell,-0.05
+Tyler Dibling,-0.9986
+Merlin Röhl,-0.05
+Braiden Graham,-0.05
+Bernd Leno,-0.6742
+Steven Benda,-0.05
+Antonee Robinson,-0.3582
+Joachim Andersen,-0.937
+Calvin Bassey,-0.4943
+Timothy Castagne,-0.9572
+Issa Diop,-0.1249
+Jorge Cuenca Barreno,-0.05
+Kenny Tete,-0.9853
+Samuel Amissah,-0.05
+Alex Iwobi,-0.122
+Emile Smith Rowe,-0.05
+Andreas Hoelgebaum Pereira,-0.05
+Ryan Sessegnon,-0.8697
+Harry Wilson,-0.3163
+Sander Berge,-0.9471
+Tom Cairney,-0.8879
+Saša Lukić,-0.05
+Martial Godo,-0.05
+Luke Harris,-0.05
+Josh King,-0.005
+Harrison Reed,-0.9105
+Raúl Jiménez Rodríguez,0.122
+Rodrigo Muniz Carvalho,-0.05
+Oscar Bobb,-0.05
+Benjamin Lecomte,-0.05
+Samuel Chukwueze,-0.0272
+Kevin Santos Lopes de Macedo,-0.0159
+Jonah Kusi-Asare,-0.9925
+Seth Ridgeon,-0.05
+Alfie McNally,-0.0852
+Facundo Buonanotte,-0.9995
+Illan Meslier,-0.3487
+Alex Cairns,-0.05
+Karl Darlow,-0.0335
+Jayden Bogle,-0.2964
+Pascal Struijk,-0.2081
+Jaka Bijol,-0.05
+Sebastiaan Bornauw,-0.05
+Sam Byram,-0.3003
+Gabriel Gudmundsson,-0.4336
+Joe Rodon,-0.1227
+Isaac Schmidt,-0.05
+Brenden Aaronson,-0.4792
+Wilfried Gnonto,-0.4975
+Jack Harrison,-0.4547
+Daniel James,-0.5805
+Ethan Ampadu,-0.1041
+Sam Greenwood,-0.9512
+Ilia Gruev,-0.0058
+Largie Ramazani,-0.702
+Tanaka Ao,-0.981
+Charlie Crew,-0.05
+Joe Gelhardt,-0.05
+Darko Gyabi,-0.05
+Joël Piroe,-0.7658
+Patrick Bamford,-0.0114
+Mateo Joseph Fernández-Regatillo,-0.3547
+Lukas Nmecha,-0.05
+Sean Longstaff,-0.05
+Anton Stach,-0.1146
+Lucas Estella Perri,-0.05
+Dominic Calvert-Lewin,-0.0492
+Noah Okafor,-0.518
+James Justin,-0.05
+Harry Gray,-0.05
+Sam Chambers,-0.05
+Alisson Becker,-0.05
+Giorgi Mamardashvili,-0.5975
+Ármin Pécsi,-0.05
+Freddie Woodman,-0.05
+Jeremie Frimpong,-0.6343
+Milos Kerkez,-0.6258
+Andrew Robertson,-0.305
+Virgil van Dijk,-0.05
+Ibrahima Konaté,-0.4431
+Conor Bradley,-0.502
+Joe Gomez,-0.2281
+Konstantinos Tsimikas,-0.0109
+Amara Nallo,-0.05
+Rhys Williams,-0.05
+Calvin Ramsay,-0.9972
+Mohamed Salah,-0.0581
+Florian Wirtz,-0.1821
+Luis Díaz Marulanda,-0.05
+Cody Gakpo,-0.0666
+Federico Chiesa,-0.8335
+Alexis Mac Allister,-0.4915
+Dominik Szoboszlai,-0.5986
+Curtis Jones,-0.05
+Ryan Gravenberch,-0.4887
+Endo Wataru,-0.05
+Stefan Bajčetić Maquieira,-0.0854
+James McConnell,-0.05
+Tyler Morton,-0.05
+Trey Nyoni,-0.0016
+Darwin Núñez Ribeiro,-0.9868
+Jayden Danns,-0.9747
+Alexander Isak,-0.4271
+Hugo Ekitiké,-0.9913
+Rio Ngumoha,-0.0011
+Giovanni Leoni,-0.345
+Kieran Morrison,-0.3392
+Wellity Lucky,-0.05
+Antoine Semenyo,-0.8159
+James Trafford,-0.2846
+Marc Guéhi,-0.5567
+Ederson Santana de Moraes,-0.9779
+Marcus Bettinelli,-0.05
+Rayan Aït-Nouri,-0.8368
+Joško Gvardiol,-0.848
+Manuel Akanji,-0.3464
+Nathan Aké,-0.609
+Abdukodir Khusanov,-0.0176
+Matheus Nunes,-0.05
+Rúben dos Santos Gato Alves Dias,-0.2121
+John Stones,-0.585
+Rico Lewis,0.0
+Nico O'Reilly,-0.1018
+Vitor de Oliveira Nunes dos Reis,-0.1107
+Omar Marmoush,-0.3042
+Phil Foden,-0.4479
+Sávio Moreira de Oliveira,-0.05
+Bernardo Mota Veiga de Carvalho e Silva,-0.5917
+Rayan Cherki,-0.1453
+Jérémy Doku,-0.1451
+İlkay Gündoğan,-0.0067
+Rodrigo 'Rodri' Hernandez Cascante,-0.0187
+Mateo Kovačić,-0.0099
+Nico González Iglesias,-0.05
+Claudio Echeverri,-0.9892
+Tijjani Reijnders,-0.4175
+Sverre Nypan,-0.0743
+Kalvin Phillips,-0.0192
+Erling Haaland,-0.4652
+Gianluigi Donnarumma,-0.2111
+Divine Mukasa,0.4562
+Stephen Mfuni,-0.05
+Ryan McAidoo,-0.05
+Charlie Gray,-0.05
+Reigan Heskey,-0.05
+Max Alleyne,-0.05
+Bryan Mbeumo,-0.468
+Altay Bayındır,-0.4788
+André Onana,-0.2881
+Elyh Harrison,-0.05
+Tom Heaton,-0.1092
+Dermot Mee,-0.05
+Matthijs de Ligt,-0.0828
+Lisandro Martínez,-0.9428
+Noussair Mazraoui,0.4892
+Diego León Blanco,-0.05
+Diogo Dalot Teixeira,-0.3802
+Patrick Dorgu,-0.5057
+Harry Maguire,-0.4231
+Luke Shaw,-0.2602
+Leny Yoro,0.1536
+Harry Amass,-0.5245
+Tyler Fredricson,-0.0958
+Ayden Heaven,0.1896
+Tyrell Malacia,-0.231
+Bruno Borges Fernandes,-0.05
+Matheus Santos Carneiro da Cunha,-0.0149
+Marcus Rashford,-0.565
+Amad Diallo,-0.05
+Antony dos Santos,-0.05
+Mason Mount,-0.6909
+Carlos Henrique Casimiro,-0.5582
+Kobbie Mainoo,-0.2384
+Manuel Ugarte Ribeiro,-0.5232
+Toby Collyer,-0.975
+Jayce Fitzgerald,-0.05
+Jack Fletcher,-0.05
+Sékou Koné,-0.05
+Jack Moorhouse,-0.05
+Rasmus Højlund,-0.561
+Joshua Zirkzee,-0.6077
+Chido Obi,-0.05
+Ethan Wheatley,-0.975
+Benjamin Sesko,-0.1414
+Senne Lammens,-0.4225
+Shea Lacey,-0.9846
+Bendito Mantato,-0.9982
+Tyler Fletcher,0.4917
+Godwill Kukonki,0.1091
+Jacob Ramsey,-0.05
+Yoane Wissa,-0.4477
+Nick Pope,-0.0246
+Mark Gillespie,-0.05
+Odysseas Vlachodimos,-0.05
+Lewis Hall,-0.2614
+Fabian Schär,-0.439
+Sven Botman,-0.6246
+Dan Burn,-0.8034
+Tino Livramento,-0.6568
+Kieran Trippier,-0.7142
+Emil Krafth,-0.9703
+Jamaal Lascelles,-0.015
+Alex Murphy,-0.5048
+Harrison Ashby,-0.05
+Miodrag Pivaš,-0.05
+Matt Targett,-0.6297
+Anthony Gordon,-0.6421
+Anthony Elanga,-0.3647
+Harvey Barnes,-0.0289
+Bruno Guimarães Rodriguez Moura,-0.05
+Jacob Murphy,-0.05
+Joelinton Cássio Apolinário de Lira,-0.05
+Sandro Tonali,-0.2657
+Antoñito Cordero Campillo,-0.05
+Joe Willock,-0.4999
+Isaac Hayden,-0.05
+Garang Kuol,-0.05
+Lewis Miley,-0.05
+Joe White,-0.05
+William Osula,-0.6509
+Sean Neave,-0.9524
+Aaron Ramsdale,-0.5361
+Malick Thiaw,-0.3699
+Seung-Soo Park,-0.05
+Nick Woltemade,-0.5329
+John Ruddy,-0.05
+Leo Shahar,-0.05
+Sam Alabi,-0.05
+Oleksandr Zinchenko,-0.9935
+Stefan Ortega Moreno,-0.05
+James McAtee,-0.3348
+Matz Sels,-0.3321
+Carlos Miguel dos Santos Pereira,-0.0745
+Matt Turner,-0.5911
+Nikola Milenković,-0.085
+Murillo Costa dos Santos,-0.6195
+Ola Aina,-0.7319
+Neco Williams,-0.05
+David Mota Veiga Teixeira do Carmo,-0.05
+Jair Paula da Cunha Filho,-0.05
+Felipe Rodrigues da Silva,-0.05
+Omar Richards,-0.05
+Zach Abbott,-0.05
+Willy Boly,-0.9891
+Morgan Gibbs-White,-0.2184
+Callum Hudson-Odoi,0.0114
+Elliot Anderson,-0.3361
+João Pedro Ferreira da Silva,-0.05
+Nicolás Domínguez,-0.05
+Lewis O'Brien,-0.05
+Ibrahim Sangaré,-0.05
+Ryan Yates,-0.9891
+Eric da Silva Moreira,-0.8829
+Marko Stamenić,-0.05
+Chris Wood,-0.2955
+Igor Jesus Maciel da Cruz,-0.05
+Taiwo Awoniyi,-0.5006
+Dan Ndoye,-0.4846
+Angus Gunn,-0.05
+Omari Hutchinson,-0.085
+Arnaud Kalimuendo,-0.05
+John Victor Maciel Furtado,-0.05
+Nicolò Savona,-0.05
+Luis Eduardo Soares da Silva,-0.05
+Dilane Bakwa,-0.05
+Lorenzo Lucca,-0.5228
+Luca Netz,-0.9947
+Anthony Patterson,-0.8069
+Simon Moore,-0.05
+Blondy Nna Noukeu,-0.05
+Daniel Ballard,0.1324
+Trai Hume,-0.324
+Aji Alese,-0.05
+Joe Anderson,-0.05
+Dennis Cirkin,-0.05
+Leo Fuhr Hjelde,-0.05
+Niall Huggins,-0.05
+Zak Johnson,-0.0058
+Luke O'Nien,-0.0044
+Timothée Pembélé,-0.05
+Reinildo Mandava,-0.05
+Jenson Seelt,-0.05
+Simon Adingra,-0.6763
+Habib Diarra,-0.976
+Patrick Roberts,-0.05
+Milan Aleksić,-0.05
+Enzo Le Fée,-0.05
+Romaine Mundle,-0.9861
+Dan Neil,-0.1381
+Ian Poveda-Ocampo,-0.4889
+Chris Rigg,0.0685
+Noah Sadiki,-0.05
+Chemsdine Talbi,0.0217
+Abdoullah Ba,-0.05
+Alan Browne,-0.9923
+Pierre Ekwah Elimby,-0.05
+Harrison Jones,-0.2152
+Jay Matete,-0.05
+Nectarios Triantis,-0.05
+Wilson Isidor,-0.9868
+Eliezer Mayenda Dossou,-0.0065
+Ahmed Abdullahi,-0.9679
+Luís Hemir Silva Semedo,-0.05
+Nazarii Rusyn,-0.05
+Granit Xhaka,-0.058
+Robin Roefs,-0.5164
+Arthur Masuaku,-0.05
+Omar Alderete,-0.6415
+Nordi Mukiele,-0.6388
+Lutsharel Geertruida,-0.4327
+Brian Brobbey,-0.0382
+Bertrand Traoré,-0.05
+Jenson Jones,-0.7796
+Tymur Tutierov,-0.9981
+Djiamgone Jocelin Ta Bi,-0.9614
+Melker Ellborg,-0.9321
+Nilson Angulo,-0.9429
+Guglielmo Vicario,-0.7997
+Brandon Austin,-0.05
+Antonín Kinský,-0.05
+Pedro Porro Sauceda,-0.6719
+Cristian Romero,-0.5445
+Kevin Danso,-0.4541
+Ben Davies,-0.5032
+Radu Drăgușin,-0.7832
+Djed Spence,-0.5124
+Destiny Udogie,-0.3589
+Micky van de Ven,-0.5839
+Ashley Phillips,-0.05
+Takai Kōta,-0.05
+Luka Vušković,-0.2878
+Son Heung-min,-0.7536
+James Maddison,-0.3778
+Mohammed Kudus,-0.4163
+Dejan Kulusevski,-0.6164
+Mathys Tel,-0.7686
+Rodrigo Bentancur,-0.4644
+Lucas Bergvall,-0.4837
+Yves Bissouma,-0.9847
+Wilson Odobert,-0.0033
+Manor Solomon,-0.05
+Bryan Gil Salvatierra,-0.05
+Archie Gray,-0.7058
+Mikey Moore,-0.6029
+Pape Matar Sarr,-0.05
+Yang Min-hyeok,-0.96
+Callum Olusesi,-0.05
+Dominic Solanke-Mitchell,-0.7121
+Richarlison de Andrade,-0.9079
+Will Lankshear,-0.3502
+Dane Scarlett,-0.8533
+João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,-0.05
+Xavi Simons,-0.9944
+Randal Kolo Muani,-0.3943
+Jun'ai Byfield,-0.05
+James Rowswell,-0.05
+Yusuf Akhamrich,-0.05
+Lucá Williams-Barnett,-0.0066
+Conor Gallagher,-0.05
+João Victor de Souza Menezes,-0.05
+Rio Kyerematen,-0.05
+Adama Traoré Diarra,-0.9987
+Alphonse Areola,-0.9761
+Wes Foderingham,-0.05
+Krisztián Hegyi,-0.05
+El Hadji Malick Diouf,0.0838
+Emerson Palmieri dos Santos,-0.05
+Maximilian Kilman,-0.9925
+Konstantinos Mavropanos,-0.7376
+Nayef Aguerd,-0.05
+Ollie Scarles,-0.05
+Jean-Clair Todibo,-0.557
+Aaron Wan-Bissaka,-0.4897
+Kaelan Casey,-0.05
+Lucas Tolentino Coelho de Lima,-0.05
+Tomáš Souček,-0.2736
+Crysencio Summerville,-0.2591
+Edson Álvarez Velázquez,0.051
+Maxwel Cornet,-0.0372
+Guido Rodríguez,-0.05
+Luis Guilherme Lira dos Santos,-0.05
+George Earthy,-0.9928
+Andy Irving,-0.5481
+Lewis Orford,-0.0025
+Freddie Potts,-0.9971
+Jarrod Bowen,-0.4428
+Niclas Füllkrug,-0.6674
+Callum Marshall,-0.6678
+Kyle Walker-Peters,-0.05
+Callum Wilson,-0.5299
+Mads Hermansen,-0.2133
+Mateus Gonçalo Espanha Fernandes,-0.0767
+Soungoutou Magassa,-0.5952
+Lukasz Fabianski,-0.9301
+Ezra Mayers,0.49
+Airidas Golambeckis,-0.05
+Mohamadou Kanté,-0.6569
+Pablo Felipe Pereira de Jesus,-0.9878
+Valentín Castellanos,-0.05
+Keiber Lamadrid,-0.4895
+Axel Disasi,-0.6573
+Sam Johnstone,-0.5192
+José Malheiro de Sá,-0.05
+Daniel Bentley,-0.05
+Emmanuel Agbadou,-0.05
+Matt Doherty,-0.05
+Hugo Bueno López,-0.05
+Yerson Mosquera Valdelamar,-0.0061
+Rodrigo Martins Gomes,-0.05
+Santiago Ignacio Bueno,-0.05
+Toti Gomes,-0.05
+Ki-Jana Hoever,-0.9944
+Bastien Meupiyou Menadjou,-0.05
+Pedro Cardoso de Lima,-0.05
+Alfie Pond,-0.05
+Hwang Hee-chan,-0.05
+André Trindade da Costa Neto,-0.05
+Jean-Ricner Bellegarde,-0.05
+Fer López González,-0.0036
+João Victor Gomes da Silva,-0.05
+Gonçalo Manuel Ganchinho Guedes,-0.0177
+Marshall Munetsi,-0.05
+Boubacar Traoré,-0.05
+Tawanda Chirewa,-0.05
+Tom Edozie,-0.05
+Enso González Medina,-0.05
+Joe Hodge,-0.05
+Fábio Soares Silva,-0.05
+Saša Kalajdžić,-0.05
+Leon Chiwome,-0.05
+Nathan Fraser,-0.05
+Jhon Arias,-0.05
+David Møller Wolfe,-0.9765
+Jackson Tchatchoua,0.0117
+Ladislav Krejcí,-0.1891
+Tolu Arokodare,-0.05
+Mateus Mané,0.0022
+Saheed Olagunju,-0.05
+Luke Rawlings,-0.5979
+Temple Ojinnaka,-0.9912
+Ethan Sutherland,-0.05
+Jerome Abbey,-0.05
+Angel Gomes,-0.05
+Adam Armstrong,-0.31
