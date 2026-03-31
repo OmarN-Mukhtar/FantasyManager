@@ -84,7 +84,7 @@ def build_vectorstore():
             )
         )
 
-    vs = PineconeVectorStore(embeddings=embeddings, index=index)
+    vs = PineconeVectorStore(embedding=embeddings, index=index)
     vs.add_documents(docs)
     return vs
 
