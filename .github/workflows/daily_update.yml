@@ -52,6 +52,8 @@ jobs:
         python prediction/predictor.py
 
     - name: Step 4 - Build RAG vector database
+      env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
         python RAG/langchain_rag.py
 
