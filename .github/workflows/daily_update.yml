@@ -42,6 +42,7 @@ jobs:
     - name: Step 1 - Fetch FPL data and news
       run: |
         python auxilliary/data_fetcher.py
+        python prediction/update_current_season.py
 
     - name: Step 2 - Run sentiment analysis
       run: |
@@ -66,9 +67,9 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # Add generated data files and vector database
-        git add data/players.json data/news.json data/predictions.json data/sentiment_analysis.json data/players_with_sentiment.csv data/qualified_players.csv 2>/dev/null || true
-        git add vector_db/langchain_faiss/* 2>/dev/null || true
+        # Add generated data files
+        git add data/cleaned_merged_seasons.csv data/players.csv data/players.json data/news.json data/predictions.csv data/predictions.json data/sentiment_analysis.csv data/sentiment_analysis.json 2>/dev/null || true
+    
         
         # Only commit if there are staged changes
         if git diff --staged --quiet; then
