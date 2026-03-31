@@ -12,6 +12,7 @@ on:
       - 'requirements.txt'
       - 'data/predictions.json'
       - 'data/news.json'
+      - 'README.md'
   workflow_dispatch:
 
 jobs:
@@ -46,6 +47,7 @@ jobs:
         # Clean up everything to ensure no stale files
         rm -rf hf-space/*
 
+        cp README.md hf-space/README.md
         cp auxilliary/app.py hf-space/app.py
         cp requirements.txt hf-space/requirements.txt
         cp -r auxilliary hf-space/
