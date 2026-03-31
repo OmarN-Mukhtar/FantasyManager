@@ -55,8 +55,7 @@ jobs:
     - name: Step 4 - Build RAG vector database
       env:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
-        HUGGINGFACEHUB_API_TOKEN: ${{ secrets.HUGGINGFACEHUB_API_TOKEN }}        
+        PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}      
       run: |
         python RAG/langchain_rag.py
 

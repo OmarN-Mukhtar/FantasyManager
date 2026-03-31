@@ -3,12 +3,13 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 # Chat Imports
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_google_genai import ChatGoogleGenerativeAI
 # Embeddings Imports
 from langchain_huggingface import HuggingFaceEmbeddings
 # Vector Store Imports
 from pinecone import Pinecone
 from langchain_core.documents import Document
+from langchain_community.docstore.in_memory import InMemoryDocstore
 from langchain_pinecone import PineconeVectorStore
 # RAG Imports
 from langchain.agents import create_agent
@@ -18,16 +19,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(PROJECT_ROOT / ".env")
 
 #1) Chat Model
-hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN") 
-
-llm = HuggingFaceEndpoint(
-repo_id="Qwen/Qwen2.5-7B-Instruct",
-task="text-generation",
-huggingfacehub_api_token=hf_token,
-max_new_tokens=512
-)
-
-model = ChatHuggingFace(llm=llm)
+google_api_key = os.getenv("GOOGLE_API_KEY")
+model = ChatGoogleGenerativeAI(model='gemini-2.5-flash-lite', google_api_key=google_api_key)
 
 #2) Embeddings Model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -206,4 +199,3 @@ These are the rules for FPL: # Fantasy Premier League Team Selection Rules
 """
 
 agent = create_agent(model=model, tools=tools, system_prompt=prompt)
-
