@@ -1,3 +1,6538 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16eb904637165269a6e7de92b527ddbb2dd6400ee8b45d65bd75e1645d0542d9
-size 133440
+{
+  "David Raya Mart\u00edn": {
+    "player_name": "David Raya Mart\u00edn",
+    "position": "GK",
+    "team": "Arsenal",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.71,
+    "current_season_points": 129.0
+  },
+  "Kepa Arrizabalaga Revuelta": {
+    "player_name": "Kepa Arrizabalaga Revuelta",
+    "position": "GK",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.59,
+    "current_season_points": 0.0
+  },
+  "Karl Hein": {
+    "player_name": "Karl Hein",
+    "position": "GK",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.74,
+    "current_season_points": 0.0
+  },
+  "Tommy Setford": {
+    "player_name": "Tommy Setford",
+    "position": "GK",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.73,
+    "current_season_points": 0.0
+  },
+  "Gabriel dos Santos Magalh\u00e3es": {
+    "player_name": "Gabriel dos Santos Magalh\u00e3es",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 13.18,
+    "current_season_points": 173.0
+  },
+  "William Saliba": {
+    "player_name": "William Saliba",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.02,
+    "current_season_points": 107.0
+  },
+  "Riccardo Calafiori": {
+    "player_name": "Riccardo Calafiori",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.81,
+    "current_season_points": 93.0
+  },
+  "Jurri\u00ebn Timber": {
+    "player_name": "Jurri\u00ebn Timber",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.87,
+    "current_season_points": 149.0
+  },
+  "Jakub Kiwior": {
+    "player_name": "Jakub Kiwior",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 0.0
+  },
+  "Myles Lewis-Skelly": {
+    "player_name": "Myles Lewis-Skelly",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.59,
+    "current_season_points": 12.0
+  },
+  "Benjamin White": {
+    "player_name": "Benjamin White",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.58,
+    "current_season_points": 30.0
+  },
+  "Brayden Clarke": {
+    "player_name": "Brayden Clarke",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.04,
+    "current_season_points": 0.0
+  },
+  "Maldini Kacurri": {
+    "player_name": "Maldini Kacurri",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Josh Nichols": {
+    "player_name": "Josh Nichols",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.84,
+    "current_season_points": 0.0
+  },
+  "Bukayo Saka": {
+    "player_name": "Bukayo Saka",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 1.0,
+    "predicted_next_gw_points": 8.31,
+    "current_season_points": 133.0
+  },
+  "Martin \u00d8degaard": {
+    "player_name": "Martin \u00d8degaard",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 1.1,
+    "current_season_points": 62.0
+  },
+  "Noni Madueke": {
+    "player_name": "Noni Madueke",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 3.25,
+    "current_season_points": 54.0
+  },
+  "Gabriel Martinelli Silva": {
+    "player_name": "Gabriel Martinelli Silva",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 4.35,
+    "current_season_points": 47.0
+  },
+  "Leandro Trossard": {
+    "player_name": "Leandro Trossard",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 1.31,
+    "current_season_points": 99.0
+  },
+  "Declan Rice": {
+    "player_name": "Declan Rice",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 6.75,
+    "current_season_points": 163.0
+  },
+  "Mikel Merino Zaz\u00f3n": {
+    "player_name": "Mikel Merino Zaz\u00f3n",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.85,
+    "current_season_points": 66.0
+  },
+  "F\u00e1bio Ferreira Vieira": {
+    "player_name": "F\u00e1bio Ferreira Vieira",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Christian N\u00f8rgaard": {
+    "player_name": "Christian N\u00f8rgaard",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.09,
+    "current_season_points": 6.0
+  },
+  "Ethan Nwaneri": {
+    "player_name": "Ethan Nwaneri",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 8.0
+  },
+  "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez": {
+    "player_name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.58,
+    "current_season_points": 117.0
+  },
+  "Ismeal Kabia": {
+    "player_name": "Ismeal Kabia",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 0.0
+  },
+  "Albert Sambi Lokonga": {
+    "player_name": "Albert Sambi Lokonga",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Kai Havertz": {
+    "player_name": "Kai Havertz",
+    "position": "FWD",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 3.61,
+    "current_season_points": 12.0
+  },
+  "Gabriel Fernando de Jesus": {
+    "player_name": "Gabriel Fernando de Jesus",
+    "position": "FWD",
+    "team": "Arsenal",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.0,
+    "current_season_points": 17.0
+  },
+  "Eberechi Eze": {
+    "player_name": "Eberechi Eze",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 6.85,
+    "current_season_points": 94.0
+  },
+  "Cristhian Mosquera": {
+    "player_name": "Cristhian Mosquera",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.71,
+    "current_season_points": 28.0
+  },
+  "Viktor Gy\u00f6keres": {
+    "player_name": "Viktor Gy\u00f6keres",
+    "position": "FWD",
+    "team": "Arsenal",
+    "now_cost": 0.9,
+    "predicted_next_gw_points": 7.25,
+    "current_season_points": 101.0
+  },
+  "Max Dowman": {
+    "player_name": "Max Dowman",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.43,
+    "current_season_points": 11.0
+  },
+  "Andre Harriman-Annous": {
+    "player_name": "Andre Harriman-Annous",
+    "position": "MID",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.49,
+    "current_season_points": 0.0
+  },
+  "Piero Hincapi\u00e9": {
+    "player_name": "Piero Hincapi\u00e9",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.94,
+    "current_season_points": 74.0
+  },
+  "Marli Salmon": {
+    "player_name": "Marli Salmon",
+    "position": "DEF",
+    "team": "Arsenal",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.45,
+    "current_season_points": 0.0
+  },
+  "Emiliano Mart\u00ednez Romero": {
+    "player_name": "Emiliano Mart\u00ednez Romero",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.62,
+    "current_season_points": 105.0
+  },
+  "Marco Bizot": {
+    "player_name": "Marco Bizot",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 11.0
+  },
+  "Joe Gauci": {
+    "player_name": "Joe Gauci",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Filip Marschall": {
+    "player_name": "Filip Marschall",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.07,
+    "current_season_points": 0.0
+  },
+  "Matty Cash": {
+    "player_name": "Matty Cash",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.32,
+    "current_season_points": 106.0
+  },
+  "Lucas Digne": {
+    "player_name": "Lucas Digne",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.22,
+    "current_season_points": 85.0
+  },
+  "Ezri Konsa Ngoyo": {
+    "player_name": "Ezri Konsa Ngoyo",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.92,
+    "current_season_points": 95.0
+  },
+  "Ian Maatsen": {
+    "player_name": "Ian Maatsen",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.71,
+    "current_season_points": 40.0
+  },
+  "Tyrone Mings": {
+    "player_name": "Tyrone Mings",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.18,
+    "current_season_points": 44.0
+  },
+  "Pau Torres": {
+    "player_name": "Pau Torres",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.5,
+    "current_season_points": 56.0
+  },
+  "Andr\u00e9s Garc\u00eda": {
+    "player_name": "Andr\u00e9s Garc\u00eda",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.48,
+    "current_season_points": 3.0
+  },
+  "\u00c1lex Moreno Lopera": {
+    "player_name": "\u00c1lex Moreno Lopera",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Lamare Bogarde": {
+    "player_name": "Lamare Bogarde",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.69,
+    "current_season_points": 34.0
+  },
+  "Lino da Cruz Sousa": {
+    "player_name": "Lino da Cruz Sousa",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Yasin \u00d6zcan": {
+    "player_name": "Yasin \u00d6zcan",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Morgan Rogers": {
+    "player_name": "Morgan Rogers",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 7.59,
+    "current_season_points": 138.0
+  },
+  "Youri Tielemans": {
+    "player_name": "Youri Tielemans",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.34,
+    "current_season_points": 53.0
+  },
+  "Leon Bailey": {
+    "player_name": "Leon Bailey",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.32,
+    "current_season_points": 13.0
+  },
+  "Emiliano Buend\u00eda Stati": {
+    "player_name": "Emiliano Buend\u00eda Stati",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.38,
+    "current_season_points": 83.0
+  },
+  "Samuel Iling-Junior": {
+    "player_name": "Samuel Iling-Junior",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Donyell Malen": {
+    "player_name": "Donyell Malen",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.17,
+    "current_season_points": 55.0
+  },
+  "John McGinn": {
+    "player_name": "John McGinn",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.27,
+    "current_season_points": 83.0
+  },
+  "Ross Barkley": {
+    "player_name": "Ross Barkley",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 8.06,
+    "current_season_points": 35.0
+  },
+  "Enzo Barrenechea": {
+    "player_name": "Enzo Barrenechea",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Lewis Dobbin": {
+    "player_name": "Lewis Dobbin",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Boubacar Kamara": {
+    "player_name": "Boubacar Kamara",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.97,
+    "current_season_points": 61.0
+  },
+  "Amadou Onana": {
+    "player_name": "Amadou Onana",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.35,
+    "current_season_points": 71.0
+  },
+  "Ben Broggio": {
+    "player_name": "Ben Broggio",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Leander Dendoncker": {
+    "player_name": "Leander Dendoncker",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Jamaldeen Jimoh-Aloba": {
+    "player_name": "Jamaldeen Jimoh-Aloba",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.95,
+    "current_season_points": 1.0
+  },
+  "Kadan Young": {
+    "player_name": "Kadan Young",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Ollie Watkins": {
+    "player_name": "Ollie Watkins",
+    "position": "FWD",
+    "team": "Aston Villa",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 11.56,
+    "current_season_points": 109.0
+  },
+  "Z\u00e9piqueno Redmond": {
+    "player_name": "Z\u00e9piqueno Redmond",
+    "position": "FWD",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Harvey Elliott": {
+    "player_name": "Harvey Elliott",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.24,
+    "current_season_points": 5.0
+  },
+  "Jadon Sancho": {
+    "player_name": "Jadon Sancho",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 3.45,
+    "current_season_points": 32.0
+  },
+  "James Wright": {
+    "player_name": "James Wright",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 0.0
+  },
+  "Douglas Luiz Soares de Paulo": {
+    "player_name": "Douglas Luiz Soares de Paulo",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.41,
+    "current_season_points": 30.0
+  },
+  "Triston Rowe": {
+    "player_name": "Triston Rowe",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.0,
+    "current_season_points": 0.0
+  },
+  "Bradley Burrowes": {
+    "player_name": "Bradley Burrowes",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.31,
+    "current_season_points": 1.0
+  },
+  "Sam Proctor": {
+    "player_name": "Sam Proctor",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Travis Patterson": {
+    "player_name": "Travis Patterson",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Victor Lindel\u00f6f": {
+    "player_name": "Victor Lindel\u00f6f",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.05,
+    "current_season_points": 22.0
+  },
+  "George Hemmings": {
+    "player_name": "George Hemmings",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 2.0
+  },
+  "Ronnie Hollingshead": {
+    "player_name": "Ronnie Hollingshead",
+    "position": "GK",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Leon Routh": {
+    "player_name": "Leon Routh",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "TJ Carroll": {
+    "player_name": "TJ Carroll",
+    "position": "DEF",
+    "team": "Aston Villa",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Alysson Edward Franco da Rocha dos Santos": {
+    "player_name": "Alysson Edward Franco da Rocha dos Santos",
+    "position": "MID",
+    "team": "Aston Villa",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.63,
+    "current_season_points": 3.0
+  },
+  "Tammy Abraham": {
+    "player_name": "Tammy Abraham",
+    "position": "FWD",
+    "team": "Aston Villa",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.37,
+    "current_season_points": 15.0
+  },
+  "Max Wei\u00df": {
+    "player_name": "Max Wei\u00df",
+    "position": "GK",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.4,
+    "current_season_points": 0.0
+  },
+  "Etienne Green": {
+    "player_name": "Etienne Green",
+    "position": "GK",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "V\u00e1clav Hladk\u00fd": {
+    "player_name": "V\u00e1clav Hladk\u00fd",
+    "position": "GK",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.41,
+    "current_season_points": 0.0
+  },
+  "Connor Roberts": {
+    "player_name": "Connor Roberts",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.91,
+    "current_season_points": 0.0
+  },
+  "Kyle Walker": {
+    "player_name": "Kyle Walker",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.24,
+    "current_season_points": 62.0
+  },
+  "Hannes Delcroix": {
+    "player_name": "Hannes Delcroix",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Owen Dodgson": {
+    "player_name": "Owen Dodgson",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Hjalmar Ekdal": {
+    "player_name": "Hjalmar Ekdal",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.46,
+    "current_season_points": 44.0
+  },
+  "Maxime Est\u00e8ve": {
+    "player_name": "Maxime Est\u00e8ve",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.52,
+    "current_season_points": 69.0
+  },
+  "Quilindschy Hartman": {
+    "player_name": "Quilindschy Hartman",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.87,
+    "current_season_points": 53.0
+  },
+  "Bashir Humphreys": {
+    "player_name": "Bashir Humphreys",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.01,
+    "current_season_points": 40.0
+  },
+  "Jordan Beyer": {
+    "player_name": "Jordan Beyer",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.25,
+    "current_season_points": 0.0
+  },
+  "Lucas Pires Silva": {
+    "player_name": "Lucas Pires Silva",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.41,
+    "current_season_points": 19.0
+  },
+  "Shurandy Sambo": {
+    "player_name": "Shurandy Sambo",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.45,
+    "current_season_points": 0.0
+  },
+  "Oliver Sonne": {
+    "player_name": "Oliver Sonne",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 13.0
+  },
+  "Axel Tuanzebe": {
+    "player_name": "Axel Tuanzebe",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 27.0
+  },
+  "Joe Worrall": {
+    "player_name": "Joe Worrall",
+    "position": "DEF",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.84,
+    "current_season_points": 20.0
+  },
+  "Jaidon Anthony": {
+    "player_name": "Jaidon Anthony",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.54,
+    "current_season_points": 105.0
+  },
+  "Manuel Benson Hedilazio": {
+    "player_name": "Manuel Benson Hedilazio",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jacob Bruun Larsen": {
+    "player_name": "Jacob Bruun Larsen",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.06,
+    "current_season_points": 36.0
+  },
+  "Enock Agyei": {
+    "player_name": "Enock Agyei",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 0.0
+  },
+  "Darko Churlinov": {
+    "player_name": "Darko Churlinov",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Josh Cullen": {
+    "player_name": "Josh Cullen",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.93,
+    "current_season_points": 70.0
+  },
+  "Marcus Edwards": {
+    "player_name": "Marcus Edwards",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.2,
+    "current_season_points": 45.0
+  },
+  "Hannibal Mejbri": {
+    "player_name": "Hannibal Mejbri",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.5,
+    "current_season_points": 52.0
+  },
+  "Luca Koleosho": {
+    "player_name": "Luca Koleosho",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Josh Laurent": {
+    "player_name": "Josh Laurent",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.49,
+    "current_season_points": 50.0
+  },
+  "Loum Tchaouna": {
+    "player_name": "Loum Tchaouna",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.74,
+    "current_season_points": 39.0
+  },
+  "Aaron Ramsey": {
+    "player_name": "Aaron Ramsey",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 0.0
+  },
+  "Oluwaseun Adewumi": {
+    "player_name": "Oluwaseun Adewumi",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jaydon Banel": {
+    "player_name": "Jaydon Banel",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Mike Tr\u00e9sor Ndayishimiye": {
+    "player_name": "Mike Tr\u00e9sor Ndayishimiye",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 4.0
+  },
+  "Zian Flemming": {
+    "player_name": "Zian Flemming",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.66,
+    "current_season_points": 71.0
+  },
+  "Zeki Amdouni": {
+    "player_name": "Zeki Amdouni",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.04,
+    "current_season_points": 0.0
+  },
+  "Lyle Foster": {
+    "player_name": "Lyle Foster",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.69,
+    "current_season_points": 55.0
+  },
+  "Ashley Barnes": {
+    "player_name": "Ashley Barnes",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.67,
+    "current_season_points": 5.0
+  },
+  "Michael Obafemi": {
+    "player_name": "Michael Obafemi",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Martin D\u00fabravka": {
+    "player_name": "Martin D\u00fabravka",
+    "position": "GK",
+    "team": "Burnley",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.64,
+    "current_season_points": 88.0
+  },
+  "James Ward-Prowse": {
+    "player_name": "James Ward-Prowse",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.03,
+    "current_season_points": 25.0
+  },
+  "Lesley Ugochukwu": {
+    "player_name": "Lesley Ugochukwu",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.82,
+    "current_season_points": 84.0
+  },
+  "Armando Broja": {
+    "player_name": "Armando Broja",
+    "position": "FWD",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.12,
+    "current_season_points": 39.0
+  },
+  "Florentino Ibrain Morris Lu\u00eds": {
+    "player_name": "Florentino Ibrain Morris Lu\u00eds",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.49,
+    "current_season_points": 66.0
+  },
+  "Oliver Pimlott": {
+    "player_name": "Oliver Pimlott",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.6,
+    "current_season_points": 0.0
+  },
+  "George Brierley": {
+    "player_name": "George Brierley",
+    "position": "MID",
+    "team": "Burnley",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.61,
+    "current_season_points": 0.0
+  },
+  "Norberto Murara Neto": {
+    "player_name": "Norberto Murara Neto",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "\u0110or\u0111e Petrovi\u0107": {
+    "player_name": "\u0110or\u0111e Petrovi\u0107",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.07,
+    "current_season_points": 102.0
+  },
+  "Will Dennis": {
+    "player_name": "Will Dennis",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Callan McKenna": {
+    "player_name": "Callan McKenna",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.78,
+    "current_season_points": 0.0
+  },
+  "Alex Paulsen": {
+    "player_name": "Alex Paulsen",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Illia Zabarnyi": {
+    "player_name": "Illia Zabarnyi",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Marcos Senesi Bar\u00f3n": {
+    "player_name": "Marcos Senesi Bar\u00f3n",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.81,
+    "current_season_points": 137.0
+  },
+  "Adam Smith": {
+    "player_name": "Adam Smith",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.17,
+    "current_season_points": 38.0
+  },
+  "Adrien Truffert": {
+    "player_name": "Adrien Truffert",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 8.79,
+    "current_season_points": 122.0
+  },
+  "Matai Akinmboni": {
+    "player_name": "Matai Akinmboni",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.91,
+    "current_season_points": 0.0
+  },
+  "Owen Bevan": {
+    "player_name": "Owen Bevan",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.91,
+    "current_season_points": 0.0
+  },
+  "James Hill": {
+    "player_name": "James Hill",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.18,
+    "current_season_points": 82.0
+  },
+  "Juli\u00e1n Araujo Z\u00fa\u00f1iga": {
+    "player_name": "Juli\u00e1n Araujo Z\u00fa\u00f1iga",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Chris Mepham": {
+    "player_name": "Chris Mepham",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Julio Soler Barreto": {
+    "player_name": "Julio Soler Barreto",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 3.0
+  },
+  "Justin Kluivert": {
+    "player_name": "Justin Kluivert",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 40.0
+  },
+  "Marcus Tavernier": {
+    "player_name": "Marcus Tavernier",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.61,
+    "current_season_points": 109.0
+  },
+  "Tyler Adams": {
+    "player_name": "Tyler Adams",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.19,
+    "current_season_points": 60.0
+  },
+  "David Brooks": {
+    "player_name": "David Brooks",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.65,
+    "current_season_points": 48.0
+  },
+  "Ryan Christie": {
+    "player_name": "Ryan Christie",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.39,
+    "current_season_points": 42.0
+  },
+  "Lewis Cook": {
+    "player_name": "Lewis Cook",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.36,
+    "current_season_points": 38.0
+  },
+  "Philip Billing": {
+    "player_name": "Philip Billing",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Alex Scott": {
+    "player_name": "Alex Scott",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.38,
+    "current_season_points": 108.0
+  },
+  "Luis Sinisterra Lucum\u00ed": {
+    "player_name": "Luis Sinisterra Lucum\u00ed",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Romain Faivre": {
+    "player_name": "Romain Faivre",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Hamed Traor\u00e8": {
+    "player_name": "Hamed Traor\u00e8",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 4.0
+  },
+  "Dominic Sadi": {
+    "player_name": "Dominic Sadi",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Zain Silcott-Duberry": {
+    "player_name": "Zain Silcott-Duberry",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Ben Winterburn": {
+    "player_name": "Ben Winterburn",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Francisco Evanilson de Lima Barbosa": {
+    "player_name": "Francisco Evanilson de Lima Barbosa",
+    "position": "FWD",
+    "team": "Bournemouth",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 5.56,
+    "current_season_points": 94.0
+  },
+  "Enes \u00dcnal": {
+    "player_name": "Enes \u00dcnal",
+    "position": "FWD",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.73,
+    "current_season_points": 21.0
+  },
+  "Daniel Adu-Adjei": {
+    "player_name": "Daniel Adu-Adjei",
+    "position": "FWD",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Junior Kroupi": {
+    "player_name": "Junior Kroupi",
+    "position": "FWD",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.13,
+    "current_season_points": 79.0
+  },
+  "Ben Gannon-Doak": {
+    "player_name": "Ben Gannon-Doak",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.66,
+    "current_season_points": 8.0
+  },
+  "Bafod\u00e9 Diakit\u00e9": {
+    "player_name": "Bafod\u00e9 Diakit\u00e9",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.89,
+    "current_season_points": 46.0
+  },
+  "Remy Rees-Dottin": {
+    "player_name": "Remy Rees-Dottin",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -1.22,
+    "current_season_points": 0.0
+  },
+  "Amine Adli": {
+    "player_name": "Amine Adli",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.56,
+    "current_season_points": 63.0
+  },
+  "\u00c1lex Jim\u00e9nez S\u00e1nchez": {
+    "player_name": "\u00c1lex Jim\u00e9nez S\u00e1nchez",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.03,
+    "current_season_points": 64.0
+  },
+  "Veljko Milosavljevic": {
+    "player_name": "Veljko Milosavljevic",
+    "position": "DEF",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -1.34,
+    "current_season_points": 19.0
+  },
+  "Malcom DaCosta": {
+    "player_name": "Malcom DaCosta",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.03,
+    "current_season_points": 0.0
+  },
+  "Fraser Forster": {
+    "player_name": "Fraser Forster",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.78,
+    "current_season_points": 0.0
+  },
+  "Charlie Stevens": {
+    "player_name": "Charlie Stevens",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.86,
+    "current_season_points": 0.0
+  },
+  "Alex T\u00f3th": {
+    "player_name": "Alex T\u00f3th",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.99,
+    "current_season_points": 3.0
+  },
+  "Christos Mandas": {
+    "player_name": "Christos Mandas",
+    "position": "GK",
+    "team": "Bournemouth",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -1.11,
+    "current_season_points": 0.0
+  },
+  "Rayan Vitor Simpl\u00edcio Rocha": {
+    "player_name": "Rayan Vitor Simpl\u00edcio Rocha",
+    "position": "MID",
+    "team": "Bournemouth",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.45,
+    "current_season_points": 32.0
+  },
+  "Reiss Nelson": {
+    "player_name": "Reiss Nelson",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.5,
+    "current_season_points": 7.0
+  },
+  "Dango Ouattara": {
+    "player_name": "Dango Ouattara",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.2,
+    "current_season_points": 106.0
+  },
+  "Caoimh\u00edn Kelleher": {
+    "player_name": "Caoimh\u00edn Kelleher",
+    "position": "GK",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.19,
+    "current_season_points": 114.0
+  },
+  "Ellery Balcombe": {
+    "player_name": "Ellery Balcombe",
+    "position": "GK",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Matthew Cox": {
+    "player_name": "Matthew Cox",
+    "position": "GK",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.24,
+    "current_season_points": 0.0
+  },
+  "Julian Eyestone": {
+    "player_name": "Julian Eyestone",
+    "position": "GK",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "H\u00e1kon Rafn Valdimarsson": {
+    "player_name": "H\u00e1kon Rafn Valdimarsson",
+    "position": "GK",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.25,
+    "current_season_points": 1.0
+  },
+  "Nathan Collins": {
+    "player_name": "Nathan Collins",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.75,
+    "current_season_points": 105.0
+  },
+  "Keane Lewis-Potter": {
+    "player_name": "Keane Lewis-Potter",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.74,
+    "current_season_points": 89.0
+  },
+  "Kristoffer Ajer": {
+    "player_name": "Kristoffer Ajer",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.16,
+    "current_season_points": 70.0
+  },
+  "Rico Henry": {
+    "player_name": "Rico Henry",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.62,
+    "current_season_points": 52.0
+  },
+  "Michael Kayode": {
+    "player_name": "Michael Kayode",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.61,
+    "current_season_points": 92.0
+  },
+  "Ethan Pinnock": {
+    "player_name": "Ethan Pinnock",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.17,
+    "current_season_points": 14.0
+  },
+  "Mads Roerslev Rasmussen": {
+    "player_name": "Mads Roerslev Rasmussen",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Sepp van den Berg": {
+    "player_name": "Sepp van den Berg",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.74,
+    "current_season_points": 90.0
+  },
+  "Benjamin Arthur": {
+    "player_name": "Benjamin Arthur",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 0.0
+  },
+  "Benjamin Fredrick": {
+    "player_name": "Benjamin Fredrick",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.0,
+    "current_season_points": 0.0
+  },
+  "Aaron Hickey": {
+    "player_name": "Aaron Hickey",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.03,
+    "current_season_points": 33.0
+  },
+  "Kim Ji-soo": {
+    "player_name": "Kim Ji-soo",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Jayden Meghoma": {
+    "player_name": "Jayden Meghoma",
+    "position": "DEF",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.8,
+    "current_season_points": 0.0
+  },
+  "Kevin Schade": {
+    "player_name": "Kevin Schade",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 6.12,
+    "current_season_points": 102.0
+  },
+  "Mikkel Damsgaard": {
+    "player_name": "Mikkel Damsgaard",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 9.32,
+    "current_season_points": 87.0
+  },
+  "Antoni Milambo": {
+    "player_name": "Antoni Milambo",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "F\u00e1bio Freitas Gouveia Carvalho": {
+    "player_name": "F\u00e1bio Freitas Gouveia Carvalho",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 13.0
+  },
+  "Jordan Henderson": {
+    "player_name": "Jordan Henderson",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.68,
+    "current_season_points": 75.0
+  },
+  "Vitaly Janelt": {
+    "player_name": "Vitaly Janelt",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.24,
+    "current_season_points": 70.0
+  },
+  "Mathias Jensen": {
+    "player_name": "Mathias Jensen",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 8.37,
+    "current_season_points": 72.0
+  },
+  "Gustavo Nunes Fernandes Gomes": {
+    "player_name": "Gustavo Nunes Fernandes Gomes",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Frank Onyeka": {
+    "player_name": "Frank Onyeka",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.81,
+    "current_season_points": 12.0
+  },
+  "Yehor Yarmoliuk": {
+    "player_name": "Yehor Yarmoliuk",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.08,
+    "current_season_points": 80.0
+  },
+  "Romelle Donovan": {
+    "player_name": "Romelle Donovan",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.35,
+    "current_season_points": 4.0
+  },
+  "Yunus Emre Konak": {
+    "player_name": "Yunus Emre Konak",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Paris Maghoma": {
+    "player_name": "Paris Maghoma",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.47,
+    "current_season_points": 0.0
+  },
+  "Myles Peart-Harris": {
+    "player_name": "Myles Peart-Harris",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Ryan Trevitt": {
+    "player_name": "Ryan Trevitt",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.64,
+    "current_season_points": 0.0
+  },
+  "Igor Thiago Nascimento Rodrigues": {
+    "player_name": "Igor Thiago Nascimento Rodrigues",
+    "position": "FWD",
+    "team": "Brentford",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 10.35,
+    "current_season_points": 153.0
+  },
+  "Iwan Morgan": {
+    "player_name": "Iwan Morgan",
+    "position": "FWD",
+    "team": "Brentford",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Josh Dasilva": {
+    "player_name": "Josh Dasilva",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Kaye Furo": {
+    "player_name": "Kaye Furo",
+    "position": "FWD",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Luka Bentt": {
+    "player_name": "Luka Bentt",
+    "position": "MID",
+    "team": "Brentford",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jason Steele": {
+    "player_name": "Jason Steele",
+    "position": "GK",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.04,
+    "current_season_points": 0.0
+  },
+  "Bart Verbruggen": {
+    "player_name": "Bart Verbruggen",
+    "position": "GK",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.44,
+    "current_season_points": 101.0
+  },
+  "Tom McGill": {
+    "player_name": "Tom McGill",
+    "position": "GK",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.36,
+    "current_season_points": 0.0
+  },
+  "Carl Rushworth": {
+    "player_name": "Carl Rushworth",
+    "position": "GK",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.29,
+    "current_season_points": 0.0
+  },
+  "Kjell Scherpen": {
+    "player_name": "Kjell Scherpen",
+    "position": "GK",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Olivier Boscagli": {
+    "player_name": "Olivier Boscagli",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.07,
+    "current_season_points": 21.0
+  },
+  "Diego Coppola": {
+    "player_name": "Diego Coppola",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 10.0
+  },
+  "Maxim De Cuyper": {
+    "player_name": "Maxim De Cuyper",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.25,
+    "current_season_points": 61.0
+  },
+  "Lewis Dunk": {
+    "player_name": "Lewis Dunk",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.89,
+    "current_season_points": 82.0
+  },
+  "Pervis Estupi\u00f1\u00e1n Tenorio": {
+    "player_name": "Pervis Estupi\u00f1\u00e1n Tenorio",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.19,
+    "current_season_points": 0.0
+  },
+  "Ferdi Kad\u0131o\u011flu": {
+    "player_name": "Ferdi Kad\u0131o\u011flu",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 6.55,
+    "current_season_points": 86.0
+  },
+  "Igor Julio dos Santos de Paulo": {
+    "player_name": "Igor Julio dos Santos de Paulo",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.41,
+    "current_season_points": 6.0
+  },
+  "Tariq Lamptey": {
+    "player_name": "Tariq Lamptey",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.38,
+    "current_season_points": 0.0
+  },
+  "Jan Paul van Hecke": {
+    "player_name": "Jan Paul van Hecke",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.86,
+    "current_season_points": 120.0
+  },
+  "Jo\u00ebl Veltman": {
+    "player_name": "Jo\u00ebl Veltman",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.21,
+    "current_season_points": 36.0
+  },
+  "Adam Webster": {
+    "player_name": "Adam Webster",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Eiran Cashin": {
+    "player_name": "Eiran Cashin",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Jacob Slater": {
+    "player_name": "Jacob Slater",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Charlie Tasker": {
+    "player_name": "Charlie Tasker",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Mitoma Kaoru": {
+    "player_name": "Mitoma Kaoru",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.64,
+    "current_season_points": 51.0
+  },
+  "Georginio Rutter": {
+    "player_name": "Georginio Rutter",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.06,
+    "current_season_points": 70.0
+  },
+  "Solly March": {
+    "player_name": "Solly March",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.85,
+    "current_season_points": 1.0
+  },
+  "Yankuba Minteh": {
+    "player_name": "Yankuba Minteh",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.57,
+    "current_season_points": 95.0
+  },
+  "Julio Enciso Esp\u00ednola": {
+    "player_name": "Julio Enciso Esp\u00ednola",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Brajan Gruda": {
+    "player_name": "Brajan Gruda",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 35.0
+  },
+  "Jack Hinshelwood": {
+    "player_name": "Jack Hinshelwood",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 8.24,
+    "current_season_points": 58.0
+  },
+  "Matt O'Riley": {
+    "player_name": "Matt O'Riley",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 14.0
+  },
+  "Abdallah Sima": {
+    "player_name": "Abdallah Sima",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Yasin Ayari": {
+    "player_name": "Yasin Ayari",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.92,
+    "current_season_points": 85.0
+  },
+  "Carlos Baleba": {
+    "player_name": "Carlos Baleba",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.72,
+    "current_season_points": 41.0
+  },
+  "Diego G\u00f3mez Amarilla": {
+    "player_name": "Diego G\u00f3mez Amarilla",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 9.04,
+    "current_season_points": 89.0
+  },
+  "James Milner": {
+    "player_name": "James Milner",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.82,
+    "current_season_points": 34.0
+  },
+  "Jeremy Sarmiento Morante": {
+    "player_name": "Jeremy Sarmiento Morante",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 0.0
+  },
+  "Tom Watson": {
+    "player_name": "Tom Watson",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.94,
+    "current_season_points": 5.0
+  },
+  "Mats Wieffer": {
+    "player_name": "Mats Wieffer",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.71,
+    "current_season_points": 71.0
+  },
+  "Malick Yalcouy\u00e9": {
+    "player_name": "Malick Yalcouy\u00e9",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Joe Knight": {
+    "player_name": "Joe Knight",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Adrian Mazilu": {
+    "player_name": "Adrian Mazilu",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Andrew Moran": {
+    "player_name": "Andrew Moran",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Danny Welbeck": {
+    "player_name": "Danny Welbeck",
+    "position": "FWD",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 9.57,
+    "current_season_points": 106.0
+  },
+  "Evan Ferguson": {
+    "player_name": "Evan Ferguson",
+    "position": "FWD",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.04,
+    "current_season_points": 0.0
+  },
+  "Stefanos Tzimas": {
+    "player_name": "Stefanos Tzimas",
+    "position": "FWD",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 16.0
+  },
+  "Charalampos Kostoulas": {
+    "player_name": "Charalampos Kostoulas",
+    "position": "FWD",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.36,
+    "current_season_points": 30.0
+  },
+  "Nehemiah Oriola": {
+    "player_name": "Nehemiah Oriola",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.47,
+    "current_season_points": 1.0
+  },
+  "Freddie Simmonds": {
+    "player_name": "Freddie Simmonds",
+    "position": "DEF",
+    "team": "Brighton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.39,
+    "current_season_points": 0.0
+  },
+  "Pascal Gro\u00df": {
+    "player_name": "Pascal Gro\u00df",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 9.13,
+    "current_season_points": 43.0
+  },
+  "Harry Howell": {
+    "player_name": "Harry Howell",
+    "position": "MID",
+    "team": "Brighton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.04,
+    "current_season_points": 4.0
+  },
+  "Robert Lynch S\u00e1nchez": {
+    "player_name": "Robert Lynch S\u00e1nchez",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.58,
+    "current_season_points": 102.0
+  },
+  "Filip J\u00f6rgensen": {
+    "player_name": "Filip J\u00f6rgensen",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.17,
+    "current_season_points": 6.0
+  },
+  "Mike Penders": {
+    "player_name": "Mike Penders",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 0.0
+  },
+  "Gabriel S\u0142onina": {
+    "player_name": "Gabriel S\u0142onina",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Marc Cucurella Saseta": {
+    "player_name": "Marc Cucurella Saseta",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 3.55,
+    "current_season_points": 94.0
+  },
+  "Reece James": {
+    "player_name": "Reece James",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.74,
+    "current_season_points": 113.0
+  },
+  "Trevoh Chalobah": {
+    "player_name": "Trevoh Chalobah",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.07,
+    "current_season_points": 131.0
+  },
+  "Levi Samuels Colwill": {
+    "player_name": "Levi Samuels Colwill",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.28,
+    "current_season_points": 0.0
+  },
+  "Malo Gusto": {
+    "player_name": "Malo Gusto",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.85,
+    "current_season_points": 91.0
+  },
+  "Beno\u00eet Badiashile Mukinayi": {
+    "player_name": "Beno\u00eet Badiashile Mukinayi",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 7.0
+  },
+  "Wesley Fofana": {
+    "player_name": "Wesley Fofana",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.34,
+    "current_season_points": 55.0
+  },
+  "Mamadou Sarr": {
+    "player_name": "Mamadou Sarr",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.35,
+    "current_season_points": 2.0
+  },
+  "Tosin Adarabioyo": {
+    "player_name": "Tosin Adarabioyo",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.49,
+    "current_season_points": 34.0
+  },
+  "Josh Acheampong": {
+    "player_name": "Josh Acheampong",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.27,
+    "current_season_points": 33.0
+  },
+  "Aar\u00f3n Anselmino": {
+    "player_name": "Aar\u00f3n Anselmino",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Cole Palmer": {
+    "player_name": "Cole Palmer",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 1.1,
+    "predicted_next_gw_points": 6.23,
+    "current_season_points": 96.0
+  },
+  "Pedro Lomba Neto": {
+    "player_name": "Pedro Lomba Neto",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 1.92,
+    "current_season_points": 108.0
+  },
+  "Enzo Fern\u00e1ndez": {
+    "player_name": "Enzo Fern\u00e1ndez",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 5.22,
+    "current_season_points": 129.0
+  },
+  "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves": {
+    "player_name": "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.05,
+    "current_season_points": 56.0
+  },
+  "Jamie Bynoe-Gittens": {
+    "player_name": "Jamie Bynoe-Gittens",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.94,
+    "current_season_points": 25.0
+  },
+  "Christopher Nkunku": {
+    "player_name": "Christopher Nkunku",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.49,
+    "current_season_points": 0.0
+  },
+  "Mois\u00e9s Caicedo Corozo": {
+    "player_name": "Mois\u00e9s Caicedo Corozo",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.21,
+    "current_season_points": 96.0
+  },
+  "Rom\u00e9o Lavia": {
+    "player_name": "Rom\u00e9o Lavia",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.55,
+    "current_season_points": 8.0
+  },
+  "Mykhailo Mudryk": {
+    "player_name": "Mykhailo Mudryk",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.97,
+    "current_season_points": 0.0
+  },
+  "Andrey Nascimento dos Santos": {
+    "player_name": "Andrey Nascimento dos Santos",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.08,
+    "current_season_points": 32.0
+  },
+  "D\u00e1rio Lu\u00eds Essugo": {
+    "player_name": "D\u00e1rio Lu\u00eds Essugo",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Kendry P\u00e1ez Andrade": {
+    "player_name": "Kendry P\u00e1ez Andrade",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.29,
+    "current_season_points": 0.0
+  },
+  "Jo\u00e3o Pedro Junqueira de Jesus": {
+    "player_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+    "position": "FWD",
+    "team": "Chelsea",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 7.78,
+    "current_season_points": 164.0
+  },
+  "Liam Delap": {
+    "player_name": "Liam Delap",
+    "position": "FWD",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.35,
+    "current_season_points": 38.0
+  },
+  "Nicolas Jackson": {
+    "player_name": "Nicolas Jackson",
+    "position": "FWD",
+    "team": "Chelsea",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Marc Guiu Paz": {
+    "player_name": "Marc Guiu Paz",
+    "position": "FWD",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.05,
+    "current_season_points": 12.0
+  },
+  "Alejandro Garnacho Ferreyra": {
+    "player_name": "Alejandro Garnacho Ferreyra",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 3.73,
+    "current_season_points": 51.0
+  },
+  "Jorrel Hato": {
+    "player_name": "Jorrel Hato",
+    "position": "DEF",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.42,
+    "current_season_points": 12.0
+  },
+  "Landon Emenalo": {
+    "player_name": "Landon Emenalo",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.27,
+    "current_season_points": 0.0
+  },
+  "Max Merrick": {
+    "player_name": "Max Merrick",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Teddy Sharman-Lowe": {
+    "player_name": "Teddy Sharman-Lowe",
+    "position": "GK",
+    "team": "Chelsea",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Dean Henderson": {
+    "player_name": "Dean Henderson",
+    "position": "GK",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.38,
+    "current_season_points": 115.0
+  },
+  "Walter Ben\u00edtez": {
+    "player_name": "Walter Ben\u00edtez",
+    "position": "GK",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.74,
+    "current_season_points": 7.0
+  },
+  "Remi Matthews": {
+    "player_name": "Remi Matthews",
+    "position": "GK",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Daniel Mu\u00f1oz Mej\u00eda": {
+    "player_name": "Daniel Mu\u00f1oz Mej\u00eda",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.07,
+    "current_season_points": 109.0
+  },
+  "Maxence Lacroix": {
+    "player_name": "Maxence Lacroix",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.45,
+    "current_season_points": 128.0
+  },
+  "Tyrick Mitchell": {
+    "player_name": "Tyrick Mitchell",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.93,
+    "current_season_points": 114.0
+  },
+  "Borna Sosa": {
+    "player_name": "Borna Sosa",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 5.0
+  },
+  "Chris Richards": {
+    "player_name": "Chris Richards",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 7.02,
+    "current_season_points": 114.0
+  },
+  "Chadi Riad Dnanou": {
+    "player_name": "Chadi Riad Dnanou",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.67,
+    "current_season_points": 14.0
+  },
+  "Nathaniel Clyne": {
+    "player_name": "Nathaniel Clyne",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.79,
+    "current_season_points": 15.0
+  },
+  "Rob Holding": {
+    "player_name": "Rob Holding",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Caleb Kporha": {
+    "player_name": "Caleb Kporha",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Isma\u00efla Sarr": {
+    "player_name": "Isma\u00efla Sarr",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 10.17,
+    "current_season_points": 93.0
+  },
+  "Cheick Doucour\u00e9": {
+    "player_name": "Cheick Doucour\u00e9",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 0.0
+  },
+  "Romain Esse": {
+    "player_name": "Romain Esse",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 4.0
+  },
+  "Will Hughes": {
+    "player_name": "Will Hughes",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.19,
+    "current_season_points": 39.0
+  },
+  "Daichi Kamada": {
+    "player_name": "Daichi Kamada",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.76,
+    "current_season_points": 53.0
+  },
+  "Jefferson Lerma Sol\u00eds": {
+    "player_name": "Jefferson Lerma Sol\u00eds",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.83,
+    "current_season_points": 54.0
+  },
+  "Adam Wharton": {
+    "player_name": "Adam Wharton",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.48,
+    "current_season_points": 91.0
+  },
+  "Asher Agbinone": {
+    "player_name": "Asher Agbinone",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Naouirou Ahamada": {
+    "player_name": "Naouirou Ahamada",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Justin Devenny": {
+    "player_name": "Justin Devenny",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 29.0
+  },
+  "Malcolm Ebiowei": {
+    "player_name": "Malcolm Ebiowei",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jesurun Rak-Sakyi": {
+    "player_name": "Jesurun Rak-Sakyi",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Matheus Fran\u00e7a de Oliveira": {
+    "player_name": "Matheus Fran\u00e7a de Oliveira",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "David Ozoh": {
+    "player_name": "David Ozoh",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Kaden Rodney": {
+    "player_name": "Kaden Rodney",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.93,
+    "current_season_points": 1.0
+  },
+  "Franco Umeh-Chibueze": {
+    "player_name": "Franco Umeh-Chibueze",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jean-Philippe Mateta": {
+    "player_name": "Jean-Philippe Mateta",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 1.76,
+    "current_season_points": 85.0
+  },
+  "Eddie Nketiah": {
+    "player_name": "Eddie Nketiah",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.04,
+    "current_season_points": 23.0
+  },
+  "Odsonne \u00c9douard": {
+    "player_name": "Odsonne \u00c9douard",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Zach Marsh": {
+    "player_name": "Zach Marsh",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Brennan Johnson": {
+    "player_name": "Brennan Johnson",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 3.78,
+    "current_season_points": 53.0
+  },
+  "J\u00f8rgen Strand Larsen": {
+    "player_name": "J\u00f8rgen Strand Larsen",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.38,
+    "current_season_points": 62.0
+  },
+  "Evann Guessand": {
+    "player_name": "Evann Guessand",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.1,
+    "current_season_points": 42.0
+  },
+  "Rio Cardines": {
+    "player_name": "Rio Cardines",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Y\u00e9remy Pino Santos": {
+    "player_name": "Y\u00e9remy Pino Santos",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.88,
+    "current_season_points": 66.0
+  },
+  "Jaydee Canvot": {
+    "player_name": "Jaydee Canvot",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 8.25,
+    "current_season_points": 48.0
+  },
+  "Christantus Uche": {
+    "player_name": "Christantus Uche",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.77,
+    "current_season_points": 17.0
+  },
+  "Jo\u00e9l Drakes-Thomas": {
+    "player_name": "Jo\u00e9l Drakes-Thomas",
+    "position": "MID",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 2.0
+  },
+  "Dean Benamar": {
+    "player_name": "Dean Benamar",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Ben Casey": {
+    "player_name": "Ben Casey",
+    "position": "FWD",
+    "team": "Crystal Palace",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "George King": {
+    "player_name": "George King",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Danny Imray": {
+    "player_name": "Danny Imray",
+    "position": "DEF",
+    "team": "Crystal Palace",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Kiernan Dewsbury-Hall": {
+    "player_name": "Kiernan Dewsbury-Hall",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 10.19,
+    "current_season_points": 117.0
+  },
+  "Tyrique George": {
+    "player_name": "Tyrique George",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.31,
+    "current_season_points": 10.0
+  },
+  "Jordan Pickford": {
+    "player_name": "Jordan Pickford",
+    "position": "GK",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.15,
+    "current_season_points": 126.0
+  },
+  "Mark Travers": {
+    "player_name": "Mark Travers",
+    "position": "GK",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Harry Tyrer": {
+    "player_name": "Harry Tyrer",
+    "position": "GK",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jarrad Branthwaite": {
+    "player_name": "Jarrad Branthwaite",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.38,
+    "current_season_points": 25.0
+  },
+  "James Tarkowski": {
+    "player_name": "James Tarkowski",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.78,
+    "current_season_points": 142.0
+  },
+  "Vitalii Mykolenko": {
+    "player_name": "Vitalii Mykolenko",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.88,
+    "current_season_points": 84.0
+  },
+  "Jake O'Brien": {
+    "player_name": "Jake O'Brien",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.71,
+    "current_season_points": 102.0
+  },
+  "S\u00e9amus Coleman": {
+    "player_name": "S\u00e9amus Coleman",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.16,
+    "current_season_points": 3.0
+  },
+  "Michael Keane": {
+    "player_name": "Michael Keane",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.22,
+    "current_season_points": 118.0
+  },
+  "Nathan Patterson": {
+    "player_name": "Nathan Patterson",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.29,
+    "current_season_points": 21.0
+  },
+  "Roman Dixon": {
+    "player_name": "Roman Dixon",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Reece Welch": {
+    "player_name": "Reece Welch",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Iliman Ndiaye": {
+    "player_name": "Iliman Ndiaye",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.88,
+    "current_season_points": 112.0
+  },
+  "Dwight McNeil": {
+    "player_name": "Dwight McNeil",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.23,
+    "current_season_points": 46.0
+  },
+  "Carlos Alcaraz Dur\u00e1n": {
+    "player_name": "Carlos Alcaraz Dur\u00e1n",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 26.0
+  },
+  "Idrissa Gana Gueye": {
+    "player_name": "Idrissa Gana Gueye",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.98,
+    "current_season_points": 74.0
+  },
+  "James Garner": {
+    "player_name": "James Garner",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 10.96,
+    "current_season_points": 139.0
+  },
+  "Tim Iroegbunam": {
+    "player_name": "Tim Iroegbunam",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.6,
+    "current_season_points": 57.0
+  },
+  "Harrison Armstrong": {
+    "player_name": "Harrison Armstrong",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.16,
+    "current_season_points": 19.0
+  },
+  "Callum Bates": {
+    "player_name": "Callum Bates",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Coby Ebere": {
+    "player_name": "Coby Ebere",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 0.0
+  },
+  "Isaac Heath": {
+    "player_name": "Isaac Heath",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jenson Metcalfe": {
+    "player_name": "Jenson Metcalfe",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.08,
+    "current_season_points": 0.0
+  },
+  "Thierno Barry": {
+    "player_name": "Thierno Barry",
+    "position": "FWD",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.38,
+    "current_season_points": 76.0
+  },
+  "Norberto Bercique Gomes Betuncal": {
+    "player_name": "Norberto Bercique Gomes Betuncal",
+    "position": "FWD",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 10.27,
+    "current_season_points": 76.0
+  },
+  "Youssef Ramalho Chermiti": {
+    "player_name": "Youssef Ramalho Chermiti",
+    "position": "FWD",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Martin Sherif": {
+    "player_name": "Martin Sherif",
+    "position": "FWD",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.3,
+    "current_season_points": 0.0
+  },
+  "Jack Grealish": {
+    "player_name": "Jack Grealish",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.37,
+    "current_season_points": 79.0
+  },
+  "Tom King": {
+    "player_name": "Tom King",
+    "position": "GK",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 0.0
+  },
+  "Adam Aznou": {
+    "player_name": "Adam Aznou",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.51,
+    "current_season_points": 0.0
+  },
+  "Tyler Onyango": {
+    "player_name": "Tyler Onyango",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Elijah Campbell": {
+    "player_name": "Elijah Campbell",
+    "position": "DEF",
+    "team": "Everton",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.0,
+    "current_season_points": 0.0
+  },
+  "Tyler Dibling": {
+    "player_name": "Tyler Dibling",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.57,
+    "current_season_points": 18.0
+  },
+  "Merlin R\u00f6hl": {
+    "player_name": "Merlin R\u00f6hl",
+    "position": "MID",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.28,
+    "current_season_points": 18.0
+  },
+  "Braiden Graham": {
+    "player_name": "Braiden Graham",
+    "position": "FWD",
+    "team": "Everton",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Bernd Leno": {
+    "player_name": "Bernd Leno",
+    "position": "GK",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.44,
+    "current_season_points": 89.0
+  },
+  "Steven Benda": {
+    "player_name": "Steven Benda",
+    "position": "GK",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Antonee Robinson": {
+    "player_name": "Antonee Robinson",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.44,
+    "current_season_points": 40.0
+  },
+  "Joachim Andersen": {
+    "player_name": "Joachim Andersen",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.04,
+    "current_season_points": 104.0
+  },
+  "Calvin Bassey": {
+    "player_name": "Calvin Bassey",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.09,
+    "current_season_points": 77.0
+  },
+  "Timothy Castagne": {
+    "player_name": "Timothy Castagne",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.24,
+    "current_season_points": 32.0
+  },
+  "Issa Diop": {
+    "player_name": "Issa Diop",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.05,
+    "current_season_points": 13.0
+  },
+  "Jorge Cuenca Barreno": {
+    "player_name": "Jorge Cuenca Barreno",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.0,
+    "current_season_points": 39.0
+  },
+  "Kenny Tete": {
+    "player_name": "Kenny Tete",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.15,
+    "current_season_points": 81.0
+  },
+  "Samuel Amissah": {
+    "player_name": "Samuel Amissah",
+    "position": "DEF",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.47,
+    "current_season_points": 0.0
+  },
+  "Alex Iwobi": {
+    "player_name": "Alex Iwobi",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.83,
+    "current_season_points": 95.0
+  },
+  "Emile Smith Rowe": {
+    "player_name": "Emile Smith Rowe",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.09,
+    "current_season_points": 65.0
+  },
+  "Andreas Hoelgebaum Pereira": {
+    "player_name": "Andreas Hoelgebaum Pereira",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Ryan Sessegnon": {
+    "player_name": "Ryan Sessegnon",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.4,
+    "current_season_points": 80.0
+  },
+  "Harry Wilson": {
+    "player_name": "Harry Wilson",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.79,
+    "current_season_points": 152.0
+  },
+  "Sander Berge": {
+    "player_name": "Sander Berge",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.45,
+    "current_season_points": 80.0
+  },
+  "Tom Cairney": {
+    "player_name": "Tom Cairney",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.51,
+    "current_season_points": 29.0
+  },
+  "Sa\u0161a Luki\u0107": {
+    "player_name": "Sa\u0161a Luki\u0107",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.13,
+    "current_season_points": 51.0
+  },
+  "Martial Godo": {
+    "player_name": "Martial Godo",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Luke Harris": {
+    "player_name": "Luke Harris",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Josh King": {
+    "player_name": "Josh King",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 8.22,
+    "current_season_points": 57.0
+  },
+  "Harrison Reed": {
+    "player_name": "Harrison Reed",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.92,
+    "current_season_points": 13.0
+  },
+  "Ra\u00fal Jim\u00e9nez Rodr\u00edguez": {
+    "player_name": "Ra\u00fal Jim\u00e9nez Rodr\u00edguez",
+    "position": "FWD",
+    "team": "Fulham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.69,
+    "current_season_points": 104.0
+  },
+  "Rodrigo Muniz Carvalho": {
+    "player_name": "Rodrigo Muniz Carvalho",
+    "position": "FWD",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.62,
+    "current_season_points": 25.0
+  },
+  "Oscar Bobb": {
+    "player_name": "Oscar Bobb",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.02,
+    "current_season_points": 32.0
+  },
+  "Benjamin Lecomte": {
+    "player_name": "Benjamin Lecomte",
+    "position": "GK",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.39,
+    "current_season_points": 0.0
+  },
+  "Samuel Chukwueze": {
+    "player_name": "Samuel Chukwueze",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.38,
+    "current_season_points": 52.0
+  },
+  "Kevin Santos Lopes de Macedo": {
+    "player_name": "Kevin Santos Lopes de Macedo",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.17,
+    "current_season_points": 43.0
+  },
+  "Jonah Kusi-Asare": {
+    "player_name": "Jonah Kusi-Asare",
+    "position": "FWD",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.48,
+    "current_season_points": 4.0
+  },
+  "Seth Ridgeon": {
+    "player_name": "Seth Ridgeon",
+    "position": "MID",
+    "team": "Fulham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 0.0
+  },
+  "Alfie McNally": {
+    "player_name": "Alfie McNally",
+    "position": "GK",
+    "team": "Fulham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 0.0
+  },
+  "Facundo Buonanotte": {
+    "player_name": "Facundo Buonanotte",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.48,
+    "current_season_points": 2.0
+  },
+  "Illan Meslier": {
+    "player_name": "Illan Meslier",
+    "position": "GK",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.62,
+    "current_season_points": 0.0
+  },
+  "Alex Cairns": {
+    "player_name": "Alex Cairns",
+    "position": "GK",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.41,
+    "current_season_points": 0.0
+  },
+  "Karl Darlow": {
+    "player_name": "Karl Darlow",
+    "position": "GK",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.77,
+    "current_season_points": 42.0
+  },
+  "Jayden Bogle": {
+    "player_name": "Jayden Bogle",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.3,
+    "current_season_points": 76.0
+  },
+  "Pascal Struijk": {
+    "player_name": "Pascal Struijk",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.76,
+    "current_season_points": 93.0
+  },
+  "Jaka Bijol": {
+    "player_name": "Jaka Bijol",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 7.75,
+    "current_season_points": 66.0
+  },
+  "Sebastiaan Bornauw": {
+    "player_name": "Sebastiaan Bornauw",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.45,
+    "current_season_points": 17.0
+  },
+  "Sam Byram": {
+    "player_name": "Sam Byram",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.67,
+    "current_season_points": 1.0
+  },
+  "Gabriel Gudmundsson": {
+    "player_name": "Gabriel Gudmundsson",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.84,
+    "current_season_points": 59.0
+  },
+  "Joe Rodon": {
+    "player_name": "Joe Rodon",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 6.94,
+    "current_season_points": 99.0
+  },
+  "Isaac Schmidt": {
+    "player_name": "Isaac Schmidt",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Brenden Aaronson": {
+    "player_name": "Brenden Aaronson",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.26,
+    "current_season_points": 109.0
+  },
+  "Wilfried Gnonto": {
+    "player_name": "Wilfried Gnonto",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.43,
+    "current_season_points": 22.0
+  },
+  "Jack Harrison": {
+    "player_name": "Jack Harrison",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 12.0
+  },
+  "Daniel James": {
+    "player_name": "Daniel James",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.75,
+    "current_season_points": 18.0
+  },
+  "Ethan Ampadu": {
+    "player_name": "Ethan Ampadu",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.9,
+    "current_season_points": 102.0
+  },
+  "Sam Greenwood": {
+    "player_name": "Sam Greenwood",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.93,
+    "current_season_points": 0.0
+  },
+  "Ilia Gruev": {
+    "player_name": "Ilia Gruev",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.06,
+    "current_season_points": 54.0
+  },
+  "Largie Ramazani": {
+    "player_name": "Largie Ramazani",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.68,
+    "current_season_points": 0.0
+  },
+  "Tanaka Ao": {
+    "player_name": "Tanaka Ao",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.15,
+    "current_season_points": 44.0
+  },
+  "Charlie Crew": {
+    "player_name": "Charlie Crew",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Joe Gelhardt": {
+    "player_name": "Joe Gelhardt",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Darko Gyabi": {
+    "player_name": "Darko Gyabi",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jo\u00ebl Piroe": {
+    "player_name": "Jo\u00ebl Piroe",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.17,
+    "current_season_points": 14.0
+  },
+  "Patrick Bamford": {
+    "player_name": "Patrick Bamford",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 0.0
+  },
+  "Mateo Joseph Fern\u00e1ndez-Regatillo": {
+    "player_name": "Mateo Joseph Fern\u00e1ndez-Regatillo",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.33,
+    "current_season_points": 0.0
+  },
+  "Lukas Nmecha": {
+    "player_name": "Lukas Nmecha",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.9,
+    "current_season_points": 66.0
+  },
+  "Sean Longstaff": {
+    "player_name": "Sean Longstaff",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.5,
+    "current_season_points": 44.0
+  },
+  "Anton Stach": {
+    "player_name": "Anton Stach",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.72,
+    "current_season_points": 122.0
+  },
+  "Lucas Estella Perri": {
+    "player_name": "Lucas Estella Perri",
+    "position": "GK",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.36,
+    "current_season_points": 43.0
+  },
+  "Dominic Calvert-Lewin": {
+    "player_name": "Dominic Calvert-Lewin",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 3.72,
+    "current_season_points": 110.0
+  },
+  "Noah Okafor": {
+    "player_name": "Noah Okafor",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.64,
+    "current_season_points": 68.0
+  },
+  "James Justin": {
+    "player_name": "James Justin",
+    "position": "DEF",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 6.2,
+    "current_season_points": 61.0
+  },
+  "Harry Gray": {
+    "player_name": "Harry Gray",
+    "position": "FWD",
+    "team": "Leeds",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 0.0
+  },
+  "Sam Chambers": {
+    "player_name": "Sam Chambers",
+    "position": "MID",
+    "team": "Leeds",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 0.0
+  },
+  "Alisson Becker": {
+    "player_name": "Alisson Becker",
+    "position": "GK",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.7,
+    "current_season_points": 89.0
+  },
+  "Giorgi Mamardashvili": {
+    "player_name": "Giorgi Mamardashvili",
+    "position": "GK",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.99,
+    "current_season_points": 21.0
+  },
+  "\u00c1rmin P\u00e9csi": {
+    "player_name": "\u00c1rmin P\u00e9csi",
+    "position": "GK",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.34,
+    "current_season_points": 0.0
+  },
+  "Freddie Woodman": {
+    "player_name": "Freddie Woodman",
+    "position": "GK",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.34,
+    "current_season_points": 0.0
+  },
+  "Jeremie Frimpong": {
+    "player_name": "Jeremie Frimpong",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.06,
+    "current_season_points": 51.0
+  },
+  "Milos Kerkez": {
+    "player_name": "Milos Kerkez",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.04,
+    "current_season_points": 79.0
+  },
+  "Andrew Robertson": {
+    "player_name": "Andrew Robertson",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.85,
+    "current_season_points": 37.0
+  },
+  "Virgil van Dijk": {
+    "player_name": "Virgil van Dijk",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.39,
+    "current_season_points": 135.0
+  },
+  "Ibrahima Konat\u00e9": {
+    "player_name": "Ibrahima Konat\u00e9",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.17,
+    "current_season_points": 111.0
+  },
+  "Conor Bradley": {
+    "player_name": "Conor Bradley",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.39,
+    "current_season_points": 42.0
+  },
+  "Joe Gomez": {
+    "player_name": "Joe Gomez",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.7,
+    "current_season_points": 30.0
+  },
+  "Konstantinos Tsimikas": {
+    "player_name": "Konstantinos Tsimikas",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Amara Nallo": {
+    "player_name": "Amara Nallo",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Rhys Williams": {
+    "player_name": "Rhys Williams",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Calvin Ramsay": {
+    "player_name": "Calvin Ramsay",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 0.0
+  },
+  "Mohamed Salah": {
+    "player_name": "Mohamed Salah",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 1.4,
+    "predicted_next_gw_points": 3.09,
+    "current_season_points": 97.0
+  },
+  "Florian Wirtz": {
+    "player_name": "Florian Wirtz",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 5.81,
+    "current_season_points": 105.0
+  },
+  "Luis D\u00edaz Marulanda": {
+    "player_name": "Luis D\u00edaz Marulanda",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Cody Gakpo": {
+    "player_name": "Cody Gakpo",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 7.73,
+    "current_season_points": 106.0
+  },
+  "Federico Chiesa": {
+    "player_name": "Federico Chiesa",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.81,
+    "current_season_points": 34.0
+  },
+  "Alexis Mac Allister": {
+    "player_name": "Alexis Mac Allister",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.36,
+    "current_season_points": 85.0
+  },
+  "Dominik Szoboszlai": {
+    "player_name": "Dominik Szoboszlai",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 9.44,
+    "current_season_points": 123.0
+  },
+  "Curtis Jones": {
+    "player_name": "Curtis Jones",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.84,
+    "current_season_points": 54.0
+  },
+  "Ryan Gravenberch": {
+    "player_name": "Ryan Gravenberch",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.32,
+    "current_season_points": 124.0
+  },
+  "Endo Wataru": {
+    "player_name": "Endo Wataru",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.05,
+    "current_season_points": 12.0
+  },
+  "Stefan Baj\u010deti\u0107 Maquieira": {
+    "player_name": "Stefan Baj\u010deti\u0107 Maquieira",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.08,
+    "current_season_points": 0.0
+  },
+  "James McConnell": {
+    "player_name": "James McConnell",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Tyler Morton": {
+    "player_name": "Tyler Morton",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Trey Nyoni": {
+    "player_name": "Trey Nyoni",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.38,
+    "current_season_points": 4.0
+  },
+  "Darwin N\u00fa\u00f1ez Ribeiro": {
+    "player_name": "Darwin N\u00fa\u00f1ez Ribeiro",
+    "position": "FWD",
+    "team": "Liverpool",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.97,
+    "current_season_points": 0.0
+  },
+  "Jayden Danns": {
+    "player_name": "Jayden Danns",
+    "position": "FWD",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 0.0
+  },
+  "Alexander Isak": {
+    "player_name": "Alexander Isak",
+    "position": "FWD",
+    "team": "Liverpool",
+    "now_cost": 1.0,
+    "predicted_next_gw_points": -0.15,
+    "current_season_points": 29.0
+  },
+  "Hugo Ekitik\u00e9": {
+    "player_name": "Hugo Ekitik\u00e9",
+    "position": "FWD",
+    "team": "Liverpool",
+    "now_cost": 0.9,
+    "predicted_next_gw_points": 5.87,
+    "current_season_points": 125.0
+  },
+  "Rio Ngumoha": {
+    "player_name": "Rio Ngumoha",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.03,
+    "current_season_points": 20.0
+  },
+  "Giovanni Leoni": {
+    "player_name": "Giovanni Leoni",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.28,
+    "current_season_points": 0.0
+  },
+  "Kieran Morrison": {
+    "player_name": "Kieran Morrison",
+    "position": "MID",
+    "team": "Liverpool",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.18,
+    "current_season_points": 0.0
+  },
+  "Wellity Lucky": {
+    "player_name": "Wellity Lucky",
+    "position": "DEF",
+    "team": "Liverpool",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Antoine Semenyo": {
+    "player_name": "Antoine Semenyo",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 9.73,
+    "current_season_points": 174.0
+  },
+  "James Trafford": {
+    "player_name": "James Trafford",
+    "position": "GK",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.19,
+    "current_season_points": 11.0
+  },
+  "Marc Gu\u00e9hi": {
+    "player_name": "Marc Gu\u00e9hi",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.8,
+    "current_season_points": 135.0
+  },
+  "Ederson Santana de Moraes": {
+    "player_name": "Ederson Santana de Moraes",
+    "position": "GK",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.7,
+    "current_season_points": 0.0
+  },
+  "Marcus Bettinelli": {
+    "player_name": "Marcus Bettinelli",
+    "position": "GK",
+    "team": "Man City",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 0.0
+  },
+  "Rayan A\u00eft-Nouri": {
+    "player_name": "Rayan A\u00eft-Nouri",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.29,
+    "current_season_points": 44.0
+  },
+  "Jo\u0161ko Gvardiol": {
+    "player_name": "Jo\u0161ko Gvardiol",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.66,
+    "current_season_points": 77.0
+  },
+  "Manuel Akanji": {
+    "player_name": "Manuel Akanji",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.28,
+    "current_season_points": 0.0
+  },
+  "Nathan Ak\u00e9": {
+    "player_name": "Nathan Ak\u00e9",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.05,
+    "current_season_points": 27.0
+  },
+  "Abdukodir Khusanov": {
+    "player_name": "Abdukodir Khusanov",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.54,
+    "current_season_points": 35.0
+  },
+  "Matheus Nunes": {
+    "player_name": "Matheus Nunes",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.71,
+    "current_season_points": 128.0
+  },
+  "R\u00faben dos Santos Gato Alves Dias": {
+    "player_name": "R\u00faben dos Santos Gato Alves Dias",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.35,
+    "current_season_points": 112.0
+  },
+  "John Stones": {
+    "player_name": "John Stones",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.48,
+    "current_season_points": 12.0
+  },
+  "Rico Lewis": {
+    "player_name": "Rico Lewis",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.04,
+    "current_season_points": 19.0
+  },
+  "Nico O'Reilly": {
+    "player_name": "Nico O'Reilly",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.86,
+    "current_season_points": 125.0
+  },
+  "Vitor de Oliveira Nunes dos Reis": {
+    "player_name": "Vitor de Oliveira Nunes dos Reis",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.08,
+    "current_season_points": 0.0
+  },
+  "Omar Marmoush": {
+    "player_name": "Omar Marmoush",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 4.74,
+    "current_season_points": 40.0
+  },
+  "Phil Foden": {
+    "player_name": "Phil Foden",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 2.17,
+    "current_season_points": 112.0
+  },
+  "S\u00e1vio Moreira de Oliveira": {
+    "player_name": "S\u00e1vio Moreira de Oliveira",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 0.75,
+    "current_season_points": 27.0
+  },
+  "Bernardo Mota Veiga de Carvalho e Silva": {
+    "player_name": "Bernardo Mota Veiga de Carvalho e Silva",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.47,
+    "current_season_points": 81.0
+  },
+  "Rayan Cherki": {
+    "player_name": "Rayan Cherki",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.9,
+    "current_season_points": 100.0
+  },
+  "J\u00e9r\u00e9my Doku": {
+    "player_name": "J\u00e9r\u00e9my Doku",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.54,
+    "current_season_points": 74.0
+  },
+  "\u0130lkay G\u00fcndo\u011fan": {
+    "player_name": "\u0130lkay G\u00fcndo\u011fan",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Rodrigo 'Rodri' Hernandez Cascante": {
+    "player_name": "Rodrigo 'Rodri' Hernandez Cascante",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 10.07,
+    "current_season_points": 57.0
+  },
+  "Mateo Kova\u010di\u0107": {
+    "player_name": "Mateo Kova\u010di\u0107",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 1.0
+  },
+  "Nico Gonz\u00e1lez Iglesias": {
+    "player_name": "Nico Gonz\u00e1lez Iglesias",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.05,
+    "current_season_points": 55.0
+  },
+  "Claudio Echeverri": {
+    "player_name": "Claudio Echeverri",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 0.0
+  },
+  "Tijjani Reijnders": {
+    "player_name": "Tijjani Reijnders",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.27,
+    "current_season_points": 86.0
+  },
+  "Sverre Nypan": {
+    "player_name": "Sverre Nypan",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.05,
+    "current_season_points": 0.0
+  },
+  "Kalvin Phillips": {
+    "player_name": "Kalvin Phillips",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 0.0
+  },
+  "Erling Haaland": {
+    "player_name": "Erling Haaland",
+    "position": "FWD",
+    "team": "Man City",
+    "now_cost": 1.4,
+    "predicted_next_gw_points": 4.52,
+    "current_season_points": 197.0
+  },
+  "Gianluigi Donnarumma": {
+    "player_name": "Gianluigi Donnarumma",
+    "position": "GK",
+    "team": "Man City",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.48,
+    "current_season_points": 104.0
+  },
+  "Divine Mukasa": {
+    "player_name": "Divine Mukasa",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.47,
+    "current_season_points": 2.0
+  },
+  "Stephen Mfuni": {
+    "player_name": "Stephen Mfuni",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Ryan McAidoo": {
+    "player_name": "Ryan McAidoo",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Charlie Gray": {
+    "player_name": "Charlie Gray",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Reigan Heskey": {
+    "player_name": "Reigan Heskey",
+    "position": "MID",
+    "team": "Man City",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Max Alleyne": {
+    "player_name": "Max Alleyne",
+    "position": "DEF",
+    "team": "Man City",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.0,
+    "current_season_points": 5.0
+  },
+  "Bryan Mbeumo": {
+    "player_name": "Bryan Mbeumo",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.9,
+    "predicted_next_gw_points": 4.51,
+    "current_season_points": 122.0
+  },
+  "Altay Bay\u0131nd\u0131r": {
+    "player_name": "Altay Bay\u0131nd\u0131r",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.03,
+    "current_season_points": 11.0
+  },
+  "Andr\u00e9 Onana": {
+    "player_name": "Andr\u00e9 Onana",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.2,
+    "current_season_points": 0.0
+  },
+  "Elyh Harrison": {
+    "player_name": "Elyh Harrison",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Tom Heaton": {
+    "player_name": "Tom Heaton",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.3,
+    "current_season_points": 0.0
+  },
+  "Dermot Mee": {
+    "player_name": "Dermot Mee",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.34,
+    "current_season_points": 0.0
+  },
+  "Matthijs de Ligt": {
+    "player_name": "Matthijs de Ligt",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 43.0
+  },
+  "Lisandro Mart\u00ednez": {
+    "player_name": "Lisandro Mart\u00ednez",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.49,
+    "current_season_points": 39.0
+  },
+  "Noussair Mazraoui": {
+    "player_name": "Noussair Mazraoui",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.61,
+    "current_season_points": 28.0
+  },
+  "Diego Le\u00f3n Blanco": {
+    "player_name": "Diego Le\u00f3n Blanco",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Diogo Dalot Teixeira": {
+    "player_name": "Diogo Dalot Teixeira",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.56,
+    "current_season_points": 98.0
+  },
+  "Patrick Dorgu": {
+    "player_name": "Patrick Dorgu",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.41,
+    "current_season_points": 74.0
+  },
+  "Harry Maguire": {
+    "player_name": "Harry Maguire",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.44,
+    "current_season_points": 63.0
+  },
+  "Luke Shaw": {
+    "player_name": "Luke Shaw",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.39,
+    "current_season_points": 77.0
+  },
+  "Leny Yoro": {
+    "player_name": "Leny Yoro",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.65,
+    "current_season_points": 50.0
+  },
+  "Harry Amass": {
+    "player_name": "Harry Amass",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.45,
+    "current_season_points": 0.0
+  },
+  "Tyler Fredricson": {
+    "player_name": "Tyler Fredricson",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.36,
+    "current_season_points": 1.0
+  },
+  "Ayden Heaven": {
+    "player_name": "Ayden Heaven",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.31,
+    "current_season_points": 28.0
+  },
+  "Tyrell Malacia": {
+    "player_name": "Tyrell Malacia",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.6,
+    "current_season_points": 2.0
+  },
+  "Bruno Borges Fernandes": {
+    "player_name": "Bruno Borges Fernandes",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 1.0,
+    "predicted_next_gw_points": 21.1,
+    "current_season_points": 189.0
+  },
+  "Matheus Santos Carneiro da Cunha": {
+    "player_name": "Matheus Santos Carneiro da Cunha",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 8.28,
+    "current_season_points": 117.0
+  },
+  "Marcus Rashford": {
+    "player_name": "Marcus Rashford",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.55,
+    "current_season_points": 0.0
+  },
+  "Amad Diallo": {
+    "player_name": "Amad Diallo",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.58,
+    "current_season_points": 74.0
+  },
+  "Antony dos Santos": {
+    "player_name": "Antony dos Santos",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Mason Mount": {
+    "player_name": "Mason Mount",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.35,
+    "current_season_points": 47.0
+  },
+  "Carlos Henrique Casimiro": {
+    "player_name": "Carlos Henrique Casimiro",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 7.31,
+    "current_season_points": 134.0
+  },
+  "Kobbie Mainoo": {
+    "player_name": "Kobbie Mainoo",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.4,
+    "current_season_points": 45.0
+  },
+  "Manuel Ugarte Ribeiro": {
+    "player_name": "Manuel Ugarte Ribeiro",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.55,
+    "current_season_points": 34.0
+  },
+  "Toby Collyer": {
+    "player_name": "Toby Collyer",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 0.0
+  },
+  "Jayce Fitzgerald": {
+    "player_name": "Jayce Fitzgerald",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.47,
+    "current_season_points": 0.0
+  },
+  "Jack Fletcher": {
+    "player_name": "Jack Fletcher",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.47,
+    "current_season_points": 3.0
+  },
+  "S\u00e9kou Kon\u00e9": {
+    "player_name": "S\u00e9kou Kon\u00e9",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jack Moorhouse": {
+    "player_name": "Jack Moorhouse",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Rasmus H\u00f8jlund": {
+    "player_name": "Rasmus H\u00f8jlund",
+    "position": "FWD",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.54,
+    "current_season_points": 0.0
+  },
+  "Joshua Zirkzee": {
+    "player_name": "Joshua Zirkzee",
+    "position": "FWD",
+    "team": "Man Utd",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.06,
+    "current_season_points": 37.0
+  },
+  "Chido Obi": {
+    "player_name": "Chido Obi",
+    "position": "FWD",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.47,
+    "current_season_points": 0.0
+  },
+  "Ethan Wheatley": {
+    "player_name": "Ethan Wheatley",
+    "position": "FWD",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 0.0
+  },
+  "Benjamin Sesko": {
+    "player_name": "Benjamin Sesko",
+    "position": "FWD",
+    "team": "Man Utd",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 8.6,
+    "current_season_points": 94.0
+  },
+  "Senne Lammens": {
+    "player_name": "Senne Lammens",
+    "position": "GK",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.59,
+    "current_season_points": 76.0
+  },
+  "Shea Lacey": {
+    "player_name": "Shea Lacey",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.47,
+    "current_season_points": 2.0
+  },
+  "Bendito Mantato": {
+    "player_name": "Bendito Mantato",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.48,
+    "current_season_points": 1.0
+  },
+  "Tyler Fletcher": {
+    "player_name": "Tyler Fletcher",
+    "position": "MID",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.01,
+    "current_season_points": 1.0
+  },
+  "Godwill Kukonki": {
+    "player_name": "Godwill Kukonki",
+    "position": "DEF",
+    "team": "Man Utd",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.54,
+    "current_season_points": 0.0
+  },
+  "Jacob Ramsey": {
+    "player_name": "Jacob Ramsey",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.0,
+    "current_season_points": 39.0
+  },
+  "Yoane Wissa": {
+    "player_name": "Yoane Wissa",
+    "position": "FWD",
+    "team": "Newcastle",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 1.11,
+    "current_season_points": 20.0
+  },
+  "Nick Pope": {
+    "player_name": "Nick Pope",
+    "position": "GK",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.25,
+    "current_season_points": 82.0
+  },
+  "Mark Gillespie": {
+    "player_name": "Mark Gillespie",
+    "position": "GK",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Odysseas Vlachodimos": {
+    "player_name": "Odysseas Vlachodimos",
+    "position": "GK",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Lewis Hall": {
+    "player_name": "Lewis Hall",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.02,
+    "current_season_points": 72.0
+  },
+  "Fabian Sch\u00e4r": {
+    "player_name": "Fabian Sch\u00e4r",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.34,
+    "current_season_points": 51.0
+  },
+  "Sven Botman": {
+    "player_name": "Sven Botman",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.58,
+    "current_season_points": 65.0
+  },
+  "Dan Burn": {
+    "player_name": "Dan Burn",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.88,
+    "current_season_points": 78.0
+  },
+  "Tino Livramento": {
+    "player_name": "Tino Livramento",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.53,
+    "current_season_points": 56.0
+  },
+  "Kieran Trippier": {
+    "player_name": "Kieran Trippier",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.22,
+    "current_season_points": 50.0
+  },
+  "Emil Krafth": {
+    "player_name": "Emil Krafth",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.83,
+    "current_season_points": 0.0
+  },
+  "Jamaal Lascelles": {
+    "player_name": "Jamaal Lascelles",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.0,
+    "current_season_points": 1.0
+  },
+  "Alex Murphy": {
+    "player_name": "Alex Murphy",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 1.0
+  },
+  "Harrison Ashby": {
+    "player_name": "Harrison Ashby",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Miodrag Piva\u0161": {
+    "player_name": "Miodrag Piva\u0161",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Matt Targett": {
+    "player_name": "Matt Targett",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.54,
+    "current_season_points": 0.0
+  },
+  "Anthony Gordon": {
+    "player_name": "Anthony Gordon",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 11.5,
+    "current_season_points": 98.0
+  },
+  "Anthony Elanga": {
+    "player_name": "Anthony Elanga",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 3.62,
+    "current_season_points": 42.0
+  },
+  "Harvey Barnes": {
+    "player_name": "Harvey Barnes",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.24,
+    "current_season_points": 83.0
+  },
+  "Bruno Guimar\u00e3es Rodriguez Moura": {
+    "player_name": "Bruno Guimar\u00e3es Rodriguez Moura",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 0.39,
+    "current_season_points": 134.0
+  },
+  "Jacob Murphy": {
+    "player_name": "Jacob Murphy",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 4.95,
+    "current_season_points": 65.0
+  },
+  "Joelinton C\u00e1ssio Apolin\u00e1rio de Lira": {
+    "player_name": "Joelinton C\u00e1ssio Apolin\u00e1rio de Lira",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.09,
+    "current_season_points": 66.0
+  },
+  "Sandro Tonali": {
+    "player_name": "Sandro Tonali",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.84,
+    "current_season_points": 71.0
+  },
+  "Anto\u00f1ito Cordero Campillo": {
+    "player_name": "Anto\u00f1ito Cordero Campillo",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Joe Willock": {
+    "player_name": "Joe Willock",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.27,
+    "current_season_points": 28.0
+  },
+  "Isaac Hayden": {
+    "player_name": "Isaac Hayden",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Garang Kuol": {
+    "player_name": "Garang Kuol",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Lewis Miley": {
+    "player_name": "Lewis Miley",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 58.0
+  },
+  "Joe White": {
+    "player_name": "Joe White",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "William Osula": {
+    "player_name": "William Osula",
+    "position": "FWD",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.92,
+    "current_season_points": 31.0
+  },
+  "Sean Neave": {
+    "player_name": "Sean Neave",
+    "position": "FWD",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.93,
+    "current_season_points": 0.0
+  },
+  "Aaron Ramsdale": {
+    "player_name": "Aaron Ramsdale",
+    "position": "GK",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.16,
+    "current_season_points": 23.0
+  },
+  "Malick Thiaw": {
+    "player_name": "Malick Thiaw",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.45,
+    "current_season_points": 114.0
+  },
+  "Seung-Soo Park": {
+    "player_name": "Seung-Soo Park",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Nick Woltemade": {
+    "player_name": "Nick Woltemade",
+    "position": "FWD",
+    "team": "Newcastle",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 4.09,
+    "current_season_points": 93.0
+  },
+  "John Ruddy": {
+    "player_name": "John Ruddy",
+    "position": "GK",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Leo Shahar": {
+    "player_name": "Leo Shahar",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Sam Alabi": {
+    "player_name": "Sam Alabi",
+    "position": "MID",
+    "team": "Newcastle",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Oleksandr Zinchenko": {
+    "player_name": "Oleksandr Zinchenko",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.82,
+    "current_season_points": 7.0
+  },
+  "Stefan Ortega Moreno": {
+    "player_name": "Stefan Ortega Moreno",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.07,
+    "current_season_points": 11.0
+  },
+  "James McAtee": {
+    "player_name": "James McAtee",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.58,
+    "current_season_points": 9.0
+  },
+  "Matz Sels": {
+    "player_name": "Matz Sels",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.22,
+    "current_season_points": 77.0
+  },
+  "Carlos Miguel dos Santos Pereira": {
+    "player_name": "Carlos Miguel dos Santos Pereira",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.05,
+    "current_season_points": 0.0
+  },
+  "Matt Turner": {
+    "player_name": "Matt Turner",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.44,
+    "current_season_points": 0.0
+  },
+  "Nikola Milenkovi\u0107": {
+    "player_name": "Nikola Milenkovi\u0107",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.37,
+    "current_season_points": 96.0
+  },
+  "Murillo Costa dos Santos": {
+    "player_name": "Murillo Costa dos Santos",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.89,
+    "current_season_points": 83.0
+  },
+  "Ola Aina": {
+    "player_name": "Ola Aina",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.66,
+    "current_season_points": 54.0
+  },
+  "Neco Williams": {
+    "player_name": "Neco Williams",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.86,
+    "current_season_points": 104.0
+  },
+  "David Mota Veiga Teixeira do Carmo": {
+    "player_name": "David Mota Veiga Teixeira do Carmo",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Jair Paula da Cunha Filho": {
+    "player_name": "Jair Paula da Cunha Filho",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.46,
+    "current_season_points": 5.0
+  },
+  "Felipe Rodrigues da Silva": {
+    "player_name": "Felipe Rodrigues da Silva",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.82,
+    "current_season_points": 35.0
+  },
+  "Omar Richards": {
+    "player_name": "Omar Richards",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Zach Abbott": {
+    "player_name": "Zach Abbott",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 2.0
+  },
+  "Willy Boly": {
+    "player_name": "Willy Boly",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.85,
+    "current_season_points": 0.0
+  },
+  "Morgan Gibbs-White": {
+    "player_name": "Morgan Gibbs-White",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 12.26,
+    "current_season_points": 133.0
+  },
+  "Callum Hudson-Odoi": {
+    "player_name": "Callum Hudson-Odoi",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.24,
+    "current_season_points": 81.0
+  },
+  "Elliot Anderson": {
+    "player_name": "Elliot Anderson",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 9.39,
+    "current_season_points": 138.0
+  },
+  "Jo\u00e3o Pedro Ferreira da Silva": {
+    "player_name": "Jo\u00e3o Pedro Ferreira da Silva",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Nicol\u00e1s Dom\u00ednguez": {
+    "player_name": "Nicol\u00e1s Dom\u00ednguez",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.39,
+    "current_season_points": 38.0
+  },
+  "Lewis O'Brien": {
+    "player_name": "Lewis O'Brien",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Ibrahim Sangar\u00e9": {
+    "player_name": "Ibrahim Sangar\u00e9",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.17,
+    "current_season_points": 75.0
+  },
+  "Ryan Yates": {
+    "player_name": "Ryan Yates",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.87,
+    "current_season_points": 20.0
+  },
+  "Eric da Silva Moreira": {
+    "player_name": "Eric da Silva Moreira",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.87,
+    "current_season_points": 0.0
+  },
+  "Marko Stameni\u0107": {
+    "player_name": "Marko Stameni\u0107",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Chris Wood": {
+    "player_name": "Chris Wood",
+    "position": "FWD",
+    "team": "Nott'm Forest",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.29,
+    "current_season_points": 25.0
+  },
+  "Igor Jesus Maciel da Cruz": {
+    "player_name": "Igor Jesus Maciel da Cruz",
+    "position": "FWD",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 8.64,
+    "current_season_points": 81.0
+  },
+  "Taiwo Awoniyi": {
+    "player_name": "Taiwo Awoniyi",
+    "position": "FWD",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.37,
+    "current_season_points": 20.0
+  },
+  "Dan Ndoye": {
+    "player_name": "Dan Ndoye",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 1.3,
+    "current_season_points": 49.0
+  },
+  "Angus Gunn": {
+    "player_name": "Angus Gunn",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 1.0
+  },
+  "Omari Hutchinson": {
+    "player_name": "Omari Hutchinson",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.07,
+    "current_season_points": 64.0
+  },
+  "Arnaud Kalimuendo": {
+    "player_name": "Arnaud Kalimuendo",
+    "position": "FWD",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 9.0
+  },
+  "John Victor Maciel Furtado": {
+    "player_name": "John Victor Maciel Furtado",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 11.0
+  },
+  "Nicol\u00f2 Savona": {
+    "player_name": "Nicol\u00f2 Savona",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 39.0
+  },
+  "Luis Eduardo Soares da Silva": {
+    "player_name": "Luis Eduardo Soares da Silva",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Dilane Bakwa": {
+    "player_name": "Dilane Bakwa",
+    "position": "MID",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.38,
+    "current_season_points": 14.0
+  },
+  "Lorenzo Lucca": {
+    "player_name": "Lorenzo Lucca",
+    "position": "FWD",
+    "team": "Nott'm Forest",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.36,
+    "current_season_points": 8.0
+  },
+  "Luca Netz": {
+    "player_name": "Luca Netz",
+    "position": "DEF",
+    "team": "Nott'm Forest",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.56,
+    "current_season_points": 2.0
+  },
+  "Anthony Patterson": {
+    "player_name": "Anthony Patterson",
+    "position": "GK",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.59,
+    "current_season_points": 0.0
+  },
+  "Simon Moore": {
+    "player_name": "Simon Moore",
+    "position": "GK",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Blondy Nna Noukeu": {
+    "player_name": "Blondy Nna Noukeu",
+    "position": "GK",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Daniel Ballard": {
+    "player_name": "Daniel Ballard",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.08,
+    "current_season_points": 118.0
+  },
+  "Trai Hume": {
+    "player_name": "Trai Hume",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.75,
+    "current_season_points": 88.0
+  },
+  "Aji Alese": {
+    "player_name": "Aji Alese",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Joe Anderson": {
+    "player_name": "Joe Anderson",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Dennis Cirkin": {
+    "player_name": "Dennis Cirkin",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.68,
+    "current_season_points": 14.0
+  },
+  "Leo Fuhr Hjelde": {
+    "player_name": "Leo Fuhr Hjelde",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Niall Huggins": {
+    "player_name": "Niall Huggins",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Zak Johnson": {
+    "player_name": "Zak Johnson",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Luke O'Nien": {
+    "player_name": "Luke O'Nien",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.46,
+    "current_season_points": 10.0
+  },
+  "Timoth\u00e9e Pemb\u00e9l\u00e9": {
+    "player_name": "Timoth\u00e9e Pemb\u00e9l\u00e9",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Reinildo Mandava": {
+    "player_name": "Reinildo Mandava",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.2,
+    "current_season_points": 51.0
+  },
+  "Jenson Seelt": {
+    "player_name": "Jenson Seelt",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 2.0
+  },
+  "Simon Adingra": {
+    "player_name": "Simon Adingra",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.65,
+    "current_season_points": 34.0
+  },
+  "Habib Diarra": {
+    "player_name": "Habib Diarra",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.03,
+    "current_season_points": 51.0
+  },
+  "Patrick Roberts": {
+    "player_name": "Patrick Roberts",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Milan Aleksi\u0107": {
+    "player_name": "Milan Aleksi\u0107",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Enzo Le F\u00e9e": {
+    "player_name": "Enzo Le F\u00e9e",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.18,
+    "current_season_points": 108.0
+  },
+  "Romaine Mundle": {
+    "player_name": "Romaine Mundle",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.74,
+    "current_season_points": 14.0
+  },
+  "Dan Neil": {
+    "player_name": "Dan Neil",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.12,
+    "current_season_points": 3.0
+  },
+  "Ian Poveda-Ocampo": {
+    "player_name": "Ian Poveda-Ocampo",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.47,
+    "current_season_points": 0.0
+  },
+  "Chris Rigg": {
+    "player_name": "Chris Rigg",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.51,
+    "current_season_points": 21.0
+  },
+  "Noah Sadiki": {
+    "player_name": "Noah Sadiki",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.76,
+    "current_season_points": 61.0
+  },
+  "Chemsdine Talbi": {
+    "player_name": "Chemsdine Talbi",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.2,
+    "current_season_points": 75.0
+  },
+  "Abdoullah Ba": {
+    "player_name": "Abdoullah Ba",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Alan Browne": {
+    "player_name": "Alan Browne",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.98,
+    "current_season_points": 0.0
+  },
+  "Pierre Ekwah Elimby": {
+    "player_name": "Pierre Ekwah Elimby",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Harrison Jones": {
+    "player_name": "Harrison Jones",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.2,
+    "current_season_points": 0.0
+  },
+  "Jay Matete": {
+    "player_name": "Jay Matete",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Nectarios Triantis": {
+    "player_name": "Nectarios Triantis",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Wilson Isidor": {
+    "player_name": "Wilson Isidor",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.15,
+    "current_season_points": 60.0
+  },
+  "Eliezer Mayenda Dossou": {
+    "player_name": "Eliezer Mayenda Dossou",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.0,
+    "current_season_points": 39.0
+  },
+  "Ahmed Abdullahi": {
+    "player_name": "Ahmed Abdullahi",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.96,
+    "current_season_points": 0.0
+  },
+  "Lu\u00eds Hemir Silva Semedo": {
+    "player_name": "Lu\u00eds Hemir Silva Semedo",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Nazarii Rusyn": {
+    "player_name": "Nazarii Rusyn",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Granit Xhaka": {
+    "player_name": "Granit Xhaka",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 4.52,
+    "current_season_points": 99.0
+  },
+  "Robin Roefs": {
+    "player_name": "Robin Roefs",
+    "position": "GK",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.31,
+    "current_season_points": 110.0
+  },
+  "Arthur Masuaku": {
+    "player_name": "Arthur Masuaku",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Omar Alderete": {
+    "player_name": "Omar Alderete",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.54,
+    "current_season_points": 103.0
+  },
+  "Nordi Mukiele": {
+    "player_name": "Nordi Mukiele",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.3,
+    "current_season_points": 115.0
+  },
+  "Lutsharel Geertruida": {
+    "player_name": "Lutsharel Geertruida",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.46,
+    "current_season_points": 46.0
+  },
+  "Brian Brobbey": {
+    "player_name": "Brian Brobbey",
+    "position": "FWD",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.91,
+    "current_season_points": 72.0
+  },
+  "Bertrand Traor\u00e9": {
+    "player_name": "Bertrand Traor\u00e9",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.19,
+    "current_season_points": 30.0
+  },
+  "Jenson Jones": {
+    "player_name": "Jenson Jones",
+    "position": "DEF",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.68,
+    "current_season_points": 0.0
+  },
+  "Tymur Tutierov": {
+    "player_name": "Tymur Tutierov",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.99,
+    "current_season_points": 0.0
+  },
+  "Djiamgone Jocelin Ta Bi": {
+    "player_name": "Djiamgone Jocelin Ta Bi",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.77,
+    "current_season_points": 1.0
+  },
+  "Melker Ellborg": {
+    "player_name": "Melker Ellborg",
+    "position": "GK",
+    "team": "Sunderland",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.35,
+    "current_season_points": 16.0
+  },
+  "Nilson Angulo": {
+    "player_name": "Nilson Angulo",
+    "position": "MID",
+    "team": "Sunderland",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.24,
+    "current_season_points": 9.0
+  },
+  "Guglielmo Vicario": {
+    "player_name": "Guglielmo Vicario",
+    "position": "GK",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.69,
+    "current_season_points": 90.0
+  },
+  "Brandon Austin": {
+    "player_name": "Brandon Austin",
+    "position": "GK",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Anton\u00edn Kinsk\u00fd": {
+    "player_name": "Anton\u00edn Kinsk\u00fd",
+    "position": "GK",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 0.0
+  },
+  "Pedro Porro Sauceda": {
+    "player_name": "Pedro Porro Sauceda",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 3.13,
+    "current_season_points": 83.0
+  },
+  "Cristian Romero": {
+    "player_name": "Cristian Romero",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.85,
+    "current_season_points": 90.0
+  },
+  "Kevin Danso": {
+    "player_name": "Kevin Danso",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.72,
+    "current_season_points": 38.0
+  },
+  "Ben Davies": {
+    "player_name": "Ben Davies",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.43,
+    "current_season_points": 10.0
+  },
+  "Radu Dr\u0103gu\u0219in": {
+    "player_name": "Radu Dr\u0103gu\u0219in",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.58,
+    "current_season_points": 15.0
+  },
+  "Djed Spence": {
+    "player_name": "Djed Spence",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.09,
+    "current_season_points": 60.0
+  },
+  "Destiny Udogie": {
+    "player_name": "Destiny Udogie",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.32,
+    "current_season_points": 14.0
+  },
+  "Micky van de Ven": {
+    "player_name": "Micky van de Ven",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.03,
+    "current_season_points": 98.0
+  },
+  "Ashley Phillips": {
+    "player_name": "Ashley Phillips",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Takai K\u014dta": {
+    "player_name": "Takai K\u014dta",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Luka Vu\u0161kovi\u0107": {
+    "player_name": "Luka Vu\u0161kovi\u0107",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.24,
+    "current_season_points": 0.0
+  },
+  "Son Heung-min": {
+    "player_name": "Son Heung-min",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": -0.73,
+    "current_season_points": 0.0
+  },
+  "James Maddison": {
+    "player_name": "James Maddison",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": -0.36,
+    "current_season_points": 0.0
+  },
+  "Mohammed Kudus": {
+    "player_name": "Mohammed Kudus",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.4,
+    "current_season_points": 75.0
+  },
+  "Dejan Kulusevski": {
+    "player_name": "Dejan Kulusevski",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.6,
+    "current_season_points": 0.0
+  },
+  "Mathys Tel": {
+    "player_name": "Mathys Tel",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.52,
+    "current_season_points": 56.0
+  },
+  "Rodrigo Bentancur": {
+    "player_name": "Rodrigo Bentancur",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.41,
+    "current_season_points": 64.0
+  },
+  "Lucas Bergvall": {
+    "player_name": "Lucas Bergvall",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.27,
+    "current_season_points": 40.0
+  },
+  "Yves Bissouma": {
+    "player_name": "Yves Bissouma",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.51,
+    "current_season_points": 13.0
+  },
+  "Wilson Odobert": {
+    "player_name": "Wilson Odobert",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.09,
+    "current_season_points": 46.0
+  },
+  "Manor Solomon": {
+    "player_name": "Manor Solomon",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Bryan Gil Salvatierra": {
+    "player_name": "Bryan Gil Salvatierra",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Archie Gray": {
+    "player_name": "Archie Gray",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.99,
+    "current_season_points": 57.0
+  },
+  "Mikey Moore": {
+    "player_name": "Mikey Moore",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.58,
+    "current_season_points": 0.0
+  },
+  "Pape Matar Sarr": {
+    "player_name": "Pape Matar Sarr",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 6.36,
+    "current_season_points": 65.0
+  },
+  "Yang Min-hyeok": {
+    "player_name": "Yang Min-hyeok",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.95,
+    "current_season_points": 0.0
+  },
+  "Callum Olusesi": {
+    "player_name": "Callum Olusesi",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.45,
+    "current_season_points": 1.0
+  },
+  "Dominic Solanke-Mitchell": {
+    "player_name": "Dominic Solanke-Mitchell",
+    "position": "FWD",
+    "team": "Spurs",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 6.24,
+    "current_season_points": 35.0
+  },
+  "Richarlison de Andrade": {
+    "player_name": "Richarlison de Andrade",
+    "position": "FWD",
+    "team": "Spurs",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.49,
+    "current_season_points": 93.0
+  },
+  "Will Lankshear": {
+    "player_name": "Will Lankshear",
+    "position": "FWD",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.34,
+    "current_season_points": 0.0
+  },
+  "Dane Scarlett": {
+    "player_name": "Dane Scarlett",
+    "position": "FWD",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.82,
+    "current_season_points": 2.0
+  },
+  "Jo\u00e3o Maria Lobo Alves Palhares Costa Palhinha Gon\u00e7alves": {
+    "player_name": "Jo\u00e3o Maria Lobo Alves Palhares Costa Palhinha Gon\u00e7alves",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.45,
+    "current_season_points": 94.0
+  },
+  "Xavi Simons": {
+    "player_name": "Xavi Simons",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 1.83,
+    "current_season_points": 65.0
+  },
+  "Randal Kolo Muani": {
+    "player_name": "Randal Kolo Muani",
+    "position": "FWD",
+    "team": "Spurs",
+    "now_cost": 0.7,
+    "predicted_next_gw_points": 2.58,
+    "current_season_points": 42.0
+  },
+  "Jun'ai Byfield": {
+    "player_name": "Jun'ai Byfield",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 1.0
+  },
+  "James Rowswell": {
+    "player_name": "James Rowswell",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.31,
+    "current_season_points": 1.0
+  },
+  "Yusuf Akhamrich": {
+    "player_name": "Yusuf Akhamrich",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Luc\u00e1 Williams-Barnett": {
+    "player_name": "Luc\u00e1 Williams-Barnett",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Conor Gallagher": {
+    "player_name": "Conor Gallagher",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.77,
+    "current_season_points": 20.0
+  },
+  "Jo\u00e3o Victor de Souza Menezes": {
+    "player_name": "Jo\u00e3o Victor de Souza Menezes",
+    "position": "DEF",
+    "team": "Spurs",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.86,
+    "current_season_points": 3.0
+  },
+  "Rio Kyerematen": {
+    "player_name": "Rio Kyerematen",
+    "position": "MID",
+    "team": "Spurs",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Adama Traor\u00e9 Diarra": {
+    "player_name": "Adama Traor\u00e9 Diarra",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.75,
+    "current_season_points": 23.0
+  },
+  "Alphonse Areola": {
+    "player_name": "Alphonse Areola",
+    "position": "GK",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.37,
+    "current_season_points": 51.0
+  },
+  "Wes Foderingham": {
+    "player_name": "Wes Foderingham",
+    "position": "GK",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Kriszti\u00e1n Hegyi": {
+    "player_name": "Kriszti\u00e1n Hegyi",
+    "position": "GK",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "El Hadji Malick Diouf": {
+    "player_name": "El Hadji Malick Diouf",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.65,
+    "current_season_points": 82.0
+  },
+  "Emerson Palmieri dos Santos": {
+    "player_name": "Emerson Palmieri dos Santos",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Maximilian Kilman": {
+    "player_name": "Maximilian Kilman",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.42,
+    "current_season_points": 36.0
+  },
+  "Konstantinos Mavropanos": {
+    "player_name": "Konstantinos Mavropanos",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.35,
+    "current_season_points": 77.0
+  },
+  "Nayef Aguerd": {
+    "player_name": "Nayef Aguerd",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 3.0
+  },
+  "Ollie Scarles": {
+    "player_name": "Ollie Scarles",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 21.0
+  },
+  "Jean-Clair Todibo": {
+    "player_name": "Jean-Clair Todibo",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 3.35,
+    "current_season_points": 44.0
+  },
+  "Aaron Wan-Bissaka": {
+    "player_name": "Aaron Wan-Bissaka",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.8,
+    "current_season_points": 63.0
+  },
+  "Kaelan Casey": {
+    "player_name": "Kaelan Casey",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Lucas Tolentino Coelho de Lima": {
+    "player_name": "Lucas Tolentino Coelho de Lima",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.01,
+    "current_season_points": 69.0
+  },
+  "Tom\u00e1\u0161 Sou\u010dek": {
+    "player_name": "Tom\u00e1\u0161 Sou\u010dek",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 6.65,
+    "current_season_points": 79.0
+  },
+  "Crysencio Summerville": {
+    "player_name": "Crysencio Summerville",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.62,
+    "current_season_points": 92.0
+  },
+  "Edson \u00c1lvarez Vel\u00e1zquez": {
+    "player_name": "Edson \u00c1lvarez Vel\u00e1zquez",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.07,
+    "current_season_points": 0.0
+  },
+  "Maxwel Cornet": {
+    "player_name": "Maxwel Cornet",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 0.0
+  },
+  "Guido Rodr\u00edguez": {
+    "player_name": "Guido Rodr\u00edguez",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 8.0
+  },
+  "Luis Guilherme Lira dos Santos": {
+    "player_name": "Luis Guilherme Lira dos Santos",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 5.0
+  },
+  "George Earthy": {
+    "player_name": "George Earthy",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.98,
+    "current_season_points": 1.0
+  },
+  "Andy Irving": {
+    "player_name": "Andy Irving",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 9.0
+  },
+  "Lewis Orford": {
+    "player_name": "Lewis Orford",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Freddie Potts": {
+    "player_name": "Freddie Potts",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.7,
+    "current_season_points": 35.0
+  },
+  "Jarrod Bowen": {
+    "player_name": "Jarrod Bowen",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.8,
+    "predicted_next_gw_points": 8.34,
+    "current_season_points": 143.0
+  },
+  "Niclas F\u00fcllkrug": {
+    "player_name": "Niclas F\u00fcllkrug",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.61,
+    "current_season_points": 12.0
+  },
+  "Callum Marshall": {
+    "player_name": "Callum Marshall",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.64,
+    "current_season_points": 2.0
+  },
+  "Kyle Walker-Peters": {
+    "player_name": "Kyle Walker-Peters",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.41,
+    "current_season_points": 32.0
+  },
+  "Callum Wilson": {
+    "player_name": "Callum Wilson",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 2.73,
+    "current_season_points": 65.0
+  },
+  "Mads Hermansen": {
+    "player_name": "Mads Hermansen",
+    "position": "GK",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.38,
+    "current_season_points": 45.0
+  },
+  "Mateus Gon\u00e7alo Espanha Fernandes": {
+    "player_name": "Mateus Gon\u00e7alo Espanha Fernandes",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.48,
+    "current_season_points": 107.0
+  },
+  "Soungoutou Magassa": {
+    "player_name": "Soungoutou Magassa",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.44,
+    "current_season_points": 40.0
+  },
+  "Lukasz Fabianski": {
+    "player_name": "Lukasz Fabianski",
+    "position": "GK",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.61,
+    "current_season_points": 0.0
+  },
+  "Ezra Mayers": {
+    "player_name": "Ezra Mayers",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.18,
+    "current_season_points": 6.0
+  },
+  "Airidas Golambeckis": {
+    "player_name": "Airidas Golambeckis",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.4,
+    "current_season_points": 0.0
+  },
+  "Mohamadou Kant\u00e9": {
+    "player_name": "Mohamadou Kant\u00e9",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.36,
+    "current_season_points": 7.0
+  },
+  "Pablo Felipe Pereira de Jesus": {
+    "player_name": "Pablo Felipe Pereira de Jesus",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.96,
+    "current_season_points": 12.0
+  },
+  "Valent\u00edn Castellanos": {
+    "player_name": "Valent\u00edn Castellanos",
+    "position": "FWD",
+    "team": "West Ham",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 5.9,
+    "current_season_points": 31.0
+  },
+  "Keiber Lamadrid": {
+    "player_name": "Keiber Lamadrid",
+    "position": "MID",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.03,
+    "current_season_points": 0.0
+  },
+  "Axel Disasi": {
+    "player_name": "Axel Disasi",
+    "position": "DEF",
+    "team": "West Ham",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.47,
+    "current_season_points": 21.0
+  },
+  "Sam Johnstone": {
+    "player_name": "Sam Johnstone",
+    "position": "GK",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.75,
+    "current_season_points": 21.0
+  },
+  "Jos\u00e9 Malheiro de S\u00e1": {
+    "player_name": "Jos\u00e9 Malheiro de S\u00e1",
+    "position": "GK",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.46,
+    "current_season_points": 56.0
+  },
+  "Daniel Bentley": {
+    "player_name": "Daniel Bentley",
+    "position": "GK",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.4,
+    "current_season_points": 0.0
+  },
+  "Emmanuel Agbadou": {
+    "player_name": "Emmanuel Agbadou",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 23.0
+  },
+  "Matt Doherty": {
+    "player_name": "Matt Doherty",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.29,
+    "current_season_points": 12.0
+  },
+  "Hugo Bueno L\u00f3pez": {
+    "player_name": "Hugo Bueno L\u00f3pez",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.27,
+    "current_season_points": 73.0
+  },
+  "Yerson Mosquera Valdelamar": {
+    "player_name": "Yerson Mosquera Valdelamar",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.62,
+    "current_season_points": 51.0
+  },
+  "Rodrigo Martins Gomes": {
+    "player_name": "Rodrigo Martins Gomes",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 5.02,
+    "current_season_points": 35.0
+  },
+  "Santiago Ignacio Bueno": {
+    "player_name": "Santiago Ignacio Bueno",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 1.54,
+    "current_season_points": 72.0
+  },
+  "Toti Gomes": {
+    "player_name": "Toti Gomes",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 0.23,
+    "current_season_points": 28.0
+  },
+  "Ki-Jana Hoever": {
+    "player_name": "Ki-Jana Hoever",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.85,
+    "current_season_points": 10.0
+  },
+  "Bastien Meupiyou Menadjou": {
+    "player_name": "Bastien Meupiyou Menadjou",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "Pedro Cardoso de Lima": {
+    "player_name": "Pedro Cardoso de Lima",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.47,
+    "current_season_points": 3.0
+  },
+  "Alfie Pond": {
+    "player_name": "Alfie Pond",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Hwang Hee-chan": {
+    "player_name": "Hwang Hee-chan",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": -0.44,
+    "current_season_points": 44.0
+  },
+  "Andr\u00e9 Trindade da Costa Neto": {
+    "player_name": "Andr\u00e9 Trindade da Costa Neto",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 10.17,
+    "current_season_points": 77.0
+  },
+  "Jean-Ricner Bellegarde": {
+    "player_name": "Jean-Ricner Bellegarde",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.43,
+    "current_season_points": 39.0
+  },
+  "Fer L\u00f3pez Gonz\u00e1lez": {
+    "player_name": "Fer L\u00f3pez Gonz\u00e1lez",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 0.02,
+    "current_season_points": 12.0
+  },
+  "Jo\u00e3o Victor Gomes da Silva": {
+    "player_name": "Jo\u00e3o Victor Gomes da Silva",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 7.55,
+    "current_season_points": 92.0
+  },
+  "Gon\u00e7alo Manuel Ganchinho Guedes": {
+    "player_name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.6,
+    "predicted_next_gw_points": 0.01,
+    "current_season_points": 0.0
+  },
+  "Marshall Munetsi": {
+    "player_name": "Marshall Munetsi",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 38.0
+  },
+  "Boubacar Traor\u00e9": {
+    "player_name": "Boubacar Traor\u00e9",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Tawanda Chirewa": {
+    "player_name": "Tawanda Chirewa",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 2.0
+  },
+  "Tom Edozie": {
+    "player_name": "Tom Edozie",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.31,
+    "current_season_points": 6.0
+  },
+  "Enso Gonz\u00e1lez Medina": {
+    "player_name": "Enso Gonz\u00e1lez Medina",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.52,
+    "current_season_points": 0.0
+  },
+  "Joe Hodge": {
+    "player_name": "Joe Hodge",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.04,
+    "current_season_points": 0.0
+  },
+  "F\u00e1bio Soares Silva": {
+    "player_name": "F\u00e1bio Soares Silva",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 0.0
+  },
+  "Sa\u0161a Kalajd\u017ei\u0107": {
+    "player_name": "Sa\u0161a Kalajd\u017ei\u0107",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.03,
+    "current_season_points": 1.0
+  },
+  "Leon Chiwome": {
+    "player_name": "Leon Chiwome",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 0.0
+  },
+  "Nathan Fraser": {
+    "player_name": "Nathan Fraser",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.53,
+    "current_season_points": 0.0
+  },
+  "Jhon Arias": {
+    "player_name": "Jhon Arias",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.02,
+    "current_season_points": 45.0
+  },
+  "David M\u00f8ller Wolfe": {
+    "player_name": "David M\u00f8ller Wolfe",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.4,
+    "current_season_points": 29.0
+  },
+  "Jackson Tchatchoua": {
+    "player_name": "Jackson Tchatchoua",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 4.41,
+    "current_season_points": 51.0
+  },
+  "Ladislav Krejc\u00ed": {
+    "player_name": "Ladislav Krejc\u00ed",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 2.75,
+    "current_season_points": 59.0
+  },
+  "Tolu Arokodare": {
+    "player_name": "Tolu Arokodare",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.87,
+    "current_season_points": 59.0
+  },
+  "Mateus Man\u00e9": {
+    "player_name": "Mateus Man\u00e9",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": 2.64,
+    "current_season_points": 53.0
+  },
+  "Saheed Olagunju": {
+    "player_name": "Saheed Olagunju",
+    "position": "DEF",
+    "team": "Wolves",
+    "now_cost": 0.4,
+    "predicted_next_gw_points": -0.48,
+    "current_season_points": 0.0
+  },
+  "Luke Rawlings": {
+    "player_name": "Luke Rawlings",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -1.08,
+    "current_season_points": 0.0
+  },
+  "Temple Ojinnaka": {
+    "player_name": "Temple Ojinnaka",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.98,
+    "current_season_points": 0.0
+  },
+  "Ethan Sutherland": {
+    "player_name": "Ethan Sutherland",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.54,
+    "current_season_points": 0.0
+  },
+  "Jerome Abbey": {
+    "player_name": "Jerome Abbey",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": -0.54,
+    "current_season_points": 0.0
+  },
+  "Angel Gomes": {
+    "player_name": "Angel Gomes",
+    "position": "MID",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 1.23,
+    "current_season_points": 9.0
+  },
+  "Adam Armstrong": {
+    "player_name": "Adam Armstrong",
+    "position": "FWD",
+    "team": "Wolves",
+    "now_cost": 0.5,
+    "predicted_next_gw_points": 5.26,
+    "current_season_points": 20.0
+  }
+}
