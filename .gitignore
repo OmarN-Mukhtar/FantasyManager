@@ -46,22 +46,8 @@ env/
 .env.local
 .env.*.local
 
-# Large Data Files (don't commit to repo)
-# Allow specific prediction files for auto-updates
-data/
-!data/.gitkeep
-!data/predictions.json
-!data/sentiment_analysis.json
-!data/players.json
-!data/news.json
-!data/players_with_sentiment.csv
-!data/qualified_players.csv
-
-# Vector database (allow specific files)
-!vector_db/
-!vector_db/.gitkeep
-!vector_db/index.faiss
-!vector_db/metadata.pkl
+# Large Data Files
+# Keep data and vector_db tracked (stored via Git LFS by .gitattributes)
 
 # Data files (ignore by default, allow specific patterns)
 *.csv
@@ -143,3 +129,9 @@ historical_data/
 !.huggingface.yml
 
 *.png
+
+# Keep full generated data and vector store in git/LFS
+!data/
+!data/**
+!vector_db/
+!vector_db/**
