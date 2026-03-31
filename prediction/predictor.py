@@ -182,9 +182,15 @@ class PlayerPredictor:
             (self.full_df['season'] == latest_season)
         ]['total_points'].sum()
         
+        # Get team and cost info
+        team = str(latest.get('team', latest.get('team_id', 'Unknown')))
+        now_cost = pd.to_numeric(latest.get('now_cost', 0), errors='coerce')
+        
         return {
             'player_name': str(player_name),
             'position': position,
+            'team': team,
+            'now_cost': round(float(now_cost) / 10, 1) if now_cost > 0 else 0.0,  # FPL API returns in tenths
             'predicted_next_gw_points': round(predicted_next_gw, 2),
             'current_season_points': round(float(season_points), 2),
         }

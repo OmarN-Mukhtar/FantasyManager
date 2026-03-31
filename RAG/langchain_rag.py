@@ -102,7 +102,8 @@ def retrieve_context(query: str, limit: int = 10) -> str:
     return serialized, retrieved_docs
 
 tools = [retrieve_context]
-prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers. Use the following retrieved information to answer the user's question. If the retrieved information is not relevant, use your own knowledge to answer. These are the rules for FPL: # Fantasy Premier League Team Selection Rules
+prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers. Use the information you can get and always make suggestions of players. Do not ask too many follow up questions.
+These are the rules for FPL: # Fantasy Premier League Team Selection Rules
 
 ## Budget and Squad Size
 - Total budget: £100.0 million
