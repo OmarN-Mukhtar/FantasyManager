@@ -43,6 +43,9 @@ jobs:
 
         git clone https://huggingface.co/spaces/$SPACE_REPO hf-space
 
+        # Clean up old module directories to avoid stale files
+        rm -rf hf-space/auxilliary hf-space/sentiment hf-space/prediction hf-space/RAG hf-space/data hf-space/vector_db
+
         cp auxilliary/app.py hf-space/app.py
         cp requirements.txt hf-space/requirements.txt
         cp -r auxilliary hf-space/
@@ -50,7 +53,6 @@ jobs:
         cp -r prediction hf-space/
         cp -r RAG hf-space/
         # Keep deployed artifacts minimal: only required data files (vector DB is generated on startup)
-        rm -rf hf-space/data hf-space/vector_db
         mkdir -p hf-space/data
         cp data/predictions.json hf-space/data/predictions.json 2>/dev/null || echo "No predictions.json to copy"
         cp data/news.json hf-space/data/news.json 2>/dev/null || echo "No news.json to copy"
