@@ -26,7 +26,8 @@ model = ChatGoogleGenerativeAI(model='gemini-2.5-flash-lite', google_api_key=goo
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 #3) Vector Store Model
-pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+pc = Pinecone(api_key=pinecone_api_key)
 index = pc.Index("fantasy-manager-vectors")
 
 _vectorstore_cache = None
