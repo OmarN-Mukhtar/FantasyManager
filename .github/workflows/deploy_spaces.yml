@@ -12,7 +12,6 @@ on:
       - 'requirements.txt'
       - 'data/predictions.json'
       - 'data/news.json'
-      - 'vector_db/**'
   workflow_dispatch:
 
 jobs:
@@ -50,12 +49,11 @@ jobs:
         cp -r sentiment hf-space/
         cp -r prediction hf-space/
         cp -r RAG hf-space/
-        # Keep deployed artifacts minimal: only required data files + vector DB.
+        # Keep deployed artifacts minimal: only required data files (vector DB is generated on startup)
         rm -rf hf-space/data hf-space/vector_db
         mkdir -p hf-space/data
         cp data/predictions.json hf-space/data/predictions.json 2>/dev/null || echo "No predictions.json to copy"
         cp data/news.json hf-space/data/news.json 2>/dev/null || echo "No news.json to copy"
-        cp -r vector_db hf-space/ 2>/dev/null || echo "No vector_db directory to copy"
         
         cd hf-space
 

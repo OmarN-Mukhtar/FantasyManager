@@ -29,13 +29,8 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 embeddings_dim = 384
 index = faiss.IndexFlatL2(embeddings_dim)
 
-vectorstore = FAISS(embedding_function=embeddings, index=index, docstore=InMemoryDocstore(), index_to_docstore_id={})
-vector_db_path = PROJECT_ROOT / "vector_db" / "langchain_faiss"
-
-if __name__ == "__main__":
-    #4) Indexing the data
-    # Load, Split, Store
-
+def build_vectorstore():
+    """Build vectorstore from news.json and predictions.json"""
     news_data_path = PROJECT_ROOT / "data" / "news.json"
     predictions_data_path = PROJECT_ROOT / "data" / "predictions.json"
 
@@ -52,7 +47,6 @@ if __name__ == "__main__":
         headlines = payload.get("headlines", [])
 
         for i, headline in enumerate(headlines):
-
             if not isinstance(headline, str) or not headline.strip():
                 continue
 
@@ -87,15 +81,17 @@ if __name__ == "__main__":
             )
         )
 
-    vectorstore.add_documents(docs)
+    vs = FAISS(embedding_function=embeddings, index=faiss.IndexFlatL2(384), docstore=InMemoryDocstore(), index_to_docstore_id={})
+    vs.add_documents(docs)
+    return vs
+
+vectorstore = build_vectorstore()
+
+if __name__ == "__main__":
+    # Vectorstore is regenerated from build_vectorstore() above
+    vector_db_path = PROJECT_ROOT / "vector_db" / "langchain_faiss"
     vector_db_path.mkdir(parents=True, exist_ok=True)
     vectorstore.save_local(str(vector_db_path))
-else:
-    vectorstore = FAISS.load_local(
-        str(vector_db_path),
-        embeddings,
-        allow_dangerous_deserialization=True,
-    )
 
 # 5) Retrieval and Generation
 @tool(response_format='content_and_artifact')
