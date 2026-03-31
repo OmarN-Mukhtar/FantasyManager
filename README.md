@@ -1,3 +1,16 @@
+---
+title: Fantasy Premier League Manager
+emoji: ⚽
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
+license: mit
+python_version: '3.11'
+---
+
 # Fantasy Premier League Manager
 
 An intelligent fantasy football assistant that analyzes player performance using news sentiment analysis, ML-powered predictions, and FPL-aware RAG recommendations.
@@ -35,9 +48,11 @@ python auxilliary/run_pipeline.py
 # Skip news fetching if you already have data
 python auxilliary/run_pipeline.py --skip-news
 
-# Launch interactive dashboard
-streamlit run auxilliary/dashboard.py
+# Launch interactive dashboard (requires Google API key for LLM features)
+streamlit run auxilliary/app.py
 ```
+
+**Note**: For Hugging Face Spaces deployment, the vector DB is automatically generated from `data/news.json` and `data/predictions.json` on startup—no need to pre-compute or store binary indices.
 
 ## Pipeline Stages
 
@@ -59,40 +74,39 @@ streamlit run auxilliary/dashboard.py
 - Predicts total season points and points per match
 - Saves to `data/predictions.json`
 
-### 4. RAG System (`rag_system.py`)
-- Creates FAISS vector index from news and predictions
-- Embeds FPL rules knowledge
-- Enables natural language queries
-- Saves to `vector_db/`
+### 4. RAG System (`langchain_rag.py`)
+- Creates FAISS vector index from news and predictions at startup
+- Embeds FPL rules knowledge via prompts
+- Enables natural language queries with Google Gemini
+- Generated fresh each run (no persistent vector DB deployed)
 
-### 5. Dashboard (`dashboard.py`)
-Five interactive tabs:
+### 5. Dashboard (`app.py`)
+Interactive Streamlit app with:
 - **Player Table**: Sortable/filterable player data
 - **Predictions**: ML predictions with visualizations
 - **Analytics**: Sentiment analysis charts
-- **RAG Search**: Natural language Q&A
+- **RAG Search**: Natural language Q&A powered by LLMs
 - **About**: Documentation
 
 ## Project Structure
 
 ```
 FantasyManager/
-├── sentiment/
-├── prediction/
-├── RAG/
+├── sentiment/              # Sentiment analysis module
+├── prediction/             # ML prediction module
+├── RAG/                    # RAG system with LLM integration
+│   └── langchain_rag.py    # FAISS + LangChain RAG
 ├── auxilliary/
-│   ├── data_fetcher.py        # Fetch players & news
-│   ├── sentiment_analyzer.py  # Sentiment analysis
-│   ├── predictor.py           # ML predictions
-│   ├── rag_system.py          # FAISS RAG system
-│   ├── dashboard.py           # Streamlit UI
-│   ├── fpl_rules.py           # FPL rules & validation
-│   └── llm_integration.py     # LLM integration template
-├── data/                      # Generated data
-├── vector_db/                 # FAISS index
-├── data/cleaned_merged_seasons.csv # Historical data
-├── auxilliary/run_pipeline.py  # Main pipeline
-└── requirements.txt           # Dependencies
+│   ├── data_fetcher.py     # Fetch players & news from FPL API & RSS
+│   ├── sentiment_analyzer.py    # BERT sentiment analysis
+│   ├── fpl_rules.py        # FPL rules & validation
+│   └── app.py              # Streamlit dashboard (entry point)
+├── data/                   # Generated data files
+│   ├── news.json           # News articles per player
+│   ├── predictions.json    # ML predictions per player
+│   └── cleaned_merged_seasons.csv  # Historical data
+├── requirements.txt        # All Python dependencies
+└── .github/workflows/deploy_spaces.yml  # HF Spaces deployment
 ```
 
 ## Technology Stack
@@ -178,13 +192,14 @@ python auxilliary/run_pipeline.py --skip-news
 
 ## Data Files
 
-After running the pipeline:
+After running the pipeline, these files are generated:
 - `data/players.json` - Current FPL players
 - `data/news.json` - News articles per player
-- `data/sentiment_analysis.json` - Sentiment scores
-- `data/predictions.json` - ML predictions
-- `data/players_with_sentiment.csv` - Complete dataset
-- `vector_db/index.faiss` - FAISS vector index
+- `data/sentiment_analysis.json` - Sentiment scores (0-100 scale)
+- `data/predictions.json` - ML predictions (points and points/match)
+- `data/players_with_sentiment.csv` - Complete dataset with all metrics
+
+**Note**: The FAISS vector database is generated on-the-fly from `news.json` and `predictions.json` at runtime—it's not stored as a file.
 
 ## Command Line Options
 

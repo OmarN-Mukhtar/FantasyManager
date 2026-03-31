@@ -43,8 +43,8 @@ jobs:
 
         git clone https://huggingface.co/spaces/$SPACE_REPO hf-space
 
-        # Clean up old module directories to avoid stale files
-        rm -rf hf-space/auxilliary hf-space/sentiment hf-space/prediction hf-space/RAG hf-space/data hf-space/vector_db hf-space/src
+        # Clean up everything to ensure no stale files
+        rm -rf hf-space/*
 
         cp auxilliary/app.py hf-space/app.py
         cp requirements.txt hf-space/requirements.txt
