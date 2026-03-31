@@ -201,5 +201,5 @@ prompt = """You are a helpful assistant for Fantasy Premier League (FPL) manager
 - Monitor pre-match press conferences for team news
 """
 
-agent = create_agent(model=model, tools=tools, prompt=prompt)
+agent = create_agent(model=model, tools=tools, system_prompt=prompt)
 
