@@ -92,7 +92,7 @@ def get_vectorstore():
     """Lazily initialize and cache the vectorstore to avoid duplicate uploads"""
     global _vectorstore_cache
     if _vectorstore_cache is None:
-        _vectorstore_cache = PineconeVectorStore(embeddings=embeddings, index=index)
+        _vectorstore_cache = PineconeVectorStore(embedding=embeddings, index=index)
     return _vectorstore_cache
 
 if __name__ == "__main__":
@@ -196,17 +196,6 @@ These are the rules for FPL: # Fantasy Premier League Team Selection Rules
 - 1st place: 3 bonus points
 - 2nd place: 2 bonus points
 - 3rd place: 1 bonus point
-
-## Strategy Considerations
-- Look for players with good upcoming fixtures (easy opponents)
-- Consider form over the last 5-10 gameweeks
-- Balance premium players (expensive) with budget options (value picks)
-- Defenders from teams with good defensive records get clean sheet points
-- Attacking players (goals/assists) generally outscore others
-- Midfielders who play as forwards offer best value (MID price, FWD returns)
-- Rotation risk: avoid players who don't play regularly
-- Injury prone players are risky despite talent
-- Monitor pre-match press conferences for team news
 """
 
 agent = create_agent(model=model, tools=tools, system_prompt=prompt)
