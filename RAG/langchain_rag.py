@@ -7,10 +7,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # Embeddings Imports
 from langchain_huggingface import HuggingFaceEmbeddings
 # Vector Store Imports
-import faiss
+from pinecone import Pinecone
 from langchain_core.documents import Document
 from langchain_community.docstore.in_memory import InMemoryDocstore
-from langchain_community.vectorstores import FAISS
+from langchain_pinecone import PineconeVectorStore
 # RAG Imports
 from langchain.agents import create_agent
 from langchain.tools import tool
@@ -26,11 +26,13 @@ model = ChatGoogleGenerativeAI(model='gemini-2.5-flash-lite', google_api_key=goo
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 #3) Vector Store Model
-embeddings_dim = 384
-index = faiss.IndexFlatL2(embeddings_dim)
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+index = pc.Index("fantasy-manager-vectors")
+
+_vectorstore_cache = None
 
 def build_vectorstore():
-    """Build vectorstore from news.json and predictions.json"""
+    """Build vectorstore from news.json and predictions.json and upload to Pinecone"""
     news_data_path = PROJECT_ROOT / "data" / "news.json"
     predictions_data_path = PROJECT_ROOT / "data" / "predictions.json"
 
@@ -81,23 +83,29 @@ def build_vectorstore():
             )
         )
 
-    vs = FAISS(embedding_function=embeddings, index=faiss.IndexFlatL2(384), docstore=InMemoryDocstore(), index_to_docstore_id={})
+    vs = PineconeVectorStore(embeddings=embeddings, index=index)
     vs.add_documents(docs)
     return vs
 
-vectorstore = build_vectorstore()
+def get_vectorstore():
+    """Lazily initialize and cache the vectorstore to avoid duplicate uploads"""
+    global _vectorstore_cache
+    if _vectorstore_cache is None:
+        _vectorstore_cache = PineconeVectorStore(embeddings=embeddings, index=index)
+    return _vectorstore_cache
 
 if __name__ == "__main__":
-    # Vectorstore is regenerated from build_vectorstore() above
-    vector_db_path = PROJECT_ROOT / "vector_db" / "langchain_faiss"
-    vector_db_path.mkdir(parents=True, exist_ok=True)
-    vectorstore.save_local(str(vector_db_path))
+    # Initialize vectorstore and upload documents to Pinecone
+    print("Building vectorstore and uploading to Pinecone...")
+    build_vectorstore()
+    print("Vectorstore successfully uploaded to Pinecone!")
 
 # 5) Retrieval and Generation
 @tool(response_format='content_and_artifact')
 def retrieve_context(query: str, limit: int = 10) -> str:
     "Search the vector database for relevant documents."
-    retrieved_docs = vectorstore.similarity_search(query, k=3)
+    vectorstore = get_vectorstore()
+    retrieved_docs = vectorstore.similarity_search(query, k=limit)
     serialized = "\n\n".join([f"{doc.page_content}\nMetadata: {doc.metadata}" for doc in retrieved_docs])
     return serialized, retrieved_docs
 
