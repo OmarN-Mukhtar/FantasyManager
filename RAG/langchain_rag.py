@@ -20,7 +20,7 @@ load_dotenv(PROJECT_ROOT / ".env")
 
 #1) Chat Model
 google_api_key = os.getenv("GOOGLE_API_KEY")
-model = ChatGoogleGenerativeAI(model='gemini-3-1B', google_api_key=google_api_key)
+model = ChatGoogleGenerativeAI(model='gemma-3-1B', google_api_key=google_api_key)
 
 #2) Embeddings Model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
