@@ -7,7 +7,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # Embeddings Imports
 from langchain_huggingface import HuggingFaceEmbeddings
 # Vector Store Imports
-os.environ.setdefault("PINECONE_SKIP_DEPRECATED_PLUGINS", "true")
 from pinecone import Pinecone
 from langchain_core.documents import Document
 from langchain_community.docstore.in_memory import InMemoryDocstore
