@@ -25,9 +25,13 @@ if prompt := st.chat_input("Ask about player predictions, news, or FPL advice!")
         with st.spinner("Watching the tapes..."):
             response = ""
             try:
+                chat_history = [
+                    {"role": msg["role"], "content": msg["content"]}
+                    for msg in st.session_state.messages
+                ]
                 # Stream returns full state with 'messages' (plural)
                 for chunk in agent.stream(
-                    {"messages": [{"role": "user", "content": prompt}]},
+                    {"messages": chat_history},
                     stream_mode="values"
                 ):
                     # Each chunk contains the full state at that point
