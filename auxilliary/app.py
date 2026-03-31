@@ -23,12 +23,26 @@ if prompt := st.chat_input("Ask about player predictions, news, or FPL advice!")
     with st.chat_message("assistant"):
         with st.spinner("Watch the tapes..."):
             response = ""
-            for step in agent.stream(
-                {'messages': [{"role": "user", "content": prompt}]},
-                stream_mode = 'values'
-            ):
-                last = step['message'][-1]
-                if last.type == 'ai' and not last.tools_calls:
-                    response = last.content
+            try:
+                for step in agent.stream(
+                    {'messages': [{"role": "user", "content": prompt}]},
+                    stream_mode='values'
+                ):
+                    # Handle different output formats safely
+                    if 'message' in step and step['message']:
+                        messages = step['message']
+                        if isinstance(messages, list) and len(messages) > 0:
+                            last = messages[-1]
+                            if hasattr(last, 'type') and last.type == 'ai':
+                                response = getattr(last, 'content', '')
+                    elif isinstance(step, dict) and 'content' in step:
+                        response = step['content']
+                
+                if not response:
+                    response = "I couldn't generate a response. Please try again."
+            except Exception as e:
+                response = f"Error: {str(e)}"
+                st.error(response)
+
         st.markdown(response)
     st.session_state.messages.append({"role": "assistant", "content": response})
