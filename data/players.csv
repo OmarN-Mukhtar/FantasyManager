@@ -300,7 +300,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 789,789,Max Merrick,Max,Merrick,Merrick,Chelsea,7,GK,1,4.0,0,0.0,0.0,0.0
 803,803,Teddy Sharman-Lowe,Teddy,Sharman-Lowe,Sharman-Lowe,Chelsea,7,GK,1,4.0,0,0.0,0.0,0.0
 253,253,Dean Henderson,Dean,Henderson,Henderson,Crystal Palace,8,GK,1,5.0,115,1.5,4.0,8.2
-254,254,Walter Benítez,Walter,Benítez,Benitez,Crystal Palace,8,GK,1,4.0,7,3.5,7.0,0.3
+254,254,Walter Benítez,Walter,Benítez,Benitez,Crystal Palace,8,GK,1,3.9,7,3.5,7.0,0.3
 255,255,Remi Matthews,Remi,Matthews,Matthews,Crystal Palace,8,GK,1,3.9,0,0.0,0.0,0.1
 256,256,Daniel Muñoz Mejía,Daniel,Muñoz Mejía,Muñoz,Crystal Palace,8,DEF,2,5.8,109,0.5,5.2,7.3
 257,257,Maxence Lacroix,Maxence,Lacroix,Lacroix,Crystal Palace,8,DEF,2,5.1,128,4.5,4.6,4.6
@@ -540,7 +540,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 445,445,Harry Amass,Harry,Amass,Amass,Man Utd,14,DEF,2,4.0,0,0.0,0.0,0.1
 446,446,Tyler Fredricson,Tyler,Fredricson,Fredricson,Man Utd,14,DEF,2,3.7,1,0.0,1.0,0.1
 447,447,Ayden Heaven,Ayden,Heaven,Heaven,Man Utd,14,DEF,2,3.7,28,0.3,2.0,2.1
-448,448,Tyrell Malacia,Tyrell,Malacia,Malacia,Man Utd,14,DEF,2,3.8,2,0.3,1.0,0.4
+448,448,Tyrell Malacia,Tyrell,Malacia,Malacia,Man Utd,14,DEF,2,3.7,2,0.3,1.0,0.4
 449,449,Bruno Borges Fernandes,Bruno,Borges Fernandes,B.Fernandes,Man Utd,14,MID,3,10.3,189,10.3,6.8,44.5
 450,450,Matheus Santos Carneiro da Cunha,Matheus,Santos Carneiro da Cunha,Cunha,Man Utd,14,MID,3,8.0,117,5.3,4.2,8.3
 451,451,Marcus Rashford,Marcus,Rashford,Rashford,Man Utd,14,MID,3,7.0,0,0.0,0.0,0.0
