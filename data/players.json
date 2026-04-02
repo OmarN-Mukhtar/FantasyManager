@@ -82,7 +82,7 @@
     "total_points": 173,
     "form": 10.0,
     "points_per_game": 6.9,
-    "selected_by_percent": 43.1
+    "selected_by_percent": 43.0
   },
   {
     "id": 6,
@@ -1731,7 +1731,7 @@
     "total_points": 105,
     "form": 3.0,
     "points_per_game": 3.5,
-    "selected_by_percent": 2.0
+    "selected_by_percent": 1.9
   },
   {
     "id": 201,
@@ -6164,7 +6164,7 @@
     "team_id": 9,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 5.2,
+    "now_cost": 5.3,
     "total_points": 139,
     "form": 6.7,
     "points_per_game": 4.5,
@@ -9547,7 +9547,7 @@
     "team_id": 14,
     "position": "GK",
     "element_type": 1,
-    "now_cost": 5.0,
+    "now_cost": 5.1,
     "total_points": 76,
     "form": 2.0,
     "points_per_game": 3.0,
