@@ -1,12 +1,12 @@
 id,element,name,first_name,second_name,web_name,team,team_id,position,element_type,now_cost,total_points,form,points_per_game,selected_by_percent
-1,1,David Raya Martín,David,Raya Martín,Raya,Arsenal,1,GK,1,6.0,131,1.0,4.0,33.5
+1,1,David Raya Martín,David,Raya Martín,Raya,Arsenal,1,GK,1,6.0,131,1.0,4.0,33.7
 2,2,Kepa Arrizabalaga Revuelta,Kepa,Arrizabalaga Revuelta,Arrizabalaga,Arsenal,1,GK,1,4.0,0,0.0,0.0,0.4
 3,3,Karl Hein,Karl,Hein,Hein,Arsenal,1,GK,1,4.0,0,0.0,0.0,0.2
 4,4,Tommy Setford,Tommy,Setford,Setford,Arsenal,1,GK,1,3.9,0,0.0,0.0,0.2
-5,5,Gabriel dos Santos Magalhães,Gabriel,dos Santos Magalhães,Gabriel,Arsenal,1,DEF,2,7.1,177,2.0,6.6,42.5
-6,6,William Saliba,William,Saliba,Saliba,Arsenal,1,DEF,2,6.1,109,1.0,4.0,13.8
+5,5,Gabriel dos Santos Magalhães,Gabriel,dos Santos Magalhães,Gabriel,Arsenal,1,DEF,2,7.1,177,2.0,6.6,42.7
+6,6,William Saliba,William,Saliba,Saliba,Arsenal,1,DEF,2,6.1,111,2.0,4.1,13.8
 7,7,Riccardo Calafiori,Riccardo,Calafiori,Calafiori,Arsenal,1,DEF,2,5.6,93,0.0,4.2,5.9
-8,8,Jurriën Timber,Jurriën,Timber,J.Timber,Arsenal,1,DEF,2,6.2,149,0.0,5.0,21.5
+8,8,Jurriën Timber,Jurriën,Timber,J.Timber,Arsenal,1,DEF,2,6.2,149,0.0,5.0,21.3
 9,9,Jakub Kiwior,Jakub,Kiwior,Kiwior,Arsenal,1,DEF,2,5.4,0,0.0,0.0,0.0
 10,10,Myles Lewis-Skelly,Myles,Lewis-Skelly,Lewis-Skelly,Arsenal,1,DEF,2,5.0,13,0.5,0.9,1.4
 11,11,Benjamin White,Benjamin,White,White,Arsenal,1,DEF,2,5.1,32,1.0,3.6,0.5
@@ -23,15 +23,15 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 23,23,Fábio Ferreira Vieira,Fábio,Ferreira Vieira,Fábio Vieira,Arsenal,1,MID,3,5.4,0,0.0,0.0,0.0
 24,24,Christian Nørgaard,Christian,Nørgaard,Nørgaard,Arsenal,1,MID,3,5.1,6,0.0,1.0,0.1
 25,25,Ethan Nwaneri,Ethan,Nwaneri,Nwaneri,Arsenal,1,MID,3,5.0,8,0.0,1.3,0.1
-26,26,Martín Zubimendi Ibáñez,Martín,Zubimendi Ibáñez,Zubimendi,Arsenal,1,MID,3,5.0,121,2.0,3.7,3.1
+26,26,Martín Zubimendi Ibáñez,Martín,Zubimendi Ibáñez,Zubimendi,Arsenal,1,MID,3,5.0,123,3.0,3.7,3.1
 28,28,Ismeal Kabia,Ismeal,Kabia,Kabia,Arsenal,1,MID,3,4.5,0,0.0,0.0,0.1
 29,29,Albert Sambi Lokonga,Albert,Sambi Lokonga,Sambi,Arsenal,1,MID,3,4.5,0,0.0,0.0,0.0
-30,30,Kai Havertz,Kai,Havertz,Havertz,Arsenal,1,FWD,4,7.3,19,3.5,2.4,0.5
+30,30,Kai Havertz,Kai,Havertz,Havertz,Arsenal,1,FWD,4,7.3,19,3.5,2.4,0.6
 31,31,Gabriel Fernando de Jesus,Gabriel,Fernando de Jesus,G.Jesus,Arsenal,1,FWD,4,6.4,18,0.5,1.5,0.3
 266,266,Eberechi Eze,Eberechi,Eze,Eze,Arsenal,1,MID,3,7.2,97,1.5,3.5,7.7
 662,662,Cristhian Mosquera,Cristhian,Mosquera,Mosquera,Arsenal,1,DEF,2,5.3,29,0.5,1.8,0.2
 666,666,Viktor Gyökeres,Viktor,Gyökeres,Gyökeres,Arsenal,1,FWD,4,8.8,107,3.0,3.5,11.9
-700,700,Max Dowman,Max,Dowman,Dowman,Arsenal,1,MID,3,4.2,12,0.5,3.0,0.7
+700,700,Max Dowman,Max,Dowman,Dowman,Arsenal,1,MID,3,4.2,12,0.5,3.0,0.8
 711,711,Andre Harriman-Annous,Andre,Harriman-Annous,Harriman-Annous,Arsenal,1,MID,3,4.4,0,0.0,0.0,0.0
 725,725,Piero Hincapié,Piero,Hincapié,Hincapie,Arsenal,1,DEF,2,5.1,75,0.5,3.4,0.7
 759,759,Marli Salmon,Marli,Salmon,Salmon,Arsenal,1,DEF,2,4.0,0,0.0,0.0,0.0
@@ -50,7 +50,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 44,44,Lamare Bogarde,Lamare,Bogarde,Bogarde,Aston Villa,2,DEF,2,4.0,34,0.0,1.4,0.5
 45,45,Lino da Cruz Sousa,Lino,da Cruz Sousa,Sousa,Aston Villa,2,DEF,2,3.8,0,0.0,0.0,0.3
 46,46,Yasin Özcan,Yasin,Özcan,Yasin,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,0.1
-47,47,Morgan Rogers,Morgan,Rogers,Rogers,Aston Villa,2,MID,3,7.4,151,6.3,4.6,23.0
+47,47,Morgan Rogers,Morgan,Rogers,Rogers,Aston Villa,2,MID,3,7.4,152,6.7,4.6,23.2
 48,48,Youri Tielemans,Youri,Tielemans,Tielemans,Aston Villa,2,MID,3,5.9,57,1.7,2.9,0.6
 49,49,Leon Bailey,Leon,Bailey,Bailey,Aston Villa,2,MID,3,5.5,13,0.3,1.4,0.1
 50,50,Emiliano Buendía Stati,Emiliano,Buendía Stati,Buendía,Aston Villa,2,MID,3,5.3,85,1.0,2.7,0.4
@@ -66,7 +66,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 61,61,Leander Dendoncker,Leander,Dendoncker,Dendoncker,Aston Villa,2,MID,3,4.5,0,0.0,0.0,0.1
 62,62,Jamaldeen Jimoh-Aloba,Jamaldeen,Jimoh-Aloba,Jimoh-Aloba,Aston Villa,2,MID,3,4.5,1,0.0,1.0,0.1
 63,63,Kadan Young,Kadan,Young,Young,Aston Villa,2,MID,3,4.3,0,0.0,0.0,0.5
-64,64,Ollie Watkins,Ollie,Watkins,Watkins,Aston Villa,2,FWD,4,8.6,127,9.0,4.0,9.9
+64,64,Ollie Watkins,Ollie,Watkins,Watkins,Aston Villa,2,FWD,4,8.6,127,9.0,4.0,10.7
 65,65,Zépiqueno Redmond,Zépiqueno,Redmond,Redmond,Aston Villa,2,FWD,4,4.5,0,0.0,0.0,0.3
 389,389,Harvey Elliott,Harvey,Elliott,Elliott,Aston Villa,2,MID,3,5.1,5,0.0,1.0,0.2
 456,456,Jadon Sancho,Jadon,Sancho,Sancho,Aston Villa,2,MID,3,5.8,33,2.3,1.6,0.2
@@ -87,44 +87,44 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 184,184,Etienne Green,Etienne,Green,Green,Burnley,3,GK,1,4.0,0,0.0,0.0,0.2
 185,185,Václav Hladký,Václav,Hladký,Hladký,Burnley,3,GK,1,3.9,0,0.0,0.0,0.2
 186,186,Connor Roberts,Connor,Roberts,Roberts,Burnley,3,DEF,2,4.3,0,0.0,0.0,0.0
-187,187,Kyle Walker,Kyle,Walker,Walker,Burnley,3,DEF,2,4.4,62,0.2,2.0,1.1
+187,187,Kyle Walker,Kyle,Walker,Walker,Burnley,3,DEF,2,4.4,62,0.0,2.0,1.1
 188,188,Hannes Delcroix,Hannes,Delcroix,Delcroix,Burnley,3,DEF,2,3.8,0,0.0,0.0,0.2
 189,189,Owen Dodgson,Owen,Dodgson,Dodgson,Burnley,3,DEF,2,4.0,0,0.0,0.0,0.0
-190,190,Hjalmar Ekdal,Hjalmar,Ekdal,Ekdal,Burnley,3,DEF,2,3.8,45,0.2,2.6,0.7
-191,191,Maxime Estève,Maxime,Estève,Estève,Burnley,3,DEF,2,3.9,73,1.8,2.4,7.3
-192,192,Quilindschy Hartman,Quilindschy,Hartman,Hartman,Burnley,3,DEF,2,4.0,58,1.5,3.1,0.6
-193,193,Bashir Humphreys,Bashir,Humphreys,Humphreys,Burnley,3,DEF,2,3.9,42,0.8,2.6,0.1
+190,190,Hjalmar Ekdal,Hjalmar,Ekdal,Ekdal,Burnley,3,DEF,2,3.8,45,0.3,2.6,0.7
+191,191,Maxime Estève,Maxime,Estève,Estève,Burnley,3,DEF,2,3.9,73,1.3,2.4,7.3
+192,192,Quilindschy Hartman,Quilindschy,Hartman,Hartman,Burnley,3,DEF,2,4.0,58,1.7,3.1,0.6
+193,193,Bashir Humphreys,Bashir,Humphreys,Humphreys,Burnley,3,DEF,2,3.9,42,0.7,2.6,0.1
 194,194,Jordan Beyer,Jordan,Beyer,Jordan,Burnley,3,DEF,2,3.9,0,0.0,0.0,0.1
-195,195,Lucas Pires Silva,Lucas,Pires Silva,Lucas Pires,Burnley,3,DEF,2,3.8,20,0.2,1.2,0.3
+195,195,Lucas Pires Silva,Lucas,Pires Silva,Lucas Pires,Burnley,3,DEF,2,3.8,20,0.3,1.2,0.3
 196,196,Shurandy Sambo,Shurandy,Sambo,Sambo,Burnley,3,DEF,2,4.0,0,0.0,0.0,0.0
 197,197,Oliver Sonne,Oliver,Sonne,Sonne,Burnley,3,DEF,2,3.8,13,0.0,1.9,0.2
 198,198,Axel Tuanzebe,Axel,Tuanzebe,Tuanzebe,Burnley,3,DEF,2,3.9,27,0.0,2.5,0.9
 199,199,Joe Worrall,Joe,Worrall,Worrall,Burnley,3,DEF,2,3.8,20,0.0,1.8,0.2
-200,200,Jaidon Anthony,Jaidon,Anthony,Anthony,Burnley,3,MID,3,5.0,109,1.5,3.4,2.0
+200,200,Jaidon Anthony,Jaidon,Anthony,Anthony,Burnley,3,MID,3,5.0,109,1.3,3.4,2.0
 201,201,Manuel Benson Hedilazio,Manuel,Benson Hedilazio,Benson,Burnley,3,MID,3,5.4,0,0.0,0.0,0.0
-202,202,Jacob Bruun Larsen,Jacob,Bruun Larsen,Bruun Larsen,Burnley,3,MID,3,5.2,38,0.5,1.5,0.0
+202,202,Jacob Bruun Larsen,Jacob,Bruun Larsen,Bruun Larsen,Burnley,3,MID,3,5.2,38,0.7,1.5,0.0
 203,203,Enock Agyei,Enock,Agyei,Boateng,Burnley,3,MID,3,4.7,0,0.0,0.0,0.0
 204,204,Darko Churlinov,Darko,Churlinov,Churlinov,Burnley,3,MID,3,4.9,0,0.0,0.0,0.0
 205,205,Josh Cullen,Josh,Cullen,Cullen,Burnley,3,MID,3,4.9,70,0.0,3.9,0.8
-206,206,Marcus Edwards,Marcus,Edwards,Edwards,Burnley,3,MID,3,4.7,49,1.2,2.3,0.1
-207,207,Hannibal Mejbri,Hannibal,Mejbri,Hannibal,Burnley,3,MID,3,4.7,52,0.2,2.3,0.1
+206,206,Marcus Edwards,Marcus,Edwards,Edwards,Burnley,3,MID,3,4.7,49,1.3,2.3,0.1
+207,207,Hannibal Mejbri,Hannibal,Mejbri,Hannibal,Burnley,3,MID,3,4.7,52,0.0,2.3,0.1
 208,208,Luca Koleosho,Luca,Koleosho,Koleosho,Burnley,3,MID,3,5.0,0,0.0,0.0,0.0
-209,209,Josh Laurent,Josh,Laurent,Laurent,Burnley,3,MID,3,4.8,51,0.0,1.8,0.0
-210,210,Loum Tchaouna,Loum,Tchaouna,Tchaouna,Burnley,3,MID,3,4.8,40,0.5,1.7,0.0
+209,209,Josh Laurent,Josh,Laurent,Laurent,Burnley,3,MID,3,4.8,51,0.3,1.8,0.0
+210,210,Loum Tchaouna,Loum,Tchaouna,Tchaouna,Burnley,3,MID,3,4.8,40,0.3,1.7,0.0
 211,211,Aaron Ramsey,Aaron,Ramsey,A.Ramsey,Burnley,3,MID,3,4.4,0,0.0,0.0,1.4
 212,212,Oluwaseun Adewumi,Oluwaseun,Adewumi,Adewumi,Burnley,3,MID,3,4.5,0,0.0,0.0,0.0
 213,213,Jaydon Banel,Jaydon,Banel,Banel,Burnley,3,MID,3,4.5,1,0.0,1.0,0.0
-214,214,Mike Trésor Ndayishimiye,Mike,Trésor Ndayishimiye,Trésor,Burnley,3,MID,3,4.3,5,0.2,1.0,0.1
-215,215,Zian Flemming,Zian,Flemming,Flemming,Burnley,3,FWD,4,5.3,80,4.0,3.3,0.4
+214,214,Mike Trésor Ndayishimiye,Mike,Trésor Ndayishimiye,Trésor,Burnley,3,MID,3,4.3,5,0.3,1.0,0.1
+215,215,Zian Flemming,Zian,Flemming,Flemming,Burnley,3,FWD,4,5.3,80,3.0,3.3,0.4
 216,216,Zeki Amdouni,Zeki,Amdouni,Amdouni,Burnley,3,FWD,4,4.8,0,0.0,0.0,0.0
-217,217,Lyle Foster,Lyle,Foster,Foster,Burnley,3,FWD,4,4.9,56,1.5,2.3,0.8
-218,218,Ashley Barnes,Ashley,Barnes,Barnes,Burnley,3,FWD,4,4.2,5,0.2,1.0,1.3
+217,217,Lyle Foster,Lyle,Foster,Foster,Burnley,3,FWD,4,4.9,56,0.3,2.3,0.8
+218,218,Ashley Barnes,Ashley,Barnes,Barnes,Burnley,3,FWD,4,4.2,5,0.0,1.0,1.3
 219,219,Michael Obafemi,Michael,Obafemi,Obafemi,Burnley,3,FWD,4,4.4,0,0.0,0.0,0.1
-470,470,Martin Dúbravka,Martin,Dúbravka,Dúbravka,Burnley,3,GK,1,4.0,90,1.0,2.7,28.7
-614,614,James Ward-Prowse,James,Ward-Prowse,Ward-Prowse,Burnley,3,MID,3,5.6,31,1.8,2.4,0.2
-676,676,Lesley Ugochukwu,Lesley,Ugochukwu,Ugochukwu,Burnley,3,MID,3,5.0,88,1.5,2.8,0.1
-680,680,Armando Broja,Armando,Broja,Broja,Burnley,3,FWD,4,5.2,41,0.5,1.9,0.1
-722,722,Florentino Ibrain Morris Luís,Florentino Ibrain,Morris Luís,Florentino,Burnley,3,MID,3,5.0,70,1.0,2.7,0.0
+470,470,Martin Dúbravka,Martin,Dúbravka,Dúbravka,Burnley,3,GK,1,4.0,90,0.7,2.7,28.6
+614,614,James Ward-Prowse,James,Ward-Prowse,Ward-Prowse,Burnley,3,MID,3,5.6,31,2.0,2.4,0.2
+676,676,Lesley Ugochukwu,Lesley,Ugochukwu,Ugochukwu,Burnley,3,MID,3,5.0,88,1.3,2.8,0.1
+680,680,Armando Broja,Armando,Broja,Broja,Burnley,3,FWD,4,5.2,41,0.7,1.9,0.1
+722,722,Florentino Ibrain Morris Luís,Florentino Ibrain,Morris Luís,Florentino,Burnley,3,MID,3,5.0,70,1.3,2.7,0.0
 776,776,Oliver Pimlott,Oliver,Pimlott,Pimlott,Burnley,3,MID,3,4.5,0,0.0,0.0,0.0
 784,784,George Brierley,George,Brierley,Brierley,Burnley,3,MID,3,4.5,0,0.0,0.0,0.0
 820,820,Kian McMahon-Brown,Kian,McMahon-Brown,McMahon-Brown,Burnley,3,MID,3,4.5,0,0.0,0.0,0.0
@@ -134,17 +134,17 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 69,69,Callan McKenna,Callan,McKenna,McKenna,Bournemouth,4,GK,1,3.9,0,0.0,0.0,0.2
 70,70,Alex Paulsen,Alex,Paulsen,Paulsen,Bournemouth,4,GK,1,4.0,0,0.0,0.0,0.1
 71,71,Illia Zabarnyi,Illia,Zabarnyi,Zabarnyi,Bournemouth,4,DEF,2,5.0,0,0.0,0.0,0.0
-72,72,Marcos Senesi Barón,Marcos,Senesi Barón,Senesi,Bournemouth,4,DEF,2,5.2,143,2.0,4.5,22.7
+72,72,Marcos Senesi Barón,Marcos,Senesi Barón,Senesi,Bournemouth,4,DEF,2,5.2,143,2.0,4.5,22.3
 73,73,Adam Smith,Adam,Smith,Smith,Bournemouth,4,DEF,2,4.4,39,0.3,2.1,0.2
 74,74,Adrien Truffert,Adrien,Truffert,Truffert,Bournemouth,4,DEF,2,4.7,136,4.7,4.1,4.5
 75,75,Matai Akinmboni,Matai,Akinmboni,Akinmboni,Bournemouth,4,DEF,2,3.8,0,0.0,0.0,0.2
 76,76,Owen Bevan,Owen,Bevan,Bevan,Bournemouth,4,DEF,2,3.8,0,0.0,0.0,0.2
-77,77,James Hill,James,Hill,Hill,Bournemouth,4,DEF,2,4.2,89,2.3,3.7,8.4
+77,77,James Hill,James,Hill,Hill,Bournemouth,4,DEF,2,4.2,89,2.3,3.7,8.1
 78,78,Julián Araujo Zúñiga,Julián,Araujo Zúñiga,J.Araujo,Bournemouth,4,DEF,2,3.8,0,0.0,0.0,0.5
 79,79,Chris Mepham,Chris,Mepham,Mepham,Bournemouth,4,DEF,2,4.0,0,0.0,0.0,0.1
 80,80,Julio Soler Barreto,Julio,Soler Barreto,Soler,Bournemouth,4,DEF,2,3.9,3,0.0,1.0,0.2
 81,81,Justin Kluivert,Justin,Kluivert,Kluivert,Bournemouth,4,MID,3,6.9,40,0.0,2.2,0.6
-84,84,Marcus Tavernier,Marcus,Tavernier,Tavernier,Bournemouth,4,MID,3,5.4,118,3.0,4.1,5.2
+84,84,Marcus Tavernier,Marcus,Tavernier,Tavernier,Bournemouth,4,MID,3,5.4,118,3.0,4.1,4.9
 85,85,Tyler Adams,Tyler,Adams,Adams,Bournemouth,4,MID,3,4.9,62,0.7,3.1,0.3
 86,86,David Brooks,David,Brooks,Brooks,Bournemouth,4,MID,3,5.0,50,0.7,1.9,0.2
 87,87,Ryan Christie,Ryan,Christie,Christie,Bournemouth,4,MID,3,4.9,46,1.3,2.0,0.2
@@ -157,7 +157,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 94,94,Dominic Sadi,Dominic,Sadi,Sadi,Bournemouth,4,MID,3,4.5,0,0.0,0.0,0.0
 95,95,Zain Silcott-Duberry,Zain,Silcott-Duberry,Silcott-Duberry,Bournemouth,4,MID,3,4.4,0,0.0,0.0,0.1
 96,96,Ben Winterburn,Ben,Winterburn,Winterburn,Bournemouth,4,MID,3,4.5,1,0.0,1.0,0.0
-97,97,Francisco Evanilson de Lima Barbosa,Francisco Evanilson,de Lima Barbosa,Evanilson,Bournemouth,4,FWD,4,6.7,104,3.3,3.4,2.9
+97,97,Francisco Evanilson de Lima Barbosa,Francisco Evanilson,de Lima Barbosa,Evanilson,Bournemouth,4,FWD,4,6.7,104,3.3,3.4,2.8
 98,98,Enes Ünal,Enes,Ünal,Enes Ünal,Bournemouth,4,FWD,4,5.4,23,0.7,1.2,0.0
 99,99,Daniel Adu-Adjei,Daniel,Adu-Adjei,Adu-Adjei,Bournemouth,4,FWD,4,4.4,0,0.0,0.0,0.1
 100,100,Junior Kroupi,Junior,Kroupi,Kroupi.Jr,Bournemouth,4,FWD,4,4.6,87,2.7,3.1,6.0
@@ -172,43 +172,43 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 799,799,Charlie Stevens,Charlie,Stevens,Stevens,Bournemouth,4,MID,3,4.5,0,0.0,0.0,0.0
 801,801,Alex Tóth,Alex,Tóth,Tóth.A,Bournemouth,4,MID,3,4.9,5,0.7,0.8,0.0
 806,806,Christos Mandas,Christos,Mandas,Mandas,Bournemouth,4,GK,1,4.0,0,0.0,0.0,0.0
-807,807,Rayan Vitor Simplício Rocha,Rayan Vitor,Simplício Rocha,Rayan,Bournemouth,4,MID,3,5.5,39,2.3,3.9,1.8
-27,27,Reiss Nelson,Reiss,Nelson,Nelson,Brentford,5,MID,3,4.8,8,0.3,1.0,0.1
-83,83,Dango Ouattara,Dango,Ouattara,O.Dango,Brentford,5,MID,3,5.9,111,2.0,4.1,2.6
-101,101,Caoimhín Kelleher,Caoimhín,Kelleher,Kelleher,Brentford,5,GK,1,4.8,122,5.7,3.8,12.9
+807,807,Rayan Vitor Simplício Rocha,Rayan Vitor,Simplício Rocha,Rayan,Bournemouth,4,MID,3,5.5,39,2.3,3.9,1.7
+27,27,Reiss Nelson,Reiss,Nelson,Nelson,Brentford,5,MID,3,4.8,8,0.5,1.0,0.1
+83,83,Dango Ouattara,Dango,Ouattara,O.Dango,Brentford,5,MID,3,5.9,111,2.5,4.1,2.6
+101,101,Caoimhín Kelleher,Caoimhín,Kelleher,Kelleher,Brentford,5,GK,1,4.8,122,4.0,3.8,12.9
 102,102,Ellery Balcombe,Ellery,Balcombe,Balcombe,Brentford,5,GK,1,3.9,0,0.0,0.0,0.3
 103,103,Matthew Cox,Matthew,Cox,Cox,Brentford,5,GK,1,3.9,0,0.0,0.0,0.1
 104,104,Julian Eyestone,Julian,Eyestone,Eyestone,Brentford,5,GK,1,3.9,0,0.0,0.0,0.1
-105,105,Hákon Rafn Valdimarsson,Hákon Rafn,Valdimarsson,Valdimarsson,Brentford,5,GK,1,3.8,1,0.0,1.0,0.7
-106,106,Nathan Collins,Nathan,Collins,Collins,Brentford,5,DEF,2,4.9,114,5.0,3.8,2.7
-107,107,Keane Lewis-Potter,Keane,Lewis-Potter,Lewis-Potter,Brentford,5,DEF,2,4.8,96,4.3,3.1,1.6
+105,105,Hákon Rafn Valdimarsson,Hákon Rafn,Valdimarsson,Valdimarsson,Brentford,5,GK,1,3.8,1,0.0,1.0,0.8
+106,106,Nathan Collins,Nathan,Collins,Collins,Brentford,5,DEF,2,4.9,114,4.5,3.8,2.8
+107,107,Keane Lewis-Potter,Keane,Lewis-Potter,Lewis-Potter,Brentford,5,DEF,2,4.8,96,3.5,3.1,1.6
 108,108,Kristoffer Ajer,Kristoffer,Ajer,Ajer,Brentford,5,DEF,2,4.4,70,0.0,2.9,0.2
 109,109,Rico Henry,Rico,Henry,Henry,Brentford,5,DEF,2,4.3,52,0.0,2.1,0.1
 110,110,Michael Kayode,Michael,Kayode,Kayode,Brentford,5,DEF,2,4.6,104,6.0,3.2,1.1
-111,111,Ethan Pinnock,Ethan,Pinnock,Pinnock,Brentford,5,DEF,2,4.2,14,3.3,3.5,0.1
+111,111,Ethan Pinnock,Ethan,Pinnock,Pinnock,Brentford,5,DEF,2,4.2,14,0.0,3.5,0.1
 112,112,Mads Roerslev Rasmussen,Mads,Roerslev Rasmussen,Roerslev,Brentford,5,DEF,2,4.5,0,0.0,0.0,0.0
-113,113,Sepp van den Berg,Sepp,van den Berg,Van den Berg,Brentford,5,DEF,2,4.6,99,5.0,3.5,1.3
+113,113,Sepp van den Berg,Sepp,van den Berg,Van den Berg,Brentford,5,DEF,2,4.6,99,4.5,3.5,1.3
 114,114,Benjamin Arthur,Benjamin,Arthur,Arthur,Brentford,5,DEF,2,3.8,0,0.0,0.0,0.2
 115,115,Benjamin Fredrick,Benjamin,Fredrick,Fredrick,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.1
 116,116,Aaron Hickey,Aaron,Hickey,Hickey,Brentford,5,DEF,2,4.0,33,0.0,1.8,0.3
 117,117,Kim Ji-soo,Kim,Ji-soo,Ji-soo,Brentford,5,DEF,2,3.9,0,0.0,0.0,0.1
 118,118,Jayden Meghoma,Jayden,Meghoma,Meghoma,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.0
-120,120,Kevin Schade,Kevin,Schade,Schade,Brentford,5,MID,3,7.0,110,3.7,3.7,1.7
-121,121,Mikkel Damsgaard,Mikkel,Damsgaard,Damsgaard,Brentford,5,MID,3,5.6,93,2.0,3.3,0.8
+120,120,Kevin Schade,Kevin,Schade,Schade,Brentford,5,MID,3,7.0,110,4.0,3.7,1.7
+121,121,Mikkel Damsgaard,Mikkel,Damsgaard,Damsgaard,Brentford,5,MID,3,5.6,93,3.0,3.3,0.8
 122,122,Antoni Milambo,Antoni,Milambo,Milambo,Brentford,5,MID,3,5.2,1,0.0,1.0,0.0
 123,123,Fábio Freitas Gouveia Carvalho,Fábio,Freitas Gouveia Carvalho,Carvalho,Brentford,5,MID,3,4.6,13,0.0,2.2,0.1
-124,124,Jordan Henderson,Jordan,Henderson,Henderson,Brentford,5,MID,3,5.0,75,1.7,2.6,0.3
+124,124,Jordan Henderson,Jordan,Henderson,Henderson,Brentford,5,MID,3,5.0,75,0.0,2.6,0.3
 125,125,Vitaly Janelt,Vitaly,Janelt,Janelt,Brentford,5,MID,3,4.9,70,0.0,3.2,0.1
-126,126,Mathias Jensen,Mathias,Jensen,Jensen,Brentford,5,MID,3,4.9,77,3.3,2.5,0.1
+126,126,Mathias Jensen,Mathias,Jensen,Jensen,Brentford,5,MID,3,4.9,77,2.5,2.5,0.1
 127,127,Gustavo Nunes Fernandes Gomes,Gustavo,Nunes Fernandes Gomes,Nunes,Brentford,5,MID,3,4.9,0,0.0,0.0,0.0
 128,128,Frank Onyeka,Frank,Onyeka,Onyeka,Brentford,5,MID,3,4.8,12,0.0,2.0,0.0
-129,129,Yehor Yarmoliuk,Yehor,Yarmoliuk,Yarmoliuk,Brentford,5,MID,3,5.0,87,3.3,2.6,0.1
+129,129,Yehor Yarmoliuk,Yehor,Yarmoliuk,Yarmoliuk,Brentford,5,MID,3,5.0,87,3.5,2.6,0.1
 130,130,Romelle Donovan,Romelle,Donovan,Donovan,Brentford,5,MID,3,4.4,4,0.0,1.0,0.1
 131,131,Yunus Emre Konak,Yunus Emre,Konak,Konak,Brentford,5,MID,3,4.3,0,0.0,0.0,0.1
 132,132,Paris Maghoma,Paris,Maghoma,Maghoma,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
 133,133,Myles Peart-Harris,Myles,Peart-Harris,Peart-Harris,Brentford,5,MID,3,4.4,1,0.0,1.0,0.0
 134,134,Ryan Trevitt,Ryan,Trevitt,Trevitt,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
-136,136,Igor Thiago Nascimento Rodrigues,Igor Thiago,Nascimento Rodrigues,Thiago,Brentford,5,FWD,4,7.3,168,6.3,5.1,34.9
+136,136,Igor Thiago Nascimento Rodrigues,Igor Thiago,Nascimento Rodrigues,Thiago,Brentford,5,FWD,4,7.4,168,7.5,5.1,35.0
 137,137,Iwan Morgan,Iwan,Morgan,Morgan,Brentford,5,FWD,4,4.4,0,0.0,0.0,0.3
 748,748,Josh Dasilva,Josh,Dasilva,Dasilva,Brentford,5,MID,3,4.9,0,0.0,0.0,0.0
 797,797,Kaye Furo,Kaye,Furo,Furo,Brentford,5,FWD,4,4.5,0,0.0,0.0,0.0
@@ -218,159 +218,159 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 824,824,Conor McManus,Conor,McManus,McManus,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.0
 826,826,Riley Owen,Riley,Owen,Owen,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
 138,138,Jason Steele,Jason,Steele,Steele,Brighton,6,GK,1,4.2,0,0.0,0.0,0.2
-139,139,Bart Verbruggen,Bart,Verbruggen,Verbruggen,Brighton,6,GK,1,4.5,112,3.5,3.4,8.6
+139,139,Bart Verbruggen,Bart,Verbruggen,Verbruggen,Brighton,6,GK,1,4.5,112,3.7,3.4,8.4
 140,140,Tom McGill,Tom,McGill,McGill,Brighton,6,GK,1,3.9,0,0.0,0.0,0.3
 141,141,Carl Rushworth,Carl,Rushworth,Rushworth,Brighton,6,GK,1,4.0,0,0.0,0.0,0.0
 142,142,Kjell Scherpen,Kjell,Scherpen,Scherpen,Brighton,6,GK,1,4.0,0,0.0,0.0,0.0
-143,143,Olivier Boscagli,Olivier,Boscagli,Boscagli,Brighton,6,DEF,2,4.2,32,2.8,3.2,0.2
+143,143,Olivier Boscagli,Olivier,Boscagli,Boscagli,Brighton,6,DEF,2,4.2,32,3.7,3.2,0.2
 144,144,Diego Coppola,Diego,Coppola,Coppola,Brighton,6,DEF,2,4.2,10,0.0,2.0,0.0
-145,145,Maxim De Cuyper,Maxim,De Cuyper,De Cuyper,Brighton,6,DEF,2,4.3,62,0.2,2.5,1.6
-146,146,Lewis Dunk,Lewis,Dunk,Dunk,Brighton,6,DEF,2,4.5,82,0.2,2.8,0.9
+145,145,Maxim De Cuyper,Maxim,De Cuyper,De Cuyper,Brighton,6,DEF,2,4.3,62,0.3,2.5,1.6
+146,146,Lewis Dunk,Lewis,Dunk,Dunk,Brighton,6,DEF,2,4.5,82,0.0,2.8,0.9
 147,147,Pervis Estupiñán Tenorio,Pervis,Estupiñán Tenorio,Estupiñan,Brighton,6,DEF,2,4.5,0,0.0,0.0,0.0
-148,148,Ferdi Kadıoğlu,Ferdi,Kadıoğlu,F.Kadıoğlu,Brighton,6,DEF,2,4.4,93,2.2,2.9,0.7
+148,148,Ferdi Kadıoğlu,Ferdi,Kadıoğlu,F.Kadıoğlu,Brighton,6,DEF,2,4.4,93,2.3,2.9,0.6
 149,149,Igor Julio dos Santos de Paulo,Igor Julio,dos Santos de Paulo,Igor,Brighton,6,DEF,2,4.5,6,0.0,1.5,0.1
 150,150,Tariq Lamptey,Tariq,Lamptey,Lamptey,Brighton,6,DEF,2,4.4,0,0.0,0.0,0.1
-151,151,Jan Paul van Hecke,Jan Paul,van Hecke,Van Hecke,Brighton,6,DEF,2,4.6,131,3.8,4.2,9.8
-152,152,Joël Veltman,Joël,Veltman,Veltman,Brighton,6,DEF,2,4.3,37,0.5,1.9,0.1
+151,151,Jan Paul van Hecke,Jan Paul,van Hecke,Van Hecke,Brighton,6,DEF,2,4.6,131,3.7,4.2,9.5
+152,152,Joël Veltman,Joël,Veltman,Veltman,Brighton,6,DEF,2,4.3,37,0.3,1.9,0.1
 153,153,Adam Webster,Adam,Webster,Webster,Brighton,6,DEF,2,4.4,0,0.0,0.0,0.0
 154,154,Eiran Cashin,Eiran,Cashin,Cashin,Brighton,6,DEF,2,4.0,0,0.0,0.0,0.0
 155,155,Jacob Slater,Jacob,Slater,Slater,Brighton,6,DEF,2,4.0,0,0.0,0.0,0.1
 156,156,Charlie Tasker,Charlie,Tasker,Tasker,Brighton,6,DEF,2,3.8,0,0.0,0.0,0.2
-157,157,Mitoma Kaoru,Mitoma,Kaoru,Mitoma,Brighton,6,MID,3,6.1,58,2.0,2.6,2.2
-158,158,Georginio Rutter,Georginio,Rutter,Georginio,Brighton,6,MID,3,5.6,77,2.0,2.9,0.3
+157,157,Mitoma Kaoru,Mitoma,Kaoru,Mitoma,Brighton,6,MID,3,6.1,58,2.3,2.6,2.1
+158,158,Georginio Rutter,Georginio,Rutter,Georginio,Brighton,6,MID,3,5.6,77,2.3,2.9,0.3
 159,159,Solly March,Solly,March,March,Brighton,6,MID,3,5.8,1,0.0,1.0,0.0
-160,160,Yankuba Minteh,Yankuba,Minteh,Minteh,Brighton,6,MID,3,5.5,100,1.5,3.4,2.6
+160,160,Yankuba Minteh,Yankuba,Minteh,Minteh,Brighton,6,MID,3,5.5,100,1.7,3.4,2.6
 161,161,Julio Enciso Espínola,Julio,Enciso Espínola,Enciso,Brighton,6,MID,3,5.4,0,0.0,0.0,0.0
 162,162,Brajan Gruda,Brajan,Gruda,Gruda,Brighton,6,MID,3,5.4,35,0.0,1.9,0.0
-163,163,Jack Hinshelwood,Jack,Hinshelwood,Hinshelwood,Brighton,6,MID,3,5.1,63,2.5,2.9,0.4
-164,164,Matt O'Riley,Matt,O'Riley,O'Riley,Brighton,6,MID,3,5.5,15,0.2,3.0,0.3
+163,163,Jack Hinshelwood,Jack,Hinshelwood,Hinshelwood,Brighton,6,MID,3,5.1,63,1.7,2.9,0.4
+164,164,Matt O'Riley,Matt,O'Riley,O'Riley,Brighton,6,MID,3,5.5,15,0.3,3.0,0.3
 165,165,Abdallah Sima,Abdallah,Sima,Sima,Brighton,6,MID,3,5.4,0,0.0,0.0,0.0
-166,166,Yasin Ayari,Yasin,Ayari,Ayari,Brighton,6,MID,3,4.8,95,2.8,3.7,0.4
-167,167,Carlos Baleba,Carlos,Baleba,Baleba,Brighton,6,MID,3,4.5,42,0.5,1.6,1.5
-169,169,Diego Gómez Amarilla,Diego,Gómez Amarilla,Gomez,Brighton,6,MID,3,4.9,95,3.0,3.2,1.0
-170,170,James Milner,James,Milner,Milner,Brighton,6,MID,3,4.9,34,0.5,1.8,0.1
+166,166,Yasin Ayari,Yasin,Ayari,Ayari,Brighton,6,MID,3,4.8,95,3.3,3.7,0.4
+167,167,Carlos Baleba,Carlos,Baleba,Baleba,Brighton,6,MID,3,4.5,42,0.3,1.6,1.5
+169,169,Diego Gómez Amarilla,Diego,Gómez Amarilla,Gomez,Brighton,6,MID,3,4.9,95,2.0,3.2,0.9
+170,170,James Milner,James,Milner,Milner,Brighton,6,MID,3,4.9,34,0.0,1.8,0.1
 171,171,Jeremy Sarmiento Morante,Jeremy,Sarmiento Morante,Sarmiento,Brighton,6,MID,3,4.9,0,0.0,0.0,0.0
 172,172,Tom Watson,Tom,Watson,Watson,Brighton,6,MID,3,4.8,5,0.0,0.8,0.0
-173,173,Mats Wieffer,Mats,Wieffer,Wieffer,Brighton,6,MID,3,4.9,90,5.0,3.9,0.7
+173,173,Mats Wieffer,Mats,Wieffer,Wieffer,Brighton,6,MID,3,4.9,90,6.3,3.9,0.7
 174,174,Malick Yalcouyé,Malick,Yalcouyé,Yalcouye,Brighton,6,MID,3,5.0,0,0.0,0.0,0.0
 175,175,Joe Knight,Joe,Knight,Knight,Brighton,6,MID,3,4.4,1,0.0,1.0,0.1
 176,176,Adrian Mazilu,Adrian,Mazilu,Mazilu,Brighton,6,MID,3,4.5,0,0.0,0.0,0.0
 177,177,Andrew Moran,Andrew,Moran,Moran,Brighton,6,MID,3,4.5,0,0.0,0.0,0.0
-178,178,Danny Welbeck,Danny,Welbeck,Welbeck,Brighton,6,FWD,4,6.3,110,4.0,3.4,8.6
+178,178,Danny Welbeck,Danny,Welbeck,Welbeck,Brighton,6,FWD,4,6.3,110,1.3,3.4,8.5
 179,179,Evan Ferguson,Evan,Ferguson,Ferguson,Brighton,6,FWD,4,5.5,0,0.0,0.0,0.0
 180,180,Stefanos Tzimas,Stefanos,Tzimas,Tzimas,Brighton,6,FWD,4,5.2,16,0.0,1.8,0.1
-181,181,Charalampos Kostoulas,Charalampos,Kostoulas,Kostoulas,Brighton,6,FWD,4,4.8,31,0.2,1.8,0.3
+181,181,Charalampos Kostoulas,Charalampos,Kostoulas,Kostoulas,Brighton,6,FWD,4,4.8,31,0.3,1.8,0.3
 744,744,Nehemiah Oriola,Nehemiah,Oriola,Oriola,Brighton,6,MID,3,4.5,1,0.0,1.0,0.0
 761,761,Freddie Simmonds,Freddie,Simmonds,Simmonds,Brighton,6,DEF,2,4.0,0,0.0,0.0,0.0
-783,783,Pascal Groß,Pascal,Groß,Groß,Brighton,6,MID,3,5.5,57,4.0,4.1,1.7
+783,783,Pascal Groß,Pascal,Groß,Groß,Brighton,6,MID,3,5.5,57,4.7,4.1,1.6
 795,795,Harry Howell,Harry,Howell,Howell,Brighton,6,MID,3,4.5,4,0.0,1.3,0.0
-220,220,Robert Lynch Sánchez,Robert,Lynch Sánchez,Sánchez,Chelsea,7,GK,1,4.8,106,1.5,3.4,12.4
+220,220,Robert Lynch Sánchez,Robert,Lynch Sánchez,Sánchez,Chelsea,7,GK,1,4.8,106,1.3,3.4,12.3
 221,221,Filip Jörgensen,Filip,Jörgensen,Jörgensen,Chelsea,7,GK,1,4.3,6,0.0,2.0,0.2
 222,222,Mike Penders,Mike,Penders,Penders,Chelsea,7,GK,1,4.0,0,0.0,0.0,0.0
 223,223,Gabriel Słonina,Gabriel,Słonina,Slonina,Chelsea,7,GK,1,3.9,0,0.0,0.0,0.1
-224,224,Marc Cucurella Saseta,Marc,Cucurella Saseta,Cucurella,Chelsea,7,DEF,2,6.1,96,0.8,3.3,15.3
-225,225,Reece James,Reece,James,James,Chelsea,7,DEF,2,5.6,113,0.0,4.2,6.3
-226,226,Trevoh Chalobah,Trevoh,Chalobah,Chalobah,Chelsea,7,DEF,2,5.4,132,0.2,4.4,10.0
+224,224,Marc Cucurella Saseta,Marc,Cucurella Saseta,Cucurella,Chelsea,7,DEF,2,6.1,96,0.7,3.3,15.3
+225,225,Reece James,Reece,James,James,Chelsea,7,DEF,2,5.6,113,0.0,4.2,6.2
+226,226,Trevoh Chalobah,Trevoh,Chalobah,Chalobah,Chelsea,7,DEF,2,5.4,132,0.3,4.4,10.0
 227,227,Levi Samuels Colwill,Levi,Samuels Colwill,Colwill,Chelsea,7,DEF,2,4.7,0,0.0,0.0,0.1
 228,228,Malo Gusto,Malo,Gusto,Gusto,Chelsea,7,DEF,2,4.9,94,1.0,3.1,2.1
 229,229,Benoît Badiashile Mukinayi,Benoît,Badiashile Mukinayi,B.Badiashile,Chelsea,7,DEF,2,4.4,7,0.0,0.9,0.0
-230,230,Wesley Fofana,Wesley,Fofana,Fofana,Chelsea,7,DEF,2,4.4,60,1.8,2.9,0.4
+230,230,Wesley Fofana,Wesley,Fofana,Fofana,Chelsea,7,DEF,2,4.4,60,1.7,2.9,0.4
 231,231,Mamadou Sarr,Mamadou,Sarr,M.Sarr,Chelsea,7,DEF,2,4.5,2,0.0,1.0,0.0
-232,232,Tosin Adarabioyo,Tosin,Adarabioyo,Tosin,Chelsea,7,DEF,2,4.0,34,0.2,2.3,0.3
-233,233,Josh Acheampong,Josh,Acheampong,Acheampong,Chelsea,7,DEF,2,3.7,35,0.5,2.5,1.7
+232,232,Tosin Adarabioyo,Tosin,Adarabioyo,Tosin,Chelsea,7,DEF,2,4.0,34,0.0,2.3,0.3
+233,233,Josh Acheampong,Josh,Acheampong,Acheampong,Chelsea,7,DEF,2,3.7,35,0.7,2.5,1.7
 234,234,Aarón Anselmino,Aarón,Anselmino,Anselmino,Chelsea,7,DEF,2,4.0,0,0.0,0.0,0.1
-235,235,Cole Palmer,Cole,Palmer,Palmer,Chelsea,7,MID,3,10.5,102,2.0,4.6,18.6
-236,236,Pedro Lomba Neto,Pedro,Lomba Neto,Neto,Chelsea,7,MID,3,7.0,112,1.5,3.6,4.5
-237,237,Enzo Fernández,Enzo,Fernández,Enzo,Chelsea,7,MID,3,6.5,131,1.0,4.2,12.4
-238,238,Estêvão Almeida de Oliveira Gonçalves,Estêvão,Almeida de Oliveira Gonçalves,Estêvão,Chelsea,7,MID,3,6.4,58,0.8,2.6,1.8
+235,235,Cole Palmer,Cole,Palmer,Palmer,Chelsea,7,MID,3,10.5,102,2.0,4.6,18.2
+236,236,Pedro Lomba Neto,Pedro,Lomba Neto,Neto,Chelsea,7,MID,3,7.0,112,1.3,3.6,4.5
+237,237,Enzo Fernández,Enzo,Fernández,Enzo,Chelsea,7,MID,3,6.5,131,0.7,4.2,12.3
+238,238,Estêvão Almeida de Oliveira Gonçalves,Estêvão,Almeida de Oliveira Gonçalves,Estêvão,Chelsea,7,MID,3,6.4,58,0.7,2.6,1.8
 239,239,Jamie Bynoe-Gittens,Jamie,Bynoe-Gittens,Gittens,Chelsea,7,MID,3,6.0,25,0.0,1.6,0.1
 240,240,Christopher Nkunku,Christopher,Nkunku,Nkunku,Chelsea,7,MID,3,5.9,0,0.0,0.0,0.1
-241,241,Moisés Caicedo Corozo,Moisés,Caicedo Corozo,Caicedo,Chelsea,7,MID,3,5.7,100,1.5,3.6,7.5
-244,244,Roméo Lavia,Roméo,Lavia,Lavia,Chelsea,7,MID,3,4.9,10,0.8,1.0,0.0
+241,241,Moisés Caicedo Corozo,Moisés,Caicedo Corozo,Caicedo,Chelsea,7,MID,3,5.7,100,1.3,3.6,7.5
+244,244,Roméo Lavia,Roméo,Lavia,Lavia,Chelsea,7,MID,3,4.9,10,0.7,1.0,0.0
 245,245,Mykhailo Mudryk,Mykhailo,Mudryk,Mudryk,Chelsea,7,MID,3,4.9,0,0.0,0.0,0.0
-246,246,Andrey Nascimento dos Santos,Andrey,Nascimento dos Santos,Andrey Santos,Chelsea,7,MID,3,4.5,34,0.8,1.4,0.3
+246,246,Andrey Nascimento dos Santos,Andrey,Nascimento dos Santos,Andrey Santos,Chelsea,7,MID,3,4.5,34,0.7,1.4,0.3
 247,247,Dário Luís Essugo,Dário,Luís Essugo,D.Essugo,Chelsea,7,MID,3,4.3,0,0.0,0.0,0.1
 248,248,Kendry Páez Andrade,Kendry,Páez Andrade,Paez,Chelsea,7,MID,3,4.5,0,0.0,0.0,0.0
-249,249,João Pedro Junqueira de Jesus,João Pedro,Junqueira de Jesus,João Pedro,Chelsea,7,FWD,4,7.7,166,1.0,5.2,49.4
+249,249,João Pedro Junqueira de Jesus,João Pedro,Junqueira de Jesus,João Pedro,Chelsea,7,FWD,4,7.7,166,0.7,5.2,48.7
 250,250,Liam Delap,Liam,Delap,Delap,Chelsea,7,FWD,4,6.2,41,1.0,1.7,0.9
 251,251,Nicolas Jackson,Nicolas,Jackson,N.Jackson,Chelsea,7,FWD,4,6.5,0,0.0,0.0,0.1
-252,252,Marc Guiu Paz,Marc,Guiu Paz,Marc Guiu,Chelsea,7,FWD,4,4.0,12,0.0,1.3,5.1
-453,453,Alejandro Garnacho Ferreyra,Alejandro,Garnacho Ferreyra,Garnacho,Chelsea,7,MID,3,6.4,54,0.8,2.5,0.5
-672,672,Jorrel Hato,Jorrel,Hato,Hato,Chelsea,7,DEF,2,4.6,14,0.8,0.8,0.2
+252,252,Marc Guiu Paz,Marc,Guiu Paz,Marc Guiu,Chelsea,7,FWD,4,4.0,12,0.0,1.3,5.2
+453,453,Alejandro Garnacho Ferreyra,Alejandro,Garnacho Ferreyra,Garnacho,Chelsea,7,MID,3,6.4,54,1.0,2.5,0.5
+672,672,Jorrel Hato,Jorrel,Hato,Hato,Chelsea,7,DEF,2,4.6,14,0.7,0.8,0.2
 743,743,Landon Emenalo,Landon,Emenalo,Emenalo,Chelsea,7,MID,3,4.5,0,0.0,0.0,0.0
 789,789,Max Merrick,Max,Merrick,Merrick,Chelsea,7,GK,1,4.0,0,0.0,0.0,0.0
 803,803,Teddy Sharman-Lowe,Teddy,Sharman-Lowe,Sharman-Lowe,Chelsea,7,GK,1,4.0,0,0.0,0.0,0.0
-253,253,Dean Henderson,Dean,Henderson,Henderson,Crystal Palace,8,GK,1,5.1,117,1.0,3.9,8.1
+253,253,Dean Henderson,Dean,Henderson,Henderson,Crystal Palace,8,GK,1,5.1,124,4.5,4.0,8.1
 254,254,Walter Benítez,Walter,Benítez,Benitez,Crystal Palace,8,GK,1,3.9,7,0.0,7.0,0.3
 255,255,Remi Matthews,Remi,Matthews,Matthews,Crystal Palace,8,GK,1,3.9,0,0.0,0.0,0.1
-256,256,Daniel Muñoz Mejía,Daniel,Muñoz Mejía,Muñoz,Crystal Palace,8,DEF,2,5.8,113,2.0,5.1,7.5
-257,257,Maxence Lacroix,Maxence,Lacroix,Lacroix,Crystal Palace,8,DEF,2,5.1,132,2.0,4.6,4.7
-258,258,Tyrick Mitchell,Tyrick,Mitchell,Mitchell,Crystal Palace,8,DEF,2,5.0,119,2.5,3.8,2.2
+256,256,Daniel Muñoz Mejía,Daniel,Muñoz Mejía,Muñoz,Crystal Palace,8,DEF,2,5.8,120,5.5,5.2,7.6
+257,257,Maxence Lacroix,Maxence,Lacroix,Lacroix,Crystal Palace,8,DEF,2,5.1,143,7.5,4.8,4.7
+258,258,Tyrick Mitchell,Tyrick,Mitchell,Mitchell,Crystal Palace,8,DEF,2,5.0,125,5.5,3.9,2.2
 259,259,Borna Sosa,Borna,Sosa,Sosa,Crystal Palace,8,DEF,2,4.8,6,0.5,1.0,0.1
-261,261,Chris Richards,Chris,Richards,Richards,Crystal Palace,8,DEF,2,4.4,116,1.0,4.3,2.4
+261,261,Chris Richards,Chris,Richards,Richards,Crystal Palace,8,DEF,2,4.4,122,4.0,4.4,2.4
 262,262,Chadi Riad Dnanou,Chadi,Riad Dnanou,Chadi Riad,Crystal Palace,8,DEF,2,4.0,14,0.0,2.3,0.0
 263,263,Nathaniel Clyne,Nathaniel,Clyne,Clyne,Crystal Palace,8,DEF,2,3.8,15,0.0,1.9,0.5
 264,264,Rob Holding,Rob,Holding,Holding,Crystal Palace,8,DEF,2,4.0,0,0.0,0.0,0.0
 265,265,Caleb Kporha,Caleb,Kporha,Kporha,Crystal Palace,8,DEF,2,4.0,0,0.0,0.0,0.0
-267,267,Ismaïla Sarr,Ismaïla,Sarr,Sarr,Crystal Palace,8,MID,3,6.3,94,0.5,4.5,3.8
+267,267,Ismaïla Sarr,Ismaïla,Sarr,Sarr,Crystal Palace,8,MID,3,6.3,95,1.0,4.3,3.8
 268,268,Cheick Doucouré,Cheick,Doucouré,Doucouré,Crystal Palace,8,MID,3,4.9,0,0.0,0.0,0.0
 269,269,Romain Esse,Romain,Esse,Esse,Crystal Palace,8,MID,3,4.7,4,0.0,1.0,0.1
-270,270,Will Hughes,Will,Hughes,Hughes,Crystal Palace,8,MID,3,4.7,41,1.0,1.5,0.1
-271,271,Daichi Kamada,Daichi,Kamada,Kamada,Crystal Palace,8,MID,3,5.0,54,0.5,2.6,0.1
-272,272,Jefferson Lerma Solís,Jefferson,Lerma Solís,Lerma,Crystal Palace,8,MID,3,4.9,59,2.5,2.4,0.1
+270,270,Will Hughes,Will,Hughes,Hughes,Crystal Palace,8,MID,3,4.7,42,1.5,1.4,0.1
+271,271,Daichi Kamada,Daichi,Kamada,Kamada,Crystal Palace,8,MID,3,5.0,55,1.0,2.5,0.1
+272,272,Jefferson Lerma Solís,Jefferson,Lerma Solís,Lerma,Crystal Palace,8,MID,3,4.9,62,4.0,2.4,0.1
 273,273,Adam Wharton,Adam,Wharton,Wharton,Crystal Palace,8,MID,3,5.0,92,0.5,3.3,0.6
 274,274,Asher Agbinone,Asher,Agbinone,Agbinone,Crystal Palace,8,MID,3,4.3,0,0.0,0.0,0.1
 275,275,Naouirou Ahamada,Naouirou,Ahamada,Ahamada,Crystal Palace,8,MID,3,4.3,0,0.0,0.0,0.0
-276,276,Justin Devenny,Justin,Devenny,Devenny,Crystal Palace,8,MID,3,4.3,29,0.0,1.6,1.1
+276,276,Justin Devenny,Justin,Devenny,Devenny,Crystal Palace,8,MID,3,4.3,30,0.5,1.6,1.1
 277,277,Malcolm Ebiowei,Malcolm,Ebiowei,Ebiowei,Crystal Palace,8,MID,3,4.5,0,0.0,0.0,0.0
 278,278,Jesurun Rak-Sakyi,Jesurun,Rak-Sakyi,J.Rak-Sakyi,Crystal Palace,8,MID,3,4.4,0,0.0,0.0,0.0
 279,279,Matheus França de Oliveira,Matheus,França de Oliveira,M.França,Crystal Palace,8,MID,3,4.5,0,0.0,0.0,0.0
 280,280,David Ozoh,David,Ozoh,Ozoh,Crystal Palace,8,MID,3,4.5,0,0.0,0.0,0.0
 281,281,Kaden Rodney,Kaden,Rodney,Rodney,Crystal Palace,8,MID,3,4.4,1,0.0,1.0,0.0
 282,282,Franco Umeh-Chibueze,Franco,Umeh-Chibueze,Umeh,Crystal Palace,8,MID,3,4.5,0,0.0,0.0,0.0
-283,283,Jean-Philippe Mateta,Jean-Philippe,Mateta,Mateta,Crystal Palace,8,FWD,4,7.6,97,6.0,3.9,7.3
+283,283,Jean-Philippe Mateta,Jean-Philippe,Mateta,Mateta,Crystal Palace,8,FWD,4,7.6,98,6.5,3.8,7.4
 284,284,Eddie Nketiah,Eddie,Nketiah,Nketiah,Crystal Palace,8,FWD,4,5.4,23,0.0,1.9,0.3
 285,285,Odsonne Édouard,Odsonne,Édouard,Édouard,Crystal Palace,8,FWD,4,5.0,1,0.0,1.0,0.2
 286,286,Zach Marsh,Zach,Marsh,Marsh,Crystal Palace,8,FWD,4,4.4,0,0.0,0.0,0.3
-580,580,Brennan Johnson,Brennan,Johnson,Johnson,Crystal Palace,8,MID,3,6.5,55,1.0,2.0,2.3
-654,654,Jørgen Strand Larsen,Jørgen,Strand Larsen,Strand Larsen,Crystal Palace,8,FWD,4,5.9,64,1.0,2.2,1.6
+580,580,Brennan Johnson,Brennan,Johnson,Johnson,Crystal Palace,8,MID,3,6.5,57,2.0,2.0,2.3
+654,654,Jørgen Strand Larsen,Jørgen,Strand Larsen,Strand Larsen,Crystal Palace,8,FWD,4,5.9,65,1.5,2.2,1.6
 677,677,Evann Guessand,Evann,Guessand,Guessand,Crystal Palace,8,MID,3,6.2,42,0.0,2.2,0.0
 690,690,Rio Cardines,Rio,Cardines,Cardines,Crystal Palace,8,MID,3,4.4,0,0.0,0.0,0.3
-712,712,Yéremy Pino Santos,Yéremy,Pino Santos,Yeremy,Crystal Palace,8,MID,3,5.8,68,1.0,2.4,0.2
-723,723,Jaydee Canvot,Jaydee,Canvot,Canvot,Crystal Palace,8,DEF,2,4.5,52,2.0,3.7,0.1
+712,712,Yéremy Pino Santos,Yéremy,Pino Santos,Yeremy,Crystal Palace,8,MID,3,5.8,69,1.5,2.4,0.2
+723,723,Jaydee Canvot,Jaydee,Canvot,Canvot,Crystal Palace,8,DEF,2,4.5,62,7.0,4.1,0.2
 732,732,Christantus Uche,Christantus,Uche,Uche,Crystal Palace,8,FWD,4,5.5,17,0.0,1.2,0.1
 762,762,Joél Drakes-Thomas,Joél,Drakes-Thomas,Drakes-Thomas,Crystal Palace,8,MID,3,4.5,2,0.0,1.0,0.0
 773,773,Dean Benamar,Dean,Benamar,Benamar,Crystal Palace,8,DEF,2,4.0,0,0.0,0.0,0.0
 780,780,Ben Casey,Ben,Casey,Casey,Crystal Palace,8,FWD,4,4.5,0,0.0,0.0,0.0
 793,793,George King,George,King,King,Crystal Palace,8,DEF,2,4.0,0,0.0,0.0,0.0
 798,798,Danny Imray,Danny,Imray,Imray,Crystal Palace,8,DEF,2,4.0,0,0.0,0.0,0.0
-242,242,Kiernan Dewsbury-Hall,Kiernan,Dewsbury-Hall,Dewsbury-Hall,Everton,9,MID,3,5.1,132,6.0,5.1,4.9
-243,243,Tyrique George,Tyrique,George,George,Everton,9,MID,3,4.8,12,0.7,1.1,0.1
-287,287,Jordan Pickford,Jordan,Pickford,Pickford,Everton,9,GK,1,5.6,127,2.7,3.8,13.5
+242,242,Kiernan Dewsbury-Hall,Kiernan,Dewsbury-Hall,Dewsbury-Hall,Everton,9,MID,3,5.1,132,7.5,5.1,5.0
+243,243,Tyrique George,Tyrique,George,George,Everton,9,MID,3,4.8,12,1.0,1.1,0.1
+287,287,Jordan Pickford,Jordan,Pickford,Pickford,Everton,9,GK,1,5.6,127,0.5,3.8,13.5
 288,288,Mark Travers,Mark,Travers,Travers,Everton,9,GK,1,4.2,0,0.0,0.0,0.1
 289,289,Harry Tyrer,Harry,Tyrer,Tyrer,Everton,9,GK,1,3.9,0,0.0,0.0,0.1
-290,290,Jarrad Branthwaite,Jarrad,Branthwaite,Branthwaite,Everton,9,DEF,2,5.3,32,2.7,3.2,0.5
-291,291,James Tarkowski,James,Tarkowski,Tarkowski,Everton,9,DEF,2,5.7,146,3.3,4.6,12.1
-292,292,Vitalii Mykolenko,Vitalii,Mykolenko,Mykolenko,Everton,9,DEF,2,4.9,90,4.3,3.2,0.6
-293,293,Jake O'Brien,Jake,O'Brien,O'Brien,Everton,9,DEF,2,4.9,107,3.7,3.3,0.7
+290,290,Jarrad Branthwaite,Jarrad,Branthwaite,Branthwaite,Everton,9,DEF,2,5.3,32,3.5,3.2,0.5
+291,291,James Tarkowski,James,Tarkowski,Tarkowski,Everton,9,DEF,2,5.7,146,2.0,4.6,12.2
+292,292,Vitalii Mykolenko,Vitalii,Mykolenko,Mykolenko,Everton,9,DEF,2,4.9,90,3.0,3.2,0.6
+293,293,Jake O'Brien,Jake,O'Brien,O'Brien,Everton,9,DEF,2,4.9,107,2.5,3.3,0.7
 294,294,Séamus Coleman,Séamus,Coleman,Coleman,Everton,9,DEF,2,4.2,3,0.0,1.0,0.1
-295,295,Michael Keane,Michael,Keane,Keane,Everton,9,DEF,2,4.5,119,3.0,4.2,2.9
+295,295,Michael Keane,Michael,Keane,Keane,Everton,9,DEF,2,4.5,119,0.5,4.2,2.9
 296,296,Nathan Patterson,Nathan,Patterson,Patterson,Everton,9,DEF,2,4.4,21,0.0,3.5,0.0
 297,297,Roman Dixon,Roman,Dixon,Dixon,Everton,9,DEF,2,3.8,0,0.0,0.0,0.2
 298,298,Reece Welch,Reece,Welch,Welch,Everton,9,DEF,2,3.8,0,0.0,0.0,0.1
-299,299,Iliman Ndiaye,Iliman,Ndiaye,Ndiaye,Everton,9,MID,3,6.2,118,5.3,4.4,4.4
-300,300,Dwight McNeil,Dwight,McNeil,McNeil,Everton,9,MID,3,5.5,50,2.3,2.5,0.1
+299,299,Iliman Ndiaye,Iliman,Ndiaye,Ndiaye,Everton,9,MID,3,6.2,118,3.0,4.4,4.5
+300,300,Dwight McNeil,Dwight,McNeil,McNeil,Everton,9,MID,3,5.5,50,2.0,2.5,0.1
 301,301,Carlos Alcaraz Durán,Carlos,Alcaraz Durán,Alcaraz,Everton,9,MID,3,5.2,26,0.0,1.6,0.1
-302,302,Idrissa Gana Gueye,Idrissa Gana,Gueye,Gana,Everton,9,MID,3,5.4,81,5.0,3.4,0.1
-303,303,James Garner,James,Garner,Garner,Everton,9,MID,3,5.3,145,4.0,4.4,4.2
-304,304,Tim Iroegbunam,Tim,Iroegbunam,Iroegbunam,Everton,9,MID,3,4.8,58,0.7,2.4,0.0
+302,302,Idrissa Gana Gueye,Idrissa Gana,Gueye,Gana,Everton,9,MID,3,5.4,81,3.5,3.4,0.1
+303,303,James Garner,James,Garner,Garner,Everton,9,MID,3,5.3,145,3.0,4.4,4.2
+304,304,Tim Iroegbunam,Tim,Iroegbunam,Iroegbunam,Everton,9,MID,3,4.8,58,0.5,2.4,0.0
 305,305,Harrison Armstrong,Harrison,Armstrong,Armstrong,Everton,9,MID,3,4.5,19,0.0,1.7,0.1
 306,306,Callum Bates,Callum,Bates,Bates,Everton,9,MID,3,4.3,0,0.0,0.0,0.1
 307,307,Coby Ebere,Coby,Ebere,Ebere,Everton,9,MID,3,4.4,0,0.0,0.0,0.0
 308,308,Isaac Heath,Isaac,Heath,Heath,Everton,9,MID,3,4.5,0,0.0,0.0,0.0
 309,309,Jenson Metcalfe,Jenson,Metcalfe,Metcalfe,Everton,9,MID,3,4.5,0,0.0,0.0,0.0
 310,310,Thierno Barry,Thierno,Barry,Barry,Everton,9,FWD,4,5.7,78,1.0,2.4,0.7
-311,311,Norberto Bercique Gomes Betuncal,Norberto Bercique,Gomes Betuncal,Beto,Everton,9,FWD,4,5.0,91,10.3,2.8,3.3
+311,311,Norberto Bercique Gomes Betuncal,Norberto Bercique,Gomes Betuncal,Beto,Everton,9,FWD,4,5.0,92,8.0,2.8,3.4
 312,312,Youssef Ramalho Chermiti,Youssef,Ramalho Chermiti,Y.Chermiti,Everton,9,FWD,4,4.9,0,0.0,0.0,0.1
 313,313,Martin Sherif,Martin,Sherif,Sherif,Everton,9,FWD,4,4.4,0,0.0,0.0,0.1
 419,419,Jack Grealish,Jack,Grealish,Grealish,Everton,9,MID,3,6.3,79,0.0,4.0,5.7
@@ -379,33 +379,33 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 704,704,Tyler Onyango,Tyler,Onyango,Onyango,Everton,9,MID,3,4.5,0,0.0,0.0,0.0
 705,705,Elijah Campbell,Elijah,Campbell,Campbell,Everton,9,DEF,2,3.9,0,0.0,0.0,0.1
 707,707,Tyler Dibling,Tyler,Dibling,Dibling,Everton,9,MID,3,5.3,18,0.0,1.3,0.0
-728,728,Merlin Röhl,Merlin,Röhl,Röhl,Everton,9,MID,3,5.0,18,0.3,1.5,0.0
+728,728,Merlin Röhl,Merlin,Röhl,Röhl,Everton,9,MID,3,5.0,18,0.0,1.5,0.0
 779,779,Braiden Graham,Braiden,Graham,Graham,Everton,9,FWD,4,4.5,0,0.0,0.0,0.0
-314,314,Bernd Leno,Bernd,Leno,Leno,Fulham,10,GK,1,4.9,101,5.0,3.1,1.9
+314,314,Bernd Leno,Bernd,Leno,Leno,Fulham,10,GK,1,4.9,101,6.0,3.1,1.9
 315,315,Steven Benda,Steven,Benda,Benda,Fulham,10,GK,1,4.0,0,0.0,0.0,0.0
-316,316,Antonee Robinson,Antonee,Robinson,Robinson,Fulham,10,DEF,2,4.9,44,1.7,2.6,0.8
-317,317,Joachim Andersen,Joachim,Andersen,Andersen,Fulham,10,DEF,2,4.5,111,3.7,3.7,4.8
-318,318,Calvin Bassey,Calvin,Bassey,Bassey,Fulham,10,DEF,2,4.4,86,3.7,3.4,0.6
-319,319,Timothy Castagne,Timothy,Castagne,Castagne,Fulham,10,DEF,2,4.3,40,3.3,1.6,0.1
+316,316,Antonee Robinson,Antonee,Robinson,Robinson,Fulham,10,DEF,2,4.9,44,2.0,2.6,0.8
+317,317,Joachim Andersen,Joachim,Andersen,Andersen,Fulham,10,DEF,2,4.5,111,3.5,3.7,4.8
+318,318,Calvin Bassey,Calvin,Bassey,Bassey,Fulham,10,DEF,2,4.4,86,4.5,3.4,0.7
+319,319,Timothy Castagne,Timothy,Castagne,Castagne,Fulham,10,DEF,2,4.3,40,4.0,1.6,0.1
 320,320,Issa Diop,Issa,Diop,Diop,Fulham,10,DEF,2,4.3,13,0.0,1.3,0.1
 321,321,Jorge Cuenca Barreno,Jorge,Cuenca Barreno,J.Cuenca,Fulham,10,DEF,2,4.3,39,0.0,2.8,0.1
 322,322,Kenny Tete,Kenny,Tete,Tete,Fulham,10,DEF,2,4.5,81,0.0,3.7,0.3
 323,323,Samuel Amissah,Samuel,Amissah,Amissah,Fulham,10,DEF,2,3.8,0,0.0,0.0,0.1
-324,324,Alex Iwobi,Alex,Iwobi,Iwobi,Fulham,10,MID,3,6.3,98,1.3,3.6,1.9
-325,325,Emile Smith Rowe,Emile,Smith Rowe,Smith Rowe,Fulham,10,MID,3,5.6,69,1.7,2.2,0.5
+324,324,Alex Iwobi,Alex,Iwobi,Iwobi,Fulham,10,MID,3,6.3,98,1.5,3.6,1.9
+325,325,Emile Smith Rowe,Emile,Smith Rowe,Smith Rowe,Fulham,10,MID,3,5.6,69,2.0,2.2,0.5
 327,327,Andreas Hoelgebaum Pereira,Andreas,Hoelgebaum Pereira,Andreas,Fulham,10,MID,3,5.3,0,0.0,0.0,0.1
-328,328,Ryan Sessegnon,Ryan,Sessegnon,Sessegnon,Fulham,10,MID,3,5.4,84,1.7,3.2,0.2
-329,329,Harry Wilson,Harry,Wilson,Wilson,Fulham,10,MID,3,6.0,157,4.7,5.1,22.1
-330,330,Sander Berge,Sander,Berge,Berge,Fulham,10,MID,3,4.9,84,3.0,2.6,0.1
-331,331,Tom Cairney,Tom,Cairney,Cairney,Fulham,10,MID,3,4.8,32,1.0,1.5,0.0
-332,332,Saša Lukić,Saša,Lukić,Lukić,Fulham,10,MID,3,4.9,54,1.0,2.5,0.1
+328,328,Ryan Sessegnon,Ryan,Sessegnon,Sessegnon,Fulham,10,MID,3,5.4,84,2.0,3.2,0.2
+329,329,Harry Wilson,Harry,Wilson,Wilson,Fulham,10,MID,3,6.0,157,2.5,5.1,22.2
+330,330,Sander Berge,Sander,Berge,Berge,Fulham,10,MID,3,4.9,84,2.0,2.6,0.1
+331,331,Tom Cairney,Tom,Cairney,Cairney,Fulham,10,MID,3,4.8,32,1.5,1.5,0.0
+332,332,Saša Lukić,Saša,Lukić,Lukić,Fulham,10,MID,3,4.9,54,1.5,2.5,0.1
 333,333,Martial Godo,Martial,Godo,Godo,Fulham,10,MID,3,4.5,0,0.0,0.0,0.0
 334,334,Luke Harris,Luke,Harris,Harris,Fulham,10,MID,3,4.5,0,0.0,0.0,0.0
-335,335,Josh King,Josh,King,King,Fulham,10,MID,3,4.4,59,5.0,2.2,1.8
-336,336,Harrison Reed,Harrison,Reed,Reed,Fulham,10,MID,3,4.3,13,0.3,2.2,0.3
-337,337,Raúl Jiménez Rodríguez,Raúl,Jiménez Rodríguez,Raúl,Fulham,10,FWD,4,6.1,106,2.3,3.3,2.2
+335,335,Josh King,Josh,King,King,Fulham,10,MID,3,4.4,59,1.0,2.2,1.8
+336,336,Harrison Reed,Harrison,Reed,Reed,Fulham,10,MID,3,4.3,13,0.0,2.2,0.3
+337,337,Raúl Jiménez Rodríguez,Raúl,Jiménez Rodríguez,Raúl,Fulham,10,FWD,4,6.1,106,1.0,3.3,2.2
 338,338,Rodrigo Muniz Carvalho,Rodrigo,Muniz Carvalho,Muniz,Fulham,10,FWD,4,5.3,29,2.0,1.8,0.7
-424,424,Oscar Bobb,Oscar,Bobb,Bobb,Fulham,10,MID,3,5.1,34,1.3,1.9,0.2
+424,424,Oscar Bobb,Oscar,Bobb,Bobb,Fulham,10,MID,3,5.1,34,1.0,1.9,0.2
 664,664,Benjamin Lecomte,Benjamin,Lecomte,Lecomte,Fulham,10,GK,1,3.9,0,0.0,0.0,0.7
 727,727,Samuel Chukwueze,Samuel,Chukwueze,Chukwueze,Fulham,10,MID,3,5.3,54,1.0,2.8,0.1
 731,731,Kevin Santos Lopes de Macedo,Kevin,Santos Lopes de Macedo,Kevin,Fulham,10,MID,3,5.7,43,0.0,1.9,0.1
@@ -415,79 +415,79 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 168,168,Facundo Buonanotte,Facundo,Buonanotte,Buonanotte,Leeds,11,MID,3,4.6,2,0.0,0.7,0.1
 339,339,Illan Meslier,Illan,Meslier,Meslier,Leeds,11,GK,1,4.1,0,0.0,0.0,0.3
 340,340,Alex Cairns,Alex,Cairns,Cairns,Leeds,11,GK,1,3.9,0,0.0,0.0,0.1
-341,341,Karl Darlow,Karl,Darlow,Darlow,Leeds,11,GK,1,3.9,52,4.0,3.1,5.4
-342,342,Jayden Bogle,Jayden,Bogle,Bogle,Leeds,11,DEF,2,4.4,88,4.2,2.8,0.7
-343,343,Pascal Struijk,Pascal,Struijk,Struijk,Leeds,11,DEF,2,4.3,102,3.5,3.4,2.7
-344,344,Jaka Bijol,Jaka,Bijol,Bijol,Leeds,11,DEF,2,3.9,76,5.2,3.8,1.2
+341,341,Karl Darlow,Karl,Darlow,Darlow,Leeds,11,GK,1,3.9,52,3.3,3.1,5.2
+342,342,Jayden Bogle,Jayden,Bogle,Bogle,Leeds,11,DEF,2,4.4,88,4.0,2.8,0.7
+343,343,Pascal Struijk,Pascal,Struijk,Struijk,Leeds,11,DEF,2,4.3,102,3.0,3.4,2.5
+344,344,Jaka Bijol,Jaka,Bijol,Bijol,Leeds,11,DEF,2,3.9,76,3.3,3.8,1.1
 345,345,Sebastiaan Bornauw,Sebastiaan,Bornauw,Bornauw,Leeds,11,DEF,2,3.8,17,0.0,1.9,0.1
 346,346,Sam Byram,Sam,Byram,Byram,Leeds,11,DEF,2,3.7,1,0.0,1.0,0.3
-347,347,Gabriel Gudmundsson,Gabriel,Gudmundsson,Gudmundsson,Leeds,11,DEF,2,3.8,67,2.0,2.2,3.4
-348,348,Joe Rodon,Joe,Rodon,Rodon,Leeds,11,DEF,2,3.9,100,1.8,3.3,3.1
+347,347,Gabriel Gudmundsson,Gabriel,Gudmundsson,Gudmundsson,Leeds,11,DEF,2,3.8,67,2.7,2.2,3.4
+348,348,Joe Rodon,Joe,Rodon,Rodon,Leeds,11,DEF,2,3.9,100,0.3,3.3,3.1
 349,349,Isaac Schmidt,Isaac,Schmidt,Schmidt,Leeds,11,DEF,2,4.0,0,0.0,0.0,0.1
-350,350,Brenden Aaronson,Brenden,Aaronson,Aaronson,Leeds,11,MID,3,5.4,119,3.2,3.7,1.3
-351,351,Wilfried Gnonto,Wilfried,Gnonto,Gnonto,Leeds,11,MID,3,5.1,24,0.5,1.3,0.1
+350,350,Brenden Aaronson,Brenden,Aaronson,Aaronson,Leeds,11,MID,3,5.4,119,3.3,3.7,1.3
+351,351,Wilfried Gnonto,Wilfried,Gnonto,Gnonto,Leeds,11,MID,3,5.1,24,0.7,1.3,0.1
 352,352,Jack Harrison,Jack,Harrison,Harrison,Leeds,11,MID,3,5.1,12,0.0,1.1,0.0
-353,353,Daniel James,Daniel,James,James,Leeds,11,MID,3,5.2,18,0.2,1.2,0.1
-354,354,Ethan Ampadu,Ethan,Ampadu,Ampadu,Leeds,11,MID,3,4.9,108,2.8,3.6,0.5
+353,353,Daniel James,Daniel,James,James,Leeds,11,MID,3,5.2,18,0.0,1.2,0.1
+354,354,Ethan Ampadu,Ethan,Ampadu,Ampadu,Leeds,11,MID,3,4.9,108,2.0,3.6,0.5
 355,355,Sam Greenwood,Sam,Greenwood,Greenwood,Leeds,11,MID,3,4.9,0,0.0,0.0,0.0
-356,356,Ilia Gruev,Ilia,Gruev,Gruev,Leeds,11,MID,3,4.7,56,0.5,2.4,0.1
+356,356,Ilia Gruev,Ilia,Gruev,Gruev,Leeds,11,MID,3,4.7,56,0.7,2.4,0.1
 357,357,Largie Ramazani,Largie,Ramazani,Ramazani,Leeds,11,MID,3,4.9,0,0.0,0.0,0.0
-358,358,Tanaka Ao,Tanaka,Ao,Tanaka,Leeds,11,MID,3,4.8,49,1.5,2.1,0.2
+358,358,Tanaka Ao,Tanaka,Ao,Tanaka,Leeds,11,MID,3,4.8,49,1.7,2.1,0.2
 359,359,Charlie Crew,Charlie,Crew,Crew,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 360,360,Joe Gelhardt,Joe,Gelhardt,Gelhardt,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 361,361,Darko Gyabi,Darko,Gyabi,Gyabi,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 362,362,Joël Piroe,Joël,Piroe,Piroe,Leeds,11,FWD,4,4.9,14,0.0,1.1,0.3
 363,363,Patrick Bamford,Patrick,Bamford,Bamford,Leeds,11,FWD,4,4.9,0,0.0,0.0,0.3
 364,364,Mateo Joseph Fernández-Regatillo,Mateo,Joseph Fernández-Regatillo,Mateo Joseph,Leeds,11,FWD,4,5.0,0,0.0,0.0,0.0
-365,365,Lukas Nmecha,Lukas,Nmecha,Nmecha,Leeds,11,FWD,4,5.0,67,0.8,2.6,0.6
-493,493,Sean Longstaff,Sean,Longstaff,Longstaff,Leeds,11,MID,3,4.8,46,0.5,2.4,0.2
-660,660,Anton Stach,Anton,Stach,Stach,Leeds,11,MID,3,4.8,122,0.8,4.7,1.8
+365,365,Lukas Nmecha,Lukas,Nmecha,Nmecha,Leeds,11,FWD,4,5.0,67,0.3,2.6,0.6
+493,493,Sean Longstaff,Sean,Longstaff,Longstaff,Leeds,11,MID,3,4.8,46,0.7,2.4,0.2
+660,660,Anton Stach,Anton,Stach,Stach,Leeds,11,MID,3,4.8,122,0.0,4.7,1.8
 665,665,Lucas Estella Perri,Lucas Estella,Perri,Perri,Leeds,11,GK,1,4.4,43,0.0,2.7,0.3
-691,691,Dominic Calvert-Lewin,Dominic,Calvert-Lewin,Calvert-Lewin,Leeds,11,FWD,4,5.7,118,2.5,3.9,11.8
-698,698,Noah Okafor,Noah,Okafor,Okafor,Leeds,11,MID,3,5.5,97,7.5,3.7,1.4
-706,706,James Justin,James,Justin,Justin,Leeds,11,DEF,2,3.9,78,5.8,3.2,1.3
+691,691,Dominic Calvert-Lewin,Dominic,Calvert-Lewin,Calvert-Lewin,Leeds,11,FWD,4,5.7,118,2.7,3.9,11.5
+698,698,Noah Okafor,Noah,Okafor,Okafor,Leeds,11,MID,3,5.5,97,9.7,3.7,1.4
+706,706,James Justin,James,Justin,Justin,Leeds,11,DEF,2,3.9,78,5.7,3.2,1.3
 741,741,Harry Gray,Harry,Gray,Gray,Leeds,11,FWD,4,4.5,0,0.0,0.0,0.1
 787,787,Sam Chambers,Sam,Chambers,Chambers,Leeds,11,MID,3,4.4,0,0.0,0.0,0.0
 366,366,Alisson Becker,Alisson,Becker,A.Becker,Liverpool,12,GK,1,5.4,89,0.0,3.6,5.5
-367,367,Giorgi Mamardashvili,Giorgi,Mamardashvili,Mamardashvili,Liverpool,12,GK,1,4.1,31,4.0,3.9,0.8
+367,367,Giorgi Mamardashvili,Giorgi,Mamardashvili,Mamardashvili,Liverpool,12,GK,1,4.1,31,5.0,3.9,0.8
 368,368,Ármin Pécsi,Ármin,Pécsi,Pécsi,Liverpool,12,GK,1,3.8,0,0.0,0.0,0.9
-369,369,Freddie Woodman,Freddie,Woodman,Woodman,Liverpool,12,GK,1,3.9,1,0.3,1.0,0.2
-370,370,Jeremie Frimpong,Jeremie,Frimpong,Frimpong,Liverpool,12,DEF,2,5.7,58,2.3,3.4,5.2
-371,371,Milos Kerkez,Milos,Kerkez,Kerkez,Liverpool,12,DEF,2,5.6,80,2.7,2.8,3.1
-372,372,Andrew Robertson,Andrew,Robertson,Robertson,Liverpool,12,DEF,2,5.7,45,3.0,2.1,1.0
-373,373,Virgil van Dijk,Virgil,van Dijk,Virgil,Liverpool,12,DEF,2,6.2,152,6.7,4.6,32.8
-374,374,Ibrahima Konaté,Ibrahima,Konaté,Konaté,Liverpool,12,DEF,2,5.5,121,3.3,3.9,4.1
+369,369,Freddie Woodman,Freddie,Woodman,Woodman,Liverpool,12,GK,1,3.9,1,0.5,1.0,0.2
+370,370,Jeremie Frimpong,Jeremie,Frimpong,Frimpong,Liverpool,12,DEF,2,5.7,58,3.5,3.4,5.2
+371,371,Milos Kerkez,Milos,Kerkez,Kerkez,Liverpool,12,DEF,2,5.6,80,0.5,2.8,3.1
+372,372,Andrew Robertson,Andrew,Robertson,Robertson,Liverpool,12,DEF,2,5.7,45,4.0,2.1,1.0
+373,373,Virgil van Dijk,Virgil,van Dijk,Virgil,Liverpool,12,DEF,2,6.2,152,8.5,4.6,33.2
+374,374,Ibrahima Konaté,Ibrahima,Konaté,Konaté,Liverpool,12,DEF,2,5.5,121,5.0,3.9,4.1
 375,375,Conor Bradley,Conor,Bradley,Bradley,Liverpool,12,DEF,2,4.9,42,0.0,2.8,0.1
-376,376,Joe Gomez,Joe,Gomez,Gomez,Liverpool,12,DEF,2,4.9,31,0.3,1.8,0.1
+376,376,Joe Gomez,Joe,Gomez,Gomez,Liverpool,12,DEF,2,4.9,31,0.5,1.8,0.1
 377,377,Konstantinos Tsimikas,Konstantinos,Tsimikas,Tsimikas,Liverpool,12,DEF,2,4.8,0,0.0,0.0,0.0
 378,378,Amara Nallo,Amara,Nallo,Nallo,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.9
 379,379,Rhys Williams,Rhys,Williams,R.Williams,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.6
 380,380,Calvin Ramsay,Calvin,Ramsay,Ramsay,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.3
-381,381,Mohamed Salah,Mohamed,Salah,M.Salah,Liverpool,12,MID,3,14.0,115,6.0,4.8,14.5
-382,382,Florian Wirtz,Florian,Wirtz,Wirtz,Liverpool,12,MID,3,8.3,113,3.3,3.9,9.1
+381,381,Mohamed Salah,Mohamed,Salah,M.Salah,Liverpool,12,MID,3,14.0,115,9.0,4.8,14.9
+382,382,Florian Wirtz,Florian,Wirtz,Wirtz,Liverpool,12,MID,3,8.3,113,4.0,3.9,9.1
 383,383,Luis Díaz Marulanda,Luis,Díaz Marulanda,Luis Díaz,Liverpool,12,MID,3,8.0,0,0.0,0.0,0.0
-384,384,Cody Gakpo,Cody,Gakpo,Gakpo,Liverpool,12,MID,3,7.3,117,4.3,3.8,5.6
+384,384,Cody Gakpo,Cody,Gakpo,Gakpo,Liverpool,12,MID,3,7.3,117,5.5,3.8,5.7
 385,385,Federico Chiesa,Federico,Chiesa,Chiesa,Liverpool,12,MID,3,6.3,34,0.0,1.5,0.3
 386,386,Alexis Mac Allister,Alexis,Mac Allister,Mac Allister,Liverpool,12,MID,3,6.3,87,1.0,2.7,2.0
-387,387,Dominik Szoboszlai,Dominik,Szoboszlai,Szoboszlai,Liverpool,12,MID,3,7.1,133,4.3,4.3,13.1
-388,388,Curtis Jones,Curtis,Jones,C.Jones,Liverpool,12,MID,3,5.4,59,3.7,2.0,0.1
-390,390,Ryan Gravenberch,Ryan,Gravenberch,Gravenberch,Liverpool,12,MID,3,5.5,127,2.0,4.1,4.2
+387,387,Dominik Szoboszlai,Dominik,Szoboszlai,Szoboszlai,Liverpool,12,MID,3,7.1,133,5.0,4.3,13.1
+388,388,Curtis Jones,Curtis,Jones,C.Jones,Liverpool,12,MID,3,5.4,59,2.5,2.0,0.1
+390,390,Ryan Gravenberch,Ryan,Gravenberch,Gravenberch,Liverpool,12,MID,3,5.5,127,1.5,4.1,4.2
 392,392,Endo Wataru,Endo,Wataru,Endo,Liverpool,12,MID,3,4.9,12,0.0,1.5,0.1
 393,393,Stefan Bajčetić Maquieira,Stefan,Bajčetić Maquieira,Bajcetic,Liverpool,12,MID,3,4.2,0,0.0,0.0,0.1
 394,394,James McConnell,James,McConnell,McConnell,Liverpool,12,MID,3,4.4,0,0.0,0.0,0.0
 395,395,Tyler Morton,Tyler,Morton,Morton,Liverpool,12,MID,3,4.5,0,0.0,0.0,0.0
-396,396,Trey Nyoni,Trey,Nyoni,Nyoni,Liverpool,12,MID,3,4.3,5,0.3,1.0,0.3
+396,396,Trey Nyoni,Trey,Nyoni,Nyoni,Liverpool,12,MID,3,4.3,5,0.5,1.0,0.3
 397,397,Darwin Núñez Ribeiro,Darwin,Núñez Ribeiro,Darwin,Liverpool,12,FWD,4,6.5,0,0.0,0.0,0.1
 398,398,Jayden Danns,Jayden,Danns,Danns,Liverpool,12,FWD,4,4.3,0,0.0,0.0,0.1
-499,499,Alexander Isak,Alexander,Isak,Isak,Liverpool,12,FWD,4,10.3,32,1.0,2.7,3.9
-661,661,Hugo Ekitiké,Hugo,Ekitiké,Ekitiké,Liverpool,12,FWD,4,9.1,125,0.3,4.5,21.8
-686,686,Rio Ngumoha,Rio,Ngumoha,Ngumoha,Liverpool,12,MID,3,4.3,32,4.3,2.1,1.0
+499,499,Alexander Isak,Alexander,Isak,Isak,Liverpool,12,FWD,4,10.3,32,1.5,2.7,3.9
+661,661,Hugo Ekitiké,Hugo,Ekitiké,Ekitiké,Liverpool,12,FWD,4,9.1,125,0.0,4.5,21.5
+686,686,Rio Ngumoha,Rio,Ngumoha,Ngumoha,Liverpool,12,MID,3,4.3,32,6.0,2.1,1.0
 692,692,Giovanni Leoni,Giovanni,Leoni,Leoni,Liverpool,12,DEF,2,4.9,0,0.0,0.0,0.0
 746,746,Kieran Morrison,Kieran,Morrison,Morrison,Liverpool,12,MID,3,4.5,0,0.0,0.0,0.0
 760,760,Wellity Lucky,Wellity,Lucky,Lucky,Liverpool,12,DEF,2,4.0,0,0.0,0.0,0.0
-82,82,Antoine Semenyo,Antoine,Semenyo,Semenyo,Man City,13,MID,3,8.2,178,1.3,5.7,55.4
+82,82,Antoine Semenyo,Antoine,Semenyo,Semenyo,Man City,13,MID,3,8.2,178,1.3,5.7,54.7
 182,182,James Trafford,James,Trafford,Trafford,Man City,13,GK,1,4.5,11,0.0,3.7,0.9
-260,260,Marc Guéhi,Marc,Guéhi,Guéhi,Man City,13,DEF,2,5.1,151,5.3,5.0,34.1
+260,260,Marc Guéhi,Marc,Guéhi,Guéhi,Man City,13,DEF,2,5.1,151,5.3,5.0,33.9
 399,399,Ederson Santana de Moraes,Ederson,Santana de Moraes,Ederson M.,Man City,13,GK,1,5.3,0,0.0,0.0,0.8
 401,401,Marcus Bettinelli,Marcus,Bettinelli,Bettinelli,Man City,13,GK,1,3.8,0,0.0,0.0,0.4
 402,402,Rayan Aït-Nouri,Rayan,Aït-Nouri,Aït-Nouri,Man City,13,DEF,2,5.7,45,0.3,3.2,4.3
@@ -495,27 +495,27 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 404,404,Manuel Akanji,Manuel,Akanji,Akanji,Man City,13,DEF,2,5.4,0,0.0,0.0,0.3
 405,405,Nathan Aké,Nathan,Aké,Aké,Man City,13,DEF,2,5.2,28,0.3,1.9,0.6
 406,406,Abdukodir Khusanov,Abdukodir,Khusanov,Khusanov,Man City,13,DEF,2,5.4,45,3.3,2.6,0.5
-407,407,Matheus Nunes,Matheus,Nunes,Matheus N.,Man City,13,DEF,2,5.3,139,3.7,4.8,3.1
+407,407,Matheus Nunes,Matheus,Nunes,Matheus N.,Man City,13,DEF,2,5.3,139,3.7,4.8,3.0
 408,408,Rúben dos Santos Gato Alves Dias,Rúben,dos Santos Gato Alves Dias,Rúben,Man City,13,DEF,2,5.5,112,0.0,4.5,3.2
 409,409,John Stones,John,Stones,Stones,Man City,13,DEF,2,5.4,12,0.0,1.7,0.6
 410,410,Rico Lewis,Rico,Lewis,Lewis,Man City,13,DEF,2,4.6,19,0.0,1.9,1.2
-411,411,Nico O'Reilly,Nico,O'Reilly,O'Reilly,Man City,13,DEF,2,5.1,146,7.0,4.9,13.6
+411,411,Nico O'Reilly,Nico,O'Reilly,O'Reilly,Man City,13,DEF,2,5.1,146,7.0,4.9,13.3
 412,412,Vitor de Oliveira Nunes dos Reis,Vitor,de Oliveira Nunes dos Reis,Vitor Reis,Man City,13,DEF,2,5.0,0,0.0,0.0,0.0
 413,413,Omar Marmoush,Omar,Marmoush,Marmoush,Man City,13,MID,3,8.3,40,0.0,2.4,2.5
 414,414,Phil Foden,Phil,Foden,Foden,Man City,13,MID,3,8.0,114,0.7,4.1,7.8
 415,415,Sávio Moreira de Oliveira,Sávio,Moreira de Oliveira,Savinho,Man City,13,MID,3,6.9,29,0.7,1.5,0.4
 416,416,Bernardo Mota Veiga de Carvalho e Silva,Bernardo,Mota Veiga de Carvalho e Silva,Bernardo,Man City,13,MID,3,6.2,86,1.7,2.7,0.7
-417,417,Rayan Cherki,Rayan,Cherki,Cherki,Man City,13,MID,3,6.4,120,6.7,4.4,9.8
+417,417,Rayan Cherki,Rayan,Cherki,Cherki,Man City,13,MID,3,6.4,120,6.7,4.4,9.9
 418,418,Jérémy Doku,Jérémy,Doku,Doku,Man City,13,MID,3,6.4,84,3.3,3.5,2.6
 420,420,İlkay Gündoğan,İlkay,Gündoğan,Gündoğan,Man City,13,MID,3,6.3,0,0.0,0.0,0.1
 421,421,Rodrigo 'Rodri' Hernandez Cascante,Rodrigo 'Rodri',Hernandez Cascante,Rodrigo,Man City,13,MID,3,6.3,62,1.7,3.1,0.5
 422,422,Mateo Kovačić,Mateo,Kovačić,Kovačić,Man City,13,MID,3,5.8,2,0.3,1.0,0.0
 423,423,Nico González Iglesias,Nico,González Iglesias,N.Gonzalez,Man City,13,MID,3,5.9,56,0.3,2.5,0.1
 425,425,Claudio Echeverri,Claudio,Echeverri,Echeverri,Man City,13,MID,3,5.4,0,0.0,0.0,0.0
-427,427,Tijjani Reijnders,Tijjani,Reijnders,Reijnders,Man City,13,MID,3,5.0,86,0.0,3.3,9.2
+427,427,Tijjani Reijnders,Tijjani,Reijnders,Reijnders,Man City,13,MID,3,5.0,86,0.0,3.3,9.1
 428,428,Sverre Nypan,Sverre,Nypan,Nypan,Man City,13,MID,3,5.0,0,0.0,0.0,0.0
 429,429,Kalvin Phillips,Kalvin,Phillips,Phillips,Man City,13,MID,3,4.7,0,0.0,0.0,0.1
-430,430,Erling Haaland,Erling,Haaland,Haaland,Man City,13,FWD,4,14.5,205,2.7,6.6,59.0
+430,430,Erling Haaland,Erling,Haaland,Haaland,Man City,13,FWD,4,14.5,205,2.7,6.6,58.5
 736,736,Gianluigi Donnarumma,Gianluigi,Donnarumma,Donnarumma,Man City,13,GK,1,5.6,113,3.0,3.9,9.4
 739,739,Divine Mukasa,Divine,Mukasa,Mukasa,Man City,13,MID,3,4.4,2,0.0,1.0,0.0
 740,740,Stephen Mfuni,Stephen,Mfuni,Mfuni,Man City,13,DEF,2,3.9,0,0.0,0.0,0.0
@@ -523,7 +523,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 763,763,Charlie Gray,Charlie,Gray,Gray,Man City,13,MID,3,4.5,0,0.0,0.0,0.0
 764,764,Reigan Heskey,Reigan,Heskey,Heskey,Man City,13,MID,3,4.5,0,0.0,0.0,0.0
 794,794,Max Alleyne,Max,Alleyne,Alleyne,Man City,13,DEF,2,3.9,5,0.0,2.5,0.0
-119,119,Bryan Mbeumo,Bryan,Mbeumo,Mbeumo,Man Utd,14,MID,3,8.5,126,2.0,4.5,18.9
+119,119,Bryan Mbeumo,Bryan,Mbeumo,Mbeumo,Man Utd,14,MID,3,8.5,126,2.0,4.5,18.7
 431,431,Altay Bayındır,Altay,Bayındır,Bayindir,Man Utd,14,GK,1,4.7,11,0.0,1.8,0.3
 432,432,André Onana,André,Onana,Onana,Man Utd,14,GK,1,4.9,0,0.0,0.0,0.1
 433,433,Elyh Harrison,Elyh,Harrison,Harrison,Man Utd,14,GK,1,4.0,0,0.0,0.0,0.0
@@ -533,22 +533,22 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 437,437,Lisandro Martínez,Lisandro,Martínez,Martinez,Man Utd,14,DEF,2,4.8,36,-1.5,2.4,0.4
 438,438,Noussair Mazraoui,Noussair,Mazraoui,Mazraoui,Man Utd,14,DEF,2,4.9,35,3.5,2.1,0.2
 439,439,Diego León Blanco,Diego,León Blanco,D.Leon,Man Utd,14,DEF,2,4.1,0,0.0,0.0,0.1
-440,440,Diogo Dalot Teixeira,Diogo,Dalot Teixeira,Dalot,Man Utd,14,DEF,2,4.6,105,3.5,3.4,4.4
+440,440,Diogo Dalot Teixeira,Diogo,Dalot Teixeira,Dalot,Man Utd,14,DEF,2,4.6,105,3.5,3.4,4.5
 441,441,Patrick Dorgu,Patrick,Dorgu,Dorgu,Man Utd,14,DEF,2,4.1,74,0.0,3.4,2.5
 442,442,Harry Maguire,Harry,Maguire,Maguire,Man Utd,14,DEF,2,4.4,63,0.0,3.5,1.3
 443,443,Luke Shaw,Luke,Shaw,Shaw,Man Utd,14,DEF,2,4.5,88,5.5,2.7,0.8
 444,444,Leny Yoro,Leny,Yoro,Yoro,Man Utd,14,DEF,2,4.1,53,1.5,1.8,1.3
 445,445,Harry Amass,Harry,Amass,Amass,Man Utd,14,DEF,2,4.0,0,0.0,0.0,0.1
 446,446,Tyler Fredricson,Tyler,Fredricson,Fredricson,Man Utd,14,DEF,2,3.7,1,0.0,1.0,0.2
-447,447,Ayden Heaven,Ayden,Heaven,Heaven,Man Utd,14,DEF,2,3.7,39,5.5,2.6,2.2
+447,447,Ayden Heaven,Ayden,Heaven,Heaven,Man Utd,14,DEF,2,3.7,39,5.5,2.6,2.3
 448,448,Tyrell Malacia,Tyrell,Malacia,Malacia,Man Utd,14,DEF,2,3.7,2,0.0,1.0,0.4
-449,449,Bruno Borges Fernandes,Bruno,Borges Fernandes,B.Fernandes,Man Utd,14,MID,3,10.3,199,5.0,6.6,45.5
-450,450,Matheus Santos Carneiro da Cunha,Matheus,Santos Carneiro da Cunha,Cunha,Man Utd,14,MID,3,8.0,125,4.0,4.2,8.5
+449,449,Bruno Borges Fernandes,Bruno,Borges Fernandes,B.Fernandes,Man Utd,14,MID,3,10.3,199,5.0,6.6,45.6
+450,450,Matheus Santos Carneiro da Cunha,Matheus,Santos Carneiro da Cunha,Cunha,Man Utd,14,MID,3,8.0,125,4.0,4.2,8.8
 451,451,Marcus Rashford,Marcus,Rashford,Rashford,Man Utd,14,MID,3,7.0,0,0.0,0.0,0.0
 452,452,Amad Diallo,Amad,Diallo,Amad,Man Utd,14,MID,3,6.2,77,1.5,2.9,1.4
 454,454,Antony dos Santos,Antony,dos Santos,Antony,Man Utd,14,MID,3,5.9,0,0.0,0.0,0.1
 455,455,Mason Mount,Mason,Mount,Mount,Man Utd,14,MID,3,5.9,47,0.0,2.5,0.3
-457,457,Carlos Henrique Casimiro,Carlos Henrique,Casimiro,Casemiro,Man Utd,14,MID,3,5.7,148,7.0,4.8,3.4
+457,457,Carlos Henrique Casimiro,Carlos Henrique,Casimiro,Casemiro,Man Utd,14,MID,3,5.7,148,7.0,4.8,3.5
 458,458,Kobbie Mainoo,Kobbie,Mainoo,Mainoo,Man Utd,14,MID,3,4.7,49,2.0,2.1,1.0
 459,459,Manuel Ugarte Ribeiro,Manuel,Ugarte Ribeiro,Ugarte,Man Utd,14,MID,3,4.7,38,2.0,1.7,0.1
 460,460,Toby Collyer,Toby,Collyer,Collyer,Man Utd,14,MID,3,4.5,0,0.0,0.0,0.0
@@ -561,7 +561,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 467,467,Chido Obi,Chido,Obi,Obi,Man Utd,14,FWD,4,4.2,0,0.0,0.0,1.4
 468,468,Ethan Wheatley,Ethan,Wheatley,Wheatley,Man Utd,14,FWD,4,4.5,0,0.0,0.0,0.1
 681,681,Benjamin Sesko,Benjamin,Sesko,Šeško,Man Utd,14,FWD,4,7.3,98,2.0,3.5,6.0
-733,733,Senne Lammens,Senne,Lammens,Lammens,Man Utd,14,GK,1,5.1,88,6.0,3.3,2.9
+733,733,Senne Lammens,Senne,Lammens,Lammens,Man Utd,14,GK,1,5.1,88,6.0,3.3,3.0
 755,755,Shea Lacey,Shea,Lacey,Lacey,Man Utd,14,MID,3,4.5,2,0.0,1.0,0.0
 769,769,Bendito Mantato,Bendito,Mantato,Bendito Mantato,Man Utd,14,MID,3,4.5,1,0.0,1.0,0.0
 771,771,Tyler Fletcher,Tyler,Fletcher,Fletcher,Man Utd,14,MID,3,4.4,1,0.0,1.0,0.0
@@ -584,7 +584,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 482,482,Harrison Ashby,Harrison,Ashby,Ashby,Newcastle,15,DEF,2,3.9,0,0.0,0.0,0.1
 483,483,Miodrag Pivaš,Miodrag,Pivaš,Pivas,Newcastle,15,DEF,2,3.8,0,0.0,0.0,0.4
 484,484,Matt Targett,Matt,Targett,Targett,Newcastle,15,DEF,2,4.0,0,0.0,0.0,0.1
-485,485,Anthony Gordon,Anthony,Gordon,Gordon,Newcastle,15,MID,3,7.4,101,4.3,3.9,6.9
+485,485,Anthony Gordon,Anthony,Gordon,Gordon,Newcastle,15,MID,3,7.4,101,4.3,3.9,6.8
 486,486,Anthony Elanga,Anthony,Elanga,Elanga,Newcastle,15,MID,3,6.5,45,1.7,1.6,2.7
 487,487,Harvey Barnes,Harvey,Barnes,Barnes,Newcastle,15,MID,3,6.1,86,1.7,2.7,1.1
 488,488,Bruno Guimarães Rodriguez Moura,Bruno,Guimarães Rodriguez Moura,Bruno G.,Newcastle,15,MID,3,6.8,135,0.3,5.6,4.3
@@ -600,7 +600,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 500,500,William Osula,William,Osula,Osula,Newcastle,15,FWD,4,5.4,48,6.0,2.5,0.3
 501,501,Sean Neave,Sean,Neave,Neave,Newcastle,15,FWD,4,4.3,0,0.0,0.0,0.3
 674,674,Aaron Ramsdale,Aaron,Ramsdale,Ramsdale,Newcastle,15,GK,1,4.8,25,1.3,2.1,0.8
-684,684,Malick Thiaw,Malick,Thiaw,Thiaw,Newcastle,15,DEF,2,5.1,117,1.0,3.9,6.3
+684,684,Malick Thiaw,Malick,Thiaw,Thiaw,Newcastle,15,DEF,2,5.1,117,1.0,3.9,6.2
 689,689,Seung-Soo Park,Seung-Soo,Park,Seung soo,Newcastle,15,MID,3,4.3,0,0.0,0.0,0.5
 714,714,Nick Woltemade,Nick,Woltemade,Woltemade,Newcastle,15,FWD,4,6.7,95,2.3,3.3,6.6
 753,753,John Ruddy,John,Ruddy,Ruddy,Newcastle,15,GK,1,4.0,0,0.0,0.0,0.0
@@ -615,14 +615,14 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 505,505,Nikola Milenković,Nikola,Milenković,Milenković,Nott'm Forest,16,DEF,2,5.1,103,5.3,3.1,3.3
 506,506,Murillo Costa dos Santos,Murillo,Costa dos Santos,Murillo,Nott'm Forest,16,DEF,2,5.2,83,2.7,3.3,2.1
 507,507,Ola Aina,Ola,Aina,Aina,Nott'm Forest,16,DEF,2,4.7,58,3.3,3.4,2.4
-508,508,Neco Williams,Neco,Williams,N.Williams,Nott'm Forest,16,DEF,2,4.8,117,9.3,3.7,4.3
+508,508,Neco Williams,Neco,Williams,N.Williams,Nott'm Forest,16,DEF,2,4.8,117,9.3,3.7,4.4
 509,509,David Mota Veiga Teixeira do Carmo,David,Mota Veiga Teixeira do Carmo,David Carmo,Nott'm Forest,16,DEF,2,4.5,0,0.0,0.0,0.0
 510,510,Jair Paula da Cunha Filho,Jair,Paula da Cunha Filho,Jair Cunha,Nott'm Forest,16,DEF,2,4.2,6,0.3,1.5,0.1
 511,511,Felipe Rodrigues da Silva,Felipe,Rodrigues da Silva,Morato,Nott'm Forest,16,DEF,2,4.3,36,0.3,2.2,0.1
 512,512,Omar Richards,Omar,Richards,O.Richards,Nott'm Forest,16,DEF,2,4.5,0,0.0,0.0,0.0
 513,513,Zach Abbott,Zach,Abbott,Abbott,Nott'm Forest,16,DEF,2,3.8,2,0.0,1.0,0.3
 514,514,Willy Boly,Willy,Boly,Boly,Nott'm Forest,16,DEF,2,3.8,0,0.0,0.0,0.3
-515,515,Morgan Gibbs-White,Morgan,Gibbs-White,Gibbs-White,Nott'm Forest,16,MID,3,7.5,155,10.0,4.7,6.1
+515,515,Morgan Gibbs-White,Morgan,Gibbs-White,Gibbs-White,Nott'm Forest,16,MID,3,7.5,155,10.0,4.7,6.5
 516,516,Callum Hudson-Odoi,Callum,Hudson-Odoi,Hudson-Odoi,Nott'm Forest,16,MID,3,5.7,88,4.3,2.9,0.7
 517,517,Elliot Anderson,Elliot,Anderson,Anderson,Nott'm Forest,16,MID,3,5.6,144,3.7,4.4,7.4
 518,518,João Pedro Ferreira da Silva,João Pedro,Ferreira da Silva,Jota,Nott'm Forest,16,MID,3,5.4,1,0.0,1.0,0.0
@@ -633,7 +633,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 523,523,Eric da Silva Moreira,Eric,da Silva Moreira,Da Silva Moreira,Nott'm Forest,16,MID,3,4.5,0,0.0,0.0,0.1
 524,524,Marko Stamenić,Marko,Stamenić,Stamenic,Nott'm Forest,16,MID,3,4.5,0,0.0,0.0,0.0
 525,525,Chris Wood,Chris,Wood,Wood,Nott'm Forest,16,FWD,4,7.1,28,1.0,2.8,4.5
-526,526,Igor Jesus Maciel da Cruz,Igor Jesus,Maciel da Cruz,Igor Jesus,Nott'm Forest,16,FWD,4,5.8,90,5.7,2.8,1.3
+526,526,Igor Jesus Maciel da Cruz,Igor Jesus,Maciel da Cruz,Igor Jesus,Nott'm Forest,16,FWD,4,5.8,90,5.7,2.8,1.4
 527,527,Taiwo Awoniyi,Taiwo,Awoniyi,Awoniyi,Nott'm Forest,16,FWD,4,5.2,20,1.3,1.7,0.3
 669,669,Dan Ndoye,Dan,Ndoye,Ndoye,Nott'm Forest,16,MID,3,5.5,50,0.7,2.1,0.7
 675,675,Angus Gunn,Angus,Gunn,Gunn,Nott'm Forest,16,GK,1,4.0,1,0.0,1.0,1.1
@@ -645,7 +645,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 734,734,Dilane Bakwa,Dilane,Bakwa,Bakwa,Nott'm Forest,16,MID,3,5.9,15,0.3,1.4,0.0
 805,805,Lorenzo Lucca,Lorenzo,Lucca,Lucca,Nott'm Forest,16,FWD,4,5.4,8,0.0,2.7,0.0
 814,814,Luca Netz,Luca,Netz,Netz,Nott'm Forest,16,DEF,2,4.5,2,0.0,1.0,0.0
-528,528,Anthony Patterson,Anthony,Patterson,Patterson,Sunderland,17,GK,1,4.2,0,0.0,0.0,0.2
+528,528,Anthony Patterson,Anthony,Patterson,Patterson,Sunderland,17,GK,1,4.2,0,0.0,0.0,0.1
 529,529,Simon Moore,Simon,Moore,Moore,Sunderland,17,GK,1,3.9,0,0.0,0.0,0.3
 530,530,Blondy Nna Noukeu,Blondy,Nna Noukeu,Nna Noukeu,Sunderland,17,GK,1,3.9,0,0.0,0.0,0.1
 531,531,Daniel Ballard,Daniel,Ballard,Ballard,Sunderland,17,DEF,2,4.7,118,0.0,4.4,3.2
@@ -658,7 +658,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 538,538,Zak Johnson,Zak,Johnson,Johnson,Sunderland,17,DEF,2,3.8,0,0.0,0.0,0.2
 539,539,Luke O'Nien,Luke,O'Nien,O'Nien,Sunderland,17,DEF,2,4.0,16,2.7,1.6,0.1
 540,540,Timothée Pembélé,Timothée,Pembélé,Pembele,Sunderland,17,DEF,2,3.9,0,0.0,0.0,0.3
-541,541,Reinildo Mandava,Reinildo,Mandava,Reinildo,Sunderland,17,DEF,2,3.8,59,2.7,3.0,2.8
+541,541,Reinildo Mandava,Reinildo,Mandava,Reinildo,Sunderland,17,DEF,2,3.8,59,2.7,3.0,2.9
 542,542,Jenson Seelt,Jenson,Seelt,Seelt,Sunderland,17,DEF,2,4.0,2,0.0,1.0,0.1
 543,543,Simon Adingra,Simon,Adingra,Adingra,Sunderland,17,MID,3,4.9,34,0.0,2.4,0.3
 544,544,Habib Diarra,Habib,Diarra,Diarra,Sunderland,17,MID,3,5.3,59,4.3,3.7,0.1
@@ -683,12 +683,12 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 563,563,Luís Hemir Silva Semedo,Luís Hemir,Silva Semedo,Luís Hemir,Sunderland,17,FWD,4,4.4,0,0.0,0.0,0.1
 564,564,Nazarii Rusyn,Nazarii,Rusyn,Rusyn,Sunderland,17,FWD,4,4.4,0,0.0,0.0,0.1
 668,668,Granit Xhaka,Granit,Xhaka,Xhaka,Sunderland,17,MID,3,5.1,106,3.7,3.7,3.2
-670,670,Robin Roefs,Robin,Roefs,Roefs,Sunderland,17,GK,1,4.8,122,4.0,4.1,8.2
+670,670,Robin Roefs,Robin,Roefs,Roefs,Sunderland,17,GK,1,4.8,122,4.0,4.1,8.4
 678,678,Arthur Masuaku,Arthur,Masuaku,Masuaku,Sunderland,17,DEF,2,3.9,1,0.0,0.3,0.5
 683,683,Omar Alderete,Omar,Alderete,Alderete,Sunderland,17,DEF,2,4.1,112,3.3,3.9,6.1
-694,694,Nordi Mukiele,Nordi,Mukiele,Mukiele,Sunderland,17,DEF,2,4.5,128,4.3,4.7,7.7
+694,694,Nordi Mukiele,Nordi,Mukiele,Mukiele,Sunderland,17,DEF,2,4.5,128,4.3,4.7,8.0
 724,724,Lutsharel Geertruida,Lutsharel,Geertruida,Geertruida,Sunderland,17,DEF,2,4.5,46,1.0,1.8,0.1
-730,730,Brian Brobbey,Brian,Brobbey,Brobbey,Sunderland,17,FWD,4,5.3,75,3.7,2.9,0.8
+730,730,Brian Brobbey,Brian,Brobbey,Brobbey,Sunderland,17,FWD,4,5.3,75,3.7,2.9,0.9
 735,735,Bertrand Traoré,Bertrand,Traoré,Traoré,Sunderland,17,MID,3,5.5,30,0.0,2.5,0.0
 774,774,Jenson Jones,Jenson,Jones,Jenson Jones,Sunderland,17,DEF,2,4.0,0,0.0,0.0,0.0
 775,775,Tymur Tutierov,Tymur,Tutierov,Tutierov,Sunderland,17,MID,3,4.5,0,0.0,0.0,0.0
@@ -700,9 +700,9 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 565,565,Guglielmo Vicario,Guglielmo,Vicario,Vicario,Spurs,18,GK,1,4.7,90,0.7,2.9,5.0
 566,566,Brandon Austin,Brandon,Austin,Austin,Spurs,18,GK,1,3.9,0,0.0,0.0,0.3
 567,567,Antonín Kinský,Antonín,Kinský,Kinsky,Spurs,18,GK,1,3.9,3,1.0,1.5,1.7
-568,568,Pedro Porro Sauceda,Pedro,Porro Sauceda,Pedro Porro,Spurs,18,DEF,2,5.1,94,4.0,3.2,9.8
+568,568,Pedro Porro Sauceda,Pedro,Porro Sauceda,Pedro Porro,Spurs,18,DEF,2,5.1,94,4.0,3.2,10.1
 569,569,Cristian Romero,Cristian,Romero,Romero,Spurs,18,DEF,2,5.0,91,0.7,4.0,3.0
-570,570,Kevin Danso,Kevin,Danso,Danso,Spurs,18,DEF,2,4.2,41,2.0,2.2,0.1
+570,570,Kevin Danso,Kevin,Danso,Danso,Spurs,18,DEF,2,4.2,41,2.0,2.2,0.2
 571,571,Ben Davies,Ben,Davies,Davies,Spurs,18,DEF,2,4.3,10,0.0,3.3,0.1
 572,572,Radu Drăgușin,Radu,Drăgușin,Dragusin,Spurs,18,DEF,2,4.5,15,0.0,1.9,0.0
 573,573,Djed Spence,Djed,Spence,Spence,Spurs,18,DEF,2,4.1,61,0.7,2.4,0.9
@@ -727,12 +727,12 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 593,593,Pape Matar Sarr,Pape Matar,Sarr,P.M.Sarr,Spurs,18,MID,3,4.5,66,1.0,2.9,1.1
 594,594,Yang Min-hyeok,Yang,Min-hyeok,Min-hyeok,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
 595,595,Callum Olusesi,Callum,Olusesi,Olusesi,Spurs,18,MID,3,4.3,1,0.0,1.0,0.2
-596,596,Dominic Solanke-Mitchell,Dominic,Solanke-Mitchell,Solanke,Spurs,18,FWD,4,7.2,39,2.0,2.8,1.4
+596,596,Dominic Solanke-Mitchell,Dominic,Solanke-Mitchell,Solanke,Spurs,18,FWD,4,7.2,39,2.0,2.8,1.5
 597,597,Richarlison de Andrade,Richarlison,de Andrade,Richarlison,Spurs,18,FWD,4,6.3,95,1.3,3.5,5.6
 598,598,Will Lankshear,Will,Lankshear,Lankshear,Spurs,18,FWD,4,4.5,0,0.0,0.0,0.0
 599,599,Dane Scarlett,Dane,Scarlett,Scarlett,Spurs,18,FWD,4,4.3,2,0.0,1.0,0.5
 673,673,João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,J.Palhinha,Spurs,18,MID,3,5.5,96,0.7,3.4,0.7
-717,717,Xavi Simons,Xavi,Simons,Xavi,Spurs,18,MID,3,6.5,77,4.3,2.9,1.5
+717,717,Xavi Simons,Xavi,Simons,Xavi,Spurs,18,MID,3,6.5,77,4.3,2.9,1.8
 726,726,Randal Kolo Muani,Randal,Kolo Muani,Kolo Muani,Spurs,18,FWD,4,6.9,45,1.3,1.8,0.4
 745,745,Jun'ai Byfield,Jun'ai,Byfield,Byfield,Spurs,18,DEF,2,4.0,1,0.0,1.0,0.0
 750,750,James Rowswell,James,Rowswell,Rowswell,Spurs,18,DEF,2,4.0,1,0.0,1.0,0.0
@@ -743,21 +743,21 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 811,811,Rio Kyerematen,Rio,Kyerematen,Kyerematen,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
 818,818,James Wilson,James,Wilson,Wilson,Spurs,18,FWD,4,4.5,0,0.0,0.0,0.0
 326,326,Adama Traoré Diarra,Adama,Traoré Diarra,Adama,West Ham,19,MID,3,5.1,24,0.7,1.0,0.2
-600,600,Alphonse Areola,Alphonse,Areola,Areola,West Ham,19,GK,1,4.2,51,0.0,2.5,1.9
+600,600,Alphonse Areola,Alphonse,Areola,Areola,West Ham,19,GK,1,4.2,51,0.0,2.5,2.0
 601,601,Wes Foderingham,Wes,Foderingham,Foderingham,West Ham,19,GK,1,4.0,0,0.0,0.0,0.2
 602,602,Krisztián Hegyi,Krisztián,Hegyi,Hegyi,West Ham,19,GK,1,3.9,0,0.0,0.0,0.2
-603,603,El Hadji Malick Diouf,El Hadji Malick,Diouf,Diouf,West Ham,19,DEF,2,4.1,88,2.3,3.4,2.5
+603,603,El Hadji Malick Diouf,El Hadji Malick,Diouf,Diouf,West Ham,19,DEF,2,4.1,93,4.0,3.4,2.5
 604,604,Emerson Palmieri dos Santos,Emerson,Palmieri dos Santos,Emerson,West Ham,19,DEF,2,4.4,0,0.0,0.0,0.0
 605,605,Maximilian Kilman,Maximilian,Kilman,Kilman,West Ham,19,DEF,2,4.1,36,0.0,1.7,0.1
-606,606,Konstantinos Mavropanos,Konstantinos,Mavropanos,Mavropanos,West Ham,19,DEF,2,4.4,98,8.0,3.9,0.9
+606,606,Konstantinos Mavropanos,Konstantinos,Mavropanos,Mavropanos,West Ham,19,DEF,2,4.4,104,10.0,4.0,1.1
 607,607,Nayef Aguerd,Nayef,Aguerd,N.Aguerd,West Ham,19,DEF,2,4.4,3,0.0,1.5,0.0
 608,608,Ollie Scarles,Ollie,Scarles,Scarles,West Ham,19,DEF,2,4.3,21,0.0,1.8,0.0
 609,609,Jean-Clair Todibo,Jean-Clair,Todibo,Todibo,West Ham,19,DEF,2,4.3,44,0.0,2.2,0.1
 610,610,Aaron Wan-Bissaka,Aaron,Wan-Bissaka,Wan-Bissaka,West Ham,19,DEF,2,4.1,63,0.0,2.9,4.5
 611,611,Kaelan Casey,Kaelan,Casey,Casey,West Ham,19,DEF,2,4.0,0,0.0,0.0,0.1
 612,612,Lucas Tolentino Coelho de Lima,Lucas,Tolentino Coelho de Lima,L.Paquetá,West Ham,19,MID,3,5.9,69,0.0,3.8,1.1
-613,613,Tomáš Souček,Tomáš,Souček,Souček,West Ham,19,MID,3,5.7,82,1.7,2.8,0.3
-615,615,Crysencio Summerville,Crysencio,Summerville,Summerville,West Ham,19,MID,3,5.5,95,1.0,3.8,1.4
+613,613,Tomáš Souček,Tomáš,Souček,Souček,West Ham,19,MID,3,5.7,85,2.7,2.8,0.3
+615,615,Crysencio Summerville,Crysencio,Summerville,Summerville,West Ham,19,MID,3,5.5,98,2.0,3.8,1.4
 616,616,Edson Álvarez Velázquez,Edson,Álvarez Velázquez,Álvarez,West Ham,19,MID,3,4.9,0,0.0,0.0,0.0
 617,617,Maxwel Cornet,Maxwel,Cornet,Cornet,West Ham,19,MID,3,4.9,0,0.0,0.0,0.0
 618,618,Guido Rodríguez,Guido,Rodríguez,G.Rodriguez,West Ham,19,MID,3,4.8,8,0.0,1.3,0.0
@@ -766,22 +766,22 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 621,621,Andy Irving,Andy,Irving,Irving,West Ham,19,MID,3,4.3,9,0.0,1.3,0.2
 622,622,Lewis Orford,Lewis,Orford,Orford,West Ham,19,MID,3,4.4,0,0.0,0.0,0.1
 623,623,Freddie Potts,Freddie,Potts,Potts,West Ham,19,MID,3,4.3,36,0.7,1.7,0.5
-624,624,Jarrod Bowen,Jarrod,Bowen,Bowen,West Ham,19,FWD,4,7.7,157,5.3,4.9,11.6
+624,624,Jarrod Bowen,Jarrod,Bowen,Bowen,West Ham,19,FWD,4,7.7,159,6.0,4.8,12.1
 625,625,Niclas Füllkrug,Niclas,Füllkrug,Füllkrug,West Ham,19,FWD,4,5.6,12,0.0,1.5,0.6
 626,626,Callum Marshall,Callum,Marshall,Marshall,West Ham,19,FWD,4,4.3,2,0.0,1.0,0.5
-659,659,Kyle Walker-Peters,Kyle,Walker-Peters,Walker-Peters,West Ham,19,DEF,2,4.2,38,2.0,2.0,0.2
-671,671,Callum Wilson,Callum,Wilson,Wilson,West Ham,19,FWD,4,5.8,66,0.7,2.5,0.5
-679,679,Mads Hermansen,Mads,Hermansen,Hermansen,West Ham,19,GK,1,4.2,52,3.0,4.3,0.6
-708,708,Mateus Gonçalo Espanha Fernandes,Mateus Gonçalo,Espanha Fernandes,M.Fernandes,West Ham,19,MID,3,5.5,109,1.3,3.6,0.4
+659,659,Kyle Walker-Peters,Kyle,Walker-Peters,Walker-Peters,West Ham,19,DEF,2,4.2,44,4.0,2.2,0.2
+671,671,Callum Wilson,Callum,Wilson,Wilson,West Ham,19,FWD,4,5.8,67,1.0,2.5,0.5
+679,679,Mads Hermansen,Mads,Hermansen,Hermansen,West Ham,19,GK,1,4.2,58,5.0,4.5,0.7
+708,708,Mateus Gonçalo Espanha Fernandes,Mateus Gonçalo,Espanha Fernandes,M.Fernandes,West Ham,19,MID,3,5.5,114,3.0,3.7,0.4
 718,718,Soungoutou Magassa,Soungoutou,Magassa,S.Magassa,West Ham,19,MID,3,5.0,41,0.7,2.0,0.0
 738,738,Lukasz Fabianski,Lukasz,Fabianski,Fabianski,West Ham,19,GK,1,4.5,0,0.0,0.0,0.0
 747,747,Ezra Mayers,Ezra,Mayers,Mayers,West Ham,19,DEF,2,4.0,6,0.0,1.0,0.0
 752,752,Airidas Golambeckis,Airidas,Golambeckis,Golambeckis,West Ham,19,DEF,2,4.0,0,0.0,0.0,0.0
-758,758,Mohamadou Kanté,Mohamadou,Kanté,Mohamadou Kanté,West Ham,19,MID,3,4.5,7,0.3,0.9,0.0
-785,785,Pablo Felipe Pereira de Jesus,Pablo Felipe,Pereira de Jesus,Pablo,West Ham,19,FWD,4,5.4,17,2.3,2.1,0.0
-791,791,Valentín Castellanos,Valentín,Castellanos,Taty,West Ham,19,FWD,4,5.5,42,4.0,3.5,0.2
+758,758,Mohamadou Kanté,Mohamadou,Kanté,Mohamadou Kanté,West Ham,19,MID,3,4.5,8,0.7,0.9,0.0
+785,785,Pablo Felipe Pereira de Jesus,Pablo Felipe,Pereira de Jesus,Pablo,West Ham,19,FWD,4,5.4,19,3.0,2.1,0.0
+791,791,Valentín Castellanos,Valentín,Castellanos,Taty,West Ham,19,FWD,4,5.5,44,4.7,3.4,0.2
 802,802,Keiber Lamadrid,Keiber,Lamadrid,Lamadrid,West Ham,19,MID,3,5.0,0,0.0,0.0,0.0
-815,815,Axel Disasi,Axel,Disasi,Disasi,West Ham,19,DEF,2,4.5,27,2.3,3.4,0.1
+815,815,Axel Disasi,Axel,Disasi,Disasi,West Ham,19,DEF,2,4.5,36,5.3,4.0,0.1
 825,825,Finlay Herrick,Finlay,Herrick,Herrick,West Ham,19,GK,1,4.0,0,0.0,0.0,0.0
 627,627,Sam Johnstone,Sam,Johnstone,Johnstone,Wolves,20,GK,1,4.4,21,0.0,1.8,0.1
 628,628,José Malheiro de Sá,José,Malheiro de Sá,José Sá,Wolves,20,GK,1,4.2,57,0.5,2.9,1.2
@@ -818,7 +818,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 695,695,Jackson Tchatchoua,Jackson,Tchatchoua,Tchatchoua,Wolves,20,DEF,2,4.4,51,0.0,1.7,0.0
 709,709,Ladislav Krejcí,Ladislav,Krejcí,Krejčí,Wolves,20,DEF,2,4.5,60,0.5,2.3,0.1
 720,720,Tolu Arokodare,Tolu,Arokodare,Tolu,Wolves,20,FWD,4,5.2,60,0.5,2.1,0.1
-749,749,Mateus Mané,Mateus,Mané,Mané,Wolves,20,FWD,4,4.3,55,1.0,2.5,1.4
+749,749,Mateus Mané,Mateus,Mané,Mané,Wolves,20,FWD,4,4.3,55,1.0,2.5,1.5
 766,766,Saheed Olagunju,Saheed,Olagunju,Olagunju,Wolves,20,DEF,2,4.0,0,0.0,0.0,0.0
 767,767,Luke Rawlings,Luke,Rawlings,Rawlings,Wolves,20,MID,3,4.5,0,0.0,0.0,0.0
 777,777,Temple Ojinnaka,Temple,Ojinnaka,Ojinnaka,Wolves,20,MID,3,4.5,0,0.0,0.0,0.0
