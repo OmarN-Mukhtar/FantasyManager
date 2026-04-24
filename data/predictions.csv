@@ -1,764 +1,764 @@
 player_name,position,team,now_cost,predicted_next_gw_points,current_season_points
-David Raya Martín,GK,Arsenal,0.6,4.48,131.0
+David Raya Martín,GK,Arsenal,0.6,4.42,131.0
 Kepa Arrizabalaga Revuelta,GK,Arsenal,0.4,0.11,0.0
-Karl Hein,GK,Arsenal,0.4,-0.51,0.0
+Karl Hein,GK,Arsenal,0.4,-0.52,0.0
 Tommy Setford,GK,Arsenal,0.4,0.08,0.0
-Gabriel dos Santos Magalhães,DEF,Arsenal,0.7,5.95,177.0
-William Saliba,DEF,Arsenal,0.6,5.34,111.0
-Riccardo Calafiori,DEF,Arsenal,0.6,0.22,93.0
-Jurriën Timber,DEF,Arsenal,0.6,0.93,149.0
-Jakub Kiwior,DEF,Arsenal,0.5,-0.63,0.0
-Myles Lewis-Skelly,DEF,Arsenal,0.5,1.52,13.0
-Benjamin White,DEF,Arsenal,0.5,2.47,32.0
+Gabriel dos Santos Magalhães,DEF,Arsenal,0.7,5.61,177.0
+William Saliba,DEF,Arsenal,0.6,5.13,111.0
+Riccardo Calafiori,DEF,Arsenal,0.6,0.34,93.0
+Jurriën Timber,DEF,Arsenal,0.6,0.95,149.0
+Jakub Kiwior,DEF,Arsenal,0.5,-0.55,0.0
+Myles Lewis-Skelly,DEF,Arsenal,0.5,1.72,13.0
+Benjamin White,DEF,Arsenal,0.5,2.5,32.0
 Brayden Clarke,DEF,Arsenal,0.4,0.85,0.0
 Maldini Kacurri,DEF,Arsenal,0.4,-0.04,0.0
-Josh Nichols,DEF,Arsenal,0.4,0.84,0.0
-Bukayo Saka,MID,Arsenal,1.0,0.07,133.0
-Martin Ødegaard,MID,Arsenal,0.8,4.16,64.0
-Noni Madueke,MID,Arsenal,0.7,3.26,56.0
-Gabriel Martinelli Silva,MID,Arsenal,0.7,3.22,49.0
-Leandro Trossard,MID,Arsenal,0.7,3.89,101.0
-Declan Rice,MID,Arsenal,0.7,7.29,169.0
-Mikel Merino Zazón,MID,Arsenal,0.5,-0.36,66.0
+Josh Nichols,DEF,Arsenal,0.4,0.85,0.0
+Bukayo Saka,MID,Arsenal,1.0,0.29,133.0
+Martin Ødegaard,MID,Arsenal,0.8,4.46,64.0
+Noni Madueke,MID,Arsenal,0.7,3.67,56.0
+Gabriel Martinelli Silva,MID,Arsenal,0.7,3.54,49.0
+Leandro Trossard,MID,Arsenal,0.7,4.26,101.0
+Declan Rice,MID,Arsenal,0.7,7.58,169.0
+Mikel Merino Zazón,MID,Arsenal,0.5,-0.48,66.0
 Fábio Ferreira Vieira,MID,Arsenal,0.5,-0.03,0.0
-Christian Nørgaard,MID,Arsenal,0.5,1.06,6.0
-Ethan Nwaneri,MID,Arsenal,0.5,-0.47,8.0
-Martín Zubimendi Ibáñez,MID,Arsenal,0.5,6.97,123.0
+Christian Nørgaard,MID,Arsenal,0.5,0.56,6.0
+Ethan Nwaneri,MID,Arsenal,0.5,0.03,8.0
+Martín Zubimendi Ibáñez,MID,Arsenal,0.5,7.02,123.0
 Ismeal Kabia,MID,Arsenal,0.5,-0.03,0.0
 Albert Sambi Lokonga,MID,Arsenal,0.5,-0.04,0.0
-Kai Havertz,FWD,Arsenal,0.7,8.61,19.0
-Gabriel Fernando de Jesus,FWD,Arsenal,0.6,1.97,18.0
-Eberechi Eze,MID,Arsenal,0.7,4.17,97.0
-Cristhian Mosquera,DEF,Arsenal,0.5,1.86,29.0
-Viktor Gyökeres,FWD,Arsenal,0.9,6.66,107.0
-Max Dowman,MID,Arsenal,0.4,2.03,12.0
+Kai Havertz,FWD,Arsenal,0.7,9.11,19.0
+Gabriel Fernando de Jesus,FWD,Arsenal,0.6,1.95,18.0
+Eberechi Eze,MID,Arsenal,0.7,4.51,97.0
+Cristhian Mosquera,DEF,Arsenal,0.5,2.27,29.0
+Viktor Gyökeres,FWD,Arsenal,0.9,6.33,107.0
+Max Dowman,MID,Arsenal,0.4,2.16,12.0
 Andre Harriman-Annous,MID,Arsenal,0.4,0.96,0.0
-Piero Hincapié,DEF,Arsenal,0.5,2.17,75.0
-Marli Salmon,DEF,Arsenal,0.4,0.59,0.0
-Emiliano Martínez Romero,GK,Aston Villa,0.5,2.2,107.0
-Marco Bizot,GK,Aston Villa,0.4,2.4,14.0
-Joe Gauci,GK,Aston Villa,0.4,0.01,0.0
+Piero Hincapié,DEF,Arsenal,0.5,2.43,75.0
+Marli Salmon,DEF,Arsenal,0.4,0.55,0.0
+Emiliano Martínez Romero,GK,Aston Villa,0.5,2.56,107.0
+Marco Bizot,GK,Aston Villa,0.4,2.42,14.0
+Joe Gauci,GK,Aston Villa,0.4,-0.24,0.0
 Filip Marschall,GK,Aston Villa,0.4,-0.74,0.0
-Matty Cash,DEF,Aston Villa,0.5,2.49,108.0
-Lucas Digne,DEF,Aston Villa,0.5,4.15,90.0
-Ezri Konsa Ngoyo,DEF,Aston Villa,0.4,0.64,96.0
-Ian Maatsen,DEF,Aston Villa,0.4,4.81,46.0
-Tyrone Mings,DEF,Aston Villa,0.4,1.78,45.0
-Pau Torres,DEF,Aston Villa,0.4,0.84,58.0
+Matty Cash,DEF,Aston Villa,0.5,2.63,108.0
+Lucas Digne,DEF,Aston Villa,0.5,4.61,90.0
+Ezri Konsa Ngoyo,DEF,Aston Villa,0.4,0.49,96.0
+Ian Maatsen,DEF,Aston Villa,0.4,5.14,46.0
+Tyrone Mings,DEF,Aston Villa,0.4,1.85,45.0
+Pau Torres,DEF,Aston Villa,0.4,0.83,58.0
 Andrés García,DEF,Aston Villa,0.4,0.71,4.0
-Álex Moreno Lopera,DEF,Aston Villa,0.4,-0.02,0.0
-Lamare Bogarde,DEF,Aston Villa,0.4,0.01,34.0
-Lino da Cruz Sousa,DEF,Aston Villa,0.4,-0.83,0.0
-Yasin Özcan,DEF,Aston Villa,0.4,-0.03,0.0
-Morgan Rogers,MID,Aston Villa,0.7,11.85,152.0
-Youri Tielemans,MID,Aston Villa,0.6,4.63,57.0
-Leon Bailey,MID,Aston Villa,0.6,0.3,13.0
-Emiliano Buendía Stati,MID,Aston Villa,0.5,1.89,85.0
+Álex Moreno Lopera,DEF,Aston Villa,0.4,-0.03,0.0
+Lamare Bogarde,DEF,Aston Villa,0.4,0.06,34.0
+Lino da Cruz Sousa,DEF,Aston Villa,0.4,-0.03,0.0
+Yasin Özcan,DEF,Aston Villa,0.4,-0.04,0.0
+Morgan Rogers,MID,Aston Villa,0.7,12.55,152.0
+Youri Tielemans,MID,Aston Villa,0.6,4.26,57.0
+Leon Bailey,MID,Aston Villa,0.6,0.31,13.0
+Emiliano Buendía Stati,MID,Aston Villa,0.5,1.76,85.0
 Samuel Iling-Junior,MID,Aston Villa,0.6,-0.03,0.0
-Donyell Malen,MID,Aston Villa,0.5,0.15,55.0
-John McGinn,MID,Aston Villa,0.5,6.49,89.0
-Ross Barkley,MID,Aston Villa,0.5,2.86,39.0
+Donyell Malen,MID,Aston Villa,0.5,0.16,55.0
+John McGinn,MID,Aston Villa,0.5,6.54,89.0
+Ross Barkley,MID,Aston Villa,0.5,3.15,39.0
 Enzo Barrenechea,MID,Aston Villa,0.5,-0.03,0.0
 Lewis Dobbin,MID,Aston Villa,0.5,0.02,0.0
 Boubacar Kamara,MID,Aston Villa,0.5,-0.03,61.0
-Amadou Onana,MID,Aston Villa,0.5,4.04,75.0
+Amadou Onana,MID,Aston Villa,0.5,4.19,75.0
 Ben Broggio,MID,Aston Villa,0.4,-0.03,0.0
 Leander Dendoncker,MID,Aston Villa,0.5,-0.04,0.0
-Jamaldeen Jimoh-Aloba,MID,Aston Villa,0.5,-0.03,1.0
+Jamaldeen Jimoh-Aloba,MID,Aston Villa,0.5,-0.04,1.0
 Kadan Young,MID,Aston Villa,0.4,-0.03,0.0
-Ollie Watkins,FWD,Aston Villa,0.9,17.89,127.0
-Zépiqueno Redmond,FWD,Aston Villa,0.5,-0.03,0.0
-Harvey Elliott,MID,Aston Villa,0.5,-0.25,5.0
-Jadon Sancho,MID,Aston Villa,0.6,0.84,33.0
+Ollie Watkins,FWD,Aston Villa,0.9,19.03,127.0
+Zépiqueno Redmond,FWD,Aston Villa,0.5,-0.04,0.0
+Harvey Elliott,MID,Aston Villa,0.5,-0.48,5.0
+Jadon Sancho,MID,Aston Villa,0.6,0.58,33.0
 James Wright,GK,Aston Villa,0.4,-0.02,0.0
-Douglas Luiz Soares de Paulo,MID,Aston Villa,0.5,-0.2,31.0
-Triston Rowe,DEF,Aston Villa,0.4,-0.03,0.0
-Bradley Burrowes,MID,Aston Villa,0.4,0.01,1.0
+Douglas Luiz Soares de Paulo,MID,Aston Villa,0.5,0.87,31.0
+Triston Rowe,DEF,Aston Villa,0.4,-0.04,0.0
+Bradley Burrowes,MID,Aston Villa,0.4,-0.45,1.0
 Sam Proctor,GK,Aston Villa,0.4,-0.02,0.0
 Travis Patterson,DEF,Aston Villa,0.4,-0.03,0.0
-Victor Lindelöf,DEF,Aston Villa,0.5,1.65,24.0
+Victor Lindelöf,DEF,Aston Villa,0.5,1.7,24.0
 George Hemmings,MID,Aston Villa,0.5,-0.04,2.0
 Ronnie Hollingshead,GK,Aston Villa,0.4,-0.03,0.0
-Leon Routh,DEF,Aston Villa,0.4,-0.03,0.0
-TJ Carroll,DEF,Aston Villa,0.4,-0.03,0.0
-Alysson Edward Franco da Rocha dos Santos,MID,Aston Villa,0.5,-0.01,3.0
-Tammy Abraham,FWD,Aston Villa,0.6,5.51,21.0
+Leon Routh,DEF,Aston Villa,0.4,-0.04,0.0
+TJ Carroll,DEF,Aston Villa,0.4,-0.04,0.0
+Alysson Edward Franco da Rocha dos Santos,MID,Aston Villa,0.5,0.02,3.0
+Tammy Abraham,FWD,Aston Villa,0.6,5.64,21.0
 Max Weiß,GK,Burnley,0.4,-0.03,0.0
-Etienne Green,GK,Burnley,0.4,-0.73,0.0
+Etienne Green,GK,Burnley,0.4,-0.03,0.0
 Václav Hladký,GK,Burnley,0.4,-0.34,0.0
-Connor Roberts,DEF,Burnley,0.4,-0.61,0.0
-Kyle Walker,DEF,Burnley,0.4,-0.4,64.0
-Hannes Delcroix,DEF,Burnley,0.4,-0.02,0.0
+Connor Roberts,DEF,Burnley,0.4,-0.75,0.0
+Kyle Walker,DEF,Burnley,0.4,0.13,64.0
+Hannes Delcroix,DEF,Burnley,0.4,-0.03,0.0
 Owen Dodgson,DEF,Burnley,0.4,-0.85,0.0
-Hjalmar Ekdal,DEF,Burnley,0.4,1.6,49.0
-Maxime Estève,DEF,Burnley,0.4,1.05,77.0
-Quilindschy Hartman,DEF,Burnley,0.4,0.72,62.0
-Bashir Humphreys,DEF,Burnley,0.4,0.85,44.0
-Jordan Beyer,DEF,Burnley,0.4,-0.03,0.0
-Lucas Pires Silva,DEF,Burnley,0.4,0.32,20.0
-Shurandy Sambo,DEF,Burnley,0.4,-0.44,0.0
-Oliver Sonne,DEF,Burnley,0.4,-0.02,13.0
+Hjalmar Ekdal,DEF,Burnley,0.4,0.81,49.0
+Maxime Estève,DEF,Burnley,0.4,0.27,77.0
+Quilindschy Hartman,DEF,Burnley,0.4,0.84,62.0
+Bashir Humphreys,DEF,Burnley,0.4,0.99,44.0
+Jordan Beyer,DEF,Burnley,0.4,-0.04,0.0
+Lucas Pires Silva,DEF,Burnley,0.4,0.3,20.0
+Shurandy Sambo,DEF,Burnley,0.4,-0.39,0.0
+Oliver Sonne,DEF,Burnley,0.4,-0.03,13.0
 Axel Tuanzebe,DEF,Burnley,0.4,-0.05,27.0
-Joe Worrall,DEF,Burnley,0.4,-0.3,20.0
-Jaidon Anthony,MID,Burnley,0.5,2.8,111.0
+Joe Worrall,DEF,Burnley,0.4,-0.15,20.0
+Jaidon Anthony,MID,Burnley,0.5,2.66,111.0
 Manuel Benson Hedilazio,MID,Burnley,0.5,-0.03,0.0
-Jacob Bruun Larsen,MID,Burnley,0.5,0.5,38.0
+Jacob Bruun Larsen,MID,Burnley,0.5,0.41,38.0
 Enock Agyei,MID,Burnley,0.5,-0.04,0.0
 Darko Churlinov,MID,Burnley,0.5,-0.04,0.0
-Josh Cullen,MID,Burnley,0.5,-0.9,70.0
-Marcus Edwards,MID,Burnley,0.5,1.1,50.0
-Hannibal Mejbri,MID,Burnley,0.5,-0.05,52.0
-Luca Koleosho,MID,Burnley,0.5,-0.03,0.0
-Josh Laurent,MID,Burnley,0.5,2.15,53.0
-Loum Tchaouna,MID,Burnley,0.5,1.25,42.0
+Josh Cullen,MID,Burnley,0.5,-0.89,70.0
+Marcus Edwards,MID,Burnley,0.5,1.38,50.0
+Hannibal Mejbri,MID,Burnley,0.5,-0.97,52.0
+Luca Koleosho,MID,Burnley,0.5,-0.97,0.0
+Josh Laurent,MID,Burnley,0.5,1.8,53.0
+Loum Tchaouna,MID,Burnley,0.5,1.37,42.0
 Aaron Ramsey,MID,Burnley,0.4,-0.03,0.0
 Oluwaseun Adewumi,MID,Burnley,0.5,-0.04,0.0
-Jaydon Banel,MID,Burnley,0.5,0.26,1.0
-Mike Trésor Ndayishimiye,MID,Burnley,0.4,0.25,6.0
-Zian Flemming,FWD,Burnley,0.5,3.46,82.0
+Jaydon Banel,MID,Burnley,0.5,0.03,1.0
+Mike Trésor Ndayishimiye,MID,Burnley,0.4,0.29,6.0
+Zian Flemming,FWD,Burnley,0.5,2.52,82.0
 Zeki Amdouni,FWD,Burnley,0.5,-0.96,0.0
-Lyle Foster,FWD,Burnley,0.5,0.1,57.0
-Ashley Barnes,FWD,Burnley,0.4,0.08,5.0
-Michael Obafemi,FWD,Burnley,0.4,-0.59,0.0
-Martin Dúbravka,GK,Burnley,0.4,0.71,94.0
-James Ward-Prowse,MID,Burnley,0.6,3.81,35.0
+Lyle Foster,FWD,Burnley,0.5,0.32,57.0
+Ashley Barnes,FWD,Burnley,0.4,0.07,5.0
+Michael Obafemi,FWD,Burnley,0.4,-0.33,0.0
+Martin Dúbravka,GK,Burnley,0.4,0.4,94.0
+James Ward-Prowse,MID,Burnley,0.6,3.6,35.0
 Lesley Ugochukwu,MID,Burnley,0.5,1.53,88.0
-Armando Broja,FWD,Burnley,0.5,1.54,42.0
-Florentino Ibrain Morris Luís,MID,Burnley,0.5,1.3,71.0
-Oliver Pimlott,MID,Burnley,0.5,-0.63,0.0
-George Brierley,MID,Burnley,0.5,-0.63,0.0
+Armando Broja,FWD,Burnley,0.5,0.98,42.0
+Florentino Ibrain Morris Luís,MID,Burnley,0.5,1.36,71.0
+Oliver Pimlott,MID,Burnley,0.5,-0.64,0.0
+George Brierley,MID,Burnley,0.5,-0.64,0.0
 Kian McMahon-Brown,MID,Burnley,0.5,-0.74,0.0
 Norberto Murara Neto,GK,Bournemouth,0.5,-0.03,0.0
-Đorđe Petrović,GK,Bournemouth,0.5,2.44,106.0
+Đorđe Petrović,GK,Bournemouth,0.5,2.37,106.0
 Will Dennis,GK,Bournemouth,0.4,-0.02,0.0
-Callan McKenna,GK,Bournemouth,0.4,-0.02,0.0
+Callan McKenna,GK,Bournemouth,0.4,-0.67,0.0
 Alex Paulsen,GK,Bournemouth,0.4,-0.03,0.0
 Illia Zabarnyi,DEF,Bournemouth,0.5,-0.86,0.0
-Marcos Senesi Barón,DEF,Bournemouth,0.5,3.22,147.0
-Adam Smith,DEF,Bournemouth,0.4,0.31,39.0
-Adrien Truffert,DEF,Bournemouth,0.5,4.49,139.0
-Matai Akinmboni,DEF,Bournemouth,0.4,-0.85,0.0
+Marcos Senesi Barón,DEF,Bournemouth,0.5,3.69,147.0
+Adam Smith,DEF,Bournemouth,0.4,-0.53,39.0
+Adrien Truffert,DEF,Bournemouth,0.5,4.14,139.0
+Matai Akinmboni,DEF,Bournemouth,0.4,-0.86,0.0
 Owen Bevan,DEF,Bournemouth,0.4,-0.03,0.0
-James Hill,DEF,Bournemouth,0.4,3.93,90.0
-Julián Araujo Zúñiga,DEF,Bournemouth,0.4,-0.02,0.0
-Chris Mepham,DEF,Bournemouth,0.4,-0.86,0.0
+James Hill,DEF,Bournemouth,0.4,3.99,90.0
+Julián Araujo Zúñiga,DEF,Bournemouth,0.4,-0.03,0.0
+Chris Mepham,DEF,Bournemouth,0.4,-0.04,0.0
 Julio Soler Barreto,DEF,Bournemouth,0.4,-0.67,3.0
-Justin Kluivert,MID,Bournemouth,0.7,-0.0,40.0
-Marcus Tavernier,MID,Bournemouth,0.5,4.97,120.0
-Tyler Adams,MID,Bournemouth,0.5,0.9,66.0
-David Brooks,MID,Bournemouth,0.5,1.41,53.0
-Ryan Christie,MID,Bournemouth,0.5,1.79,48.0
+Justin Kluivert,MID,Bournemouth,0.7,-0.15,40.0
+Marcus Tavernier,MID,Bournemouth,0.5,4.77,120.0
+Tyler Adams,MID,Bournemouth,0.5,1.29,66.0
+David Brooks,MID,Bournemouth,0.5,1.2,53.0
+Ryan Christie,MID,Bournemouth,0.5,1.82,48.0
 Lewis Cook,MID,Bournemouth,0.5,0.01,38.0
 Philip Billing,MID,Bournemouth,0.5,-0.04,0.0
-Alex Scott,MID,Bournemouth,0.5,4.08,125.0
+Alex Scott,MID,Bournemouth,0.5,4.3,125.0
 Luis Sinisterra Lucumí,MID,Bournemouth,0.5,-0.03,0.0
 Romain Faivre,MID,Bournemouth,0.5,-0.04,0.0
-Hamed Traorè,MID,Bournemouth,0.5,-0.03,4.0
+Hamed Traorè,MID,Bournemouth,0.5,-0.04,4.0
 Dominic Sadi,MID,Bournemouth,0.5,-0.04,0.0
 Zain Silcott-Duberry,MID,Bournemouth,0.4,-0.04,0.0
 Ben Winterburn,MID,Bournemouth,0.5,-0.04,1.0
-Francisco Evanilson de Lima Barbosa,FWD,Bournemouth,0.7,5.44,105.0
-Enes Ünal,FWD,Bournemouth,0.5,0.3,23.0
+Francisco Evanilson de Lima Barbosa,FWD,Bournemouth,0.7,5.02,105.0
+Enes Ünal,FWD,Bournemouth,0.5,0.2,23.0
 Daniel Adu-Adjei,FWD,Bournemouth,0.4,-0.04,0.0
-Junior Kroupi,FWD,Bournemouth,0.5,3.68,95.0
-Ben Gannon-Doak,MID,Bournemouth,0.5,-0.63,9.0
-Bafodé Diakité,DEF,Bournemouth,0.4,-0.82,46.0
+Junior Kroupi,FWD,Bournemouth,0.5,4.53,95.0
+Ben Gannon-Doak,MID,Bournemouth,0.5,0.31,9.0
+Bafodé Diakité,DEF,Bournemouth,0.4,-0.81,46.0
 Remy Rees-Dottin,MID,Bournemouth,0.4,-0.04,0.0
-Amine Adli,MID,Bournemouth,0.5,1.61,64.0
-Álex Jiménez Sánchez,DEF,Bournemouth,0.5,2.54,68.0
-Veljko Milosavljevic,DEF,Bournemouth,0.4,-0.03,19.0
+Amine Adli,MID,Bournemouth,0.5,1.25,64.0
+Álex Jiménez Sánchez,DEF,Bournemouth,0.5,2.53,68.0
+Veljko Milosavljevic,DEF,Bournemouth,0.4,-0.04,19.0
 Malcom DaCosta,MID,Bournemouth,0.5,-0.04,0.0
 Fraser Forster,GK,Bournemouth,0.4,-0.06,0.0
-Charlie Stevens,MID,Bournemouth,0.5,-0.87,0.0
-Alex Tóth,MID,Bournemouth,0.5,1.03,6.0
+Charlie Stevens,MID,Bournemouth,0.5,-0.04,0.0
+Alex Tóth,MID,Bournemouth,0.5,1.06,6.0
 Christos Mandas,GK,Bournemouth,0.4,-0.28,0.0
-Rayan Vitor Simplício Rocha,MID,Bournemouth,0.6,3.85,45.0
-Reiss Nelson,MID,Brentford,0.5,-0.54,8.0
-Dango Ouattara,MID,Brentford,0.6,5.7,111.0
-Caoimhín Kelleher,GK,Brentford,0.5,5.63,122.0
-Ellery Balcombe,GK,Brentford,0.4,-1.03,0.0
+Rayan Vitor Simplício Rocha,MID,Bournemouth,0.6,4.18,45.0
+Reiss Nelson,MID,Brentford,0.5,-0.57,8.0
+Dango Ouattara,MID,Brentford,0.6,4.86,111.0
+Caoimhín Kelleher,GK,Brentford,0.5,5.19,122.0
+Ellery Balcombe,GK,Brentford,0.4,-1.06,0.0
 Matthew Cox,GK,Brentford,0.4,-0.02,0.0
-Julian Eyestone,GK,Brentford,0.4,-0.4,0.0
-Hákon Rafn Valdimarsson,GK,Brentford,0.4,-1.08,1.0
-Nathan Collins,DEF,Brentford,0.5,7.56,114.0
-Keane Lewis-Potter,DEF,Brentford,0.5,6.18,96.0
-Kristoffer Ajer,DEF,Brentford,0.4,-1.16,70.0
-Rico Henry,DEF,Brentford,0.4,0.08,52.0
-Michael Kayode,DEF,Brentford,0.5,7.89,104.0
-Ethan Pinnock,DEF,Brentford,0.4,-0.15,14.0
-Mads Roerslev Rasmussen,DEF,Brentford,0.5,-0.03,0.0
-Sepp van den Berg,DEF,Brentford,0.5,7.08,99.0
+Julian Eyestone,GK,Brentford,0.4,-1.1,0.0
+Hákon Rafn Valdimarsson,GK,Brentford,0.4,-1.06,1.0
+Nathan Collins,DEF,Brentford,0.5,6.7,114.0
+Keane Lewis-Potter,DEF,Brentford,0.5,5.67,96.0
+Kristoffer Ajer,DEF,Brentford,0.4,-1.18,70.0
+Rico Henry,DEF,Brentford,0.4,0.06,52.0
+Michael Kayode,DEF,Brentford,0.5,8.27,104.0
+Ethan Pinnock,DEF,Brentford,0.4,-0.93,14.0
+Mads Roerslev Rasmussen,DEF,Brentford,0.5,0.01,0.0
+Sepp van den Berg,DEF,Brentford,0.5,6.48,99.0
 Benjamin Arthur,DEF,Brentford,0.4,0.54,0.0
 Benjamin Fredrick,DEF,Brentford,0.4,-0.03,0.0
 Aaron Hickey,DEF,Brentford,0.4,-0.48,33.0
 Kim Ji-soo,DEF,Brentford,0.4,-0.85,0.0
 Jayden Meghoma,DEF,Brentford,0.4,-0.03,0.0
-Kevin Schade,MID,Brentford,0.7,7.88,110.0
-Mikkel Damsgaard,MID,Brentford,0.6,5.24,93.0
+Kevin Schade,MID,Brentford,0.7,7.24,110.0
+Mikkel Damsgaard,MID,Brentford,0.6,4.65,93.0
 Antoni Milambo,MID,Brentford,0.5,-0.08,1.0
 Fábio Freitas Gouveia Carvalho,MID,Brentford,0.5,-0.04,13.0
-Jordan Henderson,MID,Brentford,0.5,-0.12,75.0
-Vitaly Janelt,MID,Brentford,0.5,-0.1,70.0
-Mathias Jensen,MID,Brentford,0.5,4.1,77.0
+Jordan Henderson,MID,Brentford,0.5,-0.08,75.0
+Vitaly Janelt,MID,Brentford,0.5,-0.3,70.0
+Mathias Jensen,MID,Brentford,0.5,3.94,77.0
 Gustavo Nunes Fernandes Gomes,MID,Brentford,0.5,-0.04,0.0
-Frank Onyeka,MID,Brentford,0.5,-0.14,12.0
-Yehor Yarmoliuk,MID,Brentford,0.5,7.19,87.0
+Frank Onyeka,MID,Brentford,0.5,-0.09,12.0
+Yehor Yarmoliuk,MID,Brentford,0.5,6.5,87.0
 Romelle Donovan,MID,Brentford,0.4,-0.49,4.0
 Yunus Emre Konak,MID,Brentford,0.4,-0.03,0.0
 Paris Maghoma,MID,Brentford,0.5,-0.01,0.0
-Myles Peart-Harris,MID,Brentford,0.4,-0.0,1.0
+Myles Peart-Harris,MID,Brentford,0.4,-0.49,1.0
 Ryan Trevitt,MID,Brentford,0.5,-0.04,0.0
-Igor Thiago Nascimento Rodrigues,FWD,Brentford,0.7,12.51,168.0
+Igor Thiago Nascimento Rodrigues,FWD,Brentford,0.7,11.92,168.0
 Iwan Morgan,FWD,Brentford,0.4,-0.03,0.0
-Josh Dasilva,MID,Brentford,0.5,-0.34,0.0
+Josh Dasilva,MID,Brentford,0.5,-0.48,0.0
 Kaye Furo,FWD,Brentford,0.5,-0.97,0.0
-Luka Bentt,MID,Brentford,0.5,-0.96,0.0
-Ollie Shield,DEF,Brentford,0.4,-0.47,0.0
+Luka Bentt,MID,Brentford,0.5,-1.44,0.0
+Ollie Shield,DEF,Brentford,0.4,-1.26,0.0
 Joshua Stephenson,DEF,Brentford,0.4,-0.9,0.0
 Conor McManus,DEF,Brentford,0.4,-0.47,0.0
-Riley Owen,MID,Brentford,0.5,-0.54,0.0
-Jason Steele,GK,Brighton,0.4,-0.72,0.0
-Bart Verbruggen,GK,Brighton,0.5,2.41,118.0
+Riley Owen,MID,Brentford,0.5,-0.87,0.0
+Jason Steele,GK,Brighton,0.4,-0.73,0.0
+Bart Verbruggen,GK,Brighton,0.5,2.92,118.0
 Tom McGill,GK,Brighton,0.4,-0.02,0.0
-Carl Rushworth,GK,Brighton,0.4,-0.28,0.0
+Carl Rushworth,GK,Brighton,0.4,-0.17,0.0
 Kjell Scherpen,GK,Brighton,0.4,-0.7,0.0
-Olivier Boscagli,DEF,Brighton,0.4,3.32,38.0
-Diego Coppola,DEF,Brighton,0.4,-0.03,10.0
-Maxim De Cuyper,DEF,Brighton,0.4,1.62,66.0
-Lewis Dunk,DEF,Brighton,0.5,-0.58,82.0
-Pervis Estupiñán Tenorio,DEF,Brighton,0.5,-0.03,0.0
-Ferdi Kadıoğlu,DEF,Brighton,0.4,3.37,108.0
-Igor Julio dos Santos de Paulo,DEF,Brighton,0.5,-0.86,6.0
-Tariq Lamptey,DEF,Brighton,0.4,-0.03,0.0
-Jan Paul van Hecke,DEF,Brighton,0.5,3.47,137.0
-Joël Veltman,DEF,Brighton,0.4,0.97,38.0
-Adam Webster,DEF,Brighton,0.4,-0.64,0.0
+Olivier Boscagli,DEF,Brighton,0.4,3.07,38.0
+Diego Coppola,DEF,Brighton,0.4,-0.59,10.0
+Maxim De Cuyper,DEF,Brighton,0.4,1.64,66.0
+Lewis Dunk,DEF,Brighton,0.5,-0.49,82.0
+Pervis Estupiñán Tenorio,DEF,Brighton,0.5,-0.04,0.0
+Ferdi Kadıoğlu,DEF,Brighton,0.4,4.06,108.0
+Igor Julio dos Santos de Paulo,DEF,Brighton,0.5,-0.22,6.0
+Tariq Lamptey,DEF,Brighton,0.4,-0.04,0.0
+Jan Paul van Hecke,DEF,Brighton,0.5,4.09,137.0
+Joël Veltman,DEF,Brighton,0.4,0.98,38.0
+Adam Webster,DEF,Brighton,0.4,-0.85,0.0
 Eiran Cashin,DEF,Brighton,0.4,-0.04,0.0
-Jacob Slater,DEF,Brighton,0.4,-0.02,0.0
-Charlie Tasker,DEF,Brighton,0.4,-0.02,0.0
-Mitoma Kaoru,MID,Brighton,0.6,3.72,61.0
-Georginio Rutter,MID,Brighton,0.6,3.24,83.0
-Solly March,MID,Brighton,0.6,-0.94,1.0
-Yankuba Minteh,MID,Brighton,0.6,2.96,102.0
-Julio Enciso Espínola,MID,Brighton,0.5,-0.96,0.0
+Jacob Slater,DEF,Brighton,0.4,-0.07,0.0
+Charlie Tasker,DEF,Brighton,0.4,-0.05,0.0
+Mitoma Kaoru,MID,Brighton,0.6,3.02,61.0
+Georginio Rutter,MID,Brighton,0.6,3.26,83.0
+Solly March,MID,Brighton,0.6,-0.47,1.0
+Yankuba Minteh,MID,Brighton,0.6,3.51,102.0
+Julio Enciso Espínola,MID,Brighton,0.5,-0.95,0.0
 Brajan Gruda,MID,Brighton,0.5,-0.93,35.0
-Jack Hinshelwood,MID,Brighton,0.5,4.79,71.0
-Matt O'Riley,MID,Brighton,0.6,0.58,16.0
+Jack Hinshelwood,MID,Brighton,0.5,3.94,71.0
+Matt O'Riley,MID,Brighton,0.6,0.62,16.0
 Abdallah Sima,MID,Brighton,0.5,-0.03,0.0
-Yasin Ayari,MID,Brighton,0.5,1.83,96.0
-Carlos Baleba,MID,Brighton,0.5,1.19,45.0
-Diego Gómez Amarilla,MID,Brighton,0.5,0.94,95.0
-James Milner,MID,Brighton,0.5,-0.85,34.0
-Jeremy Sarmiento Morante,MID,Brighton,0.5,-0.46,0.0
+Yasin Ayari,MID,Brighton,0.5,1.99,96.0
+Carlos Baleba,MID,Brighton,0.5,1.8,45.0
+Diego Gómez Amarilla,MID,Brighton,0.5,1.0,95.0
+James Milner,MID,Brighton,0.5,-0.55,34.0
+Jeremy Sarmiento Morante,MID,Brighton,0.5,0.01,0.0
 Tom Watson,MID,Brighton,0.5,-0.04,5.0
-Mats Wieffer,MID,Brighton,0.5,2.82,91.0
+Mats Wieffer,MID,Brighton,0.5,2.24,91.0
 Malick Yalcouyé,MID,Brighton,0.5,-0.03,0.0
 Joe Knight,MID,Brighton,0.4,-0.35,1.0
 Adrian Mazilu,MID,Brighton,0.5,-0.04,0.0
 Andrew Moran,MID,Brighton,0.5,-0.04,0.0
-Danny Welbeck,FWD,Brighton,0.6,2.71,116.0
+Danny Welbeck,FWD,Brighton,0.6,1.67,116.0
 Evan Ferguson,FWD,Brighton,0.6,0.03,0.0
-Stefanos Tzimas,FWD,Brighton,0.5,-0.03,16.0
-Charalampos Kostoulas,FWD,Brighton,0.5,1.16,31.0
+Stefanos Tzimas,FWD,Brighton,0.5,-0.64,16.0
+Charalampos Kostoulas,FWD,Brighton,0.5,0.57,31.0
 Nehemiah Oriola,MID,Brighton,0.5,-0.04,1.0
-Freddie Simmonds,DEF,Brighton,0.4,-0.03,0.0
-Pascal Groß,MID,Brighton,0.6,5.63,65.0
+Freddie Simmonds,DEF,Brighton,0.4,-0.02,0.0
+Pascal Groß,MID,Brighton,0.6,6.14,65.0
 Harry Howell,MID,Brighton,0.5,-0.04,4.0
-Robert Lynch Sánchez,GK,Chelsea,0.5,2.19,108.0
-Filip Jörgensen,GK,Chelsea,0.4,-0.04,6.0
-Mike Penders,GK,Chelsea,0.4,-0.73,0.0
+Robert Lynch Sánchez,GK,Chelsea,0.5,2.03,108.0
+Filip Jörgensen,GK,Chelsea,0.4,-0.37,6.0
+Mike Penders,GK,Chelsea,0.4,-0.45,0.0
 Gabriel Słonina,GK,Chelsea,0.4,-0.67,0.0
-Marc Cucurella Saseta,DEF,Chelsea,0.6,4.26,97.0
-Reece James,DEF,Chelsea,0.6,-0.52,113.0
-Trevoh Chalobah,DEF,Chelsea,0.5,2.39,133.0
-Levi Samuels Colwill,DEF,Chelsea,0.5,-0.42,0.0
-Malo Gusto,DEF,Chelsea,0.5,2.89,95.0
-Benoît Badiashile Mukinayi,DEF,Chelsea,0.4,-0.02,7.0
-Wesley Fofana,DEF,Chelsea,0.4,1.34,60.0
-Mamadou Sarr,DEF,Chelsea,0.5,-0.0,2.0
+Marc Cucurella Saseta,DEF,Chelsea,0.6,4.43,97.0
+Reece James,DEF,Chelsea,0.6,-0.35,113.0
+Trevoh Chalobah,DEF,Chelsea,0.5,2.26,133.0
+Levi Samuels Colwill,DEF,Chelsea,0.5,-0.39,0.0
+Malo Gusto,DEF,Chelsea,0.5,2.8,95.0
+Benoît Badiashile Mukinayi,DEF,Chelsea,0.4,-0.03,7.0
+Wesley Fofana,DEF,Chelsea,0.4,1.49,60.0
+Mamadou Sarr,DEF,Chelsea,0.5,-0.04,2.0
 Tosin Adarabioyo,DEF,Chelsea,0.4,0.05,34.0
-Josh Acheampong,DEF,Chelsea,0.4,0.38,36.0
-Aarón Anselmino,DEF,Chelsea,0.4,-0.57,0.0
-Cole Palmer,MID,Chelsea,1.1,1.86,102.0
-Pedro Lomba Neto,MID,Chelsea,0.7,3.74,114.0
-Enzo Fernández,MID,Chelsea,0.7,2.74,133.0
-Estêvão Almeida de Oliveira Gonçalves,MID,Chelsea,0.6,0.48,58.0
-Jamie Bynoe-Gittens,MID,Chelsea,0.6,-0.47,25.0
-Christopher Nkunku,MID,Chelsea,0.6,-0.02,0.0
-Moisés Caicedo Corozo,MID,Chelsea,0.6,2.6,102.0
-Roméo Lavia,MID,Chelsea,0.5,1.85,12.0
+Josh Acheampong,DEF,Chelsea,0.4,0.49,36.0
+Aarón Anselmino,DEF,Chelsea,0.4,-0.04,0.0
+Cole Palmer,MID,Chelsea,1.1,1.7,102.0
+Pedro Lomba Neto,MID,Chelsea,0.7,3.59,114.0
+Enzo Fernández,MID,Chelsea,0.7,2.36,133.0
+Estêvão Almeida de Oliveira Gonçalves,MID,Chelsea,0.6,0.85,58.0
+Jamie Bynoe-Gittens,MID,Chelsea,0.6,-0.66,25.0
+Christopher Nkunku,MID,Chelsea,0.6,-0.0,0.0
+Moisés Caicedo Corozo,MID,Chelsea,0.6,2.69,102.0
+Roméo Lavia,MID,Chelsea,0.5,1.26,12.0
 Mykhailo Mudryk,MID,Chelsea,0.5,-0.04,0.0
-Andrey Nascimento dos Santos,MID,Chelsea,0.5,0.65,34.0
-Dário Luís Essugo,MID,Chelsea,0.4,1.01,1.0
+Andrey Nascimento dos Santos,MID,Chelsea,0.5,0.74,34.0
+Dário Luís Essugo,MID,Chelsea,0.4,1.06,1.0
 Kendry Páez Andrade,MID,Chelsea,0.5,-0.99,0.0
-João Pedro Junqueira de Jesus,FWD,Chelsea,0.8,0.63,166.0
-Liam Delap,FWD,Chelsea,0.6,1.4,43.0
+João Pedro Junqueira de Jesus,FWD,Chelsea,0.8,1.41,166.0
+Liam Delap,FWD,Chelsea,0.6,1.48,43.0
 Nicolas Jackson,FWD,Chelsea,0.7,-0.02,0.0
-Marc Guiu Paz,FWD,Chelsea,0.4,1.89,13.0
-Alejandro Garnacho Ferreyra,MID,Chelsea,0.6,0.73,55.0
-Jorrel Hato,DEF,Chelsea,0.5,1.73,15.0
+Marc Guiu Paz,FWD,Chelsea,0.4,2.12,13.0
+Alejandro Garnacho Ferreyra,MID,Chelsea,0.6,0.71,55.0
+Jorrel Hato,DEF,Chelsea,0.5,1.47,15.0
 Landon Emenalo,MID,Chelsea,0.5,-0.04,0.0
-Max Merrick,GK,Chelsea,0.4,-0.03,0.0
+Max Merrick,GK,Chelsea,0.4,-0.19,0.0
 Teddy Sharman-Lowe,GK,Chelsea,0.4,-0.03,0.0
-Jesse Derry,MID,Chelsea,0.5,-0.34,0.0
-Dean Henderson,GK,Crystal Palace,0.5,4.5,124.0
-Walter Benítez,GK,Crystal Palace,0.4,-0.26,7.0
+Jesse Derry,MID,Chelsea,0.5,-0.37,0.0
+Dean Henderson,GK,Crystal Palace,0.5,4.74,124.0
+Walter Benítez,GK,Crystal Palace,0.4,-0.21,7.0
 Remi Matthews,GK,Crystal Palace,0.4,-1.09,0.0
-Daniel Muñoz Mejía,DEF,Crystal Palace,0.6,8.55,120.0
-Maxence Lacroix,DEF,Crystal Palace,0.5,9.49,143.0
-Tyrick Mitchell,DEF,Crystal Palace,0.5,8.36,126.0
+Daniel Muñoz Mejía,DEF,Crystal Palace,0.6,8.29,120.0
+Maxence Lacroix,DEF,Crystal Palace,0.5,9.31,143.0
+Tyrick Mitchell,DEF,Crystal Palace,0.5,8.38,126.0
 Borna Sosa,DEF,Crystal Palace,0.5,0.21,6.0
-Chris Richards,DEF,Crystal Palace,0.4,7.07,122.0
-Chadi Riad Dnanou,DEF,Crystal Palace,0.4,-0.34,14.0
-Nathaniel Clyne,DEF,Crystal Palace,0.4,-0.45,15.0
+Chris Richards,DEF,Crystal Palace,0.4,6.64,122.0
+Chadi Riad Dnanou,DEF,Crystal Palace,0.4,-0.25,14.0
+Nathaniel Clyne,DEF,Crystal Palace,0.4,-0.41,15.0
 Rob Holding,DEF,Crystal Palace,0.4,-0.42,0.0
 Caleb Kporha,DEF,Crystal Palace,0.4,-0.47,0.0
-Ismaïla Sarr,MID,Crystal Palace,0.6,2.13,95.0
-Cheick Doucouré,MID,Crystal Palace,0.5,-0.4,0.0
+Ismaïla Sarr,MID,Crystal Palace,0.6,1.85,95.0
+Cheick Doucouré,MID,Crystal Palace,0.5,-0.68,0.0
 Romain Esse,MID,Crystal Palace,0.5,0.02,4.0
-Will Hughes,MID,Crystal Palace,0.5,2.25,42.0
-Daichi Kamada,MID,Crystal Palace,0.5,3.85,55.0
-Jefferson Lerma Solís,MID,Crystal Palace,0.5,6.59,62.0
+Will Hughes,MID,Crystal Palace,0.5,2.44,42.0
+Daichi Kamada,MID,Crystal Palace,0.5,3.72,55.0
+Jefferson Lerma Solís,MID,Crystal Palace,0.5,6.34,62.0
 Adam Wharton,MID,Crystal Palace,0.5,0.24,92.0
 Asher Agbinone,MID,Crystal Palace,0.4,-0.54,0.0
 Naouirou Ahamada,MID,Crystal Palace,0.4,-0.04,0.0
-Justin Devenny,MID,Crystal Palace,0.4,0.61,30.0
-Malcolm Ebiowei,MID,Crystal Palace,0.5,-0.84,0.0
+Justin Devenny,MID,Crystal Palace,0.4,0.6,30.0
+Malcolm Ebiowei,MID,Crystal Palace,0.5,-0.85,0.0
 Jesurun Rak-Sakyi,MID,Crystal Palace,0.4,-0.04,0.0
 Matheus França de Oliveira,MID,Crystal Palace,0.5,-0.04,0.0
-David Ozoh,MID,Crystal Palace,0.5,-0.96,0.0
+David Ozoh,MID,Crystal Palace,0.5,-0.04,0.0
 Kaden Rodney,MID,Crystal Palace,0.4,-0.54,1.0
-Franco Umeh-Chibueze,MID,Crystal Palace,0.5,-0.04,0.0
-Jean-Philippe Mateta,FWD,Crystal Palace,0.8,11.65,98.0
-Eddie Nketiah,FWD,Crystal Palace,0.5,-0.02,23.0
-Odsonne Édouard,FWD,Crystal Palace,0.5,-0.21,1.0
+Franco Umeh-Chibueze,MID,Crystal Palace,0.5,-0.97,0.0
+Jean-Philippe Mateta,FWD,Crystal Palace,0.8,12.08,98.0
+Eddie Nketiah,FWD,Crystal Palace,0.5,-0.83,23.0
+Odsonne Édouard,FWD,Crystal Palace,0.5,-0.2,1.0
 Zach Marsh,FWD,Crystal Palace,0.4,-0.56,0.0
-Brennan Johnson,MID,Crystal Palace,0.7,3.32,57.0
-Jørgen Strand Larsen,FWD,Crystal Palace,0.6,3.3,65.0
-Evann Guessand,MID,Crystal Palace,0.6,-0.02,42.0
-Rio Cardines,MID,Crystal Palace,0.4,-0.48,0.0
-Yéremy Pino Santos,MID,Crystal Palace,0.6,2.57,69.0
-Jaydee Canvot,DEF,Crystal Palace,0.5,9.96,62.0
+Brennan Johnson,MID,Crystal Palace,0.7,2.48,57.0
+Jørgen Strand Larsen,FWD,Crystal Palace,0.6,3.0,65.0
+Evann Guessand,MID,Crystal Palace,0.6,-0.17,42.0
+Rio Cardines,MID,Crystal Palace,0.4,-0.49,0.0
+Yéremy Pino Santos,MID,Crystal Palace,0.6,2.36,69.0
+Jaydee Canvot,DEF,Crystal Palace,0.5,9.89,62.0
 Christantus Uche,FWD,Crystal Palace,0.6,-1.44,17.0
-Joél Drakes-Thomas,MID,Crystal Palace,0.5,-0.54,2.0
+Joél Drakes-Thomas,MID,Crystal Palace,0.5,-0.49,2.0
 Dean Benamar,DEF,Crystal Palace,0.4,-0.43,0.0
-Ben Casey,FWD,Crystal Palace,0.5,-0.5,0.0
+Ben Casey,FWD,Crystal Palace,0.5,-0.82,0.0
 George King,DEF,Crystal Palace,0.4,-0.47,0.0
-Danny Imray,DEF,Crystal Palace,0.4,-0.37,0.0
-Kiernan Dewsbury-Hall,MID,Everton,0.5,11.64,132.0
-Tyrique George,MID,Everton,0.5,1.94,12.0
-Jordan Pickford,GK,Everton,0.6,1.52,127.0
-Mark Travers,GK,Everton,0.4,-0.03,0.0
-Harry Tyrer,GK,Everton,0.4,-0.02,0.0
-Jarrad Branthwaite,DEF,Everton,0.5,2.94,32.0
-James Tarkowski,DEF,Everton,0.6,3.64,146.0
-Vitalii Mykolenko,DEF,Everton,0.5,4.95,90.0
-Jake O'Brien,DEF,Everton,0.5,3.26,107.0
-Séamus Coleman,DEF,Everton,0.4,-0.22,3.0
-Michael Keane,DEF,Everton,0.5,0.96,119.0
+Danny Imray,DEF,Crystal Palace,0.4,-0.12,0.0
+Kiernan Dewsbury-Hall,MID,Everton,0.5,11.59,132.0
+Tyrique George,MID,Everton,0.5,1.75,12.0
+Jordan Pickford,GK,Everton,0.6,1.84,127.0
+Mark Travers,GK,Everton,0.4,-0.71,0.0
+Harry Tyrer,GK,Everton,0.4,-0.07,0.0
+Jarrad Branthwaite,DEF,Everton,0.5,2.51,32.0
+James Tarkowski,DEF,Everton,0.6,4.71,146.0
+Vitalii Mykolenko,DEF,Everton,0.5,5.35,90.0
+Jake O'Brien,DEF,Everton,0.5,3.76,107.0
+Séamus Coleman,DEF,Everton,0.4,-0.27,3.0
+Michael Keane,DEF,Everton,0.5,1.14,119.0
 Nathan Patterson,DEF,Everton,0.4,0.01,21.0
-Roman Dixon,DEF,Everton,0.4,-0.61,0.0
-Reece Welch,DEF,Everton,0.4,-0.03,0.0
-Iliman Ndiaye,MID,Everton,0.6,5.74,118.0
-Dwight McNeil,MID,Everton,0.6,3.55,50.0
+Roman Dixon,DEF,Everton,0.4,-0.53,0.0
+Reece Welch,DEF,Everton,0.4,-0.04,0.0
+Iliman Ndiaye,MID,Everton,0.6,7.32,118.0
+Dwight McNeil,MID,Everton,0.6,4.37,50.0
 Carlos Alcaraz Durán,MID,Everton,0.5,-0.59,26.0
-Idrissa Gana Gueye,MID,Everton,0.5,6.29,81.0
-James Garner,MID,Everton,0.5,5.74,145.0
-Tim Iroegbunam,MID,Everton,0.5,1.03,58.0
-Harrison Armstrong,MID,Everton,0.5,-0.56,19.0
-Callum Bates,MID,Everton,0.4,-0.14,0.0
+Idrissa Gana Gueye,MID,Everton,0.5,6.65,81.0
+James Garner,MID,Everton,0.5,6.29,145.0
+Tim Iroegbunam,MID,Everton,0.5,1.58,58.0
+Harrison Armstrong,MID,Everton,0.5,-0.55,19.0
+Callum Bates,MID,Everton,0.4,-0.12,0.0
 Coby Ebere,MID,Everton,0.4,-0.04,0.0
-Isaac Heath,MID,Everton,0.5,-0.04,0.0
+Isaac Heath,MID,Everton,0.5,-0.51,0.0
 Jenson Metcalfe,MID,Everton,0.5,-0.04,0.0
-Thierno Barry,FWD,Everton,0.6,1.87,78.0
-Norberto Bercique Gomes Betuncal,FWD,Everton,0.5,12.62,92.0
+Thierno Barry,FWD,Everton,0.6,1.77,78.0
+Norberto Bercique Gomes Betuncal,FWD,Everton,0.5,12.56,92.0
 Youssef Ramalho Chermiti,FWD,Everton,0.5,-0.95,0.0
-Martin Sherif,FWD,Everton,0.4,-0.03,0.0
-Jack Grealish,MID,Everton,0.6,-0.54,79.0
+Martin Sherif,FWD,Everton,0.4,-0.31,0.0
+Jack Grealish,MID,Everton,0.6,-0.43,79.0
 Tom King,GK,Everton,0.4,-0.02,0.0
-Adam Aznou,DEF,Everton,0.4,-0.48,0.0
-Tyler Onyango,MID,Everton,0.5,-0.52,0.0
+Adam Aznou,DEF,Everton,0.4,-0.52,0.0
+Tyler Onyango,MID,Everton,0.5,-0.38,0.0
 Elijah Campbell,DEF,Everton,0.4,-0.03,0.0
-Tyler Dibling,MID,Everton,0.5,-0.54,18.0
+Tyler Dibling,MID,Everton,0.5,-0.5,18.0
 Merlin Röhl,MID,Everton,0.5,-0.06,18.0
-Braiden Graham,FWD,Everton,0.5,-0.37,0.0
-Bernd Leno,GK,Fulham,0.5,7.56,101.0
+Braiden Graham,FWD,Everton,0.5,-0.35,0.0
+Bernd Leno,GK,Fulham,0.5,6.89,101.0
 Steven Benda,GK,Fulham,0.4,-0.03,0.0
-Antonee Robinson,DEF,Fulham,0.5,3.47,44.0
-Joachim Andersen,DEF,Fulham,0.5,6.3,111.0
-Calvin Bassey,DEF,Fulham,0.4,6.9,86.0
-Timothy Castagne,DEF,Fulham,0.4,5.38,40.0
-Issa Diop,DEF,Fulham,0.4,-0.68,13.0
+Antonee Robinson,DEF,Fulham,0.5,3.43,44.0
+Joachim Andersen,DEF,Fulham,0.5,6.24,111.0
+Calvin Bassey,DEF,Fulham,0.4,6.06,86.0
+Timothy Castagne,DEF,Fulham,0.4,5.52,40.0
+Issa Diop,DEF,Fulham,0.4,-0.72,13.0
 Jorge Cuenca Barreno,DEF,Fulham,0.4,-0.02,39.0
-Kenny Tete,DEF,Fulham,0.5,-0.41,81.0
+Kenny Tete,DEF,Fulham,0.5,-0.57,81.0
 Samuel Amissah,DEF,Fulham,0.4,-0.81,0.0
-Alex Iwobi,MID,Fulham,0.6,2.23,98.0
-Emile Smith Rowe,MID,Fulham,0.6,3.8,69.0
-Andreas Hoelgebaum Pereira,MID,Fulham,0.5,-0.04,0.0
-Ryan Sessegnon,MID,Fulham,0.5,4.03,84.0
-Harry Wilson,MID,Fulham,0.6,4.72,157.0
-Sander Berge,MID,Fulham,0.5,2.69,84.0
-Tom Cairney,MID,Fulham,0.5,3.29,32.0
-Saša Lukić,MID,Fulham,0.5,4.39,54.0
-Martial Godo,MID,Fulham,0.5,-0.35,0.0
+Alex Iwobi,MID,Fulham,0.6,2.29,98.0
+Emile Smith Rowe,MID,Fulham,0.6,3.92,69.0
+Andreas Hoelgebaum Pereira,MID,Fulham,0.5,-0.03,0.0
+Ryan Sessegnon,MID,Fulham,0.5,4.19,84.0
+Harry Wilson,MID,Fulham,0.6,4.95,157.0
+Sander Berge,MID,Fulham,0.5,2.68,84.0
+Tom Cairney,MID,Fulham,0.5,4.63,32.0
+Saša Lukić,MID,Fulham,0.5,4.0,54.0
+Martial Godo,MID,Fulham,0.5,-0.22,0.0
 Luke Harris,MID,Fulham,0.5,-0.99,0.0
-Josh King,MID,Fulham,0.4,1.77,59.0
-Harrison Reed,MID,Fulham,0.4,0.21,13.0
-Raúl Jiménez Rodríguez,FWD,Fulham,0.6,2.23,106.0
-Rodrigo Muniz Carvalho,FWD,Fulham,0.5,3.23,29.0
-Oscar Bobb,MID,Fulham,0.5,1.9,34.0
+Josh King,MID,Fulham,0.4,1.41,59.0
+Harrison Reed,MID,Fulham,0.4,0.31,13.0
+Raúl Jiménez Rodríguez,FWD,Fulham,0.6,2.04,106.0
+Rodrigo Muniz Carvalho,FWD,Fulham,0.5,3.2,29.0
+Oscar Bobb,MID,Fulham,0.5,1.96,34.0
 Benjamin Lecomte,GK,Fulham,0.4,-0.02,0.0
-Samuel Chukwueze,MID,Fulham,0.5,2.46,54.0
-Kevin Santos Lopes de Macedo,MID,Fulham,0.6,-0.54,43.0
+Samuel Chukwueze,MID,Fulham,0.5,2.51,54.0
+Kevin Santos Lopes de Macedo,MID,Fulham,0.6,-0.45,43.0
 Jonah Kusi-Asare,FWD,Fulham,0.5,-0.03,4.0
 Seth Ridgeon,MID,Fulham,0.5,-0.04,0.0
-Alfie McNally,GK,Fulham,0.4,-0.36,0.0
-Facundo Buonanotte,MID,Leeds,0.5,-0.04,2.0
-Illan Meslier,GK,Leeds,0.4,-0.03,0.0
+Alfie McNally,GK,Fulham,0.4,-0.37,0.0
+Facundo Buonanotte,MID,Leeds,0.5,-0.99,2.0
+Illan Meslier,GK,Leeds,0.4,0.01,0.0
 Alex Cairns,GK,Leeds,0.4,-0.69,0.0
-Karl Darlow,GK,Leeds,0.4,2.31,54.0
-Jayden Bogle,DEF,Leeds,0.4,3.26,89.0
-Pascal Struijk,DEF,Leeds,0.4,2.12,105.0
-Jaka Bijol,DEF,Leeds,0.4,3.27,80.0
-Sebastiaan Bornauw,DEF,Leeds,0.4,-0.02,17.0
-Sam Byram,DEF,Leeds,0.4,0.02,1.0
-Gabriel Gudmundsson,DEF,Leeds,0.4,2.36,68.0
-Joe Rodon,DEF,Leeds,0.4,0.87,100.0
-Isaac Schmidt,DEF,Leeds,0.4,-0.03,0.0
-Brenden Aaronson,MID,Leeds,0.5,3.78,121.0
-Wilfried Gnonto,MID,Leeds,0.5,1.03,28.0
-Jack Harrison,MID,Leeds,0.5,-0.02,12.0
-Daniel James,MID,Leeds,0.5,-0.42,18.0
-Ethan Ampadu,MID,Leeds,0.5,2.67,117.0
+Karl Darlow,GK,Leeds,0.4,2.35,54.0
+Jayden Bogle,DEF,Leeds,0.4,3.32,89.0
+Pascal Struijk,DEF,Leeds,0.4,2.95,105.0
+Jaka Bijol,DEF,Leeds,0.4,3.62,80.0
+Sebastiaan Bornauw,DEF,Leeds,0.4,-0.57,17.0
+Sam Byram,DEF,Leeds,0.4,0.05,1.0
+Gabriel Gudmundsson,DEF,Leeds,0.4,2.77,68.0
+Joe Rodon,DEF,Leeds,0.4,0.81,100.0
+Isaac Schmidt,DEF,Leeds,0.4,-0.04,0.0
+Brenden Aaronson,MID,Leeds,0.5,4.35,121.0
+Wilfried Gnonto,MID,Leeds,0.5,1.23,28.0
+Jack Harrison,MID,Leeds,0.5,-0.47,12.0
+Daniel James,MID,Leeds,0.5,-0.39,18.0
+Ethan Ampadu,MID,Leeds,0.5,3.11,117.0
 Sam Greenwood,MID,Leeds,0.5,-0.24,0.0
-Ilia Gruev,MID,Leeds,0.5,0.45,56.0
-Largie Ramazani,MID,Leeds,0.5,-0.04,0.0
-Tanaka Ao,MID,Leeds,0.5,3.44,51.0
+Ilia Gruev,MID,Leeds,0.5,0.39,56.0
+Largie Ramazani,MID,Leeds,0.5,-0.97,0.0
+Tanaka Ao,MID,Leeds,0.5,3.65,51.0
 Charlie Crew,MID,Leeds,0.5,-0.97,0.0
-Joe Gelhardt,MID,Leeds,0.5,-0.34,0.0
-Darko Gyabi,MID,Leeds,0.5,-0.97,0.0
-Joël Piroe,FWD,Leeds,0.5,-0.47,15.0
-Patrick Bamford,FWD,Leeds,0.5,0.1,0.0
+Joe Gelhardt,MID,Leeds,0.5,-0.99,0.0
+Darko Gyabi,MID,Leeds,0.5,-0.98,0.0
+Joël Piroe,FWD,Leeds,0.5,0.28,15.0
+Patrick Bamford,FWD,Leeds,0.5,0.11,0.0
 Mateo Joseph Fernández-Regatillo,FWD,Leeds,0.5,-0.98,0.0
-Lukas Nmecha,FWD,Leeds,0.5,0.98,68.0
-Sean Longstaff,MID,Leeds,0.5,1.63,53.0
-Anton Stach,MID,Leeds,0.5,0.22,122.0
-Lucas Estella Perri,GK,Leeds,0.4,-0.02,43.0
-Dominic Calvert-Lewin,FWD,Leeds,0.6,5.56,120.0
-Noah Okafor,MID,Leeds,0.6,5.07,99.0
-James Justin,DEF,Leeds,0.4,5.4,81.0
+Lukas Nmecha,FWD,Leeds,0.5,1.2,68.0
+Sean Longstaff,MID,Leeds,0.5,2.03,53.0
+Anton Stach,MID,Leeds,0.5,-0.41,122.0
+Lucas Estella Perri,GK,Leeds,0.4,-0.0,43.0
+Dominic Calvert-Lewin,FWD,Leeds,0.6,5.4,120.0
+Noah Okafor,MID,Leeds,0.6,5.55,99.0
+James Justin,DEF,Leeds,0.4,5.61,81.0
 Harry Gray,FWD,Leeds,0.5,-0.48,0.0
 Sam Chambers,MID,Leeds,0.4,-0.04,0.0
-Alisson Becker,GK,Liverpool,0.5,-0.14,89.0
-Giorgi Mamardashvili,GK,Liverpool,0.4,3.54,31.0
-Ármin Pécsi,GK,Liverpool,0.4,0.17,0.0
-Freddie Woodman,GK,Liverpool,0.4,1.89,1.0
-Jeremie Frimpong,DEF,Liverpool,0.6,4.5,58.0
-Milos Kerkez,DEF,Liverpool,0.6,1.44,80.0
-Andrew Robertson,DEF,Liverpool,0.6,7.01,45.0
-Virgil van Dijk,DEF,Liverpool,0.6,14.16,152.0
-Ibrahima Konaté,DEF,Liverpool,0.6,8.7,121.0
+Alisson Becker,GK,Liverpool,0.5,-0.32,89.0
+Giorgi Mamardashvili,GK,Liverpool,0.4,3.93,31.0
+Ármin Pécsi,GK,Liverpool,0.4,0.36,0.0
+Freddie Woodman,GK,Liverpool,0.4,1.87,1.0
+Jeremie Frimpong,DEF,Liverpool,0.6,4.85,58.0
+Milos Kerkez,DEF,Liverpool,0.6,1.47,80.0
+Andrew Robertson,DEF,Liverpool,0.6,6.8,45.0
+Virgil van Dijk,DEF,Liverpool,0.6,13.7,152.0
+Ibrahima Konaté,DEF,Liverpool,0.6,8.87,121.0
 Conor Bradley,DEF,Liverpool,0.5,-0.39,42.0
-Joe Gomez,DEF,Liverpool,0.5,-0.18,31.0
-Konstantinos Tsimikas,DEF,Liverpool,0.5,-0.42,0.0
-Amara Nallo,DEF,Liverpool,0.4,-0.35,0.0
+Joe Gomez,DEF,Liverpool,0.5,0.06,31.0
+Konstantinos Tsimikas,DEF,Liverpool,0.5,-0.39,0.0
+Amara Nallo,DEF,Liverpool,0.4,-0.36,0.0
 Rhys Williams,DEF,Liverpool,0.4,0.41,0.0
-Calvin Ramsay,DEF,Liverpool,0.4,-0.43,0.0
-Mohamed Salah,MID,Liverpool,1.4,18.15,115.0
-Florian Wirtz,MID,Liverpool,0.8,7.69,113.0
+Calvin Ramsay,DEF,Liverpool,0.4,-0.4,0.0
+Mohamed Salah,MID,Liverpool,1.4,17.6,115.0
+Florian Wirtz,MID,Liverpool,0.8,6.9,113.0
 Luis Díaz Marulanda,MID,Liverpool,0.8,-0.97,0.0
-Cody Gakpo,MID,Liverpool,0.7,10.28,117.0
-Federico Chiesa,MID,Liverpool,0.6,0.35,34.0
-Alexis Mac Allister,MID,Liverpool,0.6,1.67,87.0
-Dominik Szoboszlai,MID,Liverpool,0.7,9.52,133.0
-Curtis Jones,MID,Liverpool,0.5,6.07,59.0
-Ryan Gravenberch,MID,Liverpool,0.6,4.25,127.0
+Cody Gakpo,MID,Liverpool,0.7,9.72,117.0
+Federico Chiesa,MID,Liverpool,0.6,0.18,34.0
+Alexis Mac Allister,MID,Liverpool,0.6,1.52,87.0
+Dominik Szoboszlai,MID,Liverpool,0.7,9.1,133.0
+Curtis Jones,MID,Liverpool,0.5,6.09,59.0
+Ryan Gravenberch,MID,Liverpool,0.6,3.84,127.0
 Endo Wataru,MID,Liverpool,0.5,-0.03,12.0
-Stefan Bajčetić Maquieira,MID,Liverpool,0.4,-0.69,0.0
+Stefan Bajčetić Maquieira,MID,Liverpool,0.4,-0.56,0.0
 James McConnell,MID,Liverpool,0.4,-0.49,0.0
-Tyler Morton,MID,Liverpool,0.5,-0.64,0.0
-Trey Nyoni,MID,Liverpool,0.4,1.27,5.0
+Tyler Morton,MID,Liverpool,0.5,-0.5,0.0
+Trey Nyoni,MID,Liverpool,0.4,1.22,5.0
 Darwin Núñez Ribeiro,FWD,Liverpool,0.7,-0.02,0.0
-Jayden Danns,FWD,Liverpool,0.4,-0.26,0.0
-Alexander Isak,FWD,Liverpool,1.0,3.41,32.0
-Hugo Ekitiké,FWD,Liverpool,0.9,-0.07,125.0
-Rio Ngumoha,MID,Liverpool,0.4,12.34,32.0
-Giovanni Leoni,DEF,Liverpool,0.5,-0.47,0.0
-Kieran Morrison,MID,Liverpool,0.5,-0.39,0.0
+Jayden Danns,FWD,Liverpool,0.4,-0.19,0.0
+Alexander Isak,FWD,Liverpool,1.0,3.8,32.0
+Hugo Ekitiké,FWD,Liverpool,0.9,-0.74,125.0
+Rio Ngumoha,MID,Liverpool,0.4,12.63,32.0
+Giovanni Leoni,DEF,Liverpool,0.5,-0.48,0.0
+Kieran Morrison,MID,Liverpool,0.5,0.06,0.0
 Wellity Lucky,DEF,Liverpool,0.4,0.4,0.0
-Antoine Semenyo,MID,Man City,0.8,2.66,181.0
-James Trafford,GK,Man City,0.5,-0.19,11.0
-Marc Guéhi,DEF,Man City,0.5,3.75,158.0
+Antoine Semenyo,MID,Man City,0.8,2.73,181.0
+James Trafford,GK,Man City,0.5,-0.21,11.0
+Marc Guéhi,DEF,Man City,0.5,3.42,158.0
 Ederson Santana de Moraes,GK,Man City,0.5,-0.02,0.0
-Marcus Bettinelli,GK,Man City,0.4,-0.28,0.0
-Rayan Aït-Nouri,DEF,Man City,0.6,2.12,53.0
-Joško Gvardiol,DEF,Man City,0.6,-0.12,77.0
-Manuel Akanji,DEF,Man City,0.5,-0.85,0.0
-Nathan Aké,DEF,Man City,0.5,-0.22,28.0
-Abdukodir Khusanov,DEF,Man City,0.5,4.39,56.0
-Matheus Nunes,DEF,Man City,0.5,4.14,145.0
-Rúben dos Santos Gato Alves Dias,DEF,Man City,0.6,-0.22,112.0
-John Stones,DEF,Man City,0.5,-0.46,12.0
+Marcus Bettinelli,GK,Man City,0.4,-0.45,0.0
+Rayan Aït-Nouri,DEF,Man City,0.6,2.11,53.0
+Joško Gvardiol,DEF,Man City,0.6,-0.24,77.0
+Manuel Akanji,DEF,Man City,0.5,-0.83,0.0
+Nathan Aké,DEF,Man City,0.5,0.06,28.0
+Abdukodir Khusanov,DEF,Man City,0.5,4.23,56.0
+Matheus Nunes,DEF,Man City,0.5,3.72,145.0
+Rúben dos Santos Gato Alves Dias,DEF,Man City,0.6,-0.17,112.0
+John Stones,DEF,Man City,0.5,-0.43,12.0
 Rico Lewis,DEF,Man City,0.5,-0.01,19.0
-Nico O'Reilly,DEF,Man City,0.5,3.95,152.0
-Vitor de Oliveira Nunes dos Reis,DEF,Man City,0.5,0.0,0.0
-Omar Marmoush,MID,Man City,0.8,-0.1,40.0
-Phil Foden,MID,Man City,0.8,0.8,114.0
-Sávio Moreira de Oliveira,MID,Man City,0.7,2.04,30.0
-Bernardo Mota Veiga de Carvalho e Silva,MID,Man City,0.6,2.81,91.0
-Rayan Cherki,MID,Man City,0.6,5.24,123.0
-Jérémy Doku,MID,Man City,0.6,4.79,90.0
-İlkay Gündoğan,MID,Man City,0.6,-0.02,0.0
-Rodrigo 'Rodri' Hernandez Cascante,MID,Man City,0.6,1.59,62.0
-Mateo Kovačić,MID,Man City,0.6,0.37,2.0
-Nico González Iglesias,MID,Man City,0.6,1.98,57.0
+Nico O'Reilly,DEF,Man City,0.5,3.93,152.0
+Vitor de Oliveira Nunes dos Reis,DEF,Man City,0.5,-0.44,0.0
+Omar Marmoush,MID,Man City,0.8,-0.17,40.0
+Phil Foden,MID,Man City,0.8,0.0,114.0
+Sávio Moreira de Oliveira,MID,Man City,0.7,2.29,30.0
+Bernardo Mota Veiga de Carvalho e Silva,MID,Man City,0.6,3.21,91.0
+Rayan Cherki,MID,Man City,0.6,4.93,123.0
+Jérémy Doku,MID,Man City,0.6,3.51,90.0
+İlkay Gündoğan,MID,Man City,0.6,-0.97,0.0
+Rodrigo 'Rodri' Hernandez Cascante,MID,Man City,0.6,2.35,62.0
+Mateo Kovačić,MID,Man City,0.6,0.33,2.0
+Nico González Iglesias,MID,Man City,0.6,1.6,57.0
 Claudio Echeverri,MID,Man City,0.5,-0.03,0.0
-Tijjani Reijnders,MID,Man City,0.5,-0.15,86.0
+Tijjani Reijnders,MID,Man City,0.5,-0.31,86.0
 Sverre Nypan,MID,Man City,0.5,-0.03,0.0
-Kalvin Phillips,MID,Man City,0.5,-0.32,0.0
-Erling Haaland,FWD,Man City,1.4,4.83,212.0
-Gianluigi Donnarumma,GK,Man City,0.6,2.4,119.0
-Divine Mukasa,MID,Man City,0.4,0.15,2.0
+Kalvin Phillips,MID,Man City,0.5,-0.49,0.0
+Erling Haaland,FWD,Man City,1.4,5.68,212.0
+Gianluigi Donnarumma,GK,Man City,0.6,2.38,119.0
+Divine Mukasa,MID,Man City,0.4,-0.37,2.0
 Stephen Mfuni,DEF,Man City,0.4,-0.73,0.0
 Ryan McAidoo,MID,Man City,0.5,-0.04,0.0
 Charlie Gray,MID,Man City,0.5,-0.04,0.0
-Reigan Heskey,MID,Man City,0.5,-0.04,0.0
+Reigan Heskey,MID,Man City,0.5,-0.95,0.0
 Max Alleyne,DEF,Man City,0.4,-0.03,5.0
-Bryan Mbeumo,MID,Man Utd,0.8,3.57,126.0
-Altay Bayındır,GK,Man Utd,0.5,0.83,11.0
-André Onana,GK,Man Utd,0.5,-0.32,0.0
+Bryan Mbeumo,MID,Man Utd,0.8,3.04,126.0
+Altay Bayındır,GK,Man Utd,0.5,0.62,11.0
+André Onana,GK,Man Utd,0.5,-0.52,0.0
 Elyh Harrison,GK,Man Utd,0.4,-0.03,0.0
-Tom Heaton,GK,Man Utd,0.4,0.2,0.0
-Dermot Mee,GK,Man Utd,0.4,0.12,0.0
-Matthijs de Ligt,DEF,Man Utd,0.5,-0.68,43.0
-Lisandro Martínez,DEF,Man Utd,0.5,0.07,36.0
-Noussair Mazraoui,DEF,Man Utd,0.5,6.58,35.0
+Tom Heaton,GK,Man Utd,0.4,0.22,0.0
+Dermot Mee,GK,Man Utd,0.4,0.34,0.0
+Matthijs de Ligt,DEF,Man Utd,0.5,-0.41,43.0
+Lisandro Martínez,DEF,Man Utd,0.5,0.0,36.0
+Noussair Mazraoui,DEF,Man Utd,0.5,6.32,35.0
 Diego León Blanco,DEF,Man Utd,0.4,0.4,0.0
-Diogo Dalot Teixeira,DEF,Man Utd,0.5,6.17,105.0
-Patrick Dorgu,DEF,Man Utd,0.4,-0.32,74.0
-Harry Maguire,DEF,Man Utd,0.4,1.48,63.0
-Luke Shaw,DEF,Man Utd,0.5,7.93,88.0
-Leny Yoro,DEF,Man Utd,0.4,2.19,53.0
-Harry Amass,DEF,Man Utd,0.4,-0.26,0.0
+Diogo Dalot Teixeira,DEF,Man Utd,0.5,5.93,105.0
+Patrick Dorgu,DEF,Man Utd,0.4,0.32,74.0
+Harry Maguire,DEF,Man Utd,0.4,0.8,63.0
+Luke Shaw,DEF,Man Utd,0.5,8.04,88.0
+Leny Yoro,DEF,Man Utd,0.4,2.91,53.0
+Harry Amass,DEF,Man Utd,0.4,-0.2,0.0
 Tyler Fredricson,DEF,Man Utd,0.4,-0.36,1.0
-Ayden Heaven,DEF,Man Utd,0.4,8.07,39.0
-Tyrell Malacia,DEF,Man Utd,0.4,0.44,2.0
-Bruno Borges Fernandes,MID,Man Utd,1.0,9.72,199.0
-Matheus Santos Carneiro da Cunha,MID,Man Utd,0.8,7.46,125.0
-Marcus Rashford,MID,Man Utd,0.7,-0.5,0.0
-Amad Diallo,MID,Man Utd,0.6,3.34,77.0
-Antony dos Santos,MID,Man Utd,0.6,-0.91,0.0
-Mason Mount,MID,Man Utd,0.6,1.4,47.0
-Carlos Henrique Casimiro,MID,Man Utd,0.6,12.38,148.0
-Kobbie Mainoo,MID,Man Utd,0.5,4.31,49.0
-Manuel Ugarte Ribeiro,MID,Man Utd,0.5,3.37,38.0
-Toby Collyer,MID,Man Utd,0.5,-0.37,0.0
+Ayden Heaven,DEF,Man Utd,0.4,8.29,39.0
+Tyrell Malacia,DEF,Man Utd,0.4,-0.38,2.0
+Bruno Borges Fernandes,MID,Man Utd,1.0,9.25,199.0
+Matheus Santos Carneiro da Cunha,MID,Man Utd,0.8,8.55,125.0
+Marcus Rashford,MID,Man Utd,0.7,-0.53,0.0
+Amad Diallo,MID,Man Utd,0.6,3.46,77.0
+Antony dos Santos,MID,Man Utd,0.6,-0.92,0.0
+Mason Mount,MID,Man Utd,0.6,1.24,47.0
+Carlos Henrique Casimiro,MID,Man Utd,0.6,12.44,148.0
+Kobbie Mainoo,MID,Man Utd,0.5,4.42,49.0
+Manuel Ugarte Ribeiro,MID,Man Utd,0.5,3.35,38.0
+Toby Collyer,MID,Man Utd,0.5,-0.39,0.0
 Jayce Fitzgerald,MID,Man Utd,0.4,0.46,0.0
 Jack Fletcher,MID,Man Utd,0.4,0.47,3.0
-Sékou Koné,MID,Man Utd,0.4,-0.03,0.0
+Sékou Koné,MID,Man Utd,0.4,-0.04,0.0
 Jack Moorhouse,MID,Man Utd,0.5,-0.04,0.0
-Rasmus Højlund,FWD,Man Utd,0.6,-0.52,0.0
-Joshua Zirkzee,FWD,Man Utd,0.6,1.01,38.0
-Chido Obi,FWD,Man Utd,0.4,0.57,0.0
+Rasmus Højlund,FWD,Man Utd,0.6,-0.6,0.0
+Joshua Zirkzee,FWD,Man Utd,0.6,0.99,38.0
+Chido Obi,FWD,Man Utd,0.4,0.26,0.0
 Ethan Wheatley,FWD,Man Utd,0.5,-0.33,0.0
-Benjamin Sesko,FWD,Man Utd,0.7,3.94,98.0
-Senne Lammens,GK,Man Utd,0.5,7.75,88.0
-Shea Lacey,MID,Man Utd,0.5,0.62,2.0
+Benjamin Sesko,FWD,Man Utd,0.7,3.6,98.0
+Senne Lammens,GK,Man Utd,0.5,8.14,88.0
+Shea Lacey,MID,Man Utd,0.5,1.08,2.0
 Bendito Mantato,MID,Man Utd,0.5,-0.47,1.0
-Tyler Fletcher,MID,Man Utd,0.4,-0.12,1.0
-Godwill Kukonki,DEF,Man Utd,0.4,-0.16,0.0
-Jim Thwaites,MID,Man Utd,0.5,1.94,0.0
-Jacob Ramsey,MID,Newcastle,0.5,1.98,42.0
-Yoane Wissa,FWD,Newcastle,0.7,-0.71,21.0
-Nick Pope,GK,Newcastle,0.5,-0.66,82.0
+Tyler Fletcher,MID,Man Utd,0.4,-0.4,1.0
+Godwill Kukonki,DEF,Man Utd,0.4,0.03,0.0
+Jim Thwaites,MID,Man Utd,0.5,1.91,0.0
+Jacob Ramsey,MID,Newcastle,0.5,1.48,42.0
+Yoane Wissa,FWD,Newcastle,0.7,-0.78,21.0
+Nick Pope,GK,Newcastle,0.5,-0.86,82.0
 Mark Gillespie,GK,Newcastle,0.4,-1.13,0.0
 Odysseas Vlachodimos,GK,Newcastle,0.4,-0.03,0.0
-Lewis Hall,DEF,Newcastle,0.5,1.6,74.0
-Fabian Schär,DEF,Newcastle,0.5,-0.19,51.0
-Sven Botman,DEF,Newcastle,0.5,3.63,70.0
-Dan Burn,DEF,Newcastle,0.5,0.48,79.0
-Tino Livramento,DEF,Newcastle,0.5,1.88,59.0
-Kieran Trippier,DEF,Newcastle,0.5,-0.06,51.0
-Emil Krafth,DEF,Newcastle,0.4,-0.29,0.0
+Lewis Hall,DEF,Newcastle,0.5,1.7,74.0
+Fabian Schär,DEF,Newcastle,0.5,-0.17,51.0
+Sven Botman,DEF,Newcastle,0.5,3.62,70.0
+Dan Burn,DEF,Newcastle,0.5,0.47,79.0
+Tino Livramento,DEF,Newcastle,0.5,2.34,59.0
+Kieran Trippier,DEF,Newcastle,0.5,0.59,51.0
+Emil Krafth,DEF,Newcastle,0.4,-0.15,0.0
 Jamaal Lascelles,DEF,Newcastle,0.4,-0.33,1.0
 Alex Murphy,DEF,Newcastle,0.4,-0.9,1.0
 Harrison Ashby,DEF,Newcastle,0.4,-0.03,0.0
 Miodrag Pivaš,DEF,Newcastle,0.4,-0.9,0.0
-Matt Targett,DEF,Newcastle,0.4,-0.38,0.0
-Anthony Gordon,MID,Newcastle,0.7,2.95,101.0
-Anthony Elanga,MID,Newcastle,0.7,1.75,45.0
-Harvey Barnes,MID,Newcastle,0.6,2.93,86.0
-Bruno Guimarães Rodriguez Moura,MID,Newcastle,0.7,3.16,135.0
-Jacob Murphy,MID,Newcastle,0.6,1.39,67.0
-Joelinton Cássio Apolinário de Lira,MID,Newcastle,0.6,0.83,67.0
-Sandro Tonali,MID,Newcastle,0.5,2.15,75.0
+Matt Targett,DEF,Newcastle,0.4,-0.37,0.0
+Anthony Gordon,MID,Newcastle,0.7,1.58,101.0
+Anthony Elanga,MID,Newcastle,0.7,1.43,45.0
+Harvey Barnes,MID,Newcastle,0.6,2.01,86.0
+Bruno Guimarães Rodriguez Moura,MID,Newcastle,0.7,2.47,135.0
+Jacob Murphy,MID,Newcastle,0.6,1.11,67.0
+Joelinton Cássio Apolinário de Lira,MID,Newcastle,0.6,0.59,67.0
+Sandro Tonali,MID,Newcastle,0.5,2.05,75.0
 Antoñito Cordero Campillo,MID,Newcastle,0.5,-0.04,0.0
-Joe Willock,MID,Newcastle,0.5,-0.94,28.0
+Joe Willock,MID,Newcastle,0.5,-1.86,28.0
 Isaac Hayden,MID,Newcastle,0.5,-0.04,0.0
 Garang Kuol,MID,Newcastle,0.4,-0.21,0.0
-Lewis Miley,MID,Newcastle,0.4,8.2,68.0
+Lewis Miley,MID,Newcastle,0.4,7.97,68.0
 Joe White,MID,Newcastle,0.5,-0.04,0.0
-William Osula,FWD,Newcastle,0.5,16.4,48.0
-Sean Neave,FWD,Newcastle,0.4,-1.37,0.0
-Aaron Ramsdale,GK,Newcastle,0.5,1.63,25.0
-Malick Thiaw,DEF,Newcastle,0.5,2.93,117.0
+William Osula,FWD,Newcastle,0.5,17.18,48.0
+Sean Neave,FWD,Newcastle,0.4,-1.35,0.0
+Aaron Ramsdale,GK,Newcastle,0.5,1.43,25.0
+Malick Thiaw,DEF,Newcastle,0.5,2.4,117.0
 Seung-Soo Park,MID,Newcastle,0.4,-1.04,0.0
-Nick Woltemade,FWD,Newcastle,0.7,0.16,95.0
-John Ruddy,GK,Newcastle,0.4,-0.78,0.0
+Nick Woltemade,FWD,Newcastle,0.7,0.3,95.0
+John Ruddy,GK,Newcastle,0.4,-1.12,0.0
 Leo Shahar,DEF,Newcastle,0.4,-0.91,0.0
 Sam Alabi,MID,Newcastle,0.5,-1.04,0.0
-Oleksandr Zinchenko,DEF,Nott'm Forest,0.5,0.04,7.0
-Stefan Ortega Moreno,GK,Nott'm Forest,0.5,0.01,11.0
-James McAtee,MID,Nott'm Forest,0.5,-0.88,9.0
-Matz Sels,GK,Nott'm Forest,0.5,4.2,82.0
+Oleksandr Zinchenko,DEF,Nott'm Forest,0.5,-0.02,7.0
+Stefan Ortega Moreno,GK,Nott'm Forest,0.5,-0.0,11.0
+James McAtee,MID,Nott'm Forest,0.5,-0.39,9.0
+Matz Sels,GK,Nott'm Forest,0.5,4.34,82.0
 Carlos Miguel dos Santos Pereira,GK,Nott'm Forest,0.4,-0.24,0.0
 Matt Turner,GK,Nott'm Forest,0.4,-0.74,0.0
-Nikola Milenković,DEF,Nott'm Forest,0.5,6.16,103.0
-Murillo Costa dos Santos,DEF,Nott'm Forest,0.5,0.93,83.0
-Ola Aina,DEF,Nott'm Forest,0.5,3.95,58.0
-Neco Williams,DEF,Nott'm Forest,0.5,8.91,117.0
-David Mota Veiga Teixeira do Carmo,DEF,Nott'm Forest,0.5,-0.03,0.0
-Jair Paula da Cunha Filho,DEF,Nott'm Forest,0.4,0.85,6.0
+Nikola Milenković,DEF,Nott'm Forest,0.5,6.55,103.0
+Murillo Costa dos Santos,DEF,Nott'm Forest,0.5,0.63,83.0
+Ola Aina,DEF,Nott'm Forest,0.5,4.39,58.0
+Neco Williams,DEF,Nott'm Forest,0.5,9.72,117.0
+David Mota Veiga Teixeira do Carmo,DEF,Nott'm Forest,0.5,-0.04,0.0
+Jair Paula da Cunha Filho,DEF,Nott'm Forest,0.4,1.18,6.0
 Felipe Rodrigues da Silva,DEF,Nott'm Forest,0.4,0.8,36.0
-Omar Richards,DEF,Nott'm Forest,0.5,-0.03,0.0
+Omar Richards,DEF,Nott'm Forest,0.5,-0.04,0.0
 Zach Abbott,DEF,Nott'm Forest,0.4,-0.03,2.0
-Willy Boly,DEF,Nott'm Forest,0.4,-0.85,0.0
-Morgan Gibbs-White,MID,Nott'm Forest,0.8,20.72,155.0
-Callum Hudson-Odoi,MID,Nott'm Forest,0.6,0.97,88.0
-Elliot Anderson,MID,Nott'm Forest,0.6,6.59,144.0
+Willy Boly,DEF,Nott'm Forest,0.4,-0.03,0.0
+Morgan Gibbs-White,MID,Nott'm Forest,0.8,20.55,155.0
+Callum Hudson-Odoi,MID,Nott'm Forest,0.6,1.21,88.0
+Elliot Anderson,MID,Nott'm Forest,0.6,6.76,144.0
 João Pedro Ferreira da Silva,MID,Nott'm Forest,0.5,-0.03,1.0
-Nicolás Domínguez,MID,Nott'm Forest,0.5,4.13,43.0
+Nicolás Domínguez,MID,Nott'm Forest,0.5,4.43,43.0
 Lewis O'Brien,MID,Nott'm Forest,0.5,-0.02,0.0
-Ibrahim Sangaré,MID,Nott'm Forest,0.5,8.44,83.0
-Ryan Yates,MID,Nott'm Forest,0.5,4.25,25.0
-Eric da Silva Moreira,MID,Nott'm Forest,0.5,-0.04,0.0
-Marko Stamenić,MID,Nott'm Forest,0.5,0.02,0.0
-Chris Wood,FWD,Nott'm Forest,0.7,5.22,28.0
-Igor Jesus Maciel da Cruz,FWD,Nott'm Forest,0.6,8.45,90.0
-Taiwo Awoniyi,FWD,Nott'm Forest,0.5,-0.46,20.0
-Dan Ndoye,MID,Nott'm Forest,0.6,0.78,50.0
+Ibrahim Sangaré,MID,Nott'm Forest,0.5,8.18,83.0
+Ryan Yates,MID,Nott'm Forest,0.5,4.47,25.0
+Eric da Silva Moreira,MID,Nott'm Forest,0.5,-0.87,0.0
+Marko Stamenić,MID,Nott'm Forest,0.5,0.01,0.0
+Chris Wood,FWD,Nott'm Forest,0.7,4.88,28.0
+Igor Jesus Maciel da Cruz,FWD,Nott'm Forest,0.6,8.52,90.0
+Taiwo Awoniyi,FWD,Nott'm Forest,0.5,-0.51,20.0
+Dan Ndoye,MID,Nott'm Forest,0.6,0.95,50.0
 Angus Gunn,GK,Nott'm Forest,0.4,-0.02,1.0
-Omari Hutchinson,MID,Nott'm Forest,0.5,5.83,70.0
-Arnaud Kalimuendo,FWD,Nott'm Forest,0.6,-0.96,9.0
+Omari Hutchinson,MID,Nott'm Forest,0.5,5.67,70.0
+Arnaud Kalimuendo,FWD,Nott'm Forest,0.6,-0.5,9.0
 John Victor Maciel Furtado,GK,Nott'm Forest,0.4,-0.02,11.0
 Nicolò Savona,DEF,Nott'm Forest,0.5,-0.15,39.0
-Luis Eduardo Soares da Silva,DEF,Nott'm Forest,0.5,-0.03,0.0
-Dilane Bakwa,MID,Nott'm Forest,0.6,1.29,15.0
-Lorenzo Lucca,FWD,Nott'm Forest,0.5,-0.51,8.0
-Luca Netz,DEF,Nott'm Forest,0.5,-0.03,2.0
+Luis Eduardo Soares da Silva,DEF,Nott'm Forest,0.5,-0.04,0.0
+Dilane Bakwa,MID,Nott'm Forest,0.6,1.2,15.0
+Lorenzo Lucca,FWD,Nott'm Forest,0.5,-0.7,8.0
+Luca Netz,DEF,Nott'm Forest,0.5,-0.04,2.0
 Anthony Patterson,GK,Sunderland,0.4,-0.7,0.0
-Simon Moore,GK,Sunderland,0.4,-0.02,0.0
-Blondy Nna Noukeu,GK,Sunderland,0.4,-0.02,0.0
-Daniel Ballard,DEF,Sunderland,0.5,0.59,118.0
-Trai Hume,DEF,Sunderland,0.5,5.44,95.0
+Simon Moore,GK,Sunderland,0.4,-0.67,0.0
+Blondy Nna Noukeu,GK,Sunderland,0.4,-0.74,0.0
+Daniel Ballard,DEF,Sunderland,0.5,0.04,118.0
+Trai Hume,DEF,Sunderland,0.5,6.0,95.0
 Aji Alese,DEF,Sunderland,0.4,-0.04,0.0
 Joe Anderson,DEF,Sunderland,0.4,-0.03,0.0
-Dennis Cirkin,DEF,Sunderland,0.4,-0.02,14.0
+Dennis Cirkin,DEF,Sunderland,0.4,-0.3,14.0
 Leo Fuhr Hjelde,DEF,Sunderland,0.4,-0.04,0.0
 Niall Huggins,DEF,Sunderland,0.4,-0.04,0.0
 Zak Johnson,DEF,Sunderland,0.4,-0.03,0.0
-Luke O'Nien,DEF,Sunderland,0.4,4.88,16.0
+Luke O'Nien,DEF,Sunderland,0.4,4.93,16.0
 Timothée Pembélé,DEF,Sunderland,0.4,-0.03,0.0
-Reinildo Mandava,DEF,Sunderland,0.4,6.92,59.0
+Reinildo Mandava,DEF,Sunderland,0.4,7.12,59.0
 Jenson Seelt,DEF,Sunderland,0.4,-0.04,2.0
-Simon Adingra,MID,Sunderland,0.5,-0.03,34.0
-Habib Diarra,MID,Sunderland,0.5,6.18,59.0
+Simon Adingra,MID,Sunderland,0.5,-0.31,34.0
+Habib Diarra,MID,Sunderland,0.5,6.45,59.0
 Patrick Roberts,MID,Sunderland,0.5,-0.03,1.0
 Milan Aleksić,MID,Sunderland,0.5,-0.04,0.0
-Enzo Le Fée,MID,Sunderland,0.5,10.86,120.0
-Romaine Mundle,MID,Sunderland,0.5,0.03,14.0
-Dan Neil,MID,Sunderland,0.5,-0.19,3.0
-Ian Poveda-Ocampo,MID,Sunderland,0.5,-0.94,0.0
-Chris Rigg,MID,Sunderland,0.5,8.6,30.0
-Noah Sadiki,MID,Sunderland,0.5,7.16,68.0
-Chemsdine Talbi,MID,Sunderland,0.5,1.15,77.0
+Enzo Le Fée,MID,Sunderland,0.5,10.63,120.0
+Romaine Mundle,MID,Sunderland,0.5,-0.01,14.0
+Dan Neil,MID,Sunderland,0.5,-0.2,3.0
+Ian Poveda-Ocampo,MID,Sunderland,0.5,-0.93,0.0
+Chris Rigg,MID,Sunderland,0.5,8.39,30.0
+Noah Sadiki,MID,Sunderland,0.5,6.51,68.0
+Chemsdine Talbi,MID,Sunderland,0.5,1.56,77.0
 Abdoullah Ba,MID,Sunderland,0.4,-0.03,0.0
 Alan Browne,MID,Sunderland,0.5,-0.04,0.0
 Pierre Ekwah Elimby,MID,Sunderland,0.5,-0.04,0.0
 Harrison Jones,MID,Sunderland,0.4,0.0,0.0
 Jay Matete,MID,Sunderland,0.4,-0.03,0.0
 Nectarios Triantis,MID,Sunderland,0.4,-0.04,0.0
-Wilson Isidor,FWD,Sunderland,0.5,4.29,66.0
-Eliezer Mayenda Dossou,FWD,Sunderland,0.5,0.06,39.0
+Wilson Isidor,FWD,Sunderland,0.5,4.02,66.0
+Eliezer Mayenda Dossou,FWD,Sunderland,0.5,0.01,39.0
 Ahmed Abdullahi,FWD,Sunderland,0.4,-0.03,0.0
 Luís Hemir Silva Semedo,FWD,Sunderland,0.4,-0.04,0.0
 Nazarii Rusyn,FWD,Sunderland,0.4,-0.04,0.0
-Granit Xhaka,MID,Sunderland,0.5,7.97,106.0
-Robin Roefs,GK,Sunderland,0.5,9.92,122.0
-Arthur Masuaku,DEF,Sunderland,0.4,-0.55,1.0
-Omar Alderete,DEF,Sunderland,0.4,5.1,112.0
-Nordi Mukiele,DEF,Sunderland,0.5,13.49,128.0
-Lutsharel Geertruida,DEF,Sunderland,0.5,-0.78,46.0
-Brian Brobbey,FWD,Sunderland,0.5,3.57,75.0
-Bertrand Traoré,MID,Sunderland,0.6,-0.58,30.0
-Jenson Jones,DEF,Sunderland,0.4,-0.04,0.0
-Tymur Tutierov,MID,Sunderland,0.5,-0.8,0.0
-Djiamgone Jocelin Ta Bi,MID,Sunderland,0.5,0.03,1.0
-Melker Ellborg,GK,Sunderland,0.4,-0.47,16.0
-Nilson Angulo,MID,Sunderland,0.5,-0.19,9.0
-Jack Whittaker,MID,Sunderland,0.5,0.14,0.0
+Granit Xhaka,MID,Sunderland,0.5,8.0,106.0
+Robin Roefs,GK,Sunderland,0.5,9.77,122.0
+Arthur Masuaku,DEF,Sunderland,0.4,-0.54,1.0
+Omar Alderete,DEF,Sunderland,0.4,6.99,112.0
+Nordi Mukiele,DEF,Sunderland,0.5,12.71,128.0
+Lutsharel Geertruida,DEF,Sunderland,0.5,0.15,46.0
+Brian Brobbey,FWD,Sunderland,0.5,2.93,75.0
+Bertrand Traoré,MID,Sunderland,0.6,-0.66,30.0
+Jenson Jones,DEF,Sunderland,0.4,-0.71,0.0
+Tymur Tutierov,MID,Sunderland,0.5,-0.81,0.0
+Djiamgone Jocelin Ta Bi,MID,Sunderland,0.5,-0.02,1.0
+Melker Ellborg,GK,Sunderland,0.4,-0.84,16.0
+Nilson Angulo,MID,Sunderland,0.5,-0.46,9.0
+Jack Whittaker,MID,Sunderland,0.5,0.51,0.0
 Jaydon Jones,MID,Sunderland,0.5,0.01,0.0
-Guglielmo Vicario,GK,Spurs,0.5,-0.41,90.0
+Guglielmo Vicario,GK,Spurs,0.5,-0.1,90.0
 Brandon Austin,GK,Spurs,0.4,0.35,0.0
-Antonín Kinský,GK,Spurs,0.4,2.67,3.0
-Pedro Porro Sauceda,DEF,Spurs,0.5,9.21,94.0
-Cristian Romero,DEF,Spurs,0.5,0.45,91.0
-Kevin Danso,DEF,Spurs,0.4,3.26,41.0
+Antonín Kinský,GK,Spurs,0.4,3.08,3.0
+Pedro Porro Sauceda,DEF,Spurs,0.5,9.7,94.0
+Cristian Romero,DEF,Spurs,0.5,0.34,91.0
+Kevin Danso,DEF,Spurs,0.4,3.2,41.0
 Ben Davies,DEF,Spurs,0.4,-0.49,10.0
-Radu Drăgușin,DEF,Spurs,0.5,0.05,15.0
-Djed Spence,DEF,Spurs,0.4,1.08,61.0
-Destiny Udogie,DEF,Spurs,0.4,3.4,18.0
-Micky van de Ven,DEF,Spurs,0.4,3.08,100.0
-Ashley Phillips,DEF,Spurs,0.4,-0.03,0.0
-Takai Kōta,DEF,Spurs,0.4,-0.03,0.0
-Luka Vušković,DEF,Spurs,0.4,-0.57,0.0
-Son Heung-min,MID,Spurs,0.8,-0.3,0.0
-James Maddison,MID,Spurs,0.7,0.11,0.0
-Mohammed Kudus,MID,Spurs,0.6,-0.6,75.0
-Dejan Kulusevski,MID,Spurs,0.6,-0.43,0.0
-Mathys Tel,MID,Spurs,0.6,1.43,58.0
-Rodrigo Bentancur,MID,Spurs,0.5,4.31,68.0
-Lucas Bergvall,MID,Spurs,0.5,5.8,46.0
-Yves Bissouma,MID,Spurs,0.5,0.98,13.0
-Wilson Odobert,MID,Spurs,0.5,-0.96,46.0
-Manor Solomon,MID,Spurs,0.5,-0.0,0.0
-Bryan Gil Salvatierra,MID,Spurs,0.5,-0.98,0.0
-Archie Gray,MID,Spurs,0.5,2.83,60.0
-Mikey Moore,MID,Spurs,0.5,0.33,0.0
-Pape Matar Sarr,MID,Spurs,0.5,1.47,66.0
-Yang Min-hyeok,MID,Spurs,0.5,-0.84,0.0
-Callum Olusesi,MID,Spurs,0.4,0.55,1.0
-Dominic Solanke-Mitchell,FWD,Spurs,0.7,5.77,39.0
-Richarlison de Andrade,FWD,Spurs,0.6,2.17,95.0
-Will Lankshear,FWD,Spurs,0.5,-0.86,0.0
+Radu Drăgușin,DEF,Spurs,0.5,-0.09,15.0
+Djed Spence,DEF,Spurs,0.4,0.68,61.0
+Destiny Udogie,DEF,Spurs,0.4,2.97,18.0
+Micky van de Ven,DEF,Spurs,0.4,3.16,100.0
+Ashley Phillips,DEF,Spurs,0.4,-0.0,0.0
+Takai Kōta,DEF,Spurs,0.4,-0.04,0.0
+Luka Vušković,DEF,Spurs,0.4,-0.49,0.0
+Son Heung-min,MID,Spurs,0.8,-0.47,0.0
+James Maddison,MID,Spurs,0.7,0.06,0.0
+Mohammed Kudus,MID,Spurs,0.6,-0.61,75.0
+Dejan Kulusevski,MID,Spurs,0.6,-0.3,0.0
+Mathys Tel,MID,Spurs,0.6,1.51,58.0
+Rodrigo Bentancur,MID,Spurs,0.5,4.26,68.0
+Lucas Bergvall,MID,Spurs,0.5,6.06,46.0
+Yves Bissouma,MID,Spurs,0.5,0.94,13.0
+Wilson Odobert,MID,Spurs,0.5,-0.02,46.0
+Manor Solomon,MID,Spurs,0.5,-0.48,0.0
+Bryan Gil Salvatierra,MID,Spurs,0.5,-0.7,0.0
+Archie Gray,MID,Spurs,0.5,2.82,60.0
+Mikey Moore,MID,Spurs,0.5,-0.06,0.0
+Pape Matar Sarr,MID,Spurs,0.5,1.43,66.0
+Yang Min-hyeok,MID,Spurs,0.5,-0.81,0.0
+Callum Olusesi,MID,Spurs,0.4,0.51,1.0
+Dominic Solanke-Mitchell,FWD,Spurs,0.7,5.99,39.0
+Richarlison de Andrade,FWD,Spurs,0.6,1.81,95.0
+Will Lankshear,FWD,Spurs,0.5,-0.87,0.0
 Dane Scarlett,FWD,Spurs,0.4,-0.97,2.0
-João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,MID,Spurs,0.6,3.42,96.0
-Xavi Simons,MID,Spurs,0.7,10.58,77.0
-Randal Kolo Muani,FWD,Spurs,0.7,3.21,45.0
+João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,MID,Spurs,0.6,3.44,96.0
+Xavi Simons,MID,Spurs,0.7,9.95,77.0
+Randal Kolo Muani,FWD,Spurs,0.7,2.99,45.0
 Jun'ai Byfield,DEF,Spurs,0.4,0.4,1.0
-James Rowswell,DEF,Spurs,0.4,0.1,1.0
+James Rowswell,DEF,Spurs,0.4,-0.07,1.0
 Yusuf Akhamrich,MID,Spurs,0.5,-0.04,0.0
 Lucá Williams-Barnett,MID,Spurs,0.5,0.18,0.0
-Conor Gallagher,MID,Spurs,0.5,3.84,24.0
-João Victor de Souza Menezes,DEF,Spurs,0.4,0.42,3.0
-Rio Kyerematen,MID,Spurs,0.5,0.5,0.0
+Conor Gallagher,MID,Spurs,0.5,4.57,24.0
+João Victor de Souza Menezes,DEF,Spurs,0.4,0.41,3.0
+Rio Kyerematen,MID,Spurs,0.5,-0.07,0.0
 James Wilson,FWD,Spurs,0.5,-0.43,0.0
-Adama Traoré Diarra,MID,West Ham,0.5,0.49,24.0
-Alphonse Areola,GK,West Ham,0.4,0.11,51.0
+Adama Traoré Diarra,MID,West Ham,0.5,0.37,24.0
+Alphonse Areola,GK,West Ham,0.4,-0.05,51.0
 Wes Foderingham,GK,West Ham,0.4,-0.02,0.0
 Krisztián Hegyi,GK,West Ham,0.4,-0.02,0.0
-El Hadji Malick Diouf,DEF,West Ham,0.4,9.14,93.0
+El Hadji Malick Diouf,DEF,West Ham,0.4,9.27,93.0
 Emerson Palmieri dos Santos,DEF,West Ham,0.4,-0.04,0.0
 Maximilian Kilman,DEF,West Ham,0.4,-0.03,36.0
-Konstantinos Mavropanos,DEF,West Ham,0.4,20.48,104.0
+Konstantinos Mavropanos,DEF,West Ham,0.5,19.9,104.0
 Nayef Aguerd,DEF,West Ham,0.4,-0.04,3.0
-Ollie Scarles,DEF,West Ham,0.4,-0.25,21.0
-Jean-Clair Todibo,DEF,West Ham,0.4,-0.74,44.0
-Aaron Wan-Bissaka,DEF,West Ham,0.4,0.05,63.0
+Ollie Scarles,DEF,West Ham,0.4,-0.26,21.0
+Jean-Clair Todibo,DEF,West Ham,0.4,-0.59,44.0
+Aaron Wan-Bissaka,DEF,West Ham,0.4,-0.27,63.0
 Kaelan Casey,DEF,West Ham,0.4,-0.04,0.0
 Lucas Tolentino Coelho de Lima,MID,West Ham,0.6,-0.01,69.0
-Tomáš Souček,MID,West Ham,0.6,5.39,85.0
-Crysencio Summerville,MID,West Ham,0.6,5.0,98.0
+Tomáš Souček,MID,West Ham,0.6,5.44,85.0
+Crysencio Summerville,MID,West Ham,0.6,5.47,98.0
 Edson Álvarez Velázquez,MID,West Ham,0.5,-0.04,0.0
 Maxwel Cornet,MID,West Ham,0.5,-0.04,0.0
 Guido Rodríguez,MID,West Ham,0.5,-0.04,8.0
@@ -766,65 +766,65 @@ Luis Guilherme Lira dos Santos,MID,West Ham,0.5,-0.04,5.0
 George Earthy,MID,West Ham,0.5,-0.03,1.0
 Andy Irving,MID,West Ham,0.4,-0.03,9.0
 Lewis Orford,MID,West Ham,0.4,-0.96,0.0
-Freddie Potts,MID,West Ham,0.4,0.94,36.0
-Jarrod Bowen,FWD,West Ham,0.8,17.42,159.0
-Niclas Füllkrug,FWD,West Ham,0.6,-0.75,12.0
+Freddie Potts,MID,West Ham,0.4,0.86,36.0
+Jarrod Bowen,FWD,West Ham,0.8,17.75,159.0
+Niclas Füllkrug,FWD,West Ham,0.6,-0.53,12.0
 Callum Marshall,FWD,West Ham,0.4,-0.66,2.0
-Kyle Walker-Peters,DEF,West Ham,0.4,9.39,44.0
-Callum Wilson,FWD,West Ham,0.6,2.7,67.0
-Mads Hermansen,GK,West Ham,0.4,7.53,58.0
+Kyle Walker-Peters,DEF,West Ham,0.4,8.79,44.0
+Callum Wilson,FWD,West Ham,0.6,2.2,67.0
+Mads Hermansen,GK,West Ham,0.4,7.41,58.0
 Mateus Gonçalo Espanha Fernandes,MID,West Ham,0.6,5.72,114.0
-Soungoutou Magassa,MID,West Ham,0.5,0.9,41.0
-Lukasz Fabianski,GK,West Ham,0.5,-0.51,0.0
+Soungoutou Magassa,MID,West Ham,0.5,1.03,41.0
+Lukasz Fabianski,GK,West Ham,0.5,-0.25,0.0
 Ezra Mayers,DEF,West Ham,0.4,-0.86,6.0
 Airidas Golambeckis,DEF,West Ham,0.4,-0.04,0.0
-Mohamadou Kanté,MID,West Ham,0.5,1.35,8.0
-Pablo Felipe Pereira de Jesus,FWD,West Ham,0.5,6.53,19.0
-Valentín Castellanos,FWD,West Ham,0.6,11.22,44.0
-Keiber Lamadrid,MID,West Ham,0.5,-0.04,0.0
-Axel Disasi,DEF,West Ham,0.5,11.74,36.0
-Finlay Herrick,GK,West Ham,0.4,-0.03,0.0
-Sam Johnstone,GK,Wolves,0.4,-0.28,21.0
-José Malheiro de Sá,GK,Wolves,0.4,0.29,57.0
-Daniel Bentley,GK,Wolves,0.4,2.21,2.0
+Mohamadou Kanté,MID,West Ham,0.5,1.4,8.0
+Pablo Felipe Pereira de Jesus,FWD,West Ham,0.5,5.95,19.0
+Valentín Castellanos,FWD,West Ham,0.6,11.85,44.0
+Keiber Lamadrid,MID,West Ham,0.5,-0.03,0.0
+Axel Disasi,DEF,West Ham,0.5,10.69,36.0
+Finlay Herrick,GK,West Ham,0.4,0.01,0.0
+Sam Johnstone,GK,Wolves,0.4,-0.03,21.0
+José Malheiro de Sá,GK,Wolves,0.4,0.24,57.0
+Daniel Bentley,GK,Wolves,0.4,2.15,2.0
 Emmanuel Agbadou,DEF,Wolves,0.4,-0.03,23.0
 Matt Doherty,DEF,Wolves,0.4,-1.15,12.0
-Hugo Bueno López,DEF,Wolves,0.4,0.67,73.0
-Yerson Mosquera Valdelamar,DEF,Wolves,0.4,-0.31,51.0
-Rodrigo Martins Gomes,DEF,Wolves,0.4,0.41,36.0
-Santiago Ignacio Bueno,DEF,Wolves,0.4,2.52,75.0
-Toti Gomes,DEF,Wolves,0.4,2.54,31.0
+Hugo Bueno López,DEF,Wolves,0.4,0.65,73.0
+Yerson Mosquera Valdelamar,DEF,Wolves,0.4,-0.36,51.0
+Rodrigo Martins Gomes,DEF,Wolves,0.4,0.53,36.0
+Santiago Ignacio Bueno,DEF,Wolves,0.4,2.41,75.0
+Toti Gomes,DEF,Wolves,0.4,1.71,31.0
 Ki-Jana Hoever,DEF,Wolves,0.4,-0.03,10.0
 Bastien Meupiyou Menadjou,DEF,Wolves,0.4,-0.04,0.0
-Pedro Cardoso de Lima,DEF,Wolves,0.4,0.5,4.0
+Pedro Cardoso de Lima,DEF,Wolves,0.4,0.22,4.0
 Alfie Pond,DEF,Wolves,0.4,-0.03,0.0
-Hwang Hee-chan,MID,Wolves,0.6,0.55,46.0
-André Trindade da Costa Neto,MID,Wolves,0.5,5.36,85.0
-Jean-Ricner Bellegarde,MID,Wolves,0.5,1.54,42.0
-Fer López González,MID,Wolves,0.5,-0.04,12.0
-João Victor Gomes da Silva,MID,Wolves,0.5,4.36,96.0
+Hwang Hee-chan,MID,Wolves,0.6,0.63,46.0
+André Trindade da Costa Neto,MID,Wolves,0.5,5.14,85.0
+Jean-Ricner Bellegarde,MID,Wolves,0.5,1.46,42.0
+Fer López González,MID,Wolves,0.5,-0.93,12.0
+João Victor Gomes da Silva,MID,Wolves,0.5,5.41,96.0
 Gonçalo Manuel Ganchinho Guedes,MID,Wolves,0.6,-0.03,0.0
-Marshall Munetsi,MID,Wolves,0.5,-0.73,38.0
-Boubacar Traoré,MID,Wolves,0.5,-0.04,0.0
+Marshall Munetsi,MID,Wolves,0.5,-0.72,38.0
+Boubacar Traoré,MID,Wolves,0.5,-0.03,0.0
 Tawanda Chirewa,MID,Wolves,0.4,-0.98,2.0
-Tom Edozie,MID,Wolves,0.4,0.35,7.0
+Tom Edozie,MID,Wolves,0.4,-0.05,7.0
 Enso González Medina,MID,Wolves,0.4,-0.89,0.0
 Joe Hodge,MID,Wolves,0.5,0.01,0.0
 Fábio Soares Silva,FWD,Wolves,0.5,-0.04,0.0
 Saša Kalajdžić,FWD,Wolves,0.5,-0.04,1.0
-Leon Chiwome,FWD,Wolves,0.4,-0.54,0.0
-Nathan Fraser,FWD,Wolves,0.4,-0.47,0.0
-Jhon Arias,MID,Wolves,0.5,0.01,45.0
-David Møller Wolfe,DEF,Wolves,0.4,-0.49,29.0
-Jackson Tchatchoua,DEF,Wolves,0.4,-0.97,51.0
-Ladislav Krejcí,DEF,Wolves,0.5,0.63,60.0
-Tolu Arokodare,FWD,Wolves,0.5,-0.39,60.0
-Mateus Mané,FWD,Wolves,0.4,0.92,55.0
+Leon Chiwome,FWD,Wolves,0.4,-0.59,0.0
+Nathan Fraser,FWD,Wolves,0.4,-0.52,0.0
+Jhon Arias,MID,Wolves,0.5,-0.03,45.0
+David Møller Wolfe,DEF,Wolves,0.4,-0.56,29.0
+Jackson Tchatchoua,DEF,Wolves,0.4,-1.0,51.0
+Ladislav Krejcí,DEF,Wolves,0.5,0.33,60.0
+Tolu Arokodare,FWD,Wolves,0.5,-0.34,60.0
+Mateus Mané,FWD,Wolves,0.4,1.11,55.0
 Saheed Olagunju,DEF,Wolves,0.4,-1.18,0.0
-Luke Rawlings,MID,Wolves,0.5,-0.54,0.0
+Luke Rawlings,MID,Wolves,0.5,-1.47,0.0
 Temple Ojinnaka,MID,Wolves,0.5,-0.04,0.0
 Ethan Sutherland,MID,Wolves,0.5,-1.17,0.0
 Jerome Abbey,MID,Wolves,0.5,-0.51,0.0
-Angel Gomes,MID,Wolves,0.5,2.2,12.0
-Adam Armstrong,FWD,Wolves,0.5,3.5,24.0
-Alfie Brooks,GK,Wolves,0.4,0.14,0.0
+Angel Gomes,MID,Wolves,0.5,2.27,12.0
+Adam Armstrong,FWD,Wolves,0.5,2.47,24.0
+Alfie Brooks,GK,Wolves,0.4,0.15,0.0
