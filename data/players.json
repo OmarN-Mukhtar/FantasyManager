@@ -12,9 +12,9 @@
     "element_type": 1,
     "now_cost": 6.0,
     "total_points": 131,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 4.0,
-    "selected_by_percent": 35.3
+    "selected_by_percent": 33.9
   },
   {
     "id": 2,
@@ -80,9 +80,9 @@
     "element_type": 2,
     "now_cost": 7.1,
     "total_points": 177,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 6.6,
-    "selected_by_percent": 44.0
+    "selected_by_percent": 43.1
   },
   {
     "id": 6,
@@ -97,9 +97,9 @@
     "element_type": 2,
     "now_cost": 6.1,
     "total_points": 111,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 4.1,
-    "selected_by_percent": 14.4
+    "selected_by_percent": 14.2
   },
   {
     "id": 7,
@@ -133,7 +133,7 @@
     "total_points": 149,
     "form": 0.0,
     "points_per_game": 5.0,
-    "selected_by_percent": 20.5
+    "selected_by_percent": 19.8
   },
   {
     "id": 9,
@@ -165,7 +165,7 @@
     "element_type": 2,
     "now_cost": 5.0,
     "total_points": 13,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 0.9,
     "selected_by_percent": 1.4
   },
@@ -182,7 +182,7 @@
     "element_type": 2,
     "now_cost": 5.1,
     "total_points": 32,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.6,
     "selected_by_percent": 0.5
   },
@@ -201,7 +201,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.5
+    "selected_by_percent": 0.4
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.3
+    "selected_by_percent": 0.2
   },
   {
     "id": 16,
@@ -267,7 +267,7 @@
     "element_type": 3,
     "now_cost": 7.8,
     "total_points": 64,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.0,
     "selected_by_percent": 1.6
   },
@@ -284,7 +284,7 @@
     "element_type": 3,
     "now_cost": 6.8,
     "total_points": 56,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.5,
     "selected_by_percent": 0.8
   },
@@ -301,7 +301,7 @@
     "element_type": 3,
     "now_cost": 6.8,
     "total_points": 49,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 1.8,
     "selected_by_percent": 0.9
   },
@@ -318,7 +318,7 @@
     "element_type": 3,
     "now_cost": 6.5,
     "total_points": 101,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.6,
     "selected_by_percent": 0.8
   },
@@ -335,9 +335,9 @@
     "element_type": 3,
     "now_cost": 7.2,
     "total_points": 169,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 5.3,
-    "selected_by_percent": 24.8
+    "selected_by_percent": 24.5
   },
   {
     "id": 22,
@@ -420,7 +420,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 123,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.7,
     "selected_by_percent": 3.1
   },
@@ -471,9 +471,9 @@
     "element_type": 4,
     "now_cost": 7.3,
     "total_points": 19,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 2.4,
-    "selected_by_percent": 0.9
+    "selected_by_percent": 0.8
   },
   {
     "id": 31,
@@ -488,7 +488,7 @@
     "element_type": 4,
     "now_cost": 6.4,
     "total_points": 18,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.5,
     "selected_by_percent": 0.3
   },
@@ -505,7 +505,7 @@
     "element_type": 3,
     "now_cost": 7.2,
     "total_points": 97,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.5,
     "selected_by_percent": 8.0
   },
@@ -522,7 +522,7 @@
     "element_type": 2,
     "now_cost": 5.3,
     "total_points": 29,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.8,
     "selected_by_percent": 0.2
   },
@@ -539,9 +539,9 @@
     "element_type": 4,
     "now_cost": 8.8,
     "total_points": 107,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.5,
-    "selected_by_percent": 12.4
+    "selected_by_percent": 12.2
   },
   {
     "id": 700,
@@ -556,9 +556,9 @@
     "element_type": 3,
     "now_cost": 4.2,
     "total_points": 12,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.0,
-    "selected_by_percent": 0.9
+    "selected_by_percent": 0.7
   },
   {
     "id": 711,
@@ -590,7 +590,7 @@
     "element_type": 2,
     "now_cost": 5.1,
     "total_points": 75,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.4,
     "selected_by_percent": 0.8
   },
@@ -624,7 +624,7 @@
     "element_type": 1,
     "now_cost": 5.1,
     "total_points": 107,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.8,
     "selected_by_percent": 4.8
   },
@@ -641,7 +641,7 @@
     "element_type": 1,
     "now_cost": 4.2,
     "total_points": 14,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.3,
     "selected_by_percent": 0.4
   },
@@ -692,7 +692,7 @@
     "element_type": 2,
     "now_cost": 4.7,
     "total_points": 108,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.6,
     "selected_by_percent": 8.4
   },
@@ -709,7 +709,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 90,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 3.2,
     "selected_by_percent": 1.6
   },
@@ -726,7 +726,7 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 96,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.1,
     "selected_by_percent": 7.8
   },
@@ -743,7 +743,7 @@
     "element_type": 2,
     "now_cost": 4.2,
     "total_points": 46,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 1.8,
     "selected_by_percent": 0.6
   },
@@ -760,7 +760,7 @@
     "element_type": 2,
     "now_cost": 4.3,
     "total_points": 45,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.2,
     "selected_by_percent": 0.7
   },
@@ -777,7 +777,7 @@
     "element_type": 2,
     "now_cost": 4.3,
     "total_points": 58,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.2,
     "selected_by_percent": 0.3
   },
@@ -794,7 +794,7 @@
     "element_type": 2,
     "now_cost": 3.9,
     "total_points": 4,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 0.8,
     "selected_by_percent": 0.2
   },
@@ -877,9 +877,9 @@
     "team_id": 2,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 7.4,
+    "now_cost": 7.5,
     "total_points": 152,
-    "form": 7.0,
+    "form": 4.7,
     "points_per_game": 4.6,
     "selected_by_percent": 24.9
   },
@@ -896,9 +896,9 @@
     "element_type": 3,
     "now_cost": 5.9,
     "total_points": 57,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.9,
-    "selected_by_percent": 0.6
+    "selected_by_percent": 0.7
   },
   {
     "id": 49,
@@ -930,7 +930,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 85,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.7,
     "selected_by_percent": 0.4
   },
@@ -981,7 +981,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 89,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.4,
     "selected_by_percent": 0.7
   },
@@ -998,7 +998,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 39,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.4,
     "selected_by_percent": 0.1
   },
@@ -1066,7 +1066,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 75,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 3.1,
     "selected_by_percent": 0.7
   },
@@ -1149,11 +1149,11 @@
     "team_id": 2,
     "position": "FWD",
     "element_type": 4,
-    "now_cost": 8.7,
+    "now_cost": 8.8,
     "total_points": 127,
-    "form": 9.0,
+    "form": 6.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 16.4
+    "selected_by_percent": 15.9
   },
   {
     "id": 65,
@@ -1202,7 +1202,7 @@
     "element_type": 3,
     "now_cost": 5.8,
     "total_points": 33,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.6,
     "selected_by_percent": 0.2
   },
@@ -1236,7 +1236,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 31,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.8,
     "selected_by_percent": 0.1
   },
@@ -1321,7 +1321,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 24,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 1.8,
     "selected_by_percent": 0.1
   },
@@ -1423,7 +1423,7 @@
     "element_type": 4,
     "now_cost": 5.8,
     "total_points": 21,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 2.1,
     "selected_by_percent": 0.2
   },
@@ -1578,7 +1578,7 @@
     "total_points": 77,
     "form": 2.7,
     "points_per_game": 2.5,
-    "selected_by_percent": 7.0
+    "selected_by_percent": 7.1
   },
   {
     "id": 192,
@@ -2071,7 +2071,7 @@
     "total_points": 94,
     "form": 2.0,
     "points_per_game": 2.8,
-    "selected_by_percent": 27.2
+    "selected_by_percent": 28.1
   },
   {
     "id": 614,
@@ -2224,7 +2224,7 @@
     "total_points": 106,
     "form": 1.3,
     "points_per_game": 3.1,
-    "selected_by_percent": 5.1
+    "selected_by_percent": 5.4
   },
   {
     "id": 68,
@@ -2309,7 +2309,7 @@
     "total_points": 147,
     "form": 3.3,
     "points_per_game": 4.5,
-    "selected_by_percent": 19.7
+    "selected_by_percent": 21.0
   },
   {
     "id": 73,
@@ -2343,7 +2343,7 @@
     "total_points": 139,
     "form": 5.7,
     "points_per_game": 4.1,
-    "selected_by_percent": 3.9
+    "selected_by_percent": 4.3
   },
   {
     "id": 75,
@@ -2394,7 +2394,7 @@
     "total_points": 90,
     "form": 2.7,
     "points_per_game": 3.6,
-    "selected_by_percent": 6.4
+    "selected_by_percent": 8.0
   },
   {
     "id": 78,
@@ -2479,7 +2479,7 @@
     "total_points": 120,
     "form": 3.7,
     "points_per_game": 4.0,
-    "selected_by_percent": 3.5
+    "selected_by_percent": 5.1
   },
   {
     "id": 85,
@@ -2530,7 +2530,7 @@
     "total_points": 48,
     "form": 2.0,
     "points_per_game": 2.0,
-    "selected_by_percent": 0.1
+    "selected_by_percent": 0.2
   },
   {
     "id": 88,
@@ -2581,7 +2581,7 @@
     "total_points": 125,
     "form": 5.7,
     "points_per_game": 3.7,
-    "selected_by_percent": 2.4
+    "selected_by_percent": 2.6
   },
   {
     "id": 91,
@@ -2700,7 +2700,7 @@
     "total_points": 105,
     "form": 3.7,
     "points_per_game": 3.3,
-    "selected_by_percent": 2.6
+    "selected_by_percent": 2.5
   },
   {
     "id": 98,
@@ -2751,7 +2751,7 @@
     "total_points": 95,
     "form": 5.3,
     "points_per_game": 3.3,
-    "selected_by_percent": 5.5
+    "selected_by_percent": 5.6
   },
   {
     "id": 391,
@@ -2951,11 +2951,11 @@
     "team_id": 4,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 5.5,
+    "now_cost": 5.4,
     "total_points": 45,
     "form": 4.3,
     "points_per_game": 4.1,
-    "selected_by_percent": 1.4
+    "selected_by_percent": 1.5
   },
   {
     "id": 27,
@@ -2970,7 +2970,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 8,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.1
   },
@@ -2985,9 +2985,9 @@
     "team_id": 5,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 5.9,
+    "now_cost": 5.8,
     "total_points": 111,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 4.1,
     "selected_by_percent": 2.4
   },
@@ -3004,9 +3004,9 @@
     "element_type": 1,
     "now_cost": 4.8,
     "total_points": 122,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 3.8,
-    "selected_by_percent": 12.6
+    "selected_by_percent": 12.8
   },
   {
     "id": 102,
@@ -3074,7 +3074,7 @@
     "total_points": 1,
     "form": 0.0,
     "points_per_game": 1.0,
-    "selected_by_percent": 1.1
+    "selected_by_percent": 0.7
   },
   {
     "id": 106,
@@ -3089,7 +3089,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 114,
-    "form": 4.5,
+    "form": 3.0,
     "points_per_game": 3.8,
     "selected_by_percent": 2.7
   },
@@ -3106,7 +3106,7 @@
     "element_type": 2,
     "now_cost": 4.8,
     "total_points": 96,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.1,
     "selected_by_percent": 1.6
   },
@@ -3157,9 +3157,9 @@
     "element_type": 2,
     "now_cost": 4.6,
     "total_points": 104,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 3.2,
-    "selected_by_percent": 1.2
+    "selected_by_percent": 1.1
   },
   {
     "id": 111,
@@ -3208,7 +3208,7 @@
     "element_type": 2,
     "now_cost": 4.6,
     "total_points": 99,
-    "form": 4.5,
+    "form": 3.0,
     "points_per_game": 3.5,
     "selected_by_percent": 1.3
   },
@@ -3308,9 +3308,9 @@
     "team_id": 5,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 7.0,
+    "now_cost": 6.9,
     "total_points": 110,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 3.7,
     "selected_by_percent": 1.7
   },
@@ -3327,7 +3327,7 @@
     "element_type": 3,
     "now_cost": 5.6,
     "total_points": 93,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.3,
     "selected_by_percent": 0.8
   },
@@ -3412,7 +3412,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 77,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 2.5,
     "selected_by_percent": 0.1
   },
@@ -3463,7 +3463,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 87,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 2.6,
     "selected_by_percent": 0.1
   },
@@ -3565,7 +3565,7 @@
     "element_type": 4,
     "now_cost": 7.4,
     "total_points": 168,
-    "form": 7.5,
+    "form": 5.0,
     "points_per_game": 5.1,
     "selected_by_percent": 35.4
   },
@@ -3737,7 +3737,7 @@
     "total_points": 118,
     "form": 5.7,
     "points_per_game": 3.5,
-    "selected_by_percent": 7.0
+    "selected_by_percent": 8.8
   },
   {
     "id": 140,
@@ -3890,7 +3890,7 @@
     "total_points": 108,
     "form": 7.3,
     "points_per_game": 3.3,
-    "selected_by_percent": 0.6
+    "selected_by_percent": 0.7
   },
   {
     "id": 149,
@@ -3941,7 +3941,7 @@
     "total_points": 137,
     "form": 5.7,
     "points_per_game": 4.3,
-    "selected_by_percent": 7.5
+    "selected_by_percent": 9.6
   },
   {
     "id": 152,
@@ -4094,7 +4094,7 @@
     "total_points": 102,
     "form": 2.3,
     "points_per_game": 3.4,
-    "selected_by_percent": 2.3
+    "selected_by_percent": 2.4
   },
   {
     "id": 161,
@@ -4145,7 +4145,7 @@
     "total_points": 71,
     "form": 4.3,
     "points_per_game": 3.1,
-    "selected_by_percent": 0.2
+    "selected_by_percent": 0.4
   },
   {
     "id": 164,
@@ -4213,7 +4213,7 @@
     "total_points": 45,
     "form": 1.3,
     "points_per_game": 1.7,
-    "selected_by_percent": 1.5
+    "selected_by_percent": 1.4
   },
   {
     "id": 169,
@@ -4230,7 +4230,7 @@
     "total_points": 95,
     "form": 2.0,
     "points_per_game": 3.2,
-    "selected_by_percent": 0.7
+    "selected_by_percent": 0.8
   },
   {
     "id": 170,
@@ -4298,7 +4298,7 @@
     "total_points": 91,
     "form": 6.7,
     "points_per_game": 3.8,
-    "selected_by_percent": 0.5
+    "selected_by_percent": 0.6
   },
   {
     "id": 174,
@@ -4383,7 +4383,7 @@
     "total_points": 116,
     "form": 3.3,
     "points_per_game": 3.5,
-    "selected_by_percent": 7.2
+    "selected_by_percent": 7.7
   },
   {
     "id": 179,
@@ -4485,7 +4485,7 @@
     "total_points": 65,
     "form": 7.3,
     "points_per_game": 4.3,
-    "selected_by_percent": 1.0
+    "selected_by_percent": 1.9
   },
   {
     "id": 795,
@@ -4519,7 +4519,7 @@
     "total_points": 108,
     "form": 2.0,
     "points_per_game": 3.4,
-    "selected_by_percent": 11.7
+    "selected_by_percent": 11.8
   },
   {
     "id": 221,
@@ -4587,7 +4587,7 @@
     "total_points": 97,
     "form": 1.0,
     "points_per_game": 3.2,
-    "selected_by_percent": 14.8
+    "selected_by_percent": 15.0
   },
   {
     "id": 225,
@@ -4621,7 +4621,7 @@
     "total_points": 133,
     "form": 0.7,
     "points_per_game": 4.3,
-    "selected_by_percent": 9.7
+    "selected_by_percent": 9.5
   },
   {
     "id": 227,
@@ -4655,7 +4655,7 @@
     "total_points": 95,
     "form": 1.3,
     "points_per_game": 3.1,
-    "selected_by_percent": 1.9
+    "selected_by_percent": 2.0
   },
   {
     "id": 229,
@@ -4740,7 +4740,7 @@
     "total_points": 36,
     "form": 1.0,
     "points_per_game": 2.4,
-    "selected_by_percent": 1.8
+    "selected_by_percent": 1.6
   },
   {
     "id": 234,
@@ -4774,7 +4774,7 @@
     "total_points": 102,
     "form": 2.0,
     "points_per_game": 4.6,
-    "selected_by_percent": 15.6
+    "selected_by_percent": 17.1
   },
   {
     "id": 236,
@@ -4978,7 +4978,7 @@
     "total_points": 166,
     "form": 0.7,
     "points_per_game": 5.2,
-    "selected_by_percent": 42.9
+    "selected_by_percent": 43.4
   },
   {
     "id": 250,
@@ -5029,7 +5029,7 @@
     "total_points": 13,
     "form": 0.3,
     "points_per_game": 1.3,
-    "selected_by_percent": 5.4
+    "selected_by_percent": 5.1
   },
   {
     "id": 453,
@@ -5146,9 +5146,9 @@
     "element_type": 1,
     "now_cost": 5.1,
     "total_points": 124,
-    "form": 4.5,
+    "form": 3.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 8.0
+    "selected_by_percent": 8.1
   },
   {
     "id": 254,
@@ -5197,7 +5197,7 @@
     "element_type": 2,
     "now_cost": 5.8,
     "total_points": 120,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 5.2,
     "selected_by_percent": 7.8
   },
@@ -5214,9 +5214,9 @@
     "element_type": 2,
     "now_cost": 5.1,
     "total_points": 143,
-    "form": 7.5,
+    "form": 5.0,
     "points_per_game": 4.8,
-    "selected_by_percent": 5.2
+    "selected_by_percent": 5.3
   },
   {
     "id": 258,
@@ -5231,7 +5231,7 @@
     "element_type": 2,
     "now_cost": 5.0,
     "total_points": 126,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 3.9,
     "selected_by_percent": 2.3
   },
@@ -5248,7 +5248,7 @@
     "element_type": 2,
     "now_cost": 4.8,
     "total_points": 6,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.1
   },
@@ -5265,9 +5265,9 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 122,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 4.4,
-    "selected_by_percent": 2.4
+    "selected_by_percent": 2.5
   },
   {
     "id": 262,
@@ -5350,7 +5350,7 @@
     "element_type": 3,
     "now_cost": 6.3,
     "total_points": 95,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 4.3,
     "selected_by_percent": 3.8
   },
@@ -5401,7 +5401,7 @@
     "element_type": 3,
     "now_cost": 4.7,
     "total_points": 42,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.4,
     "selected_by_percent": 0.1
   },
@@ -5418,7 +5418,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 55,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.5,
     "selected_by_percent": 0.1
   },
@@ -5435,7 +5435,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 62,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 2.4,
     "selected_by_percent": 0.1
   },
@@ -5452,7 +5452,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 92,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.3,
     "selected_by_percent": 0.6
   },
@@ -5503,7 +5503,7 @@
     "element_type": 3,
     "now_cost": 4.3,
     "total_points": 30,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.6,
     "selected_by_percent": 1.1
   },
@@ -5622,7 +5622,7 @@
     "element_type": 4,
     "now_cost": 7.6,
     "total_points": 98,
-    "form": 6.5,
+    "form": 4.3,
     "points_per_game": 3.8,
     "selected_by_percent": 7.5
   },
@@ -5690,7 +5690,7 @@
     "element_type": 3,
     "now_cost": 6.5,
     "total_points": 57,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.0,
     "selected_by_percent": 2.3
   },
@@ -5707,7 +5707,7 @@
     "element_type": 4,
     "now_cost": 5.9,
     "total_points": 65,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.2,
     "selected_by_percent": 1.5
   },
@@ -5758,7 +5758,7 @@
     "element_type": 3,
     "now_cost": 5.8,
     "total_points": 69,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.4,
     "selected_by_percent": 0.2
   },
@@ -5775,7 +5775,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 62,
-    "form": 7.0,
+    "form": 4.7,
     "points_per_game": 4.1,
     "selected_by_percent": 0.2
   },
@@ -5894,9 +5894,9 @@
     "element_type": 3,
     "now_cost": 5.1,
     "total_points": 132,
-    "form": 7.5,
+    "form": 5.0,
     "points_per_game": 5.1,
-    "selected_by_percent": 5.9
+    "selected_by_percent": 5.8
   },
   {
     "id": 243,
@@ -5911,7 +5911,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 12,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 1.1,
     "selected_by_percent": 0.1
   },
@@ -5928,9 +5928,9 @@
     "element_type": 1,
     "now_cost": 5.6,
     "total_points": 127,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.8,
-    "selected_by_percent": 13.9
+    "selected_by_percent": 13.6
   },
   {
     "id": 288,
@@ -5979,7 +5979,7 @@
     "element_type": 2,
     "now_cost": 5.3,
     "total_points": 32,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.2,
     "selected_by_percent": 0.4
   },
@@ -5996,9 +5996,9 @@
     "element_type": 2,
     "now_cost": 5.7,
     "total_points": 146,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 4.6,
-    "selected_by_percent": 12.9
+    "selected_by_percent": 12.4
   },
   {
     "id": 292,
@@ -6013,7 +6013,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 90,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.2,
     "selected_by_percent": 0.7
   },
@@ -6030,7 +6030,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 107,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 3.3,
     "selected_by_percent": 0.7
   },
@@ -6064,7 +6064,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 119,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 4.2,
     "selected_by_percent": 2.9
   },
@@ -6117,7 +6117,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.2
+    "selected_by_percent": 0.1
   },
   {
     "id": 299,
@@ -6132,9 +6132,9 @@
     "element_type": 3,
     "now_cost": 6.2,
     "total_points": 118,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 4.4,
-    "selected_by_percent": 5.0
+    "selected_by_percent": 4.6
   },
   {
     "id": 300,
@@ -6149,7 +6149,7 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 50,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.5,
     "selected_by_percent": 0.2
   },
@@ -6183,7 +6183,7 @@
     "element_type": 3,
     "now_cost": 5.4,
     "total_points": 81,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.4,
     "selected_by_percent": 0.1
   },
@@ -6200,7 +6200,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 145,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 4.4,
     "selected_by_percent": 4.3
   },
@@ -6217,7 +6217,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 58,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.4,
     "selected_by_percent": 0.0
   },
@@ -6319,7 +6319,7 @@
     "element_type": 4,
     "now_cost": 5.7,
     "total_points": 78,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.4,
     "selected_by_percent": 0.8
   },
@@ -6336,9 +6336,9 @@
     "element_type": 4,
     "now_cost": 5.0,
     "total_points": 92,
-    "form": 8.0,
+    "form": 5.3,
     "points_per_game": 2.8,
-    "selected_by_percent": 3.6
+    "selected_by_percent": 3.1
   },
   {
     "id": 312,
@@ -6523,9 +6523,9 @@
     "element_type": 1,
     "now_cost": 4.9,
     "total_points": 101,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 3.1,
-    "selected_by_percent": 2.0
+    "selected_by_percent": 1.9
   },
   {
     "id": 315,
@@ -6557,7 +6557,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 44,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.6,
     "selected_by_percent": 0.8
   },
@@ -6574,7 +6574,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 111,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.7,
     "selected_by_percent": 4.7
   },
@@ -6591,7 +6591,7 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 86,
-    "form": 4.5,
+    "form": 3.0,
     "points_per_game": 3.4,
     "selected_by_percent": 0.7
   },
@@ -6608,7 +6608,7 @@
     "element_type": 2,
     "now_cost": 4.3,
     "total_points": 40,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 1.6,
     "selected_by_percent": 0.1
   },
@@ -6693,9 +6693,9 @@
     "element_type": 3,
     "now_cost": 6.3,
     "total_points": 98,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.6,
-    "selected_by_percent": 1.7
+    "selected_by_percent": 1.6
   },
   {
     "id": 325,
@@ -6710,7 +6710,7 @@
     "element_type": 3,
     "now_cost": 5.6,
     "total_points": 69,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.2,
     "selected_by_percent": 0.5
   },
@@ -6744,7 +6744,7 @@
     "element_type": 3,
     "now_cost": 5.4,
     "total_points": 84,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 3.2,
     "selected_by_percent": 0.2
   },
@@ -6761,9 +6761,9 @@
     "element_type": 3,
     "now_cost": 6.0,
     "total_points": 157,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 5.1,
-    "selected_by_percent": 22.5
+    "selected_by_percent": 22.2
   },
   {
     "id": 330,
@@ -6778,7 +6778,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 84,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.6,
     "selected_by_percent": 0.1
   },
@@ -6795,7 +6795,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 32,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.5,
     "selected_by_percent": 0.0
   },
@@ -6812,7 +6812,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 54,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.5,
     "selected_by_percent": 0.1
   },
@@ -6863,9 +6863,9 @@
     "element_type": 3,
     "now_cost": 4.4,
     "total_points": 59,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.2,
-    "selected_by_percent": 1.8
+    "selected_by_percent": 1.7
   },
   {
     "id": 336,
@@ -6897,7 +6897,7 @@
     "element_type": 4,
     "now_cost": 6.1,
     "total_points": 106,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.3,
     "selected_by_percent": 2.3
   },
@@ -6914,7 +6914,7 @@
     "element_type": 4,
     "now_cost": 5.3,
     "total_points": 29,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 1.8,
     "selected_by_percent": 0.7
   },
@@ -6931,7 +6931,7 @@
     "element_type": 3,
     "now_cost": 5.1,
     "total_points": 34,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 1.9,
     "selected_by_percent": 0.2
   },
@@ -6965,7 +6965,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 54,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.8,
     "selected_by_percent": 0.1
   },
@@ -7103,7 +7103,7 @@
     "total_points": 54,
     "form": 4.0,
     "points_per_game": 3.0,
-    "selected_by_percent": 4.3
+    "selected_by_percent": 6.0
   },
   {
     "id": 342,
@@ -7137,7 +7137,7 @@
     "total_points": 105,
     "form": 4.0,
     "points_per_game": 3.4,
-    "selected_by_percent": 1.7
+    "selected_by_percent": 2.8
   },
   {
     "id": 344,
@@ -7154,7 +7154,7 @@
     "total_points": 80,
     "form": 4.7,
     "points_per_game": 3.8,
-    "selected_by_percent": 0.9
+    "selected_by_percent": 1.1
   },
   {
     "id": 345,
@@ -7188,7 +7188,7 @@
     "total_points": 1,
     "form": 0.0,
     "points_per_game": 1.0,
-    "selected_by_percent": 0.4
+    "selected_by_percent": 0.3
   },
   {
     "id": 347,
@@ -7256,7 +7256,7 @@
     "total_points": 121,
     "form": 4.0,
     "points_per_game": 3.7,
-    "selected_by_percent": 1.0
+    "selected_by_percent": 1.1
   },
   {
     "id": 351,
@@ -7324,7 +7324,7 @@
     "total_points": 117,
     "form": 5.0,
     "points_per_game": 3.8,
-    "selected_by_percent": 0.4
+    "selected_by_percent": 0.5
   },
   {
     "id": 355,
@@ -7579,7 +7579,7 @@
     "total_points": 120,
     "form": 3.3,
     "points_per_game": 3.9,
-    "selected_by_percent": 9.6
+    "selected_by_percent": 11.1
   },
   {
     "id": 698,
@@ -7596,7 +7596,7 @@
     "total_points": 99,
     "form": 10.3,
     "points_per_game": 3.7,
-    "selected_by_percent": 1.2
+    "selected_by_percent": 1.5
   },
   {
     "id": 706,
@@ -7613,7 +7613,7 @@
     "total_points": 81,
     "form": 6.7,
     "points_per_game": 3.2,
-    "selected_by_percent": 1.1
+    "selected_by_percent": 1.4
   },
   {
     "id": 741,
@@ -7679,7 +7679,7 @@
     "element_type": 1,
     "now_cost": 4.1,
     "total_points": 31,
-    "form": 5.0,
+    "form": 3.3,
     "points_per_game": 3.9,
     "selected_by_percent": 0.7
   },
@@ -7713,9 +7713,9 @@
     "element_type": 1,
     "now_cost": 3.9,
     "total_points": 1,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
-    "selected_by_percent": 0.7
+    "selected_by_percent": 0.3
   },
   {
     "id": 370,
@@ -7730,7 +7730,7 @@
     "element_type": 2,
     "now_cost": 5.7,
     "total_points": 58,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.4,
     "selected_by_percent": 5.2
   },
@@ -7747,7 +7747,7 @@
     "element_type": 2,
     "now_cost": 5.6,
     "total_points": 80,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.8,
     "selected_by_percent": 3.1
   },
@@ -7764,7 +7764,7 @@
     "element_type": 2,
     "now_cost": 5.7,
     "total_points": 45,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 2.1,
     "selected_by_percent": 1.0
   },
@@ -7781,9 +7781,9 @@
     "element_type": 2,
     "now_cost": 6.2,
     "total_points": 152,
-    "form": 8.5,
+    "form": 5.7,
     "points_per_game": 4.6,
-    "selected_by_percent": 35.8
+    "selected_by_percent": 33.7
   },
   {
     "id": 374,
@@ -7798,7 +7798,7 @@
     "element_type": 2,
     "now_cost": 5.5,
     "total_points": 121,
-    "form": 5.0,
+    "form": 3.3,
     "points_per_game": 3.9,
     "selected_by_percent": 4.3
   },
@@ -7832,7 +7832,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 31,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.8,
     "selected_by_percent": 0.1
   },
@@ -7885,7 +7885,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.6
+    "selected_by_percent": 0.5
   },
   {
     "id": 380,
@@ -7917,9 +7917,9 @@
     "element_type": 3,
     "now_cost": 14.0,
     "total_points": 115,
-    "form": 9.0,
+    "form": 6.0,
     "points_per_game": 4.8,
-    "selected_by_percent": 17.2
+    "selected_by_percent": 14.9
   },
   {
     "id": 382,
@@ -7934,9 +7934,9 @@
     "element_type": 3,
     "now_cost": 8.3,
     "total_points": 113,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 3.9,
-    "selected_by_percent": 9.2
+    "selected_by_percent": 9.1
   },
   {
     "id": 383,
@@ -7968,9 +7968,9 @@
     "element_type": 3,
     "now_cost": 7.3,
     "total_points": 117,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 3.8,
-    "selected_by_percent": 6.1
+    "selected_by_percent": 5.8
   },
   {
     "id": 385,
@@ -8002,7 +8002,7 @@
     "element_type": 3,
     "now_cost": 6.2,
     "total_points": 87,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.7,
     "selected_by_percent": 2.0
   },
@@ -8019,9 +8019,9 @@
     "element_type": 3,
     "now_cost": 7.1,
     "total_points": 133,
-    "form": 5.0,
+    "form": 3.3,
     "points_per_game": 4.3,
-    "selected_by_percent": 13.7
+    "selected_by_percent": 13.4
   },
   {
     "id": 388,
@@ -8036,7 +8036,7 @@
     "element_type": 3,
     "now_cost": 5.4,
     "total_points": 59,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 2.0,
     "selected_by_percent": 0.1
   },
@@ -8053,9 +8053,9 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 127,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 4.1,
-    "selected_by_percent": 4.2
+    "selected_by_percent": 4.1
   },
   {
     "id": 392,
@@ -8138,7 +8138,7 @@
     "element_type": 3,
     "now_cost": 4.3,
     "total_points": 5,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.3
   },
@@ -8189,9 +8189,9 @@
     "element_type": 4,
     "now_cost": 10.3,
     "total_points": 32,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.7,
-    "selected_by_percent": 4.3
+    "selected_by_percent": 4.1
   },
   {
     "id": 661,
@@ -8208,7 +8208,7 @@
     "total_points": 125,
     "form": 0.0,
     "points_per_game": 4.5,
-    "selected_by_percent": 19.9
+    "selected_by_percent": 18.7
   },
   {
     "id": 686,
@@ -8223,7 +8223,7 @@
     "element_type": 3,
     "now_cost": 4.3,
     "total_points": 32,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 2.1,
     "selected_by_percent": 1.1
   },
@@ -8293,7 +8293,7 @@
     "total_points": 181,
     "form": 2.3,
     "points_per_game": 5.7,
-    "selected_by_percent": 49.6
+    "selected_by_percent": 51.4
   },
   {
     "id": 182,
@@ -8327,7 +8327,7 @@
     "total_points": 158,
     "form": 7.7,
     "points_per_game": 5.1,
-    "selected_by_percent": 32.1
+    "selected_by_percent": 32.8
   },
   {
     "id": 399,
@@ -8361,7 +8361,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.5
+    "selected_by_percent": 0.4
   },
   {
     "id": 402,
@@ -8463,7 +8463,7 @@
     "total_points": 145,
     "form": 5.7,
     "points_per_game": 4.8,
-    "selected_by_percent": 2.8
+    "selected_by_percent": 2.9
   },
   {
     "id": 408,
@@ -8531,7 +8531,7 @@
     "total_points": 152,
     "form": 9.0,
     "points_per_game": 4.9,
-    "selected_by_percent": 11.9
+    "selected_by_percent": 14.7
   },
   {
     "id": 412,
@@ -8633,7 +8633,7 @@
     "total_points": 123,
     "form": 7.7,
     "points_per_game": 4.4,
-    "selected_by_percent": 9.7
+    "selected_by_percent": 10.4
   },
   {
     "id": 418,
@@ -8803,7 +8803,7 @@
     "total_points": 212,
     "form": 5.0,
     "points_per_game": 6.6,
-    "selected_by_percent": 55.0
+    "selected_by_percent": 58.2
   },
   {
     "id": 736,
@@ -8820,7 +8820,7 @@
     "total_points": 119,
     "form": 5.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 9.1
+    "selected_by_percent": 9.2
   },
   {
     "id": 739,
@@ -8935,11 +8935,11 @@
     "team_id": 14,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 8.5,
+    "now_cost": 8.4,
     "total_points": 126,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 4.5,
-    "selected_by_percent": 17.8
+    "selected_by_percent": 17.4
   },
   {
     "id": 431,
@@ -9007,7 +9007,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 0.5
+    "selected_by_percent": 0.4
   },
   {
     "id": 435,
@@ -9056,7 +9056,7 @@
     "element_type": 2,
     "now_cost": 4.8,
     "total_points": 36,
-    "form": -1.5,
+    "form": -1.0,
     "points_per_game": 2.4,
     "selected_by_percent": 0.4
   },
@@ -9073,7 +9073,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 35,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 2.1,
     "selected_by_percent": 0.2
   },
@@ -9107,9 +9107,9 @@
     "element_type": 2,
     "now_cost": 4.6,
     "total_points": 105,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.4,
-    "selected_by_percent": 4.6
+    "selected_by_percent": 4.5
   },
   {
     "id": 441,
@@ -9143,7 +9143,7 @@
     "total_points": 63,
     "form": 0.0,
     "points_per_game": 3.5,
-    "selected_by_percent": 1.4
+    "selected_by_percent": 1.3
   },
   {
     "id": 443,
@@ -9158,9 +9158,9 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 88,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 2.7,
-    "selected_by_percent": 1.0
+    "selected_by_percent": 0.9
   },
   {
     "id": 444,
@@ -9175,7 +9175,7 @@
     "element_type": 2,
     "now_cost": 4.1,
     "total_points": 53,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.8,
     "selected_by_percent": 1.3
   },
@@ -9226,9 +9226,9 @@
     "element_type": 2,
     "now_cost": 3.7,
     "total_points": 39,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 2.6,
-    "selected_by_percent": 3.2
+    "selected_by_percent": 2.3
   },
   {
     "id": 448,
@@ -9245,7 +9245,7 @@
     "total_points": 2,
     "form": 0.0,
     "points_per_game": 1.0,
-    "selected_by_percent": 0.5
+    "selected_by_percent": 0.4
   },
   {
     "id": 449,
@@ -9258,11 +9258,11 @@
     "team_id": 14,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 10.3,
+    "now_cost": 10.4,
     "total_points": 199,
-    "form": 5.0,
+    "form": 3.3,
     "points_per_game": 6.6,
-    "selected_by_percent": 46.8
+    "selected_by_percent": 46.7
   },
   {
     "id": 450,
@@ -9275,11 +9275,11 @@
     "team_id": 14,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 8.0,
+    "now_cost": 8.1,
     "total_points": 125,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 4.2,
-    "selected_by_percent": 10.1
+    "selected_by_percent": 9.2
   },
   {
     "id": 451,
@@ -9311,7 +9311,7 @@
     "element_type": 3,
     "now_cost": 6.2,
     "total_points": 77,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.9,
     "selected_by_percent": 1.4
   },
@@ -9362,9 +9362,9 @@
     "element_type": 3,
     "now_cost": 5.7,
     "total_points": 148,
-    "form": 7.0,
+    "form": 4.7,
     "points_per_game": 4.8,
-    "selected_by_percent": 4.0
+    "selected_by_percent": 3.9
   },
   {
     "id": 458,
@@ -9379,7 +9379,7 @@
     "element_type": 3,
     "now_cost": 4.7,
     "total_points": 49,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.1,
     "selected_by_percent": 1.0
   },
@@ -9396,7 +9396,7 @@
     "element_type": 3,
     "now_cost": 4.7,
     "total_points": 38,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 1.7,
     "selected_by_percent": 0.1
   },
@@ -9515,7 +9515,7 @@
     "element_type": 4,
     "now_cost": 5.8,
     "total_points": 38,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.0,
     "selected_by_percent": 0.4
   },
@@ -9566,9 +9566,9 @@
     "element_type": 4,
     "now_cost": 7.3,
     "total_points": 98,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 3.5,
-    "selected_by_percent": 6.2
+    "selected_by_percent": 6.1
   },
   {
     "id": 733,
@@ -9583,9 +9583,9 @@
     "element_type": 1,
     "now_cost": 5.1,
     "total_points": 88,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 3.3,
-    "selected_by_percent": 3.4
+    "selected_by_percent": 3.1
   },
   {
     "id": 755,
@@ -9685,7 +9685,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 42,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.8,
     "selected_by_percent": 0.2
   },
@@ -9702,7 +9702,7 @@
     "element_type": 4,
     "now_cost": 7.3,
     "total_points": 21,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.5,
     "selected_by_percent": 0.6
   },
@@ -9770,7 +9770,7 @@
     "element_type": 2,
     "now_cost": 5.4,
     "total_points": 74,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.8,
     "selected_by_percent": 3.8
   },
@@ -9804,7 +9804,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 70,
-    "form": 2.5,
+    "form": 1.7,
     "points_per_game": 3.5,
     "selected_by_percent": 0.4
   },
@@ -9821,7 +9821,7 @@
     "element_type": 2,
     "now_cost": 5.0,
     "total_points": 79,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.3,
     "selected_by_percent": 3.4
   },
@@ -9838,7 +9838,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 59,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.5,
     "selected_by_percent": 1.9
   },
@@ -9855,7 +9855,7 @@
     "element_type": 2,
     "now_cost": 4.9,
     "total_points": 51,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.7,
     "selected_by_percent": 1.4
   },
@@ -9974,9 +9974,9 @@
     "element_type": 3,
     "now_cost": 7.4,
     "total_points": 101,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.9,
-    "selected_by_percent": 5.9
+    "selected_by_percent": 5.3
   },
   {
     "id": 486,
@@ -9991,7 +9991,7 @@
     "element_type": 3,
     "now_cost": 6.5,
     "total_points": 45,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.6,
     "selected_by_percent": 2.7
   },
@@ -10008,7 +10008,7 @@
     "element_type": 3,
     "now_cost": 6.1,
     "total_points": 86,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.7,
     "selected_by_percent": 1.1
   },
@@ -10025,9 +10025,9 @@
     "element_type": 3,
     "now_cost": 6.8,
     "total_points": 135,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 5.6,
-    "selected_by_percent": 4.4
+    "selected_by_percent": 4.5
   },
   {
     "id": 489,
@@ -10042,7 +10042,7 @@
     "element_type": 3,
     "now_cost": 5.9,
     "total_points": 67,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.4,
     "selected_by_percent": 0.6
   },
@@ -10059,7 +10059,7 @@
     "element_type": 3,
     "now_cost": 5.9,
     "total_points": 67,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.7,
     "selected_by_percent": 0.3
   },
@@ -10076,7 +10076,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 75,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.4,
     "selected_by_percent": 1.1
   },
@@ -10161,9 +10161,9 @@
     "element_type": 3,
     "now_cost": 4.4,
     "total_points": 68,
-    "form": 5.0,
+    "form": 3.3,
     "points_per_game": 3.2,
-    "selected_by_percent": 1.9
+    "selected_by_percent": 1.8
   },
   {
     "id": 498,
@@ -10195,9 +10195,9 @@
     "element_type": 4,
     "now_cost": 5.4,
     "total_points": 48,
-    "form": 8.5,
+    "form": 5.7,
     "points_per_game": 2.5,
-    "selected_by_percent": 0.6
+    "selected_by_percent": 0.5
   },
   {
     "id": 501,
@@ -10229,7 +10229,7 @@
     "element_type": 1,
     "now_cost": 4.8,
     "total_points": 25,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.1,
     "selected_by_percent": 0.8
   },
@@ -10246,9 +10246,9 @@
     "element_type": 2,
     "now_cost": 5.1,
     "total_points": 117,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.9,
-    "selected_by_percent": 5.8
+    "selected_by_percent": 5.9
   },
   {
     "id": 689,
@@ -10280,7 +10280,7 @@
     "element_type": 4,
     "now_cost": 6.7,
     "total_points": 95,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.3,
     "selected_by_percent": 6.6
   },
@@ -10398,10 +10398,10 @@
     "position": "GK",
     "element_type": 1,
     "now_cost": 4.6,
-    "total_points": 82,
-    "form": 2.5,
-    "points_per_game": 3.2,
-    "selected_by_percent": 5.0
+    "total_points": 89,
+    "form": 4.0,
+    "points_per_game": 3.3,
+    "selected_by_percent": 4.9
   },
   {
     "id": 503,
@@ -10449,9 +10449,9 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 5.1,
-    "total_points": 103,
-    "form": 3.5,
-    "points_per_game": 3.1,
+    "total_points": 111,
+    "form": 5.0,
+    "points_per_game": 3.3,
     "selected_by_percent": 3.4
   },
   {
@@ -10483,9 +10483,9 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.7,
-    "total_points": 58,
-    "form": 2.0,
-    "points_per_game": 3.4,
+    "total_points": 67,
+    "form": 4.3,
+    "points_per_game": 3.7,
     "selected_by_percent": 2.4
   },
   {
@@ -10500,10 +10500,10 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.8,
-    "total_points": 117,
-    "form": 6.5,
+    "total_points": 122,
+    "form": 6.0,
     "points_per_game": 3.7,
-    "selected_by_percent": 4.9
+    "selected_by_percent": 4.6
   },
   {
     "id": 509,
@@ -10534,9 +10534,9 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.2,
-    "total_points": 6,
-    "form": 0.5,
-    "points_per_game": 1.5,
+    "total_points": 7,
+    "form": 0.7,
+    "points_per_game": 1.4,
     "selected_by_percent": 0.1
   },
   {
@@ -10551,8 +10551,8 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.3,
-    "total_points": 36,
-    "form": 0.5,
+    "total_points": 37,
+    "form": 0.7,
     "points_per_game": 2.2,
     "selected_by_percent": 0.1
   },
@@ -10618,11 +10618,11 @@
     "team_id": 16,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 7.5,
-    "total_points": 155,
-    "form": 11.0,
-    "points_per_game": 4.7,
-    "selected_by_percent": 9.9
+    "now_cost": 7.6,
+    "total_points": 168,
+    "form": 11.7,
+    "points_per_game": 4.9,
+    "selected_by_percent": 9.6
   },
   {
     "id": 516,
@@ -10637,7 +10637,7 @@
     "element_type": 3,
     "now_cost": 5.7,
     "total_points": 88,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 2.9,
     "selected_by_percent": 0.7
   },
@@ -10653,10 +10653,10 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 5.6,
-    "total_points": 144,
-    "form": 3.0,
-    "points_per_game": 4.4,
-    "selected_by_percent": 7.3
+    "total_points": 153,
+    "form": 5.0,
+    "points_per_game": 4.5,
+    "selected_by_percent": 7.4
   },
   {
     "id": 518,
@@ -10688,8 +10688,8 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 43,
-    "form": 2.5,
-    "points_per_game": 2.0,
+    "form": 1.7,
+    "points_per_game": 1.9,
     "selected_by_percent": 0.0
   },
   {
@@ -10721,9 +10721,9 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 4.9,
-    "total_points": 83,
-    "form": 4.0,
-    "points_per_game": 3.3,
+    "total_points": 84,
+    "form": 3.0,
+    "points_per_game": 3.2,
     "selected_by_percent": 0.1
   },
   {
@@ -10739,8 +10739,8 @@
     "element_type": 3,
     "now_cost": 4.7,
     "total_points": 25,
-    "form": 2.5,
-    "points_per_game": 1.4,
+    "form": 1.7,
+    "points_per_game": 1.3,
     "selected_by_percent": 0.1
   },
   {
@@ -10789,9 +10789,9 @@
     "position": "FWD",
     "element_type": 4,
     "now_cost": 7.1,
-    "total_points": 28,
-    "form": 1.5,
-    "points_per_game": 2.8,
+    "total_points": 35,
+    "form": 3.3,
+    "points_per_game": 3.2,
     "selected_by_percent": 4.6
   },
   {
@@ -10805,10 +10805,10 @@
     "team_id": 16,
     "position": "FWD",
     "element_type": 4,
-    "now_cost": 5.8,
-    "total_points": 90,
-    "form": 4.5,
-    "points_per_game": 2.8,
+    "now_cost": 5.9,
+    "total_points": 104,
+    "form": 7.7,
+    "points_per_game": 3.2,
     "selected_by_percent": 1.7
   },
   {
@@ -10823,9 +10823,9 @@
     "position": "FWD",
     "element_type": 4,
     "now_cost": 5.2,
-    "total_points": 20,
-    "form": 0.0,
-    "points_per_game": 1.7,
+    "total_points": 24,
+    "form": 1.3,
+    "points_per_game": 1.8,
     "selected_by_percent": 0.3
   },
   {
@@ -10841,7 +10841,7 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 50,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.1,
     "selected_by_percent": 0.7
   },
@@ -10874,7 +10874,7 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 5.4,
-    "total_points": 70,
+    "total_points": 73,
     "form": 3.0,
     "points_per_game": 2.7,
     "selected_by_percent": 0.1
@@ -10960,7 +10960,7 @@
     "element_type": 3,
     "now_cost": 5.9,
     "total_points": 15,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.4,
     "selected_by_percent": 0.0
   },
@@ -10993,8 +10993,8 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.5,
-    "total_points": 2,
-    "form": 0.0,
+    "total_points": 3,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.0
   },
@@ -11063,8 +11063,8 @@
     "now_cost": 4.7,
     "total_points": 118,
     "form": 0.0,
-    "points_per_game": 4.4,
-    "selected_by_percent": 3.3
+    "points_per_game": 4.2,
+    "selected_by_percent": 3.2
   },
   {
     "id": 532,
@@ -11078,10 +11078,10 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 4.5,
-    "total_points": 95,
-    "form": 3.5,
-    "points_per_game": 2.9,
-    "selected_by_percent": 0.4
+    "total_points": 93,
+    "form": 1.7,
+    "points_per_game": 2.7,
+    "selected_by_percent": 0.3
   },
   {
     "id": 533,
@@ -11198,7 +11198,7 @@
     "element_type": 2,
     "now_cost": 4.0,
     "total_points": 16,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 1.6,
     "selected_by_percent": 0.1
   },
@@ -11231,10 +11231,10 @@
     "position": "DEF",
     "element_type": 2,
     "now_cost": 3.8,
-    "total_points": 59,
-    "form": 4.0,
-    "points_per_game": 3.0,
-    "selected_by_percent": 3.3
+    "total_points": 60,
+    "form": 3.0,
+    "points_per_game": 2.9,
+    "selected_by_percent": 2.9
   },
   {
     "id": 542,
@@ -11282,9 +11282,9 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 5.3,
-    "total_points": 59,
-    "form": 4.0,
-    "points_per_game": 3.7,
+    "total_points": 60,
+    "form": 3.0,
+    "points_per_game": 3.5,
     "selected_by_percent": 0.1
   },
   {
@@ -11333,9 +11333,9 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 4.8,
-    "total_points": 120,
-    "form": 6.0,
-    "points_per_game": 3.9,
+    "total_points": 122,
+    "form": 4.7,
+    "points_per_game": 3.8,
     "selected_by_percent": 1.5
   },
   {
@@ -11401,9 +11401,9 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 4.7,
-    "total_points": 30,
-    "form": 4.5,
-    "points_per_game": 2.0,
+    "total_points": 31,
+    "form": 3.3,
+    "points_per_game": 1.9,
     "selected_by_percent": 0.1
   },
   {
@@ -11418,8 +11418,8 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 4.9,
-    "total_points": 68,
-    "form": 3.5,
+    "total_points": 70,
+    "form": 3.0,
     "points_per_game": 2.4,
     "selected_by_percent": 0.1
   },
@@ -11436,7 +11436,7 @@
     "element_type": 3,
     "now_cost": 4.9,
     "total_points": 77,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.1,
     "selected_by_percent": 0.2
   },
@@ -11554,9 +11554,9 @@
     "position": "FWD",
     "element_type": 4,
     "now_cost": 5.0,
-    "total_points": 66,
-    "form": 3.0,
-    "points_per_game": 2.4,
+    "total_points": 67,
+    "form": 2.3,
+    "points_per_game": 2.3,
     "selected_by_percent": 1.4
   },
   {
@@ -11639,9 +11639,9 @@
     "position": "MID",
     "element_type": 3,
     "now_cost": 5.1,
-    "total_points": 106,
-    "form": 3.5,
-    "points_per_game": 3.7,
+    "total_points": 107,
+    "form": 2.7,
+    "points_per_game": 3.6,
     "selected_by_percent": 3.3
   },
   {
@@ -11657,9 +11657,9 @@
     "element_type": 1,
     "now_cost": 4.8,
     "total_points": 122,
-    "form": 6.0,
-    "points_per_game": 4.1,
-    "selected_by_percent": 9.3
+    "form": 4.0,
+    "points_per_game": 3.9,
+    "selected_by_percent": 8.6
   },
   {
     "id": 678,
@@ -11691,8 +11691,8 @@
     "element_type": 2,
     "now_cost": 4.1,
     "total_points": 112,
-    "form": 4.5,
-    "points_per_game": 3.9,
+    "form": 3.0,
+    "points_per_game": 3.7,
     "selected_by_percent": 6.0
   },
   {
@@ -11708,9 +11708,9 @@
     "element_type": 2,
     "now_cost": 4.6,
     "total_points": 128,
-    "form": 6.5,
-    "points_per_game": 4.7,
-    "selected_by_percent": 9.6
+    "form": 4.3,
+    "points_per_game": 4.6,
+    "selected_by_percent": 8.8
   },
   {
     "id": 724,
@@ -11741,10 +11741,10 @@
     "position": "FWD",
     "element_type": 4,
     "now_cost": 5.3,
-    "total_points": 75,
-    "form": 1.5,
+    "total_points": 77,
+    "form": 1.7,
     "points_per_game": 2.9,
-    "selected_by_percent": 1.3
+    "selected_by_percent": 1.2
   },
   {
     "id": 735,
@@ -11929,9 +11929,9 @@
     "element_type": 1,
     "now_cost": 3.9,
     "total_points": 3,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.5,
-    "selected_by_percent": 2.2
+    "selected_by_percent": 1.7
   },
   {
     "id": 568,
@@ -11944,11 +11944,11 @@
     "team_id": 18,
     "position": "DEF",
     "element_type": 2,
-    "now_cost": 5.1,
+    "now_cost": 5.2,
     "total_points": 94,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 3.2,
-    "selected_by_percent": 12.3
+    "selected_by_percent": 10.8
   },
   {
     "id": 569,
@@ -11963,7 +11963,7 @@
     "element_type": 2,
     "now_cost": 5.0,
     "total_points": 91,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 4.0,
     "selected_by_percent": 3.0
   },
@@ -11980,9 +11980,9 @@
     "element_type": 2,
     "now_cost": 4.2,
     "total_points": 41,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.2,
-    "selected_by_percent": 0.3
+    "selected_by_percent": 0.2
   },
   {
     "id": 571,
@@ -12031,7 +12031,7 @@
     "element_type": 2,
     "now_cost": 4.1,
     "total_points": 61,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.4,
     "selected_by_percent": 0.9
   },
@@ -12048,7 +12048,7 @@
     "element_type": 2,
     "now_cost": 4.3,
     "total_points": 18,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 1.1,
     "selected_by_percent": 0.3
   },
@@ -12065,9 +12065,9 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 100,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.3,
-    "selected_by_percent": 18.2
+    "selected_by_percent": 18.1
   },
   {
     "id": 576,
@@ -12201,7 +12201,7 @@
     "element_type": 3,
     "now_cost": 6.2,
     "total_points": 58,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.2,
     "selected_by_percent": 0.1
   },
@@ -12218,7 +12218,7 @@
     "element_type": 3,
     "now_cost": 5.2,
     "total_points": 68,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 3.2,
     "selected_by_percent": 0.2
   },
@@ -12235,7 +12235,7 @@
     "element_type": 3,
     "now_cost": 5.2,
     "total_points": 46,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 2.3,
     "selected_by_percent": 0.2
   },
@@ -12320,7 +12320,7 @@
     "element_type": 3,
     "now_cost": 4.8,
     "total_points": 60,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.6,
     "selected_by_percent": 0.2
   },
@@ -12354,9 +12354,9 @@
     "element_type": 3,
     "now_cost": 4.5,
     "total_points": 66,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.9,
-    "selected_by_percent": 1.1
+    "selected_by_percent": 1.0
   },
   {
     "id": 594,
@@ -12403,11 +12403,11 @@
     "team_id": 18,
     "position": "FWD",
     "element_type": 4,
-    "now_cost": 7.2,
+    "now_cost": 7.3,
     "total_points": 39,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.8,
-    "selected_by_percent": 2.7
+    "selected_by_percent": 2.1
   },
   {
     "id": 597,
@@ -12422,7 +12422,7 @@
     "element_type": 4,
     "now_cost": 6.3,
     "total_points": 95,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.5,
     "selected_by_percent": 5.7
   },
@@ -12473,7 +12473,7 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 96,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 3.4,
     "selected_by_percent": 0.8
   },
@@ -12488,11 +12488,11 @@
     "team_id": 18,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 6.5,
+    "now_cost": 6.6,
     "total_points": 77,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 2.9,
-    "selected_by_percent": 3.4
+    "selected_by_percent": 2.8
   },
   {
     "id": 726,
@@ -12507,7 +12507,7 @@
     "element_type": 4,
     "now_cost": 6.9,
     "total_points": 45,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.8,
     "selected_by_percent": 0.4
   },
@@ -12592,7 +12592,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 24,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.2,
     "selected_by_percent": 0.1
   },
@@ -12660,7 +12660,7 @@
     "element_type": 3,
     "now_cost": 5.1,
     "total_points": 24,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.2
   },
@@ -12679,7 +12679,7 @@
     "total_points": 51,
     "form": 0.0,
     "points_per_game": 2.5,
-    "selected_by_percent": 2.0
+    "selected_by_percent": 1.9
   },
   {
     "id": 601,
@@ -12728,9 +12728,9 @@
     "element_type": 2,
     "now_cost": 4.1,
     "total_points": 93,
-    "form": 5.5,
+    "form": 3.7,
     "points_per_game": 3.4,
-    "selected_by_percent": 2.8
+    "selected_by_percent": 2.5
   },
   {
     "id": 604,
@@ -12779,9 +12779,9 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 104,
-    "form": 13.5,
+    "form": 9.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 3.0
+    "selected_by_percent": 2.0
   },
   {
     "id": 607,
@@ -12898,7 +12898,7 @@
     "element_type": 3,
     "now_cost": 5.7,
     "total_points": 85,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 2.8,
     "selected_by_percent": 0.3
   },
@@ -12915,7 +12915,7 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 98,
-    "form": 3.0,
+    "form": 2.0,
     "points_per_game": 3.8,
     "selected_by_percent": 1.5
   },
@@ -13051,7 +13051,7 @@
     "element_type": 3,
     "now_cost": 4.3,
     "total_points": 36,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.7,
     "selected_by_percent": 0.5
   },
@@ -13066,11 +13066,11 @@
     "team_id": 19,
     "position": "FWD",
     "element_type": 4,
-    "now_cost": 7.7,
+    "now_cost": 7.8,
     "total_points": 159,
-    "form": 8.0,
+    "form": 5.3,
     "points_per_game": 4.8,
-    "selected_by_percent": 15.9
+    "selected_by_percent": 14.4
   },
   {
     "id": 625,
@@ -13119,7 +13119,7 @@
     "element_type": 2,
     "now_cost": 4.2,
     "total_points": 44,
-    "form": 6.0,
+    "form": 4.0,
     "points_per_game": 2.2,
     "selected_by_percent": 0.3
   },
@@ -13136,7 +13136,7 @@
     "element_type": 4,
     "now_cost": 5.8,
     "total_points": 67,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.5,
     "selected_by_percent": 0.5
   },
@@ -13153,9 +13153,9 @@
     "element_type": 1,
     "now_cost": 4.2,
     "total_points": 58,
-    "form": 6.5,
+    "form": 4.3,
     "points_per_game": 4.5,
-    "selected_by_percent": 1.3
+    "selected_by_percent": 0.8
   },
   {
     "id": 708,
@@ -13170,7 +13170,7 @@
     "element_type": 3,
     "now_cost": 5.5,
     "total_points": 114,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 3.7,
     "selected_by_percent": 0.4
   },
@@ -13187,7 +13187,7 @@
     "element_type": 3,
     "now_cost": 5.0,
     "total_points": 41,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.0,
     "selected_by_percent": 0.0
   },
@@ -13255,7 +13255,7 @@
     "element_type": 3,
     "now_cost": 4.5,
     "total_points": 8,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 0.9,
     "selected_by_percent": 0.0
   },
@@ -13272,7 +13272,7 @@
     "element_type": 4,
     "now_cost": 5.4,
     "total_points": 19,
-    "form": 3.5,
+    "form": 2.3,
     "points_per_game": 2.1,
     "selected_by_percent": 0.0
   },
@@ -13289,7 +13289,7 @@
     "element_type": 4,
     "now_cost": 5.5,
     "total_points": 44,
-    "form": 6.5,
+    "form": 4.3,
     "points_per_game": 3.4,
     "selected_by_percent": 0.3
   },
@@ -13323,9 +13323,9 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 36,
-    "form": 7.5,
+    "form": 5.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 0.3
+    "selected_by_percent": 0.2
   },
   {
     "id": 825,
@@ -13374,7 +13374,7 @@
     "element_type": 1,
     "now_cost": 4.2,
     "total_points": 57,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.9,
     "selected_by_percent": 1.2
   },
@@ -13391,7 +13391,7 @@
     "element_type": 1,
     "now_cost": 3.9,
     "total_points": 2,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.0,
     "selected_by_percent": 0.5
   },
@@ -13476,7 +13476,7 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 36,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.1,
     "selected_by_percent": 0.1
   },
@@ -13493,7 +13493,7 @@
     "element_type": 2,
     "now_cost": 4.4,
     "total_points": 75,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 3.1,
     "selected_by_percent": 0.1
   },
@@ -13510,7 +13510,7 @@
     "element_type": 2,
     "now_cost": 4.2,
     "total_points": 31,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 2.1,
     "selected_by_percent": 0.1
   },
@@ -13561,7 +13561,7 @@
     "element_type": 2,
     "now_cost": 4.0,
     "total_points": 4,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 1.0,
     "selected_by_percent": 0.4
   },
@@ -13595,7 +13595,7 @@
     "element_type": 3,
     "now_cost": 5.6,
     "total_points": 46,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.1,
     "selected_by_percent": 0.1
   },
@@ -13612,7 +13612,7 @@
     "element_type": 3,
     "now_cost": 5.2,
     "total_points": 85,
-    "form": 4.0,
+    "form": 2.7,
     "points_per_game": 2.8,
     "selected_by_percent": 0.1
   },
@@ -13629,7 +13629,7 @@
     "element_type": 3,
     "now_cost": 5.1,
     "total_points": 42,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.8,
     "selected_by_percent": 0.0
   },
@@ -13663,7 +13663,7 @@
     "element_type": 3,
     "now_cost": 5.3,
     "total_points": 96,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 3.1,
     "selected_by_percent": 0.4
   },
@@ -13748,7 +13748,7 @@
     "element_type": 3,
     "now_cost": 4.3,
     "total_points": 7,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 3.5,
     "selected_by_percent": 0.4
   },
@@ -13918,7 +13918,7 @@
     "element_type": 2,
     "now_cost": 4.5,
     "total_points": 60,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.3,
     "selected_by_percent": 0.1
   },
@@ -13935,7 +13935,7 @@
     "element_type": 4,
     "now_cost": 5.2,
     "total_points": 60,
-    "form": 0.5,
+    "form": 0.3,
     "points_per_game": 2.1,
     "selected_by_percent": 0.1
   },
@@ -13952,9 +13952,9 @@
     "element_type": 4,
     "now_cost": 4.3,
     "total_points": 55,
-    "form": 1.0,
+    "form": 0.7,
     "points_per_game": 2.5,
-    "selected_by_percent": 1.9
+    "selected_by_percent": 1.3
   },
   {
     "id": 766,
@@ -14052,9 +14052,9 @@
     "team_id": 20,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 4.7,
+    "now_cost": 4.6,
     "total_points": 12,
-    "form": 1.5,
+    "form": 1.0,
     "points_per_game": 1.3,
     "selected_by_percent": 0.0
   },
@@ -14071,7 +14071,7 @@
     "element_type": 4,
     "now_cost": 5.2,
     "total_points": 24,
-    "form": 2.0,
+    "form": 1.3,
     "points_per_game": 2.7,
     "selected_by_percent": 0.1
   },
