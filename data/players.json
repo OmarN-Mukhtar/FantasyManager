@@ -133,7 +133,7 @@
     "total_points": 149,
     "form": 0.0,
     "points_per_game": 5.0,
-    "selected_by_percent": 15.6
+    "selected_by_percent": 15.5
   },
   {
     "id": 9,
@@ -537,7 +537,7 @@
     "team_id": 1,
     "position": "FWD",
     "element_type": 4,
-    "now_cost": 9.0,
+    "now_cost": 9.1,
     "total_points": 126,
     "form": 4.0,
     "points_per_game": 3.7,
@@ -1731,7 +1731,7 @@
     "total_points": 123,
     "form": 3.2,
     "points_per_game": 3.5,
-    "selected_by_percent": 1.8
+    "selected_by_percent": 1.9
   },
   {
     "id": 201,
@@ -4043,7 +4043,7 @@
     "total_points": 62,
     "form": 2.0,
     "points_per_game": 2.5,
-    "selected_by_percent": 2.1
+    "selected_by_percent": 2.0
   },
   {
     "id": 158,
@@ -5233,7 +5233,7 @@
     "total_points": 129,
     "form": 2.7,
     "points_per_game": 4.8,
-    "selected_by_percent": 9.6
+    "selected_by_percent": 9.5
   },
   {
     "id": 257,
@@ -7732,7 +7732,7 @@
     "total_points": 89,
     "form": 0.0,
     "points_per_game": 3.6,
-    "selected_by_percent": 5.2
+    "selected_by_percent": 5.1
   },
   {
     "id": 367,
@@ -7851,7 +7851,7 @@
     "total_points": 171,
     "form": 5.4,
     "points_per_game": 4.6,
-    "selected_by_percent": 30.0
+    "selected_by_percent": 30.1
   },
   {
     "id": 374,
@@ -10724,7 +10724,7 @@
     "total_points": 172,
     "form": 7.4,
     "points_per_game": 4.9,
-    "selected_by_percent": 7.0
+    "selected_by_percent": 6.9
   },
   {
     "id": 516,
@@ -13206,7 +13206,7 @@
     "total_points": 173,
     "form": 3.2,
     "points_per_game": 4.8,
-    "selected_by_percent": 12.5
+    "selected_by_percent": 12.6
   },
   {
     "id": 625,

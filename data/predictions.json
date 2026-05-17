@@ -4,7 +4,7 @@
     "position": "GK",
     "team": "Arsenal",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 7.56,
+    "predicted_next_gw_points": 7.53,
     "current_season_points": 156.0
   },
   "Kepa Arrizabalaga Revuelta": {
@@ -36,7 +36,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 8.44,
+    "predicted_next_gw_points": 8.34,
     "current_season_points": 202.0
   },
   "William Saliba": {
@@ -44,7 +44,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 7.8,
+    "predicted_next_gw_points": 7.89,
     "current_season_points": 129.0
   },
   "Riccardo Calafiori": {
@@ -52,7 +52,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.17,
+    "predicted_next_gw_points": 3.2,
     "current_season_points": 100.0
   },
   "Jurri\u00ebn Timber": {
@@ -68,7 +68,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.41,
+    "predicted_next_gw_points": -0.31,
     "current_season_points": 0.0
   },
   "Myles Lewis-Skelly": {
@@ -76,7 +76,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.75,
+    "predicted_next_gw_points": 4.69,
     "current_season_points": 26.0
   },
   "Benjamin White": {
@@ -84,7 +84,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.29,
+    "predicted_next_gw_points": 0.34,
     "current_season_points": 45.0
   },
   "Brayden Clarke": {
@@ -92,7 +92,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.87,
+    "predicted_next_gw_points": 0.92,
     "current_season_points": 0.0
   },
   "Maldini Kacurri": {
@@ -116,7 +116,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 1.0,
-    "predicted_next_gw_points": 6.11,
+    "predicted_next_gw_points": 6.03,
     "current_season_points": 147.0
   },
   "Martin \u00d8degaard": {
@@ -124,7 +124,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 3.78,
+    "predicted_next_gw_points": 3.65,
     "current_season_points": 71.0
   },
   "Noni Madueke": {
@@ -132,7 +132,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 2.62,
+    "predicted_next_gw_points": 2.93,
     "current_season_points": 61.0
   },
   "Gabriel Martinelli Silva": {
@@ -140,7 +140,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.14,
+    "predicted_next_gw_points": 1.02,
     "current_season_points": 49.0
   },
   "Leandro Trossard": {
@@ -148,7 +148,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 6.81,
+    "predicted_next_gw_points": 6.87,
     "current_season_points": 116.0
   },
   "Declan Rice": {
@@ -164,7 +164,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.73,
+    "predicted_next_gw_points": -0.66,
     "current_season_points": 66.0
   },
   "F\u00e1bio Ferreira Vieira": {
@@ -180,7 +180,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.48,
+    "predicted_next_gw_points": 0.4,
     "current_season_points": 6.0
   },
   "Ethan Nwaneri": {
@@ -188,7 +188,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.26,
+    "predicted_next_gw_points": -0.32,
     "current_season_points": 8.0
   },
   "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez": {
@@ -196,7 +196,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.18,
+    "predicted_next_gw_points": 3.48,
     "current_season_points": 130.0
   },
   "Ismeal Kabia": {
@@ -204,7 +204,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.94,
+    "predicted_next_gw_points": -0.3,
     "current_season_points": 0.0
   },
   "Albert Sambi Lokonga": {
@@ -220,7 +220,7 @@
     "position": "FWD",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 3.83,
+    "predicted_next_gw_points": 3.7,
     "current_season_points": 24.0
   },
   "Gabriel Fernando de Jesus": {
@@ -236,7 +236,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 5.63,
+    "predicted_next_gw_points": 5.8,
     "current_season_points": 109.0
   },
   "Cristhian Mosquera": {
@@ -244,7 +244,7 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.05,
+    "predicted_next_gw_points": 1.06,
     "current_season_points": 30.0
   },
   "Viktor Gy\u00f6keres": {
@@ -252,7 +252,7 @@
     "position": "FWD",
     "team": "Arsenal",
     "now_cost": 0.9,
-    "predicted_next_gw_points": 6.95,
+    "predicted_next_gw_points": 7.02,
     "current_season_points": 126.0
   },
   "Max Dowman": {
@@ -260,7 +260,7 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.49,
+    "predicted_next_gw_points": 1.41,
     "current_season_points": 13.0
   },
   "Andre Harriman-Annous": {
@@ -292,7 +292,7 @@
     "position": "GK",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.53,
+    "predicted_next_gw_points": 4.69,
     "current_season_points": 120.0
   },
   "Marco Bizot": {
@@ -324,7 +324,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.94,
+    "predicted_next_gw_points": 2.89,
     "current_season_points": 116.0
   },
   "Lucas Digne": {
@@ -332,7 +332,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.48,
+    "predicted_next_gw_points": 3.61,
     "current_season_points": 97.0
   },
   "Ezri Konsa Ngoyo": {
@@ -340,7 +340,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.45,
+    "predicted_next_gw_points": 1.41,
     "current_season_points": 100.0
   },
   "Ian Maatsen": {
@@ -348,7 +348,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.37,
+    "predicted_next_gw_points": 2.15,
     "current_season_points": 49.0
   },
   "Tyrone Mings": {
@@ -356,7 +356,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.36,
+    "predicted_next_gw_points": 0.32,
     "current_season_points": 46.0
   },
   "Pau Torres": {
@@ -412,7 +412,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 9.83,
+    "predicted_next_gw_points": 9.73,
     "current_season_points": 169.0
   },
   "Youri Tielemans": {
@@ -420,7 +420,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.11,
+    "predicted_next_gw_points": 4.04,
     "current_season_points": 67.0
   },
   "Leon Bailey": {
@@ -436,7 +436,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.31,
+    "predicted_next_gw_points": 4.28,
     "current_season_points": 96.0
   },
   "Samuel Iling-Junior": {
@@ -452,7 +452,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.27,
+    "predicted_next_gw_points": -0.36,
     "current_season_points": 55.0
   },
   "John McGinn": {
@@ -460,7 +460,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 6.41,
+    "predicted_next_gw_points": 6.37,
     "current_season_points": 102.0
   },
   "Ross Barkley": {
@@ -468,7 +468,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.25,
+    "predicted_next_gw_points": 4.19,
     "current_season_points": 51.0
   },
   "Enzo Barrenechea": {
@@ -492,7 +492,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.39,
+    "predicted_next_gw_points": -0.4,
     "current_season_points": 61.0
   },
   "Amadou Onana": {
@@ -500,7 +500,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.2,
+    "predicted_next_gw_points": -0.15,
     "current_season_points": 75.0
   },
   "Ben Broggio": {
@@ -516,7 +516,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.01,
+    "predicted_next_gw_points": -0.44,
     "current_season_points": 0.0
   },
   "Jamaldeen Jimoh-Aloba": {
@@ -524,7 +524,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.04,
+    "predicted_next_gw_points": -0.96,
     "current_season_points": 1.0
   },
   "Kadan Young": {
@@ -540,7 +540,7 @@
     "position": "FWD",
     "team": "Aston Villa",
     "now_cost": 0.9,
-    "predicted_next_gw_points": 17.12,
+    "predicted_next_gw_points": 17.2,
     "current_season_points": 154.0
   },
   "Z\u00e9piqueno Redmond": {
@@ -556,7 +556,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -1.23,
+    "predicted_next_gw_points": -1.2,
     "current_season_points": 5.0
   },
   "Jadon Sancho": {
@@ -564,7 +564,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.62,
+    "predicted_next_gw_points": 1.13,
     "current_season_points": 37.0
   },
   "James Wright": {
@@ -580,7 +580,7 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.11,
+    "predicted_next_gw_points": 0.36,
     "current_season_points": 33.0
   },
   "Triston Rowe": {
@@ -620,7 +620,7 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.13,
+    "predicted_next_gw_points": 1.24,
     "current_season_points": 27.0
   },
   "George Hemmings": {
@@ -636,7 +636,7 @@
     "position": "GK",
     "team": "Aston Villa",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -1.11,
+    "predicted_next_gw_points": -1.01,
     "current_season_points": 0.0
   },
   "Leon Routh": {
@@ -676,7 +676,7 @@
     "position": "GK",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.21,
+    "predicted_next_gw_points": 0.31,
     "current_season_points": 2.0
   },
   "Etienne Green": {
@@ -708,7 +708,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.54,
+    "predicted_next_gw_points": 0.49,
     "current_season_points": 66.0
   },
   "Hannes Delcroix": {
@@ -732,7 +732,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.0,
+    "predicted_next_gw_points": 1.97,
     "current_season_points": 52.0
   },
   "Maxime Est\u00e8ve": {
@@ -740,7 +740,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 3.45,
+    "predicted_next_gw_points": 3.66,
     "current_season_points": 83.0
   },
   "Quilindschy Hartman": {
@@ -780,7 +780,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Oliver Sonne": {
@@ -796,7 +796,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.82,
+    "predicted_next_gw_points": 0.89,
     "current_season_points": 30.0
   },
   "Joe Worrall": {
@@ -804,7 +804,7 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.02,
     "current_season_points": 20.0
   },
   "Jaidon Anthony": {
@@ -812,7 +812,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.16,
+    "predicted_next_gw_points": 5.2,
     "current_season_points": 123.0
   },
   "Manuel Benson Hedilazio": {
@@ -852,7 +852,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.95,
+    "predicted_next_gw_points": -0.96,
     "current_season_points": 70.0
   },
   "Marcus Edwards": {
@@ -860,7 +860,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.41,
+    "predicted_next_gw_points": 0.12,
     "current_season_points": 50.0
   },
   "Hannibal Mejbri": {
@@ -868,7 +868,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.89,
+    "predicted_next_gw_points": 0.82,
     "current_season_points": 57.0
   },
   "Luca Koleosho": {
@@ -876,7 +876,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.0,
+    "predicted_next_gw_points": -0.04,
     "current_season_points": 0.0
   },
   "Josh Laurent": {
@@ -884,7 +884,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.58,
+    "predicted_next_gw_points": 1.34,
     "current_season_points": 55.0
   },
   "Loum Tchaouna": {
@@ -892,7 +892,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.56,
+    "predicted_next_gw_points": 3.63,
     "current_season_points": 52.0
   },
   "Aaron Ramsey": {
@@ -916,7 +916,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.79,
+    "predicted_next_gw_points": -0.82,
     "current_season_points": 1.0
   },
   "Mike Tr\u00e9sor Ndayishimiye": {
@@ -932,7 +932,7 @@
     "position": "FWD",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.39,
+    "predicted_next_gw_points": 4.4,
     "current_season_points": 89.0
   },
   "Zeki Amdouni": {
@@ -948,7 +948,7 @@
     "position": "FWD",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.68,
+    "predicted_next_gw_points": 0.98,
     "current_season_points": 58.0
   },
   "Ashley Barnes": {
@@ -972,7 +972,7 @@
     "position": "GK",
     "team": "Burnley",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.0,
+    "predicted_next_gw_points": 1.06,
     "current_season_points": 96.0
   },
   "James Ward-Prowse": {
@@ -988,7 +988,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.22,
+    "predicted_next_gw_points": 1.77,
     "current_season_points": 93.0
   },
   "Armando Broja": {
@@ -1004,7 +1004,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.39,
+    "predicted_next_gw_points": 2.23,
     "current_season_points": 76.0
   },
   "Oliver Pimlott": {
@@ -1028,7 +1028,7 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.2,
+    "predicted_next_gw_points": -0.3,
     "current_season_points": 0.0
   },
   "Norberto Murara Neto": {
@@ -1068,7 +1068,7 @@
     "position": "GK",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.3,
+    "predicted_next_gw_points": -0.2,
     "current_season_points": 0.0
   },
   "Illia Zabarnyi": {
@@ -1076,7 +1076,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.21,
+    "predicted_next_gw_points": -0.38,
     "current_season_points": 0.0
   },
   "Marcos Senesi Bar\u00f3n": {
@@ -1084,7 +1084,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.53,
+    "predicted_next_gw_points": 5.72,
     "current_season_points": 169.0
   },
   "Adam Smith": {
@@ -1100,7 +1100,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 6.76,
+    "predicted_next_gw_points": 6.92,
     "current_season_points": 155.0
   },
   "Matai Akinmboni": {
@@ -1108,7 +1108,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.75,
+    "predicted_next_gw_points": -0.85,
     "current_season_points": 0.0
   },
   "Owen Bevan": {
@@ -1124,7 +1124,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 5.39,
+    "predicted_next_gw_points": 5.4,
     "current_season_points": 106.0
   },
   "Juli\u00e1n Araujo Z\u00fa\u00f1iga": {
@@ -1140,7 +1140,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.85,
     "current_season_points": 0.0
   },
   "Julio Soler Barreto": {
@@ -1156,7 +1156,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.7,
-    "predicted_next_gw_points": -0.84,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 40.0
   },
   "Marcus Tavernier": {
@@ -1164,7 +1164,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.96,
+    "predicted_next_gw_points": 4.71,
     "current_season_points": 125.0
   },
   "Tyler Adams": {
@@ -1172,7 +1172,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.48,
+    "predicted_next_gw_points": 2.01,
     "current_season_points": 70.0
   },
   "David Brooks": {
@@ -1188,7 +1188,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.54,
+    "predicted_next_gw_points": 0.35,
     "current_season_points": 47.0
   },
   "Lewis Cook": {
@@ -1196,7 +1196,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.06,
+    "predicted_next_gw_points": -0.9,
     "current_season_points": 38.0
   },
   "Philip Billing": {
@@ -1204,7 +1204,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.33,
+    "predicted_next_gw_points": -0.98,
     "current_season_points": 0.0
   },
   "Alex Scott": {
@@ -1212,7 +1212,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.25,
+    "predicted_next_gw_points": 4.31,
     "current_season_points": 132.0
   },
   "Luis Sinisterra Lucum\u00ed": {
@@ -1228,7 +1228,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.95,
     "current_season_points": 0.0
   },
   "Hamed Traor\u00e8": {
@@ -1284,7 +1284,7 @@
     "position": "FWD",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.22,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 0.0
   },
   "Junior Kroupi": {
@@ -1292,7 +1292,7 @@
     "position": "FWD",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 6.03,
+    "predicted_next_gw_points": 6.18,
     "current_season_points": 103.0
   },
   "Ben Gannon-Doak": {
@@ -1316,7 +1316,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 0.0
   },
   "Amine Adli": {
@@ -1324,7 +1324,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.19,
+    "predicted_next_gw_points": 1.14,
     "current_season_points": 66.0
   },
   "\u00c1lex Jim\u00e9nez S\u00e1nchez": {
@@ -1340,7 +1340,7 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.41,
+    "predicted_next_gw_points": -0.8,
     "current_season_points": 19.0
   },
   "Malcom DaCosta": {
@@ -1348,7 +1348,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 0.0
   },
   "Fraser Forster": {
@@ -1364,7 +1364,7 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.01,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Alex T\u00f3th": {
@@ -1380,7 +1380,7 @@
     "position": "GK",
     "team": "Bournemouth",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.67,
+    "predicted_next_gw_points": -0.48,
     "current_season_points": 0.0
   },
   "Rayan Vitor Simpl\u00edcio Rocha": {
@@ -1412,7 +1412,7 @@
     "position": "GK",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.75,
+    "predicted_next_gw_points": 3.76,
     "current_season_points": 135.0
   },
   "Ellery Balcombe": {
@@ -1436,7 +1436,7 @@
     "position": "GK",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.82,
+    "predicted_next_gw_points": -0.4,
     "current_season_points": 0.0
   },
   "H\u00e1kon Rafn Valdimarsson": {
@@ -1444,7 +1444,7 @@
     "position": "GK",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.37,
+    "predicted_next_gw_points": -0.41,
     "current_season_points": 1.0
   },
   "Nathan Collins": {
@@ -1452,7 +1452,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.62,
+    "predicted_next_gw_points": 3.63,
     "current_season_points": 123.0
   },
   "Keane Lewis-Potter": {
@@ -1460,7 +1460,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.66,
+    "predicted_next_gw_points": 4.97,
     "current_season_points": 109.0
   },
   "Kristoffer Ajer": {
@@ -1468,7 +1468,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.39,
+    "predicted_next_gw_points": 0.11,
     "current_season_points": 73.0
   },
   "Rico Henry": {
@@ -1476,7 +1476,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.74,
+    "predicted_next_gw_points": -0.83,
     "current_season_points": 52.0
   },
   "Michael Kayode": {
@@ -1484,7 +1484,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.68,
+    "predicted_next_gw_points": 3.72,
     "current_season_points": 111.0
   },
   "Ethan Pinnock": {
@@ -1492,7 +1492,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.53,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 14.0
   },
   "Mads Roerslev Rasmussen": {
@@ -1508,7 +1508,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.72,
+    "predicted_next_gw_points": 1.49,
     "current_season_points": 105.0
   },
   "Benjamin Arthur": {
@@ -1532,7 +1532,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.41,
+    "predicted_next_gw_points": 0.05,
     "current_season_points": 36.0
   },
   "Kim Ji-soo": {
@@ -1556,7 +1556,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 3.02,
+    "predicted_next_gw_points": 3.11,
     "current_season_points": 117.0
   },
   "Mikkel Damsgaard": {
@@ -1564,7 +1564,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 5.9,
+    "predicted_next_gw_points": 5.47,
     "current_season_points": 110.0
   },
   "Antoni Milambo": {
@@ -1588,7 +1588,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.11,
+    "predicted_next_gw_points": -0.67,
     "current_season_points": 75.0
   },
   "Vitaly Janelt": {
@@ -1596,7 +1596,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.54,
+    "predicted_next_gw_points": -0.59,
     "current_season_points": 71.0
   },
   "Mathias Jensen": {
@@ -1604,7 +1604,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.99,
+    "predicted_next_gw_points": 4.82,
     "current_season_points": 94.0
   },
   "Gustavo Nunes Fernandes Gomes": {
@@ -1620,7 +1620,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.38,
+    "predicted_next_gw_points": -0.31,
     "current_season_points": 12.0
   },
   "Yehor Yarmoliuk": {
@@ -1652,7 +1652,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.65,
     "current_season_points": 0.0
   },
   "Myles Peart-Harris": {
@@ -1660,7 +1660,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.49,
     "current_season_points": 1.0
   },
   "Ryan Trevitt": {
@@ -1676,7 +1676,7 @@
     "position": "FWD",
     "team": "Brentford",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 5.24,
+    "predicted_next_gw_points": 5.13,
     "current_season_points": 177.0
   },
   "Iwan Morgan": {
@@ -1692,7 +1692,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.34,
+    "predicted_next_gw_points": -0.49,
     "current_season_points": 1.0
   },
   "Kaye Furo": {
@@ -1708,7 +1708,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.71,
+    "predicted_next_gw_points": -0.53,
     "current_season_points": 0.0
   },
   "Ollie Shield": {
@@ -1716,7 +1716,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.52,
+    "predicted_next_gw_points": -0.42,
     "current_season_points": 0.0
   },
   "Joshua Stephenson": {
@@ -1724,7 +1724,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.96,
+    "predicted_next_gw_points": -0.46,
     "current_season_points": 0.0
   },
   "Conor McManus": {
@@ -1732,7 +1732,7 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.62,
+    "predicted_next_gw_points": -0.46,
     "current_season_points": 0.0
   },
   "Riley Owen": {
@@ -1740,7 +1740,7 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.71,
+    "predicted_next_gw_points": -1.15,
     "current_season_points": 0.0
   },
   "Jason Steele": {
@@ -1748,7 +1748,7 @@
     "position": "GK",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": 0.03,
     "current_season_points": 0.0
   },
   "Bart Verbruggen": {
@@ -1756,7 +1756,7 @@
     "position": "GK",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.19,
+    "predicted_next_gw_points": 4.22,
     "current_season_points": 126.0
   },
   "Tom McGill": {
@@ -1772,7 +1772,7 @@
     "position": "GK",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.42,
+    "predicted_next_gw_points": -0.39,
     "current_season_points": 0.0
   },
   "Kjell Scherpen": {
@@ -1804,7 +1804,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 7.11,
+    "predicted_next_gw_points": 7.2,
     "current_season_points": 82.0
   },
   "Lewis Dunk": {
@@ -1812,7 +1812,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.22,
+    "predicted_next_gw_points": 4.09,
     "current_season_points": 97.0
   },
   "Pervis Estupi\u00f1\u00e1n Tenorio": {
@@ -1820,7 +1820,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.81,
     "current_season_points": 0.0
   },
   "Ferdi Kad\u0131o\u011flu": {
@@ -1828,7 +1828,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.39,
+    "predicted_next_gw_points": 5.41,
     "current_season_points": 115.0
   },
   "Igor Julio dos Santos de Paulo": {
@@ -1844,7 +1844,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.73,
+    "predicted_next_gw_points": -0.69,
     "current_season_points": 0.0
   },
   "Jan Paul van Hecke": {
@@ -1852,7 +1852,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.08,
+    "predicted_next_gw_points": 5.24,
     "current_season_points": 145.0
   },
   "Jo\u00ebl Veltman": {
@@ -1860,7 +1860,7 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.42,
+    "predicted_next_gw_points": 0.2,
     "current_season_points": 40.0
   },
   "Adam Webster": {
@@ -1900,7 +1900,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.54,
+    "predicted_next_gw_points": 0.56,
     "current_season_points": 62.0
   },
   "Georginio Rutter": {
@@ -1908,7 +1908,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.27,
+    "predicted_next_gw_points": 3.49,
     "current_season_points": 85.0
   },
   "Solly March": {
@@ -1916,7 +1916,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.51,
+    "predicted_next_gw_points": -0.49,
     "current_season_points": 2.0
   },
   "Yankuba Minteh": {
@@ -1924,7 +1924,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 5.67,
+    "predicted_next_gw_points": 5.4,
     "current_season_points": 113.0
   },
   "Julio Enciso Esp\u00ednola": {
@@ -1940,7 +1940,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.64,
+    "predicted_next_gw_points": -0.71,
     "current_season_points": 35.0
   },
   "Jack Hinshelwood": {
@@ -1956,7 +1956,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.41,
+    "predicted_next_gw_points": 0.31,
     "current_season_points": 16.0
   },
   "Abdallah Sima": {
@@ -1964,7 +1964,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.03,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Yasin Ayari": {
@@ -1972,7 +1972,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.5,
+    "predicted_next_gw_points": 0.52,
     "current_season_points": 97.0
   },
   "Carlos Baleba": {
@@ -1980,7 +1980,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.12,
+    "predicted_next_gw_points": 3.2,
     "current_season_points": 52.0
   },
   "Diego G\u00f3mez Amarilla": {
@@ -1988,7 +1988,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.53,
+    "predicted_next_gw_points": -0.55,
     "current_season_points": 95.0
   },
   "James Milner": {
@@ -2020,7 +2020,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.0,
+    "predicted_next_gw_points": -0.35,
     "current_season_points": 92.0
   },
   "Malick Yalcouy\u00e9": {
@@ -2036,7 +2036,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 1.0
   },
   "Adrian Mazilu": {
@@ -2052,7 +2052,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.04,
+    "predicted_next_gw_points": 0.0,
     "current_season_points": 0.0
   },
   "Danny Welbeck": {
@@ -2060,7 +2060,7 @@
     "position": "FWD",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 6.08,
+    "predicted_next_gw_points": 6.17,
     "current_season_points": 123.0
   },
   "Evan Ferguson": {
@@ -2068,7 +2068,7 @@
     "position": "FWD",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.09,
+    "predicted_next_gw_points": -0.18,
     "current_season_points": 0.0
   },
   "Stefanos Tzimas": {
@@ -2084,7 +2084,7 @@
     "position": "FWD",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.75,
+    "predicted_next_gw_points": 0.9,
     "current_season_points": 33.0
   },
   "Nehemiah Oriola": {
@@ -2092,7 +2092,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.77,
+    "predicted_next_gw_points": -0.05,
     "current_season_points": 1.0
   },
   "Freddie Simmonds": {
@@ -2108,7 +2108,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 6.9,
+    "predicted_next_gw_points": 6.89,
     "current_season_points": 73.0
   },
   "Harry Howell": {
@@ -2116,7 +2116,7 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.72,
     "current_season_points": 4.0
   },
   "Robert Lynch S\u00e1nchez": {
@@ -2124,7 +2124,7 @@
     "position": "GK",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.22,
+    "predicted_next_gw_points": 1.27,
     "current_season_points": 109.0
   },
   "Filip J\u00f6rgensen": {
@@ -2132,7 +2132,7 @@
     "position": "GK",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.46,
+    "predicted_next_gw_points": 0.39,
     "current_season_points": 9.0
   },
   "Mike Penders": {
@@ -2140,7 +2140,7 @@
     "position": "GK",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.71,
+    "predicted_next_gw_points": -0.02,
     "current_season_points": 0.0
   },
   "Gabriel S\u0142onina": {
@@ -2156,7 +2156,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.31,
+    "predicted_next_gw_points": 3.88,
     "current_season_points": 102.0
   },
   "Reece James": {
@@ -2164,7 +2164,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.93,
+    "predicted_next_gw_points": 0.74,
     "current_season_points": 114.0
   },
   "Trevoh Chalobah": {
@@ -2172,7 +2172,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.08,
+    "predicted_next_gw_points": 1.23,
     "current_season_points": 134.0
   },
   "Levi Samuels Colwill": {
@@ -2180,7 +2180,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.64,
+    "predicted_next_gw_points": 2.52,
     "current_season_points": 5.0
   },
   "Malo Gusto": {
@@ -2188,7 +2188,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.01,
+    "predicted_next_gw_points": 1.77,
     "current_season_points": 97.0
   },
   "Beno\u00eet Badiashile Mukinayi": {
@@ -2204,7 +2204,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.59,
+    "predicted_next_gw_points": 1.63,
     "current_season_points": 65.0
   },
   "Mamadou Sarr": {
@@ -2228,7 +2228,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.17,
+    "predicted_next_gw_points": 0.49,
     "current_season_points": 36.0
   },
   "Aar\u00f3n Anselmino": {
@@ -2244,7 +2244,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 1.0,
-    "predicted_next_gw_points": 1.79,
+    "predicted_next_gw_points": 1.87,
     "current_season_points": 104.0
   },
   "Pedro Lomba Neto": {
@@ -2252,7 +2252,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 0.73,
+    "predicted_next_gw_points": 0.78,
     "current_season_points": 114.0
   },
   "Enzo Fern\u00e1ndez": {
@@ -2260,7 +2260,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.73,
+    "predicted_next_gw_points": 4.71,
     "current_season_points": 143.0
   },
   "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves": {
@@ -2268,7 +2268,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.29,
+    "predicted_next_gw_points": -0.35,
     "current_season_points": 58.0
   },
   "Jamie Bynoe-Gittens": {
@@ -2276,7 +2276,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.39,
+    "predicted_next_gw_points": -0.48,
     "current_season_points": 25.0
   },
   "Christopher Nkunku": {
@@ -2284,7 +2284,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 0.0
   },
   "Mois\u00e9s Caicedo Corozo": {
@@ -2292,7 +2292,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.13,
+    "predicted_next_gw_points": 2.02,
     "current_season_points": 106.0
   },
   "Rom\u00e9o Lavia": {
@@ -2300,7 +2300,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.08,
+    "predicted_next_gw_points": 1.09,
     "current_season_points": 13.0
   },
   "Mykhailo Mudryk": {
@@ -2316,7 +2316,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.26,
+    "predicted_next_gw_points": 0.25,
     "current_season_points": 37.0
   },
   "D\u00e1rio Lu\u00eds Essugo": {
@@ -2332,7 +2332,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.44,
     "current_season_points": 0.0
   },
   "Jo\u00e3o Pedro Junqueira de Jesus": {
@@ -2340,7 +2340,7 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 3.33,
+    "predicted_next_gw_points": 3.32,
     "current_season_points": 176.0
   },
   "Liam Delap": {
@@ -2348,7 +2348,7 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.77,
+    "predicted_next_gw_points": 1.02,
     "current_season_points": 43.0
   },
   "Nicolas Jackson": {
@@ -2364,7 +2364,7 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.91,
+    "predicted_next_gw_points": 0.58,
     "current_season_points": 13.0
   },
   "Alejandro Garnacho Ferreyra": {
@@ -2372,7 +2372,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.53,
+    "predicted_next_gw_points": 0.96,
     "current_season_points": 55.0
   },
   "Jorrel Hato": {
@@ -2380,7 +2380,7 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.91,
+    "predicted_next_gw_points": 2.07,
     "current_season_points": 18.0
   },
   "Landon Emenalo": {
@@ -2412,7 +2412,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.42,
+    "predicted_next_gw_points": -0.33,
     "current_season_points": 1.0
   },
   "Mathis Ebou\u00e9": {
@@ -2420,7 +2420,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.48,
+    "predicted_next_gw_points": 0.01,
     "current_season_points": 0.0
   },
   "Ryan Kavuma-McQueen": {
@@ -2428,7 +2428,7 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.85,
+    "predicted_next_gw_points": -0.86,
     "current_season_points": 0.0
   },
   "Dean Henderson": {
@@ -2436,7 +2436,7 @@
     "position": "GK",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.55,
+    "predicted_next_gw_points": 2.44,
     "current_season_points": 129.0
   },
   "Walter Ben\u00edtez": {
@@ -2444,7 +2444,7 @@
     "position": "GK",
     "team": "Crystal Palace",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -1.03,
+    "predicted_next_gw_points": -0.95,
     "current_season_points": 7.0
   },
   "Remi Matthews": {
@@ -2460,7 +2460,7 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.36,
+    "predicted_next_gw_points": 2.27,
     "current_season_points": 129.0
   },
   "Maxence Lacroix": {
@@ -2468,7 +2468,7 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.9,
+    "predicted_next_gw_points": 3.89,
     "current_season_points": 152.0
   },
   "Tyrick Mitchell": {
@@ -2476,7 +2476,7 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.6,
+    "predicted_next_gw_points": 2.7,
     "current_season_points": 133.0
   },
   "Borna Sosa": {
@@ -2484,7 +2484,7 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.82,
+    "predicted_next_gw_points": -0.84,
     "current_season_points": 6.0
   },
   "Chris Richards": {
@@ -2492,7 +2492,7 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.7,
+    "predicted_next_gw_points": 1.73,
     "current_season_points": 128.0
   },
   "Chadi Riad Dnanou": {
@@ -2532,7 +2532,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.71,
+    "predicted_next_gw_points": 2.63,
     "current_season_points": 109.0
   },
   "Cheick Doucour\u00e9": {
@@ -2556,7 +2556,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.78,
+    "predicted_next_gw_points": -0.56,
     "current_season_points": 43.0
   },
   "Daichi Kamada": {
@@ -2564,7 +2564,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.84,
+    "predicted_next_gw_points": 0.73,
     "current_season_points": 62.0
   },
   "Jefferson Lerma Sol\u00eds": {
@@ -2572,7 +2572,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.98,
+    "predicted_next_gw_points": 0.94,
     "current_season_points": 65.0
   },
   "Adam Wharton": {
@@ -2580,7 +2580,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.75,
+    "predicted_next_gw_points": 0.69,
     "current_season_points": 100.0
   },
   "Asher Agbinone": {
@@ -2620,7 +2620,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.36,
     "current_season_points": 0.0
   },
   "Matheus Fran\u00e7a de Oliveira": {
@@ -2660,7 +2660,7 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 1.9,
+    "predicted_next_gw_points": 1.98,
     "current_season_points": 107.0
   },
   "Eddie Nketiah": {
@@ -2668,7 +2668,7 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.01,
+    "predicted_next_gw_points": -0.94,
     "current_season_points": 23.0
   },
   "Odsonne \u00c9douard": {
@@ -2676,7 +2676,7 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.38,
+    "predicted_next_gw_points": -0.53,
     "current_season_points": 1.0
   },
   "Zach Marsh": {
@@ -2708,7 +2708,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -1.1,
+    "predicted_next_gw_points": -1.25,
     "current_season_points": 42.0
   },
   "Rio Cardines": {
@@ -2740,7 +2740,7 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -1.95,
+    "predicted_next_gw_points": -1.62,
     "current_season_points": 17.0
   },
   "Jo\u00e9l Drakes-Thomas": {
@@ -2748,7 +2748,7 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -1.02,
+    "predicted_next_gw_points": -1.14,
     "current_season_points": 2.0
   },
   "Dean Benamar": {
@@ -2788,7 +2788,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.33,
+    "predicted_next_gw_points": 5.35,
     "current_season_points": 147.0
   },
   "Tyrique George": {
@@ -2796,7 +2796,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.81,
+    "predicted_next_gw_points": 0.88,
     "current_season_points": 14.0
   },
   "Jordan Pickford": {
@@ -2804,7 +2804,7 @@
     "position": "GK",
     "team": "Everton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.69,
+    "predicted_next_gw_points": 2.49,
     "current_season_points": 132.0
   },
   "Mark Travers": {
@@ -2812,7 +2812,7 @@
     "position": "GK",
     "team": "Everton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.48,
     "current_season_points": 0.0
   },
   "Harry Tyrer": {
@@ -2828,7 +2828,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.01,
+    "predicted_next_gw_points": -0.16,
     "current_season_points": 32.0
   },
   "James Tarkowski": {
@@ -2836,7 +2836,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.84,
+    "predicted_next_gw_points": 4.86,
     "current_season_points": 164.0
   },
   "Vitalii Mykolenko": {
@@ -2844,7 +2844,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.75,
+    "predicted_next_gw_points": 1.78,
     "current_season_points": 92.0
   },
   "Jake O'Brien": {
@@ -2852,7 +2852,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.26,
+    "predicted_next_gw_points": 2.39,
     "current_season_points": 115.0
   },
   "S\u00e9amus Coleman": {
@@ -2860,7 +2860,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.34,
+    "predicted_next_gw_points": -0.3,
     "current_season_points": 3.0
   },
   "Michael Keane": {
@@ -2868,7 +2868,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.38,
+    "predicted_next_gw_points": 2.64,
     "current_season_points": 123.0
   },
   "Nathan Patterson": {
@@ -2876,7 +2876,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.0,
+    "predicted_next_gw_points": 0.07,
     "current_season_points": 22.0
   },
   "Roman Dixon": {
@@ -2900,7 +2900,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.0,
+    "predicted_next_gw_points": 3.11,
     "current_season_points": 124.0
   },
   "Dwight McNeil": {
@@ -2916,7 +2916,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.83,
+    "predicted_next_gw_points": -0.12,
     "current_season_points": 28.0
   },
   "Idrissa Gana Gueye": {
@@ -2932,7 +2932,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.01,
+    "predicted_next_gw_points": 3.99,
     "current_season_points": 154.0
   },
   "Tim Iroegbunam": {
@@ -2940,7 +2940,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.96,
+    "predicted_next_gw_points": 1.87,
     "current_season_points": 63.0
   },
   "Harrison Armstrong": {
@@ -2948,7 +2948,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.5,
     "current_season_points": 20.0
   },
   "Callum Bates": {
@@ -2988,7 +2988,7 @@
     "position": "FWD",
     "team": "Everton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.94,
+    "predicted_next_gw_points": 3.99,
     "current_season_points": 92.0
   },
   "Norberto Bercique Gomes Betuncal": {
@@ -3004,7 +3004,7 @@
     "position": "FWD",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": 0.45,
     "current_season_points": 0.0
   },
   "Martin Sherif": {
@@ -3012,7 +3012,7 @@
     "position": "FWD",
     "team": "Everton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.46,
     "current_season_points": 0.0
   },
   "Jack Grealish": {
@@ -3020,7 +3020,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.1,
+    "predicted_next_gw_points": -0.13,
     "current_season_points": 79.0
   },
   "Tom King": {
@@ -3036,7 +3036,7 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.46,
+    "predicted_next_gw_points": -0.42,
     "current_season_points": 0.0
   },
   "Tyler Onyango": {
@@ -3060,7 +3060,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.51,
+    "predicted_next_gw_points": -0.58,
     "current_season_points": 18.0
   },
   "Merlin R\u00f6hl": {
@@ -3068,7 +3068,7 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.76,
+    "predicted_next_gw_points": 2.68,
     "current_season_points": 25.0
   },
   "Braiden Graham": {
@@ -3076,7 +3076,7 @@
     "position": "FWD",
     "team": "Everton",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.43,
+    "predicted_next_gw_points": -0.35,
     "current_season_points": 0.0
   },
   "Bernd Leno": {
@@ -3084,7 +3084,7 @@
     "position": "GK",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.22,
+    "predicted_next_gw_points": 4.45,
     "current_season_points": 114.0
   },
   "Steven Benda": {
@@ -3100,7 +3100,7 @@
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.73,
+    "predicted_next_gw_points": 0.6,
     "current_season_points": 47.0
   },
   "Joachim Andersen": {
@@ -3108,7 +3108,7 @@
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.56,
+    "predicted_next_gw_points": 1.35,
     "current_season_points": 123.0
   },
   "Calvin Bassey": {
@@ -3124,7 +3124,7 @@
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 3.45,
+    "predicted_next_gw_points": 3.86,
     "current_season_points": 48.0
   },
   "Issa Diop": {
@@ -3148,7 +3148,7 @@
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.05,
+    "predicted_next_gw_points": -0.81,
     "current_season_points": 81.0
   },
   "Samuel Amissah": {
@@ -3164,7 +3164,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.14,
+    "predicted_next_gw_points": 0.37,
     "current_season_points": 98.0
   },
   "Emile Smith Rowe": {
@@ -3188,7 +3188,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.7,
+    "predicted_next_gw_points": 0.48,
     "current_season_points": 95.0
   },
   "Harry Wilson": {
@@ -3220,7 +3220,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.43,
+    "predicted_next_gw_points": 3.5,
     "current_season_points": 62.0
   },
   "Martial Godo": {
@@ -3228,7 +3228,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.25,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Luke Harris": {
@@ -3268,7 +3268,7 @@
     "position": "FWD",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.64,
+    "predicted_next_gw_points": 1.73,
     "current_season_points": 32.0
   },
   "Oscar Bobb": {
@@ -3276,7 +3276,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.89,
+    "predicted_next_gw_points": 1.03,
     "current_season_points": 37.0
   },
   "Benjamin Lecomte": {
@@ -3292,7 +3292,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.12,
+    "predicted_next_gw_points": 2.22,
     "current_season_points": 61.0
   },
   "Kevin Santos Lopes de Macedo": {
@@ -3300,7 +3300,7 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.33,
+    "predicted_next_gw_points": 0.42,
     "current_season_points": 44.0
   },
   "Jonah Kusi-Asare": {
@@ -3324,7 +3324,7 @@
     "position": "GK",
     "team": "Fulham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.11,
     "current_season_points": 0.0
   },
   "Facundo Buonanotte": {
@@ -3332,7 +3332,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.91,
+    "predicted_next_gw_points": -0.89,
     "current_season_points": 2.0
   },
   "Illan Meslier": {
@@ -3348,7 +3348,7 @@
     "position": "GK",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.71,
+    "predicted_next_gw_points": -0.73,
     "current_season_points": 0.0
   },
   "Karl Darlow": {
@@ -3356,7 +3356,7 @@
     "position": "GK",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.94,
+    "predicted_next_gw_points": 2.78,
     "current_season_points": 58.0
   },
   "Jayden Bogle": {
@@ -3364,7 +3364,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.37,
+    "predicted_next_gw_points": 0.51,
     "current_season_points": 94.0
   },
   "Pascal Struijk": {
@@ -3372,7 +3372,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.24,
+    "predicted_next_gw_points": 2.26,
     "current_season_points": 107.0
   },
   "Jaka Bijol": {
@@ -3380,7 +3380,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 4.83,
+    "predicted_next_gw_points": 4.87,
     "current_season_points": 90.0
   },
   "Sebastiaan Bornauw": {
@@ -3388,7 +3388,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.04,
+    "predicted_next_gw_points": -0.01,
     "current_season_points": 18.0
   },
   "Sam Byram": {
@@ -3396,7 +3396,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.43,
+    "predicted_next_gw_points": -0.38,
     "current_season_points": 1.0
   },
   "Gabriel Gudmundsson": {
@@ -3404,7 +3404,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.83,
+    "predicted_next_gw_points": 0.87,
     "current_season_points": 68.0
   },
   "Joe Rodon": {
@@ -3412,7 +3412,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.09,
+    "predicted_next_gw_points": 1.14,
     "current_season_points": 102.0
   },
   "Isaac Schmidt": {
@@ -3428,7 +3428,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.92,
+    "predicted_next_gw_points": 3.04,
     "current_season_points": 124.0
   },
   "Wilfried Gnonto": {
@@ -3436,7 +3436,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.03,
+    "predicted_next_gw_points": 1.97,
     "current_season_points": 30.0
   },
   "Jack Harrison": {
@@ -3444,7 +3444,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.96,
+    "predicted_next_gw_points": -0.72,
     "current_season_points": 12.0
   },
   "Daniel James": {
@@ -3452,7 +3452,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.56,
+    "predicted_next_gw_points": 0.53,
     "current_season_points": 21.0
   },
   "Ethan Ampadu": {
@@ -3460,7 +3460,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.01,
+    "predicted_next_gw_points": 3.09,
     "current_season_points": 128.0
   },
   "Sam Greenwood": {
@@ -3476,7 +3476,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.41,
+    "predicted_next_gw_points": -0.32,
     "current_season_points": 56.0
   },
   "Largie Ramazani": {
@@ -3484,7 +3484,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.53,
+    "predicted_next_gw_points": -0.52,
     "current_season_points": 0.0
   },
   "Tanaka Ao": {
@@ -3492,7 +3492,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.96,
+    "predicted_next_gw_points": 4.94,
     "current_season_points": 62.0
   },
   "Charlie Crew": {
@@ -3500,7 +3500,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.71,
     "current_season_points": 0.0
   },
   "Joe Gelhardt": {
@@ -3508,7 +3508,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.21,
+    "predicted_next_gw_points": -0.22,
     "current_season_points": 0.0
   },
   "Darko Gyabi": {
@@ -3524,7 +3524,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.1,
+    "predicted_next_gw_points": -0.04,
     "current_season_points": 15.0
   },
   "Patrick Bamford": {
@@ -3532,7 +3532,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.04,
+    "predicted_next_gw_points": -0.01,
     "current_season_points": 0.0
   },
   "Mateo Joseph Fern\u00e1ndez-Regatillo": {
@@ -3540,7 +3540,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.63,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 0.0
   },
   "Lukas Nmecha": {
@@ -3548,7 +3548,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.82,
+    "predicted_next_gw_points": 0.85,
     "current_season_points": 70.0
   },
   "Sean Longstaff": {
@@ -3556,7 +3556,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.86,
+    "predicted_next_gw_points": 2.65,
     "current_season_points": 55.0
   },
   "Anton Stach": {
@@ -3564,7 +3564,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.88,
+    "predicted_next_gw_points": 3.95,
     "current_season_points": 134.0
   },
   "Lucas Estella Perri": {
@@ -3580,7 +3580,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 6.52,
+    "predicted_next_gw_points": 6.61,
     "current_season_points": 133.0
   },
   "Noah Okafor": {
@@ -3588,7 +3588,7 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.12,
+    "predicted_next_gw_points": 3.21,
     "current_season_points": 109.0
   },
   "James Justin": {
@@ -3596,7 +3596,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 5.48,
+    "predicted_next_gw_points": 5.64,
     "current_season_points": 87.0
   },
   "Harry Gray": {
@@ -3604,7 +3604,7 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.69,
+    "predicted_next_gw_points": -0.5,
     "current_season_points": 0.0
   },
   "Sam Chambers": {
@@ -3620,7 +3620,7 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.36,
+    "predicted_next_gw_points": -0.42,
     "current_season_points": 0.0
   },
   "Rhys Chadwick": {
@@ -3636,7 +3636,7 @@
     "position": "GK",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.06,
+    "predicted_next_gw_points": 0.1,
     "current_season_points": 89.0
   },
   "Giorgi Mamardashvili": {
@@ -3644,7 +3644,7 @@
     "position": "GK",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.38,
+    "predicted_next_gw_points": 1.44,
     "current_season_points": 34.0
   },
   "\u00c1rmin P\u00e9csi": {
@@ -3652,7 +3652,7 @@
     "position": "GK",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.41,
+    "predicted_next_gw_points": 0.36,
     "current_season_points": 0.0
   },
   "Freddie Woodman": {
@@ -3660,7 +3660,7 @@
     "position": "GK",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.35,
+    "predicted_next_gw_points": 1.46,
     "current_season_points": 6.0
   },
   "Jeremie Frimpong": {
@@ -3668,7 +3668,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.09,
+    "predicted_next_gw_points": 1.69,
     "current_season_points": 62.0
   },
   "Milos Kerkez": {
@@ -3676,7 +3676,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.7,
+    "predicted_next_gw_points": 2.57,
     "current_season_points": 84.0
   },
   "Andrew Robertson": {
@@ -3684,7 +3684,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.74,
+    "predicted_next_gw_points": 2.66,
     "current_season_points": 53.0
   },
   "Virgil van Dijk": {
@@ -3692,7 +3692,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 8.92,
+    "predicted_next_gw_points": 9.06,
     "current_season_points": 171.0
   },
   "Ibrahima Konat\u00e9": {
@@ -3700,7 +3700,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.61,
+    "predicted_next_gw_points": 3.67,
     "current_season_points": 128.0
   },
   "Conor Bradley": {
@@ -3708,7 +3708,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.59,
+    "predicted_next_gw_points": -0.53,
     "current_season_points": 42.0
   },
   "Joe Gomez": {
@@ -3716,7 +3716,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.01,
+    "predicted_next_gw_points": 1.11,
     "current_season_points": 32.0
   },
   "Konstantinos Tsimikas": {
@@ -3764,7 +3764,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 6.46,
+    "predicted_next_gw_points": 6.4,
     "current_season_points": 124.0
   },
   "Luis D\u00edaz Marulanda": {
@@ -3780,7 +3780,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 7.05,
+    "predicted_next_gw_points": 6.86,
     "current_season_points": 129.0
   },
   "Federico Chiesa": {
@@ -3788,7 +3788,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.94,
+    "predicted_next_gw_points": 1.83,
     "current_season_points": 37.0
   },
   "Alexis Mac Allister": {
@@ -3796,7 +3796,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 7.48,
+    "predicted_next_gw_points": 7.45,
     "current_season_points": 107.0
   },
   "Dominik Szoboszlai": {
@@ -3804,7 +3804,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 12.62,
+    "predicted_next_gw_points": 12.46,
     "current_season_points": 158.0
   },
   "Curtis Jones": {
@@ -3812,7 +3812,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.31,
+    "predicted_next_gw_points": 6.25,
     "current_season_points": 71.0
   },
   "Ryan Gravenberch": {
@@ -3820,7 +3820,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 7.0,
+    "predicted_next_gw_points": 6.86,
     "current_season_points": 142.0
   },
   "Endo Wataru": {
@@ -3836,7 +3836,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.74,
+    "predicted_next_gw_points": -0.73,
     "current_season_points": 0.0
   },
   "James McConnell": {
@@ -3852,7 +3852,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.33,
+    "predicted_next_gw_points": -0.09,
     "current_season_points": 0.0
   },
   "Trey Nyoni": {
@@ -3868,7 +3868,7 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 0.7,
-    "predicted_next_gw_points": -0.62,
+    "predicted_next_gw_points": -0.41,
     "current_season_points": 0.0
   },
   "Jayden Danns": {
@@ -3876,7 +3876,7 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.5,
+    "predicted_next_gw_points": -0.77,
     "current_season_points": 0.0
   },
   "Alexander Isak": {
@@ -3884,7 +3884,7 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 1.0,
-    "predicted_next_gw_points": 3.55,
+    "predicted_next_gw_points": 2.97,
     "current_season_points": 41.0
   },
   "Hugo Ekitik\u00e9": {
@@ -3900,7 +3900,7 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 3.99,
+    "predicted_next_gw_points": 3.91,
     "current_season_points": 41.0
   },
   "Giovanni Leoni": {
@@ -3908,7 +3908,7 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.66,
+    "predicted_next_gw_points": -0.62,
     "current_season_points": 0.0
   },
   "Kieran Morrison": {
@@ -3932,7 +3932,7 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.21,
+    "predicted_next_gw_points": 0.49,
     "current_season_points": 0.0
   },
   "Talla Ndiaye": {
@@ -3948,7 +3948,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 4.92,
+    "predicted_next_gw_points": 4.98,
     "current_season_points": 195.0
   },
   "James Trafford": {
@@ -3956,7 +3956,7 @@
     "position": "GK",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.28,
+    "predicted_next_gw_points": 0.32,
     "current_season_points": 11.0
   },
   "Marc Gu\u00e9hi": {
@@ -3964,7 +3964,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 6.05,
+    "predicted_next_gw_points": 6.16,
     "current_season_points": 177.0
   },
   "Ederson Santana de Moraes": {
@@ -3972,7 +3972,7 @@
     "position": "GK",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.18,
+    "predicted_next_gw_points": -0.45,
     "current_season_points": 0.0
   },
   "Marcus Bettinelli": {
@@ -3988,7 +3988,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.93,
+    "predicted_next_gw_points": 2.94,
     "current_season_points": 59.0
   },
   "Jo\u0161ko Gvardiol": {
@@ -3996,7 +3996,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.05,
+    "predicted_next_gw_points": 0.94,
     "current_season_points": 78.0
   },
   "Manuel Akanji": {
@@ -4004,7 +4004,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.01,
+    "predicted_next_gw_points": -0.79,
     "current_season_points": 0.0
   },
   "Nathan Ak\u00e9": {
@@ -4012,7 +4012,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.58,
+    "predicted_next_gw_points": 2.61,
     "current_season_points": 35.0
   },
   "Abdukodir Khusanov": {
@@ -4020,7 +4020,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.02,
+    "predicted_next_gw_points": 4.06,
     "current_season_points": 65.0
   },
   "Matheus Nunes": {
@@ -4036,7 +4036,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.13,
+    "predicted_next_gw_points": -0.15,
     "current_season_points": 112.0
   },
   "John Stones": {
@@ -4044,7 +4044,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.76,
+    "predicted_next_gw_points": 0.67,
     "current_season_points": 13.0
   },
   "Rico Lewis": {
@@ -4052,7 +4052,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.22,
+    "predicted_next_gw_points": 0.09,
     "current_season_points": 19.0
   },
   "Nico O'Reilly": {
@@ -4060,7 +4060,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.77,
+    "predicted_next_gw_points": 3.76,
     "current_season_points": 158.0
   },
   "Vitor de Oliveira Nunes dos Reis": {
@@ -4076,7 +4076,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 3.7,
+    "predicted_next_gw_points": 3.75,
     "current_season_points": 55.0
   },
   "Phil Foden": {
@@ -4084,7 +4084,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 4.2,
+    "predicted_next_gw_points": 4.18,
     "current_season_points": 128.0
   },
   "S\u00e1vio Moreira de Oliveira": {
@@ -4100,7 +4100,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.74,
+    "predicted_next_gw_points": 3.53,
     "current_season_points": 100.0
   },
   "Rayan Cherki": {
@@ -4108,7 +4108,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 5.49,
+    "predicted_next_gw_points": 5.43,
     "current_season_points": 133.0
   },
   "J\u00e9r\u00e9my Doku": {
@@ -4116,7 +4116,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 7.66,
+    "predicted_next_gw_points": 7.95,
     "current_season_points": 117.0
   },
   "\u0130lkay G\u00fcndo\u011fan": {
@@ -4124,7 +4124,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.01,
+    "predicted_next_gw_points": -0.01,
     "current_season_points": 0.0
   },
   "Rodrigo 'Rodri' Hernandez Cascante": {
@@ -4132,7 +4132,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.88,
+    "predicted_next_gw_points": 1.08,
     "current_season_points": 62.0
   },
   "Mateo Kova\u010di\u0107": {
@@ -4140,7 +4140,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.82,
+    "predicted_next_gw_points": 1.72,
     "current_season_points": 7.0
   },
   "Nico Gonz\u00e1lez Iglesias": {
@@ -4164,7 +4164,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.81,
+    "predicted_next_gw_points": 0.4,
     "current_season_points": 87.0
   },
   "Sverre Nypan": {
@@ -4196,7 +4196,7 @@
     "position": "GK",
     "team": "Man City",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.8,
+    "predicted_next_gw_points": 4.47,
     "current_season_points": 134.0
   },
   "Divine Mukasa": {
@@ -4204,7 +4204,7 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.11,
+    "predicted_next_gw_points": 0.45,
     "current_season_points": 2.0
   },
   "Stephen Mfuni": {
@@ -4244,7 +4244,7 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.41,
+    "predicted_next_gw_points": 0.32,
     "current_season_points": 5.0
   },
   "Bryan Mbeumo": {
@@ -4252,7 +4252,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 2.08,
+    "predicted_next_gw_points": 2.31,
     "current_season_points": 132.0
   },
   "Altay Bay\u0131nd\u0131r": {
@@ -4260,7 +4260,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.21,
+    "predicted_next_gw_points": -0.22,
     "current_season_points": 11.0
   },
   "Andr\u00e9 Onana": {
@@ -4268,7 +4268,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.49,
+    "predicted_next_gw_points": -0.6,
     "current_season_points": 0.0
   },
   "Elyh Harrison": {
@@ -4276,7 +4276,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.02,
     "current_season_points": 0.0
   },
   "Tom Heaton": {
@@ -4284,7 +4284,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.15,
+    "predicted_next_gw_points": -0.19,
     "current_season_points": 0.0
   },
   "Dermot Mee": {
@@ -4292,7 +4292,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.16,
+    "predicted_next_gw_points": -0.5,
     "current_season_points": 0.0
   },
   "Matthijs de Ligt": {
@@ -4300,7 +4300,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.57,
+    "predicted_next_gw_points": -0.6,
     "current_season_points": 43.0
   },
   "Lisandro Mart\u00ednez": {
@@ -4308,7 +4308,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.63,
+    "predicted_next_gw_points": 2.26,
     "current_season_points": 42.0
   },
   "Noussair Mazraoui": {
@@ -4316,7 +4316,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.98,
+    "predicted_next_gw_points": 4.43,
     "current_season_points": 47.0
   },
   "Diego Le\u00f3n Blanco": {
@@ -4332,7 +4332,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.35,
+    "predicted_next_gw_points": 2.19,
     "current_season_points": 110.0
   },
   "Patrick Dorgu": {
@@ -4340,7 +4340,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.95,
+    "predicted_next_gw_points": 0.59,
     "current_season_points": 76.0
   },
   "Harry Maguire": {
@@ -4348,7 +4348,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 5.34,
+    "predicted_next_gw_points": 5.48,
     "current_season_points": 81.0
   },
   "Luke Shaw": {
@@ -4356,7 +4356,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.57,
+    "predicted_next_gw_points": 4.82,
     "current_season_points": 101.0
   },
   "Leny Yoro": {
@@ -4364,7 +4364,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.75,
+    "predicted_next_gw_points": 1.15,
     "current_season_points": 55.0
   },
   "Harry Amass": {
@@ -4372,7 +4372,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.02,
     "current_season_points": 0.0
   },
   "Tyler Fredricson": {
@@ -4380,7 +4380,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.08,
     "current_season_points": 1.0
   },
   "Ayden Heaven": {
@@ -4396,7 +4396,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.79,
+    "predicted_next_gw_points": -0.51,
     "current_season_points": 2.0
   },
   "Bruno Borges Fernandes": {
@@ -4412,7 +4412,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 5.6,
+    "predicted_next_gw_points": 5.62,
     "current_season_points": 134.0
   },
   "Marcus Rashford": {
@@ -4420,7 +4420,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.7,
-    "predicted_next_gw_points": -0.3,
+    "predicted_next_gw_points": -0.28,
     "current_season_points": 0.0
   },
   "Amad Diallo": {
@@ -4428,7 +4428,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.78,
+    "predicted_next_gw_points": 1.94,
     "current_season_points": 82.0
   },
   "Antony dos Santos": {
@@ -4452,7 +4452,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 6.19,
+    "predicted_next_gw_points": 6.13,
     "current_season_points": 164.0
   },
   "Kobbie Mainoo": {
@@ -4460,7 +4460,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 6.76,
+    "predicted_next_gw_points": 6.73,
     "current_season_points": 67.0
   },
   "Manuel Ugarte Ribeiro": {
@@ -4468,7 +4468,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.42,
+    "predicted_next_gw_points": -0.48,
     "current_season_points": 38.0
   },
   "Toby Collyer": {
@@ -4476,7 +4476,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.27,
+    "predicted_next_gw_points": -0.43,
     "current_season_points": 0.0
   },
   "Jayce Fitzgerald": {
@@ -4484,7 +4484,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.01,
+    "predicted_next_gw_points": 0.0,
     "current_season_points": 0.0
   },
   "Jack Fletcher": {
@@ -4500,7 +4500,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.49,
+    "predicted_next_gw_points": -0.97,
     "current_season_points": 0.0
   },
   "Jack Moorhouse": {
@@ -4508,7 +4508,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.26,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 0.0
   },
   "Rasmus H\u00f8jlund": {
@@ -4516,7 +4516,7 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.4,
+    "predicted_next_gw_points": -0.44,
     "current_season_points": 0.0
   },
   "Joshua Zirkzee": {
@@ -4524,7 +4524,7 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.74,
+    "predicted_next_gw_points": 0.64,
     "current_season_points": 40.0
   },
   "Chido Obi": {
@@ -4532,7 +4532,7 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.46,
+    "predicted_next_gw_points": -0.35,
     "current_season_points": 0.0
   },
   "Ethan Wheatley": {
@@ -4548,7 +4548,7 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.76,
+    "predicted_next_gw_points": 1.86,
     "current_season_points": 111.0
   },
   "Senne Lammens": {
@@ -4556,7 +4556,7 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.99,
+    "predicted_next_gw_points": 5.11,
     "current_season_points": 102.0
   },
   "Shea Lacey": {
@@ -4564,7 +4564,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.12,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 2.0
   },
   "Bendito Mantato": {
@@ -4580,7 +4580,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.17,
+    "predicted_next_gw_points": 0.34,
     "current_season_points": 1.0
   },
   "Godwill Kukonki": {
@@ -4588,7 +4588,7 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.06,
+    "predicted_next_gw_points": -0.07,
     "current_season_points": 0.0
   },
   "Jim Thwaites": {
@@ -4596,7 +4596,7 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": 0.32,
     "current_season_points": 0.0
   },
   "Jacob Ramsey": {
@@ -4612,7 +4612,7 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.81,
+    "predicted_next_gw_points": 1.97,
     "current_season_points": 26.0
   },
   "Nick Pope": {
@@ -4620,7 +4620,7 @@
     "position": "GK",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.27,
+    "predicted_next_gw_points": 2.33,
     "current_season_points": 90.0
   },
   "Mark Gillespie": {
@@ -4628,7 +4628,7 @@
     "position": "GK",
     "team": "Newcastle",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.37,
     "current_season_points": 0.0
   },
   "Odysseas Vlachodimos": {
@@ -4644,7 +4644,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.83,
+    "predicted_next_gw_points": 1.73,
     "current_season_points": 77.0
   },
   "Fabian Sch\u00e4r": {
@@ -4652,7 +4652,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.38,
+    "predicted_next_gw_points": -0.56,
     "current_season_points": 51.0
   },
   "Sven Botman": {
@@ -4660,7 +4660,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.66,
+    "predicted_next_gw_points": 3.33,
     "current_season_points": 82.0
   },
   "Dan Burn": {
@@ -4668,7 +4668,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.12,
+    "predicted_next_gw_points": 3.06,
     "current_season_points": 91.0
   },
   "Tino Livramento": {
@@ -4676,7 +4676,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.25,
+    "predicted_next_gw_points": -0.12,
     "current_season_points": 59.0
   },
   "Kieran Trippier": {
@@ -4684,7 +4684,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.3,
+    "predicted_next_gw_points": 0.32,
     "current_season_points": 52.0
   },
   "Emil Krafth": {
@@ -4692,7 +4692,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.45,
+    "predicted_next_gw_points": -0.53,
     "current_season_points": 0.0
   },
   "Jamaal Lascelles": {
@@ -4716,7 +4716,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.51,
     "current_season_points": 0.0
   },
   "Miodrag Piva\u0161": {
@@ -4732,7 +4732,7 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.53,
+    "predicted_next_gw_points": -0.59,
     "current_season_points": 0.0
   },
   "Anthony Gordon": {
@@ -4740,7 +4740,7 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 0.7,
-    "predicted_next_gw_points": -0.41,
+    "predicted_next_gw_points": -0.36,
     "current_season_points": 101.0
   },
   "Anthony Elanga": {
@@ -4748,7 +4748,7 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.19,
+    "predicted_next_gw_points": 1.17,
     "current_season_points": 46.0
   },
   "Harvey Barnes": {
@@ -4756,7 +4756,7 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 5.01,
+    "predicted_next_gw_points": 5.02,
     "current_season_points": 100.0
   },
   "Bruno Guimar\u00e3es Rodriguez Moura": {
@@ -4788,7 +4788,7 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.15,
+    "predicted_next_gw_points": 2.17,
     "current_season_points": 80.0
   },
   "Anto\u00f1ito Cordero Campillo": {
@@ -4804,7 +4804,7 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.1,
+    "predicted_next_gw_points": 1.04,
     "current_season_points": 32.0
   },
   "Isaac Hayden": {
@@ -4844,7 +4844,7 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.7,
+    "predicted_next_gw_points": 5.58,
     "current_season_points": 61.0
   },
   "Sean Neave": {
@@ -4860,7 +4860,7 @@
     "position": "GK",
     "team": "Newcastle",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.23,
+    "predicted_next_gw_points": 0.14,
     "current_season_points": 25.0
   },
   "Malick Thiaw": {
@@ -4884,7 +4884,7 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.07,
+    "predicted_next_gw_points": 0.9,
     "current_season_points": 98.0
   },
   "John Ruddy": {
@@ -4932,7 +4932,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.59,
+    "predicted_next_gw_points": 1.73,
     "current_season_points": 15.0
   },
   "Matz Sels": {
@@ -4940,7 +4940,7 @@
     "position": "GK",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.26,
+    "predicted_next_gw_points": 4.38,
     "current_season_points": 100.0
   },
   "Carlos Miguel dos Santos Pereira": {
@@ -4980,7 +4980,7 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.37,
+    "predicted_next_gw_points": 0.24,
     "current_season_points": 67.0
   },
   "Neco Williams": {
@@ -5036,7 +5036,7 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.41,
     "current_season_points": 0.0
   },
   "Morgan Gibbs-White": {
@@ -5044,7 +5044,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 7.44,
+    "predicted_next_gw_points": 7.39,
     "current_season_points": 172.0
   },
   "Callum Hudson-Odoi": {
@@ -5052,7 +5052,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.8,
+    "predicted_next_gw_points": -0.83,
     "current_season_points": 88.0
   },
   "Elliot Anderson": {
@@ -5060,7 +5060,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 7.08,
+    "predicted_next_gw_points": 7.04,
     "current_season_points": 166.0
   },
   "Jo\u00e3o Pedro Ferreira da Silva": {
@@ -5076,7 +5076,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.31,
+    "predicted_next_gw_points": 2.0,
     "current_season_points": 45.0
   },
   "Lewis O'Brien": {
@@ -5084,7 +5084,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.56,
+    "predicted_next_gw_points": -0.49,
     "current_season_points": 0.0
   },
   "Ibrahim Sangar\u00e9": {
@@ -5092,7 +5092,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.81,
+    "predicted_next_gw_points": 1.83,
     "current_season_points": 84.0
   },
   "Ryan Yates": {
@@ -5100,7 +5100,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.56,
+    "predicted_next_gw_points": 2.39,
     "current_season_points": 29.0
   },
   "Eric da Silva Moreira": {
@@ -5116,7 +5116,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.06,
+    "predicted_next_gw_points": -0.05,
     "current_season_points": 0.0
   },
   "Chris Wood": {
@@ -5124,7 +5124,7 @@
     "position": "FWD",
     "team": "Nott'm Forest",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 3.18,
+    "predicted_next_gw_points": 3.22,
     "current_season_points": 37.0
   },
   "Igor Jesus Maciel da Cruz": {
@@ -5140,7 +5140,7 @@
     "position": "FWD",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.61,
+    "predicted_next_gw_points": 5.39,
     "current_season_points": 42.0
   },
   "Dan Ndoye": {
@@ -5148,7 +5148,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.22,
+    "predicted_next_gw_points": -0.42,
     "current_season_points": 50.0
   },
   "Angus Gunn": {
@@ -5164,7 +5164,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.28,
+    "predicted_next_gw_points": 2.12,
     "current_season_points": 75.0
   },
   "Arnaud Kalimuendo": {
@@ -5188,7 +5188,7 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.48,
+    "predicted_next_gw_points": -0.26,
     "current_season_points": 39.0
   },
   "Luis Eduardo Soares da Silva": {
@@ -5204,7 +5204,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 2.93,
+    "predicted_next_gw_points": 2.86,
     "current_season_points": 25.0
   },
   "Lorenzo Lucca": {
@@ -5212,7 +5212,7 @@
     "position": "FWD",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.13,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 9.0
   },
   "Luca Netz": {
@@ -5220,7 +5220,7 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.9,
+    "predicted_next_gw_points": 1.77,
     "current_season_points": 9.0
   },
   "Archie Whitehall": {
@@ -5228,7 +5228,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.52,
+    "predicted_next_gw_points": -0.48,
     "current_season_points": 0.0
   },
   "Jimmy Sinclair": {
@@ -5236,7 +5236,7 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.56,
+    "predicted_next_gw_points": -0.2,
     "current_season_points": 0.0
   },
   "Anthony Patterson": {
@@ -5276,7 +5276,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.7,
+    "predicted_next_gw_points": 2.73,
     "current_season_points": 101.0
   },
   "Aji Alese": {
@@ -5300,7 +5300,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.77,
+    "predicted_next_gw_points": -0.38,
     "current_season_points": 14.0
   },
   "Leo Fuhr Hjelde": {
@@ -5332,7 +5332,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.11,
     "current_season_points": 16.0
   },
   "Timoth\u00e9e Pemb\u00e9l\u00e9": {
@@ -5372,7 +5372,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.69,
+    "predicted_next_gw_points": 0.81,
     "current_season_points": 61.0
   },
   "Patrick Roberts": {
@@ -5388,7 +5388,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.31,
+    "predicted_next_gw_points": -0.46,
     "current_season_points": 0.0
   },
   "Enzo Le F\u00e9e": {
@@ -5396,7 +5396,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.34,
+    "predicted_next_gw_points": 5.38,
     "current_season_points": 129.0
   },
   "Romaine Mundle": {
@@ -5404,7 +5404,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.13,
     "current_season_points": 14.0
   },
   "Dan Neil": {
@@ -5412,7 +5412,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.25,
+    "predicted_next_gw_points": -0.23,
     "current_season_points": 3.0
   },
   "Ian Poveda-Ocampo": {
@@ -5420,7 +5420,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.81,
+    "predicted_next_gw_points": -0.88,
     "current_season_points": 0.0
   },
   "Chris Rigg": {
@@ -5436,7 +5436,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.38,
+    "predicted_next_gw_points": 3.33,
     "current_season_points": 77.0
   },
   "Chemsdine Talbi": {
@@ -5444,7 +5444,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.04,
+    "predicted_next_gw_points": 1.82,
     "current_season_points": 82.0
   },
   "Abdoullah Ba": {
@@ -5452,7 +5452,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.64,
     "current_season_points": 0.0
   },
   "Alan Browne": {
@@ -5468,7 +5468,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.01,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Harrison Jones": {
@@ -5500,7 +5500,7 @@
     "position": "FWD",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.96,
+    "predicted_next_gw_points": 1.94,
     "current_season_points": 68.0
   },
   "Eliezer Mayenda Dossou": {
@@ -5516,7 +5516,7 @@
     "position": "FWD",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.2,
     "current_season_points": 0.0
   },
   "Lu\u00eds Hemir Silva Semedo": {
@@ -5540,7 +5540,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 5.65,
+    "predicted_next_gw_points": 5.53,
     "current_season_points": 121.0
   },
   "Robin Roefs": {
@@ -5548,7 +5548,7 @@
     "position": "GK",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.25,
+    "predicted_next_gw_points": 2.22,
     "current_season_points": 131.0
   },
   "Arthur Masuaku": {
@@ -5564,7 +5564,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 3.59,
+    "predicted_next_gw_points": 3.58,
     "current_season_points": 124.0
   },
   "Nordi Mukiele": {
@@ -5572,7 +5572,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.19,
+    "predicted_next_gw_points": 4.15,
     "current_season_points": 145.0
   },
   "Lutsharel Geertruida": {
@@ -5580,7 +5580,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.94,
+    "predicted_next_gw_points": 0.92,
     "current_season_points": 52.0
   },
   "Brian Brobbey": {
@@ -5588,7 +5588,7 @@
     "position": "FWD",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.82,
+    "predicted_next_gw_points": 2.67,
     "current_season_points": 80.0
   },
   "Bertrand Traor\u00e9": {
@@ -5604,7 +5604,7 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.06,
+    "predicted_next_gw_points": -0.35,
     "current_season_points": 0.0
   },
   "Tymur Tutierov": {
@@ -5620,7 +5620,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.11,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 1.0
   },
   "Melker Ellborg": {
@@ -5628,7 +5628,7 @@
     "position": "GK",
     "team": "Sunderland",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.42,
+    "predicted_next_gw_points": -0.54,
     "current_season_points": 16.0
   },
   "Nilson Angulo": {
@@ -5636,7 +5636,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.14,
+    "predicted_next_gw_points": 0.23,
     "current_season_points": 10.0
   },
   "Jack Whittaker": {
@@ -5652,7 +5652,7 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.22,
+    "predicted_next_gw_points": 0.01,
     "current_season_points": 0.0
   },
   "Guglielmo Vicario": {
@@ -5676,7 +5676,7 @@
     "position": "GK",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.45,
+    "predicted_next_gw_points": 2.39,
     "current_season_points": 14.0
   },
   "Pedro Porro Sauceda": {
@@ -5692,7 +5692,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.04,
+    "predicted_next_gw_points": -0.14,
     "current_season_points": 91.0
   },
   "Kevin Danso": {
@@ -5700,7 +5700,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.63,
+    "predicted_next_gw_points": 2.55,
     "current_season_points": 52.0
   },
   "Ben Davies": {
@@ -5716,7 +5716,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.13,
+    "predicted_next_gw_points": -0.01,
     "current_season_points": 16.0
   },
   "Djed Spence": {
@@ -5724,7 +5724,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.73,
+    "predicted_next_gw_points": 2.7,
     "current_season_points": 71.0
   },
   "Destiny Udogie": {
@@ -5732,7 +5732,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.82,
+    "predicted_next_gw_points": 1.81,
     "current_season_points": 22.0
   },
   "Micky van de Ven": {
@@ -5740,7 +5740,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.3,
+    "predicted_next_gw_points": 2.02,
     "current_season_points": 110.0
   },
   "Ashley Phillips": {
@@ -5764,7 +5764,7 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.32,
+    "predicted_next_gw_points": -0.31,
     "current_season_points": 0.0
   },
   "Son Heung-min": {
@@ -5772,7 +5772,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.8,
-    "predicted_next_gw_points": -0.04,
+    "predicted_next_gw_points": 0.05,
     "current_season_points": 0.0
   },
   "James Maddison": {
@@ -5788,7 +5788,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.6,
-    "predicted_next_gw_points": -0.75,
+    "predicted_next_gw_points": -0.68,
     "current_season_points": 75.0
   },
   "Dejan Kulusevski": {
@@ -5804,7 +5804,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.48,
+    "predicted_next_gw_points": 4.43,
     "current_season_points": 73.0
   },
   "Rodrigo Bentancur": {
@@ -5812,7 +5812,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.66,
+    "predicted_next_gw_points": 4.56,
     "current_season_points": 79.0
   },
   "Lucas Bergvall": {
@@ -5820,7 +5820,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.88,
+    "predicted_next_gw_points": 1.96,
     "current_season_points": 49.0
   },
   "Yves Bissouma": {
@@ -5828,7 +5828,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.75,
+    "predicted_next_gw_points": 1.37,
     "current_season_points": 17.0
   },
   "Wilson Odobert": {
@@ -5844,7 +5844,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.44,
+    "predicted_next_gw_points": 0.04,
     "current_season_points": 0.0
   },
   "Bryan Gil Salvatierra": {
@@ -5868,7 +5868,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.3,
+    "predicted_next_gw_points": -0.26,
     "current_season_points": 0.0
   },
   "Pape Matar Sarr": {
@@ -5884,7 +5884,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 0.0
   },
   "Callum Olusesi": {
@@ -5900,7 +5900,7 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 0.29,
+    "predicted_next_gw_points": 0.23,
     "current_season_points": 40.0
   },
   "Richarlison de Andrade": {
@@ -5908,7 +5908,7 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 4.84,
+    "predicted_next_gw_points": 4.85,
     "current_season_points": 110.0
   },
   "Will Lankshear": {
@@ -5916,7 +5916,7 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.24,
+    "predicted_next_gw_points": -0.14,
     "current_season_points": 0.0
   },
   "Dane Scarlett": {
@@ -5948,7 +5948,7 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 0.7,
-    "predicted_next_gw_points": 1.38,
+    "predicted_next_gw_points": 1.34,
     "current_season_points": 49.0
   },
   "Jun'ai Byfield": {
@@ -5972,7 +5972,7 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.88,
     "current_season_points": 0.0
   },
   "Luc\u00e1 Williams-Barnett": {
@@ -6020,7 +6020,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.17,
+    "predicted_next_gw_points": 0.39,
     "current_season_points": 25.0
   },
   "Alphonse Areola": {
@@ -6028,7 +6028,7 @@
     "position": "GK",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.52,
+    "predicted_next_gw_points": -0.42,
     "current_season_points": 51.0
   },
   "Wes Foderingham": {
@@ -6036,7 +6036,7 @@
     "position": "GK",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.01,
     "current_season_points": 0.0
   },
   "Kriszti\u00e1n Hegyi": {
@@ -6052,7 +6052,7 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 3.88,
+    "predicted_next_gw_points": 3.4,
     "current_season_points": 98.0
   },
   "Emerson Palmieri dos Santos": {
@@ -6076,7 +6076,7 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 4.61,
+    "predicted_next_gw_points": 4.39,
     "current_season_points": 111.0
   },
   "Nayef Aguerd": {
@@ -6100,7 +6100,7 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.07,
+    "predicted_next_gw_points": -0.09,
     "current_season_points": 46.0
   },
   "Aaron Wan-Bissaka": {
@@ -6108,7 +6108,7 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.16,
+    "predicted_next_gw_points": 0.99,
     "current_season_points": 66.0
   },
   "Kaelan Casey": {
@@ -6132,7 +6132,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 5.72,
+    "predicted_next_gw_points": 5.75,
     "current_season_points": 99.0
   },
   "Crysencio Summerville": {
@@ -6140,7 +6140,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 2.63,
+    "predicted_next_gw_points": 2.59,
     "current_season_points": 102.0
   },
   "Edson \u00c1lvarez Vel\u00e1zquez": {
@@ -6148,7 +6148,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.96,
+    "predicted_next_gw_points": -0.73,
     "current_season_points": 0.0
   },
   "Maxwel Cornet": {
@@ -6156,7 +6156,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.98,
+    "predicted_next_gw_points": -0.53,
     "current_season_points": 0.0
   },
   "Guido Rodr\u00edguez": {
@@ -6180,7 +6180,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.96,
+    "predicted_next_gw_points": -0.03,
     "current_season_points": 1.0
   },
   "Andy Irving": {
@@ -6204,7 +6204,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.19,
+    "predicted_next_gw_points": 0.39,
     "current_season_points": 37.0
   },
   "Jarrod Bowen": {
@@ -6212,7 +6212,7 @@
     "position": "FWD",
     "team": "West Ham",
     "now_cost": 0.8,
-    "predicted_next_gw_points": 5.63,
+    "predicted_next_gw_points": 5.66,
     "current_season_points": 173.0
   },
   "Niclas F\u00fcllkrug": {
@@ -6244,7 +6244,7 @@
     "position": "FWD",
     "team": "West Ham",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 1.92,
+    "predicted_next_gw_points": 1.99,
     "current_season_points": 73.0
   },
   "Mads Hermansen": {
@@ -6252,7 +6252,7 @@
     "position": "GK",
     "team": "West Ham",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.53,
+    "predicted_next_gw_points": 2.43,
     "current_season_points": 64.0
   },
   "Mateus Gon\u00e7alo Espanha Fernandes": {
@@ -6260,7 +6260,7 @@
     "position": "MID",
     "team": "West Ham",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 3.88,
+    "predicted_next_gw_points": 3.91,
     "current_season_points": 122.0
   },
   "Soungoutou Magassa": {
@@ -6308,7 +6308,7 @@
     "position": "FWD",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 1.61,
+    "predicted_next_gw_points": 1.65,
     "current_season_points": 24.0
   },
   "Valent\u00edn Castellanos": {
@@ -6332,7 +6332,7 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 3.96,
+    "predicted_next_gw_points": 3.93,
     "current_season_points": 42.0
   },
   "Finlay Herrick": {
@@ -6348,7 +6348,7 @@
     "position": "GK",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.7,
+    "predicted_next_gw_points": -0.72,
     "current_season_points": 21.0
   },
   "Jos\u00e9 Malheiro de S\u00e1": {
@@ -6356,7 +6356,7 @@
     "position": "GK",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.46,
+    "predicted_next_gw_points": 0.44,
     "current_season_points": 59.0
   },
   "Daniel Bentley": {
@@ -6396,7 +6396,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.89,
+    "predicted_next_gw_points": 1.81,
     "current_season_points": 56.0
   },
   "Rodrigo Martins Gomes": {
@@ -6404,7 +6404,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.57,
+    "predicted_next_gw_points": 1.75,
     "current_season_points": 44.0
   },
   "Santiago Ignacio Bueno": {
@@ -6444,7 +6444,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 0.94,
+    "predicted_next_gw_points": 1.2,
     "current_season_points": 8.0
   },
   "Alfie Pond": {
@@ -6460,7 +6460,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.6,
-    "predicted_next_gw_points": 0.31,
+    "predicted_next_gw_points": 0.3,
     "current_season_points": 48.0
   },
   "Andr\u00e9 Trindade da Costa Neto": {
@@ -6476,7 +6476,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.87,
+    "predicted_next_gw_points": 0.85,
     "current_season_points": 43.0
   },
   "Fer L\u00f3pez Gonz\u00e1lez": {
@@ -6508,7 +6508,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.01,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 38.0
   },
   "Boubacar Traor\u00e9": {
@@ -6548,7 +6548,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.0,
     "current_season_points": 0.0
   },
   "F\u00e1bio Soares Silva": {
@@ -6556,7 +6556,7 @@
     "position": "FWD",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.75,
+    "predicted_next_gw_points": -0.49,
     "current_season_points": 0.0
   },
   "Sa\u0161a Kalajd\u017ei\u0107": {
@@ -6580,7 +6580,7 @@
     "position": "FWD",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.56,
+    "predicted_next_gw_points": -0.38,
     "current_season_points": 0.0
   },
   "Jhon Arias": {
@@ -6596,7 +6596,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 1.51,
+    "predicted_next_gw_points": 0.63,
     "current_season_points": 31.0
   },
   "Jackson Tchatchoua": {
@@ -6612,7 +6612,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.11,
+    "predicted_next_gw_points": -0.16,
     "current_season_points": 60.0
   },
   "Tolu Arokodare": {
@@ -6628,7 +6628,7 @@
     "position": "FWD",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": 2.5,
+    "predicted_next_gw_points": 2.59,
     "current_season_points": 61.0
   },
   "Saheed Olagunju": {
@@ -6636,7 +6636,7 @@
     "position": "DEF",
     "team": "Wolves",
     "now_cost": 0.4,
-    "predicted_next_gw_points": -0.02,
+    "predicted_next_gw_points": -0.19,
     "current_season_points": 0.0
   },
   "Luke Rawlings": {
@@ -6644,7 +6644,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": -0.44,
     "current_season_points": 0.0
   },
   "Temple Ojinnaka": {
@@ -6660,7 +6660,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": -0.03,
+    "predicted_next_gw_points": 0.02,
     "current_season_points": 0.0
   },
   "Jerome Abbey": {
@@ -6668,7 +6668,7 @@
     "position": "MID",
     "team": "Wolves",
     "now_cost": 0.5,
-    "predicted_next_gw_points": 0.02,
+    "predicted_next_gw_points": -0.97,
     "current_season_points": 0.0
   },
   "Angel Gomes": {
