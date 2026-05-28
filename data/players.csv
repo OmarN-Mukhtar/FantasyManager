@@ -173,44 +173,44 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 801,801,Alex Tóth,Alex,Tóth,Tóth.A,Bournemouth,4,MID,3,4.9,8,0.5,0.9,0.0
 806,806,Christos Mandas,Christos,Mandas,Mandas,Bournemouth,4,GK,1,4.0,0,0.0,0.0,0.0
 807,807,Rayan Vitor Simplício Rocha,Rayan Vitor,Simplício Rocha,Rayan,Bournemouth,4,MID,3,5.4,67,5.5,4.5,2.3
-27,27,Reiss Nelson,Reiss,Nelson,Nelson,Brentford,5,MID,3,4.8,13,1.0,1.3,0.1
-83,83,Dango Ouattara,Dango,Ouattara,O.Dango,Brentford,5,MID,3,5.6,136,5.0,4.2,1.6
-101,101,Caoimhín Kelleher,Caoimhín,Kelleher,Kelleher,Brentford,5,GK,1,4.8,143,4.2,3.9,12.0
+27,27,Reiss Nelson,Reiss,Nelson,Nelson,Brentford,5,MID,3,4.8,13,0.2,1.3,0.1
+83,83,Dango Ouattara,Dango,Ouattara,O.Dango,Brentford,5,MID,3,5.6,136,6.0,4.2,1.6
+101,101,Caoimhín Kelleher,Caoimhín,Kelleher,Kelleher,Brentford,5,GK,1,4.8,143,4.8,3.9,12.0
 102,102,Ellery Balcombe,Ellery,Balcombe,Balcombe,Brentford,5,GK,1,3.9,0,0.0,0.0,0.2
 103,103,Matthew Cox,Matthew,Cox,Cox,Brentford,5,GK,1,3.9,0,0.0,0.0,0.1
 104,104,Julian Eyestone,Julian,Eyestone,Eyestone,Brentford,5,GK,1,3.9,0,0.0,0.0,0.1
 105,105,Hákon Rafn Valdimarsson,Hákon Rafn,Valdimarsson,Valdimarsson,Brentford,5,GK,1,3.8,1,0.0,1.0,1.0
-106,106,Nathan Collins,Nathan,Collins,Collins,Brentford,5,DEF,2,4.9,129,3.0,3.7,2.4
-107,107,Keane Lewis-Potter,Keane,Lewis-Potter,Lewis-Potter,Brentford,5,DEF,2,4.8,115,3.8,3.2,1.5
-108,108,Kristoffer Ajer,Kristoffer,Ajer,Ajer,Brentford,5,DEF,2,4.4,76,1.2,2.8,0.2
+106,106,Nathan Collins,Nathan,Collins,Collins,Brentford,5,DEF,2,4.9,129,3.2,3.7,2.4
+107,107,Keane Lewis-Potter,Keane,Lewis-Potter,Lewis-Potter,Brentford,5,DEF,2,4.8,115,4.5,3.2,1.5
+108,108,Kristoffer Ajer,Kristoffer,Ajer,Ajer,Brentford,5,DEF,2,4.4,76,1.5,2.8,0.2
 109,109,Rico Henry,Rico,Henry,Henry,Brentford,5,DEF,2,4.3,52,0.0,2.1,0.1
-110,110,Michael Kayode,Michael,Kayode,Kayode,Brentford,5,DEF,2,4.6,113,1.8,3.1,1.0
+110,110,Michael Kayode,Michael,Kayode,Kayode,Brentford,5,DEF,2,4.6,113,2.0,3.1,1.0
 111,111,Ethan Pinnock,Ethan,Pinnock,Pinnock,Brentford,5,DEF,2,4.2,14,0.0,3.5,0.1
 112,112,Mads Roerslev Rasmussen,Mads,Roerslev Rasmussen,Roerslev,Brentford,5,DEF,2,4.5,0,0.0,0.0,0.0
-113,113,Sepp van den Berg,Sepp,van den Berg,Van den Berg,Brentford,5,DEF,2,4.4,113,2.8,3.5,1.0
+113,113,Sepp van den Berg,Sepp,van den Berg,Van den Berg,Brentford,5,DEF,2,4.4,113,3.5,3.5,1.0
 114,114,Benjamin Arthur,Benjamin,Arthur,Arthur,Brentford,5,DEF,2,3.8,0,0.0,0.0,0.2
 115,115,Benjamin Fredrick,Benjamin,Fredrick,Fredrick,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.1
-116,116,Aaron Hickey,Aaron,Hickey,Hickey,Brentford,5,DEF,2,4.0,37,0.8,1.8,0.3
+116,116,Aaron Hickey,Aaron,Hickey,Hickey,Brentford,5,DEF,2,4.0,37,1.0,1.8,0.3
 117,117,Kim Ji-soo,Kim,Ji-soo,Ji-soo,Brentford,5,DEF,2,3.9,0,0.0,0.0,0.1
 118,118,Jayden Meghoma,Jayden,Meghoma,Meghoma,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.0
-120,120,Kevin Schade,Kevin,Schade,Schade,Brentford,5,MID,3,6.8,125,3.0,3.6,1.3
-121,121,Mikkel Damsgaard,Mikkel,Damsgaard,Damsgaard,Brentford,5,MID,3,5.6,113,4.0,3.4,0.8
+120,120,Kevin Schade,Kevin,Schade,Schade,Brentford,5,MID,3,6.8,125,3.2,3.6,1.3
+121,121,Mikkel Damsgaard,Mikkel,Damsgaard,Damsgaard,Brentford,5,MID,3,5.6,113,4.5,3.4,0.8
 122,122,Antoni Milambo,Antoni,Milambo,Milambo,Brentford,5,MID,3,5.2,1,0.0,1.0,0.0
 123,123,Fábio Freitas Gouveia Carvalho,Fábio,Freitas Gouveia Carvalho,Carvalho,Brentford,5,MID,3,4.6,13,0.0,2.2,0.1
 124,124,Jordan Henderson,Jordan,Henderson,Henderson,Brentford,5,MID,3,5.0,76,0.2,2.4,0.3
-125,125,Vitaly Janelt,Vitaly,Janelt,Janelt,Brentford,5,MID,3,4.9,74,0.8,3.0,0.1
-126,126,Mathias Jensen,Mathias,Jensen,Jensen,Brentford,5,MID,3,4.9,98,4.2,2.7,0.1
+125,125,Vitaly Janelt,Vitaly,Janelt,Janelt,Brentford,5,MID,3,4.9,74,1.0,3.0,0.1
+126,126,Mathias Jensen,Mathias,Jensen,Jensen,Brentford,5,MID,3,4.9,98,2.8,2.7,0.1
 127,127,Gustavo Nunes Fernandes Gomes,Gustavo,Nunes Fernandes Gomes,Nunes,Brentford,5,MID,3,4.9,0,0.0,0.0,0.0
 128,128,Frank Onyeka,Frank,Onyeka,Onyeka,Brentford,5,MID,3,4.8,12,0.0,2.0,0.0
-129,129,Yehor Yarmoliuk,Yehor,Yarmoliuk,Yarmoliuk,Brentford,5,MID,3,5.0,104,3.4,2.8,0.1
+129,129,Yehor Yarmoliuk,Yehor,Yarmoliuk,Yarmoliuk,Brentford,5,MID,3,5.0,104,3.2,2.8,0.1
 130,130,Romelle Donovan,Romelle,Donovan,Donovan,Brentford,5,MID,3,4.4,4,0.0,1.0,0.1
 131,131,Yunus Emre Konak,Yunus Emre,Konak,Konak,Brentford,5,MID,3,4.3,0,0.0,0.0,0.1
 132,132,Paris Maghoma,Paris,Maghoma,Maghoma,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
 133,133,Myles Peart-Harris,Myles,Peart-Harris,Peart-Harris,Brentford,5,MID,3,4.4,1,0.0,1.0,0.0
 134,134,Ryan Trevitt,Ryan,Trevitt,Trevitt,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
-136,136,Igor Thiago Nascimento Rodrigues,Igor Thiago,Nascimento Rodrigues,Thiago,Brentford,5,FWD,4,7.2,181,2.6,4.8,30.2
+136,136,Igor Thiago Nascimento Rodrigues,Igor Thiago,Nascimento Rodrigues,Thiago,Brentford,5,FWD,4,7.2,181,3.0,4.8,30.2
 137,137,Iwan Morgan,Iwan,Morgan,Morgan,Brentford,5,FWD,4,4.4,0,0.0,0.0,0.3
-748,748,Josh Dasilva,Josh,Dasilva,Dasilva,Brentford,5,MID,3,4.9,2,0.4,1.0,0.0
+748,748,Josh Dasilva,Josh,Dasilva,Dasilva,Brentford,5,MID,3,4.9,2,0.5,1.0,0.0
 797,797,Kaye Furo,Kaye,Furo,Furo,Brentford,5,FWD,4,4.5,1,0.2,1.0,0.0
 810,810,Luka Bentt,Luka,Bentt,Bentt,Brentford,5,MID,3,4.5,0,0.0,0.0,0.0
 819,819,Ollie Shield,Ollie,Shield,Shield,Brentford,5,DEF,2,4.0,0,0.0,0.0,0.0
@@ -532,33 +532,33 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 763,763,Charlie Gray,Charlie,Gray,Gray,Man City,13,MID,3,4.5,0,0.0,0.0,0.0
 764,764,Reigan Heskey,Reigan,Heskey,Heskey,Man City,13,MID,3,4.5,0,0.0,0.0,0.0
 794,794,Max Alleyne,Max,Alleyne,Alleyne,Man City,13,DEF,2,3.9,5,0.0,2.5,0.0
-119,119,Bryan Mbeumo,Bryan,Mbeumo,Mbeumo,Man Utd,14,MID,3,8.3,148,4.4,4.5,15.0
+119,119,Bryan Mbeumo,Bryan,Mbeumo,Mbeumo,Man Utd,14,MID,3,8.3,148,4.8,4.5,15.0
 431,431,Altay Bayındır,Altay,Bayındır,Bayindir,Man Utd,14,GK,1,4.7,11,0.0,1.8,0.3
 432,432,André Onana,André,Onana,Onana,Man Utd,14,GK,1,4.9,0,0.0,0.0,0.1
 433,433,Elyh Harrison,Elyh,Harrison,Harrison,Man Utd,14,GK,1,4.0,0,0.0,0.0,0.0
 434,434,Tom Heaton,Tom,Heaton,Heaton,Man Utd,14,GK,1,3.8,0,0.0,0.0,0.6
 435,435,Dermot Mee,Dermot,Mee,Mee,Man Utd,14,GK,1,3.9,0,0.0,0.0,0.1
 436,436,Matthijs de Ligt,Matthijs,de Ligt,De Ligt,Man Utd,14,DEF,2,4.9,43,0.0,3.3,1.8
-437,437,Lisandro Martínez,Lisandro,Martínez,Martinez,Man Utd,14,DEF,2,4.8,51,3.0,2.8,0.4
-438,438,Noussair Mazraoui,Noussair,Mazraoui,Mazraoui,Man Utd,14,DEF,2,4.9,53,3.6,2.6,0.3
+437,437,Lisandro Martínez,Lisandro,Martínez,Martinez,Man Utd,14,DEF,2,4.8,51,3.8,2.8,0.4
+438,438,Noussair Mazraoui,Noussair,Mazraoui,Mazraoui,Man Utd,14,DEF,2,4.9,53,4.2,2.6,0.3
 439,439,Diego León Blanco,Diego,León Blanco,D.Leon,Man Utd,14,DEF,2,4.1,0,0.0,0.0,0.1
-440,440,Diogo Dalot Teixeira,Diogo,Dalot Teixeira,Dalot,Man Utd,14,DEF,2,4.5,111,1.2,3.3,3.8
-441,441,Patrick Dorgu,Patrick,Dorgu,Dorgu,Man Utd,14,DEF,2,4.1,95,4.2,3.7,2.4
-442,442,Harry Maguire,Harry,Maguire,Maguire,Man Utd,14,DEF,2,4.4,90,5.4,3.9,1.7
+440,440,Diogo Dalot Teixeira,Diogo,Dalot Teixeira,Dalot,Man Utd,14,DEF,2,4.5,111,0.5,3.3,3.8
+441,441,Patrick Dorgu,Patrick,Dorgu,Dorgu,Man Utd,14,DEF,2,4.1,95,5.2,3.7,2.4
+442,442,Harry Maguire,Harry,Maguire,Maguire,Man Utd,14,DEF,2,4.4,90,5.0,3.9,1.7
 443,443,Luke Shaw,Luke,Shaw,Shaw,Man Utd,14,DEF,2,4.5,113,5.0,3.0,1.1
-444,444,Leny Yoro,Leny,Yoro,Yoro,Man Utd,14,DEF,2,4.1,56,0.6,1.8,1.2
+444,444,Leny Yoro,Leny,Yoro,Yoro,Man Utd,14,DEF,2,4.1,56,0.5,1.8,1.2
 445,445,Harry Amass,Harry,Amass,Amass,Man Utd,14,DEF,2,4.0,0,0.0,0.0,0.1
 446,446,Tyler Fredricson,Tyler,Fredricson,Fredricson,Man Utd,14,DEF,2,3.7,1,0.0,1.0,0.2
-447,447,Ayden Heaven,Ayden,Heaven,Heaven,Man Utd,14,DEF,2,3.7,42,0.6,2.5,2.6
+447,447,Ayden Heaven,Ayden,Heaven,Heaven,Man Utd,14,DEF,2,3.7,42,0.2,2.5,2.6
 448,448,Tyrell Malacia,Tyrell,Malacia,Malacia,Man Utd,14,DEF,2,3.7,3,0.2,1.0,0.6
-449,449,Bruno Borges Fernandes,Bruno,Borges Fernandes,B.Fernandes,Man Utd,14,MID,3,10.4,235,7.2,6.7,48.0
-450,450,Matheus Santos Carneiro da Cunha,Matheus,Santos Carneiro da Cunha,Cunha,Man Utd,14,MID,3,8.1,143,3.6,4.3,8.7
+449,449,Bruno Borges Fernandes,Bruno,Borges Fernandes,B.Fernandes,Man Utd,14,MID,3,10.4,235,7.8,6.7,48.0
+450,450,Matheus Santos Carneiro da Cunha,Matheus,Santos Carneiro da Cunha,Cunha,Man Utd,14,MID,3,8.1,143,4.5,4.3,8.7
 451,451,Marcus Rashford,Marcus,Rashford,Rashford,Man Utd,14,MID,3,7.0,0,0.0,0.0,0.0
-452,452,Amad Diallo,Amad,Diallo,Amad,Man Utd,14,MID,3,6.2,91,2.8,2.8,1.3
+452,452,Amad Diallo,Amad,Diallo,Amad,Man Utd,14,MID,3,6.2,91,3.2,2.8,1.3
 454,454,Antony dos Santos,Antony,dos Santos,Antony,Man Utd,14,MID,3,5.9,0,0.0,0.0,0.1
-455,455,Mason Mount,Mason,Mount,Mount,Man Utd,14,MID,3,5.9,58,2.2,2.5,0.3
-457,457,Carlos Henrique Casimiro,Carlos Henrique,Casimiro,Casemiro,Man Utd,14,MID,3,5.8,165,3.4,4.9,3.8
-458,458,Kobbie Mainoo,Kobbie,Mainoo,Mainoo,Man Utd,14,MID,3,4.7,73,4.8,2.6,1.4
+455,455,Mason Mount,Mason,Mount,Mount,Man Utd,14,MID,3,5.9,58,2.5,2.5,0.3
+457,457,Carlos Henrique Casimiro,Carlos Henrique,Casimiro,Casemiro,Man Utd,14,MID,3,5.8,165,1.2,4.9,3.8
+458,458,Kobbie Mainoo,Kobbie,Mainoo,Mainoo,Man Utd,14,MID,3,4.7,73,5.0,2.6,1.4
 459,459,Manuel Ugarte Ribeiro,Manuel,Ugarte Ribeiro,Ugarte,Man Utd,14,MID,3,4.7,38,0.0,1.7,0.1
 460,460,Toby Collyer,Toby,Collyer,Collyer,Man Utd,14,MID,3,4.5,0,0.0,0.0,0.0
 461,461,Jayce Fitzgerald,Jayce,Fitzgerald,Fitzgerald,Man Utd,14,MID,3,4.3,0,0.0,0.0,0.0
@@ -566,11 +566,11 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 463,463,Sékou Koné,Sékou,Koné,Kone,Man Utd,14,MID,3,4.3,0,0.0,0.0,0.1
 464,464,Jack Moorhouse,Jack,Moorhouse,Moorhouse,Man Utd,14,MID,3,4.5,0,0.0,0.0,0.0
 465,465,Rasmus Højlund,Rasmus,Højlund,Højlund,Man Utd,14,FWD,4,6.3,0,0.0,0.0,0.3
-466,466,Joshua Zirkzee,Joshua,Zirkzee,Zirkzee,Man Utd,14,FWD,4,5.8,42,0.8,1.8,0.4
+466,466,Joshua Zirkzee,Joshua,Zirkzee,Zirkzee,Man Utd,14,FWD,4,5.8,42,1.0,1.8,0.4
 467,467,Chido Obi,Chido,Obi,Obi,Man Utd,14,FWD,4,4.2,0,0.0,0.0,1.4
 468,468,Ethan Wheatley,Ethan,Wheatley,Wheatley,Man Utd,14,FWD,4,4.5,0,0.0,0.0,0.1
-681,681,Benjamin Sesko,Benjamin,Sesko,Šeško,Man Utd,14,FWD,4,7.2,111,2.6,3.7,4.6
-733,733,Senne Lammens,Senne,Lammens,Lammens,Man Utd,14,GK,1,5.1,109,4.2,3.4,3.6
+681,681,Benjamin Sesko,Benjamin,Sesko,Šeško,Man Utd,14,FWD,4,7.2,111,1.2,3.7,4.6
+733,733,Senne Lammens,Senne,Lammens,Lammens,Man Utd,14,GK,1,5.1,109,4.5,3.4,3.6
 755,755,Shea Lacey,Shea,Lacey,Lacey,Man Utd,14,MID,3,4.5,3,0.2,1.0,0.0
 769,769,Bendito Mantato,Bendito,Mantato,Bendito Mantato,Man Utd,14,MID,3,4.5,1,0.0,1.0,0.0
 771,771,Tyler Fletcher,Tyler,Fletcher,Fletcher,Man Utd,14,MID,3,4.4,2,0.2,1.0,0.0
