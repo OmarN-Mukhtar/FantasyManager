@@ -416,40 +416,40 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 737,737,Jonah Kusi-Asare,Jonah,Kusi-Asare,Kusi-Asare,Fulham,10,FWD,4,4.5,6,0.0,0.9,0.1
 770,770,Seth Ridgeon,Seth,Ridgeon,Ridgeon,Fulham,10,MID,3,4.5,0,0.0,0.0,0.0
 786,786,Alfie McNally,Alfie,McNally,McNally,Fulham,10,GK,1,4.0,0,0.0,0.0,0.0
-168,168,Facundo Buonanotte,Facundo,Buonanotte,Buonanotte,Leeds,11,MID,3,4.6,3,0.3,0.8,0.1
+168,168,Facundo Buonanotte,Facundo,Buonanotte,Buonanotte,Leeds,11,MID,3,4.6,3,0.5,0.8,0.1
 339,339,Illan Meslier,Illan,Meslier,Meslier,Leeds,11,GK,1,4.1,0,0.0,0.0,0.3
 340,340,Alex Cairns,Alex,Cairns,Cairns,Leeds,11,GK,1,3.9,0,0.0,0.0,0.1
-341,341,Karl Darlow,Karl,Darlow,Darlow,Leeds,11,GK,1,4.0,71,5.0,3.2,6.9
-342,342,Jayden Bogle,Jayden,Bogle,Bogle,Leeds,11,DEF,2,4.4,96,0.7,2.8,0.4
-343,343,Pascal Struijk,Pascal,Struijk,Struijk,Leeds,11,DEF,2,4.2,108,0.7,3.2,1.9
-344,344,Jaka Bijol,Jaka,Bijol,Bijol,Leeds,11,DEF,2,3.9,99,4.7,4.0,1.3
-345,345,Sebastiaan Bornauw,Sebastiaan,Bornauw,Bornauw,Leeds,11,DEF,2,3.8,25,2.7,2.1,0.1
-346,346,Sam Byram,Sam,Byram,Byram,Leeds,11,DEF,2,3.7,2,0.3,1.0,0.4
+341,341,Karl Darlow,Karl,Darlow,Darlow,Leeds,11,GK,1,4.0,71,6.5,3.2,6.9
+342,342,Jayden Bogle,Jayden,Bogle,Bogle,Leeds,11,DEF,2,4.4,96,1.0,2.8,0.4
+343,343,Pascal Struijk,Pascal,Struijk,Struijk,Leeds,11,DEF,2,4.2,108,0.5,3.2,1.9
+344,344,Jaka Bijol,Jaka,Bijol,Bijol,Leeds,11,DEF,2,3.9,99,4.5,4.0,1.3
+345,345,Sebastiaan Bornauw,Sebastiaan,Bornauw,Bornauw,Leeds,11,DEF,2,3.8,25,3.5,2.1,0.1
+346,346,Sam Byram,Sam,Byram,Byram,Leeds,11,DEF,2,3.7,2,0.5,1.0,0.4
 347,347,Gabriel Gudmundsson,Gabriel,Gudmundsson,Gudmundsson,Leeds,11,DEF,2,3.8,68,0.0,2.1,2.5
-348,348,Joe Rodon,Joe,Rodon,Rodon,Leeds,11,DEF,2,3.9,109,2.7,3.1,3.0
+348,348,Joe Rodon,Joe,Rodon,Rodon,Leeds,11,DEF,2,3.9,109,3.5,3.1,3.0
 349,349,Isaac Schmidt,Isaac,Schmidt,Schmidt,Leeds,11,DEF,2,4.0,0,0.0,0.0,0.1
-350,350,Brenden Aaronson,Brenden,Aaronson,Aaronson,Leeds,11,MID,3,5.4,126,1.3,3.4,0.8
+350,350,Brenden Aaronson,Brenden,Aaronson,Aaronson,Leeds,11,MID,3,5.4,126,1.0,3.4,0.8
 351,351,Wilfried Gnonto,Wilfried,Gnonto,Gnonto,Leeds,11,MID,3,5.1,32,1.0,1.4,0.1
 352,352,Jack Harrison,Jack,Harrison,Harrison,Leeds,11,MID,3,5.1,12,0.0,1.1,0.0
-353,353,Daniel James,Daniel,James,James,Leeds,11,MID,3,5.2,23,1.3,1.2,0.1
-354,354,Ethan Ampadu,Ethan,Ampadu,Ampadu,Leeds,11,MID,3,4.9,134,5.3,3.8,0.6
+353,353,Daniel James,Daniel,James,James,Leeds,11,MID,3,5.2,23,1.0,1.2,0.1
+354,354,Ethan Ampadu,Ethan,Ampadu,Ampadu,Leeds,11,MID,3,4.9,134,3.0,3.8,0.6
 355,355,Sam Greenwood,Sam,Greenwood,Greenwood,Leeds,11,MID,3,4.9,0,0.0,0.0,0.0
 356,356,Ilia Gruev,Ilia,Gruev,Gruev,Leeds,11,MID,3,4.7,56,0.0,2.4,0.1
 357,357,Largie Ramazani,Largie,Ramazani,Ramazani,Leeds,11,MID,3,4.9,0,0.0,0.0,0.0
-358,358,Tanaka Ao,Tanaka,Ao,Tanaka,Leeds,11,MID,3,4.8,67,3.3,2.4,0.2
+358,358,Tanaka Ao,Tanaka,Ao,Tanaka,Leeds,11,MID,3,4.8,67,2.5,2.4,0.2
 359,359,Charlie Crew,Charlie,Crew,Crew,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 360,360,Joe Gelhardt,Joe,Gelhardt,Gelhardt,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 361,361,Darko Gyabi,Darko,Gyabi,Gyabi,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
-362,362,Joël Piroe,Joël,Piroe,Piroe,Leeds,11,FWD,4,4.9,17,0.7,1.1,0.3
+362,362,Joël Piroe,Joël,Piroe,Piroe,Leeds,11,FWD,4,4.9,17,1.0,1.1,0.3
 363,363,Patrick Bamford,Patrick,Bamford,Bamford,Leeds,11,FWD,4,4.9,0,0.0,0.0,0.3
 364,364,Mateo Joseph Fernández-Regatillo,Mateo,Joseph Fernández-Regatillo,Mateo Joseph,Leeds,11,FWD,4,5.0,0,0.0,0.0,0.0
-365,365,Lukas Nmecha,Lukas,Nmecha,Nmecha,Leeds,11,FWD,4,5.0,73,1.3,2.4,0.5
-493,493,Sean Longstaff,Sean,Longstaff,Longstaff,Leeds,11,MID,3,4.8,56,0.7,2.4,0.2
-660,660,Anton Stach,Anton,Stach,Stach,Leeds,11,MID,3,4.8,137,1.7,4.7,1.7
+365,365,Lukas Nmecha,Lukas,Nmecha,Nmecha,Leeds,11,FWD,4,5.0,73,1.5,2.4,0.5
+493,493,Sean Longstaff,Sean,Longstaff,Longstaff,Leeds,11,MID,3,4.8,56,0.5,2.4,0.2
+660,660,Anton Stach,Anton,Stach,Stach,Leeds,11,MID,3,4.8,137,1.5,4.7,1.7
 665,665,Lucas Estella Perri,Lucas Estella,Perri,Perri,Leeds,11,GK,1,4.4,43,0.0,2.7,0.3
-691,691,Dominic Calvert-Lewin,Dominic,Calvert-Lewin,Calvert-Lewin,Leeds,11,FWD,4,5.8,142,5.3,4.1,13.7
+691,691,Dominic Calvert-Lewin,Dominic,Calvert-Lewin,Calvert-Lewin,Leeds,11,FWD,4,5.8,142,4.5,4.1,13.7
 698,698,Noah Okafor,Noah,Okafor,Okafor,Leeds,11,MID,3,5.5,109,0.0,3.9,0.9
-706,706,James Justin,James,Justin,Justin,Leeds,11,DEF,2,4.0,94,3.7,3.2,2.3
+706,706,James Justin,James,Justin,Justin,Leeds,11,DEF,2,4.0,94,3.5,3.2,2.3
 741,741,Harry Gray,Harry,Gray,Gray,Leeds,11,FWD,4,4.5,0,0.0,0.0,0.1
 787,787,Sam Chambers,Sam,Chambers,Chambers,Leeds,11,MID,3,4.4,0,0.0,0.0,0.0
 837,837,Jayden Lienou,Jayden,Lienou,Lienou,Leeds,11,DEF,2,4.0,0,0.0,0.0,0.0
@@ -712,14 +712,14 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 565,565,Guglielmo Vicario,Guglielmo,Vicario,Vicario,Spurs,18,GK,1,4.7,90,0.0,2.9,4.7
 566,566,Brandon Austin,Brandon,Austin,Austin,Spurs,18,GK,1,3.9,0,0.0,0.0,0.3
 567,567,Antonín Kinský,Antonín,Kinský,Kinsky,Spurs,18,GK,1,3.9,20,3.0,2.9,1.9
-568,568,Pedro Porro Sauceda,Pedro,Porro Sauceda,Pedro Porro,Spurs,18,DEF,2,5.2,117,3.7,3.4,11.7
+568,568,Pedro Porro Sauceda,Pedro,Porro Sauceda,Pedro Porro,Spurs,18,DEF,2,5.2,117,5.0,3.4,11.7
 569,569,Cristian Romero,Cristian,Romero,Romero,Spurs,18,DEF,2,5.0,91,0.0,4.0,2.9
-570,570,Kevin Danso,Kevin,Danso,Danso,Spurs,18,DEF,2,4.2,63,4.7,2.6,0.2
+570,570,Kevin Danso,Kevin,Danso,Danso,Spurs,18,DEF,2,4.2,63,5.5,2.6,0.2
 571,571,Ben Davies,Ben,Davies,Davies,Spurs,18,DEF,2,4.3,10,0.0,3.3,0.1
-572,572,Radu Drăgușin,Radu,Drăgușin,Dragusin,Spurs,18,DEF,2,4.5,17,0.3,1.7,0.0
-573,573,Djed Spence,Djed,Spence,Spence,Spurs,18,DEF,2,4.1,78,2.7,2.6,0.9
-574,574,Destiny Udogie,Destiny,Udogie,Udogie,Spurs,18,DEF,2,4.3,29,3.0,1.4,0.3
-575,575,Micky van de Ven,Micky,van de Ven,Van de Ven,Spurs,18,DEF,2,4.4,116,2.7,3.3,17.6
+572,572,Radu Drăgușin,Radu,Drăgușin,Dragusin,Spurs,18,DEF,2,4.5,17,0.5,1.7,0.0
+573,573,Djed Spence,Djed,Spence,Spence,Spurs,18,DEF,2,4.1,78,3.5,2.6,0.9
+574,574,Destiny Udogie,Destiny,Udogie,Udogie,Spurs,18,DEF,2,4.3,29,3.5,1.4,0.3
+575,575,Micky van de Ven,Micky,van de Ven,Van de Ven,Spurs,18,DEF,2,4.4,116,3.0,3.3,17.6
 576,576,Ashley Phillips,Ashley,Phillips,Phillips,Spurs,18,DEF,2,4.0,0,0.0,0.0,0.0
 577,577,Takai Kōta,Takai,Kōta,Takai,Spurs,18,DEF,2,4.0,0,0.0,0.0,0.0
 578,578,Luka Vušković,Luka,Vušković,Vuskovic,Spurs,18,DEF,2,3.9,0,0.0,0.0,0.3
@@ -727,30 +727,30 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 581,581,James Maddison,James,Maddison,Maddison,Spurs,18,MID,3,6.8,3,1.0,1.0,0.3
 582,582,Mohammed Kudus,Mohammed,Kudus,Kudus,Spurs,18,MID,3,6.4,75,0.0,3.9,9.1
 583,583,Dejan Kulusevski,Dejan,Kulusevski,Kulusevski,Spurs,18,MID,3,6.4,0,0.0,0.0,0.0
-584,584,Mathys Tel,Mathys,Tel,Tel,Spurs,18,MID,3,6.2,78,4.7,2.5,0.5
-585,585,Rodrigo Bentancur,Rodrigo,Bentancur,Bentancur,Spurs,18,MID,3,5.2,86,4.0,3.3,0.2
-586,586,Lucas Bergvall,Lucas,Bergvall,Bergvall,Spurs,18,MID,3,5.2,49,0.3,2.1,0.2
+584,584,Mathys Tel,Mathys,Tel,Tel,Spurs,18,MID,3,6.2,78,2.5,2.5,0.5
+585,585,Rodrigo Bentancur,Rodrigo,Bentancur,Bentancur,Spurs,18,MID,3,5.2,86,3.5,3.3,0.2
+586,586,Lucas Bergvall,Lucas,Bergvall,Bergvall,Spurs,18,MID,3,5.2,49,0.0,2.1,0.2
 587,587,Yves Bissouma,Yves,Bissouma,Bissouma,Spurs,18,MID,3,5.2,17,0.0,1.5,0.0
 588,588,Wilson Odobert,Wilson,Odobert,Odobert,Spurs,18,MID,3,5.3,46,0.0,1.9,0.0
 589,589,Manor Solomon,Manor,Solomon,Solomon,Spurs,18,MID,3,5.4,0,0.0,0.0,0.0
 590,590,Bryan Gil Salvatierra,Bryan,Gil Salvatierra,Bryan,Spurs,18,MID,3,4.9,0,0.0,0.0,0.0
-591,591,Archie Gray,Archie,Gray,Gray,Spurs,18,MID,3,4.8,61,0.3,2.5,0.1
+591,591,Archie Gray,Archie,Gray,Gray,Spurs,18,MID,3,4.8,61,0.5,2.5,0.1
 592,592,Mikey Moore,Mikey,Moore,Moore,Spurs,18,MID,3,5.0,0,0.0,0.0,0.0
-593,593,Pape Matar Sarr,Pape Matar,Sarr,P.M.Sarr,Spurs,18,MID,3,4.5,71,1.3,2.7,1.0
+593,593,Pape Matar Sarr,Pape Matar,Sarr,P.M.Sarr,Spurs,18,MID,3,4.5,71,2.0,2.7,1.0
 594,594,Yang Min-hyeok,Yang,Min-hyeok,Min-hyeok,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
 595,595,Callum Olusesi,Callum,Olusesi,Olusesi,Spurs,18,MID,3,4.3,1,0.0,1.0,0.2
 596,596,Dominic Solanke-Mitchell,Dominic,Solanke-Mitchell,Solanke,Spurs,18,FWD,4,7.1,40,0.0,2.7,1.1
-597,597,Richarlison de Andrade,Richarlison,de Andrade,Richarlison,Spurs,18,FWD,4,6.5,119,3.7,3.7,8.7
+597,597,Richarlison de Andrade,Richarlison,de Andrade,Richarlison,Spurs,18,FWD,4,6.5,119,4.5,3.7,8.7
 598,598,Will Lankshear,Will,Lankshear,Lankshear,Spurs,18,FWD,4,4.5,0,0.0,0.0,0.0
 599,599,Dane Scarlett,Dane,Scarlett,Scarlett,Spurs,18,FWD,4,4.3,2,0.0,1.0,0.5
-673,673,João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,J.Palhinha,Spurs,18,MID,3,5.5,126,6.3,3.8,0.9
+673,673,João Maria Lobo Alves Palhares Costa Palhinha Gonçalves,João Maria,Lobo Alves Palhares Costa Palhinha Gonçalves,J.Palhinha,Spurs,18,MID,3,5.5,126,8.0,3.8,0.9
 717,717,Xavi Simons,Xavi,Simons,Xavi,Spurs,18,MID,3,6.3,80,0.0,2.9,1.1
-726,726,Randal Kolo Muani,Randal,Kolo Muani,Kolo Muani,Spurs,18,FWD,4,6.9,52,1.7,1.7,0.4
+726,726,Randal Kolo Muani,Randal,Kolo Muani,Kolo Muani,Spurs,18,FWD,4,6.9,52,1.5,1.7,0.4
 745,745,Jun'ai Byfield,Jun'ai,Byfield,Byfield,Spurs,18,DEF,2,4.0,1,0.0,1.0,0.0
 750,750,James Rowswell,James,Rowswell,Rowswell,Spurs,18,DEF,2,4.0,1,0.0,1.0,0.0
 751,751,Yusuf Akhamrich,Yusuf,Akhamrich,Akhamrich,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
 790,790,Lucá Williams-Barnett,Lucá,Williams-Barnett,Williams-Barnett,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
-796,796,Conor Gallagher,Conor,Gallagher,Gallagher,Spurs,18,MID,3,5.0,44,2.3,2.8,0.2
+796,796,Conor Gallagher,Conor,Gallagher,Gallagher,Spurs,18,MID,3,5.0,44,2.5,2.8,0.2
 804,804,João Victor de Souza Menezes,João Victor,de Souza Menezes,Souza,Spurs,18,DEF,2,4.0,3,0.0,0.8,0.0
 811,811,Rio Kyerematen,Rio,Kyerematen,Kyerematen,Spurs,18,MID,3,4.5,0,0.0,0.0,0.0
 818,818,James Wilson,James,Wilson,Wilson,Spurs,18,FWD,4,4.5,0,0.0,0.0,0.0
