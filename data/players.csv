@@ -35,48 +35,48 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 711,711,Andre Harriman-Annous,Andre,Harriman-Annous,Harriman-Annous,Arsenal,1,MID,3,4.4,0,0.0,0.0,0.0
 725,725,Piero Hincapié,Piero,Hincapié,Hincapie,Arsenal,1,DEF,2,5.1,87,1.5,3.5,0.9
 759,759,Marli Salmon,Marli,Salmon,Salmon,Arsenal,1,DEF,2,4.0,0,0.0,0.0,0.0
-32,32,Emiliano Martínez Romero,Emiliano,Martínez Romero,Martinez,Aston Villa,2,GK,1,5.0,120,1.0,3.8,4.4
-33,33,Marco Bizot,Marco,Bizot,M.Bizot,Aston Villa,2,GK,1,4.2,16,1.0,2.3,0.4
+32,32,Emiliano Martínez Romero,Emiliano,Martínez Romero,Martinez,Aston Villa,2,GK,1,5.0,120,0.0,3.8,4.4
+33,33,Marco Bizot,Marco,Bizot,M.Bizot,Aston Villa,2,GK,1,4.2,16,2.0,2.3,0.4
 34,34,Joe Gauci,Joe,Gauci,Gauci,Aston Villa,2,GK,1,4.0,0,0.0,0.0,0.1
 35,35,Filip Marschall,Filip,Marschall,Marschall,Aston Villa,2,GK,1,4.0,0,0.0,0.0,0.0
-36,36,Matty Cash,Matty,Cash,Cash,Aston Villa,2,DEF,2,4.6,117,0.5,3.3,7.4
-37,37,Lucas Digne,Lucas,Digne,Digne,Aston Villa,2,DEF,2,4.5,97,2.0,3.1,1.5
-38,38,Ezri Konsa Ngoyo,Ezri,Konsa Ngoyo,Konsa,Aston Villa,2,DEF,2,4.4,100,0.5,2.9,7.0
-39,39,Ian Maatsen,Ian,Maatsen,Maatsen,Aston Villa,2,DEF,2,4.2,54,3.0,1.8,0.5
-40,40,Tyrone Mings,Tyrone,Mings,Mings,Aston Villa,2,DEF,2,4.3,50,2.0,2.9,0.6
-41,41,Pau Torres,Pau,Torres,Pau,Aston Villa,2,DEF,2,4.3,64,2.5,3.0,0.3
-42,42,Andrés García,Andrés,García,A.García,Aston Villa,2,DEF,2,3.9,5,0.5,0.8,0.2
+36,36,Matty Cash,Matty,Cash,Cash,Aston Villa,2,DEF,2,4.6,117,1.0,3.3,7.4
+37,37,Lucas Digne,Lucas,Digne,Digne,Aston Villa,2,DEF,2,4.5,97,0.0,3.1,1.5
+38,38,Ezri Konsa Ngoyo,Ezri,Konsa Ngoyo,Konsa,Aston Villa,2,DEF,2,4.4,100,0.0,2.9,7.0
+39,39,Ian Maatsen,Ian,Maatsen,Maatsen,Aston Villa,2,DEF,2,4.2,54,5.0,1.8,0.5
+40,40,Tyrone Mings,Tyrone,Mings,Mings,Aston Villa,2,DEF,2,4.3,50,4.0,2.9,0.6
+41,41,Pau Torres,Pau,Torres,Pau,Aston Villa,2,DEF,2,4.3,64,1.0,3.0,0.3
+42,42,Andrés García,Andrés,García,A.García,Aston Villa,2,DEF,2,3.9,5,1.0,0.8,0.2
 43,43,Álex Moreno Lopera,Álex,Moreno Lopera,Alex Moreno,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,1.5
-44,44,Lamare Bogarde,Lamare,Bogarde,Bogarde,Aston Villa,2,DEF,2,4.0,40,1.0,1.4,0.5
+44,44,Lamare Bogarde,Lamare,Bogarde,Bogarde,Aston Villa,2,DEF,2,4.0,40,2.0,1.4,0.5
 45,45,Lino da Cruz Sousa,Lino,da Cruz Sousa,Sousa,Aston Villa,2,DEF,2,3.8,0,0.0,0.0,0.2
 46,46,Yasin Özcan,Yasin,Özcan,Yasin,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,0.1
-47,47,Morgan Rogers,Morgan,Rogers,Rogers,Aston Villa,2,MID,3,7.3,169,6.0,4.6,20.2
-48,48,Youri Tielemans,Youri,Tielemans,Tielemans,Aston Villa,2,MID,3,5.9,68,1.5,2.7,0.7
-49,49,Leon Bailey,Leon,Bailey,Bailey,Aston Villa,2,MID,3,5.5,21,2.5,1.6,0.1
-50,50,Emiliano Buendía Stati,Emiliano,Buendía Stati,Buendía,Aston Villa,2,MID,3,5.3,102,4.0,2.8,0.4
+47,47,Morgan Rogers,Morgan,Rogers,Rogers,Aston Villa,2,MID,3,7.3,169,0.0,4.6,20.2
+48,48,Youri Tielemans,Youri,Tielemans,Tielemans,Aston Villa,2,MID,3,5.9,68,1.0,2.7,0.7
+49,49,Leon Bailey,Leon,Bailey,Bailey,Aston Villa,2,MID,3,5.5,21,5.0,1.6,0.1
+50,50,Emiliano Buendía Stati,Emiliano,Buendía Stati,Buendía,Aston Villa,2,MID,3,5.3,102,6.0,2.8,0.4
 51,51,Samuel Iling-Junior,Samuel,Iling-Junior,Iling Jr,Aston Villa,2,MID,3,5.5,0,0.0,0.0,0.0
 53,53,Donyell Malen,Donyell,Malen,Malen,Aston Villa,2,MID,3,5.1,55,0.0,2.6,0.4
-54,54,John McGinn,John,McGinn,McGinn,Aston Villa,2,MID,3,5.3,103,3.5,3.4,0.7
-55,55,Ross Barkley,Ross,Barkley,Barkley,Aston Villa,2,MID,3,4.8,56,3.0,2.7,0.1
+54,54,John McGinn,John,McGinn,McGinn,Aston Villa,2,MID,3,5.3,103,1.0,3.4,0.7
+55,55,Ross Barkley,Ross,Barkley,Barkley,Aston Villa,2,MID,3,4.8,56,5.0,2.7,0.1
 56,56,Enzo Barrenechea,Enzo,Barrenechea,Barrenechea,Aston Villa,2,MID,3,5.0,0,0.0,0.0,0.0
 57,57,Lewis Dobbin,Lewis,Dobbin,Dobbin,Aston Villa,2,MID,3,5.0,0,0.0,0.0,0.0
 58,58,Boubacar Kamara,Boubacar,Kamara,Kamara,Aston Villa,2,MID,3,4.9,61,0.0,3.4,0.2
-59,59,Amadou Onana,Amadou,Onana,Onana,Aston Villa,2,MID,3,4.8,76,0.5,3.0,0.6
+59,59,Amadou Onana,Amadou,Onana,Onana,Aston Villa,2,MID,3,4.8,76,1.0,3.0,0.6
 60,60,Ben Broggio,Ben,Broggio,Broggio,Aston Villa,2,MID,3,4.4,0,0.0,0.0,0.2
 61,61,Leander Dendoncker,Leander,Dendoncker,Dendoncker,Aston Villa,2,MID,3,4.5,0,0.0,0.0,0.1
 62,62,Jamaldeen Jimoh-Aloba,Jamaldeen,Jimoh-Aloba,Jimoh-Aloba,Aston Villa,2,MID,3,4.5,1,0.0,1.0,0.1
 63,63,Kadan Young,Kadan,Young,Young,Aston Villa,2,MID,3,4.3,0,0.0,0.0,0.5
-64,64,Ollie Watkins,Ollie,Watkins,Watkins,Aston Villa,2,FWD,4,8.7,167,14.0,4.5,13.0
+64,64,Ollie Watkins,Ollie,Watkins,Watkins,Aston Villa,2,FWD,4,8.7,167,13.0,4.5,13.0
 65,65,Zépiqueno Redmond,Zépiqueno,Redmond,Redmond,Aston Villa,2,FWD,4,4.5,0,0.0,0.0,0.3
 389,389,Harvey Elliott,Harvey,Elliott,Elliott,Aston Villa,2,MID,3,5.1,5,0.0,1.0,0.2
-456,456,Jadon Sancho,Jadon,Sancho,Sancho,Aston Villa,2,MID,3,5.8,37,0.5,1.6,0.2
+456,456,Jadon Sancho,Jadon,Sancho,Sancho,Aston Villa,2,MID,3,5.8,37,0.0,1.6,0.2
 688,688,James Wright,James,Wright,Wright,Aston Villa,2,GK,1,3.9,0,0.0,0.0,0.6
-699,699,Douglas Luiz Soares de Paulo,Douglas Luiz,Soares de Paulo,Douglas Luiz,Aston Villa,2,MID,3,4.9,35,1.5,1.7,0.1
+699,699,Douglas Luiz Soares de Paulo,Douglas Luiz,Soares de Paulo,Douglas Luiz,Aston Villa,2,MID,3,4.9,35,2.0,1.7,0.1
 701,701,Triston Rowe,Triston,Rowe,Rowe,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,0.1
 702,702,Bradley Burrowes,Bradley,Burrowes,Burrowes,Aston Villa,2,MID,3,4.3,1,0.0,1.0,0.1
 703,703,Sam Proctor,Sam,Proctor,Proctor,Aston Villa,2,GK,1,3.9,0,0.0,0.0,0.6
 710,710,Travis Patterson,Travis,Patterson,Patterson,Aston Villa,2,DEF,2,3.9,0,0.0,0.0,0.2
-719,719,Victor Lindelöf,Victor,Lindelöf,Lindelöf,Aston Villa,2,DEF,2,4.5,29,1.5,1.7,0.1
+719,719,Victor Lindelöf,Victor,Lindelöf,Lindelöf,Aston Villa,2,DEF,2,4.5,29,2.0,1.7,0.1
 754,754,George Hemmings,George,Hemmings,George Hemmings,Aston Villa,2,MID,3,4.5,2,0.0,1.0,0.0
 757,757,Ronnie Hollingshead,Ronnie,Hollingshead,Hollingshead,Aston Villa,2,GK,1,4.0,0,0.0,0.0,0.0
 768,768,Leon Routh,Leon,Routh,Leon Routh,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,0.0
@@ -455,35 +455,35 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 837,837,Jayden Lienou,Jayden,Lienou,Lienou,Leeds,11,DEF,2,4.0,0,0.0,0.0,0.0
 838,838,Rhys Chadwick,Rhys,Chadwick,Chadwick,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
 839,839,Alfie Cresswell,Alfie,Cresswell,Cresswell,Leeds,11,MID,3,4.5,0,0.0,0.0,0.0
-366,366,Alisson Becker,Alisson,Becker,A.Becker,Liverpool,12,GK,1,5.4,91,1.0,3.5,5.1
-367,367,Giorgi Mamardashvili,Giorgi,Mamardashvili,Mamardashvili,Liverpool,12,GK,1,4.1,34,0.5,3.4,0.7
+366,366,Alisson Becker,Alisson,Becker,A.Becker,Liverpool,12,GK,1,5.4,91,2.0,3.5,5.1
+367,367,Giorgi Mamardashvili,Giorgi,Mamardashvili,Mamardashvili,Liverpool,12,GK,1,4.1,34,0.0,3.4,0.7
 368,368,Ármin Pécsi,Ármin,Pécsi,Pécsi,Liverpool,12,GK,1,3.8,0,0.0,0.0,0.9
 369,369,Freddie Woodman,Freddie,Woodman,Woodman,Liverpool,12,GK,1,3.9,6,0.0,2.0,0.3
-370,370,Jeremie Frimpong,Jeremie,Frimpong,Frimpong,Liverpool,12,DEF,2,5.7,63,0.5,3.0,4.9
-371,371,Milos Kerkez,Milos,Kerkez,Kerkez,Liverpool,12,DEF,2,5.6,85,0.5,2.5,2.9
-372,372,Andrew Robertson,Andrew,Robertson,Robertson,Liverpool,12,DEF,2,5.7,55,1.0,2.3,1.2
-373,373,Virgil van Dijk,Virgil,van Dijk,Virgil,Liverpool,12,DEF,2,6.1,175,8.0,4.6,31.5
-374,374,Ibrahima Konaté,Ibrahima,Konaté,Konaté,Liverpool,12,DEF,2,5.4,129,0.5,3.6,3.8
+370,370,Jeremie Frimpong,Jeremie,Frimpong,Frimpong,Liverpool,12,DEF,2,5.7,63,1.0,3.0,4.9
+371,371,Milos Kerkez,Milos,Kerkez,Kerkez,Liverpool,12,DEF,2,5.6,85,1.0,2.5,2.9
+372,372,Andrew Robertson,Andrew,Robertson,Robertson,Liverpool,12,DEF,2,5.7,55,2.0,2.3,1.2
+373,373,Virgil van Dijk,Virgil,van Dijk,Virgil,Liverpool,12,DEF,2,6.1,175,2.0,4.6,31.5
+374,374,Ibrahima Konaté,Ibrahima,Konaté,Konaté,Liverpool,12,DEF,2,5.4,129,1.0,3.6,3.8
 375,375,Conor Bradley,Conor,Bradley,Bradley,Liverpool,12,DEF,2,4.9,42,0.0,2.8,0.1
-376,376,Joe Gomez,Joe,Gomez,Gomez,Liverpool,12,DEF,2,4.9,33,0.5,1.6,0.2
+376,376,Joe Gomez,Joe,Gomez,Gomez,Liverpool,12,DEF,2,4.9,33,1.0,1.6,0.2
 377,377,Konstantinos Tsimikas,Konstantinos,Tsimikas,Tsimikas,Liverpool,12,DEF,2,4.8,0,0.0,0.0,0.0
 378,378,Amara Nallo,Amara,Nallo,Nallo,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.9
 379,379,Rhys Williams,Rhys,Williams,R.Williams,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.5
 380,380,Calvin Ramsay,Calvin,Ramsay,Ramsay,Liverpool,12,DEF,2,3.7,0,0.0,0.0,0.3
-381,381,Mohamed Salah,Mohamed,Salah,M.Salah,Liverpool,12,MID,3,14.0,123,3.5,4.6,15.2
+381,381,Mohamed Salah,Mohamed,Salah,M.Salah,Liverpool,12,MID,3,14.0,123,6.0,4.6,15.2
 382,382,Florian Wirtz,Florian,Wirtz,Wirtz,Liverpool,12,MID,3,8.3,125,1.0,3.8,8.5
 383,383,Luis Díaz Marulanda,Luis,Díaz Marulanda,Luis Díaz,Liverpool,12,MID,3,8.0,0,0.0,0.0,0.0
 384,384,Cody Gakpo,Cody,Gakpo,Gakpo,Liverpool,12,MID,3,7.3,131,2.0,3.6,5.6
-385,385,Federico Chiesa,Federico,Chiesa,Chiesa,Liverpool,12,MID,3,6.3,37,0.5,1.4,0.3
-386,386,Alexis Mac Allister,Alexis,Mac Allister,Mac Allister,Liverpool,12,MID,3,6.1,108,2.5,2.9,1.8
-387,387,Dominik Szoboszlai,Dominik,Szoboszlai,Szoboszlai,Liverpool,12,MID,3,7.1,160,5.5,4.4,15.1
-388,388,Curtis Jones,Curtis,Jones,C.Jones,Liverpool,12,MID,3,5.4,81,6.0,2.4,0.1
+385,385,Federico Chiesa,Federico,Chiesa,Chiesa,Liverpool,12,MID,3,6.3,37,0.0,1.4,0.3
+386,386,Alexis Mac Allister,Alexis,Mac Allister,Mac Allister,Liverpool,12,MID,3,6.1,108,1.0,2.9,1.8
+387,387,Dominik Szoboszlai,Dominik,Szoboszlai,Szoboszlai,Liverpool,12,MID,3,7.1,160,2.0,4.4,15.1
+388,388,Curtis Jones,Curtis,Jones,C.Jones,Liverpool,12,MID,3,5.4,81,10.0,2.4,0.1
 390,390,Ryan Gravenberch,Ryan,Gravenberch,Gravenberch,Liverpool,12,MID,3,5.4,144,2.0,4.0,3.7
 392,392,Endo Wataru,Endo,Wataru,Endo,Liverpool,12,MID,3,4.9,12,0.0,1.5,0.1
 393,393,Stefan Bajčetić Maquieira,Stefan,Bajčetić Maquieira,Bajcetic,Liverpool,12,MID,3,4.2,0,0.0,0.0,0.2
 394,394,James McConnell,James,McConnell,McConnell,Liverpool,12,MID,3,4.4,0,0.0,0.0,0.0
 395,395,Tyler Morton,Tyler,Morton,Morton,Liverpool,12,MID,3,4.5,0,0.0,0.0,0.0
-396,396,Trey Nyoni,Trey,Nyoni,Nyoni,Liverpool,12,MID,3,4.3,6,0.5,1.0,0.3
+396,396,Trey Nyoni,Trey,Nyoni,Nyoni,Liverpool,12,MID,3,4.3,6,1.0,1.0,0.3
 397,397,Darwin Núñez Ribeiro,Darwin,Núñez Ribeiro,Darwin,Liverpool,12,FWD,4,6.5,0,0.0,0.0,0.1
 398,398,Jayden Danns,Jayden,Danns,Danns,Liverpool,12,FWD,4,4.3,0,0.0,0.0,0.1
 499,499,Alexander Isak,Alexander,Isak,Isak,Liverpool,12,FWD,4,10.3,41,0.0,2.9,3.8
