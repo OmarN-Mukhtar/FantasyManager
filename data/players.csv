@@ -1,39 +1,39 @@
 id,element,name,first_name,second_name,web_name,team,team_id,position,element_type,now_cost,total_points,form,points_per_game,selected_by_percent
-1,1,David Raya Martín,David,Raya Martín,Raya,Arsenal,1,GK,1,6.2,162,3.0,4.4,36.4
-2,2,Kepa Arrizabalaga Revuelta,Kepa,Arrizabalaga Revuelta,Arrizabalaga,Arsenal,1,GK,1,4.0,2,1.0,2.0,0.4
+1,1,David Raya Martín,David,Raya Martín,Raya,Arsenal,1,GK,1,6.2,162,0.0,4.4,36.4
+2,2,Kepa Arrizabalaga Revuelta,Kepa,Arrizabalaga Revuelta,Arrizabalaga,Arsenal,1,GK,1,4.0,2,2.0,2.0,0.4
 3,3,Karl Hein,Karl,Hein,Hein,Arsenal,1,GK,1,4.0,0,0.0,0.0,0.2
 4,4,Tommy Setford,Tommy,Setford,Setford,Arsenal,1,GK,1,3.9,0,0.0,0.0,0.2
-5,5,Gabriel dos Santos Magalhães,Gabriel,dos Santos Magalhães,Gabriel,Arsenal,1,DEF,2,7.3,209,3.5,6.5,45.4
-6,6,William Saliba,William,Saliba,Saliba,Arsenal,1,DEF,2,6.3,137,4.0,4.4,17.1
-7,7,Riccardo Calafiori,Riccardo,Calafiori,Calafiori,Arsenal,1,DEF,2,5.6,109,4.5,4.2,6.0
+5,5,Gabriel dos Santos Magalhães,Gabriel,dos Santos Magalhães,Gabriel,Arsenal,1,DEF,2,7.3,209,1.0,6.5,45.4
+6,6,William Saliba,William,Saliba,Saliba,Arsenal,1,DEF,2,6.3,137,0.0,4.4,17.1
+7,7,Riccardo Calafiori,Riccardo,Calafiori,Calafiori,Arsenal,1,DEF,2,5.6,109,1.0,4.2,6.0
 8,8,Jurriën Timber,Jurriën,Timber,J.Timber,Arsenal,1,DEF,2,6.0,149,0.0,5.0,15.2
 9,9,Jakub Kiwior,Jakub,Kiwior,Kiwior,Arsenal,1,DEF,2,5.4,0,0.0,0.0,0.0
-10,10,Myles Lewis-Skelly,Myles,Lewis-Skelly,Lewis-Skelly,Arsenal,1,DEF,2,5.0,29,1.5,1.4,1.9
+10,10,Myles Lewis-Skelly,Myles,Lewis-Skelly,Lewis-Skelly,Arsenal,1,DEF,2,5.0,29,2.0,1.4,1.9
 11,11,Benjamin White,Benjamin,White,White,Arsenal,1,DEF,2,5.1,45,0.0,3.8,0.5
 13,13,Brayden Clarke,Brayden,Clarke,Clarke,Arsenal,1,DEF,2,3.7,0,0.0,0.0,0.5
 14,14,Maldini Kacurri,Maldini,Kacurri,Kacurri,Arsenal,1,DEF,2,3.9,0,0.0,0.0,0.1
 15,15,Josh Nichols,Josh,Nichols,Nichols,Arsenal,1,DEF,2,3.7,0,0.0,0.0,0.2
-16,16,Bukayo Saka,Bukayo,Saka,Saka,Arsenal,1,MID,3,10.0,157,5.0,5.1,11.6
-17,17,Martin Ødegaard,Martin,Ødegaard,Ødegaard,Arsenal,1,MID,3,7.8,74,1.5,3.1,1.7
-18,18,Noni Madueke,Noni,Madueke,Madueke,Arsenal,1,MID,3,6.8,72,5.5,2.8,0.8
-19,19,Gabriel Martinelli Silva,Gabriel,Martinelli Silva,Martinelli,Arsenal,1,MID,3,6.8,57,4.0,1.9,0.9
-20,20,Leandro Trossard,Leandro,Trossard,Trossard,Arsenal,1,MID,3,6.6,119,1.5,3.8,1.8
-21,21,Declan Rice,Declan,Rice,Rice,Arsenal,1,MID,3,7.2,184,2.5,5.1,23.3
-22,22,Mikel Merino Zazón,Mikel,Merino Zazón,Merino,Arsenal,1,MID,3,5.3,67,0.5,3.0,0.7
+16,16,Bukayo Saka,Bukayo,Saka,Saka,Arsenal,1,MID,3,10.0,157,0.0,5.1,11.6
+17,17,Martin Ødegaard,Martin,Ødegaard,Ødegaard,Arsenal,1,MID,3,7.8,74,0.0,3.1,1.7
+18,18,Noni Madueke,Noni,Madueke,Madueke,Arsenal,1,MID,3,6.8,72,11.0,2.8,0.8
+19,19,Gabriel Martinelli Silva,Gabriel,Martinelli Silva,Martinelli,Arsenal,1,MID,3,6.8,57,7.0,1.9,0.9
+20,20,Leandro Trossard,Leandro,Trossard,Trossard,Arsenal,1,MID,3,6.6,119,0.0,3.8,1.8
+21,21,Declan Rice,Declan,Rice,Rice,Arsenal,1,MID,3,7.2,184,0.0,5.1,23.3
+22,22,Mikel Merino Zazón,Mikel,Merino Zazón,Merino,Arsenal,1,MID,3,5.3,67,1.0,3.0,0.7
 23,23,Fábio Ferreira Vieira,Fábio,Ferreira Vieira,Fábio Vieira,Arsenal,1,MID,3,5.4,0,0.0,0.0,0.0
-24,24,Christian Nørgaard,Christian,Nørgaard,Nørgaard,Arsenal,1,MID,3,5.1,7,0.5,1.0,0.1
+24,24,Christian Nørgaard,Christian,Nørgaard,Nørgaard,Arsenal,1,MID,3,5.1,7,1.0,1.0,0.1
 25,25,Ethan Nwaneri,Ethan,Nwaneri,Nwaneri,Arsenal,1,MID,3,5.0,8,0.0,1.3,0.1
-26,26,Martín Zubimendi Ibáñez,Martín,Zubimendi Ibáñez,Zubimendi,Arsenal,1,MID,3,4.9,133,1.5,3.5,2.7
+26,26,Martín Zubimendi Ibáñez,Martín,Zubimendi Ibáñez,Zubimendi,Arsenal,1,MID,3,4.9,133,2.0,3.5,2.7
 28,28,Ismeal Kabia,Ismeal,Kabia,Kabia,Arsenal,1,MID,3,4.5,0,0.0,0.0,0.1
 29,29,Albert Sambi Lokonga,Albert,Sambi Lokonga,Sambi,Arsenal,1,MID,3,4.5,0,0.0,0.0,0.0
-30,30,Kai Havertz,Kai,Havertz,Havertz,Arsenal,1,FWD,4,7.3,36,6.0,3.0,0.7
-31,31,Gabriel Fernando de Jesus,Gabriel,Fernando de Jesus,G.Jesus,Arsenal,1,FWD,4,6.4,24,2.5,1.7,0.4
-266,266,Eberechi Eze,Eberechi,Eze,Eze,Arsenal,1,MID,3,7.3,113,2.0,3.4,8.7
-662,662,Cristhian Mosquera,Cristhian,Mosquera,Mosquera,Arsenal,1,DEF,2,5.3,40,5.0,2.0,0.3
+30,30,Kai Havertz,Kai,Havertz,Havertz,Arsenal,1,FWD,4,7.3,36,4.0,3.0,0.7
+31,31,Gabriel Fernando de Jesus,Gabriel,Fernando de Jesus,G.Jesus,Arsenal,1,FWD,4,6.4,24,5.0,1.7,0.4
+266,266,Eberechi Eze,Eberechi,Eze,Eze,Arsenal,1,MID,3,7.3,113,1.0,3.4,8.7
+662,662,Cristhian Mosquera,Cristhian,Mosquera,Mosquera,Arsenal,1,DEF,2,5.3,40,4.0,2.0,0.3
 666,666,Viktor Gyökeres,Viktor,Gyökeres,Gyökeres,Arsenal,1,FWD,4,9.1,128,1.0,3.6,16.4
-700,700,Max Dowman,Max,Dowman,Dowman,Arsenal,1,MID,3,4.2,16,1.5,2.7,0.9
+700,700,Max Dowman,Max,Dowman,Dowman,Arsenal,1,MID,3,4.2,16,3.0,2.7,0.9
 711,711,Andre Harriman-Annous,Andre,Harriman-Annous,Harriman-Annous,Arsenal,1,MID,3,4.4,0,0.0,0.0,0.0
-725,725,Piero Hincapié,Piero,Hincapié,Hincapie,Arsenal,1,DEF,2,5.1,87,1.5,3.5,0.9
+725,725,Piero Hincapié,Piero,Hincapié,Hincapie,Arsenal,1,DEF,2,5.1,87,2.0,3.5,0.9
 759,759,Marli Salmon,Marli,Salmon,Salmon,Arsenal,1,DEF,2,4.0,0,0.0,0.0,0.0
 32,32,Emiliano Martínez Romero,Emiliano,Martínez Romero,Martinez,Aston Villa,2,GK,1,5.0,120,0.0,3.8,4.4
 33,33,Marco Bizot,Marco,Bizot,M.Bizot,Aston Villa,2,GK,1,4.2,16,2.0,2.3,0.4
@@ -83,7 +83,7 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 781,781,TJ Carroll,TJ,Carroll,Carroll,Aston Villa,2,DEF,2,4.0,0,0.0,0.0,0.0
 792,792,Alysson Edward Franco da Rocha dos Santos,Alysson Edward Franco,da Rocha dos Santos,Alysson,Aston Villa,2,MID,3,5.0,3,0.0,1.0,0.0
 808,808,Tammy Abraham,Tammy,Abraham,Abraham,Aston Villa,2,FWD,4,5.7,23,0.0,1.9,0.2
-183,183,Max Weiß,Max,Weiß,Weiss,Burnley,3,GK,1,4.2,7,2.5,2.3,0.2
+183,183,Max Weiß,Max,Weiß,Weiss,Burnley,3,GK,1,4.2,7,3.0,2.3,0.2
 184,184,Etienne Green,Etienne,Green,Green,Burnley,3,GK,1,4.0,0,0.0,0.0,0.2
 185,185,Václav Hladký,Václav,Hladký,Hladký,Burnley,3,GK,1,3.9,0,0.0,0.0,0.1
 186,186,Connor Roberts,Connor,Roberts,Roberts,Burnley,3,DEF,2,4.3,0,0.0,0.0,0.0
@@ -91,11 +91,11 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 188,188,Hannes Delcroix,Hannes,Delcroix,Delcroix,Burnley,3,DEF,2,3.8,0,0.0,0.0,0.2
 189,189,Owen Dodgson,Owen,Dodgson,Dodgson,Burnley,3,DEF,2,4.0,0,0.0,0.0,0.0
 190,190,Hjalmar Ekdal,Hjalmar,Ekdal,Ekdal,Burnley,3,DEF,2,3.8,52,0.0,2.7,0.7
-191,191,Maxime Estève,Maxime,Estève,Estève,Burnley,3,DEF,2,3.8,85,1.0,2.5,7.0
+191,191,Maxime Estève,Maxime,Estève,Estève,Burnley,3,DEF,2,3.8,85,0.0,2.5,7.0
 192,192,Quilindschy Hartman,Quilindschy,Hartman,Hartman,Burnley,3,DEF,2,4.0,63,0.0,3.0,0.6
-193,193,Bashir Humphreys,Bashir,Humphreys,Humphreys,Burnley,3,DEF,2,3.9,47,1.5,2.4,0.1
+193,193,Bashir Humphreys,Bashir,Humphreys,Humphreys,Burnley,3,DEF,2,3.9,47,2.0,2.4,0.1
 194,194,Jordan Beyer,Jordan,Beyer,Jordan,Burnley,3,DEF,2,3.9,0,0.0,0.0,0.1
-195,195,Lucas Pires Silva,Lucas,Pires Silva,Lucas Pires,Burnley,3,DEF,2,3.8,25,1.5,1.2,0.3
+195,195,Lucas Pires Silva,Lucas,Pires Silva,Lucas Pires,Burnley,3,DEF,2,3.8,25,2.0,1.2,0.3
 196,196,Shurandy Sambo,Shurandy,Sambo,Sambo,Burnley,3,DEF,2,4.0,0,0.0,0.0,0.0
 197,197,Oliver Sonne,Oliver,Sonne,Sonne,Burnley,3,DEF,2,3.8,13,0.0,1.9,0.2
 198,198,Axel Tuanzebe,Axel,Tuanzebe,Tuanzebe,Burnley,3,DEF,2,3.9,34,2.0,2.4,0.9
@@ -106,16 +106,16 @@ id,element,name,first_name,second_name,web_name,team,team_id,position,element_ty
 203,203,Enock Agyei,Enock,Agyei,Boateng,Burnley,3,MID,3,4.7,0,0.0,0.0,0.0
 204,204,Darko Churlinov,Darko,Churlinov,Churlinov,Burnley,3,MID,3,4.9,0,0.0,0.0,0.0
 205,205,Josh Cullen,Josh,Cullen,Cullen,Burnley,3,MID,3,4.9,70,0.0,3.9,0.8
-206,206,Marcus Edwards,Marcus,Edwards,Edwards,Burnley,3,MID,3,4.7,51,0.5,2.2,0.1
+206,206,Marcus Edwards,Marcus,Edwards,Edwards,Burnley,3,MID,3,4.7,51,1.0,2.2,0.1
 207,207,Hannibal Mejbri,Hannibal,Mejbri,Hannibal,Burnley,3,MID,3,4.7,59,1.0,2.2,0.1
 208,208,Luca Koleosho,Luca,Koleosho,Koleosho,Burnley,3,MID,3,5.0,0,0.0,0.0,0.0
-209,209,Josh Laurent,Josh,Laurent,Laurent,Burnley,3,MID,3,4.8,56,0.5,1.7,0.0
-210,210,Loum Tchaouna,Loum,Tchaouna,Tchaouna,Burnley,3,MID,3,4.8,59,3.5,2.0,0.0
+209,209,Josh Laurent,Josh,Laurent,Laurent,Burnley,3,MID,3,4.8,56,0.0,1.7,0.0
+210,210,Loum Tchaouna,Loum,Tchaouna,Tchaouna,Burnley,3,MID,3,4.8,59,5.0,2.0,0.0
 211,211,Aaron Ramsey,Aaron,Ramsey,A.Ramsey,Burnley,3,MID,3,4.4,0,0.0,0.0,1.4
 212,212,Oluwaseun Adewumi,Oluwaseun,Adewumi,Adewumi,Burnley,3,MID,3,4.5,0,0.0,0.0,0.0
 213,213,Jaydon Banel,Jaydon,Banel,Banel,Burnley,3,MID,3,4.5,1,0.0,1.0,0.0
 214,214,Mike Trésor Ndayishimiye,Mike,Trésor Ndayishimiye,Trésor,Burnley,3,MID,3,4.3,6,0.0,1.0,0.1
-215,215,Zian Flemming,Zian,Flemming,Flemming,Burnley,3,FWD,4,5.3,99,5.0,3.4,0.8
+215,215,Zian Flemming,Zian,Flemming,Flemming,Burnley,3,FWD,4,5.3,99,9.0,3.4,0.8
 216,216,Zeki Amdouni,Zeki,Amdouni,Amdouni,Burnley,3,FWD,4,4.8,4,1.0,1.0,0.0
 217,217,Lyle Foster,Lyle,Foster,Foster,Burnley,3,FWD,4,4.9,58,0.0,2.2,0.7
 218,218,Ashley Barnes,Ashley,Barnes,Barnes,Burnley,3,FWD,4,4.2,5,0.0,0.9,1.2
