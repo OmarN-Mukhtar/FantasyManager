@@ -45,18 +45,26 @@ def player_info(name: str) -> str:
 
 
 @tool
-def top_players(position: str = "", max_price: float = 0.0, limit: int = 10) -> str:
+def top_players(position: str = "", max_price: str = "", limit: str = "10") -> str:
     """Top players ranked by predicted points over the next 5 gameweeks.
     Optional filters: position (GK/DEF/MID/FWD) and max_price in £M."""
+    # ponytail: string params — Llama emits "10" not 10 and Groq rejects schema mismatches
     df = _players
     if position:
         df = df[df['position'].str.upper() == position.upper()]
-    if max_price:
-        df = df[df['now_cost'] <= max_price]
+    try:
+        if max_price and float(max_price) > 0:
+            df = df[df['now_cost'] <= float(max_price)]
+    except ValueError:
+        pass
+    try:
+        n = max(1, min(int(float(limit)), 25))
+    except (ValueError, TypeError):
+        n = 10
     cols = ['player_name', 'position', 'team', 'now_cost',
             'predicted_next_5_weighted', 'predicted_next_gw_points',
             'sentiment_score', 'next_5_fixtures']
-    return df.sort_values('predicted_next_5_weighted', ascending=False).head(limit)[cols].to_string(index=False)
+    return df.sort_values('predicted_next_5_weighted', ascending=False).head(n)[cols].to_string(index=False)
 
 
 @tool
