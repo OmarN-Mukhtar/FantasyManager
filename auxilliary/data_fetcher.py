@@ -50,6 +50,8 @@ class FantasyDataFetcher:
                     'form': float(player.get('form', 0) or 0),
                     'points_per_game': float(player.get('points_per_game', 0) or 0),
                     'selected_by_percent': float(player.get('selected_by_percent', 0) or 0),
+                    'status': player.get('status', 'a'),
+                    'chance_of_playing_next_round': player.get('chance_of_playing_next_round') or 100,
                 }
                 self.players_data.append(player_info)
             

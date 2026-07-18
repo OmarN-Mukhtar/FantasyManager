@@ -10,6 +10,7 @@ on:
       - 'requirements.txt'
       - 'data/predictions.csv'
       - 'data/sentiment_analysis.csv'
+      - 'data/players.csv'
       - 'data/news.json'
       - 'README.md'
   workflow_dispatch:
@@ -53,7 +54,7 @@ jobs:
         cp -r RAG hf-space/
         # Only the data files the app actually reads (chat tools + Players tab)
         mkdir -p hf-space/data
-        cp data/predictions.csv data/sentiment_analysis.csv data/news.json hf-space/data/
+        cp data/predictions.csv data/sentiment_analysis.csv data/players.csv data/news.json hf-space/data/
         
         cd hf-space
 

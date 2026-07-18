@@ -22,11 +22,22 @@ _sentiment = pd.read_csv(PROJECT_ROOT / "data" / "sentiment_analysis.csv")
 _players = _predictions.merge(_sentiment, on="player_name", how="left")
 _news = json.loads((PROJECT_ROOT / "data" / "news.json").read_text(encoding="utf-8"))
 
+# Official FPL availability beats headline guesswork for injury questions
+_STATUS = {'a': 'available', 'd': 'doubtful', 'i': 'injured', 's': 'suspended',
+           'u': 'unavailable', 'n': 'not in squad'}
+_meta = pd.read_csv(PROJECT_ROOT / "data" / "players.csv")
+if 'status' in _meta.columns:
+    _meta = _meta[['name', 'status', 'chance_of_playing_next_round']]
+    _meta['status'] = _meta['status'].map(_STATUS).fillna('unknown')
+    _players = _players.merge(_meta.rename(columns={'name': 'player_name'}),
+                              on='player_name', how='left')
+
 #3) Tools
 
 @tool
 def player_info(name: str) -> str:
-    """Look up one player's price, predictions, sentiment, and recent headlines.
+    """Look up one player's price, predictions, sentiment, official FPL availability
+    (status, chance of playing), and recent headlines.
     Works with partial or misspelled names (e.g. 'Salah', 'Bruno Fernandes')."""
     names = _players['player_name'].tolist()
     match = [n for n in names if name.lower() in n.lower()]
@@ -83,9 +94,15 @@ def search_news(keywords: list[str]) -> str:
 
 
 tools = [player_info, top_players, search_news]
-prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers. Use the tools to look up players, rankings, and news before answering. Do not ask too many follow up questions.
-Always give 3-5 concrete player suggestions first, even when the user is vague.
-Ask at most one short follow-up question after giving suggestions.
+prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers.
+
+How to answer:
+- When recommending players, ALWAYS call top_players first and suggest ONLY players from its results, quoting price, position, and predicted points exactly as the tool returned them. NEVER state a price, position, or stat from memory.
+- For questions about a specific player — including injuries and availability — call player_info and trust its 'status' and 'chance_of_playing_next_round' fields (official FPL data) over headlines.
+- Use search_news for topical questions; treat headlines as reports, not confirmed facts.
+- When asked for picks, give 3-5 concrete suggestions from tool results, even if the user is vague.
+- Only ask a follow-up question when you genuinely cannot answer without it.
+
 These are the rules for FPL: # Fantasy Premier League Team Selection Rules
 
 ## Budget and Squad Size
