@@ -22,14 +22,15 @@ The pipeline runs daily via GitHub Actions ([.github/workflows/daily_update.yml]
 2. **Match history** — `prediction/update_current_season.py` fetches gameweek-by-gameweek stats and upserts them into `data/cleaned_merged_seasons.csv` (historical seasons + current season).
 3. **News sentiment** — `sentiment/sentiment_analyzer.py` pulls each player's recent Google News RSS headlines (last 7 days) and scores them with DistilBERT (SST-2). Each headline's score is weighted by recency (3-day half-life), producing a -1..1 score per player → `data/news.json`, `data/sentiment_analysis.csv`.
 4. **Predictions** — `prediction/predictor.py` trains an XGBoost regressor on rolling-window features (1/3/5/7 GW averages of points, minutes, xG, etc.) and predicts each of the player's **next 5 fixtures** using the real opponent and venue. The next-GW prediction is blended with FPL's own `ep_next` and the sentiment score. The headline number, `predicted_next_5_weighted`, discounts each fixture by distance (×0.8 per GW) and opponent difficulty (FPL FDR: easier → up-weighted, harder → down-weighted) → `data/predictions.json` / `data/predictions.csv`. The model choice is justified in `notebooks/model_exploration.ipynb`, which compares it against a naive baseline, Ridge, RandomForest, and LightGBM on a time-based split.
-5. **Chatbot + player browser** — `RAG/langchain_rag.py` builds an in-memory vector store (MiniLM embeddings) from the news and predictions at startup, and a LangChain agent (Llama 3.3 70B via Groq's free tier) answers questions with FPL rules in its system prompt. `auxilliary/app.py` is the Streamlit UI: a Chat tab, plus a Players tab with a sortable table (price, points, sentiment, next-5 predictions) filterable by name, position, team, and price.
+5. **Chatbot + player browser** — `RAG/langchain_rag.py` gives a LangChain agent (Llama 3.3 70B via Groq's free tier) three tools over the data files: fuzzy player lookup, filtered top-player rankings, and topical news search (the model supplies keyword synonyms, the tool greps all headlines — no embedding stack needed). FPL rules live in the system prompt. `auxilliary/app.py` is the Streamlit UI: a Chat tab, plus a Players tab with a sortable table (price, points, sentiment, next-5 predictions) filterable by name, position, team, and price.
 
 Pushes to `main` auto-deploy the app to Hugging Face Spaces ([.github/workflows/deploy_spaces.yml](.github/workflows/deploy_spaces.yml)).
 
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt            # app only
+pip install -r requirements-pipeline.txt   # + data pipeline (torch, transformers, xgboost)
 echo "GROQ_API_KEY=your_key_here" > .env   # free key from https://console.groq.com/keys
 ```
 
@@ -59,7 +60,7 @@ streamlit run auxilliary/app.py
 ## Stack (all free)
 
 - **Data**: FPL API, Google News RSS
-- **ML**: XGBoost; DistilBERT sentiment; MiniLM embeddings (all run locally)
+- **ML**: XGBoost; DistilBERT sentiment (both run locally, pipeline-only)
 - **LLM**: Llama 3.3 70B on Groq free tier
 - **App**: Streamlit on Hugging Face Spaces
 - **Automation**: GitHub Actions

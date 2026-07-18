@@ -1,15 +1,11 @@
 import os
 import json
+from difflib import get_close_matches
 from pathlib import Path
+
+import pandas as pd
 from dotenv import load_dotenv
-# Chat Imports
 from langchain_groq import ChatGroq
-# Embeddings Imports
-from langchain_huggingface import HuggingFaceEmbeddings
-# Vector Store Imports
-from langchain_core.documents import Document
-from langchain_core.vectorstores import InMemoryVectorStore
-# RAG Imports
 from langchain.agents import create_agent
 from langchain.tools import tool
 
@@ -20,85 +16,66 @@ load_dotenv(PROJECT_ROOT / ".env")
 groq_api_key = os.getenv("GROQ_API_KEY")
 model = ChatGroq(model='llama-3.3-70b-versatile', api_key=groq_api_key)
 
-#2) Embeddings Model
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+#2) Data — loaded once at startup; the daily redeploy brings fresh files
+_predictions = pd.read_csv(PROJECT_ROOT / "data" / "predictions.csv")
+_sentiment = pd.read_csv(PROJECT_ROOT / "data" / "sentiment_analysis.csv")
+_players = _predictions.merge(_sentiment, on="player_name", how="left")
+_news = json.loads((PROJECT_ROOT / "data" / "news.json").read_text(encoding="utf-8"))
 
-#3) Vector Store
-_vectorstore_cache = None
+#3) Tools
 
-def build_docs():
-    """Build documents from news.json and predictions.json"""
-    news_data_path = PROJECT_ROOT / "data" / "news.json"
-    predictions_data_path = PROJECT_ROOT / "data" / "predictions.json"
+@tool
+def player_info(name: str) -> str:
+    """Look up one player's price, predictions, sentiment, and recent headlines.
+    Works with partial or misspelled names (e.g. 'Salah', 'Bruno Fernandes')."""
+    names = _players['player_name'].tolist()
+    match = [n for n in names if name.lower() in n.lower()]
+    if not match:
+        match = get_close_matches(name, names, n=1, cutoff=0.4)
+    if not match:
+        return f"No player found matching '{name}'."
 
-    news_data = json.loads(news_data_path.read_text(encoding="utf-8"))
-    predictions_data = json.loads(predictions_data_path.read_text(encoding="utf-8"))
+    row = _players[_players['player_name'] == match[0]].iloc[0]
+    lines = [f"{k}: {v}" for k, v in row.to_dict().items()]
+    headlines = _news.get(match[0], {}).get('headlines', [])[:10]
+    if headlines:
+        lines.append("Recent headlines:")
+        lines.extend(f"- {h}" for h in headlines)
+    return "\n".join(lines)
 
-    docs = []
 
-    for player_name, payload in news_data.items():
-        if not isinstance(payload, dict):
-            continue
+@tool
+def top_players(position: str = "", max_price: float = 0.0, limit: int = 10) -> str:
+    """Top players ranked by predicted points over the next 5 gameweeks.
+    Optional filters: position (GK/DEF/MID/FWD) and max_price in £M."""
+    df = _players
+    if position:
+        df = df[df['position'].str.upper() == position.upper()]
+    if max_price:
+        df = df[df['now_cost'] <= max_price]
+    cols = ['player_name', 'position', 'team', 'now_cost',
+            'predicted_next_5_weighted', 'predicted_next_gw_points',
+            'sentiment_score', 'next_5_fixtures']
+    return df.sort_values('predicted_next_5_weighted', ascending=False).head(limit)[cols].to_string(index=False)
 
-        search_name = payload.get("search_name", player_name)
-        headlines = payload.get("headlines", [])
 
-        for i, headline in enumerate(headlines):
-            if not isinstance(headline, str) or not headline.strip():
-                continue
+@tool
+def search_news(keywords: list[str]) -> str:
+    """Search every player's recent headlines for a topic. Matching is plain
+    substring, so pass several variants and synonyms, e.g.
+    ["injury", "injured", "knock", "doubt", "sidelined"]."""
+    # ponytail: LLM supplies the synonyms, tool just greps — replaces the embedding stack
+    kws = [k.lower() for k in keywords]
+    hits = []
+    for player, payload in _news.items():
+        for h in payload.get('headlines', []):
+            if any(k in h.lower() for k in kws):
+                hits.append(f"{player}: {h}")
+    return "\n".join(hits[:30]) if hits else "No headlines matched."
 
-            docs.append(
-                Document(
-                    page_content=f"Player: {player_name}\nHeadline: {headline.strip()}",
-                    metadata={
-                        "type": "news",
-                        "player_name": player_name,
-                        "search_name": search_name,
-                        "item_index": i,
-                    },
-                )
-            )
 
-    for player_name, payload in predictions_data.items():
-        if not isinstance(payload, dict):
-            continue
-
-        current_points = payload.get("current_season_points", 0)
-        position = payload.get("position", "Unknown")
-        next_5_weighted = payload.get("predicted_next_5_weighted", payload.get("predicted_next_gw_points", 0))
-
-        docs.append(
-            Document(
-                page_content=f"Player: {player_name}\nCurrent Season Points: {current_points}\nPredicted points over next 5 fixtures (weighted by closeness and difficulty): {next_5_weighted}\nPosition: {position}",
-                metadata={
-                    "type": "prediction",
-                    "player_name": player_name,
-                    "current_season_points": current_points,
-                    "position": position,
-                },
-            )
-        )
-
-    return docs
-
-def get_vectorstore():
-    """Lazily build and cache the in-memory vectorstore from local data files."""
-    global _vectorstore_cache
-    if _vectorstore_cache is None:
-        _vectorstore_cache = InMemoryVectorStore.from_documents(build_docs(), embedding=embeddings)
-    return _vectorstore_cache
-
-# 5) Retrieval and Generation
-@tool(response_format='content_and_artifact')
-def retrieve_context(query: str, limit: int = 10) -> str:
-    "Search the vector database for relevant documents."
-    vectorstore = get_vectorstore()
-    retrieved_docs = vectorstore.similarity_search(query, k=limit)
-    serialized = "\n\n".join([f"{doc.page_content}\nMetadata: {doc.metadata}" for doc in retrieved_docs])
-    return serialized, retrieved_docs
-
-tools = [retrieve_context]
-prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers. Use the information you can get and always make suggestions of players. Do not ask too many follow up questions.
+tools = [player_info, top_players, search_news]
+prompt = """You are a helpful assistant for Fantasy Premier League (FPL) managers. Use the tools to look up players, rankings, and news before answering. Do not ask too many follow up questions.
 Always give 3-5 concrete player suggestions first, even when the user is vague.
 Ask at most one short follow-up question after giving suggestions.
 These are the rules for FPL: # Fantasy Premier League Team Selection Rules
@@ -120,7 +97,7 @@ These are the rules for FPL: # Fantasy Premier League Team Selection Rules
 - Must include:
   * Exactly 1 Goalkeeper
   * At least 3 Defenders
-  * At least 2 Midfielders  
+  * At least 2 Midfielders
   * At least 1 Forward
 - Valid formations:
   * 3-4-3 (3 DEF, 4 MID, 3 FWD)
