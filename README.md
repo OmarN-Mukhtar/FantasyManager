@@ -12,226 +12,58 @@ pinned: false
 
 # Fantasy Premier League Manager
 
-An intelligent fantasy football assistant that analyzes player performance using news sentiment analysis, ML-powered predictions, and FPL-aware RAG recommendations.
+A Fantasy Premier League assistant: daily-updated player data, XGBoost predictions for each player's next 5 fixtures (weighted by closeness and opponent difficulty), news sentiment weighted by recency, a player browser, and a chatbot that answers FPL questions using that data.
 
-## Features
+## How it works
 
-1. **Player Data Fetching**: Automatically retrieves current Premier League player data
-2. **News Aggregation**: Collects recent news articles for each player via RSS
-3. **Sentiment Analysis**: Generates normalized sentiment scores (0-100) for players with sufficient news coverage
-4. **Performance Prediction**: ML models predict player points using rolling window analysis of historical data
-5. **Interactive Dashboard**: Multi-tab visualization with predictions, sentiment, and analytics
-6. **FPL-Aware RAG System**: Query player news and predictions using natural language with FPL rules knowledge
-7. **100% Free**: No API costs - uses FAISS, scikit-learn, and free data sources
+The pipeline runs daily via GitHub Actions ([.github/workflows/daily_update.yml](.github/workflows/daily_update.yml)) and commits refreshed data:
 
-## Installation
+1. **Player data** — `auxilliary/data_fetcher.py` fetches all current players from the FPL API → `data/players.json` / `data/players.csv`.
+2. **Match history** — `prediction/update_current_season.py` fetches gameweek-by-gameweek stats and upserts them into `data/cleaned_merged_seasons.csv` (historical seasons + current season).
+3. **News sentiment** — `sentiment/sentiment_analyzer.py` pulls each player's recent Google News RSS headlines (last 7 days) and scores them with DistilBERT (SST-2). Each headline's score is weighted by recency (3-day half-life), producing a -1..1 score per player → `data/news.json`, `data/sentiment_analysis.csv`.
+4. **Predictions** — `prediction/predictor.py` trains an XGBoost regressor on rolling-window features (1/3/5/7 GW averages of points, minutes, xG, etc.) and predicts each of the player's **next 5 fixtures** using the real opponent and venue. The next-GW prediction is blended with FPL's own `ep_next` and the sentiment score. The headline number, `predicted_next_5_weighted`, discounts each fixture by distance (×0.8 per GW) and opponent difficulty (FPL FDR: easier → up-weighted, harder → down-weighted) → `data/predictions.json` / `data/predictions.csv`. The model choice is justified in `notebooks/model_exploration.ipynb`, which compares it against a naive baseline, Ridge, RandomForest, and LightGBM on a time-based split.
+5. **Chatbot + player browser** — `RAG/langchain_rag.py` builds an in-memory vector store (MiniLM embeddings) from the news and predictions at startup, and a LangChain agent (Llama 3.3 70B via Groq's free tier) answers questions with FPL rules in its system prompt. `auxilliary/app.py` is the Streamlit UI: a Chat tab, plus a Players tab with a sortable table (price, points, sentiment, next-5 predictions) filterable by name, position, team, and price.
+
+Pushes to `main` auto-deploy the app to Hugging Face Spaces ([.github/workflows/deploy_spaces.yml](.github/workflows/deploy_spaces.yml)).
+
+## Setup
 
 ```bash
-# Create conda environment
-conda create -n fantasy_manager python=3.10 -y
-conda activate fantasy_manager
-
-# Install dependencies
 pip install -r requirements.txt
+echo "GROQ_API_KEY=your_key_here" > .env   # free key from https://console.groq.com/keys
 ```
 
-## Quick Start
+## Usage
 
 ```bash
-# Run complete pipeline (test mode - 10 players)
-python auxilliary/run_pipeline.py --test
+# Refresh data (each step is optional if its outputs already exist)
+python auxilliary/data_fetcher.py
+python prediction/update_current_season.py
+python sentiment/sentiment_analyzer.py
+python prediction/predictor.py
 
-# Run full pipeline (all ~600 players - takes 1-2 hours)
-python auxilliary/run_pipeline.py
-
-# Skip news fetching if you already have data
-python auxilliary/run_pipeline.py --skip-news
-
-# Launch interactive dashboard (requires Google API key for LLM features)
+# Launch the chatbot
 streamlit run auxilliary/app.py
 ```
 
-**Note**: For Hugging Face Spaces deployment, the vector DB is automatically generated from `data/news.json` and `data/predictions.json` on startup—no need to pre-compute or store binary indices.
+## Data files
 
-## Pipeline Stages
+| File | Contents |
+|------|----------|
+| `data/players.json` / `.csv` | Current FPL players (price, form, points) |
+| `data/cleaned_merged_seasons.csv` | Historical + current season gameweek stats |
+| `data/news.json` | Recent headlines per player |
+| `data/sentiment_analysis.csv` / `.json` | Recency-weighted sentiment score per player (-1..1) |
+| `data/predictions.json` / `.csv` | Per-fixture predictions for the next 5 GWs + weighted total per player |
 
-### 1. Data Fetching (`data_fetcher.py`)
-- Fetches ~600 current Premier League players from FPL API
-- Collects news articles via Google News RSS
-- Saves to `data/players.json` and `data/news.json`
+## Stack (all free)
 
-### 2. Sentiment Analysis (`sentiment_analyzer.py`)
-- Analyzes news sentiment using BERT transformer model
-- Normalizes scores to 0-100 scale
-- Requires 50+ articles for scoring
-- Saves to `data/sentiment_analysis.json`
-
-### 3. Performance Prediction (`predictor.py`)
-- Loads historical player data from `data/cleaned_merged_seasons.csv`
-- Creates rolling window features (3, 5, 10 game averages)
-- Trains Random Forest models per player
-- Predicts total season points and points per match
-- Saves to `data/predictions.json`
-
-### 4. RAG System (`langchain_rag.py`)
-- Creates FAISS vector index from news and predictions at startup
-- Embeds FPL rules knowledge via prompts
-- Enables natural language queries with Google Gemini
-- Generated fresh each run (no persistent vector DB deployed)
-
-### 5. Dashboard (`app.py`)
-Interactive Streamlit app with:
-- **Player Table**: Sortable/filterable player data
-- **Predictions**: ML predictions with visualizations
-- **Analytics**: Sentiment analysis charts
-- **RAG Search**: Natural language Q&A powered by LLMs
-- **About**: Documentation
-
-## Project Structure
-
-```
-FantasyManager/
-├── sentiment/              # Sentiment analysis module
-├── prediction/             # ML prediction module
-├── RAG/                    # RAG system with LLM integration
-│   └── langchain_rag.py    # FAISS + LangChain RAG
-├── auxilliary/
-│   ├── data_fetcher.py     # Fetch players & news from FPL API & RSS
-│   ├── sentiment_analyzer.py    # BERT sentiment analysis
-│   ├── fpl_rules.py        # FPL rules & validation
-│   └── app.py              # Streamlit dashboard (entry point)
-├── data/                   # Generated data files
-│   ├── news.json           # News articles per player
-│   ├── predictions.json    # ML predictions per player
-│   └── cleaned_merged_seasons.csv  # Historical data
-├── requirements.txt        # All Python dependencies
-└── .github/workflows/deploy_spaces.yml  # HF Spaces deployment
-```
-
-## Technology Stack
-
-- **Data**: Fantasy Premier League API, Google News RSS
-- **NLP**: BERT (DistilBERT) for sentiment, sentence-transformers for embeddings
-- **ML**: scikit-learn Random Forest (no cloud APIs needed)
-- **Vector DB**: FAISS (free, local, fast)
-- **Dashboard**: Streamlit with Plotly charts
-- **All Free**: No API costs or rate limits
-
-## FPL Rules Integration
-
-The RAG system understands:
-- Squad requirements (2 GK, 5 DEF, 5 MID, 3 FWD)
-- £100M budget constraint
-- Max 3 players per team
-- Formation rules for starting XI
-- Points scoring system by position
-- Captain/Vice-Captain mechanics
-
-## LLM Integration (Optional)
-
-The system works 100% free without any LLM. To add natural language responses to the RAG search:
-
-### Google Gemini (Recommended - FREE)
-
-1. **Get API Key** (no credit card required):
-   - Visit: https://makersuite.google.com/app/apikey
-   - Click "Create API Key"
-   - Copy the key
-
-2. **Setup**:
-   ```bash
-   # Add to .env file
-   echo "GOOGLE_API_KEY=your_key_here" > .env
-   
-   # Install package (already in requirements.txt)
-   pip install google-generativeai
-   ```
-
-3. **Test**:
-   ```bash
-   # Run example LLM integration
-   python RAG/llm_integration.py
-   ```
-
-**Free Tier**: 15 requests/min, 1500/day - plenty for personal FPL use!
-
-**Features with LLM**:
-- Natural language answers to FPL questions
-- Player recommendations with reasoning
-- Fixture analysis and captain suggestions
-- Injury news summaries
-- Transfer advice based on form and fixtures
-
-## Usage Examples
-
-```bash
-# Generate only predictions (if you have existing data)
-python prediction/predictor.py
-
-# Rebuild RAG index only
-python RAG/rag_system.py
-
-# Run pipeline without news fetch
-python auxilliary/run_pipeline.py --skip-news
-```
-
-## Dashboard Features
-
-### Predictions Tab
-- Top predicted scorers
-- Points distribution by position
-- Value analysis (price vs predicted performance)
-- Form trend indicators
-
-### RAG Search Tab
-- Filter by player or document type (news/predictions)
-- Natural language queries
-- FPL-aware suggestions
-- Example: "Which defenders under £5M are predicted to score well?"
-
-## Data Files
-
-After running the pipeline, these files are generated:
-- `data/players.json` - Current FPL players
-- `data/news.json` - News articles per player
-- `data/sentiment_analysis.json` - Sentiment scores (0-100 scale)
-- `data/predictions.json` - ML predictions (points and points/match)
-- `data/players_with_sentiment.csv` - Complete dataset with all metrics
-
-**Note**: The FAISS vector database is generated on-the-fly from `news.json` and `predictions.json` at runtime—it's not stored as a file.
-
-## Command Line Options
-
-```bash
-python auxilliary/run_pipeline.py --help
-
-Options:
-  --test                Process only 10 players
-  --limit N            Process only N players
-  --min-articles N     Minimum articles for sentiment (default: 50)
-  --skip-news          Skip news fetching, use existing data
-```
-
-## Requirements
-
-- Python 3.10+
-- ~2GB RAM for FAISS index
-- ~500MB disk space for data
-- Historical data file: `data/cleaned_merged_seasons.csv`
-
-## Contributing
-
-This is an educational project demonstrating:
-- ML for sports analytics
-- Sentiment analysis at scale
-- RAG system implementation
-- Interactive data dashboards
-- Cost-free ML/NLP pipeline
+- **Data**: FPL API, Google News RSS
+- **ML**: XGBoost; DistilBERT sentiment; MiniLM embeddings (all run locally)
+- **LLM**: Llama 3.3 70B on Groq free tier
+- **App**: Streamlit on Hugging Face Spaces
+- **Automation**: GitHub Actions
 
 ## Disclaimer
 
-This tool is for informational and educational purposes only. Always do your own research before making fantasy football decisions!
-
-## License
-
-MIT License - Feel free to use and modify
+For informational purposes only — do your own research before making transfers!

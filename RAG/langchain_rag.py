@@ -3,14 +3,12 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 # Chat Imports
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 # Embeddings Imports
 from langchain_huggingface import HuggingFaceEmbeddings
 # Vector Store Imports
-from pinecone import Pinecone
 from langchain_core.documents import Document
-from langchain_community.docstore.in_memory import InMemoryDocstore
-from langchain_pinecone import PineconeVectorStore
+from langchain_core.vectorstores import InMemoryVectorStore
 # RAG Imports
 from langchain.agents import create_agent
 from langchain.tools import tool
@@ -19,21 +17,17 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(PROJECT_ROOT / ".env")
 
 #1) Chat Model
-google_api_key = os.getenv("GOOGLE_API_KEY")
-model = ChatGoogleGenerativeAI(model='gemini-2.5-flash-lite', google_api_key=google_api_key)
+groq_api_key = os.getenv("GROQ_API_KEY")
+model = ChatGroq(model='llama-3.3-70b-versatile', api_key=groq_api_key)
 
 #2) Embeddings Model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-#3) Vector Store Model
-pinecone_api_key = os.getenv("PINECONE_API_KEY")
-pc = Pinecone(api_key=pinecone_api_key)
-index = pc.Index("fantasy-manager-vectors")
-
+#3) Vector Store
 _vectorstore_cache = None
 
-def build_vectorstore():
-    """Build vectorstore from news.json and predictions.json and upload to Pinecone"""
+def build_docs():
+    """Build documents from news.json and predictions.json"""
     news_data_path = PROJECT_ROOT / "data" / "news.json"
     predictions_data_path = PROJECT_ROOT / "data" / "predictions.json"
 
@@ -71,10 +65,11 @@ def build_vectorstore():
 
         current_points = payload.get("current_season_points", 0)
         position = payload.get("position", "Unknown")
+        next_5_weighted = payload.get("predicted_next_5_weighted", payload.get("predicted_next_gw_points", 0))
 
         docs.append(
             Document(
-                page_content=f"Player: {player_name}\nCurrent Season Points: {current_points}\nPosition: {position}",
+                page_content=f"Player: {player_name}\nCurrent Season Points: {current_points}\nPredicted points over next 5 fixtures (weighted by closeness and difficulty): {next_5_weighted}\nPosition: {position}",
                 metadata={
                     "type": "prediction",
                     "player_name": player_name,
@@ -84,22 +79,14 @@ def build_vectorstore():
             )
         )
 
-    vs = PineconeVectorStore(embedding=embeddings, index=index)
-    vs.add_documents(docs)
-    return vs
+    return docs
 
 def get_vectorstore():
-    """Lazily initialize and cache the vectorstore to avoid duplicate uploads"""
+    """Lazily build and cache the in-memory vectorstore from local data files."""
     global _vectorstore_cache
     if _vectorstore_cache is None:
-        _vectorstore_cache = PineconeVectorStore(embedding=embeddings, index=index)
+        _vectorstore_cache = InMemoryVectorStore.from_documents(build_docs(), embedding=embeddings)
     return _vectorstore_cache
-
-if __name__ == "__main__":
-    # Initialize vectorstore and upload documents to Pinecone
-    print("Building vectorstore and uploading to Pinecone...")
-    build_vectorstore()
-    print("Vectorstore successfully uploaded to Pinecone!")
 
 # 5) Retrieval and Generation
 @tool(response_format='content_and_artifact')

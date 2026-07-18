@@ -26,13 +26,6 @@ DEFAULT_CLEANED_COLUMNS = [
     'chance_of_playing_this_round', 'GW'
 ]
 
-# Map cleaned_merged column names to keys returned by FPL's element-summary history or bootstrap.
-API_FIELD_RENAMES = {
-    'GW': 'round',
-    'now_cost': 'now_cost',  # Bootstrap field
-    'selected_by_percent': 'selected_by_percent',  # Bootstrap field
-}
-
 INT_COLUMNS = {
     'assists', 'bonus', 'bps', 'clean_sheets', 'element_type', 'fixture',
     'goals_conceded', 'goals_scored', 'id', 'minutes', 'opponent_team',
@@ -70,10 +63,8 @@ class CurrentSeasonUpdater:
         self.current_season = None
         self.current_gameweek = None
         self.last_finished_gameweek = None
-        self.new_records = []
         self.output_columns = DEFAULT_CLEANED_COLUMNS.copy()
-        self.player_count = 0
-        
+
     def fetch_bootstrap_data(self):
         """Fetch basic data including teams and current gameweek."""
         print("Fetching bootstrap data...")
@@ -112,8 +103,7 @@ class CurrentSeasonUpdater:
             print(f"Current/Last Gameweek: {self.current_gameweek}")
             print(f"Last Finished Gameweek: {self.last_finished_gameweek}")
             print(f"Teams loaded: {len(self.teams)}")
-            self.player_count = len(data['elements'])
-            
+
             return data['elements']  # Return players list
             
         except Exception as e:
@@ -125,138 +115,6 @@ class CurrentSeasonUpdater:
         positions = {1: 'GK', 2: 'DEF', 3: 'MID', 4: 'FWD'}
         return positions.get(position_id, 'Unknown')
     
-    def fetch_player_gameweek_data(self, player_obj):
-        """Fetch gameweek-by-gameweek data for a specific player with retry logic."""
-        player_id = player_obj['id']
-        player_name = f"{player_obj['first_name']} {player_obj['second_name']}"
-        position = self.get_position_name(player_obj['element_type'])
-        team_id = player_obj['team']
-        
-        max_retries = 3
-        retry_delay = 2
-
-        def _to_float(value, default=0.0):
-            try:
-                return float(value)
-            except (TypeError, ValueError):
-                return default
-
-        def _to_int(value, default=0):
-            try:
-                return int(float(value))
-            except (TypeError, ValueError):
-                return default
-        
-        for attempt in range(max_retries):
-            try:
-                url = self.PLAYER_DETAIL_URL.format(player_id=player_id)
-                response = requests.get(url, timeout=15)
-                response.raise_for_status()
-                data = response.json()
-                
-                # Get current season history
-                history = data.get('history', [])
-                
-                if not history:
-                    return []
-                
-                records = []
-                team_name = self.teams.get(team_id, 'Unknown')
-                
-                for gw in history:
-                    # Initialize all target columns first, then fill from API values.
-                    record = {col: None for col in self.output_columns}
-                    
-                    # Set fixed values from player object
-                    record['season'] = self.current_season
-                    record['current_season'] = self.current_season
-                    record['current_gameweek'] = self.current_gameweek
-                    record['name'] = player_name
-                    record['first_name'] = player_obj.get('first_name', '')
-                    record['second_name'] = player_obj.get('second_name', '')
-                    record['web_name'] = player_obj.get('web_name', '')
-                    record['position'] = position
-                    record['element_type'] = player_obj.get('element_type', '')
-                    record['team'] = team_name
-                    record['team_id'] = team_id
-                    record['element'] = player_id
-                    record['id'] = player_obj.get('id', player_id)
-                    
-                    # Bootstrap player attributes (from current state, not per-GW specific)
-                    record['now_cost'] = _to_float(player_obj.get('now_cost', 0.0), 0.0) / 10
-                    record['ep_next'] = _to_float(player_obj.get('ep_next', 0.0), 0.0)
-                    record['form'] = _to_float(player_obj.get('form', 0.0), 0.0)
-                    record['points_per_game'] = _to_float(player_obj.get('points_per_game', 0.0), 0.0)
-                    selected_pct = player_obj.get('selected_by_percent', '0')
-                    try:
-                        record['selected_by_percent'] = float(str(selected_pct).rstrip('%'))
-                    except (TypeError, ValueError):
-                        record['selected_by_percent'] = 0.0
-                    record['starts'] = _to_int(player_obj.get('starts', 0), 0)
-                    record['status'] = player_obj.get('status', 'u')
-                    record['expected_goals'] = _to_float(player_obj.get('expected_goals', 0.0), 0.0)
-                    record['expected_assists'] = _to_float(player_obj.get('expected_assists', 0.0), 0.0)
-                    record['expected_goal_involvements'] = _to_float(player_obj.get('expected_goal_involvements', 0.0), 0.0)
-                    record['expected_goals_conceded'] = _to_float(player_obj.get('expected_goals_conceded', 0.0), 0.0)
-                    record['chance_of_playing_next_round'] = _to_float(player_obj.get('chance_of_playing_next_round', 100.0), 100.0)
-                    record['chance_of_playing_this_round'] = _to_float(player_obj.get('chance_of_playing_this_round', 100.0), 100.0)
-
-                    # Gameweek history fields
-                    for col in self.output_columns:
-                        source_key = API_FIELD_RENAMES.get(col, col)
-                        if source_key in gw:
-                            record[col] = gw.get(source_key)
-
-                    # Cleaned CSV expects resolved opponent name and price in real units.
-                    opponent_team_id = _to_int(record.get('opponent_team', 0), 0)
-                    record['opp_team_name'] = self.teams.get(opponent_team_id, 'Unknown')
-
-                    record['creativity'] = _to_float(record.get('creativity', 0.0), 0.0)
-                    record['ict_index'] = _to_float(record.get('ict_index', 0.0), 0.0)
-                    record['influence'] = _to_float(record.get('influence', 0.0), 0.0)
-                    record['threat'] = _to_float(record.get('threat', 0.0), 0.0)
-
-                    # API returns value as tenths (e.g. 55 -> 5.5)
-                    record['value'] = _to_float(record.get('value', 0.0), 0.0) / 10
-
-                    # Keep GW synchronized with round for compatibility.
-                    gw_round = _to_int(record.get('round', 0), 0)
-                    record['round'] = gw_round
-                    record['GW'] = gw_round
-
-                    # Fill default values for any missing numeric columns.
-                    for numeric_col in [
-                        'assists', 'bonus', 'bps', 'clean_sheets', 'fixture', 'goals_conceded',
-                        'goals_scored', 'minutes', 'opponent_team', 'own_goals',
-                        'penalties_missed', 'penalties_saved', 'red_cards', 'saves',
-                        'selected', 'team_a_score', 'team_h_score', 'total_points',
-                        'transfers_balance', 'transfers_in', 'transfers_out', 'yellow_cards'
-                    ]:
-                        if record.get(numeric_col) is None:
-                            record[numeric_col] = _to_int(record.get(numeric_col, 0), 0)
-
-                    if record.get('kickoff_time') is None:
-                        record['kickoff_time'] = ''
-                    if record.get('was_home') is None:
-                        record['was_home'] = False
-
-                    records.append(record)
-                
-                return records
-                
-            except requests.exceptions.HTTPError as e:
-                if e.response.status_code == 503 and attempt < max_retries - 1:
-                    # Rate limited, wait and retry
-                    time.sleep(retry_delay * (attempt + 1))
-                    continue
-                else:
-                    # Other error or max retries reached
-                    return []
-            except Exception as e:
-                return []
-        
-        return []
-
     def _to_float(self, value, default=0.0):
         try:
             return float(value)
@@ -384,7 +242,7 @@ class CurrentSeasonUpdater:
 
                     # Fill gameweek-specific fields from element-summary history.
                     for col in self.output_columns:
-                        source_key = API_FIELD_RENAMES.get(col, col)
+                        source_key = 'round' if col == 'GW' else col
                         if source_key in gw:
                             record[col] = gw.get(source_key)
 
@@ -412,19 +270,6 @@ class CurrentSeasonUpdater:
             print(f"\nLoading existing data from {self.csv_path}...")
             df = pd.read_csv(self.csv_path, low_memory=False)
             print(f"Existing records: {len(df)}")
-            
-            # Check if CSV has missing columns from updated schema
-            missing_cols = set(self.output_columns) - set(df.columns)
-            if missing_cols:
-                print(f"⚠ CSV missing {len(missing_cols)} columns: {sorted(missing_cols)}")
-                print("Adding missing columns to CSV...")
-                for col in missing_cols:
-                    df[col] = None
-                # Reorder to match DEFAULT_CLEANED_COLUMNS
-                df = df[self.output_columns]
-                df.to_csv(self.csv_path, index=False)
-                print(f"✓ CSV migrated to new schema with {len(self.output_columns)} columns")
-            
             return df
         else:
             print(f"No existing file found at {self.csv_path}")
@@ -526,46 +371,18 @@ class CurrentSeasonUpdater:
             time.sleep(0.15)
 
         self._upsert_current_season_window(existing_df, all_records, min_gw, max_gw)
-        self.new_records = []
         print(f"\n✓ Fetching complete!")
         print(f"  Total rows collected: {len(all_records)}")
         print(f"  Total errors: {error_count}")
-        
-        return []
-    
-    def _save_intermediate_progress(self, records):
-        """Save intermediate progress to avoid data loss."""
-        if not records:
-            return
-        
-        temp_file = f"{self.csv_path}.temp"
-        temp_df = pd.DataFrame(records)
-        
-        # Ensure column order matches existing CSV
-        if os.path.exists(self.csv_path):
-            existing_df = pd.read_csv(self.csv_path, nrows=1)
-            existing_cols = existing_df.columns.tolist()
-            temp_df = temp_df[existing_cols]
-        
-        temp_df.to_csv(temp_file, index=False)
-    
-    
-    def append_to_csv(self):
-        """Kept for compatibility with previous script flow."""
-        print("\nData is already persisted via upsert in fetch step.")
-    
+
     def update(self):
         """Main update function."""
         print("="*60)
         print("CURRENT SEASON DATA UPDATER")
         print("="*60)
-        
-        # Fetch current season data
+
         self.fetch_all_current_season_data()
-        
-        # Append to CSV
-        self.append_to_csv()
-        
+
         print("\n" + "="*60)
         print("✓ Update complete!")
         print("="*60)

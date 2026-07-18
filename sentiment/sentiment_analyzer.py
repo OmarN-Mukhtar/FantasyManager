@@ -2,11 +2,18 @@ import json
 import pandas as pd
 from transformers import pipeline
 from typing import Dict, List
-import numpy as np
 from datetime import datetime, timedelta
 import feedparser
 import warnings
 warnings.filterwarnings('ignore')
+
+# ponytail: 3-day half-life over the 7-day window; raise if news stays relevant longer
+HALF_LIFE_DAYS = 3
+
+
+def recency_weight(age_days):
+    """Weight for an article's sentiment: halves every HALF_LIFE_DAYS."""
+    return 0.5 ** (max(age_days, 0) / HALF_LIFE_DAYS)
 
 
 class SentimentAnalyzer:
@@ -55,11 +62,13 @@ class SentimentAnalyzer:
         articles = []
 
         for entry in feed.entries[:max_articles]:
+            age_days = float(days_back)  # undated articles get minimum weight
             try:
                 if hasattr(entry, 'published_parsed') and entry.published_parsed:
                     published_dt = datetime(*entry.published_parsed[:6])
                     if published_dt < cutoff:
                         continue
+                    age_days = (datetime.now() - published_dt).total_seconds() / 86400
             except Exception:
                 pass
 
@@ -68,6 +77,7 @@ class SentimentAnalyzer:
                 'summary': entry.get('summary', ''),
                 'published': entry.get('published', ''),
                 'link': entry.get('link', ''),
+                'age_days': age_days,
             })
 
         return articles
@@ -75,7 +85,7 @@ class SentimentAnalyzer:
     def analyze_text_sentiment(self, text: str) -> float:
         """Analyze sentiment using BERT. Returns polarity score (-1 to 1)."""
         if not text or len(text.strip()) == 0:
-            return -0.05
+            return 0.0
         try:
             result = self.sentiment_pipeline(text[:2000])[0]  # Truncate to BERT's max length
             score = result['score']
@@ -83,14 +93,8 @@ class SentimentAnalyzer:
             return polarity
         except Exception as e:
             print(f"Error analyzing sentiment: {e}")
-            return -0.05
+            return 0.0
     
-    def analyze_article_sentiment(self, article: Dict) -> float:
-        """Score one article using title and summary."""
-        title_sent = self.analyze_text_sentiment(article.get('title', ''))
-        summary_sent = self.analyze_text_sentiment(article.get('summary', ''))
-        return float((title_sent + summary_sent) / 2.0)
-
     def analyze_all_players(self, days_back: int = 7):
         """Fetch player news and compute one sentiment score per player."""
         print("\nFetching headlines and scoring sentiment...")
@@ -103,8 +107,15 @@ class SentimentAnalyzer:
             search_name = self._search_name(player)
             articles = self.fetch_player_news(search_name, max_articles=30, days_back=days_back)
 
-            article_scores = [self.analyze_article_sentiment(a) for a in articles]
-            sentiment_score = float(np.mean(article_scores)) if article_scores else -0.05
+            # ponytail: headlines only — only titles are saved/shown; halves BERT calls
+            scored = [
+                (self.analyze_text_sentiment(a.get('title', '')), recency_weight(a.get('age_days', days_back)))
+                for a in articles
+            ]
+            total_weight = sum(w for _, w in scored)
+            sentiment_score = (
+                sum(s * w for s, w in scored) / total_weight if total_weight else 0.0
+            )
 
             results.append({
                 'player_name': str(player_name),

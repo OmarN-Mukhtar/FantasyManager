@@ -5,19 +5,20 @@ import json
 import requests
 
 
-MODEL_CONFIG = {
-    'xgb': {
-        'max_depth': 6,
-        'learning_rate': 0.1,
-        'n_estimators': 150,
-        'random_state': 42,
-        'n_jobs': -1,
-        'verbosity': 0,
-    }
-}
-
 BOOTSTRAP_URL = 'https://fantasy.premierleague.com/api/bootstrap-static/'
-FIXTURES_URL = 'https://fantasy.premierleague.com/api/fixtures/?event={event_id}'
+FIXTURES_URL = 'https://fantasy.premierleague.com/api/fixtures/?future=1'
+N_FIXTURES = 5
+
+
+def weighted_total(preds_and_fdrs):
+    """Discounted next-5 total: closer games and easier opponents weigh more.
+
+    ponytail: two knobs — 0.8/GW time decay, ±0.2 per FDR step from neutral 3.
+    """
+    return sum(
+        pred * 0.8 ** i * (1 + (3 - fdr) / 5)
+        for i, (pred, fdr) in enumerate(preds_and_fdrs)
+    )
 
 ROLLING_WINDOWS = [1, 3, 5, 7]
 TRAIN_LAST_N_GWS = 25
@@ -51,7 +52,8 @@ class PlayerPredictor:
         self.feature_cols = []
         self.predictions = {}
         self.player_name_to_id = {}
-        self.next_fixture_by_player_id = {}
+        self.team_of_player = {}
+        self.upcoming_by_team = {}
         
     def load_data(self):
 
@@ -94,88 +96,114 @@ class PlayerPredictor:
         y = df_train['target_next_gw_points'].astype(np.float32)
         
         # Train model
-        self.model = xgb.XGBRegressor(**MODEL_CONFIG['xgb'])
+        self.model = xgb.XGBRegressor(
+            max_depth=6, learning_rate=0.1, n_estimators=150,
+            random_state=42, n_jobs=-1, verbosity=0,
+        )
         self.model.fit(X, y)
         
         return True
 
-    def _fetch_next_gameweek_fixture_map(self):
-        """Fetch next GW fixtures and build player->(team,opponent) map."""
+    def _fetch_upcoming_fixtures(self):
+        """Fetch each team's next N_FIXTURES fixtures with opponent and difficulty."""
         response = requests.get(BOOTSTRAP_URL, timeout=15)
         response.raise_for_status()
         bootstrap = response.json()
 
-        next_event = next((e for e in bootstrap['events'] if e.get('is_next')), None)
-        if next_event is None:
-            next_event = next((e for e in bootstrap['events'] if e.get('is_current')), None)
-        if next_event is None:
-            self.next_fixture_by_player_id = {}
-            return
+        self.team_of_player = {int(p['id']): int(p['team']) for p in bootstrap.get('elements', [])}
+        team_names = {int(t['id']): t['short_name'] for t in bootstrap.get('teams', [])}
 
-        next_gw = int(next_event['id'])
-        player_team_map = {int(p['id']): int(p['team']) for p in bootstrap.get('elements', [])}
-
-        fx_response = requests.get(FIXTURES_URL.format(event_id=next_gw), timeout=15)
+        fx_response = requests.get(FIXTURES_URL, timeout=15)
         fx_response.raise_for_status()
-        fixtures = fx_response.json()
+        fixtures = sorted(
+            fx_response.json(),
+            key=lambda f: (f.get('event') or 999, f.get('kickoff_time') or '')
+        )
 
-        fixture_context_by_team = {}
+        self.upcoming_by_team = {}
         for fx in fixtures:
-            home = int(fx.get('team_h', 0))
-            away = int(fx.get('team_a', 0))
-            if home and away:
-                fixture_context_by_team[home] = {'opponent_team_feature': away, 'is_home_feature': 1.0}
-                fixture_context_by_team[away] = {'opponent_team_feature': home, 'is_home_feature': 0.0}
+            if fx.get('event') is None:
+                continue  # unscheduled (postponed) fixture
+            for team, opp, is_home, fdr in (
+                (fx['team_h'], fx['team_a'], True, fx.get('team_h_difficulty')),
+                (fx['team_a'], fx['team_h'], False, fx.get('team_a_difficulty')),
+            ):
+                team_fixtures = self.upcoming_by_team.setdefault(int(team), [])
+                if len(team_fixtures) < N_FIXTURES:
+                    team_fixtures.append({
+                        'gw': int(fx['event']),
+                        'opponent_id': int(opp),
+                        'opponent': team_names.get(int(opp), 'UNK'),
+                        'is_home': is_home,
+                        'fdr': int(fdr or 3),
+                    })
 
-        self.next_fixture_by_player_id = {
-            player_id: {
-                'team_id_feature': team_id,
-                'opponent_team_feature': fixture_context_by_team.get(team_id, {}).get('opponent_team_feature', 0),
-                'is_home_feature': fixture_context_by_team.get(team_id, {}).get('is_home_feature', 0.0),
-            }
-            for player_id, team_id in player_team_map.items()
-        }
-    
-    def predict_player(self, player_name, player_id=None, sentiment_score=-0.05):
+    def predict_player(self, player_name, player_id=None, sentiment_score=0.0):
 
         # Get player's most recent record
         player_data = self.df[self.df['name'] == player_name]
-        
+
         if len(player_data) == 0:
             return None
-        
+
         latest = player_data.iloc[-1]
         latest_season = latest['season']
 
         # Start from model features computed during training.
         feature_row = latest[self.feature_cols].copy()
 
-        # Override team/opponent with next GW fixture context if available.
         if player_id is None:
             player_id = self.player_name_to_id.get(str(player_name))
-        fixture_context = self.next_fixture_by_player_id.get(int(player_id), {}) if player_id else {}
-        if fixture_context:
-            feature_row['team_id_feature'] = float(fixture_context.get('team_id_feature', 0))
-            feature_row['opponent_team_feature'] = float(fixture_context.get('opponent_team_feature', 0))
-            feature_row['is_home_feature'] = float(fixture_context.get('is_home_feature', 0.0))
-        
-        X_pred = feature_row.values.reshape(1, -1).astype(np.float32)
-        X_pred = np.nan_to_num(X_pred, nan=0.0)
-        
-        # Predict next gameweek points
-        xgb_pred = float(self.model.predict(X_pred)[0])
+        team_id = self.team_of_player.get(int(player_id)) if player_id else None
+        if team_id is None:
+            team_id = int(pd.to_numeric(latest.get('team_id', 0), errors='coerce') or 0)
+        upcoming = self.upcoming_by_team.get(team_id, [])
+        if not upcoming:
+            # ponytail: no scheduled fixtures (season end) — one prediction from frozen features
+            upcoming = [{
+                'gw': None,
+                'opponent_id': int(feature_row['opponent_team_feature']),
+                'opponent': '',
+                'is_home': bool(feature_row['is_home_feature']),
+                'fdr': 3,
+            }]
+
         sentiment_score = pd.to_numeric(sentiment_score, errors='coerce')
         if pd.isna(sentiment_score):
-            sentiment_score = -0.05
-        xgb_pred += float(sentiment_score)
-        ep_next = pd.to_numeric(latest.get('ep_next', np.nan), errors='coerce')
-        if pd.isna(ep_next):
-            ep_next = xgb_pred
-        predicted_next_gw = 0.5 * xgb_pred + 0.5 * float(ep_next)
+            sentiment_score = 0.0
+
+        per_fixture = []
+        for i, fx in enumerate(upcoming):
+            feature_row['team_id_feature'] = float(team_id)
+            feature_row['opponent_team_feature'] = float(fx['opponent_id'])
+            feature_row['is_home_feature'] = 1.0 if fx['is_home'] else 0.0
+
+            X_pred = feature_row.values.reshape(1, -1).astype(np.float32)
+            X_pred = np.nan_to_num(X_pred, nan=0.0)
+            pred = float(self.model.predict(X_pred)[0])
+
+            if i == 0:
+                # ep_next and news only cover the next GW; later fixtures are model-only.
+                pred += float(sentiment_score)
+                ep_next = pd.to_numeric(latest.get('ep_next', np.nan), errors='coerce')
+                if not pd.isna(ep_next):
+                    pred = 0.5 * pred + 0.5 * float(ep_next)
+
+            per_fixture.append({
+                'gw': fx['gw'],
+                'opponent': fx['opponent'],
+                'home': fx['is_home'],
+                'fdr': fx['fdr'],
+                'predicted_points': round(pred, 2),
+            })
+
+        next_5 = [f for f in per_fixture if f['gw'] is not None]
+        predicted_next_gw = per_fixture[0]['predicted_points']
+        weighted = weighted_total(
+            [(f['predicted_points'], f['fdr']) for f in per_fixture]
+        )
 
         position = str(latest.get('position', '')).upper()
-        multiplier_map = {'GK': 1.5, 'DEF': 1.75, 'MID': 2.0, 'FWD': 2.0}
-        predicted_next_gw *= multiplier_map.get(position, 1.0)
 
         season_points = self.full_df[
             (self.full_df['name'] == player_name) &
@@ -190,13 +218,15 @@ class PlayerPredictor:
             'player_name': str(player_name),
             'position': position,
             'team': team,
-            'now_cost': round(float(now_cost) / 10, 1) if now_cost > 0 else 0.0,  # FPL API returns in tenths
+            'now_cost': round(float(now_cost), 1) if now_cost > 0 else 0.0,  # CSV now_cost is already in £M
             'predicted_next_gw_points': round(predicted_next_gw, 2),
+            'predicted_next_5_weighted': round(weighted, 2),
+            'next_5': next_5,
             'current_season_points': round(float(season_points), 2),
         }
-    
+
     def predict_all_current_players(self, current_players_list):
-        self._fetch_next_gameweek_fixture_map()
+        self._fetch_upcoming_fixtures()
 
         sentiment_map = {}
         sentiment_df = pd.read_csv('data/sentiment_analysis.csv')
@@ -208,7 +238,7 @@ class PlayerPredictor:
             player_id = player.get('id') or player.get('element')
             if player_name and player_id:
                 self.player_name_to_id[str(player_name)] = int(player_id)
-            sentiment_score = float(sentiment_map.get(str(player_name), -0.05))
+            sentiment_score = float(sentiment_map.get(str(player_name), 0.0))
             pred = self.predict_player(player_name, player_id=player_id, sentiment_score=sentiment_score)
             if pred:
                 predictions_list.append(pred)
@@ -219,9 +249,17 @@ class PlayerPredictor:
     def save_predictions(self):
         with open('data/predictions.json', 'w') as f:
             json.dump(self.predictions, f, indent=2, default=float)
-        
-        predictions_df = pd.DataFrame(self.predictions.values())
-        predictions_df.to_csv('data/predictions.csv', index=False)
+
+        # CSV keeps flat columns; per-fixture detail becomes a compact string.
+        rows = []
+        for p in self.predictions.values():
+            row = {k: v for k, v in p.items() if k != 'next_5'}
+            row['next_5_fixtures'] = ', '.join(
+                f"{f['opponent']} ({'H' if f['home'] else 'A'}) {f['predicted_points']}"
+                for f in p['next_5']
+            )
+            rows.append(row)
+        pd.DataFrame(rows).to_csv('data/predictions.csv', index=False)
         
 
 def main():

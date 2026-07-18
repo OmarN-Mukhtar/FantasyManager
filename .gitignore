@@ -40,6 +40,7 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
+!notebooks/*.ipynb
 
 # Environment variables
 .env
@@ -47,7 +48,7 @@ env/
 .env.*.local
 
 # Large Data Files
-# Keep data and vector_db tracked (stored via Git LFS by .gitattributes)
+# Keep data tracked (stored via Git LFS by .gitattributes)
 
 # Data files (ignore by default, allow specific patterns)
 *.csv
@@ -130,8 +131,6 @@ historical_data/
 
 *.png
 
-# Keep full generated data and vector store in git/LFS
+# Keep full generated data in git/LFS
 !data/
 !data/**
-!vector_db/
-!vector_db/**
