@@ -55,9 +55,14 @@ def player_info(name: str) -> str:
     return "\n".join(lines)
 
 
+_UNAVAILABLE_STATUSES = {'injured', 'suspended', 'unavailable', 'not in squad'}
+
+
 @tool
 def top_players(position: str = "", max_price: str = "", limit: str = "10") -> str:
     """Top players ranked by predicted points over the next 5 gameweeks.
+    Excludes injured/suspended/unavailable players; doubtful players have their
+    predicted points scaled down by their chance of playing.
     Optional filters: position (GK/DEF/MID/FWD) and max_price in £M."""
     # ponytail: string params — Llama emits "10" not 10 and Groq rejects schema mismatches
     df = _players
@@ -72,6 +77,14 @@ def top_players(position: str = "", max_price: str = "", limit: str = "10") -> s
         n = max(1, min(int(float(limit)), 25))
     except (ValueError, TypeError):
         n = 10
+
+    if 'status' in df.columns:
+        df = df[~df['status'].isin(_UNAVAILABLE_STATUSES)].copy()
+        chance = pd.to_numeric(df['chance_of_playing_next_round'], errors='coerce')
+        # doubtful with no % given yet: assume 50/50 rather than full points
+        scale = chance.fillna(50).where(df['status'] == 'doubtful', 100) / 100
+        df['predicted_next_5_weighted'] = df['predicted_next_5_weighted'] * scale
+
     cols = ['player_name', 'position', 'team', 'now_cost',
             'predicted_next_5_weighted', 'predicted_next_gw_points',
             'sentiment_score', 'next_5_fixtures']
@@ -79,12 +92,12 @@ def top_players(position: str = "", max_price: str = "", limit: str = "10") -> s
 
 
 @tool
-def search_news(keywords: list[str]) -> str:
+def search_news(keywords: str) -> str:
     """Search every player's recent headlines for a topic. Matching is plain
-    substring, so pass several variants and synonyms, e.g.
-    ["injury", "injured", "knock", "doubt", "sidelined"]."""
-    # ponytail: LLM supplies the synonyms, tool just greps — replaces the embedding stack
-    kws = [k.lower() for k in keywords]
+    substring, so pass several comma-separated variants and synonyms, e.g.
+    "injury, injured, knock, doubt, sidelined"."""
+    # ponytail: plain str, not list[str] — Groq's tool-call decoder can't reliably emit array args
+    kws = [k.strip().lower() for k in keywords.split(',') if k.strip()]
     hits = []
     for player, payload in _news.items():
         for h in payload.get('headlines', []):
