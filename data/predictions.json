@@ -4,15 +4,15 @@
     "position": "GK",
     "team": "Arsenal",
     "now_cost": 6.2,
-    "predicted_next_gw_points": 5.47,
-    "predicted_next_5_weighted": 9.53,
+    "predicted_next_gw_points": 5.52,
+    "predicted_next_5_weighted": 9.59,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 5.47
+        "predicted_points": 5.52
       },
       {
         "gw": 2,
@@ -50,15 +50,15 @@
     "position": "GK",
     "team": "Arsenal",
     "now_cost": 4.0,
-    "predicted_next_gw_points": 1.88,
-    "predicted_next_5_weighted": 6.63,
+    "predicted_next_gw_points": 1.39,
+    "predicted_next_5_weighted": 6.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.88
+        "predicted_points": 1.39
       },
       {
         "gw": 2,
@@ -96,15 +96,15 @@
     "position": "GK",
     "team": "Leeds",
     "now_cost": 4.1,
-    "predicted_next_gw_points": -0.32,
-    "predicted_next_5_weighted": -0.35,
+    "predicted_next_gw_points": -0.09,
+    "predicted_next_5_weighted": -0.07,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": -0.32
+        "predicted_points": -0.09
       },
       {
         "gw": 2,
@@ -142,15 +142,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 7.3,
-    "predicted_next_gw_points": 5.29,
-    "predicted_next_5_weighted": 9.35,
+    "predicted_next_gw_points": 5.16,
+    "predicted_next_5_weighted": 9.19,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 5.29
+        "predicted_points": 5.16
       },
       {
         "gw": 2,
@@ -234,15 +234,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 6.3,
-    "predicted_next_gw_points": 4.63,
-    "predicted_next_5_weighted": 10.03,
+    "predicted_next_gw_points": 4.64,
+    "predicted_next_5_weighted": 10.04,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 4.63
+        "predicted_points": 4.64
       },
       {
         "gw": 2,
@@ -280,15 +280,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 3.45,
-    "predicted_next_5_weighted": 8.15,
+    "predicted_next_gw_points": 2.91,
+    "predicted_next_5_weighted": 7.5,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 3.45
+        "predicted_points": 2.91
       },
       {
         "gw": 2,
@@ -326,15 +326,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 5.6,
-    "predicted_next_gw_points": 3.97,
-    "predicted_next_5_weighted": 9.33,
+    "predicted_next_gw_points": 3.56,
+    "predicted_next_5_weighted": 8.83,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 3.97
+        "predicted_points": 3.56
       },
       {
         "gw": 2,
@@ -372,15 +372,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 2.2,
-    "predicted_next_5_weighted": 6.83,
+    "predicted_next_gw_points": 2.64,
+    "predicted_next_5_weighted": 7.36,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.2
+        "predicted_points": 2.64
       },
       {
         "gw": 2,
@@ -418,15 +418,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 0.21,
-    "predicted_next_5_weighted": 1.48,
+    "predicted_next_gw_points": 0.29,
+    "predicted_next_5_weighted": 1.57,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.21
+        "predicted_points": 0.29
       },
       {
         "gw": 2,
@@ -464,15 +464,15 @@
     "position": "DEF",
     "team": "Arsenal",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 2.13,
-    "predicted_next_5_weighted": 7.83,
+    "predicted_next_gw_points": 2.18,
+    "predicted_next_5_weighted": 7.89,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.13
+        "predicted_points": 2.18
       },
       {
         "gw": 2,
@@ -510,15 +510,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 10.0,
-    "predicted_next_gw_points": 4.88,
-    "predicted_next_5_weighted": 11.51,
+    "predicted_next_gw_points": 4.87,
+    "predicted_next_5_weighted": 11.5,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 4.88
+        "predicted_points": 4.87
       },
       {
         "gw": 2,
@@ -556,15 +556,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 7.2,
-    "predicted_next_gw_points": 2.66,
-    "predicted_next_5_weighted": 3.91,
+    "predicted_next_gw_points": 2.65,
+    "predicted_next_5_weighted": 3.9,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.66
+        "predicted_points": 2.65
       },
       {
         "gw": 2,
@@ -648,15 +648,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 7.8,
-    "predicted_next_gw_points": 2.35,
-    "predicted_next_5_weighted": 4.69,
+    "predicted_next_gw_points": 2.66,
+    "predicted_next_5_weighted": 5.06,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.35
+        "predicted_points": 2.66
       },
       {
         "gw": 2,
@@ -740,15 +740,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.03,
-    "predicted_next_5_weighted": 3.05,
+    "predicted_next_gw_points": 1.01,
+    "predicted_next_5_weighted": 3.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.03
+        "predicted_points": 1.01
       },
       {
         "gw": 2,
@@ -786,15 +786,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 6.8,
-    "predicted_next_gw_points": 1.51,
-    "predicted_next_5_weighted": 7.28,
+    "predicted_next_gw_points": 1.64,
+    "predicted_next_5_weighted": 7.44,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.51
+        "predicted_points": 1.64
       },
       {
         "gw": 2,
@@ -832,15 +832,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 2.59,
-    "predicted_next_5_weighted": 6.75,
+    "predicted_next_gw_points": 2.54,
+    "predicted_next_5_weighted": 6.69,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.59
+        "predicted_points": 2.54
       },
       {
         "gw": 2,
@@ -878,15 +878,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 4.2,
-    "predicted_next_gw_points": 2.14,
-    "predicted_next_5_weighted": 7.21,
+    "predicted_next_gw_points": 1.47,
+    "predicted_next_5_weighted": 6.41,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.14
+        "predicted_points": 1.47
       },
       {
         "gw": 2,
@@ -924,15 +924,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 1.06,
-    "predicted_next_5_weighted": 3.99,
+    "predicted_next_gw_points": 1.21,
+    "predicted_next_5_weighted": 4.17,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.06
+        "predicted_points": 1.21
       },
       {
         "gw": 2,
@@ -970,15 +970,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 0.5,
-    "predicted_next_5_weighted": 0.64,
+    "predicted_next_gw_points": -0.21,
+    "predicted_next_5_weighted": -0.22,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.5
+        "predicted_points": -0.21
       },
       {
         "gw": 2,
@@ -1016,15 +1016,15 @@
     "position": "MID",
     "team": "Arsenal",
     "now_cost": 5.4,
-    "predicted_next_gw_points": -0.41,
-    "predicted_next_5_weighted": -0.4,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.1,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": -0.41
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -1062,15 +1062,15 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 0.76,
-    "predicted_next_5_weighted": 2.41,
+    "predicted_next_gw_points": 0.85,
+    "predicted_next_5_weighted": 2.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.76
+        "predicted_points": 0.85
       },
       {
         "gw": 2,
@@ -1108,15 +1108,15 @@
     "position": "FWD",
     "team": "Arsenal",
     "now_cost": 9.1,
-    "predicted_next_gw_points": 4.22,
-    "predicted_next_5_weighted": 11.35,
+    "predicted_next_gw_points": 4.15,
+    "predicted_next_5_weighted": 11.27,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 4.22
+        "predicted_points": 4.15
       },
       {
         "gw": 2,
@@ -1154,15 +1154,15 @@
     "position": "FWD",
     "team": "Arsenal",
     "now_cost": 7.3,
-    "predicted_next_gw_points": 3.59,
-    "predicted_next_5_weighted": 9.19,
+    "predicted_next_gw_points": 3.75,
+    "predicted_next_5_weighted": 9.38,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 3.59
+        "predicted_points": 3.75
       },
       {
         "gw": 2,
@@ -1200,15 +1200,15 @@
     "position": "FWD",
     "team": "Arsenal",
     "now_cost": 6.4,
-    "predicted_next_gw_points": 2.42,
-    "predicted_next_5_weighted": 9.16,
+    "predicted_next_gw_points": 1.92,
+    "predicted_next_5_weighted": 8.56,
     "next_5": [
       {
         "gw": 1,
         "opponent": "COV",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.42
+        "predicted_points": 1.92
       },
       {
         "gw": 2,
@@ -1241,20 +1241,66 @@
     ],
     "current_season_points": 24.0
   },
+  "Christos Tzolis": {
+    "player_name": "Christos Tzolis",
+    "position": "MID",
+    "team": "Norwich",
+    "now_cost": 0.0,
+    "predicted_next_gw_points": 0.34,
+    "predicted_next_5_weighted": 0.45,
+    "next_5": [
+      {
+        "gw": 1,
+        "opponent": "COV",
+        "home": true,
+        "fdr": 2,
+        "predicted_points": 0.34
+      },
+      {
+        "gw": 2,
+        "opponent": "AVL",
+        "home": false,
+        "fdr": 4,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 3,
+        "opponent": "CHE",
+        "home": true,
+        "fdr": 4,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 4,
+        "opponent": "SUN",
+        "home": false,
+        "fdr": 3,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 5,
+        "opponent": "BHA",
+        "home": false,
+        "fdr": 3,
+        "predicted_points": 0.02
+      }
+    ],
+    "current_season_points": 16.0
+  },
   "Emiliano Mart\u00ednez Romero": {
     "player_name": "Emiliano Mart\u00ednez Romero",
     "position": "GK",
     "team": "Aston Villa",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.62,
-    "predicted_next_5_weighted": 2.4,
+    "predicted_next_gw_points": 1.45,
+    "predicted_next_5_weighted": 2.23,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.62
+        "predicted_points": 1.45
       },
       {
         "gw": 2,
@@ -1338,15 +1384,15 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 1.04,
-    "predicted_next_5_weighted": 2.27,
+    "predicted_next_gw_points": 1.02,
+    "predicted_next_5_weighted": 2.25,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.04
+        "predicted_points": 1.02
       },
       {
         "gw": 2,
@@ -1384,15 +1430,15 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 0.44,
-    "predicted_next_5_weighted": 1.51,
+    "predicted_next_gw_points": 0.42,
+    "predicted_next_5_weighted": 1.49,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.44
+        "predicted_points": 0.42
       },
       {
         "gw": 2,
@@ -1430,15 +1476,15 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 1.47,
-    "predicted_next_5_weighted": 3.63,
+    "predicted_next_gw_points": 1.61,
+    "predicted_next_5_weighted": 3.77,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.47
+        "predicted_points": 1.61
       },
       {
         "gw": 2,
@@ -1568,15 +1614,15 @@
     "position": "DEF",
     "team": "Aston Villa",
     "now_cost": 4.0,
-    "predicted_next_gw_points": 0.87,
-    "predicted_next_5_weighted": 3.47,
+    "predicted_next_gw_points": 0.37,
+    "predicted_next_5_weighted": 2.97,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.87
+        "predicted_points": 0.37
       },
       {
         "gw": 2,
@@ -1752,15 +1798,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 2.48,
-    "predicted_next_5_weighted": 8.06,
+    "predicted_next_gw_points": 2.52,
+    "predicted_next_5_weighted": 8.1,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.48
+        "predicted_points": 2.52
       },
       {
         "gw": 2,
@@ -1798,15 +1844,15 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 6.2,
-    "predicted_next_gw_points": 0.49,
-    "predicted_next_5_weighted": 3.25,
+    "predicted_next_gw_points": 0.25,
+    "predicted_next_5_weighted": 3.01,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.49
+        "predicted_points": 0.25
       },
       {
         "gw": 2,
@@ -1844,15 +1890,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 5.5,
-    "predicted_next_gw_points": 2.25,
-    "predicted_next_5_weighted": 9.56,
+    "predicted_next_gw_points": 2.33,
+    "predicted_next_5_weighted": 9.64,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.25
+        "predicted_points": 2.33
       },
       {
         "gw": 2,
@@ -1890,15 +1936,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.83,
-    "predicted_next_5_weighted": 5.47,
+    "predicted_next_gw_points": 2.15,
+    "predicted_next_5_weighted": 5.79,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.83
+        "predicted_points": 2.15
       },
       {
         "gw": 2,
@@ -1982,15 +2028,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.48,
-    "predicted_next_5_weighted": 0.52,
+    "predicted_next_gw_points": 0.44,
+    "predicted_next_5_weighted": 0.48,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.48
+        "predicted_points": 0.44
       },
       {
         "gw": 2,
@@ -2258,15 +2304,15 @@
     "position": "FWD",
     "team": "Aston Villa",
     "now_cost": 8.7,
-    "predicted_next_gw_points": 8.56,
-    "predicted_next_5_weighted": 31.89,
+    "predicted_next_gw_points": 8.46,
+    "predicted_next_5_weighted": 31.79,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 8.56
+        "predicted_points": 8.46
       },
       {
         "gw": 2,
@@ -2304,15 +2350,15 @@
     "position": "FWD",
     "team": "Aston Villa",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 0.31,
-    "predicted_next_5_weighted": 0.97,
+    "predicted_next_gw_points": 0.35,
+    "predicted_next_5_weighted": 1.01,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BHA",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.31
+        "predicted_points": 0.35
       },
       {
         "gw": 2,
@@ -2345,20 +2391,66 @@
     ],
     "current_season_points": 23.0
   },
+  "Alejandro Garnacho Ferreyra": {
+    "player_name": "Alejandro Garnacho Ferreyra",
+    "position": "MID",
+    "team": "Chelsea",
+    "now_cost": 6.4,
+    "predicted_next_gw_points": 0.45,
+    "predicted_next_5_weighted": 1.35,
+    "next_5": [
+      {
+        "gw": 1,
+        "opponent": "BHA",
+        "home": false,
+        "fdr": 3,
+        "predicted_points": 0.45
+      },
+      {
+        "gw": 2,
+        "opponent": "ARS",
+        "home": true,
+        "fdr": 4,
+        "predicted_points": 0.41
+      },
+      {
+        "gw": 3,
+        "opponent": "HUL",
+        "home": false,
+        "fdr": 2,
+        "predicted_points": 0.4
+      },
+      {
+        "gw": 4,
+        "opponent": "NFO",
+        "home": true,
+        "fdr": 3,
+        "predicted_points": 0.36
+      },
+      {
+        "gw": 5,
+        "opponent": "TOT",
+        "home": false,
+        "fdr": 3,
+        "predicted_points": 0.36
+      }
+    ],
+    "current_season_points": 56.0
+  },
   "\u0110or\u0111e Petrovi\u0107": {
     "player_name": "\u0110or\u0111e Petrovi\u0107",
     "position": "GK",
     "team": "Bournemouth",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 3.45,
-    "predicted_next_5_weighted": 8.16,
+    "predicted_next_gw_points": 3.38,
+    "predicted_next_5_weighted": 8.12,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 3.45
+        "predicted_points": 3.38
       },
       {
         "gw": 2,
@@ -2396,15 +2488,15 @@
     "position": "GK",
     "team": "Bournemouth",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.41,
-    "predicted_next_5_weighted": -0.22,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": -0.41
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -2442,15 +2534,15 @@
     "position": "GK",
     "team": "Bournemouth",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.41,
-    "predicted_next_5_weighted": -0.2,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": -0.41
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -2856,15 +2948,15 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 2.54,
-    "predicted_next_5_weighted": 8.98,
+    "predicted_next_gw_points": 3.17,
+    "predicted_next_5_weighted": 9.36,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 2.54
+        "predicted_points": 3.17
       },
       {
         "gw": 2,
@@ -2902,15 +2994,15 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 2.19,
-    "predicted_next_5_weighted": 3.07,
+    "predicted_next_gw_points": 2.32,
+    "predicted_next_5_weighted": 3.15,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 2.19
+        "predicted_points": 2.32
       },
       {
         "gw": 2,
@@ -3040,15 +3132,15 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 1.43,
-    "predicted_next_5_weighted": 4.46,
+    "predicted_next_gw_points": 1.45,
+    "predicted_next_5_weighted": 4.47,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 1.43
+        "predicted_points": 1.45
       },
       {
         "gw": 2,
@@ -3086,15 +3178,15 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 2.36,
-    "predicted_next_5_weighted": 6.04,
+    "predicted_next_gw_points": 1.96,
+    "predicted_next_5_weighted": 5.8,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 2.36
+        "predicted_points": 1.96
       },
       {
         "gw": 2,
@@ -3178,15 +3270,15 @@
     "position": "MID",
     "team": "Bournemouth",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.68,
-    "predicted_next_5_weighted": 0.96,
+    "predicted_next_gw_points": 0.64,
+    "predicted_next_5_weighted": 0.94,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 0.68
+        "predicted_points": 0.64
       },
       {
         "gw": 2,
@@ -3316,15 +3408,15 @@
     "position": "FWD",
     "team": "Bournemouth",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 3.29,
-    "predicted_next_5_weighted": 6.76,
+    "predicted_next_gw_points": 3.81,
+    "predicted_next_5_weighted": 7.07,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MCI",
         "home": false,
         "fdr": 5,
-        "predicted_points": 3.29
+        "predicted_points": 3.81
       },
       {
         "gw": 2,
@@ -3638,15 +3730,15 @@
     "position": "DEF",
     "team": "Brentford",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 3.26,
-    "predicted_next_5_weighted": 9.04,
+    "predicted_next_gw_points": 3.25,
+    "predicted_next_5_weighted": 9.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.26
+        "predicted_points": 3.25
       },
       {
         "gw": 2,
@@ -3960,15 +4052,15 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 6.8,
-    "predicted_next_gw_points": 3.19,
-    "predicted_next_5_weighted": 12.79,
+    "predicted_next_gw_points": 2.99,
+    "predicted_next_5_weighted": 12.59,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.19
+        "predicted_points": 2.99
       },
       {
         "gw": 2,
@@ -4052,15 +4144,15 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 5.6,
-    "predicted_next_gw_points": 3.35,
-    "predicted_next_5_weighted": 9.26,
+    "predicted_next_gw_points": 3.85,
+    "predicted_next_5_weighted": 9.76,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.35
+        "predicted_points": 3.85
       },
       {
         "gw": 2,
@@ -4374,15 +4466,15 @@
     "position": "MID",
     "team": "Brentford",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.36,
-    "predicted_next_5_weighted": 1.02,
+    "predicted_next_gw_points": 0.11,
+    "predicted_next_5_weighted": 0.77,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.36
+        "predicted_points": 0.11
       },
       {
         "gw": 2,
@@ -4466,15 +4558,15 @@
     "position": "FWD",
     "team": "Brentford",
     "now_cost": 7.2,
-    "predicted_next_gw_points": 2.32,
-    "predicted_next_5_weighted": 8.57,
+    "predicted_next_gw_points": 2.29,
+    "predicted_next_5_weighted": 8.54,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.32
+        "predicted_points": 2.29
       },
       {
         "gw": 2,
@@ -4558,15 +4650,15 @@
     "position": "FWD",
     "team": "West Ham",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 1.78,
-    "predicted_next_5_weighted": 6.64,
+    "predicted_next_gw_points": 2.37,
+    "predicted_next_5_weighted": 7.23,
     "next_5": [
       {
         "gw": 1,
         "opponent": "TOT",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.78
+        "predicted_points": 2.37
       },
       {
         "gw": 2,
@@ -4604,15 +4696,15 @@
     "position": "GK",
     "team": "Brighton",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 2.43,
-    "predicted_next_5_weighted": 8.43,
+    "predicted_next_gw_points": 2.32,
+    "predicted_next_5_weighted": 8.32,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.43
+        "predicted_points": 2.32
       },
       {
         "gw": 2,
@@ -4650,15 +4742,15 @@
     "position": "GK",
     "team": "Brighton",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.08,
-    "predicted_next_5_weighted": -0.04,
+    "predicted_next_gw_points": -0.16,
+    "predicted_next_5_weighted": -0.12,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": -0.08
+        "predicted_points": -0.16
       },
       {
         "gw": 2,
@@ -4926,15 +5018,15 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 4.2,
-    "predicted_next_gw_points": 0.01,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": 0.23,
+    "predicted_next_5_weighted": 0.27,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.01
+        "predicted_points": 0.23
       },
       {
         "gw": 2,
@@ -5064,15 +5156,15 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 5.5,
-    "predicted_next_gw_points": 3.29,
-    "predicted_next_5_weighted": 7.76,
+    "predicted_next_gw_points": 3.79,
+    "predicted_next_5_weighted": 8.26,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.29
+        "predicted_points": 3.79
       },
       {
         "gw": 2,
@@ -5294,15 +5386,15 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.42,
-    "predicted_next_5_weighted": 1.58,
+    "predicted_next_gw_points": 0.91,
+    "predicted_next_5_weighted": 2.07,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.42
+        "predicted_points": 0.91
       },
       {
         "gw": 2,
@@ -5432,15 +5524,15 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 1.25,
-    "predicted_next_5_weighted": 4.44,
+    "predicted_next_gw_points": 0.79,
+    "predicted_next_5_weighted": 3.98,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.25
+        "predicted_points": 0.79
       },
       {
         "gw": 2,
@@ -5524,15 +5616,15 @@
     "position": "MID",
     "team": "Brighton",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.01,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": 0.5,
+    "predicted_next_5_weighted": 0.54,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.01
+        "predicted_points": 0.5
       },
       {
         "gw": 2,
@@ -5662,15 +5754,15 @@
     "position": "FWD",
     "team": "Brighton",
     "now_cost": 6.3,
-    "predicted_next_gw_points": 1.87,
-    "predicted_next_5_weighted": 6.01,
+    "predicted_next_gw_points": 2.15,
+    "predicted_next_5_weighted": 6.29,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.87
+        "predicted_points": 2.15
       },
       {
         "gw": 2,
@@ -5708,15 +5800,15 @@
     "position": "FWD",
     "team": "Brighton",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 0.49,
-    "predicted_next_5_weighted": 0.54,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.06,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.49
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -5846,15 +5938,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 4.2,
-    "predicted_next_gw_points": 0.24,
-    "predicted_next_5_weighted": 2.03,
+    "predicted_next_gw_points": 0.16,
+    "predicted_next_5_weighted": 1.95,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.24
+        "predicted_points": 0.16
       },
       {
         "gw": 2,
@@ -5892,15 +5984,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 3.9,
-    "predicted_next_gw_points": -0.01,
-    "predicted_next_5_weighted": 0.04,
+    "predicted_next_gw_points": -0.07,
+    "predicted_next_5_weighted": -0.02,
     "next_5": [
       {
         "gw": 1,
         "opponent": "AVL",
         "home": true,
         "fdr": 3,
-        "predicted_points": -0.01
+        "predicted_points": -0.07
       },
       {
         "gw": 2,
@@ -5938,15 +6030,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 7.3,
-    "predicted_next_gw_points": 2.18,
-    "predicted_next_5_weighted": 3.36,
+    "predicted_next_gw_points": 2.19,
+    "predicted_next_5_weighted": 3.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.18
+        "predicted_points": 2.19
       },
       {
         "gw": 2,
@@ -5984,15 +6076,15 @@
     "position": "GK",
     "team": "Chelsea",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 1.54,
-    "predicted_next_5_weighted": 7.34,
+    "predicted_next_gw_points": 2.29,
+    "predicted_next_5_weighted": 8.09,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.54
+        "predicted_points": 2.29
       },
       {
         "gw": 2,
@@ -6030,15 +6122,15 @@
     "position": "GK",
     "team": "Chelsea",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 0.84,
-    "predicted_next_5_weighted": 1.57,
+    "predicted_next_gw_points": 0.9,
+    "predicted_next_5_weighted": 1.63,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.84
+        "predicted_points": 0.9
       },
       {
         "gw": 2,
@@ -6122,15 +6214,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 1.26,
-    "predicted_next_5_weighted": 5.12,
+    "predicted_next_gw_points": 1.4,
+    "predicted_next_5_weighted": 5.26,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.26
+        "predicted_points": 1.4
       },
       {
         "gw": 2,
@@ -6168,15 +6260,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 1.81,
-    "predicted_next_5_weighted": 7.15,
+    "predicted_next_gw_points": 1.3,
+    "predicted_next_5_weighted": 6.64,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.81
+        "predicted_points": 1.3
       },
       {
         "gw": 2,
@@ -6214,15 +6306,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 1.36,
-    "predicted_next_5_weighted": 1.99,
+    "predicted_next_gw_points": 1.39,
+    "predicted_next_5_weighted": 2.02,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.36
+        "predicted_points": 1.39
       },
       {
         "gw": 2,
@@ -6306,15 +6398,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.07,
-    "predicted_next_5_weighted": -0.05,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.07
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -6352,15 +6444,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 1.97,
-    "predicted_next_5_weighted": 5.23,
+    "predicted_next_gw_points": 0.98,
+    "predicted_next_5_weighted": 4.24,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.97
+        "predicted_points": 0.98
       },
       {
         "gw": 2,
@@ -6398,15 +6490,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 2.01,
-    "predicted_next_5_weighted": 7.51,
+    "predicted_next_gw_points": 1.71,
+    "predicted_next_5_weighted": 7.21,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.01
+        "predicted_points": 1.71
       },
       {
         "gw": 2,
@@ -6444,15 +6536,15 @@
     "position": "DEF",
     "team": "Chelsea",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.26,
-    "predicted_next_5_weighted": 1.05,
+    "predicted_next_gw_points": 0.3,
+    "predicted_next_5_weighted": 1.09,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.26
+        "predicted_points": 0.3
       },
       {
         "gw": 2,
@@ -6536,15 +6628,15 @@
     "position": "DEF",
     "team": "West Ham",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 1.45,
-    "predicted_next_5_weighted": 4.38,
+    "predicted_next_gw_points": 1.58,
+    "predicted_next_5_weighted": 4.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.45
+        "predicted_points": 1.58
       },
       {
         "gw": 2,
@@ -6582,15 +6674,15 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 10.3,
-    "predicted_next_gw_points": 2.94,
-    "predicted_next_5_weighted": 12.69,
+    "predicted_next_gw_points": 2.96,
+    "predicted_next_5_weighted": 12.71,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.94
+        "predicted_points": 2.96
       },
       {
         "gw": 2,
@@ -6628,15 +6720,15 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 6.5,
-    "predicted_next_gw_points": 5.53,
-    "predicted_next_5_weighted": 10.98,
+    "predicted_next_gw_points": 5.34,
+    "predicted_next_5_weighted": 10.79,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 5.53
+        "predicted_points": 5.34
       },
       {
         "gw": 2,
@@ -6674,15 +6766,15 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 7.0,
-    "predicted_next_gw_points": 1.49,
-    "predicted_next_5_weighted": 5.87,
+    "predicted_next_gw_points": 1.86,
+    "predicted_next_5_weighted": 6.24,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.49
+        "predicted_points": 1.86
       },
       {
         "gw": 2,
@@ -6766,15 +6858,15 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 6.0,
-    "predicted_next_gw_points": 0.41,
-    "predicted_next_5_weighted": 0.51,
+    "predicted_next_gw_points": 0.27,
+    "predicted_next_5_weighted": 0.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.41
+        "predicted_points": 0.27
       },
       {
         "gw": 2,
@@ -6852,52 +6944,6 @@
       }
     ],
     "current_season_points": 105.0
-  },
-  "Alejandro Garnacho Ferreyra": {
-    "player_name": "Alejandro Garnacho Ferreyra",
-    "position": "MID",
-    "team": "Chelsea",
-    "now_cost": 6.4,
-    "predicted_next_gw_points": 0.57,
-    "predicted_next_5_weighted": 1.53,
-    "next_5": [
-      {
-        "gw": 1,
-        "opponent": "FUL",
-        "home": false,
-        "fdr": 3,
-        "predicted_points": 0.57
-      },
-      {
-        "gw": 2,
-        "opponent": "BHA",
-        "home": true,
-        "fdr": 2,
-        "predicted_points": 0.41
-      },
-      {
-        "gw": 3,
-        "opponent": "ARS",
-        "home": false,
-        "fdr": 5,
-        "predicted_points": 0.41
-      },
-      {
-        "gw": 4,
-        "opponent": "HUL",
-        "home": true,
-        "fdr": 2,
-        "predicted_points": 0.39
-      },
-      {
-        "gw": 5,
-        "opponent": "BRE",
-        "home": false,
-        "fdr": 3,
-        "predicted_points": 0.41
-      }
-    ],
-    "current_season_points": 56.0
   },
   "Rom\u00e9o Lavia": {
     "player_name": "Rom\u00e9o Lavia",
@@ -6996,15 +7042,15 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 7.4,
-    "predicted_next_gw_points": 2.44,
-    "predicted_next_5_weighted": 8.93,
+    "predicted_next_gw_points": 2.39,
+    "predicted_next_5_weighted": 8.88,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.44
+        "predicted_points": 2.39
       },
       {
         "gw": 2,
@@ -7088,15 +7134,15 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 6.2,
-    "predicted_next_gw_points": 0.89,
-    "predicted_next_5_weighted": 2.11,
+    "predicted_next_gw_points": 0.38,
+    "predicted_next_5_weighted": 1.6,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.89
+        "predicted_points": 0.38
       },
       {
         "gw": 2,
@@ -7180,15 +7226,15 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.63,
-    "predicted_next_5_weighted": 1.25,
+    "predicted_next_gw_points": 0.56,
+    "predicted_next_5_weighted": 1.18,
     "next_5": [
       {
         "gw": 1,
         "opponent": "FUL",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.63
+        "predicted_points": 0.56
       },
       {
         "gw": 2,
@@ -7272,15 +7318,15 @@
     "position": "DEF",
     "team": "Burnley",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.02,
-    "predicted_next_5_weighted": 0.04,
+    "predicted_next_gw_points": -0.01,
+    "predicted_next_5_weighted": 0.02,
     "next_5": [
       {
         "gw": 1,
         "opponent": "ARS",
         "home": false,
         "fdr": 5,
-        "predicted_points": 0.02
+        "predicted_points": -0.01
       },
       {
         "gw": 2,
@@ -7410,15 +7456,15 @@
     "position": "MID",
     "team": "Burnley",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 2.65,
-    "predicted_next_5_weighted": 4.82,
+    "predicted_next_gw_points": 2.16,
+    "predicted_next_5_weighted": 4.53,
     "next_5": [
       {
         "gw": 1,
         "opponent": "ARS",
         "home": false,
         "fdr": 5,
-        "predicted_points": 2.65
+        "predicted_points": 2.16
       },
       {
         "gw": 2,
@@ -7548,15 +7594,15 @@
     "position": "GK",
     "team": "Crystal Palace",
     "now_cost": 3.9,
-    "predicted_next_gw_points": -0.0,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": -0.49,
+    "predicted_next_5_weighted": -0.44,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.0
+        "predicted_points": -0.49
       },
       {
         "gw": 2,
@@ -7594,15 +7640,15 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 1.25,
-    "predicted_next_5_weighted": 3.45,
+    "predicted_next_gw_points": 1.34,
+    "predicted_next_5_weighted": 3.54,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.25
+        "predicted_points": 1.34
       },
       {
         "gw": 2,
@@ -7732,15 +7778,15 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.6,
-    "predicted_next_5_weighted": 1.0,
+    "predicted_next_gw_points": 0.39,
+    "predicted_next_5_weighted": 0.79,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.6
+        "predicted_points": 0.39
       },
       {
         "gw": 2,
@@ -7778,15 +7824,15 @@
     "position": "DEF",
     "team": "Crystal Palace",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.31,
-    "predicted_next_5_weighted": 3.38,
+    "predicted_next_gw_points": 0.82,
+    "predicted_next_5_weighted": 2.89,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.31
+        "predicted_points": 0.82
       },
       {
         "gw": 2,
@@ -7916,15 +7962,15 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 6.4,
-    "predicted_next_gw_points": 3.15,
-    "predicted_next_5_weighted": 8.38,
+    "predicted_next_gw_points": 2.99,
+    "predicted_next_5_weighted": 8.22,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.15
+        "predicted_points": 2.99
       },
       {
         "gw": 2,
@@ -8008,15 +8054,15 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 2.17,
-    "predicted_next_5_weighted": 4.64,
+    "predicted_next_gw_points": 2.04,
+    "predicted_next_5_weighted": 4.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.17
+        "predicted_points": 2.04
       },
       {
         "gw": 2,
@@ -8192,15 +8238,15 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 0.57,
-    "predicted_next_5_weighted": 2.67,
+    "predicted_next_gw_points": 1.14,
+    "predicted_next_5_weighted": 3.24,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.57
+        "predicted_points": 1.14
       },
       {
         "gw": 2,
@@ -8468,15 +8514,15 @@
     "position": "MID",
     "team": "Crystal Palace",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 0.78,
-    "predicted_next_5_weighted": 4.02,
+    "predicted_next_gw_points": -0.04,
+    "predicted_next_5_weighted": 3.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.78
+        "predicted_points": -0.04
       },
       {
         "gw": 2,
@@ -8606,15 +8652,15 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 7.6,
-    "predicted_next_gw_points": 1.1,
-    "predicted_next_5_weighted": 3.93,
+    "predicted_next_gw_points": 1.21,
+    "predicted_next_5_weighted": 4.04,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.1
+        "predicted_points": 1.21
       },
       {
         "gw": 2,
@@ -8652,15 +8698,15 @@
     "position": "FWD",
     "team": "Crystal Palace",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 0.48,
-    "predicted_next_5_weighted": 0.55,
+    "predicted_next_gw_points": 0.5,
+    "predicted_next_5_weighted": 0.57,
     "next_5": [
       {
         "gw": 1,
         "opponent": "EVE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.48
+        "predicted_points": 0.5
       },
       {
         "gw": 2,
@@ -8790,15 +8836,15 @@
     "position": "GK",
     "team": "Everton",
     "now_cost": 5.6,
-    "predicted_next_gw_points": 1.46,
-    "predicted_next_5_weighted": 5.84,
+    "predicted_next_gw_points": 1.78,
+    "predicted_next_5_weighted": 6.16,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.46
+        "predicted_points": 1.78
       },
       {
         "gw": 2,
@@ -8928,15 +8974,15 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 3.55,
-    "predicted_next_5_weighted": 7.85,
+    "predicted_next_gw_points": 4.05,
+    "predicted_next_5_weighted": 8.35,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.55
+        "predicted_points": 4.05
       },
       {
         "gw": 2,
@@ -8974,15 +9020,15 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 5.3,
-    "predicted_next_gw_points": -0.09,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": 0.09,
+    "predicted_next_5_weighted": 0.23,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": -0.09
+        "predicted_points": 0.09
       },
       {
         "gw": 2,
@@ -9066,15 +9112,15 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 2.56,
-    "predicted_next_5_weighted": 7.49,
+    "predicted_next_gw_points": 2.54,
+    "predicted_next_5_weighted": 7.47,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.56
+        "predicted_points": 2.54
       },
       {
         "gw": 2,
@@ -9112,15 +9158,15 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.6,
-    "predicted_next_5_weighted": 4.23,
+    "predicted_next_gw_points": 0.61,
+    "predicted_next_5_weighted": 4.24,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.6
+        "predicted_points": 0.61
       },
       {
         "gw": 2,
@@ -9158,15 +9204,15 @@
     "position": "DEF",
     "team": "Everton",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 0.39,
-    "predicted_next_5_weighted": 1.23,
+    "predicted_next_gw_points": 0.3,
+    "predicted_next_5_weighted": 1.14,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.39
+        "predicted_points": 0.3
       },
       {
         "gw": 2,
@@ -9250,15 +9296,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 4.12,
-    "predicted_next_5_weighted": 10.9,
+    "predicted_next_gw_points": 3.63,
+    "predicted_next_5_weighted": 10.41,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 4.12
+        "predicted_points": 3.63
       },
       {
         "gw": 2,
@@ -9296,15 +9342,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 6.3,
-    "predicted_next_gw_points": 1.82,
-    "predicted_next_5_weighted": 6.86,
+    "predicted_next_gw_points": 1.83,
+    "predicted_next_5_weighted": 6.87,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.82
+        "predicted_points": 1.83
       },
       {
         "gw": 2,
@@ -9342,15 +9388,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 2.89,
-    "predicted_next_5_weighted": 8.76,
+    "predicted_next_gw_points": 2.17,
+    "predicted_next_5_weighted": 8.04,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.89
+        "predicted_points": 2.17
       },
       {
         "gw": 2,
@@ -9480,15 +9526,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 1.11,
-    "predicted_next_5_weighted": 3.51,
+    "predicted_next_gw_points": 1.02,
+    "predicted_next_5_weighted": 3.42,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.11
+        "predicted_points": 1.02
       },
       {
         "gw": 2,
@@ -9572,15 +9618,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.25,
-    "predicted_next_5_weighted": 2.32,
+    "predicted_next_gw_points": 0.19,
+    "predicted_next_5_weighted": 2.26,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.25
+        "predicted_points": 0.19
       },
       {
         "gw": 2,
@@ -9664,15 +9710,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 2.96,
-    "predicted_next_5_weighted": 5.62,
+    "predicted_next_gw_points": 2.55,
+    "predicted_next_5_weighted": 5.21,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.96
+        "predicted_points": 2.55
       },
       {
         "gw": 2,
@@ -9756,15 +9802,15 @@
     "position": "FWD",
     "team": "Everton",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 2.93,
-    "predicted_next_5_weighted": 6.91,
+    "predicted_next_gw_points": 2.9,
+    "predicted_next_5_weighted": 6.88,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CRY",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.93
+        "predicted_points": 2.9
       },
       {
         "gw": 2,
@@ -9802,15 +9848,15 @@
     "position": "GK",
     "team": "Fulham",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 2.18,
-    "predicted_next_5_weighted": 5.12,
+    "predicted_next_gw_points": 2.59,
+    "predicted_next_5_weighted": 5.45,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 2.18
+        "predicted_points": 2.59
       },
       {
         "gw": 2,
@@ -9894,15 +9940,15 @@
     "position": "GK",
     "team": "Fulham",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.06,
-    "predicted_next_5_weighted": -0.02,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": -0.06
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -9986,15 +10032,15 @@
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 3.52,
-    "predicted_next_5_weighted": 8.61,
+    "predicted_next_gw_points": 3.58,
+    "predicted_next_5_weighted": 8.66,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 3.52
+        "predicted_points": 3.58
       },
       {
         "gw": 2,
@@ -10308,15 +10354,15 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 1.41,
-    "predicted_next_5_weighted": 5.36,
+    "predicted_next_gw_points": 1.52,
+    "predicted_next_5_weighted": 5.44,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.41
+        "predicted_points": 1.52
       },
       {
         "gw": 2,
@@ -10354,15 +10400,15 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 1.54,
-    "predicted_next_5_weighted": 5.28,
+    "predicted_next_gw_points": 1.4,
+    "predicted_next_5_weighted": 5.17,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.54
+        "predicted_points": 1.4
       },
       {
         "gw": 2,
@@ -10400,15 +10446,15 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 1.49,
-    "predicted_next_5_weighted": 5.49,
+    "predicted_next_gw_points": 1.4,
+    "predicted_next_5_weighted": 5.42,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.49
+        "predicted_points": 1.4
       },
       {
         "gw": 2,
@@ -10676,15 +10722,15 @@
     "position": "FWD",
     "team": "Fulham",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.51,
-    "predicted_next_5_weighted": 4.26,
+    "predicted_next_gw_points": 1.71,
+    "predicted_next_5_weighted": 4.42,
     "next_5": [
       {
         "gw": 1,
         "opponent": "CHE",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.51
+        "predicted_points": 1.71
       },
       {
         "gw": 2,
@@ -10768,15 +10814,15 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.32,
-    "predicted_next_5_weighted": 0.29,
+    "predicted_next_gw_points": 0.37,
+    "predicted_next_5_weighted": 0.33,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": 0.32
+        "predicted_points": 0.37
       },
       {
         "gw": 2,
@@ -10860,15 +10906,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 0.0,
-    "predicted_next_gw_points": -0.2,
-    "predicted_next_5_weighted": -0.12,
+    "predicted_next_gw_points": 0.41,
+    "predicted_next_5_weighted": 0.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": -0.2
+        "predicted_points": 0.41
       },
       {
         "gw": 2,
@@ -10906,15 +10952,15 @@
     "position": "DEF",
     "team": "Luton",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.01,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": 0.98,
+    "predicted_next_5_weighted": 0.82,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": 0.01
+        "predicted_points": 0.98
       },
       {
         "gw": 2,
@@ -10952,15 +10998,15 @@
     "position": "MID",
     "team": "Norwich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 2.19,
-    "predicted_next_5_weighted": 5.57,
+    "predicted_next_gw_points": 2.17,
+    "predicted_next_5_weighted": 5.55,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": 2.19
+        "predicted_points": 2.17
       },
       {
         "gw": 2,
@@ -10998,15 +11044,15 @@
     "position": "FWD",
     "team": "Norwich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.76,
-    "predicted_next_5_weighted": 0.65,
+    "predicted_next_gw_points": 0.4,
+    "predicted_next_5_weighted": 0.36,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": 0.76
+        "predicted_points": 0.4
       },
       {
         "gw": 2,
@@ -11090,15 +11136,15 @@
     "position": "FWD",
     "team": "Chelsea",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 1.01,
-    "predicted_next_5_weighted": 0.85,
+    "predicted_next_gw_points": 0.95,
+    "predicted_next_5_weighted": 0.8,
     "next_5": [
       {
         "gw": 1,
         "opponent": "MUN",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.01
+        "predicted_points": 0.95
       },
       {
         "gw": 2,
@@ -11131,20 +11177,66 @@
     ],
     "current_season_points": 2.0
   },
+  "Matt Targett": {
+    "player_name": "Matt Targett",
+    "position": "DEF",
+    "team": "Newcastle",
+    "now_cost": 4.0,
+    "predicted_next_gw_points": 0.22,
+    "predicted_next_5_weighted": 0.22,
+    "next_5": [
+      {
+        "gw": 1,
+        "opponent": "MUN",
+        "home": true,
+        "fdr": 4,
+        "predicted_points": 0.22
+      },
+      {
+        "gw": 2,
+        "opponent": "COV",
+        "home": false,
+        "fdr": 2,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 3,
+        "opponent": "AVL",
+        "home": true,
+        "fdr": 3,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 4,
+        "opponent": "CHE",
+        "home": false,
+        "fdr": 4,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 5,
+        "opponent": "NEW",
+        "home": false,
+        "fdr": 3,
+        "predicted_points": 0.01
+      }
+    ],
+    "current_season_points": 0.0
+  },
   "Issa Diop": {
     "player_name": "Issa Diop",
     "position": "DEF",
     "team": "Fulham",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 1.96,
-    "predicted_next_5_weighted": 7.98,
+    "predicted_next_gw_points": 1.95,
+    "predicted_next_5_weighted": 7.97,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.96
+        "predicted_points": 1.95
       },
       {
         "gw": 2,
@@ -11228,15 +11320,15 @@
     "position": "GK",
     "team": "Ipswich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.87,
-    "predicted_next_5_weighted": 2.59,
+    "predicted_next_gw_points": 1.64,
+    "predicted_next_5_weighted": 3.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.87
+        "predicted_points": 1.64
       },
       {
         "gw": 2,
@@ -11274,15 +11366,15 @@
     "position": "GK",
     "team": "West Brom",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.02,
-    "predicted_next_5_weighted": 0.14,
+    "predicted_next_gw_points": 0.9,
+    "predicted_next_5_weighted": 1.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.02
+        "predicted_points": 0.9
       },
       {
         "gw": 2,
@@ -11642,15 +11734,15 @@
     "position": "MID",
     "team": "Ipswich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 1.17,
-    "predicted_next_5_weighted": 3.83,
+    "predicted_next_gw_points": 1.87,
+    "predicted_next_5_weighted": 4.67,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.17
+        "predicted_points": 1.87
       },
       {
         "gw": 2,
@@ -11734,15 +11826,15 @@
     "position": "MID",
     "team": "Leicester",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.72,
-    "predicted_next_5_weighted": 0.9,
+    "predicted_next_gw_points": 0.71,
+    "predicted_next_5_weighted": 0.89,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.72
+        "predicted_points": 0.71
       },
       {
         "gw": 2,
@@ -11826,15 +11918,15 @@
     "position": "MID",
     "team": "Ipswich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.41,
-    "predicted_next_5_weighted": 0.55,
+    "predicted_next_gw_points": 0.72,
+    "predicted_next_5_weighted": 0.93,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.41
+        "predicted_points": 0.72
       },
       {
         "gw": 2,
@@ -11872,15 +11964,15 @@
     "position": "MID",
     "team": "Ipswich",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 1.33,
-    "predicted_next_5_weighted": 2.85,
+    "predicted_next_gw_points": 1.16,
+    "predicted_next_5_weighted": 2.65,
     "next_5": [
       {
         "gw": 1,
         "opponent": "SUN",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.33
+        "predicted_points": 1.16
       },
       {
         "gw": 2,
@@ -12010,15 +12102,15 @@
     "position": "MID",
     "team": "Fulham",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 1.81,
-    "predicted_next_5_weighted": 5.32,
+    "predicted_next_gw_points": 1.73,
+    "predicted_next_5_weighted": 5.24,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.81
+        "predicted_points": 1.73
       },
       {
         "gw": 2,
@@ -12056,15 +12148,15 @@
     "position": "GK",
     "team": "Leeds",
     "now_cost": 4.4,
-    "predicted_next_gw_points": -0.19,
-    "predicted_next_5_weighted": -0.15,
+    "predicted_next_gw_points": -0.13,
+    "predicted_next_5_weighted": -0.09,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.19
+        "predicted_points": -0.13
       },
       {
         "gw": 2,
@@ -12102,15 +12194,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 3.9,
-    "predicted_next_gw_points": 4.51,
-    "predicted_next_5_weighted": 9.1,
+    "predicted_next_gw_points": 4.32,
+    "predicted_next_5_weighted": 8.91,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 4.51
+        "predicted_points": 4.32
       },
       {
         "gw": 2,
@@ -12148,15 +12240,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 3.9,
-    "predicted_next_gw_points": 2.87,
-    "predicted_next_5_weighted": 8.17,
+    "predicted_next_gw_points": 2.85,
+    "predicted_next_5_weighted": 8.15,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.87
+        "predicted_points": 2.85
       },
       {
         "gw": 2,
@@ -12240,15 +12332,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 3.8,
-    "predicted_next_gw_points": 0.08,
-    "predicted_next_5_weighted": 0.42,
+    "predicted_next_gw_points": 0.56,
+    "predicted_next_5_weighted": 0.9,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.08
+        "predicted_points": 0.56
       },
       {
         "gw": 2,
@@ -12286,15 +12378,15 @@
     "position": "DEF",
     "team": "Leeds",
     "now_cost": 4.0,
-    "predicted_next_gw_points": 4.3,
-    "predicted_next_5_weighted": 10.7,
+    "predicted_next_gw_points": 3.8,
+    "predicted_next_5_weighted": 10.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 4.3
+        "predicted_points": 3.8
       },
       {
         "gw": 2,
@@ -12378,15 +12470,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 0.71,
-    "predicted_next_5_weighted": 2.72,
+    "predicted_next_gw_points": 0.36,
+    "predicted_next_5_weighted": 2.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.71
+        "predicted_points": 0.36
       },
       {
         "gw": 2,
@@ -12424,15 +12516,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 5.5,
-    "predicted_next_gw_points": 0.04,
-    "predicted_next_5_weighted": 1.4,
+    "predicted_next_gw_points": 0.02,
+    "predicted_next_5_weighted": 1.38,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.04
+        "predicted_points": 0.02
       },
       {
         "gw": 2,
@@ -12470,15 +12562,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 2.35,
-    "predicted_next_5_weighted": 7.9,
+    "predicted_next_gw_points": 2.27,
+    "predicted_next_5_weighted": 7.82,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.35
+        "predicted_points": 2.27
       },
       {
         "gw": 2,
@@ -12516,15 +12608,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 3.88,
-    "predicted_next_5_weighted": 9.08,
+    "predicted_next_gw_points": 3.82,
+    "predicted_next_5_weighted": 9.02,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.88
+        "predicted_points": 3.82
       },
       {
         "gw": 2,
@@ -12608,15 +12700,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 4.5,
-    "predicted_next_gw_points": -0.42,
-    "predicted_next_5_weighted": -0.39,
+    "predicted_next_gw_points": -0.26,
+    "predicted_next_5_weighted": -0.23,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.42
+        "predicted_points": -0.26
       },
       {
         "gw": 2,
@@ -12654,15 +12746,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 1.26,
-    "predicted_next_5_weighted": 4.4,
+    "predicted_next_gw_points": 1.11,
+    "predicted_next_5_weighted": 4.25,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.26
+        "predicted_points": 1.11
       },
       {
         "gw": 2,
@@ -12700,15 +12792,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 0.08,
-    "predicted_next_5_weighted": 0.11,
+    "predicted_next_gw_points": 0.17,
+    "predicted_next_5_weighted": 0.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.08
+        "predicted_points": 0.17
       },
       {
         "gw": 2,
@@ -12746,15 +12838,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 1.88,
-    "predicted_next_5_weighted": 5.61,
+    "predicted_next_gw_points": 1.64,
+    "predicted_next_5_weighted": 5.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.88
+        "predicted_points": 1.64
       },
       {
         "gw": 2,
@@ -12792,15 +12884,15 @@
     "position": "MID",
     "team": "Leeds",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 0.42,
-    "predicted_next_5_weighted": 0.51,
+    "predicted_next_gw_points": 0.06,
+    "predicted_next_5_weighted": 0.15,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.42
+        "predicted_points": 0.06
       },
       {
         "gw": 2,
@@ -12884,15 +12976,15 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 4.06,
-    "predicted_next_5_weighted": 7.8,
+    "predicted_next_gw_points": 4.09,
+    "predicted_next_5_weighted": 7.83,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 4.06
+        "predicted_points": 4.09
       },
       {
         "gw": 2,
@@ -12930,15 +13022,15 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.91,
-    "predicted_next_5_weighted": 7.9,
+    "predicted_next_gw_points": 1.84,
+    "predicted_next_5_weighted": 7.83,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.91
+        "predicted_points": 1.84
       },
       {
         "gw": 2,
@@ -12976,15 +13068,15 @@
     "position": "FWD",
     "team": "Leeds",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.89,
-    "predicted_next_5_weighted": 2.84,
+    "predicted_next_gw_points": 0.94,
+    "predicted_next_5_weighted": 2.89,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NFO",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.89
+        "predicted_points": 0.94
       },
       {
         "gw": 2,
@@ -13114,15 +13206,15 @@
     "position": "GK",
     "team": "Liverpool",
     "now_cost": 4.1,
-    "predicted_next_gw_points": 1.31,
-    "predicted_next_5_weighted": 3.03,
+    "predicted_next_gw_points": 1.15,
+    "predicted_next_5_weighted": 2.87,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.31
+        "predicted_points": 1.15
       },
       {
         "gw": 2,
@@ -13298,15 +13390,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 0.93,
-    "predicted_next_5_weighted": 5.45,
+    "predicted_next_gw_points": 1.43,
+    "predicted_next_5_weighted": 5.95,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.93
+        "predicted_points": 1.43
       },
       {
         "gw": 2,
@@ -13344,15 +13436,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 5.6,
-    "predicted_next_gw_points": 1.23,
-    "predicted_next_5_weighted": 3.49,
+    "predicted_next_gw_points": 1.48,
+    "predicted_next_5_weighted": 3.74,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.23
+        "predicted_points": 1.48
       },
       {
         "gw": 2,
@@ -13436,15 +13528,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 4.9,
-    "predicted_next_gw_points": -0.06,
-    "predicted_next_5_weighted": -0.02,
+    "predicted_next_gw_points": -0.12,
+    "predicted_next_5_weighted": -0.08,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.06
+        "predicted_points": -0.12
       },
       {
         "gw": 2,
@@ -13528,15 +13620,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 4.9,
-    "predicted_next_gw_points": -0.14,
-    "predicted_next_5_weighted": -0.1,
+    "predicted_next_gw_points": -0.12,
+    "predicted_next_5_weighted": -0.08,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.14
+        "predicted_points": -0.12
       },
       {
         "gw": 2,
@@ -13574,15 +13666,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 3.7,
-    "predicted_next_gw_points": 0.44,
-    "predicted_next_5_weighted": 0.66,
+    "predicted_next_gw_points": 0.12,
+    "predicted_next_5_weighted": 0.34,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.44
+        "predicted_points": 0.12
       },
       {
         "gw": 2,
@@ -13666,15 +13758,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 7.3,
-    "predicted_next_gw_points": 3.21,
-    "predicted_next_5_weighted": 10.7,
+    "predicted_next_gw_points": 3.57,
+    "predicted_next_5_weighted": 11.06,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.21
+        "predicted_points": 3.57
       },
       {
         "gw": 2,
@@ -13712,15 +13804,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 7.1,
-    "predicted_next_gw_points": 4.61,
-    "predicted_next_5_weighted": 11.66,
+    "predicted_next_gw_points": 4.54,
+    "predicted_next_5_weighted": 11.59,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 4.61
+        "predicted_points": 4.54
       },
       {
         "gw": 2,
@@ -13758,15 +13850,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 2.22,
-    "predicted_next_5_weighted": 6.36,
+    "predicted_next_gw_points": 2.43,
+    "predicted_next_5_weighted": 6.57,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.22
+        "predicted_points": 2.43
       },
       {
         "gw": 2,
@@ -13896,15 +13988,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 6.1,
-    "predicted_next_gw_points": 4.29,
-    "predicted_next_5_weighted": 11.47,
+    "predicted_next_gw_points": 4.34,
+    "predicted_next_5_weighted": 11.52,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 4.29
+        "predicted_points": 4.34
       },
       {
         "gw": 2,
@@ -14034,15 +14126,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 1.03,
-    "predicted_next_5_weighted": 2.52,
+    "predicted_next_gw_points": 0.92,
+    "predicted_next_5_weighted": 2.41,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.03
+        "predicted_points": 0.92
       },
       {
         "gw": 2,
@@ -14080,15 +14172,15 @@
     "position": "MID",
     "team": "Liverpool",
     "now_cost": 4.2,
-    "predicted_next_gw_points": -0.09,
-    "predicted_next_5_weighted": 0.18,
+    "predicted_next_gw_points": -0.23,
+    "predicted_next_5_weighted": 0.04,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.09
+        "predicted_points": -0.23
       },
       {
         "gw": 2,
@@ -14172,15 +14264,15 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 10.3,
-    "predicted_next_gw_points": 1.46,
-    "predicted_next_5_weighted": 3.47,
+    "predicted_next_gw_points": 1.29,
+    "predicted_next_5_weighted": 3.3,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 1.46
+        "predicted_points": 1.29
       },
       {
         "gw": 2,
@@ -14264,15 +14356,15 @@
     "position": "FWD",
     "team": "Liverpool",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 0.01,
-    "predicted_next_5_weighted": 0.05,
+    "predicted_next_gw_points": 1.01,
+    "predicted_next_5_weighted": 1.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.01
+        "predicted_points": 1.01
       },
       {
         "gw": 2,
@@ -14356,15 +14448,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 5.1,
-    "predicted_next_gw_points": -0.35,
-    "predicted_next_5_weighted": -0.31,
+    "predicted_next_gw_points": -0.36,
+    "predicted_next_5_weighted": -0.32,
     "next_5": [
       {
         "gw": 1,
         "opponent": "NEW",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.35
+        "predicted_points": -0.36
       },
       {
         "gw": 2,
@@ -14402,15 +14494,15 @@
     "position": "MID",
     "team": "Everton",
     "now_cost": 6.3,
-    "predicted_next_gw_points": 0.17,
-    "predicted_next_5_weighted": 0.5,
+    "predicted_next_gw_points": 0.37,
+    "predicted_next_5_weighted": 0.7,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.17
+        "predicted_points": 0.37
       },
       {
         "gw": 2,
@@ -14448,15 +14540,15 @@
     "position": "GK",
     "team": "Man City",
     "now_cost": 5.6,
-    "predicted_next_gw_points": 2.88,
-    "predicted_next_5_weighted": 4.93,
+    "predicted_next_gw_points": 2.9,
+    "predicted_next_5_weighted": 4.95,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.88
+        "predicted_points": 2.9
       },
       {
         "gw": 2,
@@ -14494,15 +14586,15 @@
     "position": "GK",
     "team": "Man City",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 1.01,
-    "predicted_next_5_weighted": 5.11,
+    "predicted_next_gw_points": 1.07,
+    "predicted_next_5_weighted": 5.17,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.01
+        "predicted_points": 1.07
       },
       {
         "gw": 2,
@@ -14586,15 +14678,15 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.03,
-    "predicted_next_5_weighted": 2.2,
+    "predicted_next_gw_points": 2.02,
+    "predicted_next_5_weighted": 3.19,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.03
+        "predicted_points": 2.02
       },
       {
         "gw": 2,
@@ -14862,15 +14954,15 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 1.75,
-    "predicted_next_5_weighted": 2.99,
+    "predicted_next_gw_points": 2.01,
+    "predicted_next_5_weighted": 3.25,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.75
+        "predicted_points": 2.01
       },
       {
         "gw": 2,
@@ -14954,15 +15046,15 @@
     "position": "DEF",
     "team": "Man City",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 1.59,
-    "predicted_next_5_weighted": 6.74,
+    "predicted_next_gw_points": 1.67,
+    "predicted_next_5_weighted": 6.82,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.59
+        "predicted_points": 1.67
       },
       {
         "gw": 2,
@@ -15046,15 +15138,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 8.0,
-    "predicted_next_gw_points": 3.8,
-    "predicted_next_5_weighted": 9.57,
+    "predicted_next_gw_points": 3.34,
+    "predicted_next_5_weighted": 9.11,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.8
+        "predicted_points": 3.34
       },
       {
         "gw": 2,
@@ -15092,15 +15184,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 8.0,
-    "predicted_next_gw_points": 3.87,
-    "predicted_next_5_weighted": 11.18,
+    "predicted_next_gw_points": 3.9,
+    "predicted_next_5_weighted": 11.21,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.87
+        "predicted_points": 3.9
       },
       {
         "gw": 2,
@@ -15138,15 +15230,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 6.5,
-    "predicted_next_gw_points": 2.09,
-    "predicted_next_5_weighted": 6.47,
+    "predicted_next_gw_points": 2.29,
+    "predicted_next_5_weighted": 6.67,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.09
+        "predicted_points": 2.29
       },
       {
         "gw": 2,
@@ -15184,15 +15276,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 6.5,
-    "predicted_next_gw_points": 4.82,
-    "predicted_next_5_weighted": 10.58,
+    "predicted_next_gw_points": 5.07,
+    "predicted_next_5_weighted": 10.83,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 4.82
+        "predicted_points": 5.07
       },
       {
         "gw": 2,
@@ -15230,15 +15322,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 8.3,
-    "predicted_next_gw_points": 2.32,
-    "predicted_next_5_weighted": 3.7,
+    "predicted_next_gw_points": 2.53,
+    "predicted_next_5_weighted": 3.91,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.32
+        "predicted_points": 2.53
       },
       {
         "gw": 2,
@@ -15322,15 +15414,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 6.9,
-    "predicted_next_gw_points": 3.22,
-    "predicted_next_5_weighted": 9.09,
+    "predicted_next_gw_points": 2.24,
+    "predicted_next_5_weighted": 8.11,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 3.22
+        "predicted_points": 2.24
       },
       {
         "gw": 2,
@@ -15368,15 +15460,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.59,
-    "predicted_next_5_weighted": 7.17,
+    "predicted_next_gw_points": 1.58,
+    "predicted_next_5_weighted": 7.16,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.59
+        "predicted_points": 1.58
       },
       {
         "gw": 2,
@@ -15460,15 +15552,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 1.59,
-    "predicted_next_5_weighted": 5.47,
+    "predicted_next_gw_points": 1.8,
+    "predicted_next_5_weighted": 5.68,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 1.59
+        "predicted_points": 1.8
       },
       {
         "gw": 2,
@@ -15506,15 +15598,15 @@
     "position": "MID",
     "team": "Man City",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 0.45,
-    "predicted_next_5_weighted": 0.52,
+    "predicted_next_gw_points": -0.04,
+    "predicted_next_5_weighted": 0.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 0.45
+        "predicted_points": -0.04
       },
       {
         "gw": 2,
@@ -15644,15 +15736,15 @@
     "position": "MID",
     "team": "Leicester",
     "now_cost": 0.0,
-    "predicted_next_gw_points": 2.46,
-    "predicted_next_5_weighted": 5.83,
+    "predicted_next_gw_points": 2.5,
+    "predicted_next_5_weighted": 5.87,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 2.46
+        "predicted_points": 2.5
       },
       {
         "gw": 2,
@@ -15690,15 +15782,15 @@
     "position": "FWD",
     "team": "Man City",
     "now_cost": 14.7,
-    "predicted_next_gw_points": 4.81,
-    "predicted_next_5_weighted": 10.52,
+    "predicted_next_gw_points": 4.82,
+    "predicted_next_5_weighted": 10.53,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 4.81
+        "predicted_points": 4.82
       },
       {
         "gw": 2,
@@ -15736,15 +15828,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 5.51,
-    "predicted_next_5_weighted": 11.19,
+    "predicted_next_gw_points": 5.33,
+    "predicted_next_5_weighted": 11.01,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BOU",
         "home": true,
         "fdr": 3,
-        "predicted_points": 5.51
+        "predicted_points": 5.33
       },
       {
         "gw": 2,
@@ -15782,15 +15874,15 @@
     "position": "MID",
     "team": "Aston Villa",
     "now_cost": 5.9,
-    "predicted_next_gw_points": 2.2,
-    "predicted_next_5_weighted": 8.1,
+    "predicted_next_gw_points": 2.02,
+    "predicted_next_5_weighted": 7.88,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 2.2
+        "predicted_points": 2.02
       },
       {
         "gw": 2,
@@ -15828,15 +15920,15 @@
     "position": "MID",
     "team": "Chelsea",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 2.45,
-    "predicted_next_5_weighted": 3.51,
+    "predicted_next_gw_points": 2.78,
+    "predicted_next_5_weighted": 3.91,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 2.45
+        "predicted_points": 2.78
       },
       {
         "gw": 2,
@@ -15874,15 +15966,15 @@
     "position": "GK",
     "team": "Leeds",
     "now_cost": 4.0,
-    "predicted_next_gw_points": 4.17,
-    "predicted_next_5_weighted": 12.56,
+    "predicted_next_gw_points": 4.08,
+    "predicted_next_5_weighted": 12.45,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 4.17
+        "predicted_points": 4.08
       },
       {
         "gw": 2,
@@ -15920,15 +16012,15 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 3.59,
-    "predicted_next_5_weighted": 10.17,
+    "predicted_next_gw_points": 3.34,
+    "predicted_next_5_weighted": 9.87,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.59
+        "predicted_points": 3.34
       },
       {
         "gw": 2,
@@ -16012,15 +16104,15 @@
     "position": "GK",
     "team": "Man Utd",
     "now_cost": 3.8,
-    "predicted_next_gw_points": 0.25,
-    "predicted_next_5_weighted": 0.38,
+    "predicted_next_gw_points": 0.52,
+    "predicted_next_5_weighted": 0.7,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 0.25
+        "predicted_points": 0.52
       },
       {
         "gw": 2,
@@ -16058,15 +16150,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.1,
-    "predicted_next_gw_points": 1.15,
-    "predicted_next_5_weighted": 4.77,
+    "predicted_next_gw_points": 1.12,
+    "predicted_next_5_weighted": 4.74,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.15
+        "predicted_points": 1.12
       },
       {
         "gw": 2,
@@ -16104,15 +16196,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 0.04,
-    "predicted_next_5_weighted": 0.1,
+    "predicted_next_gw_points": -0.0,
+    "predicted_next_5_weighted": 0.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 0.04
+        "predicted_points": -0.0
       },
       {
         "gw": 2,
@@ -16150,15 +16242,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.84,
-    "predicted_next_5_weighted": 1.32,
+    "predicted_next_gw_points": 1.32,
+    "predicted_next_5_weighted": 1.9,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 0.84
+        "predicted_points": 1.32
       },
       {
         "gw": 2,
@@ -16196,15 +16288,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 3.82,
-    "predicted_next_5_weighted": 8.58,
+    "predicted_next_gw_points": 3.81,
+    "predicted_next_5_weighted": 8.57,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.82
+        "predicted_points": 3.81
       },
       {
         "gw": 2,
@@ -16242,15 +16334,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 2.12,
-    "predicted_next_5_weighted": 8.26,
+    "predicted_next_gw_points": 2.13,
+    "predicted_next_5_weighted": 8.27,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 2.12
+        "predicted_points": 2.13
       },
       {
         "gw": 2,
@@ -16288,15 +16380,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.1,
-    "predicted_next_gw_points": 1.09,
-    "predicted_next_5_weighted": 3.61,
+    "predicted_next_gw_points": 1.08,
+    "predicted_next_5_weighted": 3.6,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.09
+        "predicted_points": 1.08
       },
       {
         "gw": 2,
@@ -16380,15 +16472,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.9,
-    "predicted_next_gw_points": 2.25,
-    "predicted_next_5_weighted": 5.33,
+    "predicted_next_gw_points": 2.52,
+    "predicted_next_5_weighted": 5.65,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 2.25
+        "predicted_points": 2.52
       },
       {
         "gw": 2,
@@ -16426,15 +16518,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 3.46,
-    "predicted_next_5_weighted": 8.31,
+    "predicted_next_gw_points": 3.71,
+    "predicted_next_5_weighted": 8.61,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.46
+        "predicted_points": 3.71
       },
       {
         "gw": 2,
@@ -16518,15 +16610,15 @@
     "position": "DEF",
     "team": "Man Utd",
     "now_cost": 3.7,
-    "predicted_next_gw_points": -0.48,
-    "predicted_next_5_weighted": -0.53,
+    "predicted_next_gw_points": -0.28,
+    "predicted_next_5_weighted": -0.29,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": -0.48
+        "predicted_points": -0.28
       },
       {
         "gw": 2,
@@ -16610,15 +16702,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 8.3,
-    "predicted_next_gw_points": 4.78,
-    "predicted_next_5_weighted": 18.7,
+    "predicted_next_gw_points": 4.74,
+    "predicted_next_5_weighted": 18.66,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 4.78
+        "predicted_points": 4.74
       },
       {
         "gw": 2,
@@ -16656,15 +16748,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 8.1,
-    "predicted_next_gw_points": 3.95,
-    "predicted_next_5_weighted": 10.26,
+    "predicted_next_gw_points": 3.71,
+    "predicted_next_5_weighted": 9.97,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.95
+        "predicted_points": 3.71
       },
       {
         "gw": 2,
@@ -16702,15 +16794,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 7.0,
-    "predicted_next_gw_points": -0.19,
-    "predicted_next_5_weighted": -0.16,
+    "predicted_next_gw_points": -0.13,
+    "predicted_next_5_weighted": -0.08,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": -0.19
+        "predicted_points": -0.13
       },
       {
         "gw": 2,
@@ -16748,15 +16840,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 5.9,
-    "predicted_next_gw_points": 1.62,
-    "predicted_next_5_weighted": 5.53,
+    "predicted_next_gw_points": 1.6,
+    "predicted_next_5_weighted": 5.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.62
+        "predicted_points": 1.6
       },
       {
         "gw": 2,
@@ -16840,15 +16932,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 3.96,
-    "predicted_next_5_weighted": 10.39,
+    "predicted_next_gw_points": 3.9,
+    "predicted_next_5_weighted": 10.31,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.96
+        "predicted_points": 3.9
       },
       {
         "gw": 2,
@@ -16886,15 +16978,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 4.7,
-    "predicted_next_gw_points": -0.43,
-    "predicted_next_5_weighted": -0.27,
+    "predicted_next_gw_points": 0.22,
+    "predicted_next_5_weighted": 0.51,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": -0.43
+        "predicted_points": 0.22
       },
       {
         "gw": 2,
@@ -16978,15 +17070,15 @@
     "position": "MID",
     "team": "Man Utd",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 0.55,
-    "predicted_next_5_weighted": 3.27,
+    "predicted_next_gw_points": 0.71,
+    "predicted_next_5_weighted": 3.46,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 0.55
+        "predicted_points": 0.71
       },
       {
         "gw": 2,
@@ -17162,15 +17254,15 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 7.2,
-    "predicted_next_gw_points": 1.01,
-    "predicted_next_5_weighted": 2.48,
+    "predicted_next_gw_points": 1.25,
+    "predicted_next_5_weighted": 2.77,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.01
+        "predicted_points": 1.25
       },
       {
         "gw": 2,
@@ -17208,15 +17300,15 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 5.8,
-    "predicted_next_gw_points": 1.15,
-    "predicted_next_5_weighted": 3.74,
+    "predicted_next_gw_points": 1.14,
+    "predicted_next_5_weighted": 3.73,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.15
+        "predicted_points": 1.14
       },
       {
         "gw": 2,
@@ -17254,15 +17346,15 @@
     "position": "FWD",
     "team": "Man Utd",
     "now_cost": 4.2,
-    "predicted_next_gw_points": 0.51,
-    "predicted_next_5_weighted": 0.66,
+    "predicted_next_gw_points": 0.05,
+    "predicted_next_5_weighted": 0.11,
     "next_5": [
       {
         "gw": 1,
         "opponent": "HUL",
         "home": false,
         "fdr": 2,
-        "predicted_points": 0.51
+        "predicted_points": 0.05
       },
       {
         "gw": 2,
@@ -17300,15 +17392,15 @@
     "position": "GK",
     "team": "Newcastle",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 3.01,
-    "predicted_next_5_weighted": 9.27,
+    "predicted_next_gw_points": 2.8,
+    "predicted_next_5_weighted": 9.1,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 3.01
+        "predicted_points": 2.8
       },
       {
         "gw": 2,
@@ -17438,15 +17530,15 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 0.49,
-    "predicted_next_5_weighted": 0.44,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.06,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 0.49
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -17530,15 +17622,15 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 2.79,
-    "predicted_next_5_weighted": 6.64,
+    "predicted_next_gw_points": 2.28,
+    "predicted_next_5_weighted": 6.23,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 2.79
+        "predicted_points": 2.28
       },
       {
         "gw": 2,
@@ -17576,15 +17668,15 @@
     "position": "DEF",
     "team": "Newcastle",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.93,
-    "predicted_next_5_weighted": 9.2,
+    "predicted_next_gw_points": 1.94,
+    "predicted_next_5_weighted": 9.21,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.93
+        "predicted_points": 1.94
       },
       {
         "gw": 2,
@@ -17806,15 +17898,15 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 6.5,
-    "predicted_next_gw_points": 0.56,
-    "predicted_next_5_weighted": 3.76,
+    "predicted_next_gw_points": 0.78,
+    "predicted_next_5_weighted": 3.94,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 0.56
+        "predicted_points": 0.78
       },
       {
         "gw": 2,
@@ -18036,15 +18128,15 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 2.4,
-    "predicted_next_5_weighted": 7.6,
+    "predicted_next_gw_points": 2.31,
+    "predicted_next_5_weighted": 7.53,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 2.4
+        "predicted_points": 2.31
       },
       {
         "gw": 2,
@@ -18082,15 +18174,15 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 6.7,
-    "predicted_next_gw_points": 2.27,
-    "predicted_next_5_weighted": 5.82,
+    "predicted_next_gw_points": 2.16,
+    "predicted_next_5_weighted": 5.73,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 2.27
+        "predicted_points": 2.16
       },
       {
         "gw": 2,
@@ -18128,15 +18220,15 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 7.3,
-    "predicted_next_gw_points": 1.64,
-    "predicted_next_5_weighted": 4.97,
+    "predicted_next_gw_points": 2.14,
+    "predicted_next_5_weighted": 5.37,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 1.64
+        "predicted_points": 2.14
       },
       {
         "gw": 2,
@@ -18174,15 +18266,15 @@
     "position": "FWD",
     "team": "Newcastle",
     "now_cost": 5.5,
-    "predicted_next_gw_points": 4.27,
-    "predicted_next_5_weighted": 8.41,
+    "predicted_next_gw_points": 4.52,
+    "predicted_next_5_weighted": 8.61,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LIV",
         "home": true,
         "fdr": 4,
-        "predicted_points": 4.27
+        "predicted_points": 4.52
       },
       {
         "gw": 2,
@@ -18266,15 +18358,15 @@
     "position": "GK",
     "team": "Nott'm Forest",
     "now_cost": 4.6,
-    "predicted_next_gw_points": 3.95,
-    "predicted_next_5_weighted": 11.53,
+    "predicted_next_gw_points": 3.98,
+    "predicted_next_5_weighted": 11.56,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 3.95
+        "predicted_points": 3.98
       },
       {
         "gw": 2,
@@ -18404,15 +18496,15 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 2.79,
-    "predicted_next_5_weighted": 8.9,
+    "predicted_next_gw_points": 3.28,
+    "predicted_next_5_weighted": 9.48,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.79
+        "predicted_points": 3.28
       },
       {
         "gw": 2,
@@ -18450,15 +18542,15 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 5.1,
-    "predicted_next_gw_points": 3.19,
-    "predicted_next_5_weighted": 11.37,
+    "predicted_next_gw_points": 3.63,
+    "predicted_next_5_weighted": 11.9,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 3.19
+        "predicted_points": 3.63
       },
       {
         "gw": 2,
@@ -18542,15 +18634,15 @@
     "position": "DEF",
     "team": "Nott'm Forest",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 0.79,
-    "predicted_next_5_weighted": 1.58,
+    "predicted_next_gw_points": 0.98,
+    "predicted_next_5_weighted": 1.81,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.79
+        "predicted_points": 0.98
       },
       {
         "gw": 2,
@@ -18818,15 +18910,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 7.6,
-    "predicted_next_gw_points": 4.63,
-    "predicted_next_5_weighted": 13.81,
+    "predicted_next_gw_points": 4.97,
+    "predicted_next_5_weighted": 14.22,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 4.63
+        "predicted_points": 4.97
       },
       {
         "gw": 2,
@@ -18864,15 +18956,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 0.48,
-    "predicted_next_5_weighted": 0.72,
+    "predicted_next_gw_points": 0.03,
+    "predicted_next_5_weighted": 0.18,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.48
+        "predicted_points": 0.03
       },
       {
         "gw": 2,
@@ -18910,15 +19002,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.5,
-    "predicted_next_gw_points": 0.46,
-    "predicted_next_5_weighted": 0.66,
+    "predicted_next_gw_points": 0.39,
+    "predicted_next_5_weighted": 0.58,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.46
+        "predicted_points": 0.39
       },
       {
         "gw": 2,
@@ -18956,15 +19048,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.4,
-    "predicted_next_gw_points": 2.14,
-    "predicted_next_5_weighted": 7.76,
+    "predicted_next_gw_points": 2.11,
+    "predicted_next_5_weighted": 7.73,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 2.14
+        "predicted_points": 2.11
       },
       {
         "gw": 2,
@@ -19002,15 +19094,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.9,
-    "predicted_next_gw_points": 1.68,
-    "predicted_next_5_weighted": 3.25,
+    "predicted_next_gw_points": 2.12,
+    "predicted_next_5_weighted": 3.78,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.68
+        "predicted_points": 2.12
       },
       {
         "gw": 2,
@@ -19048,15 +19140,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.69,
-    "predicted_next_5_weighted": 4.01,
+    "predicted_next_gw_points": 1.85,
+    "predicted_next_5_weighted": 4.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.69
+        "predicted_points": 1.85
       },
       {
         "gw": 2,
@@ -19094,15 +19186,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.27,
-    "predicted_next_5_weighted": 4.82,
+    "predicted_next_gw_points": 1.71,
+    "predicted_next_5_weighted": 5.35,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.27
+        "predicted_points": 1.71
       },
       {
         "gw": 2,
@@ -19186,15 +19278,15 @@
     "position": "MID",
     "team": "Nott'm Forest",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 1.19,
-    "predicted_next_5_weighted": 3.39,
+    "predicted_next_gw_points": 1.21,
+    "predicted_next_5_weighted": 3.42,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 1.19
+        "predicted_points": 1.21
       },
       {
         "gw": 2,
@@ -19370,15 +19462,15 @@
     "position": "FWD",
     "team": "Nott'm Forest",
     "now_cost": 6.0,
-    "predicted_next_gw_points": 0.05,
-    "predicted_next_5_weighted": 0.13,
+    "predicted_next_gw_points": -0.08,
+    "predicted_next_5_weighted": -0.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "LEE",
         "home": true,
         "fdr": 2,
-        "predicted_points": 0.05
+        "predicted_points": -0.08
       },
       {
         "gw": 2,
@@ -19416,15 +19508,15 @@
     "position": "DEF",
     "team": "Brighton",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 2.95,
-    "predicted_next_5_weighted": 10.74,
+    "predicted_next_gw_points": 2.84,
+    "predicted_next_5_weighted": 10.63,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.95
+        "predicted_points": 2.84
       },
       {
         "gw": 2,
@@ -19462,15 +19554,15 @@
     "position": "MID",
     "team": "Newcastle",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 0.74,
-    "predicted_next_5_weighted": 1.22,
+    "predicted_next_gw_points": 0.5,
+    "predicted_next_5_weighted": 0.98,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.74
+        "predicted_points": 0.5
       },
       {
         "gw": 2,
@@ -19508,15 +19600,15 @@
     "position": "GK",
     "team": "Spurs",
     "now_cost": 4.7,
-    "predicted_next_gw_points": -0.19,
-    "predicted_next_5_weighted": -0.11,
+    "predicted_next_gw_points": -0.26,
+    "predicted_next_5_weighted": -0.18,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.19
+        "predicted_points": -0.26
       },
       {
         "gw": 2,
@@ -19692,15 +19784,15 @@
     "position": "DEF",
     "team": "Bournemouth",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 6.42,
-    "predicted_next_5_weighted": 14.5,
+    "predicted_next_gw_points": 6.41,
+    "predicted_next_5_weighted": 14.49,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 6.42
+        "predicted_points": 6.41
       },
       {
         "gw": 2,
@@ -19738,15 +19830,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 3.99,
-    "predicted_next_5_weighted": 12.37,
+    "predicted_next_gw_points": 4.0,
+    "predicted_next_5_weighted": 12.38,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.99
+        "predicted_points": 4.0
       },
       {
         "gw": 2,
@@ -19784,15 +19876,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 5.0,
-    "predicted_next_gw_points": -0.05,
-    "predicted_next_5_weighted": 0.14,
+    "predicted_next_gw_points": 0.03,
+    "predicted_next_5_weighted": 0.22,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.05
+        "predicted_points": 0.03
       },
       {
         "gw": 2,
@@ -19830,15 +19922,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.2,
-    "predicted_next_gw_points": 3.04,
-    "predicted_next_5_weighted": 8.59,
+    "predicted_next_gw_points": 2.48,
+    "predicted_next_5_weighted": 8.03,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.04
+        "predicted_points": 2.48
       },
       {
         "gw": 2,
@@ -19876,15 +19968,15 @@
     "position": "DEF",
     "team": "Liverpool",
     "now_cost": 5.7,
-    "predicted_next_gw_points": 2.9,
-    "predicted_next_5_weighted": 10.78,
+    "predicted_next_gw_points": 2.94,
+    "predicted_next_5_weighted": 10.82,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.9
+        "predicted_points": 2.94
       },
       {
         "gw": 2,
@@ -19922,15 +20014,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.4,
-    "predicted_next_gw_points": 3.09,
-    "predicted_next_5_weighted": 9.44,
+    "predicted_next_gw_points": 3.0,
+    "predicted_next_5_weighted": 9.35,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.09
+        "predicted_points": 3.0
       },
       {
         "gw": 2,
@@ -19968,15 +20060,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.1,
-    "predicted_next_gw_points": 2.7,
-    "predicted_next_5_weighted": 8.1,
+    "predicted_next_gw_points": 2.69,
+    "predicted_next_5_weighted": 8.09,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.7
+        "predicted_points": 2.69
       },
       {
         "gw": 2,
@@ -20060,15 +20152,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.0,
-    "predicted_next_gw_points": 0.03,
-    "predicted_next_5_weighted": 0.06,
+    "predicted_next_gw_points": 0.02,
+    "predicted_next_5_weighted": 0.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.03
+        "predicted_points": 0.02
       },
       {
         "gw": 2,
@@ -20152,15 +20244,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.25,
-    "predicted_next_5_weighted": -0.22,
+    "predicted_next_gw_points": -0.48,
+    "predicted_next_5_weighted": -0.45,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.25
+        "predicted_points": -0.48
       },
       {
         "gw": 2,
@@ -20198,15 +20290,15 @@
     "position": "DEF",
     "team": "Spurs",
     "now_cost": 4.0,
-    "predicted_next_gw_points": -0.46,
-    "predicted_next_5_weighted": -0.43,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.04,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.46
+        "predicted_points": 0.01
       },
       {
         "gw": 2,
@@ -20290,15 +20382,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 6.4,
-    "predicted_next_gw_points": -0.03,
-    "predicted_next_5_weighted": 0.1,
+    "predicted_next_gw_points": 0.07,
+    "predicted_next_5_weighted": 0.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.03
+        "predicted_points": 0.07
       },
       {
         "gw": 2,
@@ -20428,15 +20520,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 6.8,
-    "predicted_next_gw_points": 0.73,
-    "predicted_next_5_weighted": 3.4,
+    "predicted_next_gw_points": 1.31,
+    "predicted_next_5_weighted": 3.98,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.73
+        "predicted_points": 1.31
       },
       {
         "gw": 2,
@@ -20474,15 +20566,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 2.5,
-    "predicted_next_5_weighted": 6.88,
+    "predicted_next_gw_points": 2.44,
+    "predicted_next_5_weighted": 6.82,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 2.5
+        "predicted_points": 2.44
       },
       {
         "gw": 2,
@@ -20520,15 +20612,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 5.3,
-    "predicted_next_gw_points": -0.42,
-    "predicted_next_5_weighted": -0.39,
+    "predicted_next_gw_points": -0.49,
+    "predicted_next_5_weighted": -0.46,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.42
+        "predicted_points": -0.49
       },
       {
         "gw": 2,
@@ -20658,15 +20750,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 5.2,
-    "predicted_next_gw_points": 0.71,
-    "predicted_next_5_weighted": 1.44,
+    "predicted_next_gw_points": 0.65,
+    "predicted_next_5_weighted": 1.38,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.71
+        "predicted_points": 0.65
       },
       {
         "gw": 2,
@@ -20704,15 +20796,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 6.4,
-    "predicted_next_gw_points": -0.47,
-    "predicted_next_5_weighted": -0.41,
+    "predicted_next_gw_points": -0.11,
+    "predicted_next_5_weighted": -0.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.47
+        "predicted_points": -0.11
       },
       {
         "gw": 2,
@@ -20750,15 +20842,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 4.8,
-    "predicted_next_gw_points": -0.21,
-    "predicted_next_5_weighted": 1.04,
+    "predicted_next_gw_points": 0.1,
+    "predicted_next_5_weighted": 1.35,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": -0.21
+        "predicted_points": 0.1
       },
       {
         "gw": 2,
@@ -20796,15 +20888,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 0.01,
-    "predicted_next_5_weighted": 0.04,
+    "predicted_next_gw_points": 0.1,
+    "predicted_next_5_weighted": 0.13,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.01
+        "predicted_points": 0.1
       },
       {
         "gw": 2,
@@ -20842,15 +20934,15 @@
     "position": "MID",
     "team": "Spurs",
     "now_cost": 4.3,
-    "predicted_next_gw_points": 0.43,
-    "predicted_next_5_weighted": 0.46,
+    "predicted_next_gw_points": 0.24,
+    "predicted_next_5_weighted": 0.27,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.43
+        "predicted_points": 0.24
       },
       {
         "gw": 2,
@@ -20888,15 +20980,15 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 7.1,
-    "predicted_next_gw_points": 0.79,
-    "predicted_next_5_weighted": 1.7,
+    "predicted_next_gw_points": 0.29,
+    "predicted_next_5_weighted": 1.2,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 0.79
+        "predicted_points": 0.29
       },
       {
         "gw": 2,
@@ -20934,15 +21026,15 @@
     "position": "FWD",
     "team": "Spurs",
     "now_cost": 6.5,
-    "predicted_next_gw_points": 3.55,
-    "predicted_next_5_weighted": 8.13,
+    "predicted_next_gw_points": 3.3,
+    "predicted_next_5_weighted": 7.88,
     "next_5": [
       {
         "gw": 1,
         "opponent": "BRE",
         "home": false,
         "fdr": 3,
-        "predicted_points": 3.55
+        "predicted_points": 3.3
       },
       {
         "gw": 2,
@@ -21256,15 +21348,15 @@
     "position": "DEF",
     "team": "Sunderland",
     "now_cost": 4.5,
-    "predicted_next_gw_points": 3.14,
-    "predicted_next_5_weighted": 13.46,
+    "predicted_next_gw_points": 3.63,
+    "predicted_next_5_weighted": 14.05,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 3.14
+        "predicted_points": 3.63
       },
       {
         "gw": 2,
@@ -21578,15 +21670,15 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 4.8,
-    "predicted_next_gw_points": 4.62,
-    "predicted_next_5_weighted": 13.4,
+    "predicted_next_gw_points": 4.4,
+    "predicted_next_5_weighted": 13.14,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 4.62
+        "predicted_points": 4.4
       },
       {
         "gw": 2,
@@ -21624,15 +21716,15 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 1.7,
-    "predicted_next_5_weighted": 4.2,
+    "predicted_next_gw_points": 1.21,
+    "predicted_next_5_weighted": 3.61,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.7
+        "predicted_points": 1.21
       },
       {
         "gw": 2,
@@ -21854,15 +21946,15 @@
     "position": "MID",
     "team": "Sunderland",
     "now_cost": 4.7,
-    "predicted_next_gw_points": 1.02,
-    "predicted_next_5_weighted": 2.49,
+    "predicted_next_gw_points": 0.99,
+    "predicted_next_5_weighted": 2.45,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.02
+        "predicted_points": 0.99
       },
       {
         "gw": 2,
@@ -22038,15 +22130,15 @@
     "position": "FWD",
     "team": "Sunderland",
     "now_cost": 5.3,
-    "predicted_next_gw_points": 2.53,
-    "predicted_next_5_weighted": 7.31,
+    "predicted_next_gw_points": 2.35,
+    "predicted_next_5_weighted": 7.09,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 2.53
+        "predicted_points": 2.35
       },
       {
         "gw": 2,
@@ -22084,15 +22176,15 @@
     "position": "FWD",
     "team": "Sunderland",
     "now_cost": 5.0,
-    "predicted_next_gw_points": 1.5,
-    "predicted_next_5_weighted": 4.58,
+    "predicted_next_gw_points": 1.98,
+    "predicted_next_5_weighted": 5.15,
     "next_5": [
       {
         "gw": 1,
         "opponent": "IPS",
         "home": false,
         "fdr": 2,
-        "predicted_points": 1.5
+        "predicted_points": 1.98
       },
       {
         "gw": 2,
