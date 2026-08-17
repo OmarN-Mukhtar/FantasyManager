@@ -65,6 +65,17 @@ class CurrentSeasonUpdater:
         self.last_finished_gameweek = None
         self.output_columns = DEFAULT_CLEANED_COLUMNS.copy()
 
+    @staticmethod
+    def _derive_season(events: List[Dict]) -> str:
+        """Season label from GW1's own deadline year, not a guessed month cutoff."""
+        gw1 = next((e for e in events if e['id'] == 1), None)
+        if gw1 and gw1.get('deadline_time'):
+            start_year = int(gw1['deadline_time'][:4])
+        else:
+            current_year = datetime.now().year
+            start_year = current_year if datetime.now().month >= 7 else current_year - 1
+        return f"{start_year}-{str(start_year + 1)[-2:]}"
+
     def fetch_bootstrap_data(self):
         """Fetch basic data including teams and current gameweek."""
         print("Fetching bootstrap data...")
@@ -91,13 +102,7 @@ class CurrentSeasonUpdater:
             else:
                 self.current_gameweek = self.last_finished_gameweek or 1
             
-            # Determine season
-            current_year = datetime.now().year
-            current_month = datetime.now().month
-            if current_month >= 8:
-                self.current_season = f"{current_year}-{str(current_year + 1)[-2:]}"
-            else:
-                self.current_season = f"{current_year - 1}-{str(current_year)[-2:]}"
+            self.current_season = self._derive_season(events)
             
             print(f"Current Season: {self.current_season}")
             print(f"Current/Last Gameweek: {self.current_gameweek}")

@@ -1,6 +1,7 @@
 """Runnable check for the prediction and sentiment weighting math."""
 from prediction.predictor import weighted_total
 from sentiment.sentiment_analyzer import recency_weight
+from prediction.update_current_season import CurrentSeasonUpdater
 
 # Neutral difficulty (FDR 3) = pure 0.8/GW time decay
 assert abs(weighted_total([(10, 3), (10, 3)]) - 18.0) < 1e-9
@@ -19,5 +20,10 @@ assert recency_weight(0) == 1.0
 assert abs(recency_weight(3) - 0.5) < 1e-9
 assert recency_weight(6) < recency_weight(1)
 assert recency_weight(-1) == 1.0  # clock skew can't inflate a weight
+
+# Season is derived from GW1's own deadline year, not a guessed month cutoff.
+events = [{'id': 1, 'deadline_time': '2026-08-21T17:30:00Z'}]
+assert CurrentSeasonUpdater._derive_season(events) == "2026-27"
+assert CurrentSeasonUpdater._derive_season([]) in {"2025-26", "2026-27"}  # falls back to today's date
 
 print("weights OK")

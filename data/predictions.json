@@ -94,7 +94,7 @@
   "Illan Meslier": {
     "player_name": "Illan Meslier",
     "position": "GK",
-    "team": "Leeds",
+    "team": "Arsenal",
     "now_cost": 4.1,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -1014,7 +1014,7 @@
   "Reiss Nelson": {
     "player_name": "Reiss Nelson",
     "position": "MID",
-    "team": "Brentford",
+    "team": "Arsenal",
     "now_cost": 4.8,
     "predicted_next_gw_points": 0.62,
     "predicted_next_5_weighted": 2.24,
@@ -1198,7 +1198,7 @@
   "Bruno Guimar\u00e3es Rodriguez Moura": {
     "player_name": "Bruno Guimar\u00e3es Rodriguez Moura",
     "position": "MID",
-    "team": "Newcastle",
+    "team": "Arsenal",
     "now_cost": 6.9,
     "predicted_next_gw_points": 3.56,
     "predicted_next_5_weighted": 9.84,
@@ -1244,7 +1244,7 @@
   "Christos Tzolis": {
     "player_name": "Christos Tzolis",
     "position": "MID",
-    "team": "Norwich",
+    "team": "Arsenal",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.07,
@@ -2348,7 +2348,7 @@
   "Alejandro Garnacho Ferreyra": {
     "player_name": "Alejandro Garnacho Ferreyra",
     "position": "MID",
-    "team": "Chelsea",
+    "team": "Aston Villa",
     "now_cost": 6.4,
     "predicted_next_gw_points": 0.36,
     "predicted_next_5_weighted": 1.26,
@@ -4418,7 +4418,7 @@
   "Jaidon Anthony": {
     "player_name": "Jaidon Anthony",
     "position": "MID",
-    "team": "Burnley",
+    "team": "Brentford",
     "now_cost": 5.0,
     "predicted_next_gw_points": 3.55,
     "predicted_next_5_weighted": 9.46,
@@ -4556,7 +4556,7 @@
   "Callum Wilson": {
     "player_name": "Callum Wilson",
     "position": "FWD",
-    "team": "West Ham",
+    "team": "Brentford",
     "now_cost": 5.8,
     "predicted_next_gw_points": 2.01,
     "predicted_next_5_weighted": 6.87,
@@ -5292,7 +5292,7 @@
   "Facundo Buonanotte": {
     "player_name": "Facundo Buonanotte",
     "position": "MID",
-    "team": "Leeds",
+    "team": "Brighton",
     "now_cost": 4.6,
     "predicted_next_gw_points": 0.81,
     "predicted_next_5_weighted": 4.64,
@@ -5752,7 +5752,7 @@
   "Pascal Struijk": {
     "player_name": "Pascal Struijk",
     "position": "DEF",
-    "team": "Leeds",
+    "team": "Brighton",
     "now_cost": 4.2,
     "predicted_next_gw_points": 0.52,
     "predicted_next_5_weighted": 2.31,
@@ -5798,7 +5798,7 @@
   "Luka Vu\u0161kovi\u0107": {
     "player_name": "Luka Vu\u0161kovi\u0107",
     "position": "DEF",
-    "team": "Spurs",
+    "team": "Brighton",
     "now_cost": 3.9,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.06,
@@ -5844,7 +5844,7 @@
   "Morgan Rogers": {
     "player_name": "Morgan Rogers",
     "position": "MID",
-    "team": "Aston Villa",
+    "team": "Chelsea",
     "now_cost": 7.3,
     "predicted_next_gw_points": 2.13,
     "predicted_next_5_weighted": 3.31,
@@ -5890,7 +5890,7 @@
   "Jordan Henderson": {
     "player_name": "Jordan Henderson",
     "position": "MID",
-    "team": "Brentford",
+    "team": "Chelsea",
     "now_cost": 5.0,
     "predicted_next_gw_points": 0.54,
     "predicted_next_5_weighted": 3.46,
@@ -5936,7 +5936,7 @@
   "Danny Welbeck": {
     "player_name": "Danny Welbeck",
     "position": "FWD",
-    "team": "Brighton",
+    "team": "Chelsea",
     "now_cost": 6.3,
     "predicted_next_gw_points": 2.45,
     "predicted_next_5_weighted": 6.59,
@@ -6534,7 +6534,7 @@
   "Axel Disasi": {
     "player_name": "Axel Disasi",
     "position": "DEF",
-    "team": "West Ham",
+    "team": "Chelsea",
     "now_cost": 4.5,
     "predicted_next_gw_points": 1.58,
     "predicted_next_5_weighted": 4.51,
@@ -7178,7 +7178,7 @@
   "Maxence Lacroix": {
     "player_name": "Maxence Lacroix",
     "position": "DEF",
-    "team": "Crystal Palace",
+    "team": "Chelsea",
     "now_cost": 5.2,
     "predicted_next_gw_points": 1.11,
     "predicted_next_5_weighted": 3.37,
@@ -7316,7 +7316,7 @@
   "Valent\u00edn Barco": {
     "player_name": "Valent\u00edn Barco",
     "position": "DEF",
-    "team": "Brighton",
+    "team": "Chelsea",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.07,
@@ -7408,7 +7408,7 @@
   "Frank Onyeka": {
     "player_name": "Frank Onyeka",
     "position": "MID",
-    "team": "Brentford",
+    "team": "Coventry City",
     "now_cost": 4.8,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.03,
@@ -7454,7 +7454,7 @@
   "Carl Rushworth": {
     "player_name": "Carl Rushworth",
     "position": "GK",
-    "team": "Brighton",
+    "team": "Coventry City",
     "now_cost": 4.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.03,
@@ -7500,7 +7500,7 @@
   "Bobby Thomas": {
     "player_name": "Bobby Thomas",
     "position": "DEF",
-    "team": "Burnley",
+    "team": "Coventry City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.04,
@@ -7546,7 +7546,7 @@
   "Kaine Kesler-Hayden": {
     "player_name": "Kaine Kesler-Hayden",
     "position": "DEF",
-    "team": "Aston Villa",
+    "team": "Coventry City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.04,
@@ -7592,7 +7592,7 @@
   "Luke Woolfenden": {
     "player_name": "Luke Woolfenden",
     "position": "DEF",
-    "team": "Ipswich",
+    "team": "Coventry City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.24,
     "predicted_next_5_weighted": 0.71,
@@ -7638,7 +7638,7 @@
   "Loum Tchaouna": {
     "player_name": "Loum Tchaouna",
     "position": "MID",
-    "team": "Burnley",
+    "team": "Coventry City",
     "now_cost": 4.8,
     "predicted_next_gw_points": 2.65,
     "predicted_next_5_weighted": 4.82,
@@ -7684,7 +7684,7 @@
   "Ellis Simms": {
     "player_name": "Ellis Simms",
     "position": "FWD",
-    "team": "Everton",
+    "team": "Coventry City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.04,
@@ -7730,7 +7730,7 @@
   "Gustavo Hamer": {
     "player_name": "Gustavo Hamer",
     "position": "MID",
-    "team": "Sheffield Utd",
+    "team": "Coventry City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.25,
     "predicted_next_5_weighted": 0.35,
@@ -8972,7 +8972,7 @@
   "Dwight McNeil": {
     "player_name": "Dwight McNeil",
     "position": "MID",
-    "team": "Everton",
+    "team": "Crystal Palace",
     "now_cost": 5.5,
     "predicted_next_gw_points": 0.65,
     "predicted_next_5_weighted": 1.78,
@@ -9064,7 +9064,7 @@
   "Takehiro Tomiyasu": {
     "player_name": "Takehiro Tomiyasu",
     "position": "DEF",
-    "team": "Arsenal",
+    "team": "Crystal Palace",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.53,
     "predicted_next_5_weighted": 3.62,
@@ -9110,7 +9110,7 @@
   "Christian N\u00f8rgaard": {
     "player_name": "Christian N\u00f8rgaard",
     "position": "MID",
-    "team": "Arsenal",
+    "team": "Everton",
     "now_cost": 5.1,
     "predicted_next_gw_points": 1.07,
     "predicted_next_5_weighted": 4.02,
@@ -9156,7 +9156,7 @@
   "Brennan Johnson": {
     "player_name": "Brennan Johnson",
     "position": "MID",
-    "team": "Crystal Palace",
+    "team": "Everton",
     "now_cost": 6.5,
     "predicted_next_gw_points": 0.6,
     "predicted_next_5_weighted": 1.97,
@@ -11088,7 +11088,7 @@
   "Shea Charles": {
     "player_name": "Shea Charles",
     "position": "MID",
-    "team": "Southampton",
+    "team": "Fulham",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.03,
@@ -11134,7 +11134,7 @@
   "Jack Butland": {
     "player_name": "Jack Butland",
     "position": "GK",
-    "team": "Man Utd",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11180,7 +11180,7 @@
   "John Egan": {
     "player_name": "John Egan",
     "position": "DEF",
-    "team": "Sheffield Utd",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11226,7 +11226,7 @@
   "Cody Drameh": {
     "player_name": "Cody Drameh",
     "position": "DEF",
-    "team": "Leeds",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11272,7 +11272,7 @@
   "Ryan Giles": {
     "player_name": "Ryan Giles",
     "position": "DEF",
-    "team": "Luton",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11318,7 +11318,7 @@
   "Kieran Dowell": {
     "player_name": "Kieran Dowell",
     "position": "MID",
-    "team": "Norwich",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.19,
     "predicted_next_5_weighted": 4.77,
@@ -11364,7 +11364,7 @@
   "Abu Kamara": {
     "player_name": "Abu Kamara",
     "position": "FWD",
-    "team": "Norwich",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11410,7 +11410,7 @@
   "Darko Gyabi": {
     "player_name": "Darko Gyabi",
     "position": "MID",
-    "team": "Leeds",
+    "team": "Hull City",
     "now_cost": 4.5,
     "predicted_next_gw_points": 0.0,
     "predicted_next_5_weighted": 0.04,
@@ -11456,7 +11456,7 @@
   "Mason Burstow": {
     "player_name": "Mason Burstow",
     "position": "FWD",
-    "team": "Chelsea",
+    "team": "Hull City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11502,7 +11502,7 @@
   "Matt Targett": {
     "player_name": "Matt Targett",
     "position": "DEF",
-    "team": "Newcastle",
+    "team": "Hull City",
     "now_cost": 4.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -11548,7 +11548,7 @@
   "Issa Diop": {
     "player_name": "Issa Diop",
     "position": "DEF",
-    "team": "Fulham",
+    "team": "Ipswich Town",
     "now_cost": 4.3,
     "predicted_next_gw_points": 1.66,
     "predicted_next_5_weighted": 7.62,
@@ -11594,7 +11594,7 @@
   "Sa\u0161a Luki\u0107": {
     "player_name": "Sa\u0161a Luki\u0107",
     "position": "MID",
-    "team": "Fulham",
+    "team": "Ipswich Town",
     "now_cost": 4.9,
     "predicted_next_gw_points": 1.8,
     "predicted_next_5_weighted": 3.1,
@@ -11640,7 +11640,7 @@
   "Christian Walton": {
     "player_name": "Christian Walton",
     "position": "GK",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.67,
     "predicted_next_5_weighted": 5.06,
@@ -11686,7 +11686,7 @@
   "Alex Palmer": {
     "player_name": "Alex Palmer",
     "position": "GK",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.72,
     "predicted_next_5_weighted": 2.41,
@@ -11732,7 +11732,7 @@
   "David Button": {
     "player_name": "David Button",
     "position": "GK",
-    "team": "West Brom",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.14,
@@ -11778,7 +11778,7 @@
   "Dara O'Shea": {
     "player_name": "Dara O'Shea",
     "position": "DEF",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 3.05,
     "predicted_next_5_weighted": 9.47,
@@ -11824,7 +11824,7 @@
   "Leif Davis": {
     "player_name": "Leif Davis",
     "position": "DEF",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 2.23,
     "predicted_next_5_weighted": 6.54,
@@ -11870,7 +11870,7 @@
   "Jacob Greaves": {
     "player_name": "Jacob Greaves",
     "position": "DEF",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.48,
     "predicted_next_5_weighted": 6.55,
@@ -11916,7 +11916,7 @@
   "Ben Johnson": {
     "player_name": "Ben Johnson",
     "position": "DEF",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.42,
     "predicted_next_5_weighted": 1.4,
@@ -11962,7 +11962,7 @@
   "Darnell Furlong": {
     "player_name": "Darnell Furlong",
     "position": "DEF",
-    "team": "West Brom",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 3.27,
     "predicted_next_5_weighted": 10.1,
@@ -12008,7 +12008,7 @@
   "Wes Burns": {
     "player_name": "Wes Burns",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.97,
     "predicted_next_5_weighted": 1.2,
@@ -12054,7 +12054,7 @@
   "Jack Taylor": {
     "player_name": "Jack Taylor",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.66,
     "predicted_next_5_weighted": 2.41,
@@ -12100,7 +12100,7 @@
   "Jack Clarke": {
     "player_name": "Jack Clarke",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 2.15,
     "predicted_next_5_weighted": 5.01,
@@ -12146,7 +12146,7 @@
   "Chiedozie Ogbene": {
     "player_name": "Chiedozie Ogbene",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.01,
     "predicted_next_5_weighted": 0.05,
@@ -12192,7 +12192,7 @@
   "Abdul Fatawu": {
     "player_name": "Abdul Fatawu",
     "position": "MID",
-    "team": "Leicester",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.12,
     "predicted_next_5_weighted": 0.18,
@@ -12238,7 +12238,7 @@
   "George Hirst": {
     "player_name": "George Hirst",
     "position": "FWD",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.52,
     "predicted_next_5_weighted": 3.33,
@@ -12284,7 +12284,7 @@
   "Jaden Philogene": {
     "player_name": "Jaden Philogene",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.02,
     "predicted_next_5_weighted": 0.09,
@@ -12330,7 +12330,7 @@
   "Sam Szmodics": {
     "player_name": "Sam Szmodics",
     "position": "MID",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.95,
     "predicted_next_5_weighted": 3.59,
@@ -12376,7 +12376,7 @@
   "Ali Al-Hamadi": {
     "player_name": "Ali Al-Hamadi",
     "position": "FWD",
-    "team": "Ipswich",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": -0.13,
     "predicted_next_5_weighted": -0.12,
@@ -12422,7 +12422,7 @@
   "Kasey McAteer": {
     "player_name": "Kasey McAteer",
     "position": "MID",
-    "team": "Leicester",
+    "team": "Ipswich Town",
     "now_cost": 0.0,
     "predicted_next_gw_points": 1.59,
     "predicted_next_5_weighted": 5.6,
@@ -12468,7 +12468,7 @@
   "Kjell Scherpen": {
     "player_name": "Kjell Scherpen",
     "position": "GK",
-    "team": "Brighton",
+    "team": "Ipswich Town",
     "now_cost": 4.0,
     "predicted_next_gw_points": 0.0,
     "predicted_next_5_weighted": 0.04,
@@ -12514,7 +12514,7 @@
   "Florentino Ibrain Morris Lu\u00eds": {
     "player_name": "Florentino Ibrain Morris Lu\u00eds",
     "position": "MID",
-    "team": "Burnley",
+    "team": "Ipswich Town",
     "now_cost": 5.0,
     "predicted_next_gw_points": 2.62,
     "predicted_next_5_weighted": 9.47,
@@ -12560,7 +12560,7 @@
   "Harry Wilson": {
     "player_name": "Harry Wilson",
     "position": "MID",
-    "team": "Fulham",
+    "team": "Leeds",
     "now_cost": 5.8,
     "predicted_next_gw_points": 1.77,
     "predicted_next_5_weighted": 5.28,
@@ -13618,7 +13618,7 @@
   "James Trafford": {
     "player_name": "James Trafford",
     "position": "GK",
-    "team": "Man City",
+    "team": "Leeds",
     "now_cost": 4.5,
     "predicted_next_gw_points": 1.49,
     "predicted_next_5_weighted": 5.08,
@@ -14952,7 +14952,7 @@
   "Harvey Elliott": {
     "player_name": "Harvey Elliott",
     "position": "MID",
-    "team": "Aston Villa",
+    "team": "Liverpool",
     "now_cost": 5.1,
     "predicted_next_gw_points": 0.19,
     "predicted_next_5_weighted": 0.23,
@@ -14998,7 +14998,7 @@
   "Jack Grealish": {
     "player_name": "Jack Grealish",
     "position": "MID",
-    "team": "Everton",
+    "team": "Man City",
     "now_cost": 6.3,
     "predicted_next_gw_points": 0.09,
     "predicted_next_5_weighted": 0.42,
@@ -16194,7 +16194,7 @@
   "Jeremy Monga": {
     "player_name": "Jeremy Monga",
     "position": "MID",
-    "team": "Leicester",
+    "team": "Man City",
     "now_cost": 0.0,
     "predicted_next_gw_points": 2.15,
     "predicted_next_5_weighted": 5.52,
@@ -16286,7 +16286,7 @@
   "Elliot Anderson": {
     "player_name": "Elliot Anderson",
     "position": "MID",
-    "team": "Nott'm Forest",
+    "team": "Man City",
     "now_cost": 5.7,
     "predicted_next_gw_points": 5.39,
     "predicted_next_5_weighted": 11.07,
@@ -16332,7 +16332,7 @@
   "Youri Tielemans": {
     "player_name": "Youri Tielemans",
     "position": "MID",
-    "team": "Aston Villa",
+    "team": "Man Utd",
     "now_cost": 5.9,
     "predicted_next_gw_points": 2.07,
     "predicted_next_5_weighted": 7.94,
@@ -16378,7 +16378,7 @@
   "Andrey Nascimento dos Santos": {
     "player_name": "Andrey Nascimento dos Santos",
     "position": "MID",
-    "team": "Chelsea",
+    "team": "Man Utd",
     "now_cost": 4.4,
     "predicted_next_gw_points": 2.28,
     "predicted_next_5_weighted": 3.31,
@@ -16424,7 +16424,7 @@
   "Karl Darlow": {
     "player_name": "Karl Darlow",
     "position": "GK",
-    "team": "Leeds",
+    "team": "Man Utd",
     "now_cost": 4.0,
     "predicted_next_gw_points": 3.93,
     "predicted_next_5_weighted": 12.27,
@@ -19917,10 +19917,56 @@
     ],
     "current_season_points": 9.0
   },
+  "Steven Benda": {
+    "player_name": "Steven Benda",
+    "position": "GK",
+    "team": "Nott'm Forest",
+    "now_cost": 4.0,
+    "predicted_next_gw_points": 0.01,
+    "predicted_next_5_weighted": 0.04,
+    "next_5": [
+      {
+        "gw": 1,
+        "opponent": "LEE",
+        "home": true,
+        "fdr": 2,
+        "predicted_points": 0.01
+      },
+      {
+        "gw": 2,
+        "opponent": "LIV",
+        "home": false,
+        "fdr": 4,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 3,
+        "opponent": "TOT",
+        "home": true,
+        "fdr": 3,
+        "predicted_points": 0.01
+      },
+      {
+        "gw": 4,
+        "opponent": "AVL",
+        "home": false,
+        "fdr": 4,
+        "predicted_points": 0.02
+      },
+      {
+        "gw": 5,
+        "opponent": "COV",
+        "home": true,
+        "fdr": 2,
+        "predicted_points": 0.01
+      }
+    ],
+    "current_season_points": 0.0
+  },
   "Jan Paul van Hecke": {
     "player_name": "Jan Paul van Hecke",
     "position": "DEF",
-    "team": "Brighton",
+    "team": "Spurs",
     "now_cost": 4.7,
     "predicted_next_gw_points": 3.12,
     "predicted_next_5_weighted": 10.91,
@@ -19966,7 +20012,7 @@
   "Sandro Tonali": {
     "player_name": "Sandro Tonali",
     "position": "MID",
-    "team": "Newcastle",
+    "team": "Spurs",
     "now_cost": 5.3,
     "predicted_next_gw_points": 0.81,
     "predicted_next_5_weighted": 1.29,
@@ -20150,7 +20196,7 @@
   "Martin Dubravka": {
     "player_name": "Martin Dubravka",
     "position": "GK",
-    "team": "Newcastle",
+    "team": "Spurs",
     "now_cost": 0.0,
     "predicted_next_gw_points": 0.54,
     "predicted_next_5_weighted": 2.12,
@@ -20196,7 +20242,7 @@
   "Marcos Senesi Bar\u00f3n": {
     "player_name": "Marcos Senesi Bar\u00f3n",
     "position": "DEF",
-    "team": "Bournemouth",
+    "team": "Spurs",
     "now_cost": 5.2,
     "predicted_next_gw_points": 5.9,
     "predicted_next_5_weighted": 13.98,
@@ -20380,7 +20426,7 @@
   "Andrew Robertson": {
     "player_name": "Andrew Robertson",
     "position": "DEF",
-    "team": "Liverpool",
+    "team": "Spurs",
     "now_cost": 5.7,
     "predicted_next_gw_points": 2.56,
     "predicted_next_5_weighted": 10.44,
