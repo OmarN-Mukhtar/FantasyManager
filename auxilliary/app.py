@@ -6,7 +6,6 @@ from pathlib import Path
 
 import streamlit as st
 import pandas as pd
-from streamlit_sortables import sort_items
 
 # `streamlit run auxilliary/app.py` puts auxilliary/ on sys.path, not the repo
 # root, so the RAG/optimizer/auxilliary package imports below need this.
@@ -286,6 +285,21 @@ div[data-testid="stElementContainer"]:has(.shirt-marker.captain)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after { content: "C"; }
 div[data-testid="stElementContainer"]:has(.shirt-marker.vice)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after { content: "V"; }
+
+/* Make Subs mode: click a shirt to pick it, then only shirts that keep the
+   XI's position quotas valid stay clickable — everyone else visibly dims. */
+div[data-testid="stElementContainer"]:has(.shirt-marker.selected)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  box-shadow: 0 0 0 3px var(--gold) !important; transform: scale(1.08);
+}
+div[data-testid="stElementContainer"]:has(.shirt-marker.eligible)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  box-shadow: 0 0 0 3px #4caf6a !important;
+}
+div[data-testid="stElementContainer"]:has(.shirt-marker.dimmed)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  opacity: 0.25 !important; cursor: not-allowed !important;
+}
 </style>
 """
 
@@ -428,7 +442,7 @@ def render_landing():
             st.rerun()
 
 
-def render_slot(squad, players, bucket, idx, position_hint):
+def render_slot(squad, players, bucket, idx, position_hint, subs_mode=False, selected_pid=None, eligible_ids=None):
     ids = squad[bucket]
     pid = ids[idx]
     shirt_label, name, price = "+", "Empty", None
@@ -444,9 +458,23 @@ def render_slot(squad, players, bucket, idx, position_hint):
             marker_classes.append("captain")
         elif pid == squad["vice_captain_id"]:
             marker_classes.append("vice")
+
+    disabled = subs_mode and pid is None
+    if subs_mode and pid is not None:
+        if selected_pid is None:
+            pass  # nobody picked yet — every player is a valid first pick
+        elif pid == selected_pid:
+            marker_classes.append("selected")
+        elif eligible_ids and pid in eligible_ids:
+            marker_classes.append("eligible")
+        else:
+            marker_classes.append("dimmed")
+            disabled = True
+
     st.markdown(f"<div class='{' '.join(marker_classes)}'></div>", unsafe_allow_html=True)
-    if st.button(shirt_label, key=f"{bucket}_{idx}", help=name if pid is not None else "Add player"):
-        st.session_state.editing_slot = (bucket, idx, position_hint)
+    if st.button(shirt_label, key=f"{bucket}_{idx}", help=name if pid is not None else "Add player", disabled=disabled):
+        if subs_mode:
+            handle_subs_click(squad, players, pid, selected_pid)
     st.markdown(f"<div class='slot-name'>{html.escape(str(name))}</div>", unsafe_allow_html=True)
     if price is not None:
         st.markdown(f"<div class='slot-price'>£{price}m</div>", unsafe_allow_html=True)
@@ -455,156 +483,61 @@ def render_slot(squad, players, bucket, idx, position_hint):
 POSITION_XI_RANGE = {"GK": (1, 1), "DEF": (3, 5), "MID": (2, 5), "FWD": (1, 3)}
 POSITION_ORDER = {"GK": 0, "DEF": 1, "MID": 2, "FWD": 3}
 
-ARRANGE_CSS = """
-.sortable-component { display: flex; flex-direction: column; gap: 0; }
-.sortable-container {
-  padding: 10px 12px; margin: 0 !important; border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.sortable-container:nth-of-type(-n+4) {
-  background: repeating-linear-gradient(180deg, #163d24 0, #163d24 56px, #1c4c2c 56px, #1c4c2c 112px);
-}
-.sortable-container:nth-of-type(5) { background: #101410; border-bottom: none; }
-.sortable-container-header {
-  font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.65); margin-bottom: 8px;
-}
-.sortable-container-body {
-  background: transparent !important; display: flex !important; flex-wrap: wrap;
-  justify-content: center; gap: 8px; min-height: 0 !important; padding: 0 !important;
-}
-.sortable-item {
-  background: rgba(0,0,0,0.35) !important; color: #f2f1eb; border-radius: 12px;
-  padding: 8px 10px 6px; margin: 0 !important; font-weight: 600; font-size: 0.68rem;
-  cursor: grab; border: 1.5px solid #c99a2e; transition: background 0.15s, transform 0.1s;
-  height: auto !important; white-space: pre-line !important; text-align: center; line-height: 1.35;
-  min-width: 72px;
-}
-.sortable-item::first-line {
-  font-size: 1rem; font-weight: 900; letter-spacing: 0.02em; color: #c99a2e;
-}
-.sortable-item:hover { background: rgba(0,0,0,0.5) !important; }
-.sortable-item:active, .sortable-item.dragging { cursor: grabbing; transform: scale(1.04); }
-"""
+
+def valid_sub_ins(squad, players_idx, out_pid):
+    """Bench players that can replace out_pid without breaking the XI's
+    position quotas (1 GK, 3-5 DEF, 2-5 MID, 1-3 FWD)."""
+    out_pos = players_idx.loc[out_pid, "position"]
+    counts = players_idx.loc[squad["starting_ids"], "position"].value_counts()
+    valid = []
+    for in_pid in squad["bench_ids"]:
+        in_pos = players_idx.loc[in_pid, "position"]
+        trial = counts.copy()
+        trial[out_pos] = trial.get(out_pos, 0) - 1
+        trial[in_pos] = trial.get(in_pos, 0) + 1
+        if all(lo <= trial.get(pos, 0) <= hi for pos, (lo, hi) in POSITION_XI_RANGE.items()):
+            valid.append(in_pid)
+    return valid
 
 
-def _valid_xi(ids, players_idx):
-    counts = players_idx.loc[ids, "position"].value_counts()
-    return len(ids) == 11 and all(lo <= counts.get(pos, 0) <= hi for pos, (lo, hi) in POSITION_XI_RANGE.items())
-
-
-def _autobalance(new_start, new_bench, players_idx):
-    """A single drag relocates one player without evicting/backfilling anyone,
-    so a bench-to-XI drag briefly leaves 12 starting/3 bench (or the reverse).
-    Auto-balance that by dropping the weakest starting player to the bench, or
-    promoting the strongest eligible bench player, whichever restores a valid
-    XI — so one drag reads as one substitution. Returns (start, bench) or None
-    if the drop can't be resolved into a valid XI at all."""
-    if len(new_start) == 11 and len(new_bench) == 4:
-        return (new_start, new_bench) if _valid_xi(new_start, players_idx) else None
-
-    if len(new_start) == 12 and len(new_bench) == 3:
-        for weakest in sorted(new_start, key=lambda pid: players_idx.loc[pid, "predicted_next_gw_points"]):
-            trial = [pid for pid in new_start if pid != weakest]
-            if _valid_xi(trial, players_idx):
-                return trial, new_bench + [weakest]
-        return None
-
-    if len(new_start) == 10 and len(new_bench) == 5:
-        for best in sorted(new_bench, key=lambda pid: players_idx.loc[pid, "predicted_next_gw_points"], reverse=True):
-            trial = new_start + [best]
-            if _valid_xi(trial, players_idx):
-                return trial, [pid for pid in new_bench if pid != best]
-        return None
-
-    return None
-
-
-def render_arrange(squad, players):
-    """Drag-and-drop rearrangement of the 15-man squad, laid out as the same
-    GK/DEF/MID/FWD pitch rows plus a bench row — dragging a player between
-    rows subs them in/out or repositions them. Formation is derived from
-    whatever ends up in the XI's position rows afterwards, so it's never
-    locked to the squad's current formation."""
-    players_idx = players.set_index("id")
-
-    def label(pid):
-        row = players_idx.loc[pid]
-        return f"{player_initials(row['web_name'])}\n{row['web_name']}\n£{row['now_cost']}m"
-
-    starting_by_pos = {pos: [] for pos in POSITION_ORDER}
-    for pid, pos_hint in zip(squad["starting_ids"], slot_positions(squad["formation"])):
-        starting_by_pos[pos_hint].append(pid)
-
-    label_to_id = {label(pid): pid for pid in squad["starting_ids"] + squad["bench_ids"]}
-
-    row_names = list(POSITION_ORDER)
-    containers = [{"header": pos, "items": [label(pid) for pid in starting_by_pos[pos]]} for pos in row_names]
-    containers.append({"header": "Bench", "items": [label(pid) for pid in squad["bench_ids"]]})
-
-    # Remounting on every accepted/rejected drop (via the nonce in the key)
-    # keeps the component's own drag state from drifting out of sync with the
-    # squad it's supposed to reflect — otherwise a rejected drop leaves the
-    # UI visually stuck showing an arrangement that was never actually saved.
-    nonce = st.session_state.get("arrange_nonce", 0)
-    result = sort_items(containers, multi_containers=True, direction="horizontal", custom_style=ARRANGE_CSS, key=f"squad_sortable_{nonce}")
-    new_start = [label_to_id[l] for c in result[:-1] for l in c["items"]]
-    new_bench = [label_to_id[l] for l in result[-1]["items"]]
-
-    if new_start == squad["starting_ids"] and new_bench == squad["bench_ids"]:
-        return
-
-    st.session_state.arrange_nonce = nonce + 1
-    balanced = _autobalance(new_start, new_bench, players_idx)
-    if balanced is None:
-        st.toast("Invalid arrangement — needs 1 GK, 3-5 DEF, 2-5 MID, 1-3 FWD in the XI.", icon="⚠️")
-        st.rerun()
-        return
-
-    new_start, new_bench = balanced
-    pos_counts = players_idx.loc[new_start, "position"].value_counts()
-    new_start.sort(key=lambda pid: POSITION_ORDER[players_idx.loc[pid, "position"]])
-    squad["starting_ids"] = new_start
-    squad["bench_ids"] = new_bench
+def apply_sub(squad, players_idx, out_pid, in_pid):
+    squad["starting_ids"][squad["starting_ids"].index(out_pid)] = in_pid
+    squad["bench_ids"][squad["bench_ids"].index(in_pid)] = out_pid
+    # Keep starting_ids grouped GK/DEF/MID/FWD so slot_positions(formation)
+    # still lines up correctly with each id by index.
+    squad["starting_ids"].sort(key=lambda pid: POSITION_ORDER[players_idx.loc[pid, "position"]])
+    pos_counts = players_idx.loc[squad["starting_ids"], "position"].value_counts()
     squad["formation"] = (int(pos_counts.get("DEF", 0)), int(pos_counts.get("MID", 0)), int(pos_counts.get("FWD", 0)))
     st.session_state.pop("team_summary_text", None)
-    st.rerun()
 
 
-def render_slot_editor(squad, players):
-    if "editing_slot" not in st.session_state:
+def eligible_sub_targets(squad, players_idx, selected_pid):
+    """Players the selected player could swap with, filtered so the result
+    never breaks the XI's position quotas. Works in either direction —
+    selecting a starter looks at the bench, selecting a bench player looks
+    at the XI."""
+    if selected_pid in squad["starting_ids"]:
+        return set(valid_sub_ins(squad, players_idx, selected_pid))
+    return {out_pid for out_pid in squad["starting_ids"] if selected_pid in valid_sub_ins(squad, players_idx, out_pid)}
+
+
+def handle_subs_click(squad, players, pid, selected_pid):
+    # selected_pid/eligible_ids are computed once at the top of render_pitch,
+    # before this click fires mid-loop, so this render pass can't reflect the
+    # new selection — force one more rerun so the next pass picks it up.
+    if selected_pid is None:
+        st.session_state.sub_selected_pid = pid
+        st.rerun()
         return
-    bucket, idx, position_hint = st.session_state.editing_slot
-
-    with st.container(border=True):
-        st.write(f"Assign **{position_hint}** slot")
-        used = {i for i in squad["starting_ids"] + squad["bench_ids"] if i is not None}
-        # ponytail: bench slots aren't position-locked to keep this simple —
-        # any player can sit on the bench, matching how FPL actually allows it.
-        candidates = players if bucket == "bench" else players[players["position"] == position_hint]
-        candidates = candidates[~candidates["id"].isin(used - {squad[bucket][idx]})]
-        candidates = candidates.sort_values("predicted_next_5_weighted", ascending=False)
-
-        options = [None] + candidates["id"].tolist()
-        current = squad[bucket][idx]
-        choice = st.selectbox(
-            "Player", options, index=options.index(current) if current in options else 0,
-            format_func=lambda pid: "— empty —" if pid is None
-            else f"{players.set_index('id').loc[pid, 'web_name']} (£{players.set_index('id').loc[pid, 'now_cost']}m)",
-        )
-        col_a, col_b = st.columns(2)
-        if col_a.button("Save"):
-            squad[bucket][idx] = choice
-            if choice is None:
-                if squad["captain_id"] == current:
-                    squad["captain_id"] = None
-                if squad["vice_captain_id"] == current:
-                    squad["vice_captain_id"] = None
-            st.session_state.pop("team_summary_text", None)
-            del st.session_state.editing_slot
-            st.rerun()
-        if col_b.button("Cancel"):
-            del st.session_state.editing_slot
-            st.rerun()
+    if pid == selected_pid:
+        st.session_state.sub_selected_pid = None
+        st.rerun()
+        return
+    players_idx = players.set_index("id")
+    out_pid, in_pid = (selected_pid, pid) if selected_pid in squad["starting_ids"] else (pid, selected_pid)
+    apply_sub(squad, players_idx, out_pid, in_pid)
+    st.session_state.sub_selected_pid = None
+    st.rerun()
 
 
 def render_toolbar(squad, players):
@@ -677,6 +610,14 @@ def render_pitch():
     rows.append(("FWD", range(rows[-1][1].stop, rows[-1][1].stop + squad["formation"][2])))
 
     d, m, f = squad["formation"]
+    full_squad = all(i is not None for i in squad["starting_ids"] + squad["bench_ids"])
+    subs_mode = full_squad and st.session_state.get("make_subs_mode", False)
+
+    selected_pid = st.session_state.get("sub_selected_pid") if subs_mode else None
+    if selected_pid is not None and selected_pid not in squad["starting_ids"] + squad["bench_ids"]:
+        selected_pid = st.session_state.sub_selected_pid = None
+    eligible_ids = eligible_sub_targets(squad, players.set_index("id"), selected_pid) if selected_pid is not None else None
+
     pitch_card = st.container(key="pitch_card")
     with pitch_card:
         head = st.container(key="pitch_head")
@@ -686,40 +627,35 @@ def render_pitch():
                 f"<div class='pitch-title'>Starting XI <span class='formation-tag'>{d}-{m}-{f}</span></div>",
                 unsafe_allow_html=True,
             )
-            full_squad = all(i is not None for i in squad["starting_ids"] + squad["bench_ids"])
             with head_actions:
                 with st.container(key="actions_wrap"):
-                    arrange_on = st.session_state.get("arrange_mode", False)
+                    subs_on = st.session_state.get("make_subs_mode", False)
                     if st.button(
-                        "Make Subs", key="arrange_toggle_btn",
-                        type="primary" if arrange_on else "secondary",
+                        "Make Subs", key="make_subs_toggle_btn",
+                        type="primary" if subs_on else "secondary",
                         disabled=not full_squad,
                         help=None if full_squad else "Fill all 15 slots first",
                     ):
-                        st.session_state.arrange_mode = not arrange_on
+                        st.session_state.make_subs_mode = not subs_on
+                        st.session_state.sub_selected_pid = None
                     if st.button("Optimize", key="optimize_btn"):
                         run_optimizer(squad, players)
 
-        if full_squad and st.session_state.get("arrange_mode"):
-            render_arrange(squad, players)
-        else:
-            with st.container(key="pitch"):
-                st.markdown("<div class='pitch-halfway'></div>", unsafe_allow_html=True)
-                for _, idx_range in rows:
-                    idx_range = list(idx_range)
-                    cols = st.columns(len(idx_range))
-                    for col, idx in zip(cols, idx_range):
-                        with col:
-                            render_slot(squad, players, "starting_ids", idx, positions[idx])
-
-            with st.container(key="bench"):
-                st.markdown("<div class='bench-label'>Bench</div>", unsafe_allow_html=True)
-                bench_cols = st.columns(4)
-                for col, idx in zip(bench_cols, range(4)):
+        with st.container(key="pitch"):
+            st.markdown("<div class='pitch-halfway'></div>", unsafe_allow_html=True)
+            for _, idx_range in rows:
+                idx_range = list(idx_range)
+                cols = st.columns(len(idx_range))
+                for col, idx in zip(cols, idx_range):
                     with col:
-                        render_slot(squad, players, "bench_ids", idx, "SUB")
+                        render_slot(squad, players, "starting_ids", idx, positions[idx], subs_mode, selected_pid, eligible_ids)
 
-    render_slot_editor(squad, players)
+        with st.container(key="bench"):
+            st.markdown("<div class='bench-label'>Bench</div>", unsafe_allow_html=True)
+            bench_cols = st.columns(4)
+            for col, idx in zip(bench_cols, range(4)):
+                with col:
+                    render_slot(squad, players, "bench_ids", idx, "SUB", subs_mode, selected_pid, eligible_ids)
 
 
 def render_players_tab():
