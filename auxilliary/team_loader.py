@@ -1,10 +1,18 @@
 """Loads a manager's current squad from the FPL API into the session-state
 shape the pitch view renders (see auxilliary/app.py)."""
+from collections import Counter
+
 import requests
 
 BASE = "https://fantasy.premierleague.com/api"
 TIMEOUT = 10
-SEASON_WILDCARDS = 2  # one per half-season; ponytail: doesn't split which half is left
+
+CHIP_NAMES = ["wildcard", "freehit", "bboost", "3xc"]
+CHIP_LABELS = {"wildcard": "Wildcard", "freehit": "Free Hit", "bboost": "Bench Boost", "3xc": "Triple Captain"}
+# ponytail: FPL currently grants each chip twice a season (once per half) and
+# doesn't expose "which half" publicly — treat this as a season-wide pool and
+# let the UI counter be manually corrected if that's ever wrong.
+SEASON_CHIP_ALLOWANCE = 2
 
 
 def last_finished_gw():
@@ -32,7 +40,10 @@ def load_team_squad(team_id, players_df, gw=None):
 
     history_resp = requests.get(f"{BASE}/entry/{team_id}/history/", timeout=TIMEOUT)
     history_resp.raise_for_status()
-    chips_used = sum(1 for c in history_resp.json().get("chips", []) if c["name"] == "wildcard")
+    chips_used = Counter(c["name"] for c in history_resp.json().get("chips", []))
+    chips_available = {
+        name: max(0, SEASON_CHIP_ALLOWANCE - chips_used.get(name, 0)) for name in CHIP_NAMES
+    }
 
     by_element = players_df.set_index("id")
     picks = sorted(picks_data["picks"], key=lambda p: p["position"])
@@ -60,8 +71,8 @@ def load_team_squad(team_id, players_df, gw=None):
         # ponytail: FPL's free-transfer rollover isn't exposed directly here;
         # default to 1 and let the UI stepper override it.
         "free_transfers": 1,
-        "wildcards_available": max(0, SEASON_WILDCARDS - chips_used),
-        "wildcard_active": picks_data.get("active_chip") == "wildcard",
+        "chips_available": chips_available,
+        "active_chip": picks_data.get("active_chip"),
         "team_id": team_id,
         "gw": gw,
     }

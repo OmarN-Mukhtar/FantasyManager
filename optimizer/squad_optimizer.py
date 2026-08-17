@@ -3,11 +3,19 @@ predicted points over the next 5 gameweeks, subject to budget, club, and
 position-quota constraints — an integer program (0/1 knapsack with extra
 constraints), solved with PuLP/CBC.
 
-When there's an existing squad and no wildcard, extra transfers cost 4 points
-each, and it's only worth taking a hit if the point gain outweighs it. We
-handle that by solving the ILP once per candidate transfer count K (0..15,
-capped by squad size) with "at most K new players" as a constraint, then
-picking the K whose (optimum - 4*max(0, K - free_transfers)) is highest.
+When there's an existing squad and no active chip that grants free transfers,
+extra transfers cost 4 points each, and it's only worth taking a hit if the
+point gain outweighs it. We handle that by solving the ILP once per candidate
+transfer count K (0..15, capped by squad size) with "at most K new players"
+as a constraint, then picking the K whose
+(optimum - 4*max(0, K - free_transfers)) is highest.
+
+Of the four chips (wildcard, free hit, bench boost, triple captain), only
+wildcard and free hit change squad-selection mechanics — both give unlimited
+free transfers for the ILP's purposes (free hit's squad reverting next GW
+isn't modeled since this optimizer only reasons about the current week).
+Bench boost and triple captain don't change which 15 players to pick; they
+just change how those players score, so they're informational only here.
 """
 import pulp
 import pandas as pd
@@ -16,6 +24,7 @@ POSITION_QUOTAS = {'GK': 2, 'DEF': 5, 'MID': 5, 'FWD': 3}
 SQUAD_SIZE = 15
 CLUB_LIMIT = 3
 POINTS_PER_HIT = 4
+NO_PENALTY_CHIPS = {'wildcard', 'freehit'}
 
 # formation -> (DEF, MID, FWD), GK is always 1
 VALID_FORMATIONS = [
@@ -80,13 +89,15 @@ def _best_starting_xi(squad_players):
     return best_xi
 
 
-def optimize_squad(players_df, budget, free_transfers=1, wildcard=False, current_ids=None):
+def optimize_squad(players_df, budget, free_transfers=1, active_chip=None, current_ids=None):
     """Optimize a 15-player squad.
 
     players_df: DataFrame with columns id, position, team_id, now_cost,
         predicted_next_5_weighted, predicted_next_gw_points.
     budget: total money available (existing squad's now_cost sum + bank, or
         100.0 for a from-scratch squad).
+    active_chip: one of 'wildcard', 'freehit', 'bboost', '3xc', or None.
+        Only wildcard/freehit affect selection (unlimited free transfers).
     current_ids: ids of the currently-owned squad, or None/empty for scratch.
     Returns a dict: squad_ids, starting_xi_ids, captain_id, vice_captain_id,
         transfers_made, points_penalty, predicted_total.
@@ -94,9 +105,9 @@ def optimize_squad(players_df, budget, free_transfers=1, wildcard=False, current
     players = players_df.to_dict('records')
     current_ids = set(current_ids or [])
 
-    if wildcard or not current_ids:
-        # No transfer-cost tradeoff to weigh: either hits are free (wildcard)
-        # or there's no prior squad to compare against (scratch build).
+    if active_chip in NO_PENALTY_CHIPS or not current_ids:
+        # No transfer-cost tradeoff to weigh: either hits are free (wildcard/
+        # free hit) or there's no prior squad to compare against (scratch build).
         selected, objective = _solve_squad(players, budget, SQUAD_SIZE, current_ids or None)
         if selected is None:
             raise ValueError("No feasible squad found within budget/constraints.")
@@ -165,9 +176,15 @@ def _demo():
     result2 = optimize_squad(df, budget=100.0, free_transfers=1, current_ids=current)
     assert result2['points_penalty'] == POINTS_PER_HIT * max(0, result2['transfers_made'] - 1)
 
-    # Wildcard: no penalty regardless of turnover.
-    result3 = optimize_squad(df, budget=100.0, wildcard=True, current_ids=current)
+    # Wildcard / free hit: no penalty regardless of turnover.
+    result3 = optimize_squad(df, budget=100.0, active_chip='wildcard', current_ids=current)
     assert result3['points_penalty'] == 0
+    result4 = optimize_squad(df, budget=100.0, active_chip='freehit', current_ids=current)
+    assert result4['points_penalty'] == 0
+
+    # Bench boost / triple captain don't grant free transfers.
+    result5 = optimize_squad(df, budget=100.0, active_chip='bboost', free_transfers=1, current_ids=current)
+    assert result5['points_penalty'] == POINTS_PER_HIT * max(0, result5['transfers_made'] - 1)
 
     print("optimizer self-check passed")
 

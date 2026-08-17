@@ -10,7 +10,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from RAG.langchain_rag import agent, model
-from auxilliary.team_loader import load_team_squad
+from auxilliary.team_loader import CHIP_LABELS, CHIP_NAMES, load_team_squad
 from optimizer.squad_optimizer import VALID_FORMATIONS, optimize_squad
 
 st.set_page_config(page_title="Fantasy Manager", page_icon=":soccer:", layout="wide")
@@ -44,8 +44,8 @@ def blank_squad():
         "vice_captain_id": None,
         "bank": 100.0,
         "free_transfers": 1,
-        "wildcards_available": 2,
-        "wildcard_active": False,
+        "chips_available": {name: 2 for name in CHIP_NAMES},
+        "active_chip": None,
         "team_id": None,
     }
 
@@ -229,16 +229,28 @@ def render_pitch():
     else:
         remaining = round(100.0 - squad_spend(squad, players), 1)
 
-    m1, m2, m3, m4 = st.columns(4)
+    m1, m2 = st.columns(2)
     m1.metric("Remaining cash", f"£{remaining}m")
     m2.metric("Free transfers", squad["free_transfers"])
-    m3.metric("Wildcards available", squad["wildcards_available"])
-    squad["wildcard_active"] = m4.toggle("Wildcard active", value=squad["wildcard_active"])
+
+    chip_options = [None] + CHIP_NAMES
+    squad["active_chip"] = st.selectbox(
+        "Active chip this GW", chip_options,
+        index=chip_options.index(squad["active_chip"]),
+        format_func=lambda c: "— none —" if c is None else CHIP_LABELS[c],
+    )
+
+    chip_cols = st.columns(len(CHIP_NAMES))
+    for col, name in zip(chip_cols, CHIP_NAMES):
+        if squad["team_id"] is None:
+            squad["chips_available"][name] = col.number_input(
+                CHIP_LABELS[name], 0, 2, squad["chips_available"][name], key=f"chip_{name}",
+            )
+        else:
+            col.metric(CHIP_LABELS[name], squad["chips_available"][name])
 
     if squad["team_id"] is None:
-        c1, c2 = st.columns(2)
-        squad["free_transfers"] = c1.number_input("Free transfers", 0, 5, squad["free_transfers"])
-        squad["wildcards_available"] = c2.number_input("Wildcards available", 0, 2, squad["wildcards_available"])
+        squad["free_transfers"] = st.number_input("Free transfers", 0, 5, squad["free_transfers"])
 
 
 def render_players_tab():
@@ -292,7 +304,7 @@ def render_side_panel():
             result = optimize_squad(
                 players, budget=total_budget(squad, players),
                 free_transfers=squad["free_transfers"],
-                wildcard=squad["wildcard_active"], current_ids=current,
+                active_chip=squad["active_chip"], current_ids=current,
             )
             apply_optimizer_result(squad, players, result)
         st.session_state.pop("team_summary_text", None)
@@ -307,6 +319,10 @@ def render_side_panel():
     if captains:
         (c_id, c_name, c_pts), (v_id, v_name, v_pts) = captains
         st.caption(f"Captain pick: **{c_name}** ({c_pts:.1f} pts) · Vice: **{v_name}** ({v_pts:.1f} pts)")
+        if squad["active_chip"] == "3xc":
+            st.caption("Triple Captain active — captain scores 3x this GW.")
+        elif squad["active_chip"] == "bboost":
+            st.caption("Bench Boost active — bench players also score this GW.")
 
     if all(i is not None for i in squad["starting_ids"] + squad["bench_ids"]):
         if st.button("Get team summary"):
