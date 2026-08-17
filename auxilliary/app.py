@@ -6,6 +6,7 @@ from pathlib import Path
 
 import streamlit as st
 import pandas as pd
+from streamlit_sortables import sort_items
 
 # `streamlit run auxilliary/app.py` puts auxilliary/ on sys.path, not the repo
 # root, so the RAG/optimizer/auxilliary package imports below need this.
@@ -67,6 +68,16 @@ table.players tr:last-child td { border-bottom: none; }
   margin-bottom: 4px;
 }
 .app-header .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--turf-b); display: inline-block; }
+.predicted-points {
+  text-align: center; margin: 0 0 14px;
+}
+.predicted-points .label {
+  font-size: 0.66rem; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--text-faint); font-weight: 700;
+}
+.predicted-points .value {
+  font-size: 1.6rem; font-weight: 800; color: var(--gold); font-variant-numeric: tabular-nums;
+}
 .app-card {
   background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
   padding: 16px 16px 18px; height: 100%;
@@ -136,15 +147,27 @@ div.st-key-pitch_head div[data-testid="stHorizontalBlock"] { align-items: center
   background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.35); border-radius: 999px;
   padding: 3px 10px; font-variant-numeric: tabular-nums;
 }
-div.st-key-optimize_wrap { display: flex; align-items: flex-end; }
-div.st-key-optimize_wrap div[data-testid="stButton"] button {
+div.st-key-actions_wrap {
+  display: flex !important; flex-direction: row !important; width: 100% !important;
+  align-items: flex-end !important; justify-content: flex-end !important; gap: 18px;
+}
+div.st-key-actions_wrap div[data-testid="stElementContainer"],
+div.st-key-actions_wrap div[data-testid="stButton"] {
+  flex: 0 0 auto !important; width: auto !important;
+}
+div.st-key-actions_wrap div[data-testid="stButton"] button {
   border: 1px solid rgba(255,255,255,0.4); border-radius: 999px; background: rgba(255,255,255,0.14);
   padding: 5px 15px; font-size: 0.78rem; font-weight: 700; color: #fff;
   min-height: 0; width: auto; white-space: nowrap; backdrop-filter: blur(2px);
-  display: block; margin-left: auto;
 }
-div.st-key-optimize_wrap div[data-testid="stButton"] button:hover {
+div.st-key-actions_wrap div[data-testid="stButton"] button:hover {
   border-color: #fff; background: rgba(255,255,255,0.28);
+}
+div.st-key-actions_wrap div[data-testid="stButton"] button[kind="primary"] {
+  background: var(--gold); border-color: var(--gold); color: var(--gold-ink);
+}
+div.st-key-actions_wrap div[data-testid="stButton"] button:disabled {
+  opacity: 0.4; background: rgba(255,255,255,0.08); cursor: not-allowed;
 }
 div.st-key-pitch_card { gap: 0 !important; }
 div.st-key-pitch_head { background: var(--panel); }
@@ -339,6 +362,22 @@ def apply_optimizer_result(squad, players, result):
     squad["vice_captain_id"] = result["vice_captain_id"]
 
 
+def predicted_gw_points(squad, players):
+    ids = [i for i in squad["starting_ids"] if i is not None]
+    if not ids:
+        return 0.0
+    pts = players.set_index("id").loc[ids, "predicted_next_gw_points"]
+    total = pts.sum()
+    if squad["captain_id"] in pts.index:
+        mult = 3 if squad["active_chip"] == "3xc" else 2
+        total += pts.loc[squad["captain_id"]] * (mult - 1)
+    if squad["active_chip"] == "bboost":
+        bench_ids = [i for i in squad["bench_ids"] if i is not None]
+        if bench_ids:
+            total += players.set_index("id").loc[bench_ids, "predicted_next_gw_points"].sum()
+    return round(total, 1)
+
+
 def recommend_captains(squad, players):
     ids = [i for i in squad["starting_ids"] if i is not None]
     if len(ids) < 2:
@@ -411,6 +450,124 @@ def render_slot(squad, players, bucket, idx, position_hint):
     st.markdown(f"<div class='slot-name'>{html.escape(str(name))}</div>", unsafe_allow_html=True)
     if price is not None:
         st.markdown(f"<div class='slot-price'>£{price}m</div>", unsafe_allow_html=True)
+
+
+POSITION_XI_RANGE = {"GK": (1, 1), "DEF": (3, 5), "MID": (2, 5), "FWD": (1, 3)}
+POSITION_ORDER = {"GK": 0, "DEF": 1, "MID": 2, "FWD": 3}
+
+ARRANGE_CSS = """
+.sortable-component { display: flex; flex-direction: column; gap: 0; }
+.sortable-container {
+  padding: 10px 12px; margin: 0 !important; border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.sortable-container:nth-of-type(-n+4) {
+  background: repeating-linear-gradient(180deg, #163d24 0, #163d24 56px, #1c4c2c 56px, #1c4c2c 112px);
+}
+.sortable-container:nth-of-type(5) { background: #101410; border-bottom: none; }
+.sortable-container-header {
+  font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.65); margin-bottom: 8px;
+}
+.sortable-container-body {
+  background: transparent !important; display: flex !important; flex-wrap: wrap;
+  justify-content: center; gap: 8px; min-height: 0 !important; padding: 0 !important;
+}
+.sortable-item {
+  background: rgba(0,0,0,0.35) !important; color: #f2f1eb; border-radius: 12px;
+  padding: 8px 10px 6px; margin: 0 !important; font-weight: 600; font-size: 0.68rem;
+  cursor: grab; border: 1.5px solid #c99a2e; transition: background 0.15s, transform 0.1s;
+  height: auto !important; white-space: pre-line !important; text-align: center; line-height: 1.35;
+  min-width: 72px;
+}
+.sortable-item::first-line {
+  font-size: 1rem; font-weight: 900; letter-spacing: 0.02em; color: #c99a2e;
+}
+.sortable-item:hover { background: rgba(0,0,0,0.5) !important; }
+.sortable-item:active, .sortable-item.dragging { cursor: grabbing; transform: scale(1.04); }
+"""
+
+
+def _valid_xi(ids, players_idx):
+    counts = players_idx.loc[ids, "position"].value_counts()
+    return len(ids) == 11 and all(lo <= counts.get(pos, 0) <= hi for pos, (lo, hi) in POSITION_XI_RANGE.items())
+
+
+def _autobalance(new_start, new_bench, players_idx):
+    """A single drag relocates one player without evicting/backfilling anyone,
+    so a bench-to-XI drag briefly leaves 12 starting/3 bench (or the reverse).
+    Auto-balance that by dropping the weakest starting player to the bench, or
+    promoting the strongest eligible bench player, whichever restores a valid
+    XI — so one drag reads as one substitution. Returns (start, bench) or None
+    if the drop can't be resolved into a valid XI at all."""
+    if len(new_start) == 11 and len(new_bench) == 4:
+        return (new_start, new_bench) if _valid_xi(new_start, players_idx) else None
+
+    if len(new_start) == 12 and len(new_bench) == 3:
+        for weakest in sorted(new_start, key=lambda pid: players_idx.loc[pid, "predicted_next_gw_points"]):
+            trial = [pid for pid in new_start if pid != weakest]
+            if _valid_xi(trial, players_idx):
+                return trial, new_bench + [weakest]
+        return None
+
+    if len(new_start) == 10 and len(new_bench) == 5:
+        for best in sorted(new_bench, key=lambda pid: players_idx.loc[pid, "predicted_next_gw_points"], reverse=True):
+            trial = new_start + [best]
+            if _valid_xi(trial, players_idx):
+                return trial, [pid for pid in new_bench if pid != best]
+        return None
+
+    return None
+
+
+def render_arrange(squad, players):
+    """Drag-and-drop rearrangement of the 15-man squad, laid out as the same
+    GK/DEF/MID/FWD pitch rows plus a bench row — dragging a player between
+    rows subs them in/out or repositions them. Formation is derived from
+    whatever ends up in the XI's position rows afterwards, so it's never
+    locked to the squad's current formation."""
+    players_idx = players.set_index("id")
+
+    def label(pid):
+        row = players_idx.loc[pid]
+        return f"{player_initials(row['web_name'])}\n{row['web_name']}\n£{row['now_cost']}m"
+
+    starting_by_pos = {pos: [] for pos in POSITION_ORDER}
+    for pid, pos_hint in zip(squad["starting_ids"], slot_positions(squad["formation"])):
+        starting_by_pos[pos_hint].append(pid)
+
+    label_to_id = {label(pid): pid for pid in squad["starting_ids"] + squad["bench_ids"]}
+
+    row_names = list(POSITION_ORDER)
+    containers = [{"header": pos, "items": [label(pid) for pid in starting_by_pos[pos]]} for pos in row_names]
+    containers.append({"header": "Bench", "items": [label(pid) for pid in squad["bench_ids"]]})
+
+    # Remounting on every accepted/rejected drop (via the nonce in the key)
+    # keeps the component's own drag state from drifting out of sync with the
+    # squad it's supposed to reflect — otherwise a rejected drop leaves the
+    # UI visually stuck showing an arrangement that was never actually saved.
+    nonce = st.session_state.get("arrange_nonce", 0)
+    result = sort_items(containers, multi_containers=True, direction="horizontal", custom_style=ARRANGE_CSS, key=f"squad_sortable_{nonce}")
+    new_start = [label_to_id[l] for c in result[:-1] for l in c["items"]]
+    new_bench = [label_to_id[l] for l in result[-1]["items"]]
+
+    if new_start == squad["starting_ids"] and new_bench == squad["bench_ids"]:
+        return
+
+    st.session_state.arrange_nonce = nonce + 1
+    balanced = _autobalance(new_start, new_bench, players_idx)
+    if balanced is None:
+        st.toast("Invalid arrangement — needs 1 GK, 3-5 DEF, 2-5 MID, 1-3 FWD in the XI.", icon="⚠️")
+        st.rerun()
+        return
+
+    new_start, new_bench = balanced
+    pos_counts = players_idx.loc[new_start, "position"].value_counts()
+    new_start.sort(key=lambda pid: POSITION_ORDER[players_idx.loc[pid, "position"]])
+    squad["starting_ids"] = new_start
+    squad["bench_ids"] = new_bench
+    squad["formation"] = (int(pos_counts.get("DEF", 0)), int(pos_counts.get("MID", 0)), int(pos_counts.get("FWD", 0)))
+    st.session_state.pop("team_summary_text", None)
+    st.rerun()
 
 
 def render_slot_editor(squad, players):
@@ -524,31 +681,43 @@ def render_pitch():
     with pitch_card:
         head = st.container(key="pitch_head")
         with head:
-            head_l, head_r = st.columns([3, 1])
+            head_l, head_actions = st.columns([3, 2])
             head_l.markdown(
                 f"<div class='pitch-title'>Starting XI <span class='formation-tag'>{d}-{m}-{f}</span></div>",
                 unsafe_allow_html=True,
             )
-            with head_r:
-                with st.container(key="optimize_wrap"):
+            full_squad = all(i is not None for i in squad["starting_ids"] + squad["bench_ids"])
+            with head_actions:
+                with st.container(key="actions_wrap"):
+                    arrange_on = st.session_state.get("arrange_mode", False)
+                    if st.button(
+                        "Make Subs", key="arrange_toggle_btn",
+                        type="primary" if arrange_on else "secondary",
+                        disabled=not full_squad,
+                        help=None if full_squad else "Fill all 15 slots first",
+                    ):
+                        st.session_state.arrange_mode = not arrange_on
                     if st.button("Optimize", key="optimize_btn"):
                         run_optimizer(squad, players)
 
-        with st.container(key="pitch"):
-            st.markdown("<div class='pitch-halfway'></div>", unsafe_allow_html=True)
-            for _, idx_range in rows:
-                idx_range = list(idx_range)
-                cols = st.columns(len(idx_range))
-                for col, idx in zip(cols, idx_range):
-                    with col:
-                        render_slot(squad, players, "starting_ids", idx, positions[idx])
+        if full_squad and st.session_state.get("arrange_mode"):
+            render_arrange(squad, players)
+        else:
+            with st.container(key="pitch"):
+                st.markdown("<div class='pitch-halfway'></div>", unsafe_allow_html=True)
+                for _, idx_range in rows:
+                    idx_range = list(idx_range)
+                    cols = st.columns(len(idx_range))
+                    for col, idx in zip(cols, idx_range):
+                        with col:
+                            render_slot(squad, players, "starting_ids", idx, positions[idx])
 
-        with st.container(key="bench"):
-            st.markdown("<div class='bench-label'>Bench</div>", unsafe_allow_html=True)
-            bench_cols = st.columns(4)
-            for col, idx in zip(bench_cols, range(4)):
-                with col:
-                    render_slot(squad, players, "bench_ids", idx, "SUB")
+            with st.container(key="bench"):
+                st.markdown("<div class='bench-label'>Bench</div>", unsafe_allow_html=True)
+                bench_cols = st.columns(4)
+                for col, idx in zip(bench_cols, range(4)):
+                    with col:
+                        render_slot(squad, players, "bench_ids", idx, "SUB")
 
     render_slot_editor(squad, players)
 
@@ -681,6 +850,12 @@ if "squad" not in st.session_state:
 if st.session_state.squad is None:
     render_landing()
 else:
+    pts = predicted_gw_points(st.session_state.squad, load_players_df())
+    st.markdown(
+        f"<div class='predicted-points'><div class='label'>Predicted points next GW</div>"
+        f"<div class='value'>{pts}</div></div>",
+        unsafe_allow_html=True,
+    )
     tab_team, tab_players = st.tabs(["Team", "Players"])
     with tab_team:
         pitch_col, side_col = st.columns([3, 1])
