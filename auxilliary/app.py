@@ -271,12 +271,13 @@ div[data-testid="stElementContainer"]:has(.shirt-marker.empty)
 }
 /* Captain / vice badge: a small gold disc pinned to the shirt's corner,
    its letter set via CSS content since Streamlit buttons can't carry
-   arbitrary child markup. */
+   arbitrary child markup. Lives on the LEFT corner so it doesn't collide
+   with the remove ("×") button pinned to the top-right corner. */
 div[data-testid="stElementContainer"]:has(.shirt-marker.captain)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after,
 div[data-testid="stElementContainer"]:has(.shirt-marker.vice)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after {
-  position: absolute; top: -6px; right: -6px; width: 17px; height: 17px;
+  position: absolute; top: -6px; left: -6px; width: 17px; height: 17px;
   border-radius: 50%; background: var(--gold); color: var(--gold-ink);
   font-size: 0.6rem; font-weight: 800; display: flex; align-items: center; justify-content: center;
   border: 1.5px solid var(--turf-a);
@@ -285,6 +286,49 @@ div[data-testid="stElementContainer"]:has(.shirt-marker.captain)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after { content: "C"; }
 div[data-testid="stElementContainer"]:has(.shirt-marker.vice)
   + div[data-testid="stElementContainer"] div[data-testid="stButton"] button::after { content: "V"; }
+
+/* Badge wrapper: shrink to the shirt's own 46px width (rather than the full
+   column, which the name/price text below still uses) so the remove badge
+   can be pinned to the shirt's actual corner regardless of how wide the
+   surrounding column is. */
+div[class*="st-key-badge_wrap_"] {
+  position: relative; width: 46px !important; margin: 0 auto !important; gap: 0 !important;
+}
+div[class*="st-key-badge_wrap_"] div[data-testid="stElementContainer"],
+div[class*="st-key-badge_wrap_"] div[data-testid="stButton"] {
+  width: 46px !important;
+}
+/* Streamlit marks every element-container position:relative by default,
+   which would otherwise become the button's positioning anchor instead of
+   badge_wrap — neutralize the wrappers in between so the anchor is badge_wrap.
+   They also normally reserve their own flow height even once the button
+   inside goes position:absolute, which pushed the name/price text down away
+   from the shirt — collapse that to zero too. */
+div[data-testid="stElementContainer"]:has(.remove-marker),
+div[data-testid="stElementContainer"]:has(.remove-marker) + div[data-testid="stElementContainer"] {
+  position: static !important; height: 0 !important; min-height: 0 !important;
+  margin: 0 !important; padding: 0 !important; overflow: visible !important;
+}
+div[data-testid="stElementContainer"]:has(.remove-marker)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] {
+  position: static !important; height: 0 !important; min-height: 0 !important;
+  margin: 0 !important; padding: 0 !important; overflow: visible !important;
+}
+div[data-testid="stElementContainer"]:has(.remove-marker)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  position: absolute; top: -6px; right: -6px; z-index: 3;
+  width: 18px !important; height: 18px !important;
+  min-width: 18px !important; min-height: 18px !important;
+  border-radius: 50% !important; padding: 0 !important; margin: 0 !important;
+  display: flex !important; align-items: center; justify-content: center;
+  background: #b5333f !important; color: #fff !important;
+  font-size: 0.72rem !important; font-weight: 800 !important; line-height: 1 !important;
+  border: 1.5px solid var(--turf-a) !important; box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+div[data-testid="stElementContainer"]:has(.remove-marker)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button:hover {
+  background: #8f2530 !important;
+}
 
 /* Make Subs mode: click a shirt to pick it, then only shirts that keep the
    XI's position quotas valid stay clickable — everyone else visibly dims. */
@@ -442,6 +486,16 @@ def render_landing():
             st.rerun()
 
 
+def remove_player(squad, bucket, idx):
+    pid = squad[bucket][idx]
+    squad[bucket][idx] = None
+    if squad["captain_id"] == pid:
+        squad["captain_id"] = None
+    if squad["vice_captain_id"] == pid:
+        squad["vice_captain_id"] = None
+    st.session_state.pop("team_summary_text", None)
+
+
 def render_slot(squad, players, bucket, idx, position_hint, subs_mode=False, selected_pid=None, eligible_ids=None):
     ids = squad[bucket]
     pid = ids[idx]
@@ -471,13 +525,22 @@ def render_slot(squad, players, bucket, idx, position_hint, subs_mode=False, sel
             marker_classes.append("dimmed")
             disabled = True
 
-    st.markdown(f"<div class='{' '.join(marker_classes)}'></div>", unsafe_allow_html=True)
-    if st.button(shirt_label, key=f"{bucket}_{idx}", help=name if pid is not None else "Add player", disabled=disabled):
-        if subs_mode:
-            handle_subs_click(squad, players, pid, selected_pid)
-    st.markdown(f"<div class='slot-name'>{html.escape(str(name))}</div>", unsafe_allow_html=True)
-    if price is not None:
-        st.markdown(f"<div class='slot-price'>£{price}m</div>", unsafe_allow_html=True)
+    with st.container(key=f"slot_wrap_{bucket}_{idx}"):
+        with st.container(key=f"badge_wrap_{bucket}_{idx}"):
+            st.markdown(f"<div class='{' '.join(marker_classes)}'></div>", unsafe_allow_html=True)
+            if st.button(shirt_label, key=f"{bucket}_{idx}", help=name if pid is not None else "Add player", disabled=disabled):
+                if subs_mode:
+                    handle_subs_click(squad, players, pid, selected_pid)
+                elif pid is None:
+                    st.session_state.assign_slot = (bucket, idx, position_hint)
+            if pid is not None and not subs_mode:
+                st.markdown("<div class='remove-marker'></div>", unsafe_allow_html=True)
+                if st.button("×", key=f"{bucket}_{idx}_remove", help=f"Remove {name}"):
+                    remove_player(squad, bucket, idx)
+                    st.rerun()
+        st.markdown(f"<div class='slot-name'>{html.escape(str(name))}</div>", unsafe_allow_html=True)
+        if price is not None:
+            st.markdown(f"<div class='slot-price'>£{price}m</div>", unsafe_allow_html=True)
 
 
 POSITION_XI_RANGE = {"GK": (1, 1), "DEF": (3, 5), "MID": (2, 5), "FWD": (1, 3)}
@@ -538,6 +601,38 @@ def handle_subs_click(squad, players, pid, selected_pid):
     apply_sub(squad, players_idx, out_pid, in_pid)
     st.session_state.sub_selected_pid = None
     st.rerun()
+
+
+def render_assign_panel(squad, players):
+    if "assign_slot" not in st.session_state:
+        return
+    bucket, idx, position_hint = st.session_state.assign_slot
+
+    with st.container(border=True):
+        st.write(f"Add a **{position_hint}** player")
+        used = {i for i in squad["starting_ids"] + squad["bench_ids"] if i is not None}
+        candidates = players if bucket == "bench_ids" else players[players["position"] == position_hint]
+        candidates = candidates[~candidates["id"].isin(used)]
+        candidates = candidates.sort_values("predicted_next_5_weighted", ascending=False)
+        options = candidates["id"].tolist()
+
+        choice = None
+        if not options:
+            st.info("No eligible players left.")
+        else:
+            choice = st.selectbox(
+                "Player", options, key="assign_player_select",
+                format_func=lambda pid: f"{players.set_index('id').loc[pid, 'web_name']} (£{players.set_index('id').loc[pid, 'now_cost']}m)",
+            )
+        col_a, col_b = st.columns(2)
+        if col_a.button("Add", disabled=choice is None):
+            squad[bucket][idx] = choice
+            st.session_state.pop("team_summary_text", None)
+            del st.session_state.assign_slot
+            st.rerun()
+        if col_b.button("Cancel"):
+            del st.session_state.assign_slot
+            st.rerun()
 
 
 def render_toolbar(squad, players):
@@ -656,6 +751,8 @@ def render_pitch():
             for col, idx in zip(bench_cols, range(4)):
                 with col:
                     render_slot(squad, players, "bench_ids", idx, "SUB", subs_mode, selected_pid, eligible_ids)
+
+    render_assign_panel(squad, players)
 
 
 def render_players_tab():
