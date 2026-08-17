@@ -7,6 +7,7 @@ on:
     paths:
       - 'RAG/**'
       - 'auxilliary/**'
+      - 'optimizer/**'
       - 'requirements.txt'
       - 'data/predictions.csv'
       - 'data/sentiment_analysis.csv'
@@ -52,6 +53,7 @@ jobs:
         cp requirements.txt hf-space/requirements.txt
         cp -r auxilliary hf-space/
         cp -r RAG hf-space/
+        cp -r optimizer hf-space/
         # Only the data files the app actually reads (chat tools + Players tab)
         mkdir -p hf-space/data
         cp data/predictions.csv data/sentiment_analysis.csv data/players.csv data/news.json hf-space/data/
