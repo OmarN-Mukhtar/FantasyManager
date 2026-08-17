@@ -23,7 +23,7 @@ DEFAULT_CLEANED_COLUMNS = [
     'team_a_score', 'team_h_score', 'threat', 'total_points',
     'transfers_balance', 'transfers_in', 'transfers_out', 'value', 'was_home',
     'yellow_cards', 'chance_of_playing_next_round',
-    'chance_of_playing_this_round', 'GW'
+    'chance_of_playing_this_round', 'GW', 'fdr'
 ]
 
 INT_COLUMNS = {
@@ -55,8 +55,9 @@ class CurrentSeasonUpdater:
     """Fetches current season data and appends to historical CSV."""
     
     API_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
+    FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
     PLAYER_DETAIL_URL = "https://fantasy.premierleague.com/api/element-summary/{player_id}/"
-    
+
     def __init__(self, csv_path='data/cleaned_merged_seasons.csv'):
         self.csv_path = csv_path
         self.teams = {}
@@ -64,6 +65,21 @@ class CurrentSeasonUpdater:
         self.current_gameweek = None
         self.last_finished_gameweek = None
         self.output_columns = DEFAULT_CLEANED_COLUMNS.copy()
+        self.fixture_difficulty = {}  # fixture id -> (team_h_difficulty, team_a_difficulty)
+
+    def fetch_fixture_difficulty(self):
+        """Fetch current-season FDR per fixture. Past seasons never had this recorded, so
+        historical rows fall back to a neutral value at feature-build time in predictor.py."""
+        try:
+            response = requests.get(self.FIXTURES_URL, timeout=15)
+            response.raise_for_status()
+            self.fixture_difficulty = {
+                f['id']: (f.get('team_h_difficulty'), f.get('team_a_difficulty'))
+                for f in response.json()
+            }
+        except Exception as e:
+            print(f"Error fetching fixture difficulty: {e}")
+            self.fixture_difficulty = {}
 
     @staticmethod
     def _derive_season(events: List[Dict]) -> str:
@@ -251,6 +267,11 @@ class CurrentSeasonUpdater:
                         if source_key in gw:
                             record[col] = gw.get(source_key)
 
+                    h_diff, a_diff = self.fixture_difficulty.get(
+                        self._to_int(record.get('fixture'), 0), (None, None)
+                    )
+                    record['fdr'] = h_diff if self._to_bool(record.get('was_home')) else a_diff
+
                     normalized = self._normalize_record(record)
                     records.append(normalized)
 
@@ -335,10 +356,12 @@ class CurrentSeasonUpdater:
     def fetch_all_current_season_data(self):
         """Fetch gameweek data for all players in current season."""
         players = self.fetch_bootstrap_data()
-        
+
         if not players:
             print("No players found!")
             return
+
+        self.fetch_fixture_difficulty()
         
         print(f"\nFetching gameweek data for {len(players)} players...")
         print("This may take a while due to API rate limiting...")
