@@ -1,3 +1,4 @@
+import html
 import random
 import sys
 from pathlib import Path
@@ -15,16 +16,123 @@ from optimizer.squad_optimizer import VALID_FORMATIONS, optimize_squad
 
 st.set_page_config(page_title="Fantasy Manager", page_icon=":soccer:", layout="wide")
 
-PITCH_CSS = """
+POS_COLORS = {"GK": "#d9a916", "DEF": "#2f6fb0", "MID": "#b5333f", "FWD": "#d17a2b"}
+
+# App-wide tokens (turf/gold palette) shared by the pitch view and the
+# players table, so both tabs read as one theme instead of drifting apart.
+THEME_CSS = """
 <style>
-.pitch-row { background: linear-gradient(180deg, #1f8a3d, #2ba84a);
-             border-top: 1px solid rgba(255,255,255,0.25);
-             padding: 10px 4px; }
-.pitch-row:first-child { border-radius: 10px 10px 0 0; border-top: none; }
-.bench-row { background: #2c2c2c; border-radius: 0 0 10px 10px; padding: 10px 4px; }
-.slot-label { text-align: center; color: white; font-size: 0.75rem; margin-top: -6px; }
+:root {
+  --turf-a: #163d24; --turf-b: #1c4c2c; --bench: #101410;
+  --gold: #c99a2e; --gold-ink: #3a2c05;
+  --panel: #ffffff; --border: #d9d6c8;
+  --text-dim: #63624f; --text-faint: #99977f;
+  --gk: #d9a916; --def: #2f6fb0; --mid: #b5333f; --fwd: #d17a2b;
+}
+.players-table-wrap {
+  overflow-x: auto; border: 1px solid var(--border); border-radius: 14px;
+  background: var(--panel); padding: 4px;
+}
+table.players { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+table.players th {
+  text-align: left; font-size: 0.68rem; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--text-faint); font-weight: 700; padding: 10px 12px;
+  border-bottom: 1px solid var(--border); white-space: nowrap;
+}
+table.players td {
+  padding: 9px 12px; border-bottom: 1px solid var(--border);
+  white-space: nowrap; font-variant-numeric: tabular-nums;
+}
+table.players tr:last-child td { border-bottom: none; }
+.pos-chip { display: inline-flex; align-items: center; gap: 5px; font-size: 0.7rem; font-weight: 700; }
+.pos-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+.app-header {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 800; letter-spacing: -0.02em; font-size: 1.35rem;
+  margin-bottom: 4px;
+}
+.app-header .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--turf-b); display: inline-block; }
+.app-card {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+  padding: 18px 20px; height: 100%;
+}
+.app-card h3 {
+  margin: 0 0 4px; font-weight: 800; font-size: 0.95rem;
+}
+.app-card p { margin: 0 0 14px; color: var(--text-dim); font-size: 0.85rem; }
+div[data-testid="stButton"] button[kind="primary"] {
+  background: var(--gold); color: var(--gold-ink); border: none; font-weight: 700;
+}
 </style>
 """
+
+PITCH_CSS = """
+<style>
+/* st.container(key=...) stamps a real "st-key-<name>" class on the block's
+   wrapper div (unlike raw st.markdown HTML, which is inserted as an
+   isolated fragment and can't wrap later widgets) — that's the hook used
+   to paint an actual pitch background behind the player buttons below. */
+div.st-key-pitch {
+  position: relative;
+  background: repeating-linear-gradient(
+    180deg, var(--turf-a) 0, var(--turf-a) 56px, var(--turf-b) 56px, var(--turf-b) 112px
+  );
+  border-radius: 10px 10px 0 0;
+  padding: 18px 4px 6px;
+}
+div.st-key-pitch::before {
+  content: ""; position: absolute; left: 50%; top: 50%;
+  width: 110px; height: 110px; border: 1.5px solid rgba(255,255,255,0.45);
+  border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none;
+}
+.pitch-halfway {
+  position: absolute; left: 10px; right: 10px; top: 50%;
+  border-top: 1.5px solid rgba(255,255,255,0.45); transform: translateY(-50%); pointer-events: none;
+}
+div.st-key-bench { background: var(--bench); border-radius: 0 0 10px 10px; padding: 10px 4px; }
+.slot-label {
+  text-align: center; color: rgba(255,255,255,0.85); font-size: 0.7rem;
+  font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; margin-top: 4px;
+}
+
+/* Player slots render as circular, position-ringed "shirts" instead of
+   plain rectangular buttons. Streamlit wraps the marker div and the
+   st.button in separate sibling "element-container" divs (not as direct
+   siblings of each other), so :has() is needed to bridge from the marker
+   up to its container, then across to the next container's button. */
+div[data-testid="stElementContainer"]:has(.shirt-marker)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  border-radius: 50% !important;
+  width: 52px !important; height: 52px !important; min-width: 52px !important;
+  padding: 0 !important; margin: 0 auto !important;
+  display: flex !important; align-items: center; justify-content: center;
+  background: var(--bench) !important; color: #fff !important;
+  font-size: 0.66rem !important; font-weight: 700 !important; line-height: 1.1 !important;
+  border: 2.5px solid #6b6b6b !important; white-space: normal !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+}
+div[data-testid="stElementContainer"]:has(.shirt-marker.gk)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { border-color: var(--gk) !important; }
+div[data-testid="stElementContainer"]:has(.shirt-marker.def)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { border-color: var(--def) !important; }
+div[data-testid="stElementContainer"]:has(.shirt-marker.mid)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { border-color: var(--mid) !important; }
+div[data-testid="stElementContainer"]:has(.shirt-marker.fwd)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { border-color: var(--fwd) !important; }
+div[data-testid="stElementContainer"]:has(.shirt-marker.empty)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button {
+  background: transparent !important; border-style: dashed !important;
+  color: rgba(255,255,255,0.6) !important; box-shadow: none;
+}
+div[data-testid="stElementContainer"]:has(.shirt-marker.captain)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { box-shadow: 0 0 0 3px var(--gold) !important; }
+div[data-testid="stElementContainer"]:has(.shirt-marker.vice)
+  + div[data-testid="stElementContainer"] div[data-testid="stButton"] button { box-shadow: 0 0 0 3px rgba(201,154,46,0.55) !important; }
+</style>
+"""
+
+st.markdown(THEME_CSS, unsafe_allow_html=True)
 
 
 @st.cache_data
@@ -116,12 +224,15 @@ def generate_team_summary(squad, players):
 
 
 def render_landing():
-    st.title("Fantasy Manager :soccer:")
     st.caption("Enter your FPL team, or start building from scratch.")
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("Enter my team")
+        st.markdown(
+            "<div class='app-card'><h3>Enter my team</h3>"
+            "<p>Pull your live squad, bank and chips from the FPL API.</p></div>",
+            unsafe_allow_html=True,
+        )
         team_id = st.text_input("FPL Team ID", key="team_id_input")
         if st.button("Load team", type="primary") and team_id:
             try:
@@ -133,7 +244,11 @@ def render_landing():
                 st.error(f"Couldn't load team {team_id}: {e}")
 
     with col2:
-        st.subheader("Start from scratch")
+        st.markdown(
+            "<div class='app-card'><h3>Start from scratch</h3>"
+            "<p>Build a squad with a full £100m budget and no constraints.</p></div>",
+            unsafe_allow_html=True,
+        )
         if st.button("Build a new squad"):
             st.session_state.squad = blank_squad()
             st.rerun()
@@ -142,14 +257,20 @@ def render_landing():
 def render_slot(squad, players, bucket, idx, position_hint):
     ids = squad[bucket]
     pid = ids[idx]
-    label = "+ Empty"
+    label = "+"
+    marker_classes = ["shirt-marker", "empty"]
     if pid is not None:
         row = players.set_index("id").loc[pid]
         label = row["web_name"]
+        pos = row["position"] if bucket == "bench_ids" else position_hint
+        marker_classes = ["shirt-marker", pos.lower()]
         if pid == squad["captain_id"]:
             label += " (C)"
+            marker_classes.append("captain")
         elif pid == squad["vice_captain_id"]:
             label += " (VC)"
+            marker_classes.append("vice")
+    st.markdown(f"<div class='{' '.join(marker_classes)}'></div>", unsafe_allow_html=True)
     if st.button(label, key=f"{bucket}_{idx}", use_container_width=True):
         st.session_state.editing_slot = (bucket, idx, position_hint)
     st.markdown(f"<div class='slot-label'>{position_hint}</div>", unsafe_allow_html=True)
@@ -202,21 +323,20 @@ def render_pitch():
     rows.append(("MID", range(rows[-1][1].stop, rows[-1][1].stop + squad["formation"][1])))
     rows.append(("FWD", range(rows[-1][1].stop, rows[-1][1].stop + squad["formation"][2])))
 
-    for _, idx_range in rows:
-        idx_range = list(idx_range)
-        st.markdown("<div class='pitch-row'>", unsafe_allow_html=True)
-        cols = st.columns(len(idx_range))
-        for col, idx in zip(cols, idx_range):
-            with col:
-                render_slot(squad, players, "starting_ids", idx, positions[idx])
-        st.markdown("</div>", unsafe_allow_html=True)
+    with st.container(key="pitch"):
+        st.markdown("<div class='pitch-halfway'></div>", unsafe_allow_html=True)
+        for _, idx_range in rows:
+            idx_range = list(idx_range)
+            cols = st.columns(len(idx_range))
+            for col, idx in zip(cols, idx_range):
+                with col:
+                    render_slot(squad, players, "starting_ids", idx, positions[idx])
 
-    st.markdown("<div class='bench-row'>", unsafe_allow_html=True)
-    cols = st.columns(4)
-    for col, idx in zip(cols, range(4)):
-        with col:
-            render_slot(squad, players, "bench_ids", idx, "SUB")
-    st.markdown("</div>", unsafe_allow_html=True)
+    with st.container(key="bench"):
+        cols = st.columns(4)
+        for col, idx in zip(cols, range(4)):
+            with col:
+                render_slot(squad, players, "bench_ids", idx, "SUB")
 
     render_slot_editor(squad, players)
 
@@ -276,20 +396,32 @@ def render_players_tab():
         players = players[players['team'] == team]
     players = players[players['now_cost'] <= max_price]
 
-    st.dataframe(
-        players.sort_values('predicted_next_5_weighted', ascending=False)[[
-            'player_name', 'position', 'team', 'now_cost', 'current_season_points',
-            'sentiment_score', 'predicted_next_gw_points', 'predicted_next_5_weighted',
-            'next_5_fixtures',
-        ]].rename(columns={
-            'player_name': 'Player', 'position': 'Pos', 'team': 'Team',
-            'now_cost': '£M', 'current_season_points': 'Season pts',
-            'sentiment_score': 'Sentiment', 'predicted_next_gw_points': 'Next GW',
-            'predicted_next_5_weighted': 'Next 5 (weighted)',
-            'next_5_fixtures': 'Next 5 fixtures',
-        }),
-        use_container_width=True,
-        hide_index=True,
+    players = players.sort_values('predicted_next_5_weighted', ascending=False)
+
+    rows = []
+    for r in players.itertuples(index=False):
+        dot_color = POS_COLORS.get(r.position, "#999")
+        sentiment = "—" if pd.isna(r.sentiment_score) else f"{r.sentiment_score:.2f}"
+        rows.append(
+            "<tr>"
+            f"<td>{html.escape(str(r.player_name))}</td>"
+            f"<td><span class='pos-chip'><span class='pos-dot' style='background:{dot_color}'></span>{r.position}</span></td>"
+            f"<td>{html.escape(str(r.team))}</td>"
+            f"<td>£{r.now_cost:.1f}</td>"
+            f"<td>{r.current_season_points:.0f}</td>"
+            f"<td>{sentiment}</td>"
+            f"<td>{r.predicted_next_gw_points:.1f}</td>"
+            f"<td>{r.predicted_next_5_weighted:.1f}</td>"
+            f"<td>{html.escape(str(r.next_5_fixtures))}</td>"
+            "</tr>"
+        )
+
+    st.markdown(
+        "<div class='players-table-wrap'><table class='players'><thead><tr>"
+        "<th>Player</th><th>Pos</th><th>Team</th><th>£M</th><th>Season pts</th>"
+        "<th>Sentiment</th><th>Next GW</th><th>Next 5 (weighted)</th><th>Next 5 fixtures</th>"
+        f"</tr></thead><tbody>{''.join(rows)}</tbody></table></div>",
+        unsafe_allow_html=True,
     )
 
 
@@ -376,6 +508,8 @@ def render_chat():
             st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
 
+
+st.markdown("<div class='app-header'><span class='dot'></span>Fantasy Manager</div>", unsafe_allow_html=True)
 
 if "squad" not in st.session_state:
     st.session_state.squad = None
