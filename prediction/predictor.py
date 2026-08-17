@@ -53,6 +53,7 @@ class PlayerPredictor:
         self.predictions = {}
         self.player_name_to_id = {}
         self.team_of_player = {}
+        self.cost_of_player = {}
         self.team_name_of_id = {}
         self.upcoming_by_team = {}
         
@@ -112,6 +113,7 @@ class PlayerPredictor:
         bootstrap = response.json()
 
         self.team_of_player = {int(p['id']): int(p['team']) for p in bootstrap.get('elements', [])}
+        self.cost_of_player = {int(p['id']): p['now_cost'] / 10 for p in bootstrap.get('elements', [])}
         team_names = {int(t['id']): t['short_name'] for t in bootstrap.get('teams', [])}
         self.team_name_of_id = {int(t['id']): t['name'] for t in bootstrap.get('teams', [])}
 
@@ -212,10 +214,12 @@ class PlayerPredictor:
             (self.full_df['season'] == latest_season)
         ]['total_points'].sum()
         
-        # Get team and cost info. Prefer the live bootstrap team (handles summer transfers);
-        # historical `team` from cleaned_merged_seasons.csv can be a season stale.
+        # Get team and cost info. Prefer live bootstrap values (handles summer transfers
+        # and in-season price changes); historical CSV values can be stale.
         team = self.team_name_of_id.get(team_id, str(latest.get('team', latest.get('team_id', 'Unknown'))))
-        now_cost = pd.to_numeric(latest.get('now_cost', 0), errors='coerce')
+        now_cost = self.cost_of_player.get(int(player_id)) if player_id else None
+        if now_cost is None:
+            now_cost = pd.to_numeric(latest.get('now_cost', 0), errors='coerce')
         
         return {
             'player_name': str(player_name),
