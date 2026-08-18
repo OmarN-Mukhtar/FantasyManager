@@ -64,7 +64,6 @@ BASE_ROLLING_FEATURES = [
     'bps',
     'ict_index',
     'minutes',
-    'total_points',
     'selected',
     'transfers_balance',
     'now_cost',
@@ -78,6 +77,9 @@ BASE_ROLLING_FEATURES = [
     'expected_goals_conceded',
     'form',
 ]
+# total_points dropped from BASE_ROLLING_FEATURES (rolling mean smooths away per-gameweek
+# signal) in favor of explicit per-GW lags — see POINTS_LAGS in _build_features.
+POINTS_LAGS = 5
 
 
 class PlayerPredictor:
@@ -123,6 +125,14 @@ class PlayerPredictor:
                     lambda s: s.rolling(window=window, min_periods=1).mean()
                 )
                 self.feature_cols.append(feature_name)
+
+        # Individual (non-averaged) points scored in each of the last POINTS_LAGS gameweeks —
+        # points_gw_minus_1 is the GW right before "today", points_gw_minus_2 is two GWs
+        # before, etc. Kept as separate lags rather than a rolling mean.
+        for lag in range(1, POINTS_LAGS + 1):
+            feature_name = f"points_gw_minus_{lag}"
+            self.df[feature_name] = grouped['total_points'].shift(lag - 1)
+            self.feature_cols.append(feature_name)
 
         # Keep forward predictions independent from defensive stats.
         is_fwd = self.df['position'].astype(str).str.upper().eq('FWD')
@@ -208,8 +218,11 @@ class PlayerPredictor:
         sample_weight = RECENCY_DECAY ** (max_ordinal - df_train['season_ordinal'])
 
         # Full-featured model: every feature, for players with enough recent history.
+        # Hyperparams from Optuna tuning in notebooks/model_exploration.ipynb (100 trials,
+        # best XGBoost MAE=0.834 on the GW33-37 2025-26 holdout).
         self.model = xgb.XGBRegressor(
-            max_depth=6, learning_rate=0.1, n_estimators=150,
+            max_depth=4, learning_rate=0.108, n_estimators=290,
+            subsample=0.977, colsample_bytree=0.626, min_child_weight=4,
             random_state=42, n_jobs=-1, verbosity=0,
         )
         self.model.fit(X, y, sample_weight=sample_weight)
@@ -319,7 +332,10 @@ class PlayerPredictor:
             # (which get cold_weight == 1.0 here) carry real information.
             feature_row = pd.Series(0.0, index=self.feature_cols)
             feature_row['now_cost_feature'] = now_cost_live if now_cost_live is not None else 0.0
-            feature_row['player_id_feature'] = self.player_stable_id.get(player_name, 0)
+            # Never collapse unseen players onto a shared id 0 - mint each one a fresh unique id.
+            if player_name not in self.player_stable_id:
+                self.player_stable_id[player_name] = max(self.player_stable_id.values(), default=0) + 1
+            feature_row['player_id_feature'] = self.player_stable_id[player_name]
 
         upcoming = self.upcoming_by_team.get(team_id, [])
         if not upcoming:
