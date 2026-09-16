@@ -1,87 +1,87 @@
 [
   {
     "player_name": "David Raya Mart\u00edn",
-    "sentiment_score": 0.6378
+    "sentiment_score": 0.6669
   },
   {
     "player_name": "Kepa Arrizabalaga Revuelta",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.9918
   },
   {
     "player_name": "Illan Meslier",
-    "sentiment_score": -0.9819
+    "sentiment_score": -0.9776
   },
   {
     "player_name": "Gabriel dos Santos Magalh\u00e3es",
-    "sentiment_score": 0.0967
+    "sentiment_score": -0.3348
   },
   {
     "player_name": "Jurri\u00ebn Timber",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.9983
   },
   {
     "player_name": "William Saliba",
-    "sentiment_score": -0.6325
+    "sentiment_score": -0.5732
   },
   {
     "player_name": "Myles Lewis-Skelly",
-    "sentiment_score": 0.3638
-  },
-  {
-    "player_name": "Riccardo Calafiori",
-    "sentiment_score": 0.6685
-  },
-  {
-    "player_name": "Piero Hincapi\u00e9",
-    "sentiment_score": -0.5395
-  },
-  {
-    "player_name": "Benjamin White",
-    "sentiment_score": -0.3404
-  },
-  {
-    "player_name": "Cristhian Mosquera",
-    "sentiment_score": 0.2399
-  },
-  {
-    "player_name": "Bukayo Saka",
-    "sentiment_score": 0.6285
-  },
-  {
-    "player_name": "Declan Rice",
-    "sentiment_score": 0.2316
-  },
-  {
-    "player_name": "Eberechi Eze",
-    "sentiment_score": -0.1339
-  },
-  {
-    "player_name": "Martin \u00d8degaard",
-    "sentiment_score": 0.6501
-  },
-  {
-    "player_name": "Noni Madueke",
-    "sentiment_score": 0.3781
-  },
-  {
-    "player_name": "Mikel Merino Zaz\u00f3n",
-    "sentiment_score": 0.7306
-  },
-  {
-    "player_name": "Gabriel Martinelli Silva",
-    "sentiment_score": 0.9134
-  },
-  {
-    "player_name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
-    "sentiment_score": -0.2273
-  },
-  {
-    "player_name": "Max Dowman",
     "sentiment_score": -0.1631
   },
   {
+    "player_name": "Riccardo Calafiori",
+    "sentiment_score": 0.6442
+  },
+  {
+    "player_name": "Piero Hincapi\u00e9",
+    "sentiment_score": -0.6109
+  },
+  {
+    "player_name": "Benjamin White",
+    "sentiment_score": -0.1742
+  },
+  {
+    "player_name": "Cristhian Mosquera",
+    "sentiment_score": -0.034
+  },
+  {
+    "player_name": "Bukayo Saka",
+    "sentiment_score": 0.5698
+  },
+  {
+    "player_name": "Declan Rice",
+    "sentiment_score": 0.1182
+  },
+  {
+    "player_name": "Eberechi Eze",
+    "sentiment_score": 0.3058
+  },
+  {
+    "player_name": "Martin \u00d8degaard",
+    "sentiment_score": 0.7535
+  },
+  {
+    "player_name": "Noni Madueke",
+    "sentiment_score": 0.3725
+  },
+  {
+    "player_name": "Mikel Merino Zaz\u00f3n",
+    "sentiment_score": 0.0436
+  },
+  {
+    "player_name": "Gabriel Martinelli Silva",
+    "sentiment_score": 0.3822
+  },
+  {
+    "player_name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+    "sentiment_score": -0.1905
+  },
+  {
+    "player_name": "Max Dowman",
+    "sentiment_score": 0.7206
+  },
+  {
     "player_name": "Ethan Nwaneri",
-    "sentiment_score": 0.4103
+    "sentiment_score": 0.216
   },
   {
     "player_name": "F\u00e1bio Ferreira Vieira",
@@ -89,15 +89,15 @@
   },
   {
     "player_name": "Reiss Nelson",
-    "sentiment_score": -0.9317
+    "sentiment_score": -0.9621
   },
   {
     "player_name": "Viktor Gy\u00f6keres",
-    "sentiment_score": 0.2677
+    "sentiment_score": 0.1707
   },
   {
     "player_name": "Kai Havertz",
-    "sentiment_score": 0.3868
+    "sentiment_score": 0.3433
   },
   {
     "player_name": "Gabriel Fernando de Jesus",
@@ -105,7 +105,7 @@
   },
   {
     "player_name": "Ezri Konsa Ngoyo",
-    "sentiment_score": -0.4923
+    "sentiment_score": -0.1441
   },
   {
     "player_name": "Bruno Guimar\u00e3es Rodriguez Moura",
@@ -113,11 +113,11 @@
   },
   {
     "player_name": "Christos Tzolis",
-    "sentiment_score": 0.5341
+    "sentiment_score": 0.6003
   },
   {
     "player_name": "Marco Bizot",
-    "sentiment_score": -0.9233
+    "sentiment_score": -0.9377
   },
   {
     "player_name": "Lucas Digne",
@@ -125,15 +125,15 @@
   },
   {
     "player_name": "Matty Cash",
-    "sentiment_score": -0.1436
+    "sentiment_score": -0.0226
   },
   {
     "player_name": "Tyrone Mings",
-    "sentiment_score": -0.4058
+    "sentiment_score": -0.9573
   },
   {
     "player_name": "Pau Torres",
-    "sentiment_score": -0.4566
+    "sentiment_score": -0.4061
   },
   {
     "player_name": "Lamare Bogarde",
@@ -141,11 +141,11 @@
   },
   {
     "player_name": "Ian Maatsen",
-    "sentiment_score": -0.5638
+    "sentiment_score": -0.5741
   },
   {
     "player_name": "Victor Lindel\u00f6f",
-    "sentiment_score": 0.606
+    "sentiment_score": 0.3729
   },
   {
     "player_name": "Andr\u00e9s Garc\u00eda",
@@ -157,7 +157,7 @@
   },
   {
     "player_name": "Emiliano Buend\u00eda Stati",
-    "sentiment_score": 0.4231
+    "sentiment_score": 0.2853
   },
   {
     "player_name": "Leon Bailey",
@@ -165,19 +165,19 @@
   },
   {
     "player_name": "John McGinn",
-    "sentiment_score": 0.0752
+    "sentiment_score": -0.0757
   },
   {
     "player_name": "Ross Barkley",
-    "sentiment_score": -0.3981
+    "sentiment_score": -0.2412
   },
   {
     "player_name": "Boubacar Kamara",
-    "sentiment_score": -0.3919
+    "sentiment_score": 0.1137
   },
   {
     "player_name": "Amadou Onana",
-    "sentiment_score": 0.9836
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Samuel Iling-Junior",
@@ -185,39 +185,39 @@
   },
   {
     "player_name": "Bradley Burrowes",
-    "sentiment_score": -0.4744
+    "sentiment_score": -0.3962
   },
   {
     "player_name": "George Hemmings",
-    "sentiment_score": 0.0614
+    "sentiment_score": -0.2161
   },
   {
     "player_name": "Alysson Edward Franco da Rocha dos Santos",
-    "sentiment_score": 0.1027
+    "sentiment_score": -0.0596
   },
   {
     "player_name": "Johan Manzambi",
-    "sentiment_score": 0.2949
+    "sentiment_score": 0.1513
   },
   {
     "player_name": "Joao Gomes",
-    "sentiment_score": 0.3912
+    "sentiment_score": 0.5097
   },
   {
     "player_name": "Ollie Watkins",
-    "sentiment_score": 0.5456
+    "sentiment_score": 0.1537
   },
   {
     "player_name": "Tammy Abraham",
-    "sentiment_score": -0.5707
+    "sentiment_score": -0.6081
   },
   {
     "player_name": "Alejandro Garnacho Ferreyra",
-    "sentiment_score": -0.4552
+    "sentiment_score": -0.4025
   },
   {
     "player_name": "Nicolas Jackson",
-    "sentiment_score": 0.9925
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Brian Madjo",
@@ -229,7 +229,7 @@
   },
   {
     "player_name": "Zion Suzuki",
-    "sentiment_score": -0.1801
+    "sentiment_score": 0.0642
   },
   {
     "player_name": "Triston Rowe",
@@ -237,27 +237,27 @@
   },
   {
     "player_name": "Luka Lynch",
-    "sentiment_score": 0.4991
+    "sentiment_score": 0.6692
   },
   {
     "player_name": "Aaron Wan-Bissaka",
-    "sentiment_score": -0.0846
+    "sentiment_score": 0.4303
   },
   {
     "player_name": "Leon Goretzka",
-    "sentiment_score": -0.6885
+    "sentiment_score": -0.9845
   },
   {
     "player_name": "Taylor Harwood-Bellis",
-    "sentiment_score": 0.6684
+    "sentiment_score": -0.0539
   },
   {
     "player_name": "Ibrahim Mbaye",
-    "sentiment_score": 0.9909
+    "sentiment_score": 0.608
   },
   {
     "player_name": "\u0110or\u0111e Petrovi\u0107",
-    "sentiment_score": -0.2645
+    "sentiment_score": -0.3905
   },
   {
     "player_name": "Fraser Forster",
@@ -269,11 +269,11 @@
   },
   {
     "player_name": "James Hill",
-    "sentiment_score": -0.6148
+    "sentiment_score": -0.0385
   },
   {
     "player_name": "Adrien Truffert",
-    "sentiment_score": -0.0458
+    "sentiment_score": -0.3885
   },
   {
     "player_name": "Bafod\u00e9 Diakit\u00e9",
@@ -281,7 +281,7 @@
   },
   {
     "player_name": "Veljko Milosavljevic",
-    "sentiment_score": -0.3738
+    "sentiment_score": -0.0834
   },
   {
     "player_name": "Adam Smith",
@@ -301,15 +301,15 @@
   },
   {
     "player_name": "Marcus Tavernier",
-    "sentiment_score": -0.092
+    "sentiment_score": -0.0175
   },
   {
     "player_name": "Alex Scott",
-    "sentiment_score": -0.1542
+    "sentiment_score": -0.3896
   },
   {
     "player_name": "Justin Kluivert",
-    "sentiment_score": 0.0846
+    "sentiment_score": -0.1287
   },
   {
     "player_name": "Lewis Cook",
@@ -317,19 +317,19 @@
   },
   {
     "player_name": "Ben Gannon-Doak",
-    "sentiment_score": -0.4707
+    "sentiment_score": -0.4677
   },
   {
     "player_name": "Tyler Adams",
-    "sentiment_score": -0.1842
+    "sentiment_score": -0.4217
   },
   {
     "player_name": "David Brooks",
-    "sentiment_score": -0.2424
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Ryan Christie",
-    "sentiment_score": 0.3728
+    "sentiment_score": -0.3112
   },
   {
     "player_name": "Alex T\u00f3th",
@@ -353,7 +353,7 @@
   },
   {
     "player_name": "\u00c1lvaro Rodr\u00edguez",
-    "sentiment_score": -0.0444
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Ant\u00f3nio Jo\u00e3o Pereira de Albuquerque Tavares da Silva",
@@ -365,7 +365,7 @@
   },
   {
     "player_name": "Daniel Jebbison",
-    "sentiment_score": -0.1539
+    "sentiment_score": -0.9582
   },
   {
     "player_name": "Michele Di Gregorio",
@@ -373,7 +373,7 @@
   },
   {
     "player_name": "Caoimh\u00edn Kelleher",
-    "sentiment_score": 0.1483
+    "sentiment_score": 0.2681
   },
   {
     "player_name": "H\u00e1kon Rafn Valdimarsson",
@@ -381,31 +381,31 @@
   },
   {
     "player_name": "Nathan Collins",
-    "sentiment_score": -0.3628
+    "sentiment_score": -0.1795
   },
   {
     "player_name": "Sepp van den Berg",
-    "sentiment_score": -0.0108
+    "sentiment_score": -0.87
   },
   {
     "player_name": "Keane Lewis-Potter",
-    "sentiment_score": 0.9341
+    "sentiment_score": 0.843
   },
   {
     "player_name": "Kristoffer Ajer",
-    "sentiment_score": -0.0208
+    "sentiment_score": -0.6522
   },
   {
     "player_name": "Michael Kayode",
-    "sentiment_score": 0.9583
+    "sentiment_score": 0.9049
   },
   {
     "player_name": "Rico Henry",
-    "sentiment_score": -0.6812
+    "sentiment_score": -0.9547
   },
   {
     "player_name": "Aaron Hickey",
-    "sentiment_score": -0.0307
+    "sentiment_score": 0.4366
   },
   {
     "player_name": "Kim Ji-soo",
@@ -417,7 +417,7 @@
   },
   {
     "player_name": "Kevin Schade",
-    "sentiment_score": 0.1567
+    "sentiment_score": 0.2845
   },
   {
     "player_name": "Dango Ouattara",
@@ -433,7 +433,7 @@
   },
   {
     "player_name": "Vitaly Janelt",
-    "sentiment_score": -0.3498
+    "sentiment_score": -0.3638
   },
   {
     "player_name": "Antoni Milambo",
@@ -441,7 +441,7 @@
   },
   {
     "player_name": "F\u00e1bio Freitas Gouveia Carvalho",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.3986
   },
   {
     "player_name": "Yehor Yarmoliuk",
@@ -453,19 +453,19 @@
   },
   {
     "player_name": "Jaidon Anthony",
-    "sentiment_score": 0.9885
+    "sentiment_score": -0.8938
   },
   {
     "player_name": "Igor Thiago Nascimento Rodrigues",
-    "sentiment_score": 0.6227
+    "sentiment_score": 0.4377
   },
   {
     "player_name": "Kaye Furo",
-    "sentiment_score": 0.0396
+    "sentiment_score": 0.2367
   },
   {
     "player_name": "Callum Wilson",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.2767
   },
   {
     "player_name": "Mamadou Sangar\u00e9",
@@ -477,15 +477,15 @@
   },
   {
     "player_name": "Gustavo Nunes Fernandes Gomes",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.9885
   },
   {
     "player_name": "Bart Verbruggen",
-    "sentiment_score": -0.258
+    "sentiment_score": 0.1528
   },
   {
     "player_name": "Jason Steele",
-    "sentiment_score": -0.9691
+    "sentiment_score": 0.5187
   },
   {
     "player_name": "Ferdi Kad\u0131o\u011flu",
@@ -493,15 +493,15 @@
   },
   {
     "player_name": "Olivier Boscagli",
-    "sentiment_score": 0.9209
+    "sentiment_score": 0.9342
   },
   {
     "player_name": "Maxim De Cuyper",
-    "sentiment_score": 0.0761
+    "sentiment_score": 0.0999
   },
   {
     "player_name": "Lewis Dunk",
-    "sentiment_score": 0.5214
+    "sentiment_score": 0.436
   },
   {
     "player_name": "Diego Coppola",
@@ -521,7 +521,7 @@
   },
   {
     "player_name": "Mitoma Kaoru",
-    "sentiment_score": -0.8154
+    "sentiment_score": -0.9593
   },
   {
     "player_name": "Yankuba Minteh",
@@ -529,11 +529,11 @@
   },
   {
     "player_name": "Jack Hinshelwood",
-    "sentiment_score": 0.9132
+    "sentiment_score": 0.9615
   },
   {
     "player_name": "Pascal Gro\u00df",
-    "sentiment_score": 0.4428
+    "sentiment_score": 0.945
   },
   {
     "player_name": "Georginio Rutter",
@@ -541,7 +541,7 @@
   },
   {
     "player_name": "Matt O'Riley",
-    "sentiment_score": -0.8732
+    "sentiment_score": -0.9432
   },
   {
     "player_name": "Diego G\u00f3mez Amarilla",
@@ -553,7 +553,7 @@
   },
   {
     "player_name": "Yasin Ayari",
-    "sentiment_score": 0.2009
+    "sentiment_score": 0.2671
   },
   {
     "player_name": "Mats Wieffer",
@@ -569,43 +569,43 @@
   },
   {
     "player_name": "Nehemiah Oriola",
-    "sentiment_score": -0.3844
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Zadok Yohanna",
-    "sentiment_score": -0.317
+    "sentiment_score": -0.1295
   },
   {
     "player_name": "Stefanos Tzimas",
-    "sentiment_score": -0.7668
+    "sentiment_score": -0.3947
   },
   {
     "player_name": "Charalampos Kostoulas",
-    "sentiment_score": 0.1954
+    "sentiment_score": 0.2783
   },
   {
     "player_name": "Evan Ferguson",
-    "sentiment_score": 0.9206
+    "sentiment_score": 0.921
   },
   {
     "player_name": "Pascal Struijk",
-    "sentiment_score": 0.0778
+    "sentiment_score": 0.4855
   },
   {
     "player_name": "Luka Vu\u0161kovi\u0107",
-    "sentiment_score": 0.9862
+    "sentiment_score": 0.9821
   },
   {
     "player_name": "Promise David",
-    "sentiment_score": 0.9947
+    "sentiment_score": 0.9981
   },
   {
     "player_name": "Ibrahim Osman",
-    "sentiment_score": -0.6793
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Malick Yalcouy\u00e9",
-    "sentiment_score": 0.2564
+    "sentiment_score": 0.2895
   },
   {
     "player_name": "Jaouen Hadjam",
@@ -613,7 +613,7 @@
   },
   {
     "player_name": "Amario Cozier-Duberry",
-    "sentiment_score": 0.9943
+    "sentiment_score": 0.9986
   },
   {
     "player_name": "Jos\u00e9 Mar\u00eda Andr\u00e9s Baixauli",
@@ -621,31 +621,31 @@
   },
   {
     "player_name": "Femi Azeez",
-    "sentiment_score": 0.1027
+    "sentiment_score": -0.2741
   },
   {
     "player_name": "Younes Ibrahim",
-    "sentiment_score": 0.1926
+    "sentiment_score": 0.1783
   },
   {
     "player_name": "Emiliano Mart\u00ednez Romero",
-    "sentiment_score": -0.0031
+    "sentiment_score": -0.4658
   },
   {
     "player_name": "Morgan Rogers",
-    "sentiment_score": 0.3617
+    "sentiment_score": 0.2988
   },
   {
     "player_name": "Jordan Henderson",
-    "sentiment_score": 0.1471
+    "sentiment_score": 0.5479
   },
   {
     "player_name": "Danny Welbeck",
-    "sentiment_score": 0.4194
+    "sentiment_score": 0.9918
   },
   {
     "player_name": "Robert Lynch S\u00e1nchez",
-    "sentiment_score": 0.93
+    "sentiment_score": 0.9973
   },
   {
     "player_name": "Filip J\u00f6rgensen",
@@ -653,7 +653,7 @@
   },
   {
     "player_name": "Reece James",
-    "sentiment_score": 0.6371
+    "sentiment_score": -0.2347
   },
   {
     "player_name": "Trevoh Chalobah",
@@ -661,11 +661,11 @@
   },
   {
     "player_name": "Malo Gusto",
-    "sentiment_score": -0.151
+    "sentiment_score": -0.3387
   },
   {
     "player_name": "Wesley Fofana",
-    "sentiment_score": -0.6366
+    "sentiment_score": -0.2359
   },
   {
     "player_name": "Beno\u00eet Badiashile Mukinayi",
@@ -673,11 +673,11 @@
   },
   {
     "player_name": "Jorrel Hato",
-    "sentiment_score": -0.1317
+    "sentiment_score": -0.0373
   },
   {
     "player_name": "Levi Samuels Colwill",
-    "sentiment_score": -0.2489
+    "sentiment_score": 0.0348
   },
   {
     "player_name": "Mamadou Sarr",
@@ -685,35 +685,35 @@
   },
   {
     "player_name": "Josh Acheampong",
-    "sentiment_score": -0.9765
+    "sentiment_score": -0.9312
   },
   {
     "player_name": "Marco Palestra",
-    "sentiment_score": -0.0697
+    "sentiment_score": -0.0038
   },
   {
     "player_name": "Cole Palmer",
-    "sentiment_score": 0.1335
+    "sentiment_score": -0.1889
   },
   {
     "player_name": "Pedro Lomba Neto",
-    "sentiment_score": 0.6433
+    "sentiment_score": 0.5458
   },
   {
     "player_name": "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves",
-    "sentiment_score": 0.1284
+    "sentiment_score": 0.2481
   },
   {
     "player_name": "Jamie Bynoe-Gittens",
-    "sentiment_score": 0.0363
+    "sentiment_score": 0.1979
   },
   {
     "player_name": "Mois\u00e9s Caicedo Corozo",
-    "sentiment_score": -0.2603
+    "sentiment_score": -0.3878
   },
   {
     "player_name": "Rom\u00e9o Lavia",
-    "sentiment_score": -0.1293
+    "sentiment_score": -0.5789
   },
   {
     "player_name": "D\u00e1rio Lu\u00eds Essugo",
@@ -721,11 +721,11 @@
   },
   {
     "player_name": "Geovany Quenda",
-    "sentiment_score": -0.5871
+    "sentiment_score": -0.9194
   },
   {
     "player_name": "Jo\u00e3o Pedro Junqueira de Jesus",
-    "sentiment_score": 0.5381
+    "sentiment_score": 0.3032
   },
   {
     "player_name": "Marc Guiu Paz",
@@ -737,7 +737,7 @@
   },
   {
     "player_name": "Emmanuel Emegha",
-    "sentiment_score": -0.0305
+    "sentiment_score": -0.2817
   },
   {
     "player_name": "Maxence Lacroix",
@@ -745,7 +745,7 @@
   },
   {
     "player_name": "Mike Penders",
-    "sentiment_score": 0.111
+    "sentiment_score": 0.2762
   },
   {
     "player_name": "Aaron Anselmino",
@@ -753,11 +753,11 @@
   },
   {
     "player_name": "Valent\u00edn Barco",
-    "sentiment_score": 0.6015
+    "sentiment_score": 0.4274
   },
   {
     "player_name": "Pep Chavarr\u00eda",
-    "sentiment_score": 0.8055
+    "sentiment_score": 0.3807
   },
   {
     "player_name": "Ethan Pinnock",
@@ -765,11 +765,11 @@
   },
   {
     "player_name": "Frank Onyeka",
-    "sentiment_score": -0.3131
+    "sentiment_score": -0.4214
   },
   {
     "player_name": "Carl Rushworth",
-    "sentiment_score": -0.0261
+    "sentiment_score": -0.3923
   },
   {
     "player_name": "Oliver Dovin",
@@ -777,27 +777,27 @@
   },
   {
     "player_name": "Ben Wilson",
-    "sentiment_score": 0.3745
+    "sentiment_score": -0.8561
   },
   {
     "player_name": "Bobby Thomas",
-    "sentiment_score": 0.9119
+    "sentiment_score": -0.1129
   },
   {
     "player_name": "Liam Kitching",
-    "sentiment_score": 0.7297
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Milan van Ewijk",
-    "sentiment_score": 0.4421
+    "sentiment_score": 0.3895
   },
   {
     "player_name": "Jay Dasilva",
-    "sentiment_score": 0.2843
+    "sentiment_score": 0.0064
   },
   {
     "player_name": "Kaine Kesler-Hayden",
-    "sentiment_score": -0.6659
+    "sentiment_score": 0.0491
   },
   {
     "player_name": "Jake Bidwell",
@@ -809,7 +809,7 @@
   },
   {
     "player_name": "Luke Woolfenden",
-    "sentiment_score": -0.4123
+    "sentiment_score": -0.8066
   },
   {
     "player_name": "Miguel Brau",
@@ -817,11 +817,11 @@
   },
   {
     "player_name": "Aur\u00e8le Amenda",
-    "sentiment_score": -0.9188
+    "sentiment_score": -0.8754
   },
   {
     "player_name": "Jack Rudoni",
-    "sentiment_score": -0.0501
+    "sentiment_score": -0.2157
   },
   {
     "player_name": "Matt Grimes",
@@ -833,11 +833,11 @@
   },
   {
     "player_name": "Ephron Mason-Clark",
-    "sentiment_score": 0.3436
+    "sentiment_score": 0.6606
   },
   {
     "player_name": "Josh Eccles",
-    "sentiment_score": -0.4782
+    "sentiment_score": -0.8567
   },
   {
     "player_name": "Victor Torp",
@@ -845,7 +845,7 @@
   },
   {
     "player_name": "George Shepherd",
-    "sentiment_score": -0.2243
+    "sentiment_score": -0.0861
   },
   {
     "player_name": "Loum Tchaouna",
@@ -857,19 +857,19 @@
   },
   {
     "player_name": "Kai Andrews",
-    "sentiment_score": 0.9982
+    "sentiment_score": 0.2582
   },
   {
     "player_name": "Haji Wright",
-    "sentiment_score": -0.4646
+    "sentiment_score": -0.5601
   },
   {
     "player_name": "Brandon Thomas-Asante",
-    "sentiment_score": 0.9145
+    "sentiment_score": 0.7621
   },
   {
     "player_name": "Ellis Simms",
-    "sentiment_score": 0.0264
+    "sentiment_score": -0.6073
   },
   {
     "player_name": "Jahnoah Markelo",
@@ -877,23 +877,23 @@
   },
   {
     "player_name": "Norman Bassette",
-    "sentiment_score": 0.2565
+    "sentiment_score": 0.995
   },
   {
     "player_name": "Taiwo Awoniyi",
-    "sentiment_score": -0.6411
+    "sentiment_score": -0.2455
   },
   {
     "player_name": "Caleb Yirenkyi",
-    "sentiment_score": 0.994
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Gustavo Hamer",
-    "sentiment_score": 0.9742
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Sidiki Cherif",
-    "sentiment_score": -0.9333
+    "sentiment_score": -0.954
   },
   {
     "player_name": "Dan Bentley",
@@ -901,11 +901,11 @@
   },
   {
     "player_name": "Yann Gboho",
-    "sentiment_score": 0.474
+    "sentiment_score": -0.9388
   },
   {
     "player_name": "Stephen Mfuni",
-    "sentiment_score": -0.4404
+    "sentiment_score": -0.4589
   },
   {
     "player_name": "Evann Guessand",
@@ -913,27 +913,27 @@
   },
   {
     "player_name": "Axel Disasi",
-    "sentiment_score": -0.4406
+    "sentiment_score": -0.5472
   },
   {
     "player_name": "Dean Henderson",
-    "sentiment_score": 0.2467
+    "sentiment_score": 0.3349
   },
   {
     "player_name": "Walter Ben\u00edtez",
-    "sentiment_score": -0.5336
+    "sentiment_score": -0.3623
   },
   {
     "player_name": "Chris Richards",
-    "sentiment_score": -0.0401
+    "sentiment_score": -0.9565
   },
   {
     "player_name": "Jaydee Canvot",
-    "sentiment_score": -0.5947
+    "sentiment_score": -0.649
   },
   {
     "player_name": "Tyrick Mitchell",
-    "sentiment_score": -0.1616
+    "sentiment_score": -0.5653
   },
   {
     "player_name": "Borna Sosa",
@@ -941,7 +941,7 @@
   },
   {
     "player_name": "Chadi Riad Dnanou",
-    "sentiment_score": -0.9572
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Oscar Mingueza",
@@ -949,11 +949,11 @@
   },
   {
     "player_name": "Isma\u00efla Sarr",
-    "sentiment_score": -0.9929
+    "sentiment_score": -0.9855
   },
   {
     "player_name": "Adam Wharton",
-    "sentiment_score": 0.5414
+    "sentiment_score": 0.7798
   },
   {
     "player_name": "Y\u00e9remy Pino Santos",
@@ -961,7 +961,7 @@
   },
   {
     "player_name": "Will Hughes",
-    "sentiment_score": 0.8754
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Jefferson Lerma Sol\u00eds",
@@ -969,7 +969,7 @@
   },
   {
     "player_name": "Daichi Kamada",
-    "sentiment_score": -0.0139
+    "sentiment_score": -0.0109
   },
   {
     "player_name": "Justin Devenny",
@@ -977,7 +977,7 @@
   },
   {
     "player_name": "Romain Esse",
-    "sentiment_score": 0.5184
+    "sentiment_score": -0.239
   },
   {
     "player_name": "Matheus Fran\u00e7a de Oliveira",
@@ -985,31 +985,31 @@
   },
   {
     "player_name": "Cheick Doucour\u00e9",
-    "sentiment_score": 0.059
+    "sentiment_score": 0.0538
   },
   {
     "player_name": "Jesurun Rak-Sakyi",
-    "sentiment_score": 0.5255
+    "sentiment_score": 0.7605
   },
   {
     "player_name": "Rio Cardines",
-    "sentiment_score": 0.995
+    "sentiment_score": 0.3802
   },
   {
     "player_name": "Jo\u00e9l Drakes-Thomas",
-    "sentiment_score": -0.9674
+    "sentiment_score": 0.0
   },
   {
     "player_name": "J\u00f8rgen Strand Larsen",
-    "sentiment_score": 0.3991
+    "sentiment_score": 0.3336
   },
   {
     "player_name": "Jean-Philippe Mateta",
-    "sentiment_score": 0.5212
+    "sentiment_score": -0.2829
   },
   {
     "player_name": "Eddie Nketiah",
-    "sentiment_score": 0.0053
+    "sentiment_score": -0.1293
   },
   {
     "player_name": "Christantus Uche",
@@ -1017,7 +1017,7 @@
   },
   {
     "player_name": "Dwight McNeil",
-    "sentiment_score": 0.8699
+    "sentiment_score": 0.9008
   },
   {
     "player_name": "Remi Matthews",
@@ -1029,7 +1029,7 @@
   },
   {
     "player_name": "Anan Khalaili",
-    "sentiment_score": 0.4869
+    "sentiment_score": -0.0065
   },
   {
     "player_name": "Zavier Gozo",
@@ -1037,35 +1037,35 @@
   },
   {
     "player_name": "Honest Ahanor",
-    "sentiment_score": 0.1976
+    "sentiment_score": 0.1991
   },
   {
     "player_name": "Ben Chilwell",
-    "sentiment_score": 0.5838
+    "sentiment_score": -0.2925
   },
   {
     "player_name": "Quinten Timber",
-    "sentiment_score": -0.7063
+    "sentiment_score": 0.2555
   },
   {
     "player_name": "Dar\u00edo Osorio",
-    "sentiment_score": 0.933
+    "sentiment_score": 0.8096
   },
   {
     "player_name": "Christian N\u00f8rgaard",
-    "sentiment_score": -0.3012
+    "sentiment_score": -0.427
   },
   {
     "player_name": "Brennan Johnson",
-    "sentiment_score": -0.3511
+    "sentiment_score": -0.3952
   },
   {
     "player_name": "Jordan Pickford",
-    "sentiment_score": 0.6655
+    "sentiment_score": 0.5692
   },
   {
     "player_name": "Mark Travers",
-    "sentiment_score": -0.8577
+    "sentiment_score": -0.9215
   },
   {
     "player_name": "Tom King",
@@ -1073,23 +1073,23 @@
   },
   {
     "player_name": "James Tarkowski",
-    "sentiment_score": 0.4259
+    "sentiment_score": 0.1168
   },
   {
     "player_name": "Jarrad Branthwaite",
-    "sentiment_score": 0.612
+    "sentiment_score": 0.1395
   },
   {
     "player_name": "Michael Keane",
-    "sentiment_score": 0.8406
+    "sentiment_score": -0.0956
   },
   {
     "player_name": "Jake O'Brien",
-    "sentiment_score": -0.1181
+    "sentiment_score": -0.9055
   },
   {
     "player_name": "Vitalii Mykolenko",
-    "sentiment_score": 0.6316
+    "sentiment_score": 0.5382
   },
   {
     "player_name": "Nathan Patterson",
@@ -1101,19 +1101,19 @@
   },
   {
     "player_name": "Kiernan Dewsbury-Hall",
-    "sentiment_score": -0.2925
+    "sentiment_score": -0.399
   },
   {
     "player_name": "Jack Grealish",
-    "sentiment_score": 0.3513
+    "sentiment_score": 0.5124
   },
   {
     "player_name": "James Garner",
-    "sentiment_score": 0.3172
+    "sentiment_score": 0.2793
   },
   {
     "player_name": "Tyrique George",
-    "sentiment_score": 0.0129
+    "sentiment_score": 0.1808
   },
   {
     "player_name": "Carlos Alcaraz Dur\u00e1n",
@@ -1121,47 +1121,47 @@
   },
   {
     "player_name": "Harrison Armstrong",
-    "sentiment_score": 0.4477
+    "sentiment_score": 0.9351
   },
   {
     "player_name": "Tyler Dibling",
-    "sentiment_score": 0.2977
+    "sentiment_score": 0.2766
   },
   {
     "player_name": "Merlin R\u00f6hl",
-    "sentiment_score": 0.4563
+    "sentiment_score": 0.0022
   },
   {
     "player_name": "Hayden Hackney",
-    "sentiment_score": -0.0352
+    "sentiment_score": 0.5949
   },
   {
     "player_name": "Norberto Bercique Gomes Betuncal",
-    "sentiment_score": 0.859
+    "sentiment_score": 0.8882
   },
   {
     "player_name": "Thierno Barry",
-    "sentiment_score": 0.2098
+    "sentiment_score": -0.3302
   },
   {
     "player_name": "Ainsley Maitland-Niles",
-    "sentiment_score": 0.4709
+    "sentiment_score": 0.1085
   },
   {
     "player_name": "Braiden Graham",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.2646
   },
   {
     "player_name": "Bernd Leno",
-    "sentiment_score": -0.2534
+    "sentiment_score": -0.7075
   },
   {
     "player_name": "Benjamin Lecomte",
-    "sentiment_score": -0.124
+    "sentiment_score": -0.0457
   },
   {
     "player_name": "Alfie McNally",
-    "sentiment_score": -0.2789
+    "sentiment_score": -0.5156
   },
   {
     "player_name": "Joachim Andersen",
@@ -1169,7 +1169,7 @@
   },
   {
     "player_name": "Antonee Robinson",
-    "sentiment_score": -0.4883
+    "sentiment_score": -0.0386
   },
   {
     "player_name": "Jorge Cuenca Barreno",
@@ -1177,47 +1177,47 @@
   },
   {
     "player_name": "Kenny Tete",
-    "sentiment_score": -0.8424
+    "sentiment_score": -0.949
   },
   {
     "player_name": "Calvin Bassey",
-    "sentiment_score": 0.5167
+    "sentiment_score": 0.4009
   },
   {
     "player_name": "Timothy Castagne",
-    "sentiment_score": 0.2648
+    "sentiment_score": -0.7853
   },
   {
     "player_name": "Alex Iwobi",
-    "sentiment_score": 0.3277
+    "sentiment_score": 0.6404
   },
   {
     "player_name": "Emile Smith Rowe",
-    "sentiment_score": -0.8698
+    "sentiment_score": -0.3318
   },
   {
     "player_name": "Kevin Santos Lopes de Macedo",
-    "sentiment_score": 0.6868
+    "sentiment_score": 0.7195
   },
   {
     "player_name": "Oscar Bobb",
-    "sentiment_score": 0.8525
+    "sentiment_score": 0.4887
   },
   {
     "player_name": "Sander Berge",
-    "sentiment_score": 0.6366
+    "sentiment_score": 0.3561
   },
   {
     "player_name": "Tom Cairney",
-    "sentiment_score": -0.4061
+    "sentiment_score": -0.8283
   },
   {
     "player_name": "Josh King",
-    "sentiment_score": 0.9954
+    "sentiment_score": 0.9889
   },
   {
     "player_name": "Ryan Sessegnon",
-    "sentiment_score": 0.0457
+    "sentiment_score": -0.2304
   },
   {
     "player_name": "Harrison Reed",
@@ -1225,11 +1225,11 @@
   },
   {
     "player_name": "Rodrigo Muniz Carvalho",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.5137
   },
   {
     "player_name": "Jonah Kusi-Asare",
-    "sentiment_score": -0.2265
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Gonzalo Garc\u00eda",
@@ -1237,11 +1237,11 @@
   },
   {
     "player_name": "C\u00e9sar Palacios",
-    "sentiment_score": -0.3308
+    "sentiment_score": 0.1695
   },
   {
     "player_name": "Shea Charles",
-    "sentiment_score": 0.5484
+    "sentiment_score": -0.2839
   },
   {
     "player_name": "Luc De Fougerolles",
@@ -1249,7 +1249,7 @@
   },
   {
     "player_name": "Macaulay Zepa",
-    "sentiment_score": -0.2542
+    "sentiment_score": -0.264
   },
   {
     "player_name": "Hugo Larsson",
@@ -1257,27 +1257,27 @@
   },
   {
     "player_name": "Manuel \u00c1ngel Mor\u00e1n Ib\u00e1\u00f1ez",
-    "sentiment_score": 0.9534
+    "sentiment_score": -0.7671
   },
   {
     "player_name": "David Affengruber",
-    "sentiment_score": -0.2298
+    "sentiment_score": -0.0234
   },
   {
     "player_name": "Tim Iroegbunam",
-    "sentiment_score": -0.7982
+    "sentiment_score": -0.7767
   },
   {
     "player_name": "Dillon Phillips",
-    "sentiment_score": 0.5474
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Jack Butland",
-    "sentiment_score": -0.8892
+    "sentiment_score": -0.1494
   },
   {
     "player_name": "Harvey Cartwright",
-    "sentiment_score": 0.9628
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Thimoth\u00e9e Lo-Tutala",
@@ -1285,15 +1285,15 @@
   },
   {
     "player_name": "John Egan",
-    "sentiment_score": 0.5741
+    "sentiment_score": 0.6422
   },
   {
     "player_name": "Charlie Hughes",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.4414
   },
   {
     "player_name": "Semi Ajayi",
-    "sentiment_score": -0.0139
+    "sentiment_score": 0.0155
   },
   {
     "player_name": "Lewie Coyle",
@@ -1305,11 +1305,11 @@
   },
   {
     "player_name": "Ryan Giles",
-    "sentiment_score": 0.8517
+    "sentiment_score": 0.9848
   },
   {
     "player_name": "Matty Jacob",
-    "sentiment_score": 0.9979
+    "sentiment_score": 0.9976
   },
   {
     "player_name": "Cathal McCarthy",
@@ -1317,15 +1317,15 @@
   },
   {
     "player_name": "Paddy McNair",
-    "sentiment_score": 0.1319
+    "sentiment_score": 0.4399
   },
   {
     "player_name": "Mohamed Belloumi",
-    "sentiment_score": 0.3523
+    "sentiment_score": 0.4594
   },
   {
     "player_name": "Liam Millar",
-    "sentiment_score": 0.9599
+    "sentiment_score": 0.9875
   },
   {
     "player_name": "Kieran Dowell",
@@ -1337,15 +1337,15 @@
   },
   {
     "player_name": "Regan Slater",
-    "sentiment_score": 0.4642
+    "sentiment_score": 0.3748
   },
   {
     "player_name": "Eliot Matazo",
-    "sentiment_score": -0.8556
+    "sentiment_score": -0.824
   },
   {
     "player_name": "Abd\u00fclkadir \u00d6m\u00fcr",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.4936
   },
   {
     "player_name": "Abu Kamara",
@@ -1353,11 +1353,11 @@
   },
   {
     "player_name": "\u00d3scar Zambrano",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.7792
   },
   {
     "player_name": "Oli McBurnie",
-    "sentiment_score": -0.0192
+    "sentiment_score": 0.754
   },
   {
     "player_name": "David Akintola",
@@ -1381,7 +1381,7 @@
   },
   {
     "player_name": "Matt Targett",
-    "sentiment_score": -0.8961
+    "sentiment_score": -0.6978
   },
   {
     "player_name": "Hidemasa Morita",
@@ -1389,11 +1389,11 @@
   },
   {
     "player_name": "Konstantinos Tzolakis",
-    "sentiment_score": 0.4254
+    "sentiment_score": 0.5536
   },
   {
     "player_name": "Jens Hjert\u00f8-Dahl",
-    "sentiment_score": -0.2958
+    "sentiment_score": -0.4936
   },
   {
     "player_name": "Elliot Stroud",
@@ -1401,15 +1401,15 @@
   },
   {
     "player_name": "Lucas Herrington",
-    "sentiment_score": 0.2371
+    "sentiment_score": 0.2029
   },
   {
     "player_name": "Nobel Mendy",
-    "sentiment_score": 0.2738
+    "sentiment_score": 0.1895
   },
   {
     "player_name": "Lucas Gourna-Douath",
-    "sentiment_score": 0.8592
+    "sentiment_score": 0.9975
   },
   {
     "player_name": "Mohamed-Ali Cho",
@@ -1425,19 +1425,19 @@
   },
   {
     "player_name": "Brooke Norton-Cuffy",
-    "sentiment_score": 0.1211
+    "sentiment_score": -0.5328
   },
   {
     "player_name": "Sorba Thomas",
-    "sentiment_score": -0.038
+    "sentiment_score": -0.1765
   },
   {
     "player_name": "Christos Mouzakitis",
-    "sentiment_score": 0.9977
+    "sentiment_score": 0.9976
   },
   {
     "player_name": "Issa Diop",
-    "sentiment_score": -0.9553
+    "sentiment_score": -0.9514
   },
   {
     "player_name": "Sa\u0161a Luki\u0107",
@@ -1445,19 +1445,19 @@
   },
   {
     "player_name": "Christian Walton",
-    "sentiment_score": 0.9476
+    "sentiment_score": -0.2494
   },
   {
     "player_name": "Alex Palmer",
-    "sentiment_score": -0.2853
+    "sentiment_score": -0.8804
   },
   {
     "player_name": "David Button",
-    "sentiment_score": -0.4365
+    "sentiment_score": 0.0
   },
   {
     "player_name": "C\u00e9dric Kipr\u00e9",
-    "sentiment_score": -0.4365
+    "sentiment_score": 0.684
   },
   {
     "player_name": "Dara O'Shea",
@@ -1465,27 +1465,27 @@
   },
   {
     "player_name": "Leif Davis",
-    "sentiment_score": 0.052
+    "sentiment_score": 0.4377
   },
   {
     "player_name": "Jacob Greaves",
-    "sentiment_score": -0.6665
+    "sentiment_score": 0.1477
   },
   {
     "player_name": "Ben Johnson",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.9764
   },
   {
     "player_name": "Darnell Furlong",
-    "sentiment_score": -0.9528
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Marcelino N\u00fa\u00f1ez",
-    "sentiment_score": 0.8619
+    "sentiment_score": 0.842
   },
   {
     "player_name": "Azor Matusiwa",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.2521
   },
   {
     "player_name": "Wes Burns",
@@ -1493,11 +1493,11 @@
   },
   {
     "player_name": "Jack Taylor",
-    "sentiment_score": -0.0897
+    "sentiment_score": -0.3727
   },
   {
     "player_name": "Jack Clarke",
-    "sentiment_score": 0.2216
+    "sentiment_score": 0.1128
   },
   {
     "player_name": "Chiedozie Ogbene",
@@ -1505,7 +1505,7 @@
   },
   {
     "player_name": "Abdul Fatawu",
-    "sentiment_score": -0.3955
+    "sentiment_score": -0.4543
   },
   {
     "player_name": "Emersonn Correia da Silva",
@@ -1517,7 +1517,7 @@
   },
   {
     "player_name": "Jaden Philogene",
-    "sentiment_score": 0.9387
+    "sentiment_score": 0.8054
   },
   {
     "player_name": "Sam Szmodics",
@@ -1525,11 +1525,11 @@
   },
   {
     "player_name": "Chuba Akpom",
-    "sentiment_score": -0.8628
+    "sentiment_score": 0.165
   },
   {
     "player_name": "Sindre Walle Egeli",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.7647
   },
   {
     "player_name": "Ali Al-Hamadi",
@@ -1537,11 +1537,11 @@
   },
   {
     "player_name": "Kasey McAteer",
-    "sentiment_score": -0.6074
+    "sentiment_score": -0.9057
   },
   {
     "player_name": "Anis Mehmeti",
-    "sentiment_score": -0.7222
+    "sentiment_score": 0.4532
   },
   {
     "player_name": "Kayne van Oevelen",
@@ -1553,15 +1553,15 @@
   },
   {
     "player_name": "Kjell Scherpen",
-    "sentiment_score": 0.4189
+    "sentiment_score": 0.2978
   },
   {
     "player_name": "Florentino Ibrain Morris Lu\u00eds",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.8694
   },
   {
     "player_name": "Julio Enciso",
-    "sentiment_score": -0.1329
+    "sentiment_score": -0.2461
   },
   {
     "player_name": "Abdoul Ouattara",
@@ -1573,39 +1573,39 @@
   },
   {
     "player_name": "Exequiel Palacios",
-    "sentiment_score": 0.3118
+    "sentiment_score": 0.9504
   },
   {
     "player_name": "Zian Flemming",
-    "sentiment_score": 0.6461
+    "sentiment_score": 0.6153
   },
   {
     "player_name": "Harry Wilson",
-    "sentiment_score": -0.9994
+    "sentiment_score": 0.304
   },
   {
     "player_name": "Lucas Estella Perri",
-    "sentiment_score": -0.9546
+    "sentiment_score": -0.9435
   },
   {
     "player_name": "Jaka Bijol",
-    "sentiment_score": 0.9608
+    "sentiment_score": 0.9791
   },
   {
     "player_name": "Joe Rodon",
-    "sentiment_score": 0.486
+    "sentiment_score": -0.3255
   },
   {
     "player_name": "Jayden Bogle",
-    "sentiment_score": 0.5027
+    "sentiment_score": 0.4721
   },
   {
     "player_name": "Gabriel Gudmundsson",
-    "sentiment_score": 0.9993
+    "sentiment_score": 0.0643
   },
   {
     "player_name": "James Justin",
-    "sentiment_score": 0.7065
+    "sentiment_score": 0.7064
   },
   {
     "player_name": "Sebastiaan Bornauw",
@@ -1613,23 +1613,23 @@
   },
   {
     "player_name": "Tarik Muharemovi\u0107",
-    "sentiment_score": 0.0084
+    "sentiment_score": 0.0756
   },
   {
     "player_name": "Anton Stach",
-    "sentiment_score": 0.5065
+    "sentiment_score": 0.0509
   },
   {
     "player_name": "Noah Okafor",
-    "sentiment_score": 0.6955
+    "sentiment_score": 0.4164
   },
   {
     "player_name": "Brenden Aaronson",
-    "sentiment_score": 0.6736
+    "sentiment_score": 0.5825
   },
   {
     "player_name": "Ethan Ampadu",
-    "sentiment_score": 0.5122
+    "sentiment_score": -0.0857
   },
   {
     "player_name": "Sean Longstaff",
@@ -1645,11 +1645,11 @@
   },
   {
     "player_name": "Daniel James",
-    "sentiment_score": 0.4542
+    "sentiment_score": 0.7066
   },
   {
     "player_name": "Ilia Gruev",
-    "sentiment_score": -0.1552
+    "sentiment_score": -0.0153
   },
   {
     "player_name": "Tanaka Ao",
@@ -1657,15 +1657,15 @@
   },
   {
     "player_name": "Dominic Calvert-Lewin",
-    "sentiment_score": 0.6729
+    "sentiment_score": 0.6109
   },
   {
     "player_name": "Lukas Nmecha",
-    "sentiment_score": 0.873
+    "sentiment_score": -0.1812
   },
   {
     "player_name": "Jo\u00ebl Piroe",
-    "sentiment_score": 0.0723
+    "sentiment_score": -0.0552
   },
   {
     "player_name": "Mateo Joseph Fern\u00e1ndez-Regatillo",
@@ -1673,15 +1673,15 @@
   },
   {
     "player_name": "James Trafford",
-    "sentiment_score": 0.383
+    "sentiment_score": 0.5235
   },
   {
     "player_name": "Nico Elvedi",
-    "sentiment_score": 0.243
+    "sentiment_score": 0.364
   },
   {
     "player_name": "Jayden Lienou",
-    "sentiment_score": 0.9867
+    "sentiment_score": -0.1549
   },
   {
     "player_name": "Alfie Cresswell",
@@ -1689,19 +1689,19 @@
   },
   {
     "player_name": "Alex Cairns",
-    "sentiment_score": 0.9949
+    "sentiment_score": 0.9868
   },
   {
     "player_name": "Michael Zetterer",
-    "sentiment_score": 0.1431
+    "sentiment_score": 0.2439
   },
   {
     "player_name": "Melvin Bard",
-    "sentiment_score": -0.8657
+    "sentiment_score": -0.0761
   },
   {
     "player_name": "Jean-Matt\u00e9o Bahoya",
-    "sentiment_score": 0.4316
+    "sentiment_score": -0.3076
   },
   {
     "player_name": "Alisson Becker",
@@ -1709,11 +1709,11 @@
   },
   {
     "player_name": "Giorgi Mamardashvili",
-    "sentiment_score": 0.283
+    "sentiment_score": 0.3657
   },
   {
     "player_name": "Freddie Woodman",
-    "sentiment_score": 0.9923
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Armin Pecsi",
@@ -1729,39 +1729,39 @@
   },
   {
     "player_name": "Virgil van Dijk",
-    "sentiment_score": 0.7764
+    "sentiment_score": 0.6425
   },
   {
     "player_name": "Jeremie Frimpong",
-    "sentiment_score": -0.1538
+    "sentiment_score": 0.3021
   },
   {
     "player_name": "Milos Kerkez",
-    "sentiment_score": -0.0324
+    "sentiment_score": 0.5972
   },
   {
     "player_name": "Joe Gomez",
-    "sentiment_score": 0.2539
+    "sentiment_score": 0.0188
   },
   {
     "player_name": "Conor Bradley",
-    "sentiment_score": -0.0857
+    "sentiment_score": 0.0808
   },
   {
     "player_name": "Wellity Lucky",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.3245
   },
   {
     "player_name": "Jeremy Jacquet",
-    "sentiment_score": 0.388
+    "sentiment_score": 0.7615
   },
   {
     "player_name": "Giovanni Leoni",
-    "sentiment_score": -0.1806
+    "sentiment_score": -0.287
   },
   {
     "player_name": "Kostas Tsimikas",
-    "sentiment_score": 0.7669
+    "sentiment_score": 0.7784
   },
   {
     "player_name": "Calvin Ramsay",
@@ -1769,31 +1769,31 @@
   },
   {
     "player_name": "Florian Wirtz",
-    "sentiment_score": -0.3785
+    "sentiment_score": -0.2453
   },
   {
     "player_name": "Cody Gakpo",
-    "sentiment_score": -0.22
+    "sentiment_score": -0.0764
   },
   {
     "player_name": "Dominik Szoboszlai",
-    "sentiment_score": -0.0263
+    "sentiment_score": 0.6411
   },
   {
     "player_name": "Rio Ngumoha",
-    "sentiment_score": -0.0513
+    "sentiment_score": 0.2329
   },
   {
     "player_name": "Federico Chiesa",
-    "sentiment_score": 0.2815
+    "sentiment_score": 0.5514
   },
   {
     "player_name": "Ryan Gravenberch",
-    "sentiment_score": 0.0673
+    "sentiment_score": -0.3994
   },
   {
     "player_name": "Alexis Mac Allister",
-    "sentiment_score": -0.0666
+    "sentiment_score": 0.4553
   },
   {
     "player_name": "Curtis Jones",
@@ -1805,71 +1805,71 @@
   },
   {
     "player_name": "Trey Nyoni",
-    "sentiment_score": 0.2696
+    "sentiment_score": 0.6087
   },
   {
     "player_name": "Stefan Baj\u010deti\u0107 Maquieira",
-    "sentiment_score": -0.9525
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Victor Munoz",
-    "sentiment_score": -0.0954
+    "sentiment_score": 0.4597
   },
   {
     "player_name": "James McConnell",
-    "sentiment_score": 0.9847
+    "sentiment_score": 0.9948
   },
   {
     "player_name": "Alexander Isak",
-    "sentiment_score": -0.1634
+    "sentiment_score": -0.1039
   },
   {
     "player_name": "Hugo Ekitik\u00e9",
-    "sentiment_score": -0.0953
+    "sentiment_score": 0.1026
   },
   {
     "player_name": "Lewis Koumas",
-    "sentiment_score": 0.5033
+    "sentiment_score": 0.432
   },
   {
     "player_name": "Jayden Danns",
-    "sentiment_score": 0.4085
+    "sentiment_score": 0.8729
   },
   {
     "player_name": "Harvey Elliott",
-    "sentiment_score": -0.0905
+    "sentiment_score": -0.9892
   },
   {
     "player_name": "Ronald Araujo",
-    "sentiment_score": 0.5081
+    "sentiment_score": 0.2339
   },
   {
     "player_name": "Bradley Barcola",
-    "sentiment_score": -0.4217
+    "sentiment_score": -0.1431
   },
   {
     "player_name": "Enzo Fern\u00e1ndez",
-    "sentiment_score": 0.0741
+    "sentiment_score": 0.3366
   },
   {
     "player_name": "Iliman Ndiaye",
-    "sentiment_score": 0.4038
+    "sentiment_score": 0.0287
   },
   {
     "player_name": "Gianluigi Donnarumma",
-    "sentiment_score": 0.0599
+    "sentiment_score": 0.4213
   },
   {
     "player_name": "Marcus Bettinelli",
-    "sentiment_score": -0.2572
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Nico O'Reilly",
-    "sentiment_score": 0.2266
+    "sentiment_score": 0.1586
   },
   {
     "player_name": "Marc Gu\u00e9hi",
-    "sentiment_score": 0.7067
+    "sentiment_score": 0.9943
   },
   {
     "player_name": "Matheus Nunes",
@@ -1877,23 +1877,23 @@
   },
   {
     "player_name": "R\u00faben dos Santos Gato Alves Dias",
-    "sentiment_score": -0.8022
+    "sentiment_score": -0.8473
   },
   {
     "player_name": "Jo\u0161ko Gvardiol",
-    "sentiment_score": 0.2462
+    "sentiment_score": 0.7193
   },
   {
     "player_name": "Rayan A\u00eft-Nouri",
-    "sentiment_score": -0.5165
+    "sentiment_score": -0.5695
   },
   {
     "player_name": "Abdukodir Khusanov",
-    "sentiment_score": 0.6449
+    "sentiment_score": 0.6936
   },
   {
     "player_name": "Max Alleyne",
-    "sentiment_score": 0.4082
+    "sentiment_score": 0.4483
   },
   {
     "player_name": "Rico Lewis",
@@ -1901,23 +1901,23 @@
   },
   {
     "player_name": "Vitor de Oliveira Nunes dos Reis",
-    "sentiment_score": -0.5016
+    "sentiment_score": -0.4923
   },
   {
     "player_name": "Antoine Semenyo",
-    "sentiment_score": 0.6001
+    "sentiment_score": 0.6394
   },
   {
     "player_name": "Phil Foden",
-    "sentiment_score": -0.3075
+    "sentiment_score": -0.2122
   },
   {
     "player_name": "Rayan Cherki",
-    "sentiment_score": -0.5371
+    "sentiment_score": -0.288
   },
   {
     "player_name": "J\u00e9r\u00e9my Doku",
-    "sentiment_score": -0.1077
+    "sentiment_score": -0.4006
   },
   {
     "player_name": "Rodrigo 'Rodri' Hernandez Cascante",
@@ -1925,7 +1925,7 @@
   },
   {
     "player_name": "Tijjani Reijnders",
-    "sentiment_score": 0.9317
+    "sentiment_score": 0.9097
   },
   {
     "player_name": "Mateo Kova\u010di\u0107",
@@ -1937,11 +1937,11 @@
   },
   {
     "player_name": "Kalvin Phillips",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.993
   },
   {
     "player_name": "Divine Mukasa",
-    "sentiment_score": 0.2596
+    "sentiment_score": 0.2985
   },
   {
     "player_name": "Jeremy Monga",
@@ -1949,23 +1949,23 @@
   },
   {
     "player_name": "Erling Haaland",
-    "sentiment_score": -0.2853
+    "sentiment_score": -0.1637
   },
   {
     "player_name": "Elliot Anderson",
-    "sentiment_score": 0.6024
+    "sentiment_score": 0.7212
   },
   {
     "player_name": "Ger\u00f3nimo Rulli",
-    "sentiment_score": -0.9316
+    "sentiment_score": -0.3987
   },
   {
     "player_name": "Ayyoub Bouaddi",
-    "sentiment_score": 0.3147
+    "sentiment_score": 0.181
   },
   {
     "player_name": "Ryan McAidoo",
-    "sentiment_score": 0.8103
+    "sentiment_score": 0.9788
   },
   {
     "player_name": "Kaden Braithwaite",
@@ -1973,19 +1973,19 @@
   },
   {
     "player_name": "Allan Andrade Elias",
-    "sentiment_score": 0.992
+    "sentiment_score": 0.905
   },
   {
     "player_name": "Floyd Samba",
-    "sentiment_score": -0.696
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Youri Tielemans",
-    "sentiment_score": -0.5099
+    "sentiment_score": -0.2152
   },
   {
     "player_name": "Carlos Baleba",
-    "sentiment_score": -0.0361
+    "sentiment_score": 0.069
   },
   {
     "player_name": "Andrey Nascimento dos Santos",
@@ -1997,39 +1997,39 @@
   },
   {
     "player_name": "Senne Lammens",
-    "sentiment_score": -0.4704
+    "sentiment_score": -0.7953
   },
   {
     "player_name": "Altay Bay\u0131nd\u0131r",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.9969
   },
   {
     "player_name": "Tom Heaton",
-    "sentiment_score": 0.4319
+    "sentiment_score": 0.2215
   },
   {
     "player_name": "Patrick Dorgu",
-    "sentiment_score": -0.3908
+    "sentiment_score": -0.4096
   },
   {
     "player_name": "Matthijs de Ligt",
-    "sentiment_score": -0.1701
+    "sentiment_score": -0.0955
   },
   {
     "player_name": "Diogo Dalot Teixeira",
-    "sentiment_score": -0.1174
+    "sentiment_score": -0.1576
   },
   {
     "player_name": "Harry Maguire",
-    "sentiment_score": 0.2329
+    "sentiment_score": 0.2171
   },
   {
     "player_name": "Lisandro Mart\u00ednez",
-    "sentiment_score": -0.2633
+    "sentiment_score": -0.3421
   },
   {
     "player_name": "Leny Yoro",
-    "sentiment_score": 0.7407
+    "sentiment_score": 0.3344
   },
   {
     "player_name": "Ayden Heaven",
@@ -2037,15 +2037,15 @@
   },
   {
     "player_name": "Noussair Mazraoui",
-    "sentiment_score": 0.9975
+    "sentiment_score": 0.9879
   },
   {
     "player_name": "Luke Shaw",
-    "sentiment_score": -0.2736
+    "sentiment_score": -0.1348
   },
   {
     "player_name": "Harry Amass",
-    "sentiment_score": 0.8382
+    "sentiment_score": -0.0057
   },
   {
     "player_name": "Tyler Fredricson",
@@ -2057,31 +2057,31 @@
   },
   {
     "player_name": "Bryan Mbeumo",
-    "sentiment_score": -0.5144
+    "sentiment_score": 0.4683
   },
   {
     "player_name": "Matheus Santos Carneiro da Cunha",
-    "sentiment_score": -0.3185
+    "sentiment_score": -0.3469
   },
   {
     "player_name": "Marcus Rashford",
-    "sentiment_score": -0.1235
+    "sentiment_score": -0.5868
   },
   {
     "player_name": "Mason Mount",
-    "sentiment_score": -0.4621
+    "sentiment_score": -0.7502
   },
   {
     "player_name": "Amad Diallo",
-    "sentiment_score": -0.7337
+    "sentiment_score": -0.6691
   },
   {
     "player_name": "Kobbie Mainoo",
-    "sentiment_score": 0.2203
+    "sentiment_score": 0.4028
   },
   {
     "player_name": "Manuel Ugarte Ribeiro",
-    "sentiment_score": -0.9032
+    "sentiment_score": -0.2024
   },
   {
     "player_name": "Jack Fletcher",
@@ -2089,7 +2089,7 @@
   },
   {
     "player_name": "Shea Lacey",
-    "sentiment_score": 0.833
+    "sentiment_score": 0.8524
   },
   {
     "player_name": "Toby Collyer",
@@ -2101,23 +2101,23 @@
   },
   {
     "player_name": "Tyler Fletcher",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.9822
   },
   {
     "player_name": "Benjamin Sesko",
-    "sentiment_score": 0.3954
+    "sentiment_score": 0.3044
   },
   {
     "player_name": "Joshua Zirkzee",
-    "sentiment_score": -0.4371
+    "sentiment_score": -0.8918
   },
   {
     "player_name": "Chido Obi",
-    "sentiment_score": 0.9967
+    "sentiment_score": 0.9972
   },
   {
     "player_name": "Nico Gonz\u00e1lez Iglesias",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.9888
   },
   {
     "player_name": "Nick Pope",
@@ -2125,47 +2125,47 @@
   },
   {
     "player_name": "Mark Gillespie",
-    "sentiment_score": 0.3822
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Ewen Jaouen",
-    "sentiment_score": -0.246
+    "sentiment_score": -0.8658
   },
   {
     "player_name": "Malick Thiaw",
-    "sentiment_score": -0.7809
+    "sentiment_score": -0.2041
   },
   {
     "player_name": "Fabian Sch\u00e4r",
-    "sentiment_score": -0.1609
+    "sentiment_score": -0.0064
   },
   {
     "player_name": "Sven Botman",
-    "sentiment_score": -0.9666
+    "sentiment_score": -0.9665
   },
   {
     "player_name": "Dan Burn",
-    "sentiment_score": -0.3308
+    "sentiment_score": -0.5442
   },
   {
     "player_name": "Lewis Hall",
-    "sentiment_score": 0.4304
+    "sentiment_score": 0.4388
   },
   {
     "player_name": "Tino Livramento",
-    "sentiment_score": -0.3632
+    "sentiment_score": -0.1247
   },
   {
     "player_name": "Alex Murphy",
-    "sentiment_score": -0.6722
+    "sentiment_score": -0.9143
   },
   {
     "player_name": "Harvey Barnes",
-    "sentiment_score": -0.1231
+    "sentiment_score": -0.3267
   },
   {
     "player_name": "Anthony Elanga",
-    "sentiment_score": -0.0665
+    "sentiment_score": -0.0649
   },
   {
     "player_name": "Jacob Ramsey",
@@ -2185,27 +2185,27 @@
   },
   {
     "player_name": "Joe Willock",
-    "sentiment_score": 0.2597
+    "sentiment_score": 0.2344
   },
   {
     "player_name": "Bazoumana Tour\u00e9",
-    "sentiment_score": 0.4543
+    "sentiment_score": 0.6645
   },
   {
     "player_name": "Sean Steur",
-    "sentiment_score": 0.8887
+    "sentiment_score": 0.9426
   },
   {
     "player_name": "Nick Woltemade",
-    "sentiment_score": 0.4328
+    "sentiment_score": 0.109
   },
   {
     "player_name": "Yoane Wissa",
-    "sentiment_score": 0.3757
+    "sentiment_score": -0.1189
   },
   {
     "player_name": "William Osula",
-    "sentiment_score": -0.5667
+    "sentiment_score": -0.1468
   },
   {
     "player_name": "Sean Neave",
@@ -2213,15 +2213,15 @@
   },
   {
     "player_name": "Aladji Bamba",
-    "sentiment_score": -0.5359
+    "sentiment_score": 0.3648
   },
   {
     "player_name": "Luk\u00e1s Horn\u00edcek",
-    "sentiment_score": 0.7458
+    "sentiment_score": 0.6899
   },
   {
     "player_name": "Amar Dedic",
-    "sentiment_score": -0.4166
+    "sentiment_score": -0.4181
   },
   {
     "player_name": "Leo Shahar",
@@ -2229,23 +2229,23 @@
   },
   {
     "player_name": "Matias Fernandez-Pardo",
-    "sentiment_score": 0.1944
+    "sentiment_score": 0.1428
   },
   {
     "player_name": "Mason Miley",
-    "sentiment_score": 0.6818
+    "sentiment_score": 0.9547
   },
   {
     "player_name": "Liam Delap",
-    "sentiment_score": 0.8315
+    "sentiment_score": 0.5593
   },
   {
     "player_name": "Daniel Mu\u00f1oz Mej\u00eda",
-    "sentiment_score": 0.7005
+    "sentiment_score": 0.8766
   },
   {
     "player_name": "Matz Sels",
-    "sentiment_score": 0.5316
+    "sentiment_score": -0.3791
   },
   {
     "player_name": "John Victor Maciel Furtado",
@@ -2257,27 +2257,27 @@
   },
   {
     "player_name": "Felipe Rodrigues da Silva",
-    "sentiment_score": 0.7804
+    "sentiment_score": -0.4285
   },
   {
     "player_name": "Nikola Milenkovi\u0107",
-    "sentiment_score": 0.1335
+    "sentiment_score": 0.0377
   },
   {
     "player_name": "Murillo Costa dos Santos",
-    "sentiment_score": 0.8761
+    "sentiment_score": 0.8682
   },
   {
     "player_name": "Ola Aina",
-    "sentiment_score": 0.1978
+    "sentiment_score": 0.4881
   },
   {
     "player_name": "Jair Paula da Cunha Filho",
-    "sentiment_score": -0.2618
+    "sentiment_score": -0.4827
   },
   {
     "player_name": "Nicol\u00f2 Savona",
-    "sentiment_score": 0.1764
+    "sentiment_score": 0.196
   },
   {
     "player_name": "Omar Richards",
@@ -2293,23 +2293,23 @@
   },
   {
     "player_name": "Tyler Bindon",
-    "sentiment_score": 0.9455
+    "sentiment_score": 0.959
   },
   {
     "player_name": "Morgan Gibbs-White",
-    "sentiment_score": 0.3516
+    "sentiment_score": -0.0268
   },
   {
     "player_name": "Callum Hudson-Odoi",
-    "sentiment_score": 0.5125
+    "sentiment_score": 0.946
   },
   {
     "player_name": "Dan Ndoye",
-    "sentiment_score": -0.9635
+    "sentiment_score": -0.9598
   },
   {
     "player_name": "Omari Hutchinson",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.9984
   },
   {
     "player_name": "Dilane Bakwa",
@@ -2317,7 +2317,7 @@
   },
   {
     "player_name": "James McAtee",
-    "sentiment_score": -0.3358
+    "sentiment_score": -0.145
   },
   {
     "player_name": "Nicol\u00e1s Dom\u00ednguez",
@@ -2329,7 +2329,7 @@
   },
   {
     "player_name": "Ryan Yates",
-    "sentiment_score": 0.2851
+    "sentiment_score": -0.2808
   },
   {
     "player_name": "Chris Wood",
@@ -2337,7 +2337,7 @@
   },
   {
     "player_name": "Igor Jesus Maciel da Cruz",
-    "sentiment_score": 0.2589
+    "sentiment_score": 0.1555
   },
   {
     "player_name": "Arnaud Kalimuendo",
@@ -2345,11 +2345,11 @@
   },
   {
     "player_name": "Xaver Schlager",
-    "sentiment_score": -0.1272
+    "sentiment_score": -0.1299
   },
   {
     "player_name": "Ousmane Diomande",
-    "sentiment_score": -0.9616
+    "sentiment_score": -0.7742
   },
   {
     "player_name": "Steven Benda",
@@ -2357,7 +2357,7 @@
   },
   {
     "player_name": "Jan Paul van Hecke",
-    "sentiment_score": -0.9889
+    "sentiment_score": 0.0692
   },
   {
     "player_name": "Tosin Adarabioyo",
@@ -2365,19 +2365,19 @@
   },
   {
     "player_name": "Omar Marmoush",
-    "sentiment_score": -0.508
+    "sentiment_score": 0.298
   },
   {
     "player_name": "S\u00e1vio Moreira de Oliveira",
-    "sentiment_score": 0.4847
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Sandro Tonali",
-    "sentiment_score": 0.3122
+    "sentiment_score": 0.1035
   },
   {
     "player_name": "Guglielmo Vicario",
-    "sentiment_score": 0.0
+    "sentiment_score": -0.9726
   },
   {
     "player_name": "Brandon Austin",
@@ -2385,15 +2385,15 @@
   },
   {
     "player_name": "Anton\u00edn Kinsk\u00fd",
-    "sentiment_score": -0.9557
+    "sentiment_score": -0.9146
   },
   {
     "player_name": "Martin Dubravka",
-    "sentiment_score": 0.0107
+    "sentiment_score": -0.074
   },
   {
     "player_name": "Marcos Senesi Bar\u00f3n",
-    "sentiment_score": 0.2394
+    "sentiment_score": 0.8232
   },
   {
     "player_name": "Pedro Porro Sauceda",
@@ -2401,15 +2401,15 @@
   },
   {
     "player_name": "Cristian Romero",
-    "sentiment_score": -0.9797
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Andrew Robertson",
-    "sentiment_score": 0.5514
+    "sentiment_score": 0.5524
   },
   {
     "player_name": "Micky van de Ven",
-    "sentiment_score": -0.1229
+    "sentiment_score": 0.5443
   },
   {
     "player_name": "Djed Spence",
@@ -2417,19 +2417,19 @@
   },
   {
     "player_name": "Destiny Udogie",
-    "sentiment_score": 0.0477
+    "sentiment_score": -0.5439
   },
   {
     "player_name": "Ashley Phillips",
-    "sentiment_score": 0.561
+    "sentiment_score": 0.6373
   },
   {
     "player_name": "Ben Davies",
-    "sentiment_score": 0.3389
+    "sentiment_score": -0.8367
   },
   {
     "player_name": "Jun'ai Byfield",
-    "sentiment_score": 0.5004
+    "sentiment_score": 0.3468
   },
   {
     "player_name": "James Rowswell",
@@ -2441,7 +2441,7 @@
   },
   {
     "player_name": "Mohammed Kudus",
-    "sentiment_score": 0.5361
+    "sentiment_score": 0.6891
   },
   {
     "player_name": "Xavi Simons",
@@ -2449,19 +2449,19 @@
   },
   {
     "player_name": "Mathys Tel",
-    "sentiment_score": 0.0906
+    "sentiment_score": -0.3872
   },
   {
     "player_name": "James Maddison",
-    "sentiment_score": 0.3439
+    "sentiment_score": -0.1798
   },
   {
     "player_name": "Rodrigo Bentancur",
-    "sentiment_score": -0.2025
+    "sentiment_score": 0.1748
   },
   {
     "player_name": "Wilson Odobert",
-    "sentiment_score": 0.0942
+    "sentiment_score": 0.9989
   },
   {
     "player_name": "Pape Matar Sarr",
@@ -2469,23 +2469,23 @@
   },
   {
     "player_name": "Conor Gallagher",
-    "sentiment_score": 0.0
+    "sentiment_score": 0.9983
   },
   {
     "player_name": "Lucas Bergvall",
-    "sentiment_score": 0.4618
+    "sentiment_score": 0.3637
   },
   {
     "player_name": "Dejan Kulusevski",
-    "sentiment_score": -0.2219
+    "sentiment_score": -0.3446
   },
   {
     "player_name": "Archie Gray",
-    "sentiment_score": 0.3334
+    "sentiment_score": 0.9486
   },
   {
     "player_name": "Mikey Moore",
-    "sentiment_score": -0.502
+    "sentiment_score": -0.6164
   },
   {
     "player_name": "Callum Olusesi",
@@ -2493,15 +2493,15 @@
   },
   {
     "player_name": "Mateus Fernandes",
-    "sentiment_score": -0.229
+    "sentiment_score": -0.2962
   },
   {
     "player_name": "Dominic Solanke-Mitchell",
-    "sentiment_score": 0.0003
+    "sentiment_score": 0.0498
   },
   {
     "player_name": "Richarlison de Andrade",
-    "sentiment_score": -0.1075
+    "sentiment_score": -0.4747
   },
   {
     "player_name": "Dane Scarlett",
@@ -2509,19 +2509,19 @@
   },
   {
     "player_name": "Mykhailo Mudryk",
-    "sentiment_score": -0.2488
+    "sentiment_score": -0.7155
   },
   {
     "player_name": "Luca Williams-Barnett",
-    "sentiment_score": 0.3025
+    "sentiment_score": 0.3005
   },
   {
     "player_name": "Kevin Danso",
-    "sentiment_score": -0.9842
+    "sentiment_score": -0.8265
   },
   {
     "player_name": "Robin Roefs",
-    "sentiment_score": 0.1802
+    "sentiment_score": -0.5363
   },
   {
     "player_name": "Anthony Patterson",
@@ -2529,19 +2529,19 @@
   },
   {
     "player_name": "Melker Ellborg",
-    "sentiment_score": 0.2584
+    "sentiment_score": 0.4288
   },
   {
     "player_name": "Daniel Ballard",
-    "sentiment_score": 0.0873
+    "sentiment_score": -0.1837
   },
   {
     "player_name": "Nordi Mukiele",
-    "sentiment_score": -0.0786
+    "sentiment_score": -0.5443
   },
   {
     "player_name": "Trai Hume",
-    "sentiment_score": -0.8996
+    "sentiment_score": -0.9248
   },
   {
     "player_name": "Omar Alderete",
@@ -2549,7 +2549,7 @@
   },
   {
     "player_name": "Reinildo Mandava",
-    "sentiment_score": -0.2393
+    "sentiment_score": -0.1965
   },
   {
     "player_name": "Jenson Seelt",
@@ -2565,59 +2565,59 @@
   },
   {
     "player_name": "Arthur Masuaku",
-    "sentiment_score": -0.9603
+    "sentiment_score": -0.9425
   },
   {
     "player_name": "Thomas Meunier",
-    "sentiment_score": -0.6162
+    "sentiment_score": -0.6274
   },
   {
     "player_name": "Enzo Le F\u00e9e",
-    "sentiment_score": -0.1264
+    "sentiment_score": -0.3224
   },
   {
     "player_name": "Habib Diarra",
-    "sentiment_score": -0.5825
+    "sentiment_score": -0.4767
   },
   {
     "player_name": "Granit Xhaka",
-    "sentiment_score": -0.0804
+    "sentiment_score": 0.217
   },
   {
     "player_name": "Noah Sadiki",
-    "sentiment_score": 0.5254
+    "sentiment_score": 0.9116
   },
   {
     "player_name": "Simon Adingra",
-    "sentiment_score": 0.9767
+    "sentiment_score": 0.8201
   },
   {
     "player_name": "Romaine Mundle",
-    "sentiment_score": -0.1364
+    "sentiment_score": -0.1641
   },
   {
     "player_name": "Chris Rigg",
-    "sentiment_score": 0.9557
+    "sentiment_score": 0.9412
   },
   {
     "player_name": "Chemsdine Talbi",
-    "sentiment_score": 0.478
+    "sentiment_score": 0.5612
   },
   {
     "player_name": "Djiamgone Jocelin Ta Bi",
-    "sentiment_score": 0.9499
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Nilson Angulo",
-    "sentiment_score": -0.4298
+    "sentiment_score": 0.0
   },
   {
     "player_name": "Brian Brobbey",
-    "sentiment_score": -0.2928
+    "sentiment_score": -0.1693
   },
   {
     "player_name": "Wilson Isidor",
-    "sentiment_score": -0.4746
+    "sentiment_score": -0.831
   },
   {
     "player_name": "Dayann M\u00e9thalie",
@@ -2625,14 +2625,14 @@
   },
   {
     "player_name": "Jules Ahoka",
-    "sentiment_score": 0.2346
+    "sentiment_score": -0.3112
   },
   {
     "player_name": "Malick Fofana",
-    "sentiment_score": -0.0669
+    "sentiment_score": 0.1688
   },
   {
     "player_name": "Juan Angulo",
-    "sentiment_score": 0.4528
+    "sentiment_score": 0.0
   }
 ]
