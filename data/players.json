@@ -242,7 +242,7 @@
     "total_points": 20,
     "form": 4.2,
     "points_per_game": 4.0,
-    "selected_by_percent": 11.8,
+    "selected_by_percent": 11.7,
     "status": "d",
     "chance_of_playing_next_round": 75
   },
@@ -257,7 +257,7 @@
     "team_id": 1,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 6.3,
+    "now_cost": 6.2,
     "total_points": 4,
     "form": 0.8,
     "points_per_game": 1.0,
@@ -470,7 +470,7 @@
     "total_points": 19,
     "form": 3.2,
     "points_per_game": 3.8,
-    "selected_by_percent": 8.5,
+    "selected_by_percent": 8.4,
     "status": "d",
     "chance_of_playing_next_round": 75
   },
@@ -546,7 +546,7 @@
     "total_points": 16,
     "form": 2.5,
     "points_per_game": 3.2,
-    "selected_by_percent": 12.3,
+    "selected_by_percent": 12.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -603,7 +603,7 @@
     "total_points": 6,
     "form": 1.8,
     "points_per_game": 1.5,
-    "selected_by_percent": 4.9,
+    "selected_by_percent": 4.8,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -2009,7 +2009,7 @@
     "total_points": 39,
     "form": 9.0,
     "points_per_game": 7.8,
-    "selected_by_percent": 11.1,
+    "selected_by_percent": 11.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -2423,11 +2423,11 @@
     "team_id": 5,
     "position": "DEF",
     "element_type": 2,
-    "now_cost": 4.9,
+    "now_cost": 5.0,
     "total_points": 38,
     "form": 5.2,
     "points_per_game": 7.6,
-    "selected_by_percent": 27.5,
+    "selected_by_percent": 27.6,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -2598,7 +2598,7 @@
     "total_points": 47,
     "form": 11.2,
     "points_per_game": 9.4,
-    "selected_by_percent": 28.3,
+    "selected_by_percent": 28.5,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -2784,7 +2784,7 @@
     "team_id": 5,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 4.9,
+    "now_cost": 4.8,
     "total_points": 1,
     "form": 0.0,
     "points_per_game": 1.0,
@@ -2826,7 +2826,7 @@
     "total_points": 28,
     "form": 6.8,
     "points_per_game": 5.6,
-    "selected_by_percent": 3.8,
+    "selected_by_percent": 3.9,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -3358,7 +3358,7 @@
     "total_points": 28,
     "form": 3.8,
     "points_per_game": 5.6,
-    "selected_by_percent": 25.9,
+    "selected_by_percent": 25.8,
     "status": "d",
     "chance_of_playing_next_round": 75
   },
@@ -3416,8 +3416,8 @@
     "form": 0.0,
     "points_per_game": 0.0,
     "selected_by_percent": 0.0,
-    "status": "a",
-    "chance_of_playing_next_round": 100
+    "status": "d",
+    "chance_of_playing_next_round": 75
   },
   {
     "id": 159,
@@ -3434,7 +3434,7 @@
     "total_points": 1,
     "form": 0.2,
     "points_per_game": 1.0,
-    "selected_by_percent": 1.1,
+    "selected_by_percent": 1.0,
     "status": "d",
     "chance_of_playing_next_round": 50
   },
@@ -3510,7 +3510,7 @@
     "total_points": 33,
     "form": 5.5,
     "points_per_game": 8.2,
-    "selected_by_percent": 65.5,
+    "selected_by_percent": 65.4,
     "status": "d",
     "chance_of_playing_next_round": 75
   },
@@ -4650,7 +4650,7 @@
     "total_points": 2,
     "form": 0.5,
     "points_per_game": 1.0,
-    "selected_by_percent": 7.4,
+    "selected_by_percent": 7.3,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -4988,7 +4988,7 @@
     "team_id": 8,
     "position": "MID",
     "element_type": 3,
-    "now_cost": 5.0,
+    "now_cost": 4.9,
     "total_points": 2,
     "form": 0.5,
     "points_per_game": 1.0,
@@ -5182,7 +5182,7 @@
     "total_points": 43,
     "form": 9.2,
     "points_per_game": 8.6,
-    "selected_by_percent": 16.1,
+    "selected_by_percent": 16.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -5524,7 +5524,7 @@
     "total_points": 21,
     "form": 7.0,
     "points_per_game": 7.0,
-    "selected_by_percent": 1.3,
+    "selected_by_percent": 1.4,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -5619,7 +5619,7 @@
     "total_points": 3,
     "form": 0.8,
     "points_per_game": 1.0,
-    "selected_by_percent": 0.1,
+    "selected_by_percent": 0.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -6075,7 +6075,7 @@
     "total_points": 12,
     "form": 4.0,
     "points_per_game": 6.0,
-    "selected_by_percent": 0.0,
+    "selected_by_percent": 0.1,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -7956,7 +7956,7 @@
     "total_points": 22,
     "form": 5.2,
     "points_per_game": 4.4,
-    "selected_by_percent": 24.9,
+    "selected_by_percent": 24.8,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -8488,7 +8488,7 @@
     "total_points": 18,
     "form": 4.0,
     "points_per_game": 3.6,
-    "selected_by_percent": 5.8,
+    "selected_by_percent": 5.7,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -8526,7 +8526,7 @@
     "total_points": 20,
     "form": 3.0,
     "points_per_game": 4.0,
-    "selected_by_percent": 33.0,
+    "selected_by_percent": 32.9,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -8963,7 +8963,7 @@
     "total_points": 30,
     "form": 5.0,
     "points_per_game": 6.0,
-    "selected_by_percent": 18.3,
+    "selected_by_percent": 18.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -9134,7 +9134,7 @@
     "total_points": 33,
     "form": 7.8,
     "points_per_game": 6.6,
-    "selected_by_percent": 15.5,
+    "selected_by_percent": 15.4,
     "status": "d",
     "chance_of_playing_next_round": 75
   },
@@ -9343,7 +9343,7 @@
     "total_points": 39,
     "form": 9.2,
     "points_per_game": 7.8,
-    "selected_by_percent": 73.7,
+    "selected_by_percent": 73.8,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -9571,7 +9571,7 @@
     "total_points": 11,
     "form": 2.5,
     "points_per_game": 2.2,
-    "selected_by_percent": 10.0,
+    "selected_by_percent": 9.9,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -9875,7 +9875,7 @@
     "total_points": 26,
     "form": 6.0,
     "points_per_game": 5.2,
-    "selected_by_percent": 5.7,
+    "selected_by_percent": 5.8,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -10293,7 +10293,7 @@
     "total_points": 31,
     "form": 7.0,
     "points_per_game": 6.2,
-    "selected_by_percent": 17.1,
+    "selected_by_percent": 17.2,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -10350,7 +10350,7 @@
     "total_points": 28,
     "form": 6.5,
     "points_per_game": 5.6,
-    "selected_by_percent": 5.5,
+    "selected_by_percent": 5.6,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -11490,7 +11490,7 @@
     "total_points": 18,
     "form": 4.0,
     "points_per_game": 3.6,
-    "selected_by_percent": 17.4,
+    "selected_by_percent": 17.3,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -11509,7 +11509,7 @@
     "total_points": 0,
     "form": 0.0,
     "points_per_game": 0.0,
-    "selected_by_percent": 17.2,
+    "selected_by_percent": 17.1,
     "status": "a",
     "chance_of_playing_next_round": 100
   },
@@ -12194,8 +12194,8 @@
     "form": 3.5,
     "points_per_game": 2.8,
     "selected_by_percent": 2.5,
-    "status": "a",
-    "chance_of_playing_next_round": 100
+    "status": "d",
+    "chance_of_playing_next_round": 75
   },
   {
     "id": 533,
